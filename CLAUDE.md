@@ -66,6 +66,7 @@
 - 产物**绝不包含** `installed` / `enabled` 等 per-user 状态（那是 Aleph 本地的）。
 - `schema_version` 变更 = 破坏性变更，必须与 Aleph 侧 `HubCatalogManifest` / `HubCatalogEntry` 同步。
 - 传输支持 `ETag` / `content_hash`，让 client "未变则跳过"。
+- **开源署名（强制 · P-Provenance）**：每条 entry 必须填 `repo_url`（真实上游作者仓库，通常 GitHub）。**无法解析上游的条目应排除或显式标记，绝不掩盖出处**——这是本项目存在的开源精神底线。`manifest.name` 作为该 hub 的显示名（Aleph 侧渲染成 `via Aleph Hub` badge）。ClawHub 等其它 hub 同理：标注自己是来源，同时保留上游 GitHub 链接。
 
 ## 待实施 (Roadmap — 尚未开始)
 
