@@ -5,7 +5,7 @@ import { trustTier } from "@/scripts/pipeline/trust";
 import { enrich } from "@/scripts/pipeline/enrich";
 import { buildArtifacts } from "@/scripts/pipeline/emit";
 import { CONFIG } from "@/scripts/pipeline/config";
-import type { GitHubApi, LlmClient, RegistryClient, Http, Clock, CacheStore } from "@/scripts/pipeline/ports";
+import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, CacheStore } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
 import type { Candidate, FinalEntry, CuratedEntry, BuildReport } from "@/scripts/pipeline/model";
 
@@ -14,7 +14,7 @@ export function contentHashReadme(readme: string): string {
 }
 
 export interface RunPorts {
-  sources: Source[]; gh: GitHubApi; llm: LlmClient; registry: RegistryClient; http: Http; clock: Clock;
+  sources: Source[]; gh: GitHubApi; curStore: CurationStore; registry: RegistryClient; http: Http; clock: Clock;
   officialOrgs: Set<string>; history: Record<string, number[]>; prevContractCount: number; cache: CacheStore;
 }
 
@@ -57,8 +57,11 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
         entry = cached.entry;                               // README unchanged → reuse curation
       } else if (curatedThisRun < CONFIG.MAX_REPOS_CURATED) {
         curatedThisRun++;
-        entry = await curate({ ...cand, raw: { ...cand.raw, readme } }, got.meta,
-          { llm: ports.llm, registry: ports.registry, gh: ports.gh });
+        const record = ports.curStore.get(cand.full_name);
+        if (record) {
+          entry = await curate({ ...cand, raw: { ...cand.raw, readme } }, got.meta, record,
+            { registry: ports.registry, gh: ports.gh });
+        }
       } else if (cached) {
         entry = cached.entry;                               // over budget → keep prior entry (no half-built artifact)
       } else {

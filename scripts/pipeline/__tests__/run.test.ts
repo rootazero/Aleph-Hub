@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { run } from "@/scripts/pipeline/run";
-import type { GitHubApi, LlmClient, RegistryClient, Http, Clock, RepoMeta, CacheStore } from "@/scripts/pipeline/ports";
+import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, RepoMeta, CacheStore } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
 
 const emptyCache: CacheStore = { get: () => undefined, set: () => {}, entries: () => ({}), prevPerSource: () => ({}), setPerSource: () => {} };
@@ -12,7 +12,7 @@ const gh: GitHubApi = {
   getRepo: async (fn) => ({ meta: meta(fn), etag: "e", notModified: false }),
 };
 const source = (urls: string[]): Source => ({ id: "github", fetch: async () => urls.map((u) => ({ repo_url: u, via: `github:${u.split("/")[3]}`, raw: { full_name: u.replace("https://github.com/", "") } })) });
-const llm: LlmClient = { curate: async (i) => ({ name: i.full_name.split("/")[1], kind: "mcp", category: "developer", tags: ["a"], description_en: "A tool.", description_zh: "工具。", long_en: "Long.", long_zh: "长。", install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。" }) };
+const curStore: CurationStore = { get: (fn: string) => ({ full_name: fn, name: fn.split("/")[1], kind: "mcp", category: "developer", tags: ["a"], description_en: "A tool.", description_zh: "工具。", long_en: "Long.", long_zh: "长。", install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。" }) };
 const registry: RegistryClient = { npmPackage: async () => ({ exists: true, repository: null }), pypiPackage: async () => ({ exists: true }) };
 const http: Http = { getText: async () => "" };
 const clock: Clock = { nowIso: () => "2026-06-20T00:00:00Z" };
@@ -20,7 +20,7 @@ const clock: Clock = { nowIso: () => "2026-06-20T00:00:00Z" };
 describe("run (integration, mocked ports)", () => {
   it("produces validated artifacts for 8 repos with a first-run (null trend)", async () => {
     const urls = Array.from({ length: 8 }, (_, i) => `https://github.com/acme/foo${i}`);
-    const res = await run({ sources: [source(urls)], gh, llm, registry, http, clock,
+    const res = await run({ sources: [source(urls)], gh, curStore, registry, http, clock,
       officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache });
     expect(res.report.emitted).toBe(8);
     expect((res.catalog as any).entries).toHaveLength(8);
