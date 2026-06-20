@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  ::selection { background: #C9501A; color: #fff; }
+  input, textarea, select, button { font-family: inherit; }
+  input::placeholder, textarea::placeholder { color: var(--taupe); }
+</style>
+</helmet>
+<div style="{{ rootStyle }}">
+
+  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 48px;background:var(--bg);border-bottom:1px solid var(--hair)">
+    <div style="display:flex;align-items:center;gap:12px;cursor:pointer;flex:none" onClick="{{ goHome }}">
+      <span style="font-family:'Cormorant Garamond',serif;font-size:30px;line-height:1;color:var(--orange)">ℵ</span>
+      <span style="font-size:13px;letter-spacing:.30em;font-weight:600;white-space:nowrap">ALEPH HUB</span>
+    </div>
+    <nav style="display:flex;gap:26px">
+      <sc-for list="{{ navCats }}" as="c" hint-placeholder-count="5">
+        <span style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);cursor:pointer;white-space:nowrap;transition:color .15s" style-hover="color:var(--orange)" onClick="{{ c.open }}">{{ c.name }}</span>
+      </sc-for>
+    </nav>
+    <div style="display:flex;align-items:center;gap:16px;flex:none">
+      <div style="display:flex;align-items:center;gap:5px;font-size:11px;letter-spacing:.06em;font-weight:600">
+        <span style="{{ zhStyle }}" onClick="{{ setZh }}">中</span><span style="color:var(--taupe)">/</span><span style="{{ enStyle }}" onClick="{{ setEn }}">EN</span>
+      </div>
+      <span style="font-size:16px;color:var(--ink-soft);cursor:pointer;line-height:1;transition:color .15s" style-hover="color:var(--orange)" onClick="{{ toggleTheme }}">{{ themeIcon }}</span>
+      <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--bg);background:var(--ink);padding:9px 18px;border-radius:2px;cursor:pointer;white-space:nowrap;transition:opacity .15s" style-hover="opacity:.85" onClick="{{ goSubmit }}">{{ t.submit }}</span>
+    </div>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <main>
+    <section style="max-width:1480px;margin:0 auto;padding:52px 48px 40px;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center">
+      <div>
+        <div style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--orange);margin-bottom:22px;font-weight:600">{{ t.kicker }}</div>
+        <h1 style="font-family:'Cormorant Garamond','Noto Serif SC',serif;font-weight:500;font-size:70px;line-height:1.02;letter-spacing:-.015em;margin:0 0 24px">{{ t.heroA }}<br><span style="font-style:italic;color:var(--orange)">{{ t.heroEm }}</span>{{ t.heroB }}</h1>
+        <p style="font-size:17px;line-height:1.62;color:var(--ink-soft);max-width:46ch;margin:0 0 32px">{{ t.heroSub }}</p>
+        <div style="display:flex;gap:12px">
+          <span style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--bg);background:var(--ink);padding:14px 28px;border-radius:2px;cursor:pointer;transition:opacity .15s" style-hover="opacity:.85" onClick="{{ openAll }}">{{ t.ctaExplore }}</span>
+          <span style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--ink);border:1px solid var(--hair-strong);padding:14px 28px;border-radius:2px;cursor:pointer;transition:all .15s" style-hover="border-color:var(--orange);color:var(--orange)" onClick="{{ openAll }}">{{ t.ctaAll }}</span>
+        </div>
+      </div>
+      <div style="background:var(--panel);border:1px solid var(--hair);border-radius:3px;overflow:hidden;cursor:pointer;box-shadow:0 12px 40px rgba(36,28,22,.10);transition:transform .2s, box-shadow .2s" style-hover="transform:translateY(-3px);box-shadow:0 18px 50px rgba(36,28,22,.16)" onClick="{{ pick.open }}">
+        <div style="height:236px;background:{{ pick.coverColor }};display:flex;align-items:center;justify-content:center;position:relative">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:140px;color:rgba(255,255,255,.92);line-height:1">{{ pick.mono }}</span>
+          <span style="position:absolute;top:16px;left:16px;font-size:10px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:{{ pick.coverColor }};background:#fff;padding:5px 11px;border-radius:2px">{{ t.editorPick }}</span>
+        </div>
+        <div style="padding:22px 24px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--orange);font-weight:600">{{ pick.typeLabel }}</span><span style="display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink-soft)"><sc-if value="{{ pick.live }}" hint-placeholder-val="{{ false }}"><span style="color:var(--green);font-size:8px" title="live from GitHub">●</span></sc-if>★ {{ pick.stars }}</span></div>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;margin:0 0 8px">{{ pick.name }}</h3>
+          <p style="font-size:14.5px;line-height:1.55;color:var(--ink-soft);margin:0 0 16px">{{ pick.desc }}</p>
+          <div style="display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--ink);background:var(--chip);padding:11px 14px;border-radius:2px"><span style="color:var(--orange)">$</span><span style="flex:1">{{ pick.install }}</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="max-width:1480px;margin:0 auto;padding:0 48px">
+      <div style="display:flex;gap:0;border-top:1px solid var(--hair-strong);border-bottom:1px solid var(--hair)">
+        <div style="flex:1;padding:18px 0;display:flex;align-items:baseline;gap:10px"><span style="font-family:'Cormorant Garamond',serif;font-size:28px">622</span><span style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)">{{ t.stProjects }}</span></div>
+        <div style="flex:1;padding:18px 0;display:flex;align-items:baseline;gap:10px;border-left:1px solid var(--hair);padding-left:28px"><span style="font-family:'Cormorant Garamond',serif;font-size:28px">12</span><span style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)">{{ t.stCats }}</span></div>
+        <div style="flex:1;padding:18px 0;display:flex;align-items:baseline;gap:10px;border-left:1px solid var(--hair);padding-left:28px"><span style="font-family:'Cormorant Garamond',serif;font-size:28px">{{ t.stDailyN }}</span><span style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)">{{ t.stSync }}</span></div>
+      </div>
+    </section>
+
+    <section style="max-width:1480px;margin:0 auto;padding:48px 48px 8px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--hair-strong);padding-bottom:11px;margin-bottom:2px">
+        <span style="font-size:11px;letter-spacing:.20em;text-transform:uppercase;color:var(--ink-soft);font-weight:600">{{ t.indexTitle }}</span>
+        <span style="font-size:11px;letter-spacing:.10em;color:var(--taupe)">{{ t.browseByCat }}</span>
+      </div>
+      <sc-for list="{{ idxCats }}" as="c" hint-placeholder-count="5">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--hair);cursor:pointer;transition:padding-left .18s" style-hover="padding-left:8px" onClick="{{ c.open }}">
+          <span style="display:flex;gap:22px;align-items:baseline;min-width:0"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--orange)">{{ c.num }}</span><span style="font-family:'Cormorant Garamond','Noto Serif SC',serif;font-size:30px">{{ c.name }}</span><span style="font-size:13px;color:var(--taupe)">{{ c.tag }}</span></span>
+          <span style="display:flex;align-items:center;gap:18px;flex:none"><span style="font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink-soft)">{{ c.count }}</span><span style="color:var(--orange);font-size:16px">→</span></span>
+        </div>
+      </sc-for>
+    </section>
+
+    <section style="max-width:1480px;margin:0 auto;padding:44px 48px 76px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--hair-strong);padding-bottom:11px;margin-bottom:26px">
+        <span style="font-size:11px;letter-spacing:.20em;text-transform:uppercase;color:var(--ink-soft);font-weight:600">{{ t.trendingTitle }}</span>
+        <span style="font-size:11px;letter-spacing:.10em;color:var(--taupe);cursor:pointer" style-hover="color:var(--orange)" onClick="{{ openAll }}">{{ t.viewAll }} →</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+        <sc-for list="{{ catalog }}" as="it" hint-placeholder-count="6">
+          <div style="background:var(--panel);border:1px solid var(--hair);border-radius:3px;padding:20px;cursor:pointer;transition:transform .18s, box-shadow .18s, border-color .18s" style-hover="transform:translateY(-3px);box-shadow:0 12px 30px rgba(36,28,22,.10);border-color:var(--orange)" onClick="{{ it.open }}">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:13px"><div style="min-width:0"><div style="font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:500">{{ it.name }}</div><div style="font-size:11px;color:var(--taupe);margin-top:3px">{{ it.author }}</div></div><span style="{{ it.badgeStyle }}">{{ it.badgeLabel }}</span></div>
+            <p style="font-size:13px;line-height:1.5;color:var(--ink-soft);margin:0 0 16px;min-height:39px">{{ it.desc }}</p>
+            <div style="display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--hair)"><span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);background:var(--chip);padding:3px 8px;border-radius:2px">{{ it.typeLabel }}</span><div style="display:flex;align-items:center;gap:10px"><svg width="50" height="18" viewBox="0 0 56 18"><polyline points="{{ it.spark }}" fill="none" stroke="{{ it.trendColor }}" stroke-width="1.5"></polyline></svg><span style="display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:12px"><sc-if value="{{ it.live }}" hint-placeholder-val="{{ false }}"><span style="color:var(--green);font-size:8px" title="live from GitHub">●</span></sc-if>★{{ it.stars }}</span><span style="font-size:11px;font-weight:600;color:{{ it.trendColor }}">{{ it.trend }}</span></div></div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="max-width:1480px;margin:0 auto;padding:8px 48px 80px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--hair-strong);padding-bottom:11px;margin-bottom:26px">
+        <span style="font-size:11px;letter-spacing:.20em;text-transform:uppercase;color:var(--ink-soft);font-weight:600">{{ t.collectionTitle }}</span>
+        <span style="font-size:11px;letter-spacing:.10em;color:var(--taupe);cursor:pointer" style-hover="color:var(--orange)" onClick="{{ openAll }}">{{ t.viewAll }} →</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:26px">
+        <sc-for list="{{ gallery }}" as="it" hint-placeholder-count="3">
+          <div style="background:var(--panel);border:1px solid var(--hair);border-radius:3px;overflow:hidden;cursor:pointer;transition:transform .2s, box-shadow .2s" style-hover="transform:translateY(-3px);box-shadow:0 14px 36px rgba(36,28,22,.12)" onClick="{{ it.open }}">
+            <div style="height:160px;background:{{ it.coverColor }};display:flex;align-items:center;justify-content:center;position:relative"><span style="font-family:'Cormorant Garamond',serif;font-size:86px;color:rgba(255,255,255,.92);line-height:1">{{ it.mono }}</span><span style="position:absolute;top:14px;left:14px;font-size:9px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:{{ it.coverColor }};background:#fff;padding:4px 9px;border-radius:2px">{{ it.badgeLabel }}</span></div>
+            <div style="padding:20px 22px">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);font-weight:600">{{ it.typeLabel }}</span><span style="display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink-soft)"><sc-if value="{{ it.live }}" hint-placeholder-val="{{ false }}"><span style="color:var(--green);font-size:8px" title="live from GitHub">●</span></sc-if>★ {{ it.stars }}</span></div>
+              <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:25px;margin:0 0 6px">{{ it.name }}</h3>
+              <p style="font-size:13px;line-height:1.5;color:var(--ink-soft);margin:0">{{ it.desc }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+  </main>
+  </sc-if>
+
+  <!-- ===== CATEGORY ===== -->
+  <sc-if value="{{ isCategory }}" hint-placeholder-val="{{ false }}">
+  <main style="max-width:1480px;margin:0 auto;padding:0 48px 76px">
+    <section style="padding:56px 0 28px;border-bottom:1px solid var(--hair-strong)">
+      <div style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--orange);margin-bottom:18px;font-weight:600">{{ t.catalogKicker }}</div>
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px"><h1 style="font-family:'Cormorant Garamond','Noto Serif SC',serif;font-weight:500;font-size:60px;line-height:1;margin:0">{{ catTitle }}</h1><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--ink-soft);padding-bottom:8px">{{ resultCount }} {{ t.results }}</span></div>
+    </section>
+    <section style="display:flex;align-items:center;gap:16px;padding:22px 0;border-bottom:1px solid var(--hair);flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:10px;flex:1;min-width:280px;background:var(--panel);border:1px solid var(--hair);border-radius:2px;padding:11px 15px"><span style="color:var(--taupe);font-size:15px">⌕</span><input value="{{ query }}" onInput="{{ onSearch }}" placeholder="{{ t.searchPh }}" style="flex:1;border:none;outline:none;background:transparent;font-size:14px;color:var(--ink)"></div>
+      <span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--taupe)">{{ t.sortBy }} · {{ t.sortTrend }}</span>
+    </section>
+    <section style="display:flex;gap:10px;padding:18px 0 28px;flex-wrap:wrap">
+      <sc-for list="{{ catTabs }}" as="c" hint-placeholder-count="6"><span style="{{ c.style }}" onClick="{{ c.open }}">{{ c.name }}</span></sc-for>
+    </section>
+    <section style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+      <sc-for list="{{ visible }}" as="it" hint-placeholder-count="6">
+        <div style="background:var(--panel);border:1px solid var(--hair);border-radius:3px;padding:20px;cursor:pointer;transition:transform .18s, box-shadow .18s, border-color .18s" style-hover="transform:translateY(-3px);box-shadow:0 12px 30px rgba(36,28,22,.10);border-color:var(--orange)" onClick="{{ it.open }}">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:13px"><div style="min-width:0"><div style="font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:500">{{ it.name }}</div><div style="font-size:11px;color:var(--taupe);margin-top:3px">{{ it.author }}</div></div><span style="{{ it.badgeStyle }}">{{ it.badgeLabel }}</span></div>
+          <p style="font-size:13px;line-height:1.5;color:var(--ink-soft);margin:0 0 16px;min-height:39px">{{ it.desc }}</p>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--hair)"><span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);background:var(--chip);padding:3px 8px;border-radius:2px">{{ it.typeLabel }}</span><div style="display:flex;align-items:center;gap:10px"><svg width="50" height="18" viewBox="0 0 56 18"><polyline points="{{ it.spark }}" fill="none" stroke="{{ it.trendColor }}" stroke-width="1.5"></polyline></svg><span style="display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:12px"><sc-if value="{{ it.live }}" hint-placeholder-val="{{ false }}"><span style="color:var(--green);font-size:8px" title="live from GitHub">●</span></sc-if>★{{ it.stars }}</span><span style="font-size:11px;font-weight:600;color:{{ it.trendColor }}">{{ it.trend }}</span></div></div>
+        </div>
+      </sc-for>
+    </section>
+    <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}"><div style="text-align:center;padding:60px 0;color:var(--taupe);font-size:15px">{{ t.noResults }}</div></sc-if>
+  </main>
+  </sc-if>
+
+  <!-- ===== DETAIL ===== -->
+  <sc-if value="{{ isDetail }}" hint-placeholder-val="{{ false }}">
+  <main style="max-width:1240px;margin:0 auto;padding:34px 48px 80px">
+    <span style="font-size:12px;color:var(--taupe);cursor:pointer;letter-spacing:.04em" style-hover="color:var(--orange)" onClick="{{ goBack }}">{{ t.back }}</span>
+    <section style="display:grid;grid-template-columns:1fr 320px;gap:48px;margin-top:26px;align-items:start">
+      <div>
+        <div style="height:220px;background:{{ cur.coverColor }};border-radius:3px;display:flex;align-items:center;justify-content:center;margin-bottom:28px"><span style="font-family:'Cormorant Garamond',serif;font-size:150px;color:rgba(255,255,255,.92);line-height:1">{{ cur.mono }}</span></div>
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:13px"><span style="{{ cur.badgeStyle }}">{{ cur.badgeLabel }}</span><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--orange);font-weight:600">{{ cur.typeLabel }}</span></div>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:52px;line-height:1;margin:0 0 10px">{{ cur.name }}</h1>
+        <p style="font-size:18px;color:var(--ink-soft);margin:0 0 26px">{{ cur.desc }}</p>
+        <div style="display:flex;gap:10px;padding-bottom:8px;border-bottom:1px solid var(--hair);margin-bottom:22px"><span style="{{ tabOvStyle }}" onClick="{{ setTabOv }}">{{ t.tabOverview }}</span><span style="{{ tabSecStyle }}" onClick="{{ setTabSec }}">{{ t.tabSecurity }}</span></div>
+        <sc-if value="{{ tabIsOverview }}" hint-placeholder-val="{{ true }}">
+          <p style="font-size:15.5px;line-height:1.75;color:var(--ink);margin:0 0 24px;white-space:pre-line">{{ cur.long }}</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap"><sc-for list="{{ cur.tagList }}" as="tg" hint-placeholder-count="3"><span style="font-size:12px;font-family:'JetBrains Mono',monospace;color:var(--ink-soft);background:var(--chip);padding:5px 11px;border-radius:2px">#{{ tg }}</span></sc-for></div>
+        </sc-if>
+        <sc-if value="{{ tabIsSecurity }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <div style="display:flex;gap:14px;align-items:flex-start;padding:16px 18px;background:var(--panel);border:1px solid var(--hair);border-radius:3px"><span style="color:var(--green);font-size:18px">✓</span><div><div style="font-weight:600;font-size:14px;margin-bottom:3px">{{ t.secScan }}</div><div style="font-size:13px;color:var(--ink-soft);line-height:1.5">{{ cur.secNote }}</div></div></div>
+            <div style="display:flex;gap:14px;align-items:flex-start;padding:16px 18px;background:var(--panel);border:1px solid var(--hair);border-radius:3px"><span style="color:var(--orange);font-size:18px">◷</span><div><div style="font-weight:600;font-size:14px;margin-bottom:3px">{{ t.secReview }}</div><div style="font-size:13px;color:var(--ink-soft);line-height:1.5">{{ t.secReviewNote }}</div></div></div>
+          </div>
+        </sc-if>
+      </div>
+      <aside style="position:sticky;top:90px;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:center;gap:11px;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink);background:var(--chip);padding:13px 15px;border-radius:2px;margin-bottom:12px"><span style="color:var(--orange)">$</span><span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ cur.install }}</span></div>
+        <span style="text-align:center;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--bg);background:var(--ink);padding:13px;border-radius:2px;cursor:pointer;transition:opacity .15s" style-hover="opacity:.85" onClick="{{ cur.copy }}">{{ cur.copyLabel }}</span>
+        <div style="border-top:1px solid var(--hair);margin-top:26px;padding-top:20px;display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--taupe)">{{ t.mBy }}</span><span style="font-size:13px;font-weight:500">{{ cur.author }}</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--taupe)">{{ t.mCategory }}</span><span style="font-size:13px;font-weight:500">{{ cur.catName }}</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--taupe)">{{ t.mStars }}</span><span style="display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:13px"><sc-if value="{{ cur.live }}" hint-placeholder-val="{{ false }}"><span style="color:var(--green);font-size:8px" title="live from GitHub">●</span></sc-if>★ {{ cur.stars }} <span style="color:{{ cur.trendColor }};font-weight:600">{{ cur.trend }}</span></span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--taupe)">{{ t.mLicense }}</span><span style="font-size:13px;font-weight:500">{{ cur.license }}</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--taupe)">{{ t.mUpdated }}</span><span style="font-size:13px;font-weight:500">{{ cur.updated }}</span></div>
+        </div>
+        <span style="margin-top:22px;font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--orange);border:1px solid var(--orange);padding:11px;border-radius:2px;text-align:center;cursor:pointer;transition:all .15s" style-hover="background:var(--orange);color:#fff">{{ t.viewGithub }} ↗</span>
+      </aside>
+    </section>
+    <section style="margin-top:60px">
+      <div style="font-size:11px;letter-spacing:.20em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;border-bottom:1px solid var(--hair-strong);padding-bottom:11px;margin-bottom:24px">{{ t.related }}</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+        <sc-for list="{{ related }}" as="it" hint-placeholder-count="3">
+          <div style="background:var(--panel);border:1px solid var(--hair);border-radius:3px;padding:20px;cursor:pointer;transition:transform .18s, box-shadow .18s, border-color .18s" style-hover="transform:translateY(-3px);box-shadow:0 12px 30px rgba(36,28,22,.10);border-color:var(--orange)" onClick="{{ it.open }}">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px"><div style="font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:500">{{ it.name }}</div><span style="{{ it.badgeStyle }}">{{ it.badgeLabel }}</span></div>
+            <p style="font-size:13px;line-height:1.5;color:var(--ink-soft);margin:0">{{ it.desc }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+  </main>
+  </sc-if>
+
+  <!-- ===== SUBMIT ===== -->
+  <sc-if value="{{ isSubmit }}" hint-placeholder-val="{{ false }}">
+  <main style="max-width:760px;margin:0 auto;padding:60px 48px 90px">
+    <div style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--orange);margin-bottom:18px;font-weight:600">{{ t.submitKicker }}</div>
+    <h1 style="font-family:'Cormorant Garamond','Noto Serif SC',serif;font-weight:500;font-size:56px;line-height:1.02;margin:0 0 16px">{{ t.submitTitle }}</h1>
+    <p style="font-size:16px;line-height:1.6;color:var(--ink-soft);margin:0 0 40px;max-width:54ch">{{ t.submitSub }}</p>
+    <div style="display:flex;flex-direction:column;gap:24px">
+      <div><label style="display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);font-weight:600;margin-bottom:9px">{{ t.fRepo }}</label><input placeholder="https://github.com/you/your-skill" style="width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:2px;padding:13px 15px;font-size:14px;color:var(--ink);outline:none;font-family:'JetBrains Mono',monospace"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+        <div><label style="display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);font-weight:600;margin-bottom:9px">{{ t.fName }}</label><input placeholder="my-skill" style="width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:2px;padding:13px 15px;font-size:14px;color:var(--ink);outline:none"></div>
+        <div><label style="display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);font-weight:600;margin-bottom:9px">{{ t.fCategory }}</label><select style="width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:2px;padding:13px 15px;font-size:14px;color:var(--ink);outline:none"><sc-for list="{{ navCats }}" as="c" hint-placeholder-count="5"><option>{{ c.name }}</option></sc-for></select></div>
+      </div>
+      <div><label style="display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);font-weight:600;margin-bottom:9px">{{ t.fDesc }}</label><textarea rows="3" placeholder="{{ t.fDescPh }}" style="width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:2px;padding:13px 15px;font-size:14px;color:var(--ink);outline:none;resize:vertical;line-height:1.5"></textarea></div>
+      <div><label style="display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);font-weight:600;margin-bottom:9px">{{ t.fTags }}</label><input placeholder="browser, testing, automation" style="width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:2px;padding:13px 15px;font-size:14px;color:var(--ink);outline:none"></div>
+      <div style="display:flex;align-items:center;gap:14px;padding:16px 18px;background:var(--chip);border-radius:3px"><span style="color:var(--orange);font-size:18px">◷</span><div style="font-size:13px;color:var(--ink-soft);line-height:1.5">{{ t.submitNote }}</div></div>
+      <div style="display:flex;gap:12px;margin-top:4px">
+        <span style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--bg);background:var(--ink);padding:15px 32px;border-radius:2px;cursor:pointer;transition:opacity .15s" style-hover="opacity:.85">{{ t.submitBtn }}</span>
+        <span style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--ink-soft);padding:15px 20px;border-radius:2px;cursor:pointer" style-hover="color:var(--orange)" onClick="{{ goHome }}">{{ t.cancel }}</span>
+      </div>
+    </div>
+  </main>
+  </sc-if>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="border-top:1px solid var(--hair);margin-top:20px;padding:40px 48px;max-width:1480px;margin-left:auto;margin-right:auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px">
+    <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--orange)">ℵ</span><span style="font-size:12px;letter-spacing:.28em;font-weight:600">ALEPH HUB</span></div>
+    <span style="font-size:12px;color:var(--taupe);letter-spacing:.04em">{{ t.footer }}</span>
+    <span style="font-size:12px;color:var(--taupe)">© 2026 · {{ t.footerTag }}</span>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { theme:'light', userSetTheme:false, lang:'zh', view:'home', cat:'all', itemId:'playwright-mcp', query:'', copied:null, tab:'overview', liveStars:{} };
+
+  componentDidMount(){
+    try{
+      const m = window.matchMedia('(prefers-color-scheme: dark)');
+      if(!this.state.userSetTheme) this.setState({ theme: m.matches ? 'dark' : 'light' });
+      this._mql = m;
+      this._onMql = (e)=>{ if(!this.state.userSetTheme) this.setState({ theme: e.matches ? 'dark' : 'light' }); };
+      m.addEventListener('change', this._onMql);
+    }catch(e){}
+    this.fetchStars();
+  }
+
+  fetchStars(){
+    try{
+      const items = this.DATA().items.filter(i=>i.repo);
+      Promise.allSettled(items.map(i=>
+        fetch('https://api.github.com/repos/' + i.repo, { headers:{ 'Accept':'application/vnd.github+json' } })
+          .then(r => r.ok ? r.json() : null)
+          .then(d => (d && typeof d.stargazers_count === 'number') ? { id:i.id, n:d.stargazers_count } : null)
+      )).then(results => {
+        const live = {};
+        results.forEach(r => { if(r.status==='fulfilled' && r.value) live[r.value.id] = r.value.n; });
+        if(Object.keys(live).length) this.setState(s => ({ liveStars: Object.assign({}, s.liveStars, live) }));
+      }).catch(()=>{});
+    }catch(e){}
+  }
+  componentWillUnmount(){ try{ this._mql && this._mql.removeEventListener('change', this._onMql); clearTimeout(this._ct); }catch(e){} }
+
+  go(view, extra){ this.setState(Object.assign({ view }, extra||{})); try{ window.scrollTo(0,0); }catch(e){} }
+  copy(cmd){ try{ navigator.clipboard.writeText(cmd); }catch(e){} this.setState({ copied: cmd }); clearTimeout(this._ct); this._ct = setTimeout(()=>this.setState({ copied:null }), 1500); }
+
+  palettes = {
+    light:{ bg:'#F4EBDD', paper:'#FBF6EE', panel:'#FFFFFF', ink:'#241C16', 'ink-soft':'#5C4F42', taupe:'#8A7B6B', hair:'#E4D9C8', 'hair-strong':'#241C16', orange:'#C9501A', chip:'#EDE3D3', green:'#4E6B4A' },
+    dark:{ bg:'#17120D', paper:'#1F1811', panel:'#271F17', ink:'#F2E8DA', 'ink-soft':'#C3B4A1', taupe:'#8F8273', hair:'#372B20', 'hair-strong':'#C3B4A1', orange:'#EE863F', chip:'#2C2218', green:'#83A971' }
+  };
+
+  DATA(){
+    const cats = [
+      { id:'skills', num:'01', name_zh:'Agent 技能', name_en:'Agent Skills', tag_zh:'可调用的原子能力', tag_en:'Atomic callable abilities', count:312 },
+      { id:'mcp', num:'02', name_zh:'MCP 服务', name_en:'MCP Servers', tag_zh:'标准化工具协议服务', tag_en:'Standard tool-protocol servers', count:86 },
+      { id:'integrations', num:'03', name_zh:'集成', name_en:'Integrations', tag_zh:'连接外部系统', tag_en:'Connect external systems', count:124 },
+      { id:'templates', num:'04', name_zh:'模板', name_en:'Templates', tag_zh:'一键部署的脚手架', tag_en:'One-click deploy scaffolds', count:57 },
+      { id:'workflows', num:'05', name_zh:'工作流', name_en:'Workflows', tag_zh:'多步骤自动编排', tag_en:'Multi-step orchestration', count:43 }
+    ];
+    const sp = { up:'0,15 8,13 16,14 24,9 32,10 40,5 48,4 56,1', up2:'0,15 8,14 16,11 24,12 32,8 40,6 48,7 56,2', mid:'0,14 8,12 16,13 24,10 32,11 40,7 48,8 56,6', flat:'0,13 8,12 16,12 24,9 32,10 40,9 48,6 56,7' };
+    const items = [
+      { id:'playwright-mcp', name:'playwright-mcp', author:'microsoft', repo:'microsoft/playwright-mcp', cat:'mcp', type_zh:'MCP 服务', type_en:'MCP Server', badge:'official', stars:34000, trend:18, spark:sp.up, cover:'#C9542A', mono:'p', featured:true,
+        desc_zh:'用可访问性快照驱动浏览器自动化,无需视觉模型。', desc_en:'Browser automation via accessibility snapshots — no vision model needed.',
+        long_zh:'playwright-mcp 是微软出品的 Model Context Protocol 服务,让 LLM 通过结构化的可访问性树而非截图来操作网页。确定性强、token 高效,已成为 agent 网页自动化的首选。\n\n适合网页回归测试、表单填写与抓取动态内容。', long_en:'playwright-mcp is Microsoft\u2019s Model Context Protocol server that lets LLMs drive web pages through a structured accessibility tree instead of screenshots. Deterministic and token-efficient, it has become the go-to for agentic web automation.\n\nGreat for regression testing, form filling and scraping dynamic content.',
+        install:'npx aleph add playwright-mcp', license:'Apache-2.0', updated:'2026-06-09', tags:['browser','testing','automation'], secNote_zh:'微软官方维护,纳入前已完成安全审计。', secNote_en:'Officially maintained by Microsoft; security-audited before inclusion.' },
+      { id:'mcp-servers', name:'servers', author:'modelcontextprotocol', repo:'modelcontextprotocol/servers', cat:'mcp', type_zh:'MCP 服务', type_en:'MCP Server', badge:'official', stars:52000, trend:24, spark:sp.up2, cover:'#9E5B2E', mono:'s', featured:false,
+        desc_zh:'官方维护的参考 MCP 服务集合,几十种现成连接。', desc_en:'The official reference collection of MCP servers — dozens ready to use.',
+        long_zh:'modelcontextprotocol/servers 是由 Anthropic 与社区共建的官方参考实现库,收录文件系统、Git、数据库、搜索等数十种 MCP 服务,是了解与起步 MCP 的最佳入口。', long_en:'modelcontextprotocol/servers is the official reference library, built by Anthropic with the community. It bundles dozens of MCP servers \u2014 filesystem, Git, databases, search and more \u2014 the best place to learn and start with MCP.',
+        install:'npx aleph add mcp-servers', license:'MIT', updated:'2026-06-14', tags:['reference','protocol'], secNote_zh:'官方维护,持续审查贡献。', secNote_en:'Officially maintained; contributions continuously reviewed.' },
+      { id:'github-mcp-server', name:'github-mcp-server', author:'github', repo:'github/github-mcp-server', cat:'mcp', type_zh:'MCP 服务', type_en:'MCP Server', badge:'official', stars:19000, trend:16, spark:sp.up, cover:'#7A4A2B', mono:'g', featured:false,
+        desc_zh:'让 agent 直接操作仓库、PR 与 workflow。', desc_en:'Let agents work with repos, pull requests and workflows directly.',
+        long_zh:'github-mcp-server 是 GitHub 官方的 MCP 服务,把仓库、Issue、Pull Request 与 Actions workflow 暴露为 agent 可调用的工具,打通 AI 工具与整个 GitHub 生态。', long_en:'github-mcp-server is GitHub\u2019s official MCP server, exposing repositories, issues, pull requests and Actions workflows as agent-callable tools \u2014 bridging AI tools with the whole GitHub ecosystem.',
+        install:'npx aleph add github-mcp-server', license:'MIT', updated:'2026-06-10', tags:['github','ci','repos'], secNote_zh:'GitHub 官方维护,OAuth 权限可控。', secNote_en:'Officially maintained by GitHub; scoped OAuth permissions.' },
+      { id:'figma-context-mcp', name:'Figma-Context-MCP', author:'GLips', repo:'GLips/Figma-Context-MCP', cat:'integrations', type_zh:'集成', type_en:'Integration', badge:'community', stars:9000, trend:21, spark:sp.up2, cover:'#C98A3C', mono:'F', featured:false,
+        desc_zh:'把 Figma 设计上下文喂给 agent,实现像素级还原。', desc_en:'Feed Figma design context to your agent for pixel-accurate builds.',
+        long_zh:'Figma-Context-MCP(Framelink)读取 Figma 选中框架的布局与样式数据,以结构化上下文交给 agent,让模型据此生成更贴近设计稿的代码。', long_en:'Figma-Context-MCP (Framelink) reads layout and style data from selected Figma frames and hands it to the agent as structured context, so the model builds code that matches the design far more closely.',
+        install:'aleph add figma-context-mcp', license:'MIT', updated:'2026-05-28', tags:['figma','design','handoff'], secNote_zh:'社区项目,安装前请阅读源码。', secNote_en:'Community project \u2014 read the source before installing.' },
+      { id:'supabase-mcp', name:'supabase-mcp', author:'supabase-community', repo:'supabase-community/supabase-mcp', cat:'integrations', type_zh:'集成', type_en:'Integration', badge:'trusted', stars:2400, trend:14, spark:sp.flat, cover:'#B5562B', mono:'s', featured:false,
+        desc_zh:'把 Supabase / Postgres 数据库连接给你的 agent。', desc_en:'Connect your Supabase / Postgres database to your agent.',
+        long_zh:'supabase-mcp 让 agent 以受控权限访问 Supabase 项目:查询数据、管理表结构与读取日志,只读模式与权限范围一应俱全。', long_en:'supabase-mcp gives agents permissioned access to a Supabase project: query data, manage schema and read logs, with read-only mode and scoped permissions.',
+        install:'aleph add supabase-mcp', license:'Apache-2.0', updated:'2026-06-03', tags:['database','supabase','sql'], secNote_zh:'社区维护,权限范围可控。', secNote_en:'Community-maintained; scoped permissions.' },
+      { id:'manim', name:'manim', author:'ManimCommunity', repo:'ManimCommunity/manim', cat:'skills', type_zh:'技能', type_en:'Skill', badge:'trusted', stars:32000, trend:12, spark:sp.mid, cover:'#A86A3A', mono:'m', featured:false,
+        desc_zh:'用代码生成数学动画,技术内容创作者最爱。', desc_en:'Generate mathematical animations from code — beloved by technical creators.',
+        long_zh:'manim 是社区版的数学动画引擎(源自 3Blue1Brown)。作为技能接入后,agent 可以把概念描述转成干净的可视化动画,非常适合教学与技术内容创作。', long_en:'manim is the community edition of the mathematical animation engine (born from 3Blue1Brown). Wired in as a skill, an agent can turn concept descriptions into clean animated visualizations \u2014 perfect for teaching and technical content.',
+        install:'aleph skills add manim', license:'MIT', updated:'2026-05-30', tags:['animation','math','content'], secNote_zh:'活跃社区维护,纳入前已复核。', secNote_en:'Actively community-maintained; reviewed before inclusion.' },
+      { id:'goose', name:'goose', author:'block', repo:'block/goose', cat:'skills', type_zh:'技能', type_en:'Skill', badge:'trusted', stars:17000, trend:29, spark:sp.up, cover:'#8C5430', mono:'g', featured:false,
+        desc_zh:'本地优先的开源 AI agent,可装载任意扩展。', desc_en:'A local-first, open-source AI agent that loads any extension.',
+        long_zh:'goose 是 Block 出品的开源 agent,跑在你本地、可装载 MCP 扩展来执行真实任务:写代码、跑命令、调用工具。隐私友好且高度可定制。', long_en:'goose is Block\u2019s open-source agent that runs on your machine and loads MCP extensions to do real work: write code, run commands, call tools. Privacy-friendly and highly customizable.',
+        install:'aleph skills add goose', license:'Apache-2.0', updated:'2026-06-08', tags:['agent','local','extensions'], secNote_zh:'经审核者复核,行为可审计。', secNote_en:'Reviewed; behavior is auditable.' },
+      { id:'cline', name:'cline', author:'cline', repo:'cline/cline', cat:'skills', type_zh:'技能', type_en:'Skill', badge:'trusted', stars:48000, trend:22, spark:sp.up2, cover:'#9C5A2C', mono:'c', featured:false,
+        desc_zh:'编辑器里的自主编码 agent,可读写文件、跑命令。', desc_en:'An autonomous coding agent in your editor — edits files and runs commands.',
+        long_zh:'cline 是一个开源的自主编码 agent,直接在编辑器里工作:逐文件编辑、运行终端命令、调用浏览器,每一步都在你的批准下进行。', long_en:'cline is an open-source autonomous coding agent that works right in your editor: edits files step by step, runs terminal commands and drives a browser \u2014 each action gated by your approval.',
+        install:'aleph skills add cline', license:'Apache-2.0', updated:'2026-06-13', tags:['coding','editor','agent'], secNote_zh:'每步操作需用户批准,行为透明。', secNote_en:'Every action requires user approval; transparent behavior.' },
+      { id:'openhands', name:'OpenHands', author:'All-Hands-AI', repo:'All-Hands-AI/OpenHands', cat:'skills', type_zh:'技能', type_en:'Skill', badge:'trusted', stars:60000, trend:19, spark:sp.up, cover:'#B0703C', mono:'O', featured:false,
+        desc_zh:'能写代码、跑命令、上网的自主软件工程 agent。', desc_en:'An autonomous software engineer that codes, runs commands and browses.',
+        long_zh:'OpenHands(原 OpenDevin)是一个自主软件工程 agent 平台:它能修改代码、执行命令、浏览网页与调用 API,在沙箱中完成端到端的开发任务。', long_en:'OpenHands (formerly OpenDevin) is an autonomous software-engineering agent platform: it modifies code, runs commands, browses the web and calls APIs to complete end-to-end dev tasks in a sandbox.',
+        install:'aleph skills add openhands', license:'MIT', updated:'2026-06-12', tags:['agent','devtools','sandbox'], secNote_zh:'沙箱执行,经审核者复核。', secNote_en:'Sandboxed execution; reviewed.' },
+      { id:'swarm', name:'swarm', author:'openai', repo:'openai/swarm', cat:'templates', type_zh:'模板', type_en:'Template', badge:'official', stars:20000, trend:15, spark:sp.up, cover:'#7E4A2A', mono:'s', featured:false,
+        desc_zh:'轻量多智能体编排模板,演示交接与路由。', desc_en:'A lightweight multi-agent orchestration template — handoffs and routing.',
+        long_zh:'swarm 是 OpenAI 的实验性多智能体编排框架,用极简的原语演示 agent 之间的交接与路由。作为模板克隆即可起步搭建你自己的多 agent 系统。', long_en:'swarm is OpenAI\u2019s experimental multi-agent orchestration framework that demonstrates handoffs and routing between agents with minimal primitives. Clone it as a template to bootstrap your own multi-agent system.',
+        install:'aleph init swarm', license:'MIT', updated:'2026-05-26', tags:['multi-agent','orchestration'], secNote_zh:'官方示例项目,作为起点推荐。', secNote_en:'Official sample project; recommended as a starting point.' },
+      { id:'vercel-ai', name:'ai', author:'vercel', repo:'vercel/ai', cat:'templates', type_zh:'模板', type_en:'Template', badge:'official', stars:13000, trend:11, spark:sp.flat, cover:'#A0612F', mono:'a', featured:false,
+        desc_zh:'用 AI SDK 搭建 agent 应用,一键部署到 Vercel。', desc_en:'Build agent apps with the AI SDK and ship to Vercel in one click.',
+        long_zh:'vercel/ai(AI SDK)提供统一的模型接口、流式 UI 原语与工具调用,让你用 React/Next.js 快速搭建 agent 应用,并一键部署到 Vercel。', long_en:'vercel/ai (the AI SDK) provides a unified model interface, streaming UI primitives and tool calling, so you can build agent apps with React/Next.js and ship them to Vercel in one click.',
+        install:'aleph init vercel-ai', license:'Apache-2.0', updated:'2026-06-11', tags:['sdk','nextjs','deploy'], secNote_zh:'官方维护,纳入前已审计。', secNote_en:'Officially maintained; audited before inclusion.' },
+      { id:'langgraph', name:'langgraph', author:'langchain-ai', repo:'langchain-ai/langgraph', cat:'workflows', type_zh:'工作流', type_en:'Workflow', badge:'trusted', stars:14000, trend:26, spark:sp.up2, cover:'#86512C', mono:'l', featured:false,
+        desc_zh:'用图来编排有状态、多步骤的 agent 工作流。', desc_en:'Orchestrate stateful, multi-step agent workflows as graphs.',
+        long_zh:'langgraph 用有向图来描述 agent 工作流:节点是步骤、边是状态流转,内置持久化、断点续跑与人类介入,适合构建可靠的长流程 agent。', long_en:'langgraph models agent workflows as directed graphs: nodes are steps, edges are state transitions, with built-in persistence, resumption and human-in-the-loop \u2014 ideal for reliable long-running agents.',
+        install:'aleph flow add langgraph', license:'MIT', updated:'2026-06-07', tags:['workflow','stateful','orchestration'], secNote_zh:'经审核者复核,推荐生产使用。', secNote_en:'Reviewed; production-ready.' }
+    ];
+    const strings = {
+      zh:{ submit:'提交', kicker:'The Agent Capability Atlas', heroA:'为你的 Agent', heroEm:'精挑细选', heroB:'每一件能力', heroSub:'像逛精品店一样发现 Agent Skills、MCP 插件与集成。每一件都经过安全审核与编辑甄选,开源、可安装、持续更新。', ctaExplore:'开始探索', ctaAll:'浏览全部 622 件', editorPick:'编辑推荐', searchPh:'搜索 skill、MCP、集成…', stProjects:'收录项目', stCats:'大分类', stDailyN:'每日', stSync:'同步星标', indexTitle:'目录 · Index', browseByCat:'按类别浏览 →', trendingTitle:'本周趋势 · Trending', collectionTitle:'精选合辑 · Collection', viewAll:'查看全部', catalogKicker:'目录 · Catalog', results:'个结果', sortBy:'排序', sortTrend:'🔥 趋势', noResults:'没有找到匹配的项目,换个关键词试试。', allCats:'全部项目', back:'← 返回', tabOverview:'概览', tabSecurity:'安全', secScan:'已通过安全扫描', secReview:'人工复核中', secReviewNote:'每个项目纳入前都会经过审核者人工复核;社区项目请在安装前阅读源码。', mBy:'作者', mCategory:'分类', mStars:'Stars', mLicense:'许可', mUpdated:'更新于', viewGithub:'在 GitHub 查看', related:'相关推荐', copy:'复制安装命令', copied:'已复制 ✓', submitKicker:'Contribute', submitTitle:'提交你的作品', submitSub:'把你的 Skill、MCP 插件或集成提交到 Aleph Hub。我们会做安全扫描与人工复核,通过后即收录进目录。', fRepo:'GitHub 仓库地址', fName:'名称', fCategory:'分类', fDesc:'一句话描述', fDescPh:'用一句话说清它解决什么问题…', fTags:'标签(逗号分隔)', submitNote:'提交后通常 1–3 个工作日完成审核,我们会通过仓库 issue 与你联系。', submitBtn:'提交审核', cancel:'取消', footer:'为 Agent 生态绘制的能力地图', footerTag:'开源 · 社区驱动' },
+      en:{ submit:'Submit', kicker:'The Agent Capability Atlas', heroA:'Hand-pick every', heroEm:'capability ', heroB:'for your agent', heroSub:'Discover Agent Skills, MCP plugins and integrations like browsing a boutique. Every piece is security-reviewed and editor-curated — open source, installable, always fresh.', ctaExplore:'Start exploring', ctaAll:'Browse all 622', editorPick:"Editor's Pick", searchPh:'Search skills, MCP, integrations…', stProjects:'Projects', stCats:'Categories', stDailyN:'Daily', stSync:'Star sync', indexTitle:'Index', browseByCat:'Browse by category →', trendingTitle:'Trending this week', collectionTitle:"Editor's Collection", viewAll:'View all', catalogKicker:'Catalog', results:'results', sortBy:'Sort', sortTrend:'🔥 Trending', noResults:'No matching projects — try another keyword.', allCats:'All projects', back:'← Back', tabOverview:'Overview', tabSecurity:'Security', secScan:'Passed security scan', secReview:'Human review', secReviewNote:'Every project is human-reviewed before inclusion; read the source of community projects before installing.', mBy:'By', mCategory:'Category', mStars:'Stars', mLicense:'License', mUpdated:'Updated', viewGithub:'View on GitHub', related:'Related', copy:'Copy install command', copied:'Copied ✓', submitKicker:'Contribute', submitTitle:'Submit your project', submitSub:'Submit your Skill, MCP plugin or integration to Aleph Hub. We run a security scan and human review; once approved it joins the catalog.', fRepo:'GitHub repo URL', fName:'Name', fCategory:'Category', fDesc:'One-line description', fDescPh:'In one sentence, what problem does it solve…', fTags:'Tags (comma-separated)', submitNote:'Review usually takes 1–3 business days; we reach out via a repo issue.', submitBtn:'Submit for review', cancel:'Cancel', footer:'An atlas of capabilities for the agent ecosystem', footerTag:'Open source · Community-driven' }
+    };
+    return { cats, items, strings };
+  }
+
+  renderVals(){
+    const S = this.state;
+    const { cats, items, strings } = this.DATA();
+    const L = S.lang;
+    const t = strings[L];
+    const pal = this.palettes[S.theme] || this.palettes.light;
+    const rootStyle = Object.keys(pal).map(k => '--' + k + ':' + pal[k]).join(';') + ";background:var(--bg);color:var(--ink);min-height:100vh;font-family:'Hanken Grotesk','Noto Sans SC',system-ui,sans-serif;transition:background .25s,color .25s;";
+
+    const badgeStyle = (b)=>{
+      if(b==='official') return "font-size:10px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:#FBF6EE;background:var(--orange);padding:4px 9px;border-radius:2px;white-space:nowrap;flex:none";
+      if(b==='trusted') return "font-size:10px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:var(--green);border:1px solid var(--green);padding:3px 8px;border-radius:2px;white-space:nowrap;flex:none";
+      return "font-size:10px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:var(--taupe);border:1px solid var(--taupe);padding:3px 8px;border-radius:2px;white-space:nowrap;flex:none";
+    };
+    const fmtStars = (n)=> n>=1000 ? (n/1000).toFixed(1).replace(/\.0$/,'')+'k' : String(n);
+    const catName = (c)=> L==='zh' ? c.name_zh : c.name_en;
+    const decorate = (it)=>{
+      const c = cats.find(x=>x.id===it.cat);
+      const live = (S.liveStars && S.liveStars[it.id] != null);
+      const starNum = live ? S.liveStars[it.id] : it.stars;
+      return Object.assign({}, it, {
+        desc: L==='zh'?it.desc_zh:it.desc_en,
+        long: L==='zh'?it.long_zh:it.long_en,
+        typeLabel: L==='zh'?it.type_zh:it.type_en,
+        catName: c?catName(c):'',
+        secNote: L==='zh'?it.secNote_zh:it.secNote_en,
+        badgeStyle: badgeStyle(it.badge),
+        badgeLabel: it.badge,
+        coverColor: it.cover,
+        stars: fmtStars(starNum),
+        live: live,
+        trend: '▲'+it.trend+'%',
+        trendNum: it.trend,
+        trendColor: it.trend>=15 ? 'var(--green)' : 'var(--taupe)',
+        tagList: it.tags,
+        open: ()=> this.go('detail',{ itemId: it.id, tab:'overview' }),
+        copy: ()=> this.copy(it.install),
+        copyLabel: (S.copied===it.install) ? t.copied : t.copy
+      });
+    };
+    const deco = items.map(decorate);
+
+    const navCats = cats.map(c=>({ name: catName(c), open: ()=> this.go('category',{ cat:c.id, query:'' }) }));
+    const idxCats = cats.map(c=>({ num:c.num, name: catName(c), tag: L==='zh'?c.tag_zh:c.tag_en, count: c.count, open: ()=> this.go('category',{ cat:c.id, query:'' }) }));
+    const pick = deco.find(i=>i.featured) || deco[0];
+    const catalog = deco.slice().sort((a,b)=> b.trendNum - a.trendNum).slice(0,6);
+    const galleryIds = ['manim','cline','langgraph'];
+    const gallery = galleryIds.map(id => deco.find(i=>i.id===id)).filter(Boolean);
+
+    // category view
+    const q = (S.query||'').trim().toLowerCase();
+    const inCat = deco.filter(i=> S.cat==='all' || i.cat===S.cat);
+    const visible = inCat.filter(i=> !q || (i.name+' '+i.desc+' '+i.tags.join(' ')).toLowerCase().indexOf(q)>=0)
+      .sort((a,b)=> b.trendNum - a.trendNum);
+    const catTitle = S.cat==='all' ? t.allCats : (function(){ const c=cats.find(x=>x.id===S.cat); return c?catName(c):t.allCats; })();
+    const tabStyle = (active)=> active
+      ? "font-size:12px;letter-spacing:.04em;color:#FBF6EE;background:var(--orange);padding:8px 18px;border-radius:20px;cursor:pointer;white-space:nowrap"
+      : "font-size:12px;letter-spacing:.04em;color:var(--ink-soft);border:1px solid var(--hair);padding:8px 18px;border-radius:20px;cursor:pointer;white-space:nowrap;background:var(--panel)";
+    const catTabs = [{ id:'all', name:t.allCats }].concat(cats.map(c=>({ id:c.id, name:catName(c) }))).map(c=>({
+      name:c.name, style: tabStyle(S.cat===c.id), open: ()=> this.setState({ cat:c.id })
+    }));
+
+    // detail view
+    const cur = deco.find(i=>i.id===S.itemId) || deco[0];
+    const related = deco.filter(i=> i.cat===cur.cat && i.id!==cur.id).slice(0,3);
+    const subTab = (active)=> active
+      ? "font-size:13px;font-weight:600;color:var(--ink);border-bottom:2px solid var(--orange);padding:0 4px 8px;cursor:pointer"
+      : "font-size:13px;color:var(--taupe);padding:0 4px 8px;cursor:pointer";
+
+    return {
+      rootStyle, t, themeIcon: S.theme==='dark' ? '☼' : '☾',
+      zhStyle: "cursor:pointer;color:" + (L==='zh'?'var(--ink)':'var(--taupe)'),
+      enStyle: "cursor:pointer;color:" + (L==='en'?'var(--ink)':'var(--taupe)'),
+      setZh: ()=> this.setState({ lang:'zh' }),
+      setEn: ()=> this.setState({ lang:'en' }),
+      toggleTheme: ()=> this.setState(s=>({ theme: s.theme==='dark'?'light':'dark', userSetTheme:true })),
+      goHome: ()=> this.go('home'),
+      goSubmit: ()=> this.go('submit'),
+      openAll: ()=> this.go('category',{ cat:'all', query:'' }),
+      goBack: ()=> this.go('category',{ cat: cur.cat }),
+      onSearch: (e)=> this.setState({ query: e.target.value }),
+      isHome: S.view==='home', isCategory: S.view==='category', isDetail: S.view==='detail', isSubmit: S.view==='submit',
+      navCats, idxCats, pick, catalog, gallery,
+      visible, catTitle, resultCount: visible.length, noResults: visible.length===0, catTabs,
+      cur, related,
+      tabIsOverview: S.tab==='overview', tabIsSecurity: S.tab==='security',
+      tabOvStyle: subTab(S.tab==='overview'), tabSecStyle: subTab(S.tab==='security'),
+      setTabOv: ()=> this.setState({ tab:'overview' }),
+      setTabSec: ()=> this.setState({ tab:'security' })
+    };
+  }
+}
+</script>
+</body>
+</html>
