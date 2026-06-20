@@ -12,7 +12,8 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "e2e": "playwright test",
-    "pipeline": "tsx scripts/pipeline/index.ts"
+    "pipeline": "tsx scripts/pipeline/index.ts",
+    "validate:catalog": "tsx scripts/validate-catalog.ts"
   },
   "dependencies": {
     "next": "^15.1.0",
