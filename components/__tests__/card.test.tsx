@@ -4,7 +4,7 @@ import { LangProvider } from "@/components/providers/LangProvider";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Sparkline } from "@/components/Sparkline";
 import { Card } from "@/components/Card";
-import { getById } from "@/lib/catalog";
+import { getAll } from "@/lib/catalog";
 
 describe("card primitives", () => {
   it("TrustBadge shows 'Trusted' for verified (display alias)", () => {
@@ -20,9 +20,10 @@ describe("card primitives", () => {
     expect(container.querySelector("polyline")).toBeNull();
   });
   it("Card renders entry name and links to its detail page", () => {
-    const e = getById("aleph-hub:block/goose")!;
+    const e = getAll()[0];
+    const slug = e.id.replace(/^aleph-hub:/, "");
     render(<LangProvider><Card entry={e} /></LangProvider>);
-    expect(screen.getByText("goose")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /goose/i })).toHaveAttribute("href", "/e/block/goose");
+    expect(screen.getByText(e.name)).toBeInTheDocument();
+    expect(screen.getAllByRole("link").some((l) => l.getAttribute("href") === `/e/${slug}`)).toBe(true);
   });
 });

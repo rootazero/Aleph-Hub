@@ -8,7 +8,9 @@ const read = (p: string) => JSON.parse(readFileSync(p, "utf8"));
 describe("fixtures", () => {
   it("public/catalog.json is a valid contract artifact", () => {
     const art = validateArtifact(read("public/catalog.json"));
-    expect(art.entries.length).toBe(12);
+    // count is pipeline-driven; assert it's non-empty and consistent with the manifest
+    expect(art.entries.length).toBeGreaterThan(0);
+    expect(art.entries.length).toBe(art.manifest.entry_count);
     expect(art.manifest.hub_id).toBe("aleph-hub");
     for (const e of art.entries) {
       expect(e.id.startsWith("aleph-hub:")).toBe(true);
@@ -16,7 +18,7 @@ describe("fixtures", () => {
       expect(e.install_spec.type).not.toBe("oci_image"); // producer never emits OCI
     }
   });
-  it("data/site-catalog.json is a valid site catalog with the same 12 ids", () => {
+  it("data/site-catalog.json is a valid site catalog with the same ids as the contract", () => {
     const site = validateSiteCatalog(read("data/site-catalog.json"));
     const contract = validateArtifact(read("public/catalog.json"));
     expect(site.entries.map((e) => e.id).sort()).toEqual(contract.entries.map((e) => e.id).sort());
