@@ -1,0 +1,14 @@
+{
+  "full_name": "acme/foo",
+  "name": "Acme Foo",
+  "kind": "mcp",
+  "category": "developer",
+  "tags": ["git", "ci"],
+  "description_en": "A developer MCP server.",
+  "description_zh": "开发者 MCP 服务。",
+  "long_en": "Longer English description.",
+  "long_zh": "更长的中文描述。",
+  "install_spec": { "type": "mcp_stdio", "command": "npx", "args": ["-y", "@acme/foo"] },
+  "sec_note_en": "No risky scopes.",
+  "sec_note_zh": "无高危权限。"
+}
