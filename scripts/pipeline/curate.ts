@@ -35,7 +35,7 @@ export async function curate(
   const safeName = safeOrNull(c.name);
   if (!safeEn || !safeZh || !safeName) return null;
 
-  // Re-infer install_spec locally (LLM spec is only a hint).
+  // Re-infer install_spec locally (the record's spec is only a hint).
   const spec = inferInstallSpec(c.kind, {
     repo_url: cand.repo_url, owner: cand.owner, repo: cand.repo, default_branch: meta.default_branch,
     readme, packageJson,

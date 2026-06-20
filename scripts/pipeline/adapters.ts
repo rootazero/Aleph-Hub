@@ -1,4 +1,4 @@
-// Real-world boundary: concrete adapters for every port, over fetch / Anthropic SDK / node:fs.
+// Real-world boundary: concrete adapters for every port, over fetch / node:fs.
 // No business logic here (that lives in the tested stage modules); errors degrade to null.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
