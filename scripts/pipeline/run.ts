@@ -4,8 +4,9 @@ import { curate } from "@/scripts/pipeline/curate";
 import { trustTier } from "@/scripts/pipeline/trust";
 import { enrich } from "@/scripts/pipeline/enrich";
 import { buildArtifacts } from "@/scripts/pipeline/emit";
+import { queueRecord, type QueueRecord } from "@/scripts/pipeline/queue";
 import { CONFIG } from "@/scripts/pipeline/config";
-import type { GitHubApi, LlmClient, RegistryClient, Http, Clock, CacheStore } from "@/scripts/pipeline/ports";
+import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, CacheStore } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
 import type { Candidate, FinalEntry, CuratedEntry, BuildReport } from "@/scripts/pipeline/model";
 
@@ -14,7 +15,7 @@ export function contentHashReadme(readme: string): string {
 }
 
 export interface RunPorts {
-  sources: Source[]; gh: GitHubApi; llm: LlmClient; registry: RegistryClient; http: Http; clock: Clock;
+  sources: Source[]; gh: GitHubApi; store: CurationStore; registry: RegistryClient; http: Http; clock: Clock;
   officialOrgs: Set<string>; history: Record<string, number[]>; prevContractCount: number; cache: CacheStore;
 }
 
@@ -26,7 +27,7 @@ function perSourceGuard(current: Record<string, number>, prev: Record<string, nu
   }
 }
 
-export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: unknown; hash: string; report: BuildReport; nextHistory: Record<string, number[]>; heartbeat: string }> {
+export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: unknown; hash: string; report: BuildReport; nextHistory: Record<string, number[]>; heartbeat: string; queue: QueueRecord[] }> {
   const perSource: Record<string, number> = {};
   const candidates: Candidate[] = [];
   for (const s of ports.sources) {
@@ -38,6 +39,7 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
 
   const deduped = await dedupe(candidates, ports.gh);
   const finals: FinalEntry[] = [];
+  const queue: QueueRecord[] = [];
   const nextHistory: Record<string, number[]> = { ...ports.history };
   let curatedThisRun = 0;
 
@@ -46,23 +48,22 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
     const got = await ports.gh.getRepo(cand.full_name, cached?.etag);
     if (!got) continue;
 
+    const record = ports.store.get(cand.full_name);
+    if (!record) { queue.push(queueRecord(cand, got.meta)); continue; }  // discovered, not yet curated
+
     let entry: CuratedEntry | null = null;
     let readmeHash = cached?.readme_hash ?? "";
     if (got.notModified && cached) {
-      entry = cached.entry;                                 // metadata unchanged → reuse curation
+      entry = cached.entry;                                 // metadata unchanged → reuse
     } else {
       const readme = (await ports.gh.getReadme(cand.full_name)) ?? "";
       readmeHash = contentHashReadme(readme);
       if (cached && cached.readme_hash === readmeHash) {
-        entry = cached.entry;                               // README unchanged → reuse curation
-      } else if (curatedThisRun < CONFIG.MAX_REPOS_CURATED) {
-        curatedThisRun++;
-        entry = await curate({ ...cand, raw: { ...cand.raw, readme } }, got.meta,
-          { llm: ports.llm, registry: ports.registry, gh: ports.gh });
-      } else if (cached) {
-        entry = cached.entry;                               // over budget → keep prior entry (no half-built artifact)
+        entry = cached.entry;                               // README unchanged → reuse
       } else {
-        continue;                                           // over budget, never curated → defer to next run
+        curatedThisRun++;
+        entry = await curate({ ...cand, raw: { ...cand.raw, readme } }, got.meta, record,
+          { registry: ports.registry, gh: ports.gh });
       }
     }
     if (!entry) continue;                                   // dropped by safety/verify/zod
@@ -77,10 +78,12 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
 
   ports.cache.setPerSource(perSource);
   const { catalog, site, hash } = buildArtifacts({ entries: finals, generatedAt: ports.clock.nowIso(), prevContractCount: ports.prevContractCount });
+  queue.sort((a, b) => a.full_name.localeCompare(b.full_name));
   const report: BuildReport = {
     perSource, candidates: candidates.length, deduped: deduped.length,
-    curated: curatedThisRun, verified: finals.length, emitted: finals.length,
-    inferenceYield: deduped.length ? finals.length / deduped.length : 0,
+    discovered: deduped.length, curated: curatedThisRun, queued: queue.length,
+    verified: finals.length, emitted: finals.length,
+    curationCoverage: deduped.length ? finals.length / deduped.length : 0,
   };
-  return { catalog, site, hash, report, nextHistory, heartbeat: `last_run: ${ports.clock.nowIso()}` };
+  return { catalog, site, hash, report, nextHistory, heartbeat: `last_run: ${ports.clock.nowIso()}`, queue };
 }

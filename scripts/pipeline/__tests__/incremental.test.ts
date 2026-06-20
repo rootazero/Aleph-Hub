@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { run, contentHashReadme } from "@/scripts/pipeline/run";
-import type { GitHubApi, LlmClient, RegistryClient, Http, Clock, RepoMeta, CacheStore, RepoCache } from "@/scripts/pipeline/ports";
+import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, RepoMeta, CacheStore, RepoCache } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
 import type { CuratedEntry } from "@/scripts/pipeline/model";
 
@@ -8,7 +8,7 @@ const meta = (fn: string): RepoMeta => { const [owner, repo] = fn.split("/"); re
 const README = "# acme/foo\nRun npx -y @acme/foo";
 const gh: GitHubApi = { searchRepos: async () => [], getContent: async () => null, getReadme: async () => README, getRepo: async (fn) => ({ meta: meta(fn), etag: "e", notModified: false }) };
 const source: Source = { id: "github", fetch: async () => Array.from({ length: 8 }, (_, i) => ({ repo_url: `https://github.com/acme/foo${i}`, via: "github:acme", raw: { full_name: `acme/foo${i}` } })) };
-const llm: LlmClient = { curate: async (i) => ({ name: i.full_name.split("/")[1], kind: "mcp", category: "developer", tags: ["a"], description_en: "A tool.", description_zh: "工具。", long_en: "L.", long_zh: "长。", install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。" }) };
+const store: CurationStore = { get: (fn) => ({ full_name: fn, name: fn.split("/")[1], kind: "mcp", category: "developer", tags: ["a"], description_en: "A tool.", description_zh: "工具。", long_en: "L.", long_zh: "长。", install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。" }) };
 const registry: RegistryClient = { npmPackage: async () => ({ exists: true, repository: null }), pypiPackage: async () => ({ exists: true }) };
 const http: Http = { getText: async () => "" };
 const clock: Clock = { nowIso: () => "2026-06-20T00:00:00Z" };
@@ -28,18 +28,17 @@ function curatedFixture(fn: string): CuratedEntry {
 }
 
 describe("incremental run", () => {
-  it("reuses cached entries without calling the LLM when READMEs are unchanged", async () => {
-    const spy = vi.fn(llm.curate);
+  it("reuses cached entries without calling curate when READMEs are unchanged", async () => {
     const seed: Record<string, RepoCache> = {};
     for (let i = 0; i < 8; i++) seed[`acme/foo${i}`] = { etag: "e", readme_hash: contentHashReadme(README), entry: curatedFixture(`acme/foo${i}`) };
-    const res = await run({ sources: [source], gh, llm: { curate: spy }, registry, http, clock,
+    const res = await run({ sources: [source], gh, store, registry, http, clock,
       officialOrgs: new Set(), history: {}, prevContractCount: 8, cache: memCache(seed) });
     expect(res.report.emitted).toBe(8);
-    expect(spy).not.toHaveBeenCalled(); // all 8 reused from cache
+    expect(res.report.curated).toBe(0); // all 8 reused from cache
   });
   it("throws when a source collapses vs the previous run (§6.2)", async () => {
     const cache = memCache({}, { github: 100 }); // last run saw 100, now 8 → >50% drop
-    await expect(run({ sources: [source], gh, llm, registry, http, clock,
+    await expect(run({ sources: [source], gh, store, registry, http, clock,
       officialOrgs: new Set(), history: {}, prevContractCount: 8, cache })).rejects.toThrow(/source/i);
   });
 });

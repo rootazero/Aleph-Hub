@@ -1,9 +1,8 @@
-// Real-world boundary: concrete adapters for every port, over fetch / Anthropic SDK / node:fs.
+// Real-world boundary: concrete adapters for every port, over fetch / node:fs.
 // No business logic here (that lives in the tested stage modules); errors degrade to null.
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
-import Anthropic from "@anthropic-ai/sdk";
-import type { GitHubApi, RepoMeta, LlmClient, LlmCurateInput, LlmCurateOutput, RegistryClient, Http, Clock, FileStore } from "@/scripts/pipeline/ports";
+import type { GitHubApi, RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord } from "@/scripts/pipeline/ports";
 
 const GH_API = "https://api.github.com";
 
@@ -57,34 +56,19 @@ function makeGitHub(): GitHubApi {
   };
 }
 
-const CURATE_SCHEMA = {
-  type: "object" as const,
-  properties: {
-    name: { type: "string" }, kind: { type: "string", enum: ["skill", "plugin", "mcp"] },
-    category: { type: "string" }, tags: { type: "array", items: { type: "string" } },
-    description_en: { type: "string" }, description_zh: { type: "string" },
-    long_en: { type: "string" }, long_zh: { type: "string" },
-    install_spec: { type: "object" }, sec_note_en: { type: "string" }, sec_note_zh: { type: "string" },
-  },
-  required: ["name", "kind", "category", "tags", "description_en", "description_zh", "long_en", "long_zh", "sec_note_en", "sec_note_zh"],
-};
-
-function makeLlm(): LlmClient {
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY ?? "" });
-  return {
-    async curate(input: LlmCurateInput): Promise<LlmCurateOutput> {
-      const prompt = `You are curating an open-source agent extension for a catalog. Repo: ${input.full_name} (${input.repo_url}).\nWrite a bilingual (English canonical + Chinese) entry. README:\n\n${input.readme.slice(0, 8000)}`;
-      const msg = await client.messages.create({
-        model: "claude-opus-4-8", max_tokens: 1500,
-        tools: [{ name: "emit_entry", description: "Emit the curated catalog entry.", input_schema: CURATE_SCHEMA }],
-        tool_choice: { type: "tool", name: "emit_entry" },
-        messages: [{ role: "user", content: prompt }],
-      });
-      const block = msg.content.find((b) => b.type === "tool_use");
-      if (!block || block.type !== "tool_use") throw new Error("LLM returned no tool_use");
-      return block.input as LlmCurateOutput;
-    },
-  };
+// Loads every data/curation/*.json into a keyed map at construction (local, free — no API).
+export function makeCurationStore(dir = "data/curation"): CurationStore {
+  const map = new Map<string, CurationRecord>();
+  if (existsSync(dir)) {
+    for (const name of readdirSync(dir)) {
+      if (!name.endsWith(".json")) continue;
+      try {
+        const rec = JSON.parse(readFileSync(`${dir}/${name}`, "utf8")) as CurationRecord;
+        if (rec?.full_name) map.set(rec.full_name.toLowerCase(), rec);
+      } catch { /* skip malformed record */ }
+    }
+  }
+  return { get: (fullName) => map.get(fullName.toLowerCase()) ?? null };
 }
 
 function makeRegistry(): RegistryClient {
@@ -126,5 +110,5 @@ function makeFileStore(): FileStore {
 }
 
 export function makeAdapters() {
-  return { gh: makeGitHub(), llm: makeLlm(), registry: makeRegistry(), http: makeHttp(), clock: makeClock(), fs: makeFileStore() };
+  return { gh: makeGitHub(), store: makeCurationStore(), registry: makeRegistry(), http: makeHttp(), clock: makeClock(), fs: makeFileStore() };
 }

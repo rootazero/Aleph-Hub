@@ -21,16 +21,19 @@ export interface GitHubApi {
   getContent(fullName: string, path: string): Promise<string | null>;
 }
 
-export interface LlmCurateInput {
-  repo_url: string; full_name: string; readme: string; packageJson?: string | null;
-}
-export interface LlmCurateOutput {
-  name: string; kind: "skill" | "plugin" | "mcp"; category: string; tags: string[];
-  description_en: string; description_zh: string; long_en: string; long_zh: string;
-  install_spec: unknown;          // re-validated locally against contract InstallSpec
+// Curation comes from a git-committed store (data/curation/*.json), not an API.
+export interface CurationRecord {
+  full_name: string;          // canonical owner/repo (lower-cased on lookup)
+  name: string;
+  kind: "skill" | "plugin" | "mcp";
+  category: string;
+  tags: string[];
+  description_en: string; description_zh: string;
+  long_en: string; long_zh: string;
+  install_spec: unknown;      // hint only — re-inferred + verified locally
   sec_note_en: string; sec_note_zh: string;
 }
-export interface LlmClient { curate(input: LlmCurateInput): Promise<LlmCurateOutput>; }
+export interface CurationStore { get(fullName: string): CurationRecord | null; }
 
 export interface RegistryClient {
   // null = lookup failed (network); {exists:false} = definitively absent.

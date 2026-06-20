@@ -40,15 +40,17 @@ export interface EnrichData {
 
 export type FinalEntry = CuratedEntry & EnrichData & { trust_tier: TrustTierT };
 
-// Per-run observability (§6.2 source counts, §6.6 inference-yield, D12 gate)
+// Per-run observability (§6.2 source counts, D12 gate)
 export interface BuildReport {
   perSource: Record<string, number>;
   candidates: number;
   deduped: number;
-  curated: number;
+  discovered: number;         // deduped repos considered this run
+  curated: number;            // records applied this run
+  queued: number;             // discovered but uncurated → to-curate.json
   verified: number;
   emitted: number;
-  inferenceYield: number;     // emitted / deduped
+  curationCoverage: number;   // emitted / discovered
 }
 
 // Re-export the contract projection targets for emit.

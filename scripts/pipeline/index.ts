@@ -18,7 +18,7 @@ function makeFileCache(fs: FileStore): CacheStore {
 }
 
 async function main() {
-  const { gh, llm, registry, http, clock, fs } = makeAdapters();
+  const { gh, store, registry, http, clock, fs } = makeAdapters();
   const cache = makeFileCache(fs);
   const seeds = fs.readJson<{ queries: string[]; seeds: string[] }>("data/seeds/github.json")!;
   const officialOrgs = new Set((fs.readJson<string[]>("data/seeds/official-orgs.json") ?? []).map((s) => s.toLowerCase()));
@@ -30,9 +30,10 @@ async function main() {
     new ClawHubSource({ http, indexUrl: "https://clawhub.ai/" }),
     new HermesAtlasSource({ http, indexUrl: "https://hermesatlas.com/" }),
   ];
-  const res = await run({ sources, gh, llm, registry, http, clock, officialOrgs, history, prevContractCount: prev?.entries.length ?? 0, cache });
+  const res = await run({ sources, gh, store, registry, http, clock, officialOrgs, history, prevContractCount: prev?.entries.length ?? 0, cache });
 
   fs.writeText("data/.heartbeat", res.heartbeat);    // always — keepalive (D14)
+  fs.writeJson("data/queue/to-curate.json", res.queue);  // always — backlog visibility for agent curation
   if (res.hash !== prevHash) {                         // §6.7 skip-emit on unchanged content
     fs.writeJson("public/catalog.json", res.catalog);
     fs.writeJson("data/site-catalog.json", res.site);

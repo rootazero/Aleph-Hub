@@ -3,12 +3,12 @@ import { z } from "zod";
 import { safeOrNull } from "@/scripts/pipeline/safety";
 import { inferInstallSpec, requiresConfig } from "@/scripts/pipeline/install_spec";
 import { verifyInstallSpec } from "@/scripts/pipeline/verify";
-import type { LlmClient, RegistryClient, GitHubApi, RepoMeta } from "@/scripts/pipeline/ports";
+import type { RegistryClient, GitHubApi, RepoMeta, CurationRecord } from "@/scripts/pipeline/ports";
 import type { NormalizedCandidate, CuratedEntry } from "@/scripts/pipeline/model";
 
-export interface CuratePorts { llm: LlmClient; registry: RegistryClient; gh: GitHubApi; }
+export interface CuratePorts { registry: RegistryClient; gh: GitHubApi; }
 
-// Re-validate the LLM's free-form output against the contract's value space.
+// Re-validate the curation record against the contract's value space.
 const Curated = z.object({
   name: z.string().min(1),
   kind: ExtensionKind,
@@ -20,13 +20,12 @@ const Curated = z.object({
 });
 
 export async function curate(
-  cand: NormalizedCandidate, meta: RepoMeta, ports: CuratePorts,
+  cand: NormalizedCandidate, meta: RepoMeta, record: CurationRecord, ports: CuratePorts,
 ): Promise<CuratedEntry | null> {
   const readme = String(cand.raw.readme ?? "");
   const packageJson = (cand.raw.packageJson as string | undefined) ?? null;
-  const out = await ports.llm.curate({ repo_url: cand.repo_url, full_name: cand.full_name, readme, packageJson });
 
-  const parsed = Curated.safeParse(out);
+  const parsed = Curated.safeParse(record);
   if (!parsed.success) return null;
   const c = parsed.data;
 
@@ -36,7 +35,7 @@ export async function curate(
   const safeName = safeOrNull(c.name);
   if (!safeEn || !safeZh || !safeName) return null;
 
-  // Re-infer install_spec locally (LLM spec is only a hint).
+  // Re-infer install_spec locally (the record's spec is only a hint).
   const spec = inferInstallSpec(c.kind, {
     repo_url: cand.repo_url, owner: cand.owner, repo: cand.repo, default_branch: meta.default_branch,
     readme, packageJson,
