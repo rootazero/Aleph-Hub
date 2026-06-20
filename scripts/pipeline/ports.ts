@@ -48,3 +48,15 @@ export interface FileStore {
   readText(path: string): string | null;
   writeText(path: string, value: string): void;
 }
+
+// Per-repo incremental cache (§6.8/D13): reuse curation for unchanged repos.
+import type { CuratedEntry } from "@/scripts/pipeline/model";
+
+export interface RepoCache { etag?: string; readme_hash: string; entry: CuratedEntry; }
+export interface CacheStore {
+  get(fullName: string): RepoCache | undefined;
+  set(fullName: string, value: RepoCache): void;
+  entries(): Record<string, RepoCache>;
+  prevPerSource(): Record<string, number>;
+  setPerSource(counts: Record<string, number>): void;
+}

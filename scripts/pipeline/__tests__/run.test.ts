@@ -1,7 +1,9 @@
 import { describe, it, expect } from "vitest";
 import { run } from "@/scripts/pipeline/run";
-import type { GitHubApi, LlmClient, RegistryClient, Http, Clock, RepoMeta } from "@/scripts/pipeline/ports";
+import type { GitHubApi, LlmClient, RegistryClient, Http, Clock, RepoMeta, CacheStore } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
+
+const emptyCache: CacheStore = { get: () => undefined, set: () => {}, entries: () => ({}), prevPerSource: () => ({}), setPerSource: () => {} };
 
 const meta = (fn: string): RepoMeta => { const [owner, repo] = fn.split("/"); return { full_name: fn, owner, repo, stars: 1000, license: "MIT", pushed_at: "2026-06-01T00:00:00Z", fork: false, source_full_name: null, default_branch: "main" }; };
 const gh: GitHubApi = {
@@ -19,7 +21,7 @@ describe("run (integration, mocked ports)", () => {
   it("produces validated artifacts for 8 repos with a first-run (null trend)", async () => {
     const urls = Array.from({ length: 8 }, (_, i) => `https://github.com/acme/foo${i}`);
     const res = await run({ sources: [source(urls)], gh, llm, registry, http, clock,
-      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8 });
+      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache });
     expect(res.report.emitted).toBe(8);
     expect((res.catalog as any).entries).toHaveLength(8);
     expect((res.site as any).entries[0].trend).toBeNull();

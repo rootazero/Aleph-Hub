@@ -5,6 +5,7 @@ export const CONFIG = {
   MAX_DROP_PCT: 0.5,         // max allowed shrink vs last committed artifact (D12)
   MAX_REPOS_CURATED: 200,    // per-run budget (D13)
   STARS_HISTORY_KEEP: 12,    // rolling star snapshots retained
+  PER_SOURCE_DROP_PCT: 0.5,  // a single source falling >50% vs last run fails the run (§6.2)
   SOURCE_PRIORITY: ["github", "clawhub", "hermes-atlas"] as const,
 } as const;
 
