@@ -1,0 +1,4 @@
+{
+  "queries": ["topic:mcp", "topic:model-context-protocol", "topic:claude-skill", "mcp-server in:name,description"],
+  "seeds": ["https://github.com/modelcontextprotocol/servers", "https://github.com/punkpeye/awesome-mcp-servers"]
+}
