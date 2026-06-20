@@ -1,0 +1,28 @@
+:root {
+  --bg: #faf8f3;
+  --fg: #1a1a1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  line-height: 1.6;
+}
+
+h1 {
+  font-weight: 600;
+}
