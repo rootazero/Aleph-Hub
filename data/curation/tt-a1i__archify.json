@@ -1,0 +1,21 @@
+{
+  "full_name": "tt-a1i/archify",
+  "name": "Archify",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "diagrams",
+    "architecture",
+    "documentation"
+  ],
+  "description_en": "Generate clean architecture diagrams with light and dark themes from any agent.",
+  "description_zh": "在任意智能体中生成简洁的架构图,支持浅色与深色主题。",
+  "long_en": "A skill that produces architecture and system diagrams, helping document a codebase's structure directly from a conversation.",
+  "long_zh": "生成架构与系统图的技能,可直接在对话中帮你记录代码库结构。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/tt-a1i/archify"
+  },
+  "sec_note_en": "Generates local diagram files; no elevated access required.",
+  "sec_note_zh": "生成本地图表文件;无需提权访问。"
+}

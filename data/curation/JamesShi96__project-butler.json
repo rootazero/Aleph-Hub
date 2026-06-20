@@ -1,0 +1,21 @@
+{
+  "full_name": "JamesShi96/project-butler",
+  "name": "Project Butler",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "memory",
+    "context",
+    "project"
+  ],
+  "description_en": "A project-memory system for AI coding assistants that preserves context across sessions.",
+  "description_zh": "面向 AI 编码助手的项目记忆系统,在多次会话间保留上下文。",
+  "long_en": "A skill that maintains durable project context (decisions, structure, notes) so assistants like Claude Code or Cursor resume with continuity.",
+  "long_zh": "维护持久项目上下文(决策、结构、笔记)的技能,让 Claude Code、Cursor 等助手能延续上下文继续工作。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/JamesShi96/project-butler"
+  },
+  "sec_note_en": "Stores project notes locally; review what it persists.",
+  "sec_note_zh": "在本地存储项目笔记;请审阅其持久化的内容。"
+}

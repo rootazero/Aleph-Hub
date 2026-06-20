@@ -1,0 +1,26 @@
+{
+  "full_name": "wonderwhy-er/DesktopCommanderMCP",
+  "name": "Desktop Commander",
+  "kind": "mcp",
+  "category": "developer",
+  "tags": [
+    "terminal",
+    "filesystem",
+    "shell",
+    "automation"
+  ],
+  "description_en": "Gives Claude terminal control with filesystem search and edit across your machine—run commands, manage processes, and read or modify files.",
+  "description_zh": "赋予 Claude 终端控制能力,并可在本机搜索与编辑文件系统——执行命令、管理进程、读写文件。",
+  "long_en": "Desktop Commander is an MCP server that bridges the model to a real shell and the local filesystem, enabling long-running commands, code edits, and process management from a conversation.",
+  "long_zh": "Desktop Commander 是把模型连接到真实 shell 与本地文件系统的 MCP 服务,可在对话中执行长任务命令、编辑代码并管理进程。",
+  "install_spec": {
+    "type": "mcp_stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@wonderwhy-er/desktop-commander"
+    ]
+  },
+  "sec_note_en": "Grants full terminal and filesystem access—high capability; review scope and run only on machines you trust.",
+  "sec_note_zh": "授予完整的终端与文件系统访问权限——能力很高;请审阅权限范围,仅在可信机器上运行。"
+}

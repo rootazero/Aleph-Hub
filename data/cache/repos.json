@@ -1,0 +1,459 @@
+{
+  "microsoft/playwright-mcp": {
+    "etag": "W/\"4be2d940edb2c05960af7ce260666eed846b77b6aefb769526a678632693ec68\"",
+    "readme_hash": "87e19d568d5c9c58e5e44116a542916126ba1f17229384edee2fd81495a2cba4",
+    "entry": {
+      "id": "aleph-hub:microsoft/playwright-mcp",
+      "repo_url": "https://github.com/microsoft/playwright-mcp",
+      "via": "github:microsoft",
+      "full_name": "microsoft/playwright-mcp",
+      "owner": "microsoft",
+      "repo": "playwright-mcp",
+      "kind": "mcp",
+      "name": "Playwright MCP",
+      "author": "microsoft",
+      "category": "developer",
+      "tags": [
+        "browser",
+        "automation",
+        "testing",
+        "playwright"
+      ],
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@playwright/mcp"
+        ],
+        "env": [
+          {
+            "name": "PLAYWRIGHT_MCP_SECRETS_FILE",
+            "required": true,
+            "secret": true
+          }
+        ]
+      },
+      "description_en": "Browser-automation MCP server that lets agents drive Chromium, Firefox, and WebKit through Playwright—navigate, click, fill forms, and capture accessibility snapshots.",
+      "description_zh": "基于 Playwright 的浏览器自动化 MCP 服务,让智能体驱动 Chromium、Firefox 与 WebKit——导航、点击、填表、抓取可访问性快照。",
+      "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
+      "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
+      "sec_note_en": "Controls a browser and can reach any URL; run against trusted targets and review before enabling.",
+      "sec_note_zh": "可控制浏览器并访问任意 URL;请对可信目标使用,启用前先审阅。",
+      "requires_config": true
+    }
+  },
+  "wonderwhy-er/DesktopCommanderMCP": {
+    "etag": "W/\"c9bcb24692cb2ad7344c6e134912b0fe2493dc09f2ca13d7477df18d1ae04a6f\"",
+    "readme_hash": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
+    "entry": {
+      "id": "aleph-hub:wonderwhy-er/DesktopCommanderMCP",
+      "repo_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "via": "github:wonderwhy-er",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "owner": "wonderwhy-er",
+      "repo": "DesktopCommanderMCP",
+      "kind": "mcp",
+      "name": "Desktop Commander",
+      "author": "wonderwhy-er",
+      "category": "developer",
+      "tags": [
+        "terminal",
+        "filesystem",
+        "shell",
+        "automation"
+      ],
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@wonderwhy-er/desktop-commander"
+        ],
+        "env": []
+      },
+      "description_en": "Gives Claude terminal control with filesystem search and edit across your machine—run commands, manage processes, and read or modify files.",
+      "description_zh": "赋予 Claude 终端控制能力,并可在本机搜索与编辑文件系统——执行命令、管理进程、读写文件。",
+      "long_en": "Desktop Commander is an MCP server that bridges the model to a real shell and the local filesystem, enabling long-running commands, code edits, and process management from a conversation.",
+      "long_zh": "Desktop Commander 是把模型连接到真实 shell 与本地文件系统的 MCP 服务,可在对话中执行长任务命令、编辑代码并管理进程。",
+      "sec_note_en": "Grants full terminal and filesystem access—high capability; review scope and run only on machines you trust.",
+      "sec_note_zh": "授予完整的终端与文件系统访问权限——能力很高;请审阅权限范围,仅在可信机器上运行。",
+      "requires_config": false
+    }
+  },
+  "mobile-next/mobile-mcp": {
+    "etag": "W/\"1c6c52fa831b4fec64fd96a9654618dc1442b22603cba82a6f65b9446eb418ab\"",
+    "readme_hash": "075cc97e124df82c71cf242d14748cf4e6fe245241458f38d447c7413e08cce5",
+    "entry": {
+      "id": "aleph-hub:mobile-next/mobile-mcp",
+      "repo_url": "https://github.com/mobile-next/mobile-mcp",
+      "via": "github:mobile-next",
+      "full_name": "mobile-next/mobile-mcp",
+      "owner": "mobile-next",
+      "repo": "mobile-mcp",
+      "kind": "mcp",
+      "name": "Mobile MCP",
+      "author": "mobile-next",
+      "category": "developer",
+      "tags": [
+        "mobile",
+        "ios",
+        "android",
+        "automation"
+      ],
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@mobilenext/mobile-mcp"
+        ],
+        "env": [
+          {
+            "name": "MOBILEMCP_AUTH",
+            "required": true,
+            "secret": true
+          }
+        ]
+      },
+      "description_en": "Mobile-automation MCP server for iOS and Android—drives simulators, emulators, and physical devices for UI testing and scraping.",
+      "description_zh": "面向 iOS 与 Android 的移动自动化 MCP 服务——驱动模拟器、仿真器与真机,用于 UI 测试与抓取。",
+      "long_en": "Mobile MCP exposes mobile device control to agents via Appium-style automation, working across iOS and Android targets so a model can tap, type, and inspect app screens.",
+      "long_zh": "Mobile MCP 通过类 Appium 的自动化把移动设备控制开放给智能体,覆盖 iOS 与 Android,让模型可点击、输入并检视应用界面。",
+      "sec_note_en": "Drives real devices and apps; review which targets it can reach before enabling.",
+      "sec_note_zh": "可驱动真机与应用;启用前请审阅其可访问的目标范围。",
+      "requires_config": true
+    }
+  },
+  "zarazhangrui/frontend-slides": {
+    "etag": "W/\"938969314cd322d3ad89337165a47b0a85c7a5b15bddeb01d73ab09e614290e1\"",
+    "readme_hash": "1a82e557109371affb54e003d1228655b04f742215432bd6d86eeb956a93abae",
+    "entry": {
+      "id": "aleph-hub:zarazhangrui/frontend-slides",
+      "repo_url": "https://github.com/zarazhangrui/frontend-slides",
+      "via": "github:zarazhangrui",
+      "full_name": "zarazhangrui/frontend-slides",
+      "owner": "zarazhangrui",
+      "repo": "frontend-slides",
+      "kind": "skill",
+      "name": "Frontend Slides",
+      "author": "zarazhangrui",
+      "category": "design",
+      "tags": [
+        "slides",
+        "frontend",
+        "presentation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zarazhangrui/frontend-slides",
+        "git_ref": "main"
+      },
+      "description_en": "Create beautiful web-based slide decks with a coding agent, using real frontend skills instead of a slide template.",
+      "description_zh": "用编码智能体创建精美的网页幻灯片,基于真实的前端技巧而非套用幻灯片模板。",
+      "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
+      "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
+      "sec_note_en": "Generates local web files; review output before sharing.",
+      "sec_note_zh": "生成本地网页文件;分享前请审阅产物。",
+      "requires_config": false
+    }
+  },
+  "op7418/guizang-social-card-skill": {
+    "etag": "W/\"29393ea8ad3bd4ee83f57fb5badf86d1d0680225431e4c379de39a18dda8f3a0\"",
+    "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
+    "entry": {
+      "id": "aleph-hub:op7418/guizang-social-card-skill",
+      "repo_url": "https://github.com/op7418/guizang-social-card-skill",
+      "via": "github:op7418",
+      "full_name": "op7418/guizang-social-card-skill",
+      "owner": "op7418",
+      "repo": "guizang-social-card-skill",
+      "kind": "skill",
+      "name": "Guizang Social Card",
+      "author": "op7418",
+      "category": "design",
+      "tags": [
+        "social",
+        "cards",
+        "xiaohongshu",
+        "wechat"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/guizang-social-card-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Generate Xiaohongshu carousels and WeChat-style social cards from your content with consistent visual styling.",
+      "description_zh": "从你的内容生成小红书图文与微信风格的社交卡片,保持统一的视觉风格。",
+      "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
+      "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
+      "sec_note_en": "Produces local image/HTML assets; review before publishing.",
+      "sec_note_zh": "产出本地图片/HTML 物料;发布前请审阅。",
+      "requires_config": false
+    }
+  },
+  "eugeniughelbur/obsidian-second-brain": {
+    "etag": "W/\"24b6aa1b24ca08c0913693beae98f71f6b3706a9d8e16b36dd412f89fea1e0a2\"",
+    "readme_hash": "d719683e3641d3bdb7707b3b0be5f7c9844171c5cf3506fe25a00f79098acef8",
+    "entry": {
+      "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
+      "repo_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "via": "github:eugeniughelbur",
+      "full_name": "eugeniughelbur/obsidian-second-brain",
+      "owner": "eugeniughelbur",
+      "repo": "obsidian-second-brain",
+      "kind": "skill",
+      "name": "Obsidian Second Brain",
+      "author": "eugeniughelbur",
+      "category": "knowledge",
+      "tags": [
+        "obsidian",
+        "notes",
+        "knowledge"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+        "git_ref": "main"
+      },
+      "description_en": "Turn your Obsidian vault into an AI-first second brain that works across command-line agents.",
+      "description_zh": "把你的 Obsidian 仓库变成以 AI 为先的第二大脑,可在多种命令行智能体间通用。",
+      "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
+      "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
+      "sec_note_en": "Reads and writes your notes vault; point it only at vaults you control.",
+      "sec_note_zh": "会读写你的笔记仓库;请仅指向你掌控的仓库。",
+      "requires_config": false
+    }
+  },
+  "tt-a1i/archify": {
+    "etag": "W/\"7dfa9e34803ecbe40f05e96c2bbc3f8b019c45d08f252301ef9b2394b4b646ff\"",
+    "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
+    "entry": {
+      "id": "aleph-hub:tt-a1i/archify",
+      "repo_url": "https://github.com/tt-a1i/archify",
+      "via": "github:tt-a1i",
+      "full_name": "tt-a1i/archify",
+      "owner": "tt-a1i",
+      "repo": "archify",
+      "kind": "skill",
+      "name": "Archify",
+      "author": "tt-a1i",
+      "category": "developer",
+      "tags": [
+        "diagrams",
+        "architecture",
+        "documentation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/tt-a1i/archify",
+        "git_ref": "main"
+      },
+      "description_en": "Generate clean architecture diagrams with light and dark themes from any agent.",
+      "description_zh": "在任意智能体中生成简洁的架构图,支持浅色与深色主题。",
+      "long_en": "A skill that produces architecture and system diagrams, helping document a codebase's structure directly from a conversation.",
+      "long_zh": "生成架构与系统图的技能,可直接在对话中帮你记录代码库结构。",
+      "sec_note_en": "Generates local diagram files; no elevated access required.",
+      "sec_note_zh": "生成本地图表文件;无需提权访问。",
+      "requires_config": false
+    }
+  },
+  "nolangz/pixel2motion": {
+    "etag": "W/\"5b70c33250398a02c878da120de62db5e3b45bdf2738545ead3803aee21f5862\"",
+    "readme_hash": "8b739820f2a1008231eef8598f724aaf99326097c079fca86eaafe5c8a326ca0",
+    "entry": {
+      "id": "aleph-hub:nolangz/pixel2motion",
+      "repo_url": "https://github.com/nolangz/pixel2motion",
+      "via": "github:nolangz",
+      "full_name": "nolangz/pixel2motion",
+      "owner": "nolangz",
+      "repo": "pixel2motion",
+      "kind": "skill",
+      "name": "Pixel2Motion",
+      "author": "nolangz",
+      "category": "design",
+      "tags": [
+        "animation",
+        "svg",
+        "logo"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/nolangz/pixel2motion",
+        "git_ref": "main"
+      },
+      "description_en": "Turn raster logos into smooth animated SVGs.",
+      "description_zh": "把位图 logo 转换为流畅的动画 SVG。",
+      "long_en": "A skill that vectorizes and animates logos, producing lightweight SVG motion from a static image.",
+      "long_zh": "把 logo 矢量化并加上动画的技能,从静态图片产出轻量的 SVG 动效。",
+      "sec_note_en": "Processes local images; no elevated access.",
+      "sec_note_zh": "处理本地图片;无需提权访问。",
+      "requires_config": false
+    }
+  },
+  "dominikmartn/hue": {
+    "etag": "W/\"7b3abc603561c66838cf31bef562d87a62dac4c0aec10a8896c43039548901d8\"",
+    "readme_hash": "f739a93614d7836da1b87fc3b30d1be6f94a8a45f7ada2632acb8505c5831ce8",
+    "entry": {
+      "id": "aleph-hub:dominikmartn/hue",
+      "repo_url": "https://github.com/dominikmartn/hue",
+      "via": "github:dominikmartn",
+      "full_name": "dominikmartn/hue",
+      "owner": "dominikmartn",
+      "repo": "hue",
+      "kind": "skill",
+      "name": "Hue",
+      "author": "dominikmartn",
+      "category": "design",
+      "tags": [
+        "branding",
+        "design-system",
+        "color"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dominikmartn/hue",
+        "git_ref": "main"
+      },
+      "description_en": "Learn any brand and turn it into a complete, reusable design system.",
+      "description_zh": "学习任意品牌,并将其转化为完整、可复用的设计系统。",
+      "long_en": "A skill that extracts a brand's visual language (color, type, spacing) and outputs a coherent design system an agent can apply consistently.",
+      "long_zh": "提取品牌视觉语言(色彩、字体、间距)并输出连贯设计系统的技能,供智能体一致地应用。",
+      "sec_note_en": "Reads brand assets you provide; review fetched sources.",
+      "sec_note_zh": "读取你提供的品牌素材;请审阅抓取的来源。",
+      "requires_config": false
+    }
+  },
+  "Bhanunamikaze/Agentic-SEO-Skill": {
+    "etag": "W/\"fe470fe0560ffa11de75defc668d2cb200853a7efed7476fec2cf96e857fe320\"",
+    "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
+    "entry": {
+      "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
+      "repo_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+      "via": "github:Bhanunamikaze",
+      "full_name": "Bhanunamikaze/Agentic-SEO-Skill",
+      "owner": "Bhanunamikaze",
+      "repo": "Agentic-SEO-Skill",
+      "kind": "skill",
+      "name": "Agentic SEO",
+      "author": "Bhanunamikaze",
+      "category": "productivity",
+      "tags": [
+        "seo",
+        "marketing",
+        "analysis"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+        "git_ref": "main"
+      },
+      "description_en": "An LLM-first SEO analysis skill with keyword research and on-page audit modules.",
+      "description_zh": "以 LLM 为先的 SEO 分析技能,包含关键词研究与页面内审计模块。",
+      "long_en": "A skill that runs structured SEO analysis—keywords, on-page checks, and recommendations—usable across multiple agent CLIs.",
+      "long_zh": "执行结构化 SEO 分析(关键词、页面内检查与建议)的技能,可在多种智能体 CLI 中使用。",
+      "sec_note_en": "Analyzes pages you provide; review any URLs it fetches.",
+      "sec_note_zh": "分析你提供的页面;请审阅它抓取的任何 URL。",
+      "requires_config": false
+    }
+  },
+  "TexasBedouin/vibe-check": {
+    "etag": "W/\"3ed084465def7d475cb656ba2a0858cee0fa17b85326e416adc380cb2448a720\"",
+    "readme_hash": "e911aa5cf2409b9ff232db75cc96b903cecba39756e42e5aafb27da1250afa2a",
+    "entry": {
+      "id": "aleph-hub:TexasBedouin/vibe-check",
+      "repo_url": "https://github.com/TexasBedouin/vibe-check",
+      "via": "github:TexasBedouin",
+      "full_name": "TexasBedouin/vibe-check",
+      "owner": "TexasBedouin",
+      "repo": "vibe-check",
+      "kind": "skill",
+      "name": "Vibe Check",
+      "author": "TexasBedouin",
+      "category": "productivity",
+      "tags": [
+        "product",
+        "planning",
+        "pm"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/TexasBedouin/vibe-check",
+        "git_ref": "master"
+      },
+      "description_en": "A product-management skill that guides a beginner from a raw idea to a validated, buildable plan.",
+      "description_zh": "一个产品管理技能,带新手从原始想法走到经过验证、可落地的方案。",
+      "long_en": "Built by a long-time 0-to-1 product manager, this skill structures discovery, scoping, and validation so non-PMs can plan a product responsibly.",
+      "long_zh": "由资深 0→1 产品经理打造,这个技能把发现、范围界定与验证流程结构化,让非产品人也能稳妥地规划产品。",
+      "sec_note_en": "Text-only guidance; no system access.",
+      "sec_note_zh": "纯文本指导;不访问系统。",
+      "requires_config": false
+    }
+  },
+  "ckelsoe/prompt-architect": {
+    "etag": "W/\"e9e6a17e5d4128a2cb4d6aef1bcdcdf573a8da72775a92d02be17db66db66419\"",
+    "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
+    "entry": {
+      "id": "aleph-hub:ckelsoe/prompt-architect",
+      "repo_url": "https://github.com/ckelsoe/prompt-architect",
+      "via": "github:ckelsoe",
+      "full_name": "ckelsoe/prompt-architect",
+      "owner": "ckelsoe",
+      "repo": "prompt-architect",
+      "kind": "skill",
+      "name": "Prompt Architect",
+      "author": "ckelsoe",
+      "category": "writing",
+      "tags": [
+        "prompts",
+        "writing",
+        "productivity"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/ckelsoe/prompt-architect",
+        "git_ref": "main"
+      },
+      "description_en": "Transform vague requests into structured, expert-level prompts.",
+      "description_zh": "把模糊的需求转化为结构化、专家级的提示词。",
+      "long_en": "A skill that interviews you about intent and rewrites loose asks into precise, well-scoped prompts for any model.",
+      "long_zh": "一个围绕意图发问、把松散需求改写为精准且范围明确提示词的技能,适用于任意模型。",
+      "sec_note_en": "Text-only; no system access.",
+      "sec_note_zh": "纯文本;不访问系统。",
+      "requires_config": false
+    }
+  },
+  "JamesShi96/project-butler": {
+    "etag": "W/\"990906e8575e67b42215abf1651849b45a0fcfeb95fa58dbb1ccbc975252d016\"",
+    "readme_hash": "d75d21402c39a0c06c7f642b16521ddbd5c487c99fd07ddb373a3b870c987d3b",
+    "entry": {
+      "id": "aleph-hub:JamesShi96/project-butler",
+      "repo_url": "https://github.com/JamesShi96/project-butler",
+      "via": "github:JamesShi96",
+      "full_name": "JamesShi96/project-butler",
+      "owner": "JamesShi96",
+      "repo": "project-butler",
+      "kind": "skill",
+      "name": "Project Butler",
+      "author": "JamesShi96",
+      "category": "productivity",
+      "tags": [
+        "memory",
+        "context",
+        "project"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/JamesShi96/project-butler",
+        "git_ref": "main"
+      },
+      "description_en": "A project-memory system for AI coding assistants that preserves context across sessions.",
+      "description_zh": "面向 AI 编码助手的项目记忆系统,在多次会话间保留上下文。",
+      "long_en": "A skill that maintains durable project context (decisions, structure, notes) so assistants like Claude Code or Cursor resume with continuity.",
+      "long_zh": "维护持久项目上下文(决策、结构、笔记)的技能,让 Claude Code、Cursor 等助手能延续上下文继续工作。",
+      "sec_note_en": "Stores project notes locally; review what it persists.",
+      "sec_note_zh": "在本地存储项目笔记;请审阅其持久化的内容。",
+      "requires_config": false
+    }
+  }
+}

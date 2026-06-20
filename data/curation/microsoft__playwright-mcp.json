@@ -1,0 +1,26 @@
+{
+  "full_name": "microsoft/playwright-mcp",
+  "name": "Playwright MCP",
+  "kind": "mcp",
+  "category": "developer",
+  "tags": [
+    "browser",
+    "automation",
+    "testing",
+    "playwright"
+  ],
+  "description_en": "Browser-automation MCP server that lets agents drive Chromium, Firefox, and WebKit through Playwright—navigate, click, fill forms, and capture accessibility snapshots.",
+  "description_zh": "基于 Playwright 的浏览器自动化 MCP 服务,让智能体驱动 Chromium、Firefox 与 WebKit——导航、点击、填表、抓取可访问性快照。",
+  "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
+  "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
+  "install_spec": {
+    "type": "mcp_stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@playwright/mcp"
+    ]
+  },
+  "sec_note_en": "Controls a browser and can reach any URL; run against trusted targets and review before enabling.",
+  "sec_note_zh": "可控制浏览器并访问任意 URL;请对可信目标使用,启用前先审阅。"
+}

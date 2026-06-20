@@ -1,0 +1,21 @@
+{
+  "full_name": "dominikmartn/hue",
+  "name": "Hue",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "branding",
+    "design-system",
+    "color"
+  ],
+  "description_en": "Learn any brand and turn it into a complete, reusable design system.",
+  "description_zh": "学习任意品牌,并将其转化为完整、可复用的设计系统。",
+  "long_en": "A skill that extracts a brand's visual language (color, type, spacing) and outputs a coherent design system an agent can apply consistently.",
+  "long_zh": "提取品牌视觉语言(色彩、字体、间距)并输出连贯设计系统的技能,供智能体一致地应用。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/dominikmartn/hue"
+  },
+  "sec_note_en": "Reads brand assets you provide; review fetched sources.",
+  "sec_note_zh": "读取你提供的品牌素材;请审阅抓取的来源。"
+}

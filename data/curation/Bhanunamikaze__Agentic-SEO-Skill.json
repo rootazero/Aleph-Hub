@@ -1,0 +1,21 @@
+{
+  "full_name": "Bhanunamikaze/Agentic-SEO-Skill",
+  "name": "Agentic SEO",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "seo",
+    "marketing",
+    "analysis"
+  ],
+  "description_en": "An LLM-first SEO analysis skill with keyword research and on-page audit modules.",
+  "description_zh": "以 LLM 为先的 SEO 分析技能,包含关键词研究与页面内审计模块。",
+  "long_en": "A skill that runs structured SEO analysis—keywords, on-page checks, and recommendations—usable across multiple agent CLIs.",
+  "long_zh": "执行结构化 SEO 分析(关键词、页面内检查与建议)的技能,可在多种智能体 CLI 中使用。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill"
+  },
+  "sec_note_en": "Analyzes pages you provide; review any URLs it fetches.",
+  "sec_note_zh": "分析你提供的页面;请审阅它抓取的任何 URL。"
+}

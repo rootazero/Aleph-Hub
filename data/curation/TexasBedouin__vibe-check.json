@@ -1,0 +1,21 @@
+{
+  "full_name": "TexasBedouin/vibe-check",
+  "name": "Vibe Check",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "product",
+    "planning",
+    "pm"
+  ],
+  "description_en": "A product-management skill that guides a beginner from a raw idea to a validated, buildable plan.",
+  "description_zh": "一个产品管理技能,带新手从原始想法走到经过验证、可落地的方案。",
+  "long_en": "Built by a long-time 0-to-1 product manager, this skill structures discovery, scoping, and validation so non-PMs can plan a product responsibly.",
+  "long_zh": "由资深 0→1 产品经理打造,这个技能把发现、范围界定与验证流程结构化,让非产品人也能稳妥地规划产品。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/TexasBedouin/vibe-check"
+  },
+  "sec_note_en": "Text-only guidance; no system access.",
+  "sec_note_zh": "纯文本指导;不访问系统。"
+}

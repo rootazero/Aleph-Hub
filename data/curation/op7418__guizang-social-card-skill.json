@@ -1,0 +1,22 @@
+{
+  "full_name": "op7418/guizang-social-card-skill",
+  "name": "Guizang Social Card",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "social",
+    "cards",
+    "xiaohongshu",
+    "wechat"
+  ],
+  "description_en": "Generate Xiaohongshu carousels and WeChat-style social cards from your content with consistent visual styling.",
+  "description_zh": "从你的内容生成小红书图文与微信风格的社交卡片,保持统一的视觉风格。",
+  "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
+  "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/op7418/guizang-social-card-skill"
+  },
+  "sec_note_en": "Produces local image/HTML assets; review before publishing.",
+  "sec_note_zh": "产出本地图片/HTML 物料;发布前请审阅。"
+}

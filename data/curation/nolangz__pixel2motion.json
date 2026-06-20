@@ -1,0 +1,21 @@
+{
+  "full_name": "nolangz/pixel2motion",
+  "name": "Pixel2Motion",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "animation",
+    "svg",
+    "logo"
+  ],
+  "description_en": "Turn raster logos into smooth animated SVGs.",
+  "description_zh": "把位图 logo 转换为流畅的动画 SVG。",
+  "long_en": "A skill that vectorizes and animates logos, producing lightweight SVG motion from a static image.",
+  "long_zh": "把 logo 矢量化并加上动画的技能,从静态图片产出轻量的 SVG 动效。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/nolangz/pixel2motion"
+  },
+  "sec_note_en": "Processes local images; no elevated access.",
+  "sec_note_zh": "处理本地图片;无需提权访问。"
+}

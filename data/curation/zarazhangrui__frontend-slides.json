@@ -1,0 +1,21 @@
+{
+  "full_name": "zarazhangrui/frontend-slides",
+  "name": "Frontend Slides",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "slides",
+    "frontend",
+    "presentation"
+  ],
+  "description_en": "Create beautiful web-based slide decks with a coding agent, using real frontend skills instead of a slide template.",
+  "description_zh": "用编码智能体创建精美的网页幻灯片,基于真实的前端技巧而非套用幻灯片模板。",
+  "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
+  "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/zarazhangrui/frontend-slides"
+  },
+  "sec_note_en": "Generates local web files; review output before sharing.",
+  "sec_note_zh": "生成本地网页文件;分享前请审阅产物。"
+}

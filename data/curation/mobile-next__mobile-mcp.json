@@ -1,0 +1,26 @@
+{
+  "full_name": "mobile-next/mobile-mcp",
+  "name": "Mobile MCP",
+  "kind": "mcp",
+  "category": "developer",
+  "tags": [
+    "mobile",
+    "ios",
+    "android",
+    "automation"
+  ],
+  "description_en": "Mobile-automation MCP server for iOS and Android—drives simulators, emulators, and physical devices for UI testing and scraping.",
+  "description_zh": "面向 iOS 与 Android 的移动自动化 MCP 服务——驱动模拟器、仿真器与真机,用于 UI 测试与抓取。",
+  "long_en": "Mobile MCP exposes mobile device control to agents via Appium-style automation, working across iOS and Android targets so a model can tap, type, and inspect app screens.",
+  "long_zh": "Mobile MCP 通过类 Appium 的自动化把移动设备控制开放给智能体,覆盖 iOS 与 Android,让模型可点击、输入并检视应用界面。",
+  "install_spec": {
+    "type": "mcp_stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mobilenext/mobile-mcp"
+    ]
+  },
+  "sec_note_en": "Drives real devices and apps; review which targets it can reach before enabling.",
+  "sec_note_zh": "可驱动真机与应用;启用前请审阅其可访问的目标范围。"
+}

@@ -1,0 +1,21 @@
+{
+  "full_name": "eugeniughelbur/obsidian-second-brain",
+  "name": "Obsidian Second Brain",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "obsidian",
+    "notes",
+    "knowledge"
+  ],
+  "description_en": "Turn your Obsidian vault into an AI-first second brain that works across command-line agents.",
+  "description_zh": "把你的 Obsidian 仓库变成以 AI 为先的第二大脑,可在多种命令行智能体间通用。",
+  "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
+  "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/eugeniughelbur/obsidian-second-brain"
+  },
+  "sec_note_en": "Reads and writes your notes vault; point it only at vaults you control.",
+  "sec_note_zh": "会读写你的笔记仓库;请仅指向你掌控的仓库。"
+}

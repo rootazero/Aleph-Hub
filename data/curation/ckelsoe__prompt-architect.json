@@ -1,0 +1,21 @@
+{
+  "full_name": "ckelsoe/prompt-architect",
+  "name": "Prompt Architect",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "prompts",
+    "writing",
+    "productivity"
+  ],
+  "description_en": "Transform vague requests into structured, expert-level prompts.",
+  "description_zh": "把模糊的需求转化为结构化、专家级的提示词。",
+  "long_en": "A skill that interviews you about intent and rewrites loose asks into precise, well-scoped prompts for any model.",
+  "long_zh": "一个围绕意图发问、把松散需求改写为精准且范围明确提示词的技能,适用于任意模型。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/ckelsoe/prompt-architect"
+  },
+  "sec_note_en": "Text-only; no system access.",
+  "sec_note_zh": "纯文本;不访问系统。"
+}
