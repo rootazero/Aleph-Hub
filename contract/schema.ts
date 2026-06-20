@@ -26,3 +26,30 @@ export const HeaderDecl = z.object({
   name: z.string(),
   secret: z.boolean().default(false),
 });
+
+// Aleph InstallSpec: #[serde(tag = "type", rename_all = "snake_case")]
+export const InstallSpec = z.discriminatedUnion("type", [
+  z.object({
+    type: z.literal("mcp_stdio"),
+    command: z.string(),
+    args: z.array(z.string()).default([]),
+    env: z.array(EnvDecl).default([]),
+  }),
+  z.object({
+    type: z.literal("mcp_remote"),
+    url: z.string(),
+    transport: McpTransport,
+    headers: z.array(HeaderDecl).default([]),
+  }),
+  z.object({
+    type: z.literal("oci_image"),
+    image: z.string(),
+  }),
+  z.object({
+    type: z.literal("git_dir"),
+    git_url: z.string(),
+    subdir: z.string().nullable().optional(),
+    git_ref: z.string().nullable().optional(),
+    sha256: z.string().nullable().optional(),
+  }),
+]);
