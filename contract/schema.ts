@@ -53,3 +53,39 @@ export const InstallSpec = z.discriminatedUnion("type", [
     sha256: z.string().nullable().optional(),
   }),
 ]);
+
+export const HubCatalogManifest = z.object({
+  schema_version: z.number().int().nonnegative(),
+  hub_id: z.string(),
+  name: z.string(),
+  generated_at: z.string().optional(),
+  entry_count: z.number().int().nonnegative().optional(),
+  content_hash: z.string().optional(),
+});
+
+export const HubCatalogEntry = z.object({
+  id: z.string(),
+  kind: ExtensionKind,
+  category: ExtensionCategory,
+  name: z.string(),
+  description: z.string(),
+  repo_url: z.url(), // mandatory in our contract (D7); zod-4 top-level URL format
+  trust_tier: TrustTier,
+  install_spec: InstallSpec,
+  requires_config: z.boolean().default(false),
+  author: z.string().optional(),
+  icon: z.url().optional(), // intentional producer-side narrowing (Aleph is plain Option<String>)
+  tags: z.array(z.string()).default([]),
+  version: z.string().optional(),
+  config_schema: z.record(z.string(), z.unknown()).optional(),
+  via: z.string().optional(), // producer convention, not constrained
+});
+
+export const HubCatalogArtifact = z.object({
+  manifest: HubCatalogManifest,
+  entries: z.array(HubCatalogEntry),
+});
+
+export function validateArtifact(json: unknown) {
+  return HubCatalogArtifact.parse(json);
+}
