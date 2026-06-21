@@ -22,6 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run pipeline
+      # On push to main, Vercel's git integration auto-deploys the new catalog — no explicit hook step.
       - name: Commit artifacts if changed
         run: |
           git config user.name "aleph-hub-bot"
@@ -33,8 +34,3 @@ jobs:
             git commit -m "chore(catalog): refresh artifact $(date -u +%Y-%m-%d)"
             git push
           fi
-      - name: Trigger Vercel deploy
-        if: ${{ env.HOOK != '' }}
-        env:
-          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        run: curl -fsS -X POST "$HOOK"
