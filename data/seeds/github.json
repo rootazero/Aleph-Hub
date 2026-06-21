@@ -1,4 +1,7 @@
 {
-  "queries": ["topic:mcp", "topic:model-context-protocol", "topic:claude-skill", "mcp-server in:name,description"],
-  "seeds": ["https://github.com/modelcontextprotocol/servers", "https://github.com/punkpeye/awesome-mcp-servers"]
+  "queries": ["topic:claude-skills", "topic:claude-skill", "topic:agent-skills", "topic:claude-code-skill"],
+  "seeds": [
+    "https://github.com/ComposioHQ/awesome-claude-skills",
+    "https://github.com/travisvn/awesome-claude-skills"
+  ]
 }
