@@ -2,26 +2,26 @@
   "_note": "First-party Aleph official extensions. Hand-curated, trust_tier=official. Built into the catalog by scripts/pipeline/firstParty.ts, bypassing source discovery (these are subdir leaves of the Aleph repos, not standalone repositories). Provenance: each entry links to its real upstream tree URL.",
   "groups": {
     "skill": {
-      "git_url": "https://github.com/rootazero/Aleph",
+      "git_url": "https://github.com/rootazero/Aleph-skills",
       "git_ref": "main",
-      "subdir_prefix": "skills",
-      "tree_url": "https://github.com/rootazero/Aleph/tree/main/skills",
+      "subdir_prefix": "",
+      "tree_url": "https://github.com/rootazero/Aleph-skills/tree/main",
       "owner": "rootazero",
-      "repo": "Aleph",
-      "stars": 3,
+      "repo": "Aleph-skills",
+      "stars": 0,
       "license": "MIT",
       "updated": "2026-06-21"
     },
     "plugin": {
       "git_url": "https://github.com/rootazero/Aleph-plugins",
       "git_ref": "main",
-      "subdir_prefix": "plugins",
-      "tree_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins",
+      "subdir_prefix": "",
+      "tree_url": "https://github.com/rootazero/Aleph-plugins/tree/main",
       "owner": "rootazero",
       "repo": "Aleph-plugins",
       "stars": 0,
       "license": null,
-      "updated": "2026-03-20"
+      "updated": "2026-06-21"
     }
   },
   "entries": [

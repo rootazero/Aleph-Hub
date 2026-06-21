@@ -48,7 +48,7 @@ export function loadFirstParty(fs: FileStore): FinalEntry[] {
 }
 
 function toFinal(e: SeedEntry, g: GroupCfg): FinalEntry {
-  const subdir = `${g.subdir_prefix}/${e.leaf}`;
+  const subdir = g.subdir_prefix ? `${g.subdir_prefix}/${e.leaf}` : e.leaf;
   const install_spec = InstallSpec.parse({ type: "git_dir", git_url: g.git_url, subdir, git_ref: g.git_ref });
   const fullName = `${g.owner}/${g.repo}/${subdir}`;   // synthetic identity (not a real GitHub repo)
   return {
