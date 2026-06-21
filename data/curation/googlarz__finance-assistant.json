@@ -1,0 +1,22 @@
+{
+  "full_name": "googlarz/finance-assistant",
+  "name": "Finance Assistant",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "tax",
+    "investing"
+  ],
+  "description_en": "A personal-finance assistant for budgeting, savings goals, investment tracking, debt optimization, tax prep, and net-worth tracking with multi-currency support.",
+  "description_zh": "个人理财助手,覆盖预算、储蓄目标、投资跟踪、债务优化、报税与净资产跟踪,并支持多币种。",
+  "long_en": "Imports bank statements (CSV/MT940/OFX), applies locale-based tax rules, and models financial scenarios for everyday money decisions.",
+  "long_zh": "导入银行流水(CSV/MT940/OFX)、套用本地化税则,并对日常财务决策做情景建模。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/googlarz/finance-assistant"
+  },
+  "sec_note_en": "Processes financial statements you provide locally; review imports and treat output as guidance, not professional advice.",
+  "sec_note_zh": "在本地处理你提供的财务流水;请审阅导入数据,并将输出视为参考而非专业意见。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "echoVic/spec-flow",
+  "name": "Spec-Flow",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "spec-driven",
+    "planning",
+    "workflow",
+    "tasks"
+  ],
+  "description_en": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
+  "description_zh": "规格驱动的开发工作流,按阶段确认把一个功能从提案推进到需求、设计与任务拆解。",
+  "long_en": "Creates a .spec-flow/ directory holding the proposal, requirements, design, and tasks, with optional fast and skip-design modes.",
+  "long_zh": "生成 .spec-flow/ 目录存放提案、需求、设计与任务,并提供可选的快速模式与跳过设计模式。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/echoVic/spec-flow"
+  },
+  "sec_note_en": "Writes planning documents to your repo; no code is executed.",
+  "sec_note_zh": "在你的仓库写入规划文档;不执行任何代码。"
+}

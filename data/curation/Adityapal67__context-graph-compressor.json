@@ -1,0 +1,22 @@
+{
+  "full_name": "Adityapal67/context-graph-compressor",
+  "name": "Context Graph Compressor",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "context",
+    "handoff",
+    "compression",
+    "llm"
+  ],
+  "description_en": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
+  "description_zh": "把一段长对话压缩成可移植的 JSON 上下文图,token 用尽时可交接给新会话或另一个 LLM。",
+  "long_en": "Captures the essential entities, decisions, and state of a session so a fresh chat can continue without re-reading the full history.",
+  "long_zh": "提炼会话中的关键实体、决策与状态,让新会话无需重读完整历史即可接续。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Adityapal67/context-graph-compressor"
+  },
+  "sec_note_en": "Writes a context file locally from your conversation; review it before sharing, as it may contain sensitive details.",
+  "sec_note_zh": "从你的对话在本地生成上下文文件;分享前请审阅,其中可能含敏感信息。"
+}

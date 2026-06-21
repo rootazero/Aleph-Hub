@@ -1,0 +1,22 @@
+{
+  "full_name": "Farenhytee/database-sentinel",
+  "name": "Database Sentinel",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "database",
+    "security",
+    "audit",
+    "rls"
+  ],
+  "description_en": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
+  "description_zh": "跨后端的数据库安全审计器,覆盖 Supabase、Firebase、MongoDB、PostgreSQL 与 MySQL——识别 RLS/规则配置错误、凭据外泄、认证绕过与已知 CVE。",
+  "long_en": "Built for hardening \"vibe-coded\" apps from Lovable/Bolt/Replit/Cursor; checks for exposed storage, ghost auth, and specific CVEs across each backend's rules and access model.",
+  "long_zh": "面向加固 Lovable/Bolt/Replit/Cursor 等「随手生成」的应用;逐后端检查存储暴露、幽灵认证与特定 CVE 的规则与访问模型。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Farenhytee/database-sentinel"
+  },
+  "sec_note_en": "Reads your database configuration and rules to produce an audit; supply read-scoped credentials and review findings before acting.",
+  "sec_note_zh": "读取你的数据库配置与规则以生成审计;请提供只读凭据并在处置前审阅结论。"
+}

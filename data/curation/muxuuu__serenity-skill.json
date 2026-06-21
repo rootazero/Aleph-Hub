@@ -1,0 +1,22 @@
+{
+  "full_name": "muxuuu/serenity-skill",
+  "name": "Serenity Research",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "investment",
+    "research",
+    "supply-chain",
+    "equities"
+  ],
+  "description_en": "Source-backed investment research that hunts supply-chain bottlenecks, maps technology value chains, screens A-share/HK/US equities, and stress-tests theses.",
+  "description_zh": "有据可查的投研技能,挖掘供应链卡点、梳理技术价值链、筛选 A 股/港股/美股,并对投资论点做压力测试。",
+  "long_en": "Outputs plain-language reasoning, ranked research priorities, evidence chains, risks, and next verification steps—research support only, with no trade execution.",
+  "long_zh": "输出通俗推理、排序的研究优先级、证据链、风险与后续验证步骤——仅作研究支持,不执行交易。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/muxuuu/serenity-skill"
+  },
+  "sec_note_en": "Provides research only, not financial advice; verify data and do your own due diligence before investing.",
+  "sec_note_zh": "仅提供研究而非投资建议;投资前请核验数据并自行尽调。"
+}

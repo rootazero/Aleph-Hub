@@ -1,0 +1,22 @@
+{
+  "full_name": "SDLLL/claude-for-safari",
+  "name": "Claude for Safari",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "safari",
+    "browser",
+    "macos",
+    "automation"
+  ],
+  "description_en": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+  "description_zh": "通过 AppleScript 与截屏控制 macOS 上真实的 Safari 浏览器——开标签页、读网页、填表单、点击并截取网页内容。",
+  "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
+  "long_zh": "驱动用户当前真实的浏览器会话而非无头实例,因而能利用已登录站点与现有状态。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/SDLLL/claude-for-safari"
+  },
+  "sec_note_en": "Controls your live Safari with access to logged-in sessions; review actions and run only against sites you trust.",
+  "sec_note_zh": "操控你正在使用的 Safari、可触及已登录会话;请审阅操作,仅对可信站点使用。"
+}

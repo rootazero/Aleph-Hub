@@ -1,0 +1,22 @@
+{
+  "full_name": "kgraph57/paper-writer-skill",
+  "name": "Paper Writer",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "academic",
+    "research-paper",
+    "imrad",
+    "manuscript"
+  ],
+  "description_en": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+  "description_zh": "医学/科研论文写作工作流,管理从文献检索到可投稿 IMRAD 稿件的全流程。",
+  "long_en": "Maintains a project directory with section files, a literature matrix, reference management, and quality checklists; supports English and Japanese.",
+  "long_zh": "维护含分节文件、文献矩阵、参考文献管理与质量清单的项目目录;支持英文与日文。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/kgraph57/paper-writer-skill"
+  },
+  "sec_note_en": "Drafts manuscript text and manages references; verify all citations and claims before submission.",
+  "sec_note_zh": "起草稿件文本并管理参考文献;投稿前请核验所有引用与论断。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "brettdavies/crawl4ai-skill",
+  "name": "Crawl4AI",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "scraping",
+    "crawling",
+    "web-data",
+    "extraction"
+  ],
+  "description_en": "Scrape JavaScript-heavy pages and SPAs, crawl many URLs concurrently, and extract structured data with reusable CSS/JSON schemas—wrapping the Crawl4AI library.",
+  "description_zh": "抓取重 JavaScript 的页面与 SPA、并发爬取多个 URL,并用可复用的 CSS/JSON schema 提取结构化数据——封装 Crawl4AI 库。",
+  "long_en": "Provides schema-generation patterns for LLM-free extraction via the `crwl` CLI and Python SDK, with guidance on when a lighter static fetch suffices.",
+  "long_zh": "通过 `crwl` CLI 与 Python SDK 提供免 LLM 抽取的 schema 生成范式,并给出何时用更轻量的静态抓取即可的建议。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/brettdavies/crawl4ai-skill"
+  },
+  "sec_note_en": "Drives a headless browser to fetch third-party sites; respect target sites' terms and robots policies.",
+  "sec_note_zh": "会驱动无头浏览器抓取第三方站点;请遵守目标站点的条款与 robots 规则。"
+}
