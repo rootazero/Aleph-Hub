@@ -1,0 +1,22 @@
+{
+  "full_name": "yfe404/web-scraper",
+  "name": "Web Scraper",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "web-scraping",
+    "data-extraction",
+    "apify",
+    "crawling"
+  ],
+  "description_en": "Scrape and extract data from websites with intelligent strategy selection—discovers hidden APIs via traffic interception, then picks among API, sitemap, DOM, or hybrid scraping and implements iteratively, up to production Apify Actors in TypeScript.",
+  "description_zh": "用智能策略从网站抓取与提取数据——通过流量拦截发现隐藏 API,再在 API、站点地图、DOM 或混合抓取间择优并迭代实现,直至产出可上生产的 TypeScript Apify Actor。",
+  "long_en": "Recommends the optimal scraping approach per site rather than defaulting to brittle DOM parsing, with dedicated guidance for handling blocks and 403s.",
+  "long_zh": "针对每个站点推荐最优抓取方式,而非一律用脆弱的 DOM 解析,并附有处理封禁与 403 的专门指引。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yfe404/web-scraper"
+  },
+  "sec_note_en": "Fetches and parses third-party sites; respect each site's robots.txt, Terms of Service, and rate limits before scraping. Anti-blocking guidance is included for legitimate access, not evasion.",
+  "sec_note_zh": "会抓取并解析第三方站点;抓取前请遵守各站点的 robots.txt、服务条款与速率限制。内置的反封禁指引用于正当访问,而非规避。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "gitroomhq/postiz-agent",
+  "name": "Postiz Social Scheduler",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "social-media",
+    "scheduling",
+    "publishing",
+    "postiz"
+  ],
+  "description_en": "Schedule and publish posts to 28+ social and chat channels (X, LinkedIn, Reddit, Instagram, Facebook, Threads, YouTube, TikTok, Mastodon, Bluesky, Telegram, Discord, Slack and more) through the open-source Postiz CLI.",
+  "description_zh": "通过开源 Postiz CLI 把帖子排期并发布到 28+ 社交与聊天渠道(X、LinkedIn、Reddit、Instagram、Facebook、Threads、YouTube、TikTok、Mastodon、Bluesky、Telegram、Discord、Slack 等)。",
+  "long_en": "Wraps the Postiz CLI so the agent can connect accounts and schedule cross-channel posts from natural language; Postiz itself is self-hostable open source.",
+  "long_zh": "封装 Postiz CLI,让 agent 用自然语言连接账号、跨渠道排期发帖;Postiz 本身是可自托管的开源项目。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/gitroomhq/postiz-agent"
+  },
+  "sec_note_en": "Installs the Postiz npm CLI and posts on your behalf to the social accounts you connect; needs a Postiz instance and a POSTIZ_API_URL credential. Review scheduled content before it publishes.",
+  "sec_note_zh": "会安装 Postiz npm CLI 并代表你向已连接的社交账号发帖;需要一个 Postiz 实例与 POSTIZ_API_URL 凭据。发布前请审阅排期内容。"
+}

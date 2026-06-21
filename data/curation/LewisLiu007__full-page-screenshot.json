@@ -1,0 +1,22 @@
+{
+  "full_name": "LewisLiu007/full-page-screenshot",
+  "name": "Full Page Screenshot",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "screenshot",
+    "browser",
+    "chrome-devtools",
+    "capture"
+  ],
+  "description_en": "Capture a full-length PNG screenshot of any web page—covering everything below the fold—by driving Chrome directly over the DevTools Protocol, handling SPA scroll containers, lazy-loaded images, and tall-page stitching.",
+  "description_zh": "对任意网页生成一张完整长截图 PNG(覆盖需要滚动才能看到的全部内容)——直连 Chrome DevTools 协议驱动浏览器,自动处理 SPA 内部滚动容器、懒加载图片与超长页面分片拼接。",
+  "long_en": "Connects straight to the Chrome DevTools WebSocket with no CDP proxy or middleware, so it works on an already-open tab or a given URL with only Node and Chrome's remote debugging.",
+  "long_zh": "直连 Chrome DevTools WebSocket,无需 CDP 代理或中间层,只要 Node 与 Chrome 远程调试即可对已打开的标签页或指定 URL 截图。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/LewisLiu007/full-page-screenshot"
+  },
+  "sec_note_en": "Requires Node 22+ and Chrome started with remote debugging; it controls your local Chrome session and only fetches the page you point it at.",
+  "sec_note_zh": "需要 Node 22+ 与开启远程调试的 Chrome;会控制你本地的 Chrome 会话,仅抓取你指定的页面。"
+}

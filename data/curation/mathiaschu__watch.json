@@ -1,0 +1,22 @@
+{
+  "full_name": "mathiaschu/watch",
+  "name": "Watch (Video Ingestion)",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "video",
+    "yt-dlp",
+    "transcript",
+    "ffmpeg"
+  ],
+  "description_en": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
+  "description_zh": "给 Claude 一个视频输入:从 YouTube、Instagram、X、Vimeo、TikTok 或 yt-dlp 支持的约 1800 个站点(或本地文件)下载,用 ffmpeg 抽取自适应缩放的帧,并从字幕或本地 whisper 取得带时间戳的转写——然后回答与视频内容相关的问题。",
+  "long_en": "Chains yt-dlp, ffmpeg, and a local mlx-whisper fallback into one pipeline so the agent can reason over both frames and transcript without any API key.",
+  "long_zh": "把 yt-dlp、ffmpeg 与本地 mlx-whisper 回退串成一条流水线,让 agent 无需任何 API key 即可结合画面帧与转写进行推理。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mathiaschu/watch"
+  },
+  "sec_note_en": "Downloads third-party video locally via yt-dlp—respect copyright and platform Terms of Service. Transcription runs on-device (no API key); a fork of bradautomates/claude-video.",
+  "sec_note_zh": "通过 yt-dlp 把第三方视频下载到本地——请遵守版权与平台服务条款。转写在本机运行(无需 API key);本仓库为 bradautomates/claude-video 的 fork。"
+}

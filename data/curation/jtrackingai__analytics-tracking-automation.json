@@ -1,0 +1,23 @@
+{
+  "full_name": "jtrackingai/analytics-tracking-automation",
+  "name": "Analytics Tracking Automation",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "ga4",
+    "gtm",
+    "analytics",
+    "tracking",
+    "playwright"
+  ],
+  "description_en": "End-to-end GA4 + GTM event-tracking delivery: discover the site, design the event schema, validate selectors, preview in a real browser, sync to Google Tag Manager via OAuth, and publish.",
+  "description_zh": "端到端的 GA4 + GTM 事件埋点交付:站点探查、事件 schema 设计、选择器校验、真实浏览器预览、经 OAuth 同步到 Google Tag Manager、发布。",
+  "long_en": "Coordinates the full tracking-delivery workflow as phased CLI steps, launching real Chromium for browser-backed checks and calling Google's official GTM API for sync and publish.",
+  "long_zh": "把埋点交付的完整流程编排为分阶段 CLI 步骤,需要时启动真实 Chromium 做浏览器侧校验,并调用 Google 官方 GTM API 完成同步与发布。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/jtrackingai/analytics-tracking-automation"
+  },
+  "sec_note_en": "Requires Node 18+ and Playwright Chromium; sync runs Google's interactive OAuth consent and stores the resulting user refresh token locally to call the GTM API. The CLI sends a minimal anonymous startup signal; richer diagnostics are opt-in.",
+  "sec_note_zh": "需要 Node 18+ 与 Playwright Chromium;sync 走 Google 交互式 OAuth 授权,并把得到的用户 refresh token 存在本地以调用 GTM API。CLI 会发送一个最小的匿名启动信号;更详细的诊断为可选开启。"
+}

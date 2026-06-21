@@ -1,0 +1,22 @@
+{
+  "full_name": "dancolta/seo-drift-monitor",
+  "name": "SEO Drift Monitor",
+  "kind": "skill",
+  "category": "automation",
+  "tags": [
+    "seo",
+    "monitoring",
+    "regression",
+    "audit"
+  ],
+  "description_en": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+  "description_zh": "为页面的 SEO 状态建立基线,在页面变更后检测回归——监控结构化数据、标题层级、meta 标签、canonical 与 Core Web Vitals——并生成可视化的前后对比报告与修复建议。",
+  "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
+  "long_zh": "一个防御性的回归监控:防止已有的 SEO 成果被改动或重新部署悄悄破坏,而非排名操纵工具。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/dancolta/seo-drift-monitor"
+  },
+  "sec_note_en": "Fetches and snapshots the pages you specify for comparison; analysis is read-only and reports are written locally.",
+  "sec_note_zh": "会抓取并快照你指定的页面用于对比;分析为只读,报告写在本地。"
+}
