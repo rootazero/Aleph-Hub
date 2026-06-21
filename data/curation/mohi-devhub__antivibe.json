@@ -1,0 +1,22 @@
+{
+  "full_name": "mohi-devhub/antivibe",
+  "name": "Antivibe",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "code-explanation",
+    "learning",
+    "audit",
+    "education"
+  ],
+  "description_en": "A code learning and audit framework: analyze any codebase—new, legacy, or AI-generated—and produce educational explanations of WHAT and WHY, or architectural audits of trade-offs and risks, so you understand code instead of just accepting it.",
+  "description_zh": "一个代码学习与审计框架:分析任意代码库——新写的、遗留的或 AI 生成的——产出关于「是什么/为什么」的教学式讲解,或对取舍与风险的架构审计,让你真正理解代码而非照单全收。",
+  "long_en": "Aimed at turning vibe-coded or unfamiliar code into a deliberate learning artifact, with separate modes for deep explanation and for audit-style trade-off analysis.",
+  "long_zh": "意在把「凭感觉写出」或陌生的代码变成有意识的学习材料,深度讲解与审计式取舍分析分作不同模式。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mohi-devhub/antivibe"
+  },
+  "sec_note_en": "Performs read-only analysis of the codebase you point it at to generate explanations and audits.",
+  "sec_note_zh": "对你指定的代码库做只读分析以生成讲解与审计,不修改代码。"
+}

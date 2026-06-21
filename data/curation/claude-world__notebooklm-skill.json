@@ -1,0 +1,22 @@
+{
+  "full_name": "claude-world/notebooklm-skill",
+  "name": "NotebookLM Research",
+  "kind": "skill",
+  "category": "search",
+  "tags": [
+    "research",
+    "notebooklm",
+    "sources",
+    "synthesis"
+  ],
+  "description_en": "An autonomous research agent powered by Google NotebookLM: ingest sources (URL, text, PDF, DOCX, YouTube, Drive), run deep web research, ask cited questions, and generate artifacts (report, slides, quiz, flashcards, mind map, audio/video) plus Claude-written content drafts.",
+  "description_zh": "由 Google NotebookLM 驱动的自主研究 agent:摄取来源(URL、文本、PDF、DOCX、YouTube、Drive),执行深度网络研究、提出带引证的问题,并生成多种产物(报告、幻灯片、测验、闪卡、思维导图、音/视频)以及由 Claude 撰写的内容草稿。",
+  "long_en": "Drives a source-grounded research-and-synthesis pipeline end to end, turning a topic or a pile of sources into cited answers and finished artifacts.",
+  "long_zh": "端到端驱动一条以来源为依据的研究与综合流水线,把一个主题或一堆来源变成带引证的答案与成品产物。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/claude-world/notebooklm-skill"
+  },
+  "sec_note_en": "Drives Google NotebookLM through the unofficial notebooklm-py library, so it may break on Google changes and is subject to NotebookLM's Terms; optional social publishing is opt-in.",
+  "sec_note_zh": "通过非官方的 notebooklm-py 库驱动 Google NotebookLM,Google 改动时可能失效,并受 NotebookLM 服务条款约束;可选的社媒发布为按需开启。"
+}

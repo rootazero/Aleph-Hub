@@ -1,0 +1,22 @@
+{
+  "full_name": "karanb192/algo-sensei",
+  "name": "Algo Sensei",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "dsa",
+    "leetcode",
+    "interview-prep",
+    "tutor"
+  ],
+  "description_en": "A personal DSA and LeetCode mentor: problem explanations, progressive hints, code reviews, mock interviews, pattern recognition, complexity analysis, and custom problem generation—teaching through the Socratic method rather than handing over answers.",
+  "description_zh": "个人化的数据结构与算法 / LeetCode 导师:题目讲解、渐进式提示、代码评审、模拟面试、模式识别、复杂度分析与自定义出题——以苏格拉底式提问引导,而非直接给答案。",
+  "long_en": "Emphasizes understanding and pattern intuition over memorization, adapting hint depth to the learner instead of revealing full solutions up front.",
+  "long_zh": "强调理解与模式直觉而非死记硬背,按学习者调整提示深度,而不是一上来就给出完整解法。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/karanb192/algo-sensei"
+  },
+  "sec_note_en": "A self-contained prompt-based tutor; it does not require external services or network access.",
+  "sec_note_zh": "一个自包含的提示式导师;不依赖外部服务或联网。"
+}

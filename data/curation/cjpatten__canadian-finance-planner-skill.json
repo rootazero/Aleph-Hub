@@ -1,0 +1,22 @@
+{
+  "full_name": "cjpatten/canadian-finance-planner-skill",
+  "name": "Canadian Finance Planner",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "personal-finance",
+    "canada",
+    "budgeting",
+    "retirement"
+  ],
+  "description_en": "A personal financial planning partner built for Canadians—conducts financial interviews, builds complete plans, and generates interactive dashboards covering budgeting, saving, debt, RRSPs, TFSAs, RESPs, CPP, OAS, retirement, and tax optimization.",
+  "description_zh": "为加拿大人打造的个人理财规划伙伴——进行财务访谈、构建完整计划,并生成交互式仪表盘,覆盖预算、储蓄、债务、RRSP、TFSA、RESP、CPP、OAS、退休与税务优化。",
+  "long_en": "Turns an open-ended 'help me with my money' into a structured plan with ongoing coaching and check-ins, calibrated to Canadian accounts and government benefits.",
+  "long_zh": "把笼统的「帮我理财」变成结构化的计划,并提供持续的辅导与复盘,针对加拿大账户与政府福利做了校准。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/cjpatten/canadian-finance-planner-skill"
+  },
+  "sec_note_en": "Collects personal financial details to build plans; it is educational, Canada-specific, and not a substitute for a licensed financial advisor.",
+  "sec_note_zh": "会收集个人财务细节以制定计划;内容为教育性质、面向加拿大,且不能替代持牌理财顾问。"
+}

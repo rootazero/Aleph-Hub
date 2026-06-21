@@ -1,0 +1,22 @@
+{
+  "full_name": "Jaderson-bit/mindmap-markmap-viewer",
+  "name": "Mindmap Viewer",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "mindmap",
+    "markmap",
+    "visualization",
+    "markdown"
+  ],
+  "description_en": "Turn Markdown outlines, notes, docs, or plans into an interactive mind map—a single self-contained offline HTML file built with markmap.js, featuring white-on-dark styling, expand-by-level control, zoom/export toolbar, and search that keeps matches in context.",
+  "description_zh": "把 Markdown 大纲、笔记、文档或计划变成交互式思维导图——基于 markmap.js 的单文件离线 HTML,带白字深底样式、按层级展开控制、缩放/导出工具栏,以及保留上下文的搜索。",
+  "long_en": "Renders hierarchical Markdown as a navigable SVG tree you can open anywhere offline, making notes and topic structures explorable instead of flat.",
+  "long_zh": "把层级化的 Markdown 渲染成可离线随处打开的可导航 SVG 树,让笔记与主题结构可探索,而非平铺。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Jaderson-bit/mindmap-markmap-viewer"
+  },
+  "sec_note_en": "Runs a local Python build with vendored markmap libraries to emit an offline HTML file; no network access required.",
+  "sec_note_zh": "用本地 Python 构建与内置的 markmap 库生成离线 HTML 文件;无需联网。"
+}

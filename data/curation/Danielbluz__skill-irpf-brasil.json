@@ -1,0 +1,22 @@
+{
+  "full_name": "Danielbluz/skill-irpf-brasil",
+  "name": "IRPF Brasil",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "tax",
+    "brazil",
+    "irpf",
+    "compliance"
+  ],
+  "description_en": "Specialist assistant for Brazil's personal income tax (IRPF, 2026 cycle / 2025 base year)—covers filing obligations, pre-filled returns, REVAR/B3, fixed income, capital gains (GCAP), offshore (Law 14.754), special cases, and the 2027 changes, with a focus on audit, compliance, and optimization.",
+  "description_zh": "巴西个人所得税(IRPF,2026 申报年度 / 2025 基准年)专项助手——覆盖申报义务、预填报、REVAR/B3、固定收益、资本利得(GCAP)、境外资产(14.754 号法)、特殊情形与 2027 年变更,聚焦审计、合规与优化。",
+  "long_en": "Guides Brazilian residents through the annual IRPF return with deep coverage of edge cases, explicitly positioned to assist alongside—not replace—the Receita Federal's official program.",
+  "long_zh": "引导巴西居民完成年度 IRPF 申报,对各类边角情形覆盖深入,并明确定位为辅助而非替代联邦税务局的官方程序。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Danielbluz/skill-irpf-brasil"
+  },
+  "sec_note_en": "Handles sensitive personal tax data and gives compliance guidance, not professional tax advice; confirm with the Receita Federal's official program and a qualified accountant before filing.",
+  "sec_note_zh": "会处理敏感的个人税务数据并提供合规指引,而非专业税务意见;申报前请以联邦税务局官方程序与合格会计师为准。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "elderengineer/tax-organizer",
+  "name": "Tax Organizer",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "tax",
+    "us-tax",
+    "schedule-e",
+    "expenses"
+  ],
+  "description_en": "Organize and process US personal and consultant tax documents—W-2, 1099s, K-1s, 1098—into accurate reports and drafts, handling rental properties, royalties, partnerships/S-corps, business expenses, per-diem optimization, and charitable receipts.",
+  "description_zh": "整理并处理美国个人与顾问类报税文件——W-2、1099、K-1、1098——生成准确的报表与草稿,涵盖出租物业、版税、合伙/S-corp、业务开支、差旅 per-diem 优化与慈善凭据。",
+  "long_en": "Matches expenses to income sources and drafts schedules (e.g., Schedule E) from messy document sets, reducing the manual sorting before a return is finalized.",
+  "long_zh": "从杂乱的文件集中把开支与收入来源对应起来并起草附表(如 Schedule E),减少定稿前的人工整理。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/elderengineer/tax-organizer"
+  },
+  "sec_note_en": "Processes highly sensitive tax documents locally and produces drafts only—not professional tax advice; have a CPA review before filing.",
+  "sec_note_zh": "在本地处理高度敏感的报税文件,仅生成草稿而非专业税务意见;申报前请由注册会计师复核。"
+}

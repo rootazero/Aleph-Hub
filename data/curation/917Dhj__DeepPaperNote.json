@@ -1,0 +1,22 @@
+{
+  "full_name": "917Dhj/DeepPaperNote",
+  "name": "DeepPaperNote",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "papers",
+    "obsidian",
+    "notes",
+    "research"
+  ],
+  "description_en": "Deep-read a single paper—given a title, DOI, URL, arXiv ID, Zotero item, or local PDF—and generate a high-quality, well-structured Markdown reading note with evidence-based analysis and figure placeholders, saved into an Obsidian-style vault.",
+  "description_zh": "深读单篇论文——给定标题、DOI、URL、arXiv ID、Zotero 条目或本地 PDF——生成结构清晰、有据可循的高质量 Markdown 精读笔记(含图位占位),写入 Obsidian 风格的知识库。",
+  "long_en": "Focuses on one paper at a time to produce a polished, navigable note rather than a shallow summary, fitting straight into a personal knowledge base.",
+  "long_zh": "一次只聚焦一篇论文,产出可精读、可导航的笔记而非浅层摘要,直接融入个人知识库。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/917Dhj/DeepPaperNote"
+  },
+  "sec_note_en": "Reads the paper you point it at and writes notes into your vault or workspace; verify its analysis against the source.",
+  "sec_note_zh": "读取你指定的论文并把笔记写入你的库或工作区;请将其分析与原文核对。"
+}

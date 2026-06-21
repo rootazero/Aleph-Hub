@@ -1,0 +1,22 @@
+{
+  "full_name": "sliday/genealogy-research",
+  "name": "Genealogy Research",
+  "kind": "skill",
+  "category": "search",
+  "tags": [
+    "genealogy",
+    "research",
+    "gedcom",
+    "obsidian"
+  ],
+  "description_en": "A genealogy research assistant using the Genealogical Proof Standard: analyzes historical documents and handwritten records in any script, manages an Obsidian knowledge base, builds family trees and GEDCOM, and plans the next steps for systematic ancestor discovery.",
+  "description_zh": "采用「家谱证明标准」(GPS)的家谱研究助手:解析任意文字的历史文献与手写记录,管理 Obsidian 知识库,构建家谱与 GEDCOM,并为系统性的祖先溯源规划下一步。",
+  "long_en": "Brings a disciplined research methodology to ancestor discovery, tracking evidence and progress across countries and time periods rather than ad-hoc note-keeping.",
+  "long_zh": "为祖先溯源引入规范的研究方法,跨国家与年代地追踪证据与进度,而非临时记录。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/sliday/genealogy-research"
+  },
+  "sec_note_en": "Analyzes personal and historical documents you provide and maintains a local Obsidian vault; keep living-relatives' data private.",
+  "sec_note_zh": "会解析你提供的个人与历史文献,并维护本地 Obsidian 库;请妥善保护在世亲属的隐私数据。"
+}
