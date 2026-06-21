@@ -3,5 +3,10 @@
   "seeds": [
     "https://github.com/ComposioHQ/awesome-claude-skills",
     "https://github.com/travisvn/awesome-claude-skills"
+  ],
+  "pins": [
+    "microsoft/playwright-mcp",
+    "wonderwhy-er/DesktopCommanderMCP",
+    "mobile-next/mobile-mcp"
   ]
 }

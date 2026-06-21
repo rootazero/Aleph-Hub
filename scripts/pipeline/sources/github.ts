@@ -4,7 +4,10 @@ import type { Source } from "@/scripts/pipeline/sources/types";
 import { extractGitHubLinks } from "@/scripts/pipeline/sources/types";
 import { rawToCandidate } from "@/scripts/pipeline/normalize";
 
-export interface GitHubSeeds { queries: string[]; seeds: string[]; }
+// queries: topic searches. seeds: awesome-list URLs whose HTML is scraped for repo links.
+// pins: repo full_names always included directly (curated, known-good repos that topic/list
+// discovery doesn't reliably surface — e.g. popular MCP servers without claude-skills topics).
+export interface GitHubSeeds { queries: string[]; seeds: string[]; pins?: string[]; }
 
 export class GitHubSource implements Source {
   readonly id = "github" as const;
@@ -12,6 +15,7 @@ export class GitHubSource implements Source {
 
   async fetch(): Promise<Candidate[]> {
     const urls = new Set<string>();
+    for (const fn of this.deps.seeds.pins ?? []) urls.add(`https://github.com/${fn}`);
     for (const q of this.deps.seeds.queries) {
       for (const fn of await this.deps.gh.searchRepos(q)) urls.add(`https://github.com/${fn}`);
     }

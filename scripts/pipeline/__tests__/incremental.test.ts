@@ -32,13 +32,13 @@ describe("incremental run", () => {
     const seed: Record<string, RepoCache> = {};
     for (let i = 0; i < 8; i++) seed[`acme/foo${i}`] = { etag: "e", readme_hash: contentHashReadme(README), entry: curatedFixture(`acme/foo${i}`) };
     const res = await run({ sources: [source], gh, store, registry, http, clock,
-      officialOrgs: new Set(), history: {}, prevContractCount: 8, cache: memCache(seed) });
+      officialOrgs: new Set(), history: {}, prevContractCount: 8, cache: memCache(seed), firstParty: [], llm: null });
     expect(res.report.emitted).toBe(8);
     expect(res.report.curated).toBe(0); // all 8 reused from cache
   });
   it("throws when a source collapses vs the previous run (§6.2)", async () => {
     const cache = memCache({}, { github: 100 }); // last run saw 100, now 8 → >50% drop
     await expect(run({ sources: [source], gh, store, registry, http, clock,
-      officialOrgs: new Set(), history: {}, prevContractCount: 8, cache })).rejects.toThrow(/source/i);
+      officialOrgs: new Set(), history: {}, prevContractCount: 8, cache, firstParty: [], llm: null })).rejects.toThrow(/source/i);
   });
 });

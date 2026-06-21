@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { run } from "@/scripts/pipeline/run";
-import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, RepoMeta, CacheStore } from "@/scripts/pipeline/ports";
+import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, RepoMeta, CacheStore, LlmClient } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
 
 const emptyCache: CacheStore = { get: () => undefined, set: () => {}, entries: () => ({}), prevPerSource: () => ({}), setPerSource: () => {} };
@@ -26,7 +26,7 @@ describe("run (integration, mocked ports)", () => {
   it("emits curated repos, queues uncurated ones, reports coverage", async () => {
     const urls = Array.from({ length: 9 }, (_, i) => `https://github.com/acme/foo${i}`);
     const res = await run({ sources: [source(urls)], gh, store, registry, http, clock,
-      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache });
+      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache, firstParty: [], llm: null });
     expect(res.report.discovered).toBe(9);
     expect(res.report.emitted).toBe(8);                 // foo8 uncurated → excluded (8 ≥ MIN_ENTRIES, clears floor gate)
     expect(res.report.queued).toBe(1);
@@ -35,5 +35,37 @@ describe("run (integration, mocked ports)", () => {
     expect((res.catalog as any).entries).toHaveLength(8);
     expect((res.site as any).entries[0].trend).toBeNull();
     expect((res.catalog as any).entries[0].install_spec.type).toBe("mcp_stdio");
+  });
+
+  it("auto-curates queued repos when an LLM client accepts them", async () => {
+    const urls = Array.from({ length: 9 }, (_, i) => `https://github.com/acme/foo${i}`);
+    const llm: LlmClient = {
+      curate: async (input) => ({
+        decision: "accept",
+        proposal: {
+          name: input.full_name.split("/")[1], kind: "mcp", category: "developer", tags: ["x"],
+          description_en: "Auto.", description_zh: "自动。", long_en: "Long.", long_zh: "长。",
+          sec_note_en: "Reviewed by LLM.", sec_note_zh: "已由 LLM 审核。",
+        },
+      }),
+    };
+    const res = await run({ sources: [source(urls)], gh, store, registry, http, clock,
+      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache, firstParty: [], llm });
+    expect(res.report.autoCurated).toBe(1);            // foo8 (the only uncurated repo) picked up
+    expect(res.report.emitted).toBe(9);                // 8 human + 1 auto
+    expect(res.report.queued).toBe(0);                 // backlog drained
+    expect(res.newCurations).toHaveLength(1);
+    expect(res.newCurations[0].full_name).toBe("acme/foo8");
+    expect(res.newCurations[0].curated_by).toBe("llm");
+  });
+
+  it("leaves repos queued when the LLM rejects them", async () => {
+    const urls = Array.from({ length: 9 }, (_, i) => `https://github.com/acme/foo${i}`);
+    const llm: LlmClient = { curate: async () => ({ decision: "reject", reason: "offensive security tooling" }) };
+    const res = await run({ sources: [source(urls)], gh, store, registry, http, clock,
+      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache, firstParty: [], llm });
+    expect(res.report.autoCurated).toBe(0);
+    expect(res.report.queued).toBe(1);                 // foo8 stays in the backlog
+    expect(res.newCurations).toHaveLength(0);
   });
 });

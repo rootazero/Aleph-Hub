@@ -48,6 +48,33 @@ export interface CurationRecord {
 }
 export interface CurationStore { get(fullName: string): CurationRecord | null; }
 
+// Autonomous curation (Phase 2). The LLM applies the curation policy as a hard filter
+// ("不确定就排除") and either proposes a record or rejects with a reason. The proposal
+// mirrors the human curation fields; install_spec is re-inferred downstream by curate().
+export interface LlmCurationInput {
+  full_name: string;
+  repo_url: string;
+  stars: number;
+  license: string | null;
+  readme: string;
+}
+export interface LlmProposal {
+  name: string;
+  kind: "skill" | "plugin" | "mcp";
+  category: string;
+  tags: string[];
+  description_en: string; description_zh: string;
+  long_en: string; long_zh: string;
+  sec_note_en: string; sec_note_zh: string;
+}
+export type LlmCurationResult =
+  | { decision: "accept"; proposal: LlmProposal }
+  | { decision: "reject"; reason: string };
+export interface LlmClient {
+  // null = transport/parse failure (caller leaves the repo queued for a later run).
+  curate(input: LlmCurationInput): Promise<LlmCurationResult | null>;
+}
+
 export interface RegistryClient {
   // null = lookup failed (network); {exists:false} = definitively absent.
   npmPackage(name: string): Promise<{ exists: boolean; repository: string | null } | null>;

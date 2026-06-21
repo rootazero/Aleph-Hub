@@ -46,7 +46,8 @@ export interface BuildReport {
   candidates: number;
   deduped: number;
   discovered: number;         // deduped repos considered this run
-  curated: number;            // records applied this run
+  curated: number;            // human records applied this run
+  autoCurated: number;        // repos curated by the LLM this run (Phase 2)
   queued: number;             // discovered but uncurated → to-curate.json
   verified: number;
   emitted: number;

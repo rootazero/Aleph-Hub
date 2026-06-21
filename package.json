@@ -13,9 +13,11 @@
     "typecheck": "tsc --noEmit",
     "e2e": "playwright test",
     "pipeline": "tsx scripts/pipeline/index.ts",
+    "pipeline:regen-firstparty": "tsx scripts/pipeline/regen-firstparty.ts",
     "validate:catalog": "tsx scripts/validate-catalog.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.105.0",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

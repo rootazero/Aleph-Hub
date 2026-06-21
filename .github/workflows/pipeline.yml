@@ -21,6 +21,10 @@ jobs:
       - name: Run deterministic pipeline
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Enables autonomous LLM curation of the discovered backlog. If the secret is
+          # unset, auto-curation is skipped and the run still publishes human + first-party
+          # entries (makeLlmCurator() returns null without a key).
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run pipeline
       # On push to main, Vercel's git integration auto-deploys the new catalog — no explicit hook step.
       - name: Commit artifacts if changed
