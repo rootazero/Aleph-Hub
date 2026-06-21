@@ -2,7 +2,7 @@
 // No business logic here (that lives in the tested stage modules); errors degrade to null.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
-import type { GitHubApi, RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord } from "@/scripts/pipeline/ports";
+import type { RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord, RawGitHubApi } from "@/scripts/pipeline/ports";
 
 const GH_API = "https://api.github.com";
 
@@ -12,7 +12,7 @@ function ghHeaders(extra: Record<string, string> = {}): Record<string, string> {
     ...(token ? { Authorization: `Bearer ${token}` } : {}), ...extra };
 }
 
-function makeGitHub(): GitHubApi {
+export function makeGitHub(): RawGitHubApi {
   return {
     async searchRepos(query, opts) {
       const perPage = opts?.perPage ?? 100;
@@ -28,9 +28,10 @@ function makeGitHub(): GitHubApi {
       }
       return out;
     },
-    async getRepo(fullName) {
+    async getRepo(fullName, etag) {
       try {
-        const res = await fetch(`${GH_API}/repos/${fullName}`, { headers: ghHeaders() });
+        const res = await fetch(`${GH_API}/repos/${fullName}`, { headers: ghHeaders(etag ? { "If-None-Match": etag } : {}) });
+        if (res.status === 304) return { meta: null, etag: res.headers.get("etag") ?? etag ?? "", notModified: true };
         if (!res.ok) return null;
         const r = (await res.json()) as Record<string, any>;
         const meta: RepoMeta = {
@@ -110,5 +111,5 @@ function makeFileStore(): FileStore {
 }
 
 export function makeAdapters() {
-  return { gh: makeGitHub(), store: makeCurationStore(), registry: makeRegistry(), http: makeHttp(), clock: makeClock(), fs: makeFileStore() };
+  return { store: makeCurationStore(), registry: makeRegistry(), http: makeHttp(), clock: makeClock(), fs: makeFileStore() };
 }

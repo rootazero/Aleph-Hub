@@ -45,7 +45,7 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
 
   for (const cand of deduped) {
     const cached = ports.cache.get(cand.full_name);
-    const got = await ports.gh.getRepo(cand.full_name, cached?.etag);
+    const got = await ports.gh.getRepo(cand.full_name);
     if (!got) continue;
 
     const record = ports.store.get(cand.full_name);

@@ -1,5 +1,6 @@
 import { run } from "@/scripts/pipeline/run";
-import { makeAdapters } from "@/scripts/pipeline/adapters";
+import { makeAdapters, makeGitHub } from "@/scripts/pipeline/adapters";
+import { makeCachingGitHub, type MetaCacheEntry } from "@/scripts/pipeline/gh-cache";
 import { GitHubSource } from "@/scripts/pipeline/sources/github";
 import { ClawHubSource } from "@/scripts/pipeline/sources/clawhub";
 import { HermesAtlasSource } from "@/scripts/pipeline/sources/hermes";
@@ -18,7 +19,11 @@ function makeFileCache(fs: FileStore): CacheStore {
 }
 
 async function main() {
-  const { gh, store, registry, http, clock, fs } = makeAdapters();
+  const { store, registry, http, clock, fs } = makeAdapters();
+  const metaCache = new Map<string, MetaCacheEntry>(
+    Object.entries(fs.readJson<Record<string, MetaCacheEntry>>("data/cache/repos-meta.json") ?? {}),
+  );
+  const gh = makeCachingGitHub(makeGitHub(), metaCache);
   const cache = makeFileCache(fs);
   const seeds = fs.readJson<{ queries: string[]; seeds: string[] }>("data/seeds/github.json")!;
   const officialOrgs = new Set((fs.readJson<string[]>("data/seeds/official-orgs.json") ?? []).map((s) => s.toLowerCase()));
@@ -34,6 +39,7 @@ async function main() {
 
   fs.writeText("data/.heartbeat", res.heartbeat);    // always — keepalive (D14)
   fs.writeJson("data/queue/to-curate.json", res.queue);  // always — backlog visibility for agent curation
+  fs.writeJson("data/cache/repos-meta.json", Object.fromEntries(metaCache)); // always — persist etags for next run's 304s
   if (res.hash !== prevHash) {                         // §6.7 skip-emit on unchanged content
     fs.writeJson("public/catalog.json", res.catalog);
     fs.writeJson("data/site-catalog.json", res.site);
