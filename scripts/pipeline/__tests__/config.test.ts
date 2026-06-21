@@ -11,6 +11,6 @@ describe("pipeline config", () => {
     expect(CONFIG.MIN_ENTRIES).toBeGreaterThan(0);
     expect(CONFIG.MAX_DROP_PCT).toBeGreaterThan(0);
     expect(CONFIG.MAX_DROP_PCT).toBeLessThanOrEqual(1);
-    expect(CONFIG.SOURCE_PRIORITY[0]).toBe("github");
+    expect(CONFIG.SOURCE_PRIORITY[0]).toBe("hermes-atlas");
   });
 });

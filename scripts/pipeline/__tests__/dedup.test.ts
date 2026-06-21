@@ -29,11 +29,11 @@ describe("dedupe", () => {
   it("keeps the higher-priority source on a tie", async () => {
     const gh = fakeGh({ "acme/foo": meta("acme/foo") });
     const out = await dedupe([
-      { repo_url: "https://github.com/acme/foo", via: "clawhub", raw: {} },
       { repo_url: "https://github.com/acme/foo", via: "github:acme", raw: {} },
+      { repo_url: "https://github.com/acme/foo", via: "hermes-atlas", raw: {} },
     ], gh);
     expect(out).toHaveLength(1);
-    expect(out[0].via).toBe("github:acme");
+    expect(out[0].via).toBe("hermes-atlas");
   });
   it("drops candidates whose repo does not resolve", async () => {
     const gh = fakeGh({});
