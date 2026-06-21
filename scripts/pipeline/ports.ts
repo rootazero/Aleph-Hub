@@ -21,6 +21,19 @@ export interface GitHubApi {
   getContent(fullName: string, path: string): Promise<string | null>;
 }
 
+// The thin HTTP adapter honors conditional requests: a 304 carries no body, so
+// `meta` is null on notModified. The gh-cache decorator reconciles this back to a
+// full RepoMeta (from cache) and presents the unchanged GitHubApi to the pipeline.
+export type RawRepoResult =
+  | { meta: RepoMeta; etag: string; notModified: false }
+  | { meta: null; etag: string; notModified: true };
+export interface RawGitHubApi {
+  searchRepos(query: string, opts?: { perPage?: number; maxPages?: number }): Promise<string[]>;
+  getRepo(fullName: string, etag?: string): Promise<RawRepoResult | null>;
+  getReadme(fullName: string): Promise<string | null>;
+  getContent(fullName: string, path: string): Promise<string | null>;
+}
+
 // Curation comes from a git-committed store (data/curation/*.json), not an API.
 export interface CurationRecord {
   full_name: string;          // canonical owner/repo (lower-cased on lookup)
