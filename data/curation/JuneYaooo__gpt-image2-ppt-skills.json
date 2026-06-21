@@ -1,0 +1,22 @@
+{
+  "full_name": "JuneYaooo/gpt-image2-ppt-skills",
+  "name": "GPT-Image PPT",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "powerpoint",
+    "slides",
+    "gpt-image",
+    "presentation"
+  ],
+  "description_en": "Generate visually striking slide decks with OpenAI's gpt-image-2—feed a markdown outline plus a visual style, get high-res slide PNGs packaged into a 16:9 PPTX.",
+  "description_zh": "用 OpenAI 的 gpt-image-2 生成视觉惊艳的幻灯片——喂入 markdown 大纲与一种视觉风格,逐页出高清 PNG 并打包成 16:9 的 PPTX。",
+  "long_en": "Drives OpenAI's Images API page by page from an outline (or slides_plan.json), applying a chosen style or mimicking a user-supplied .pptx template.",
+  "long_zh": "从大纲(或 slides_plan.json)逐页调用 OpenAI 官方 Images API,套用所选风格或仿照用户提供的 .pptx 模板出图。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills"
+  },
+  "sec_note_en": "Requires an OpenAI API key with gpt-image-2 access and sends your slide content to the API; costs accrue per image.",
+  "sec_note_zh": "需具备 gpt-image-2 访问权限的 OpenAI API Key,并会把幻灯片内容发送至该 API;按图计费。"
+}

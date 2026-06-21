@@ -1,0 +1,22 @@
+{
+  "full_name": "iamzifei/wechat-article-formatter-skill",
+  "name": "WeChat Article Formatter",
+  "kind": "skill",
+  "category": "communication",
+  "tags": [
+    "wechat",
+    "publishing",
+    "markdown",
+    "formatting"
+  ],
+  "description_en": "Format markdown articles with bm.md styling and publish them straight to WeChat Official Account drafts via the official API.",
+  "description_zh": "用 bm.md 样式排版 markdown 文章,并经官方 API 直接发布到微信公众号草稿。",
+  "long_en": "Reads a markdown file, uploads local images to the WeChat CDN, rewrites image paths, applies styling, and creates a draft through the WeChat Official Account API.",
+  "long_zh": "读取 markdown 文件,把本地图片上传到微信 CDN 并替换路径,套用样式,再经公众号官方 API 创建草稿。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/iamzifei/wechat-article-formatter-skill"
+  },
+  "sec_note_en": "Requires WeChat Official Account API credentials and uploads your content; scope the credentials and review drafts before publishing.",
+  "sec_note_zh": "需要微信公众号 API 凭据并会上传内容;请限定凭据权限,发布前审阅草稿。"
+}

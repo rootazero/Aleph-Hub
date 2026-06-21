@@ -1,0 +1,22 @@
+{
+  "full_name": "agentenatalie/get-job.skill",
+  "name": "Get Job",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "job-search",
+    "resume",
+    "interview",
+    "career"
+  ],
+  "description_en": "A full job-hunt agent: research what a target role actually wants, re-target your resume to it, and prep interviews bullet by bullet.",
+  "description_zh": "一个完整的求职 agent:调研目标岗位真实要求、按岗位反向定位简历,并逐条深挖准备面试。",
+  "long_en": "Three linked stages—role research via web search, resume re-targeting, and round-by-round interview prep—producing research notes, a revised .docx resume, and an interview-prep folder.",
+  "long_zh": "三段链路——用网搜调研岗位、按岗位重定位简历、按轮次准备面试——产出岗位调研、改后的 .docx 简历与面试准备文件夹。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/agentenatalie/get-job.skill"
+  },
+  "sec_note_en": "Performs web searches and writes resume documents locally; review generated claims before submitting to employers.",
+  "sec_note_zh": "会进行网络搜索并在本地生成简历文档;投递前请核验生成内容的真实性。"
+}

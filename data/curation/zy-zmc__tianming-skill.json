@@ -1,0 +1,22 @@
+{
+  "full_name": "zy-zmc/tianming-skill",
+  "name": "Tianming Novel System",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "novel",
+    "creative-writing",
+    "long-form",
+    "chinese"
+  ],
+  "description_en": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
+  "description_zh": "面向多卷长篇小说的协同创作系统,在章节间保持世界观、伏笔、节奏与文风的一致性。",
+  "long_en": "Command-driven (outline, plan, draft, manuscript, checkup, archive) and backed by external knowledge-base files for world rules, character profiles, events, and style samples.",
+  "long_zh": "以指令驱动(大纲/规划/草案/正文/体检/存档),并依赖外部知识库文件管理世界观规则、角色档案、事件与文风样本。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/zy-zmc/tianming-skill"
+  },
+  "sec_note_en": "Reads and writes local manuscript and knowledge-base files; keep backups of your work.",
+  "sec_note_zh": "读写本地稿件与知识库文件;请为作品保留备份。"
+}

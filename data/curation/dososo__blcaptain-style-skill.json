@@ -1,0 +1,22 @@
+{
+  "full_name": "dososo/blcaptain-style-skill",
+  "name": "BLCaptain Style Cards",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "social-cards",
+    "xiaohongshu",
+    "wechat",
+    "design"
+  ],
+  "description_en": "Turn Chinese text into eye-catching social image cards—Xiaohongshu 3:4 and WeChat covers—using three distinct house visual languages.",
+  "description_zh": "把中文内容做成第一眼惊艳的图文卡片组图——小红书 3:4 与公众号封面——提供三套独家视觉语言。",
+  "long_en": "The agent reads the content and authors a brief.json (page splits, visual language, layout, pull-quotes); a deterministic engine then renders the cards and runs quality checks.",
+  "long_zh": "由 agent 读懂内容并撰写 brief.json(分页、视觉语言、版式、金句),再交由确定性引擎渲染卡片并做质量校验。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/dososo/blcaptain-style-skill"
+  },
+  "sec_note_en": "Generates local image files for publishing; review cards before posting.",
+  "sec_note_zh": "生成用于发布的本地图片文件;发布前请审阅成片。"
+}

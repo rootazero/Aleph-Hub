@@ -1,0 +1,22 @@
+{
+  "full_name": "Ashutos1997/claude-design-auditor-skill",
+  "name": "Design Auditor",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "design-review",
+    "accessibility",
+    "wcag",
+    "figma"
+  ],
+  "description_en": "Audit designs against 19 rules across Figma files and code (HTML/CSS/React/Vue/Tailwind)—accessibility, contrast, tokens, responsiveness, dark patterns, and Nielsen heuristics.",
+  "description_zh": "按 19 条规则审查 Figma 与代码(HTML/CSS/React/Vue/Tailwind)中的设计——可访问性、对比度、设计令牌、响应式、暗黑模式与 Nielsen 启发式。",
+  "long_en": "Auto-detects framework and design system (MUI, Chakra, shadcn/ui, Ant, Radix, Bootstrap), flags color-blindness risk, and outputs before/after diffs and developer handoff reports in English and Korean.",
+  "long_zh": "自动识别框架与设计系统(MUI、Chakra、shadcn/ui、Ant、Radix、Bootstrap),提示色盲风险,输出前后差异对比与开发交接报告(支持英语与韩语)。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Ashutos1997/claude-design-auditor-skill"
+  },
+  "sec_note_en": "Reads your design and code files to produce reports; no changes are applied without your action.",
+  "sec_note_zh": "读取你的设计与代码文件以生成报告;未经你操作不会改动文件。"
+}
