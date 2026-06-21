@@ -10,26 +10,31 @@ body { margin: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeL
 input, textarea, select, button { font-family: inherit; }
 input::placeholder, textarea::placeholder { color: var(--taupe); }
 
-/* Index hover affordances. Color shifts are always on (not motion); padding/translate
-   movement is gated behind prefers-reduced-motion. */
-.idx-feature-title, .idx-row-name, .idx-preview-name { transition: color .18s ease; }
-.idx-feature:hover .idx-feature-title,
-.idx-row:hover .idx-row-name,
-.idx-preview:hover .idx-preview-name { color: var(--orange); }
+/* Index regions: hover affordances. Color shifts are always on (not motion);
+   padding/translate movement is gated behind prefers-reduced-motion. */
+.idx-feat-name, .idx-spot-title { transition: color .18s ease; }
+.idx-feat-row:hover .idx-feat-name,
+.idx-spotlight:hover .idx-spot-title { color: var(--orange); }
+.idx-spotlight { transition: border-color .18s ease; }
+.idx-spotlight:hover { border-color: var(--orange); }
 
 @media (prefers-reduced-motion: no-preference) {
-  .idx-row, .idx-kind { transition: padding-left .18s ease; }
-  .idx-feature-arrow, .idx-kind-arrow { display: inline-block; transition: transform .18s ease; }
-  .idx-row:hover { padding-left: 6px; }
-  .idx-kind:hover { padding-left: 8px; }
-  .idx-feature:hover .idx-feature-arrow,
-  .idx-kind:hover .idx-kind-arrow { transform: translateX(4px); }
+  .idx-feat-row { transition: padding-left .18s ease; }
+  .idx-feat-row:hover { padding-left: 6px; }
+  .idx-spotlight { transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+  .idx-spotlight:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(36,28,22,.10); }
 }
 
-/* Mobile collapse for the latest lede (inline grid -> single column). */
+/* The image "main extension" spans two rows; its side alternates per region. */
+.idx-feat-right .idx-main { grid-column: 2; grid-row: 1 / span 2; }
+.idx-feat-left .idx-main { grid-column: 1; grid-row: 1 / span 2; }
+
+/* Index region layouts collapse to a single column on small screens; the main
+   extension returns to normal flow (placed first by source order). */
 @media (max-width: 768px) {
-  .idx-lede { grid-template-columns: 1fr !important; gap: 26px !important; }
-  .idx-lede .idx-alsonew { border-left: none !important; padding-left: 0 !important; border-top: 1px solid var(--hair); padding-top: 18px; }
+  .idx-region-grid, .idx-plugins-2col { grid-template-columns: 1fr !important; gap: 0 !important; }
+  .idx-plugins-2col { gap: 18px !important; }
+  .idx-region-grid .idx-main { grid-column: 1 !important; grid-row: auto !important; margin-bottom: 6px; }
 }
 
 /* Catalog card hover: border + elevation. The lift transform is motion, so it is

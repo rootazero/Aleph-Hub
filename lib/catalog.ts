@@ -1,6 +1,7 @@
 import siteData from "@/data/site-catalog.json";
 import { validateSiteCatalog, type SiteEntryT } from "@/contract/site";
 import type { ExtensionKindT } from "@/contract/types";
+import { FEATURED_BY_KIND } from "@/lib/featured";
 
 const CATALOG = validateSiteCatalog(siteData);
 
@@ -25,12 +26,34 @@ function byRecency(a: SiteEntryT, b: SiteEntryT): number {
   const d = (b.updated ?? "").localeCompare(a.updated ?? "");
   return d !== 0 ? d : b.stars - a.stars;
 }
-export function latest(n: number): SiteEntryT[] {
-  return [...CATALOG.entries].sort(byRecency).slice(0, n);
-}
 // Newest entry of a single kind, or undefined when that axis is still empty.
 export function newestOfKind(kind: ExtensionKindT): SiteEntryT | undefined {
   return getByKind(kind).sort(byRecency)[0];
+}
+// The kind's headline pick (the image "main extension"): the first curated slug
+// if set, otherwise the most-starred entry. undefined when the axis is empty.
+export function flagshipOfKind(kind: ExtensionKindT): SiteEntryT | undefined {
+  const pool = getByKind(kind);
+  if (!pool.length) return undefined;
+  for (const slug of FEATURED_BY_KIND[kind]) {
+    const e = pool.find((x) => slugForEntry(x) === slug);
+    if (e) return e;
+  }
+  return [...pool].sort((a, b) => b.stars - a.stars)[0];
+}
+// Featured picks for a kind's homepage region: curated slugs (FEATURED_BY_KIND)
+// lead, then the newest entry so recency always surfaces, then top entries by
+// stars to fill up to n. Empty kinds return [].
+export function featuredOfKind(kind: ExtensionKindT, n: number): SiteEntryT[] {
+  const pool = getByKind(kind);
+  if (!pool.length) return [];
+  const out: SiteEntryT[] = [];
+  const seen = new Set<string>();
+  const push = (e?: SiteEntryT) => { if (e && !seen.has(e.id)) { out.push(e); seen.add(e.id); } };
+  for (const slug of FEATURED_BY_KIND[kind]) push(pool.find((x) => slugForEntry(x) === slug));
+  push(newestOfKind(kind));
+  for (const e of [...pool].sort((a, b) => b.stars - a.stars)) { if (out.length >= n) break; push(e); }
+  return out.slice(0, n);
 }
 // Related = same category (matches the mockup's detail "Related" logic), excluding self.
 export function related(entry: SiteEntryT, n: number): SiteEntryT[] {
@@ -70,11 +93,4 @@ export function kindCounts(): Record<ExtensionKindT, number> {
 }
 export function formatStars(n: number): string {
   return n >= 1000 ? `${(n / 1000).toFixed(1).replace(/\.0$/, "")}k` : String(n);
-}
-// "2026-06-20" -> "Jun 20". Returns "" for missing/malformed dates (caller hides it).
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-export function formatShortDate(iso?: string): string {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso ?? "");
-  if (!m) return "";
-  return `${MONTHS[Number(m[2]) - 1]} ${Number(m[3])}`;
 }
