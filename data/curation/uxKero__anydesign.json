@@ -1,0 +1,22 @@
+{
+  "full_name": "uxKero/anydesign",
+  "name": "AnyDesign",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "design-system",
+    "figma",
+    "tokens",
+    "reverse-engineering"
+  ],
+  "description_en": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
+  "description_zh": "分析图片、网站与 Figma 文件以提炼其设计,生成含令牌系统、组件清单与复刻说明的 design.md。",
+  "long_en": "Works on full surfaces or single elements (navbar, illustration), emitting token-grounded image-model prompts when the element is visual art.",
+  "long_zh": "既能处理整页也能处理单个元素(导航栏、插画),当元素是视觉艺术时还会输出基于令牌的图像模型提示词。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/uxKero/anydesign"
+  },
+  "sec_note_en": "Reads visual sources you provide and writes documentation locally; no changes are made to the source.",
+  "sec_note_zh": "读取你提供的视觉来源并在本地生成文档;不会改动来源。"
+}

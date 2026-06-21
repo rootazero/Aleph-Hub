@@ -1,0 +1,22 @@
+{
+  "full_name": "Hao0321/ai-media-generator",
+  "name": "AI Media Generator",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "ai-art",
+    "video",
+    "music",
+    "prompts"
+  ],
+  "description_en": "Write high-quality prompts for AI image, video, and music platforms—picking the right model for the task—and optionally drive the target site via browser automation to submit them.",
+  "description_zh": "为 AI 生图、生视频、生音乐平台撰写高质量提示词(并按任务选对模型),需要时还能通过浏览器自动化把提示词送到目标平台。",
+  "long_en": "Platform-agnostic across Kling, Suno, Midjourney, Runway, Veo, Seedance, Flux and more, with guidance on character consistency, multi-shot storyboards, and fixing flawed results.",
+  "long_zh": "跨 Kling、Suno、Midjourney、Runway、Veo、Seedance、Flux 等平台通用,涵盖角色一致性、多镜头分镜与瑕疵修复的指引。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Hao0321/ai-media-generator"
+  },
+  "sec_note_en": "Can drive your browser to submit content to third-party platforms; review actions and use accounts you control.",
+  "sec_note_zh": "可驱动浏览器向第三方平台提交内容;请审阅操作并使用你自己掌控的账号。"
+}

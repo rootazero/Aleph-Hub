@@ -1,0 +1,22 @@
+{
+  "full_name": "apiotrowski-afk/commercial-legal-pl",
+  "name": "Polish Commercial Legal",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "legal",
+    "contracts",
+    "poland",
+    "b2b"
+  ],
+  "description_en": "Analyze and draft contracts under Polish law—B2B, IP, and IT agreements (body leasing, NDA, deployments, SaaS, copyright transfer, settlements)—built by a Polish law firm.",
+  "description_zh": "按波兰法律分析与起草合同——B2B、知识产权与 IT 合同(人力外包、NDA、实施、SaaS、著作权转让、和解)——由一家波兰律师事务所打造。",
+  "long_en": "Audits contractual risk, generates new agreements in the firm's house style, and checks clause consistency, grounded in the KTZR firm's clause base and \"golden rules\".",
+  "long_zh": "审计合同风险、按事务所风格生成新合同并校验条款一致性,以 KTZR 事务所的条款库与「黄金规则」为依据。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/apiotrowski-afk/commercial-legal-pl"
+  },
+  "sec_note_en": "Produces draft legal text, not legal advice; have a qualified lawyer review before use.",
+  "sec_note_zh": "产出的是法律文本草稿而非法律意见;使用前请由合格律师审阅。"
+}

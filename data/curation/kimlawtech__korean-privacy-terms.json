@@ -1,0 +1,22 @@
+{
+  "full_name": "kimlawtech/korean-privacy-terms",
+  "name": "Privacy & Terms Generator",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "privacy-policy",
+    "legal",
+    "gdpr",
+    "compliance"
+  ],
+  "description_en": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
+  "description_zh": "通过问答式的四变体技能包,生成覆盖韩国 PIPA、欧盟 GDPR、美国 CCPA/CPRA 的隐私政策与服务条款。",
+  "long_en": "A v4.0 dispatcher presents privacy-kr / privacy-eu / privacy-us / privacy-global as a numbered menu and jumps straight into the chosen interview to draft compliant documents.",
+  "long_zh": "v4.0 调度入口以编号菜单提供 privacy-kr / privacy-eu / privacy-us / privacy-global,选定后直接进入对应问答,起草合规文档。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/kimlawtech/korean-privacy-terms"
+  },
+  "sec_note_en": "Produces draft legal text, not legal advice; have a qualified lawyer review before publishing.",
+  "sec_note_zh": "产出的是法律文本草稿而非法律意见;发布前请由合格律师审阅。"
+}

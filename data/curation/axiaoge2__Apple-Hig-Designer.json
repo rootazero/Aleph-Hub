@@ -1,0 +1,22 @@
+{
+  "full_name": "axiaoge2/Apple-Hig-Designer",
+  "name": "Apple HIG Designer",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "apple",
+    "ios",
+    "macos",
+    "hig"
+  ],
+  "description_en": "Design Apple-style iOS and macOS interfaces that follow the Human Interface Guidelines—SF Symbols, San Francisco typography, and proper accessibility.",
+  "description_zh": "设计遵循 Apple 人机界面指南(HIG)的 iOS / macOS 风格界面——SF Symbols、San Francisco 字体与规范的可访问性。",
+  "long_en": "Produces HIG-compliant components to Apple-design-team quality standards, with optional modern visual effects and support for implementing design-system specs.",
+  "long_zh": "以 Apple 设计团队的质量标准产出符合 HIG 的组件,支持可选的现代视觉效果与按设计系统规范落地。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/axiaoge2/Apple-Hig-Designer"
+  },
+  "sec_note_en": "Generates UI code and design assets locally; review before shipping.",
+  "sec_note_zh": "在本地生成 UI 代码与设计素材;上线前请审阅。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "KAOPU-XiaoPu/web-design",
+  "name": "Web Design",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "web-design",
+    "ui",
+    "landing-page",
+    "frontend"
+  ],
+  "description_en": "A two-phase web visual-design skill: first produce a standardized DESIGN.md spec from your PRD / reference URL / screenshot / keywords, then generate UI/UX, visual, motion, and responsive web code that meets it.",
+  "description_zh": "两阶段的 Web 视觉设计技能:先从 PRD / 参考 URL / 截图 / 关键词产出标准化的 DESIGN.md 规范,确认后据此生成达标的 UI/UX、视觉、动效与响应式网页代码。",
+  "long_en": "Specializes in web surfaces—landing pages, portfolios, product pages, blogs, personal sites, SaaS pages—gating code generation behind an agreed design spec.",
+  "long_zh": "专攻 web 端——落地页、作品集、产品页、博客、个人站、SaaS 介绍页——先定规范再出代码。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/KAOPU-XiaoPu/web-design"
+  },
+  "sec_note_en": "Generates local web code and assets; review output before deploying.",
+  "sec_note_zh": "生成本地网页代码与素材;部署前请审阅产物。"
+}

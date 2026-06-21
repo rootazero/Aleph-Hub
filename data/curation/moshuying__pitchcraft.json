@@ -1,0 +1,22 @@
+{
+  "full_name": "moshuying/pitchcraft",
+  "name": "PitchCraft",
+  "kind": "skill",
+  "category": "communication",
+  "tags": [
+    "persuasion",
+    "pitch",
+    "briefing",
+    "communication"
+  ],
+  "description_en": "Structured persuasion for tech leads, PMs, and founders—turn raw updates into briefings on a Hook→Context→Proposal→Evidence→Ask framework across five scenarios.",
+  "description_zh": "面向技术负责人、PM 与创始人的结构化说服——用 Hook→Context→Proposal→Evidence→Ask 框架,把零散信息整理成五类场景的简报。",
+  "long_en": "Covers kickoff, status update, wrap-up, investor pitch, and solution selling; the agent prompts for missing materials and audience context and runs a pre-submit checklist.",
+  "long_zh": "覆盖启动、进展汇报、收尾、投资路演与方案销售;会主动追问缺失材料与受众背景,并在提交前过一遍检查清单。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/moshuying/pitchcraft"
+  },
+  "sec_note_en": "Text-only guidance; no system access.",
+  "sec_note_zh": "纯文本指导;不访问系统。"
+}
