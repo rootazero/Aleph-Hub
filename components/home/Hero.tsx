@@ -2,11 +2,13 @@
 import Link from "next/link";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS } from "@/lib/i18n";
+import { getAll } from "@/lib/catalog";
 
 // Mockup lines 47-55.
 export function Hero() {
   const { lang } = useLang();
   const t = STRINGS[lang];
+  const ctaAll = t.ctaAll.replace("{n}", String(getAll().length));
   const cta = { fontSize: 12, letterSpacing: ".14em", textTransform: "uppercase" as const, fontWeight: 600, padding: "14px 28px", borderRadius: 2, textDecoration: "none" };
   return (
     <div>
@@ -17,7 +19,7 @@ export function Hero() {
       <p style={{ fontSize: 17, lineHeight: 1.62, color: "var(--ink-soft)", maxWidth: "46ch", margin: "0 0 32px" }}>{t.heroSub}</p>
       <div style={{ display: "flex", gap: 12 }}>
         <Link href="/c/skill" style={{ ...cta, color: "var(--bg)", background: "var(--ink)" }}>{t.ctaExplore}</Link>
-        <Link href="/c/mcp" style={{ ...cta, color: "var(--ink)", border: "1px solid var(--hair-strong)" }}>{t.ctaAll}</Link>
+        <Link href="/c/mcp" style={{ ...cta, color: "var(--ink)", border: "1px solid var(--hair-strong)" }}>{ctaAll}</Link>
       </div>
     </div>
   );

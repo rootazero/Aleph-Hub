@@ -23,7 +23,7 @@ export const STRINGS: Record<Lang, Strings> = {
   zh: {
     submit: "提交", kicker: "The Agent Capability Atlas", heroA: "为你的 Agent", heroEm: "精挑细选", heroB: "每一件能力",
     heroSub: "像逛精品店一样发现 Agent Skills、MCP 插件与集成。每一件都经过安全审核与编辑甄选，开源、可安装、持续更新。",
-    ctaExplore: "开始探索", ctaAll: "浏览全部 622 件", editorPick: "编辑推荐", searchPh: "搜索 skill、MCP、集成…",
+    ctaExplore: "开始探索", ctaAll: "浏览全部 {n} 件", editorPick: "编辑推荐", searchPh: "搜索 skill、MCP、集成…",
     stProjects: "收录项目", stCats: "大分类", stDailyN: "每日", stSync: "同步星标",
     indexTitle: "目录 · Index", browseByCat: "按类别浏览 →", trendingTitle: "本周趋势 · Trending", collectionTitle: "精选合辑 · Collection",
     newTag: "新", pluginsInvite: "插件目录正在筹备中，欢迎把你的插件提交进来一起共建。", submitPlugin: "提交插件", comingSoon: "即将上线",
@@ -40,7 +40,7 @@ export const STRINGS: Record<Lang, Strings> = {
   en: {
     submit: "Submit", kicker: "The Agent Capability Atlas", heroA: "Hand-pick every", heroEm: "capability ", heroB: "for your agent",
     heroSub: "Discover Agent Skills, MCP plugins and integrations like browsing a boutique. Every piece is security-reviewed and editor-curated — open source, installable, always fresh.",
-    ctaExplore: "Start exploring", ctaAll: "Browse all 622", editorPick: "Editor's Pick", searchPh: "Search skills, MCP, integrations…",
+    ctaExplore: "Start exploring", ctaAll: "Browse all {n}", editorPick: "Editor's Pick", searchPh: "Search skills, MCP, integrations…",
     stProjects: "Projects", stCats: "Categories", stDailyN: "Daily", stSync: "Star sync",
     indexTitle: "Index", browseByCat: "Browse by category →", trendingTitle: "Trending this week", collectionTitle: "Editor's Collection",
     newTag: "New", pluginsInvite: "The plugin shelf is being curated. Submit yours to help build it out.", submitPlugin: "Submit a plugin", comingSoon: "Coming soon",
