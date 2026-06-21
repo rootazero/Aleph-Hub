@@ -1,0 +1,22 @@
+{
+  "full_name": "CosmoBlk/email-marketing-bible",
+  "name": "Email Marketing Bible",
+  "kind": "skill",
+  "category": "communication",
+  "tags": [
+    "email",
+    "marketing",
+    "deliverability",
+    "copywriting"
+  ],
+  "description_en": "A data-backed email-marketing skill—plan and run automation flows, drive an ESP from an agent, diagnose deliverability, write and refine copy, and pull benchmarks.",
+  "description_zh": "以数据为依据的邮件营销技能——规划与运行自动化流程、从智能体驱动 ESP、诊断送达率、撰写与打磨文案,并调取基准数据。",
+  "long_en": "Covers AI email automation, flows, deliverability, copy, design, and platform selection, grounded in published benchmarks rather than guesswork.",
+  "long_zh": "覆盖 AI 邮件自动化、流程、送达率、文案、设计与平台选择,以公开基准而非拍脑袋为依据。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/CosmoBlk/email-marketing-bible"
+  },
+  "sec_note_en": "Can connect to your email service provider to send mail; use permission-based lists and review sends.",
+  "sec_note_zh": "可连接你的邮件服务商发送邮件;请使用经许可的名单并审阅发送内容。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "WangYutao0915/pdf-to-chinese-latex",
+  "name": "PDF to Chinese LaTeX",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "pdf",
+    "latex",
+    "translation",
+    "overleaf"
+  ],
+  "description_en": "Translate academic PDFs in any language into Chinese LaTeX projects that compile in Overleaf with XeLaTeX, preserving equations, tables, figures, and bibliography one-to-one.",
+  "description_zh": "把任意语种的学术 PDF 论文翻译成可在 Overleaf 用 XeLaTeX 编译的中文 LaTeX 工程,公式、表格、图片与参考文献逐一对应保留。",
+  "long_en": "Keeps equation numbering and reference alignment intact, producing an Overleaf-ready Chinese version of foreign-language papers.",
+  "long_zh": "保持公式编号与引用对齐不变,产出可直接用于 Overleaf 的外文论文中文版。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/WangYutao0915/pdf-to-chinese-latex"
+  },
+  "sec_note_en": "Sends paper text to a translation step; review the translation for technical accuracy.",
+  "sec_note_zh": "会把论文文本送入翻译环节;请审阅译文的技术准确性。"
+}

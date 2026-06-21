@@ -1,0 +1,22 @@
+{
+  "full_name": "BayramAnnakov/excel-hygiene",
+  "name": "Excel Hygiene",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "excel",
+    "spreadsheet",
+    "qa",
+    "audit"
+  ],
+  "description_en": "A rigorous \"second pair of eyes\" on any xlsx before it ships—catches numbers-as-text, hardcoded-over-formula, cell errors, truncated SUMs, and percent-as-whole-number.",
+  "description_zh": "在 xlsx 发出前做严格的「第二双眼睛」——揪出数字存为文本、硬编码覆盖公式、单元格错误、被截断的 SUM 与百分比写成整数等问题。",
+  "long_en": "Runs a deterministic script for mechanical checks, then reasons across the full spreadsheet-error taxonomy (Panko 2008) for subtler issues.",
+  "long_zh": "先用确定性脚本做机械校验,再依据完整的电子表格错误分类法(Panko 2008)推理更隐蔽的问题。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/BayramAnnakov/excel-hygiene"
+  },
+  "sec_note_en": "Reads the spreadsheet you provide and reports issues; it does not modify your file without action.",
+  "sec_note_zh": "读取你提供的电子表格并报告问题;未经操作不会修改文件。"
+}

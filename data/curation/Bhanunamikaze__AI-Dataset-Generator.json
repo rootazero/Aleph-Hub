@@ -1,0 +1,22 @@
+{
+  "full_name": "Bhanunamikaze/AI-Dataset-Generator",
+  "name": "Dataset Generator",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "dataset",
+    "training-data",
+    "sft",
+    "dpo"
+  ],
+  "description_en": "Generate, normalize, verify, deduplicate, and export training datasets from topics, URLs, reference material, or existing JSONL/CSV—supporting SFT and DPO workflows.",
+  "description_zh": "从主题、URL、参考材料或现有 JSONL/CSV 生成、规范化、校验、去重并导出训练数据集——支持 SFT 与 DPO 工作流。",
+  "long_en": "Uses deterministic local pipeline scripts with custom export schemas to build datasets for Codex, Antigravity, and Claude Code.",
+  "long_zh": "借助确定性的本地流水线脚本与自定义导出 schema,为 Codex、Antigravity 与 Claude Code 构建数据集。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator"
+  },
+  "sec_note_en": "Can fetch reference material from URLs and writes dataset files locally; review sources and outputs.",
+  "sec_note_zh": "可从 URL 获取参考材料并在本地写出数据集文件;请审阅来源与产物。"
+}

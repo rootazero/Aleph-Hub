@@ -1,0 +1,22 @@
+{
+  "full_name": "xntj-ai/onepage-pdf",
+  "name": "OnePage PDF",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "pdf",
+    "html",
+    "export",
+    "conversion"
+  ],
+  "description_en": "Convert an HTML page into a single continuous-page PDF—one tall page with no pagination breaks—preserving desktop layout, backgrounds, and selectable text.",
+  "description_zh": "把 HTML 页面转成单张连续长页 PDF——一整张高页、不分页——保留桌面版排版、背景与可选中文本。",
+  "long_en": "Fixes HTML-to-PDF exports that break content across pages, with optional string redaction and leak verification.",
+  "long_zh": "解决 HTML 转 PDF 时内容被分页切断的问题,并支持可选的字符串脱敏与泄漏校验。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xntj-ai/onepage-pdf"
+  },
+  "sec_note_en": "Renders local HTML to PDF; if using redaction, verify the leak-check output before sharing.",
+  "sec_note_zh": "把本地 HTML 渲染为 PDF;若使用脱敏,分享前请核对泄漏校验结果。"
+}

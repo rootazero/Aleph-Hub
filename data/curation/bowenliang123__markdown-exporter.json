@@ -1,0 +1,22 @@
+{
+  "full_name": "bowenliang123/markdown-exporter",
+  "name": "Markdown Exporter",
+  "kind": "skill",
+  "category": "files",
+  "tags": [
+    "markdown",
+    "docx",
+    "pdf",
+    "conversion"
+  ],
+  "description_en": "Convert Markdown to DOCX, PPTX, XLSX, PDF, HTML, IPYNB, CSV, JSON, XML and more, and extract fenced code blocks into Python, Bash, JS, and other source files.",
+  "description_zh": "把 Markdown 转换为 DOCX、PPTX、XLSX、PDF、HTML、IPYNB、CSV、JSON、XML 等格式,并把围栏代码块抽取为 Python、Bash、JS 等源文件。",
+  "long_en": "A broad document-conversion skill covering most office and notebook formats from a single Markdown source.",
+  "long_zh": "一个覆盖面广的文档转换技能,从单一 Markdown 源生成大多数办公与 notebook 格式。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/bowenliang123/markdown-exporter"
+  },
+  "sec_note_en": "Reads your Markdown and writes converted files locally; no network access required.",
+  "sec_note_zh": "读取你的 Markdown 并在本地写出转换文件;无需联网。"
+}

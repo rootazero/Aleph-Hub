@@ -1,0 +1,22 @@
+{
+  "full_name": "Innei/media-library-organizer-skill",
+  "name": "Media Library Organizer",
+  "kind": "skill",
+  "category": "files",
+  "tags": [
+    "media",
+    "nas",
+    "organize",
+    "tmdb"
+  ],
+  "description_en": "Organize media files (movies, TV, anime) on NAS or local storage—clean junk files, merge scattered episodes, normalize folder names to \"Title (Year)\", and verify episode completeness against TMDB.",
+  "description_zh": "整理 NAS 或本地存储上的影音文件(电影、剧集、动画)——清理垃圾文件、合并散落剧集、把文件夹名规范为「标题 (年份)」,并对照 TMDB 校验集数完整性。",
+  "long_en": "Brings a consistent, media-server-friendly structure to large libraries while flagging missing episodes.",
+  "long_zh": "为大型媒体库带来一致、便于媒体服务器识别的目录结构,并标记缺失集数。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Innei/media-library-organizer-skill"
+  },
+  "sec_note_en": "Renames and moves files in the directories you point it at; back up or dry-run before applying.",
+  "sec_note_zh": "会在你指定的目录中重命名与移动文件;应用前请先备份或试运行。"
+}

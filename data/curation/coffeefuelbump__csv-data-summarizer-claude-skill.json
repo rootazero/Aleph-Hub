@@ -1,0 +1,22 @@
+{
+  "full_name": "coffeefuelbump/csv-data-summarizer-claude-skill",
+  "name": "CSV Data Summarizer",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "csv",
+    "pandas",
+    "statistics",
+    "visualization"
+  ],
+  "description_en": "Analyze CSV files, generate summary statistics, and plot quick visualizations using Python, pandas, and matplotlib/seaborn.",
+  "description_zh": "用 Python、pandas 与 matplotlib/seaborn 分析 CSV 文件、生成汇总统计并快速绘图。",
+  "long_en": "A focused data-exploration skill (v2.1.0) for fast first-pass profiling of tabular data.",
+  "long_zh": "一个聚焦的数据探查技能(v2.1.0),用于对表格数据做快速首轮画像。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill"
+  },
+  "sec_note_en": "Runs Python locally on the CSV files you provide; review generated scripts before execution.",
+  "sec_note_zh": "在你提供的 CSV 上本地运行 Python;执行前请审阅生成的脚本。"
+}
