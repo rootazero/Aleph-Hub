@@ -1,0 +1,21 @@
+{
+  "full_name": "tlehman/litprog-skill",
+  "name": "Literate Programming",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "literate-programming",
+    "documentation",
+    "pandoc"
+  ],
+  "description_en": "Turn a codebase into a literate program—one markdown file that reads as documentation and tangles back into the original source code.",
+  "description_zh": "把代码库变成「文学化程序」——单个 markdown 文件既是面向人阅读的文档,又能 tangle 还原出原始源码。",
+  "long_en": "Write a `.lit.md` file with named code chunks: WEAVE renders a PDF (prose, diagrams, math, highlighted code) via Pandoc, while TANGLE extracts the source files from root chunks.",
+  "long_zh": "用具名代码块编写 `.lit.md` 文件:WEAVE 经 Pandoc 渲染出含散文、图表、公式与高亮代码的 PDF,TANGLE 则从根代码块抽取出源文件。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/tlehman/litprog-skill"
+  },
+  "sec_note_en": "Runs Pandoc and tangles files locally; review generated code chunks before building.",
+  "sec_note_zh": "在本地运行 Pandoc 并 tangle 文件;构建前请审阅生成的代码块。"
+}

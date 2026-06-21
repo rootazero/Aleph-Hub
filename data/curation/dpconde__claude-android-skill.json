@@ -1,0 +1,22 @@
+{
+  "full_name": "dpconde/claude-android-skill",
+  "name": "Android Development",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "android",
+    "kotlin",
+    "jetpack-compose",
+    "architecture"
+  ],
+  "description_en": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
+  "description_zh": "按 Google 官方架构与 NowInAndroid 范例构建生产级 Android 应用——Kotlin、Compose、MVVM、Hilt、Room、多模块。",
+  "long_en": "Scaffolds projects, feature modules, screens, ViewModels, and repositories using bundled reference docs and templates that encode Google's recommended layering.",
+  "long_zh": "借助内置参考文档与模板搭建项目、功能模块、界面、ViewModel 与仓储,落地 Google 推荐的分层架构。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/dpconde/claude-android-skill"
+  },
+  "sec_note_en": "Generates app code and Gradle config; review dependencies and build files before running.",
+  "sec_note_zh": "生成应用代码与 Gradle 配置;运行前请审阅依赖与构建文件。"
+}

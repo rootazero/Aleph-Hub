@@ -1,0 +1,22 @@
+{
+  "full_name": "likaku/Mck-ppt-design-skill",
+  "name": "McKinsey PPT Design",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "powerpoint",
+    "slides",
+    "python-pptx",
+    "presentation"
+  ],
+  "description_en": "Generate consultant-grade, McKinsey-style PowerPoint decks from scratch via a python-pptx engine with high-level layout methods and built-in guard rails.",
+  "description_zh": "通过 python-pptx 引擎从零生成咨询级、麦肯锡风格的 PPT,内置高层版式方法与排版护栏。",
+  "long_en": "MckEngine wraps python-pptx with cover/donut/timeline and dozens more methods across structure, data, and storytelling, enforcing consistent typography and spacing to avoid file corruption.",
+  "long_zh": "MckEngine 封装 python-pptx,提供封面/环形图/时间线等覆盖结构、数据与叙事的数十种方法,统一字体与间距以规避文件损坏。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/likaku/Mck-ppt-design-skill"
+  },
+  "sec_note_en": "Requires `pip install python-pptx lxml` and runs Python locally; some cover-image features call an external image model.",
+  "sec_note_zh": "需 `pip install python-pptx lxml` 并在本地运行 Python;部分封面配图功能会调用外部图像模型。"
+}

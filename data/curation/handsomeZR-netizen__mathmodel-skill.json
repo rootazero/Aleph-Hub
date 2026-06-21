@@ -1,0 +1,22 @@
+{
+  "full_name": "handsomeZR-netizen/mathmodel-skill",
+  "name": "Math Modeling",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "math-modeling",
+    "academic",
+    "competition",
+    "writing"
+  ],
+  "description_en": "End-to-end workflow for math-modeling competitions (CUMCM, MCM/ICM): topic selection, modeling, solving, paper writing, and final review.",
+  "description_zh": "数学建模竞赛(CUMCM 国赛 / MCM·ICM 美赛 / 电工杯)的端到端工作流:选题、建模、求解、论文写作与终稿审核。",
+  "long_en": "A 10-phase, Q&A-driven workflow with per-stage rubric self-checks and cross-stage consistency passes, packaged for both Codex Skills and Claude Code.",
+  "long_zh": "10 阶段、问答式驱动的工作流,每阶段含 rubric 自评与跨阶段一致性回检,同时按 Codex Skills 与 Claude Code 形态打包。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/handsomeZR-netizen/mathmodel-skill"
+  },
+  "sec_note_en": "Guidance and code-gen for academic work; verify models and results, and follow your competition's honor code.",
+  "sec_note_zh": "面向学术工作的指导与代码生成;请核验模型与结果,并遵守竞赛诚信规则。"
+}

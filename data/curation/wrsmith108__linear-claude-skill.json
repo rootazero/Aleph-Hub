@@ -1,0 +1,21 @@
+{
+  "full_name": "wrsmith108/linear-claude-skill",
+  "name": "Linear",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "linear",
+    "issue-tracking",
+    "project-management"
+  ],
+  "description_en": "Manage Linear issues, projects, and teams from your agent—create issues, update status, query projects, and drive team workflows.",
+  "description_zh": "在智能体中管理 Linear 的 issue、项目与团队——创建 issue、更新状态、查询项目并推进团队工作流。",
+  "long_en": "A mature skill (v3.2.0) that works across multiple Linear backends—MCP, GraphQL, and WebFetch—to read and mutate issues, projects, and team workflows.",
+  "long_zh": "一个成熟技能(v3.2.0),兼容多种 Linear 后端(MCP、GraphQL、WebFetch),读写 issue、项目与团队工作流。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/wrsmith108/linear-claude-skill"
+  },
+  "sec_note_en": "Needs a Linear API token and can modify your workspace data; scope the token and review writes.",
+  "sec_note_zh": "需要 Linear API 令牌,且会修改工作区数据;请限定令牌权限并审阅写操作。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "irenerachel/visual-style-ppt-skill",
+  "name": "Visual Style PPT",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "slides",
+    "image-generation",
+    "design",
+    "presentation"
+  ],
+  "description_en": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
+  "description_zh": "提炼可复用的视觉风格,把每页渲染为生成图片再拼装成图片版 PPTX,做出风格驱动的纯图幻灯片。",
+  "long_en": "Extracts, saves, and reapplies visual-style keywords from documents or references; the deliverable is full-slide images placed into an image-only deck.",
+  "long_zh": "从文档或参考图中提炼、保存并复用视觉风格关键词;最终产物是放入纯图幻灯片的整页图片。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/irenerachel/visual-style-ppt-skill"
+  },
+  "sec_note_en": "Requires access to the \"Image 2\" image model—every slide image is generated through it, and the skill will not run without it.",
+  "sec_note_zh": "需具备 \"Image 2\" 图像模型的访问权限——每页图片都由它生成,缺少则无法运行。"
+}
