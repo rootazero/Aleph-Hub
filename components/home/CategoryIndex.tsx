@@ -77,7 +77,7 @@ export function CategoryIndex() {
   const dataRegion = (k: ExtensionKindT, main: SiteEntryT) => {
     const rows = featuredOfKind(k, 7).filter((e) => e.id !== main.id).slice(0, 6);
     return (
-      <div className={`idx-region-grid idx-feat-${KINDS[k].side}`} style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 44px", alignItems: "start", gridAutoFlow: "row dense" }}>
+      <div className={`idx-region-grid idx-feat-${KINDS[k].side}`} style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: "0 44px", alignItems: "start", gridAutoFlow: "row dense" }}>
         {mainCard(k, main)}
         {rows.map((e) => featRow(k, e))}
       </div>
