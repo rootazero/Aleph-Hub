@@ -126,7 +126,7 @@
     }
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"938969314cd322d3ad89337165a47b0a85c7a5b15bddeb01d73ab09e614290e1\"",
+    "etag": "W/\"5f0e2c32ed95c519d67a703fa24b961480b9a9bd388e626acff1186259430602\"",
     "readme_hash": "1a82e557109371affb54e003d1228655b04f742215432bd6d86eeb956a93abae",
     "entry": {
       "id": "aleph-hub:zarazhangrui/frontend-slides",
@@ -159,7 +159,7 @@
     }
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"29393ea8ad3bd4ee83f57fb5badf86d1d0680225431e4c379de39a18dda8f3a0\"",
+    "etag": "W/\"b9950178999b6d7b8510d1dfc954a8e2042dc01ea44cd76e9672d0c11fe3b731\"",
     "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
     "entry": {
       "id": "aleph-hub:op7418/guizang-social-card-skill",
@@ -193,7 +193,7 @@
     }
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"24b6aa1b24ca08c0913693beae98f71f6b3706a9d8e16b36dd412f89fea1e0a2\"",
+    "etag": "W/\"652a9b2a93bb459750d638608ec7c593bd4d050b9825ca1a09eef376acb6703b\"",
     "readme_hash": "d719683e3641d3bdb7707b3b0be5f7c9844171c5cf3506fe25a00f79098acef8",
     "entry": {
       "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
@@ -226,7 +226,7 @@
     }
   },
   "tt-a1i/archify": {
-    "etag": "W/\"7dfa9e34803ecbe40f05e96c2bbc3f8b019c45d08f252301ef9b2394b4b646ff\"",
+    "etag": "W/\"1e7a5cfe17b779de784c8c0b9a16340aac577fefa8f981e945e846166f038b50\"",
     "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
     "entry": {
       "id": "aleph-hub:tt-a1i/archify",
@@ -259,7 +259,7 @@
     }
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"5b70c33250398a02c878da120de62db5e3b45bdf2738545ead3803aee21f5862\"",
+    "etag": "W/\"8d927fb714d65daf06c9dd48bdf102a577c527c7ca64387648f1b4bc103b5ca8\"",
     "readme_hash": "8b739820f2a1008231eef8598f724aaf99326097c079fca86eaafe5c8a326ca0",
     "entry": {
       "id": "aleph-hub:nolangz/pixel2motion",
@@ -325,7 +325,7 @@
     }
   },
   "Bhanunamikaze/Agentic-SEO-Skill": {
-    "etag": "W/\"fe470fe0560ffa11de75defc668d2cb200853a7efed7476fec2cf96e857fe320\"",
+    "etag": "W/\"4d9f8c9764737f42b32cfa71dd5f0e82d6e9f6bfed61ab7b7e0f53bf7cb23c0c\"",
     "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
     "entry": {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -358,8 +358,8 @@
     }
   },
   "TexasBedouin/vibe-check": {
-    "etag": "W/\"3ed084465def7d475cb656ba2a0858cee0fa17b85326e416adc380cb2448a720\"",
-    "readme_hash": "e911aa5cf2409b9ff232db75cc96b903cecba39756e42e5aafb27da1250afa2a",
+    "etag": "W/\"0172de25d09e8830d34b7c514f1c3aaa0d5730ebc4036c96aa76a2e43a795377\"",
+    "readme_hash": "75f06f2d835b270443bc58af8f4eacc0d0e7b2c6237e4a4ae234076d8555c4ec",
     "entry": {
       "id": "aleph-hub:TexasBedouin/vibe-check",
       "repo_url": "https://github.com/TexasBedouin/vibe-check",
@@ -391,7 +391,7 @@
     }
   },
   "ckelsoe/prompt-architect": {
-    "etag": "W/\"e9e6a17e5d4128a2cb4d6aef1bcdcdf573a8da72775a92d02be17db66db66419\"",
+    "etag": "W/\"6c597dcfd4c0599cd6e2562840c2a9ade5a12cc5f45e7cd37e9d4098d9cb97b4\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entry": {
       "id": "aleph-hub:ckelsoe/prompt-architect",
@@ -424,7 +424,7 @@
     }
   },
   "JamesShi96/project-butler": {
-    "etag": "W/\"990906e8575e67b42215abf1651849b45a0fcfeb95fa58dbb1ccbc975252d016\"",
+    "etag": "W/\"13bc55a955899b89bc8b0111fbc2ba2f45812022885523ad499bd989274dbe37\"",
     "readme_hash": "d75d21402c39a0c06c7f642b16521ddbd5c487c99fd07ddb373a3b870c987d3b",
     "entry": {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -453,6 +453,2317 @@
       "long_zh": "维护持久项目上下文(决策、结构、笔记)的技能,让 Claude Code、Cursor 等助手能延续上下文继续工作。",
       "sec_note_en": "Stores project notes locally; review what it persists.",
       "sec_note_zh": "在本地存储项目笔记;请审阅其持久化的内容。",
+      "requires_config": false
+    }
+  },
+  "coffeefuelbump/csv-data-summarizer-claude-skill": {
+    "etag": "W/\"1e8891a0080014bc659d314c7e1eb19c0ff5f37e9c7aa2aca53ad263fee5bbc9\"",
+    "readme_hash": "8e030cda3fa0af5165beeffd9db7b5d5f6166f93f37b53384bd52c9db1b392be",
+    "entry": {
+      "id": "aleph-hub:coffeefuelbump/csv-data-summarizer-claude-skill",
+      "repo_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+      "via": "github:coffeefuelbump",
+      "full_name": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "owner": "coffeefuelbump",
+      "repo": "csv-data-summarizer-claude-skill",
+      "kind": "skill",
+      "name": "CSV Data Summarizer",
+      "author": "coffeefuelbump",
+      "category": "data",
+      "tags": [
+        "csv",
+        "pandas",
+        "statistics",
+        "visualization"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Analyze CSV files, generate summary statistics, and plot quick visualizations using Python, pandas, and matplotlib/seaborn.",
+      "description_zh": "用 Python、pandas 与 matplotlib/seaborn 分析 CSV 文件、生成汇总统计并快速绘图。",
+      "long_en": "A focused data-exploration skill (v2.1.0) for fast first-pass profiling of tabular data.",
+      "long_zh": "一个聚焦的数据探查技能(v2.1.0),用于对表格数据做快速首轮画像。",
+      "sec_note_en": "Runs Python locally on the CSV files you provide; review generated scripts before execution.",
+      "sec_note_zh": "在你提供的 CSV 上本地运行 Python;执行前请审阅生成的脚本。",
+      "requires_config": false
+    }
+  },
+  "KaguraNanaga/document-format-skills": {
+    "etag": "W/\"2f4ebb0133a6568df7de4ba2a1885839956a47badffcc47711e716ba766e36e1\"",
+    "readme_hash": "8885fa7d2a079a27ab6c6ac3caf53aa186f0b36e50aef81f18711ad8fb53ccf5",
+    "entry": {
+      "id": "aleph-hub:KaguraNanaga/document-format-skills",
+      "repo_url": "https://github.com/KaguraNanaga/document-format-skills",
+      "via": "github:KaguraNanaga",
+      "full_name": "KaguraNanaga/document-format-skills",
+      "owner": "KaguraNanaga",
+      "repo": "document-format-skills",
+      "kind": "skill",
+      "name": "Chinese Document Formatter",
+      "author": "KaguraNanaga",
+      "category": "files",
+      "tags": [
+        "docx",
+        "formatting",
+        "chinese",
+        "word"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/KaguraNanaga/document-format-skills",
+        "git_ref": "main"
+      },
+      "description_en": "A Chinese Word document formatting toolkit for .docx/.doc/.wps: diagnose formatting issues, fix mixed Chinese/English punctuation and spacing, apply official/academic/legal presets, normalize tables and page numbers, preserve revision marks, and convert plain text or Markdown into formatted DOCX.",
+      "description_zh": "面向 .docx/.doc/.wps 的中文 Word 文档排版工具箱:诊断排版问题、修正中英文标点与空格、套用公文/学术/法律预设、规范表格与页码、保留修订标记,并把纯文本或 Markdown 转成已排版的 DOCX。",
+      "long_en": "Runs command-line scripts that mirror a desktop formatter's pipeline, suited to batch cleanup of Chinese official documents without a GUI.",
+      "long_zh": "通过命令行脚本复刻桌面排版工具的核心流程,适合无 GUI 地批量清理中文公文。",
+      "sec_note_en": "Runs local Python scripts that rewrite your Word documents in place; back up before batch cleanup.",
+      "sec_note_zh": "运行本地 Python 脚本就地改写你的 Word 文档;批量清理前请先备份。",
+      "requires_config": false
+    }
+  },
+  "karanb192/algo-sensei": {
+    "etag": "W/\"22280f84648124f2b2ff646b66bf714fb04b7a67c1df1443b0534300c566ad52\"",
+    "readme_hash": "e102d6031dd5a513a587ee39f8f6f32cb5428390081df771ba59abe1f7f044eb",
+    "entry": {
+      "id": "aleph-hub:karanb192/algo-sensei",
+      "repo_url": "https://github.com/karanb192/algo-sensei",
+      "via": "github:karanb192",
+      "full_name": "karanb192/algo-sensei",
+      "owner": "karanb192",
+      "repo": "algo-sensei",
+      "kind": "skill",
+      "name": "Algo Sensei",
+      "author": "karanb192",
+      "category": "knowledge",
+      "tags": [
+        "dsa",
+        "leetcode",
+        "interview-prep",
+        "tutor"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/karanb192/algo-sensei",
+        "git_ref": "main"
+      },
+      "description_en": "A personal DSA and LeetCode mentor: problem explanations, progressive hints, code reviews, mock interviews, pattern recognition, complexity analysis, and custom problem generation—teaching through the Socratic method rather than handing over answers.",
+      "description_zh": "个人化的数据结构与算法 / LeetCode 导师:题目讲解、渐进式提示、代码评审、模拟面试、模式识别、复杂度分析与自定义出题——以苏格拉底式提问引导,而非直接给答案。",
+      "long_en": "Emphasizes understanding and pattern intuition over memorization, adapting hint depth to the learner instead of revealing full solutions up front.",
+      "long_zh": "强调理解与模式直觉而非死记硬背,按学习者调整提示深度,而不是一上来就给出完整解法。",
+      "sec_note_en": "A self-contained prompt-based tutor; it does not require external services or network access.",
+      "sec_note_zh": "一个自包含的提示式导师;不依赖外部服务或联网。",
+      "requires_config": false
+    }
+  },
+  "jtrackingai/analytics-tracking-automation": {
+    "etag": "W/\"af3dceced0262a93db3ab73ff7b35ffdac7cd1e7d171eaacb23f8309e1bb01da\"",
+    "readme_hash": "334020f9739c7b931532af9d472e8e7f64050d175a4fc483fa20fa5fef1ef1f7",
+    "entry": {
+      "id": "aleph-hub:jtrackingai/analytics-tracking-automation",
+      "repo_url": "https://github.com/jtrackingai/analytics-tracking-automation",
+      "via": "github:jtrackingai",
+      "full_name": "jtrackingai/analytics-tracking-automation",
+      "owner": "jtrackingai",
+      "repo": "analytics-tracking-automation",
+      "kind": "skill",
+      "name": "Analytics Tracking Automation",
+      "author": "jtrackingai",
+      "category": "automation",
+      "tags": [
+        "ga4",
+        "gtm",
+        "analytics",
+        "tracking",
+        "playwright"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/jtrackingai/analytics-tracking-automation",
+        "git_ref": "main"
+      },
+      "description_en": "End-to-end GA4 + GTM event-tracking delivery: discover the site, design the event schema, validate selectors, preview in a real browser, sync to Google Tag Manager via OAuth, and publish.",
+      "description_zh": "端到端的 GA4 + GTM 事件埋点交付:站点探查、事件 schema 设计、选择器校验、真实浏览器预览、经 OAuth 同步到 Google Tag Manager、发布。",
+      "long_en": "Coordinates the full tracking-delivery workflow as phased CLI steps, launching real Chromium for browser-backed checks and calling Google's official GTM API for sync and publish.",
+      "long_zh": "把埋点交付的完整流程编排为分阶段 CLI 步骤,需要时启动真实 Chromium 做浏览器侧校验,并调用 Google 官方 GTM API 完成同步与发布。",
+      "sec_note_en": "Requires Node 18+ and Playwright Chromium; sync runs Google's interactive OAuth consent and stores the resulting user refresh token locally to call the GTM API. The CLI sends a minimal anonymous startup signal; richer diagnostics are opt-in.",
+      "sec_note_zh": "需要 Node 18+ 与 Playwright Chromium;sync 走 Google 交互式 OAuth 授权,并把得到的用户 refresh token 存在本地以调用 GTM API。CLI 会发送一个最小的匿名启动信号;更详细的诊断为可选开启。",
+      "requires_config": false
+    }
+  },
+  "apiotrowski-afk/commercial-legal-pl": {
+    "etag": "W/\"f96a0ca047dffbd81e8d8ed98e46431a6b9c5d4a8d9c2bf7ad744c11c1d4555e\"",
+    "readme_hash": "170a564b3c8ceef95957b755dc614e5d2452c19a5e9348b5b2594ee4054cd4ec",
+    "entry": {
+      "id": "aleph-hub:apiotrowski-afk/commercial-legal-pl",
+      "repo_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+      "via": "github:apiotrowski-afk",
+      "full_name": "apiotrowski-afk/commercial-legal-pl",
+      "owner": "apiotrowski-afk",
+      "repo": "commercial-legal-pl",
+      "kind": "skill",
+      "name": "Polish Commercial Legal",
+      "author": "apiotrowski-afk",
+      "category": "writing",
+      "tags": [
+        "legal",
+        "contracts",
+        "poland",
+        "b2b"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+        "git_ref": "main"
+      },
+      "description_en": "Analyze and draft contracts under Polish law—B2B, IP, and IT agreements (body leasing, NDA, deployments, SaaS, copyright transfer, settlements)—built by a Polish law firm.",
+      "description_zh": "按波兰法律分析与起草合同——B2B、知识产权与 IT 合同(人力外包、NDA、实施、SaaS、著作权转让、和解)——由一家波兰律师事务所打造。",
+      "long_en": "Audits contractual risk, generates new agreements in the firm's house style, and checks clause consistency, grounded in the KTZR firm's clause base and \"golden rules\".",
+      "long_zh": "审计合同风险、按事务所风格生成新合同并校验条款一致性,以 KTZR 事务所的条款库与「黄金规则」为依据。",
+      "sec_note_en": "Produces draft legal text, not legal advice; have a qualified lawyer review before use.",
+      "sec_note_zh": "产出的是法律文本草稿而非法律意见;使用前请由合格律师审阅。",
+      "requires_config": false
+    }
+  },
+  "wrsmith108/linear-claude-skill": {
+    "etag": "W/\"2942c413d3d747a01bd1317dac22a96180096256e6b1b97ffcfbae4594c3460a\"",
+    "readme_hash": "da6dff4e8ac7fc6b015896c5ab395348ea1dd16334bed6c21f5b014b7ae4f308",
+    "entry": {
+      "id": "aleph-hub:wrsmith108/linear-claude-skill",
+      "repo_url": "https://github.com/wrsmith108/linear-claude-skill",
+      "via": "github:wrsmith108",
+      "full_name": "wrsmith108/linear-claude-skill",
+      "owner": "wrsmith108",
+      "repo": "linear-claude-skill",
+      "kind": "skill",
+      "name": "Linear",
+      "author": "wrsmith108",
+      "category": "developer",
+      "tags": [
+        "linear",
+        "issue-tracking",
+        "project-management"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/wrsmith108/linear-claude-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Manage Linear issues, projects, and teams from your agent—create issues, update status, query projects, and drive team workflows.",
+      "description_zh": "在智能体中管理 Linear 的 issue、项目与团队——创建 issue、更新状态、查询项目并推进团队工作流。",
+      "long_en": "A mature skill (v3.2.0) that works across multiple Linear backends—MCP, GraphQL, and WebFetch—to read and mutate issues, projects, and team workflows.",
+      "long_zh": "一个成熟技能(v3.2.0),兼容多种 Linear 后端(MCP、GraphQL、WebFetch),读写 issue、项目与团队工作流。",
+      "sec_note_en": "Needs a Linear API token and can modify your workspace data; scope the token and review writes.",
+      "sec_note_zh": "需要 Linear API 令牌,且会修改工作区数据;请限定令牌权限并审阅写操作。",
+      "requires_config": false
+    }
+  },
+  "yfe404/web-scraper": {
+    "etag": "W/\"f079daa018243e13c228fee5ad02fe25f8468bd39ef7656e419251ef31646643\"",
+    "readme_hash": "1a80a54e2d1cf3b3a830d5320b42feec49a237b474a93582b19aaafdc997c4e4",
+    "entry": {
+      "id": "aleph-hub:yfe404/web-scraper",
+      "repo_url": "https://github.com/yfe404/web-scraper",
+      "via": "github:yfe404",
+      "full_name": "yfe404/web-scraper",
+      "owner": "yfe404",
+      "repo": "web-scraper",
+      "kind": "skill",
+      "name": "Web Scraper",
+      "author": "yfe404",
+      "category": "automation",
+      "tags": [
+        "web-scraping",
+        "data-extraction",
+        "apify",
+        "crawling"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yfe404/web-scraper",
+        "git_ref": "main"
+      },
+      "description_en": "Scrape and extract data from websites with intelligent strategy selection—discovers hidden APIs via traffic interception, then picks among API, sitemap, DOM, or hybrid scraping and implements iteratively, up to production Apify Actors in TypeScript.",
+      "description_zh": "用智能策略从网站抓取与提取数据——通过流量拦截发现隐藏 API,再在 API、站点地图、DOM 或混合抓取间择优并迭代实现,直至产出可上生产的 TypeScript Apify Actor。",
+      "long_en": "Recommends the optimal scraping approach per site rather than defaulting to brittle DOM parsing, with dedicated guidance for handling blocks and 403s.",
+      "long_zh": "针对每个站点推荐最优抓取方式,而非一律用脆弱的 DOM 解析,并附有处理封禁与 403 的专门指引。",
+      "sec_note_en": "Fetches and parses third-party sites; respect each site's robots.txt, Terms of Service, and rate limits before scraping. Anti-blocking guidance is included for legitimate access, not evasion.",
+      "sec_note_zh": "会抓取并解析第三方站点;抓取前请遵守各站点的 robots.txt、服务条款与速率限制。内置的反封禁指引用于正当访问,而非规避。",
+      "requires_config": false
+    }
+  },
+  "JuneYaooo/gpt-image2-ppt-skills": {
+    "etag": "W/\"cf4bed8b6be44539eaae6059f6f7af95b95ff8fbab988dc964b27fab72203986\"",
+    "readme_hash": "3dd33ca4c6580ac8b40b1631943fbf50dd30ef1fb0f9360b16f1b05c11e0f8d7",
+    "entry": {
+      "id": "aleph-hub:JuneYaooo/gpt-image2-ppt-skills",
+      "repo_url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "via": "github:JuneYaooo",
+      "full_name": "JuneYaooo/gpt-image2-ppt-skills",
+      "owner": "JuneYaooo",
+      "repo": "gpt-image2-ppt-skills",
+      "kind": "skill",
+      "name": "GPT-Image PPT",
+      "author": "JuneYaooo",
+      "category": "design",
+      "tags": [
+        "powerpoint",
+        "slides",
+        "gpt-image",
+        "presentation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+        "git_ref": "main"
+      },
+      "description_en": "Generate visually striking slide decks with OpenAI's gpt-image-2—feed a markdown outline plus a visual style, get high-res slide PNGs packaged into a 16:9 PPTX.",
+      "description_zh": "用 OpenAI 的 gpt-image-2 生成视觉惊艳的幻灯片——喂入 markdown 大纲与一种视觉风格,逐页出高清 PNG 并打包成 16:9 的 PPTX。",
+      "long_en": "Drives OpenAI's Images API page by page from an outline (or slides_plan.json), applying a chosen style or mimicking a user-supplied .pptx template.",
+      "long_zh": "从大纲(或 slides_plan.json)逐页调用 OpenAI 官方 Images API,套用所选风格或仿照用户提供的 .pptx 模板出图。",
+      "sec_note_en": "Requires an OpenAI API key with gpt-image-2 access and sends your slide content to the API; costs accrue per image.",
+      "sec_note_zh": "需具备 gpt-image-2 访问权限的 OpenAI API Key,并会把幻灯片内容发送至该 API;按图计费。",
+      "requires_config": false
+    }
+  },
+  "KAOPU-XiaoPu/web-design": {
+    "etag": "W/\"80985945c6a18023631c52a5818ad169176cdc1a57c4387cbc13606cd405cc38\"",
+    "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
+    "entry": {
+      "id": "aleph-hub:KAOPU-XiaoPu/web-design",
+      "repo_url": "https://github.com/KAOPU-XiaoPu/web-design",
+      "via": "github:KAOPU-XiaoPu",
+      "full_name": "KAOPU-XiaoPu/web-design",
+      "owner": "KAOPU-XiaoPu",
+      "repo": "web-design",
+      "kind": "skill",
+      "name": "Web Design",
+      "author": "KAOPU-XiaoPu",
+      "category": "design",
+      "tags": [
+        "web-design",
+        "ui",
+        "landing-page",
+        "frontend"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/KAOPU-XiaoPu/web-design",
+        "git_ref": "main"
+      },
+      "description_en": "A two-phase web visual-design skill: first produce a standardized DESIGN.md spec from your PRD / reference URL / screenshot / keywords, then generate UI/UX, visual, motion, and responsive web code that meets it.",
+      "description_zh": "两阶段的 Web 视觉设计技能:先从 PRD / 参考 URL / 截图 / 关键词产出标准化的 DESIGN.md 规范,确认后据此生成达标的 UI/UX、视觉、动效与响应式网页代码。",
+      "long_en": "Specializes in web surfaces—landing pages, portfolios, product pages, blogs, personal sites, SaaS pages—gating code generation behind an agreed design spec.",
+      "long_zh": "专攻 web 端——落地页、作品集、产品页、博客、个人站、SaaS 介绍页——先定规范再出代码。",
+      "sec_note_en": "Generates local web code and assets; review output before deploying.",
+      "sec_note_zh": "生成本地网页代码与素材;部署前请审阅产物。",
+      "requires_config": false
+    }
+  },
+  "dpconde/claude-android-skill": {
+    "etag": "W/\"5e9c7fc1add7dc2bac374e893bf32d73bfa5197644eabfdc3face35d1da498f1\"",
+    "readme_hash": "026826447e4b068f7b2b5c2a4bb6f093af7496e8d8c7588c766216de37a56773",
+    "entry": {
+      "id": "aleph-hub:dpconde/claude-android-skill",
+      "repo_url": "https://github.com/dpconde/claude-android-skill",
+      "via": "github:dpconde",
+      "full_name": "dpconde/claude-android-skill",
+      "owner": "dpconde",
+      "repo": "claude-android-skill",
+      "kind": "skill",
+      "name": "Android Development",
+      "author": "dpconde",
+      "category": "developer",
+      "tags": [
+        "android",
+        "kotlin",
+        "jetpack-compose",
+        "architecture"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dpconde/claude-android-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
+      "description_zh": "按 Google 官方架构与 NowInAndroid 范例构建生产级 Android 应用——Kotlin、Compose、MVVM、Hilt、Room、多模块。",
+      "long_en": "Scaffolds projects, feature modules, screens, ViewModels, and repositories using bundled reference docs and templates that encode Google's recommended layering.",
+      "long_zh": "借助内置参考文档与模板搭建项目、功能模块、界面、ViewModel 与仓储,落地 Google 推荐的分层架构。",
+      "sec_note_en": "Generates app code and Gradle config; review dependencies and build files before running.",
+      "sec_note_zh": "生成应用代码与 Gradle 配置;运行前请审阅依赖与构建文件。",
+      "requires_config": false
+    }
+  },
+  "kimlawtech/korean-privacy-terms": {
+    "etag": "W/\"9e1e90f9b9035fe6b9872896aea025b12b5afcc00932eca236176e2084fd0b9b\"",
+    "readme_hash": "7b9db096c53f977b4e2ec6f82610e34180a0a44e1e9292e45458094daafabade",
+    "entry": {
+      "id": "aleph-hub:kimlawtech/korean-privacy-terms",
+      "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
+      "via": "github:kimlawtech",
+      "full_name": "kimlawtech/korean-privacy-terms",
+      "owner": "kimlawtech",
+      "repo": "korean-privacy-terms",
+      "kind": "skill",
+      "name": "Privacy & Terms Generator",
+      "author": "kimlawtech",
+      "category": "writing",
+      "tags": [
+        "privacy-policy",
+        "legal",
+        "gdpr",
+        "compliance"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
+        "git_ref": "main"
+      },
+      "description_en": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
+      "description_zh": "通过问答式的四变体技能包,生成覆盖韩国 PIPA、欧盟 GDPR、美国 CCPA/CPRA 的隐私政策与服务条款。",
+      "long_en": "A v4.0 dispatcher presents privacy-kr / privacy-eu / privacy-us / privacy-global as a numbered menu and jumps straight into the chosen interview to draft compliant documents.",
+      "long_zh": "v4.0 调度入口以编号菜单提供 privacy-kr / privacy-eu / privacy-us / privacy-global,选定后直接进入对应问答,起草合规文档。",
+      "sec_note_en": "Produces draft legal text, not legal advice; have a qualified lawyer review before publishing.",
+      "sec_note_zh": "产出的是法律文本草稿而非法律意见;发布前请由合格律师审阅。",
+      "requires_config": false
+    }
+  },
+  "irenerachel/visual-style-ppt-skill": {
+    "etag": "W/\"fc92df1d676d6c7236f9da1c3f7b5d0c34bd2ff983e50121181c918441739337\"",
+    "readme_hash": "6a69ee0e2b2b26a85d9633d9ca967916412ae1cfab7a74cccfd3e052c054ead6",
+    "entry": {
+      "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
+      "repo_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+      "via": "github:irenerachel",
+      "full_name": "irenerachel/visual-style-ppt-skill",
+      "owner": "irenerachel",
+      "repo": "visual-style-ppt-skill",
+      "kind": "skill",
+      "name": "Visual Style PPT",
+      "author": "irenerachel",
+      "category": "design",
+      "tags": [
+        "slides",
+        "image-generation",
+        "design",
+        "presentation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
+      "description_zh": "提炼可复用的视觉风格,把每页渲染为生成图片再拼装成图片版 PPTX,做出风格驱动的纯图幻灯片。",
+      "long_en": "Extracts, saves, and reapplies visual-style keywords from documents or references; the deliverable is full-slide images placed into an image-only deck.",
+      "long_zh": "从文档或参考图中提炼、保存并复用视觉风格关键词;最终产物是放入纯图幻灯片的整页图片。",
+      "sec_note_en": "Requires access to the \"Image 2\" image model—every slide image is generated through it, and the skill will not run without it.",
+      "sec_note_zh": "需具备 \"Image 2\" 图像模型的访问权限——每页图片都由它生成,缺少则无法运行。",
+      "requires_config": false
+    }
+  },
+  "likaku/Mck-ppt-design-skill": {
+    "etag": "W/\"243a1ed2ef7289f863abde948dc1c75acb7a42caa0077f5ed02752cffe58df29\"",
+    "readme_hash": "f2058627f43aaccb54f96391e27f5f0a7847e04f770f3598ca316829ad754692",
+    "entry": {
+      "id": "aleph-hub:likaku/Mck-ppt-design-skill",
+      "repo_url": "https://github.com/likaku/Mck-ppt-design-skill",
+      "via": "github:likaku",
+      "full_name": "likaku/Mck-ppt-design-skill",
+      "owner": "likaku",
+      "repo": "Mck-ppt-design-skill",
+      "kind": "skill",
+      "name": "McKinsey PPT Design",
+      "author": "likaku",
+      "category": "design",
+      "tags": [
+        "powerpoint",
+        "slides",
+        "python-pptx",
+        "presentation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/likaku/Mck-ppt-design-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Generate consultant-grade, McKinsey-style PowerPoint decks from scratch via a python-pptx engine with high-level layout methods and built-in guard rails.",
+      "description_zh": "通过 python-pptx 引擎从零生成咨询级、麦肯锡风格的 PPT,内置高层版式方法与排版护栏。",
+      "long_en": "MckEngine wraps python-pptx with cover/donut/timeline and dozens more methods across structure, data, and storytelling, enforcing consistent typography and spacing to avoid file corruption.",
+      "long_zh": "MckEngine 封装 python-pptx,提供封面/环形图/时间线等覆盖结构、数据与叙事的数十种方法,统一字体与间距以规避文件损坏。",
+      "sec_note_en": "Requires `pip install python-pptx lxml` and runs Python locally; some cover-image features call an external image model.",
+      "sec_note_zh": "需 `pip install python-pptx lxml` 并在本地运行 Python;部分封面配图功能会调用外部图像模型。",
+      "requires_config": false
+    }
+  },
+  "PleasePrompto/google-ai-mode-skill": {
+    "etag": "W/\"0add0755603f233d0485cde5a1960bc396eab4d40411b1b6cb90ee7a3f983131\"",
+    "readme_hash": "3830e22a24b474154edc7779abb28e1701f01a7147e06e0d9d8b874a3d07522a",
+    "entry": {
+      "id": "aleph-hub:PleasePrompto/google-ai-mode-skill",
+      "repo_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+      "via": "github:PleasePrompto",
+      "full_name": "PleasePrompto/google-ai-mode-skill",
+      "owner": "PleasePrompto",
+      "repo": "google-ai-mode-skill",
+      "kind": "skill",
+      "name": "Google AI Mode",
+      "author": "PleasePrompto",
+      "category": "search",
+      "tags": [
+        "search",
+        "research",
+        "web",
+        "citations"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Query Google's AI Search mode to retrieve comprehensive, source-cited overviews for current information and research beyond the model's knowledge cutoff.",
+      "description_zh": "调用 Google AI 搜索模式,获取带来源引用的综合性概览,补足知识截止点之后的实时信息与研究线索。",
+      "long_en": "Runs a bundled script that returns markdown with footnoted citations [1][2][3] drawn from many sites—useful for docs, coding examples, and technical comparisons.",
+      "long_zh": "运行内置脚本,返回带脚注引用 [1][2][3] 的 markdown(汇集多个站点)——适合查文档、代码示例与技术对比。",
+      "sec_note_en": "Executes a local Python script that performs live web queries; review the script and respect Google's terms of use.",
+      "sec_note_zh": "会执行本地 Python 脚本进行实时网络查询;请审阅脚本并遵守 Google 使用条款。",
+      "requires_config": false
+    }
+  },
+  "moshuying/pitchcraft": {
+    "etag": "W/\"d46e93f6cd4513f14cd76fed40c8aee21078eb016e9d9517eb15a0855bdd0b30\"",
+    "readme_hash": "a32fe7e7b3562c42adb0933eb2e870ad23d127701cd9bcdc8aed8cf2b1259e13",
+    "entry": {
+      "id": "aleph-hub:moshuying/pitchcraft",
+      "repo_url": "https://github.com/moshuying/pitchcraft",
+      "via": "github:moshuying",
+      "full_name": "moshuying/pitchcraft",
+      "owner": "moshuying",
+      "repo": "pitchcraft",
+      "kind": "skill",
+      "name": "PitchCraft",
+      "author": "moshuying",
+      "category": "communication",
+      "tags": [
+        "persuasion",
+        "pitch",
+        "briefing",
+        "communication"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/moshuying/pitchcraft",
+        "git_ref": "main"
+      },
+      "description_en": "Structured persuasion for tech leads, PMs, and founders—turn raw updates into briefings on a Hook→Context→Proposal→Evidence→Ask framework across five scenarios.",
+      "description_zh": "面向技术负责人、PM 与创始人的结构化说服——用 Hook→Context→Proposal→Evidence→Ask 框架,把零散信息整理成五类场景的简报。",
+      "long_en": "Covers kickoff, status update, wrap-up, investor pitch, and solution selling; the agent prompts for missing materials and audience context and runs a pre-submit checklist.",
+      "long_zh": "覆盖启动、进展汇报、收尾、投资路演与方案销售;会主动追问缺失材料与受众背景,并在提交前过一遍检查清单。",
+      "sec_note_en": "Text-only guidance; no system access.",
+      "sec_note_zh": "纯文本指导;不访问系统。",
+      "requires_config": false
+    }
+  },
+  "Hao0321/ai-media-generator": {
+    "etag": "W/\"aa8315c49b52d33aa6ba148d70d0b22538436bcc1b55700aaa480ff23b28c0ed\"",
+    "readme_hash": "8c3b95dbc2ff2007ae43dcb05431f2c0268ce8b585991cc1260ac841ed95d698",
+    "entry": {
+      "id": "aleph-hub:Hao0321/ai-media-generator",
+      "repo_url": "https://github.com/Hao0321/ai-media-generator",
+      "via": "github:Hao0321",
+      "full_name": "Hao0321/ai-media-generator",
+      "owner": "Hao0321",
+      "repo": "ai-media-generator",
+      "kind": "skill",
+      "name": "AI Media Generator",
+      "author": "Hao0321",
+      "category": "design",
+      "tags": [
+        "ai-art",
+        "video",
+        "music",
+        "prompts"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hao0321/ai-media-generator",
+        "git_ref": "main"
+      },
+      "description_en": "Write high-quality prompts for AI image, video, and music platforms—picking the right model for the task—and optionally drive the target site via browser automation to submit them.",
+      "description_zh": "为 AI 生图、生视频、生音乐平台撰写高质量提示词(并按任务选对模型),需要时还能通过浏览器自动化把提示词送到目标平台。",
+      "long_en": "Platform-agnostic across Kling, Suno, Midjourney, Runway, Veo, Seedance, Flux and more, with guidance on character consistency, multi-shot storyboards, and fixing flawed results.",
+      "long_zh": "跨 Kling、Suno、Midjourney、Runway、Veo、Seedance、Flux 等平台通用,涵盖角色一致性、多镜头分镜与瑕疵修复的指引。",
+      "sec_note_en": "Can drive your browser to submit content to third-party platforms; review actions and use accounts you control.",
+      "sec_note_zh": "可驱动浏览器向第三方平台提交内容;请审阅操作并使用你自己掌控的账号。",
+      "requires_config": false
+    }
+  },
+  "axiaoge2/Apple-Hig-Designer": {
+    "etag": "W/\"49301030612ff35508cab086a7873ba2e1881c3821666035b579f57c2a75625d\"",
+    "readme_hash": "53e5e838a49681125a280d19d64f8a24e25e0cbec1eb1bdaa81262e0d4fd3d5a",
+    "entry": {
+      "id": "aleph-hub:axiaoge2/Apple-Hig-Designer",
+      "repo_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+      "via": "github:axiaoge2",
+      "full_name": "axiaoge2/Apple-Hig-Designer",
+      "owner": "axiaoge2",
+      "repo": "Apple-Hig-Designer",
+      "kind": "skill",
+      "name": "Apple HIG Designer",
+      "author": "axiaoge2",
+      "category": "design",
+      "tags": [
+        "apple",
+        "ios",
+        "macos",
+        "hig"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+        "git_ref": "main"
+      },
+      "description_en": "Design Apple-style iOS and macOS interfaces that follow the Human Interface Guidelines—SF Symbols, San Francisco typography, and proper accessibility.",
+      "description_zh": "设计遵循 Apple 人机界面指南(HIG)的 iOS / macOS 风格界面——SF Symbols、San Francisco 字体与规范的可访问性。",
+      "long_en": "Produces HIG-compliant components to Apple-design-team quality standards, with optional modern visual effects and support for implementing design-system specs.",
+      "long_zh": "以 Apple 设计团队的质量标准产出符合 HIG 的组件,支持可选的现代视觉效果与按设计系统规范落地。",
+      "sec_note_en": "Generates UI code and design assets locally; review before shipping.",
+      "sec_note_zh": "在本地生成 UI 代码与设计素材;上线前请审阅。",
+      "requires_config": false
+    }
+  },
+  "uxKero/anydesign": {
+    "etag": "W/\"28e2331f4b9d9d0d22a4260811f0be1f3e32825c0c6f6e1e8d4b9896a19471ef\"",
+    "readme_hash": "b75f51ae14fc64363306931b1f298b239376d206c7dd7b8c612eb65118bc0156",
+    "entry": {
+      "id": "aleph-hub:uxKero/anydesign",
+      "repo_url": "https://github.com/uxKero/anydesign",
+      "via": "github:uxKero",
+      "full_name": "uxKero/anydesign",
+      "owner": "uxKero",
+      "repo": "anydesign",
+      "kind": "skill",
+      "name": "AnyDesign",
+      "author": "uxKero",
+      "category": "design",
+      "tags": [
+        "design-system",
+        "figma",
+        "tokens",
+        "reverse-engineering"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/uxKero/anydesign",
+        "git_ref": "main"
+      },
+      "description_en": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
+      "description_zh": "分析图片、网站与 Figma 文件以提炼其设计,生成含令牌系统、组件清单与复刻说明的 design.md。",
+      "long_en": "Works on full surfaces or single elements (navbar, illustration), emitting token-grounded image-model prompts when the element is visual art.",
+      "long_zh": "既能处理整页也能处理单个元素(导航栏、插画),当元素是视觉艺术时还会输出基于令牌的图像模型提示词。",
+      "sec_note_en": "Reads visual sources you provide and writes documentation locally; no changes are made to the source.",
+      "sec_note_zh": "读取你提供的视觉来源并在本地生成文档;不会改动来源。",
+      "requires_config": false
+    }
+  },
+  "handsomeZR-netizen/mathmodel-skill": {
+    "etag": "W/\"ef4e4d57cef67f4503653b22979376a8523ba8e5f14b4c73567b902060e1ce7a\"",
+    "readme_hash": "0dca5317246f4ae111a0c27ccb7a1ff62923e3889d11f1090d0f1ed090044686",
+    "entry": {
+      "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
+      "repo_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+      "via": "github:handsomeZR-netizen",
+      "full_name": "handsomeZR-netizen/mathmodel-skill",
+      "owner": "handsomeZR-netizen",
+      "repo": "mathmodel-skill",
+      "kind": "skill",
+      "name": "Math Modeling",
+      "author": "handsomeZR-netizen",
+      "category": "knowledge",
+      "tags": [
+        "math-modeling",
+        "academic",
+        "competition",
+        "writing"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+        "git_ref": "main"
+      },
+      "description_en": "End-to-end workflow for math-modeling competitions (CUMCM, MCM/ICM): topic selection, modeling, solving, paper writing, and final review.",
+      "description_zh": "数学建模竞赛(CUMCM 国赛 / MCM·ICM 美赛 / 电工杯)的端到端工作流:选题、建模、求解、论文写作与终稿审核。",
+      "long_en": "A 10-phase, Q&A-driven workflow with per-stage rubric self-checks and cross-stage consistency passes, packaged for both Codex Skills and Claude Code.",
+      "long_zh": "10 阶段、问答式驱动的工作流,每阶段含 rubric 自评与跨阶段一致性回检,同时按 Codex Skills 与 Claude Code 形态打包。",
+      "sec_note_en": "Guidance and code-gen for academic work; verify models and results, and follow your competition's honor code.",
+      "sec_note_zh": "面向学术工作的指导与代码生成;请核验模型与结果,并遵守竞赛诚信规则。",
+      "requires_config": false
+    }
+  },
+  "agentenatalie/get-job.skill": {
+    "etag": "W/\"14f5108a5e363af3e2f655bddaeb65cd4df854d2df0ab8b78d4a686dc81fe3fd\"",
+    "readme_hash": "2f851b40caefa69830bce296677ecf377d9640c3114baa3d92842f8026d7d349",
+    "entry": {
+      "id": "aleph-hub:agentenatalie/get-job.skill",
+      "repo_url": "https://github.com/agentenatalie/get-job.skill",
+      "via": "github:agentenatalie",
+      "full_name": "agentenatalie/get-job.skill",
+      "owner": "agentenatalie",
+      "repo": "get-job.skill",
+      "kind": "skill",
+      "name": "Get Job",
+      "author": "agentenatalie",
+      "category": "productivity",
+      "tags": [
+        "job-search",
+        "resume",
+        "interview",
+        "career"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/agentenatalie/get-job.skill",
+        "git_ref": "main"
+      },
+      "description_en": "A full job-hunt agent: research what a target role actually wants, re-target your resume to it, and prep interviews bullet by bullet.",
+      "description_zh": "一个完整的求职 agent:调研目标岗位真实要求、按岗位反向定位简历,并逐条深挖准备面试。",
+      "long_en": "Three linked stages—role research via web search, resume re-targeting, and round-by-round interview prep—producing research notes, a revised .docx resume, and an interview-prep folder.",
+      "long_zh": "三段链路——用网搜调研岗位、按岗位重定位简历、按轮次准备面试——产出岗位调研、改后的 .docx 简历与面试准备文件夹。",
+      "sec_note_en": "Performs web searches and writes resume documents locally; review generated claims before submitting to employers.",
+      "sec_note_zh": "会进行网络搜索并在本地生成简历文档;投递前请核验生成内容的真实性。",
+      "requires_config": false
+    }
+  },
+  "zy-zmc/tianming-skill": {
+    "etag": "W/\"1fcc0f3e248b49151374ffb603efe12ec0b1ef96f1d6648740347d3c02bd1d40\"",
+    "readme_hash": "b6502b8e71d5499ccfae97ebc597847c414d7566e39a0ee7799d060a31e67868",
+    "entry": {
+      "id": "aleph-hub:zy-zmc/tianming-skill",
+      "repo_url": "https://github.com/zy-zmc/tianming-skill",
+      "via": "github:zy-zmc",
+      "full_name": "zy-zmc/tianming-skill",
+      "owner": "zy-zmc",
+      "repo": "tianming-skill",
+      "kind": "skill",
+      "name": "Tianming Novel System",
+      "author": "zy-zmc",
+      "category": "writing",
+      "tags": [
+        "novel",
+        "creative-writing",
+        "long-form",
+        "chinese"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zy-zmc/tianming-skill",
+        "git_ref": "main"
+      },
+      "description_en": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
+      "description_zh": "面向多卷长篇小说的协同创作系统,在章节间保持世界观、伏笔、节奏与文风的一致性。",
+      "long_en": "Command-driven (outline, plan, draft, manuscript, checkup, archive) and backed by external knowledge-base files for world rules, character profiles, events, and style samples.",
+      "long_zh": "以指令驱动(大纲/规划/草案/正文/体检/存档),并依赖外部知识库文件管理世界观规则、角色档案、事件与文风样本。",
+      "sec_note_en": "Reads and writes local manuscript and knowledge-base files; keep backups of your work.",
+      "sec_note_zh": "读写本地稿件与知识库文件;请为作品保留备份。",
+      "requires_config": false
+    }
+  },
+  "dososo/blcaptain-style-skill": {
+    "etag": "W/\"a9b46d5eafdfc08c1f5135824d2b26a441ec11c578a253b900281041680f6805\"",
+    "readme_hash": "74889bf821d36745d2ced71bafd323c8e965bbb2cea251a52044ccda57595e6e",
+    "entry": {
+      "id": "aleph-hub:dososo/blcaptain-style-skill",
+      "repo_url": "https://github.com/dososo/blcaptain-style-skill",
+      "via": "github:dososo",
+      "full_name": "dososo/blcaptain-style-skill",
+      "owner": "dososo",
+      "repo": "blcaptain-style-skill",
+      "kind": "skill",
+      "name": "BLCaptain Style Cards",
+      "author": "dososo",
+      "category": "design",
+      "tags": [
+        "social-cards",
+        "xiaohongshu",
+        "wechat",
+        "design"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dososo/blcaptain-style-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Turn Chinese text into eye-catching social image cards—Xiaohongshu 3:4 and WeChat covers—using three distinct house visual languages.",
+      "description_zh": "把中文内容做成第一眼惊艳的图文卡片组图——小红书 3:4 与公众号封面——提供三套独家视觉语言。",
+      "long_en": "The agent reads the content and authors a brief.json (page splits, visual language, layout, pull-quotes); a deterministic engine then renders the cards and runs quality checks.",
+      "long_zh": "由 agent 读懂内容并撰写 brief.json(分页、视觉语言、版式、金句),再交由确定性引擎渲染卡片并做质量校验。",
+      "sec_note_en": "Generates local image files for publishing; review cards before posting.",
+      "sec_note_zh": "生成用于发布的本地图片文件;发布前请审阅成片。",
+      "requires_config": false
+    }
+  },
+  "iamzifei/wechat-article-formatter-skill": {
+    "etag": "W/\"2959dc0df726b2008327eabbb8779dd177e46c33bc9e4f5b2d6dd5ce0ac1ff56\"",
+    "readme_hash": "fb90ea498b8f4588e4d471e83182b2982f0078217243b9e3b0428f7278530f66",
+    "entry": {
+      "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
+      "repo_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+      "via": "github:iamzifei",
+      "full_name": "iamzifei/wechat-article-formatter-skill",
+      "owner": "iamzifei",
+      "repo": "wechat-article-formatter-skill",
+      "kind": "skill",
+      "name": "WeChat Article Formatter",
+      "author": "iamzifei",
+      "category": "communication",
+      "tags": [
+        "wechat",
+        "publishing",
+        "markdown",
+        "formatting"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Format markdown articles with bm.md styling and publish them straight to WeChat Official Account drafts via the official API.",
+      "description_zh": "用 bm.md 样式排版 markdown 文章,并经官方 API 直接发布到微信公众号草稿。",
+      "long_en": "Reads a markdown file, uploads local images to the WeChat CDN, rewrites image paths, applies styling, and creates a draft through the WeChat Official Account API.",
+      "long_zh": "读取 markdown 文件,把本地图片上传到微信 CDN 并替换路径,套用样式,再经公众号官方 API 创建草稿。",
+      "sec_note_en": "Requires WeChat Official Account API credentials and uploads your content; scope the credentials and review drafts before publishing.",
+      "sec_note_zh": "需要微信公众号 API 凭据并会上传内容;请限定凭据权限,发布前审阅草稿。",
+      "requires_config": false
+    }
+  },
+  "swaylq/master-skill": {
+    "etag": "W/\"7f64f07ad0238ebac346204c228e2bc4f88360dbd43afece2941105121c88ddc\"",
+    "readme_hash": "564c5d7199914f056d1d4ac4f04eb36179b937b437bcf637b44b4c6251eeb02e",
+    "entry": {
+      "id": "aleph-hub:swaylq/master-skill",
+      "repo_url": "https://github.com/swaylq/master-skill",
+      "via": "github:swaylq",
+      "full_name": "swaylq/master-skill",
+      "owner": "swaylq",
+      "repo": "master-skill",
+      "kind": "skill",
+      "name": "Industry Master",
+      "author": "swaylq",
+      "category": "knowledge",
+      "tags": [
+        "research",
+        "onboarding",
+        "domain-expertise",
+        "workflow"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/swaylq/master-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Distill an entire industry into a runnable \"Master OS\" skill—researching its leaders, tool map, workflows, canon, sources, and terminology across six tracks.",
+      "description_zh": "把一整个行业蒸馏成可运行的「行业 Master OS」skill——从大佬、工具地图、工作流、知识正典、信息源到术语,六轨深度调研。",
+      "long_en": "Given an industry, it generates a self-contained {industry}.master skill installable by Claude Code, Codex, and other SKILL.md agents, putting the agent into \"domain veteran\" mode.",
+      "long_zh": "输入一个行业,生成自包含的 {industry}.master skill,可被 Claude Code、Codex 等支持 SKILL.md 的 agent 安装,让 AI 进入「资深从业者」模式。",
+      "sec_note_en": "Runs web research and writes a new skill directory locally; review the generated skill before relying on it.",
+      "sec_note_zh": "会进行网络调研并在本地写出新的 skill 目录;依赖前请审阅生成的 skill。",
+      "requires_config": false
+    }
+  },
+  "Jaderson-bit/mindmap-markmap-viewer": {
+    "etag": "W/\"0f8be11ee2bec8473a77b522bed2ed03ef47242028697017ac1f1e189ae8d7ff\"",
+    "readme_hash": "7a5ff04a833d1011ac4116a30e7d49a715453994a6b8d2c8673ba9c070b75d52",
+    "entry": {
+      "id": "aleph-hub:Jaderson-bit/mindmap-markmap-viewer",
+      "repo_url": "https://github.com/Jaderson-bit/mindmap-markmap-viewer",
+      "via": "github:Jaderson-bit",
+      "full_name": "Jaderson-bit/mindmap-markmap-viewer",
+      "owner": "Jaderson-bit",
+      "repo": "mindmap-markmap-viewer",
+      "kind": "skill",
+      "name": "Mindmap Viewer",
+      "author": "Jaderson-bit",
+      "category": "knowledge",
+      "tags": [
+        "mindmap",
+        "markmap",
+        "visualization",
+        "markdown"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Jaderson-bit/mindmap-markmap-viewer",
+        "git_ref": "master"
+      },
+      "description_en": "Turn Markdown outlines, notes, docs, or plans into an interactive mind map—a single self-contained offline HTML file built with markmap.js, featuring white-on-dark styling, expand-by-level control, zoom/export toolbar, and search that keeps matches in context.",
+      "description_zh": "把 Markdown 大纲、笔记、文档或计划变成交互式思维导图——基于 markmap.js 的单文件离线 HTML,带白字深底样式、按层级展开控制、缩放/导出工具栏,以及保留上下文的搜索。",
+      "long_en": "Renders hierarchical Markdown as a navigable SVG tree you can open anywhere offline, making notes and topic structures explorable instead of flat.",
+      "long_zh": "把层级化的 Markdown 渲染成可离线随处打开的可导航 SVG 树,让笔记与主题结构可探索,而非平铺。",
+      "sec_note_en": "Runs a local Python build with vendored markmap libraries to emit an offline HTML file; no network access required.",
+      "sec_note_zh": "用本地 Python 构建与内置的 markmap 库生成离线 HTML 文件;无需联网。",
+      "requires_config": false
+    }
+  },
+  "Ashutos1997/claude-design-auditor-skill": {
+    "etag": "W/\"298ab6d4b6dcdc51a267ef57497410f08dbac0bde9c2785ca6388c5e7c8ae7e9\"",
+    "readme_hash": "d22138da1ab4a96ad6ce8c7d1388c53d4ff1a1ad4cb133deb6804b525697979a",
+    "entry": {
+      "id": "aleph-hub:Ashutos1997/claude-design-auditor-skill",
+      "repo_url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
+      "via": "github:Ashutos1997",
+      "full_name": "Ashutos1997/claude-design-auditor-skill",
+      "owner": "Ashutos1997",
+      "repo": "claude-design-auditor-skill",
+      "kind": "skill",
+      "name": "Design Auditor",
+      "author": "Ashutos1997",
+      "category": "design",
+      "tags": [
+        "design-review",
+        "accessibility",
+        "wcag",
+        "figma"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Audit designs against 19 rules across Figma files and code (HTML/CSS/React/Vue/Tailwind)—accessibility, contrast, tokens, responsiveness, dark patterns, and Nielsen heuristics.",
+      "description_zh": "按 19 条规则审查 Figma 与代码(HTML/CSS/React/Vue/Tailwind)中的设计——可访问性、对比度、设计令牌、响应式、暗黑模式与 Nielsen 启发式。",
+      "long_en": "Auto-detects framework and design system (MUI, Chakra, shadcn/ui, Ant, Radix, Bootstrap), flags color-blindness risk, and outputs before/after diffs and developer handoff reports in English and Korean.",
+      "long_zh": "自动识别框架与设计系统(MUI、Chakra、shadcn/ui、Ant、Radix、Bootstrap),提示色盲风险,输出前后差异对比与开发交接报告(支持英语与韩语)。",
+      "sec_note_en": "Reads your design and code files to produce reports; no changes are applied without your action.",
+      "sec_note_zh": "读取你的设计与代码文件以生成报告;未经你操作不会改动文件。",
+      "requires_config": false
+    }
+  },
+  "SDLLL/claude-for-safari": {
+    "etag": "W/\"d3d000d211c6d6b2b82a91e44fbdf3cbe6615a391542999b0ad3326023c7a82d\"",
+    "readme_hash": "6e6558d1e7f351b9a247cefc8540403199529795de4c83421a62691fe608441d",
+    "entry": {
+      "id": "aleph-hub:SDLLL/claude-for-safari",
+      "repo_url": "https://github.com/SDLLL/claude-for-safari",
+      "via": "github:SDLLL",
+      "full_name": "SDLLL/claude-for-safari",
+      "owner": "SDLLL",
+      "repo": "claude-for-safari",
+      "kind": "skill",
+      "name": "Claude for Safari",
+      "author": "SDLLL",
+      "category": "automation",
+      "tags": [
+        "safari",
+        "browser",
+        "macos",
+        "automation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SDLLL/claude-for-safari",
+        "git_ref": "main"
+      },
+      "description_en": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+      "description_zh": "通过 AppleScript 与截屏控制 macOS 上真实的 Safari 浏览器——开标签页、读网页、填表单、点击并截取网页内容。",
+      "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
+      "long_zh": "驱动用户当前真实的浏览器会话而非无头实例,因而能利用已登录站点与现有状态。",
+      "sec_note_en": "Controls your live Safari with access to logged-in sessions; review actions and run only against sites you trust.",
+      "sec_note_zh": "操控你正在使用的 Safari、可触及已登录会话;请审阅操作,仅对可信站点使用。",
+      "requires_config": false
+    }
+  },
+  "VincentOld/stop-slop-zh": {
+    "etag": "W/\"9171a84cc903cbca926b099ab17e89f3cfa8714e6bbbcaa20513664b4c528e4b\"",
+    "readme_hash": "120c80843c824553971d3ab046e9f0a5e35daf2e5f71935073c4e8cff24b5727",
+    "entry": {
+      "id": "aleph-hub:VincentOld/stop-slop-zh",
+      "repo_url": "https://github.com/VincentOld/stop-slop-zh",
+      "via": "github:VincentOld",
+      "full_name": "VincentOld/stop-slop-zh",
+      "owner": "VincentOld",
+      "repo": "stop-slop-zh",
+      "kind": "skill",
+      "name": "Stop AI Slop (Chinese)",
+      "author": "VincentOld",
+      "category": "writing",
+      "tags": [
+        "chinese",
+        "editing",
+        "writing-quality",
+        "style"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/VincentOld/stop-slop-zh",
+        "git_ref": "main"
+      },
+      "description_en": "Identify and remove the telltale patterns of Chinese AI writing—clichés, three-part parallelism (是…，是…，更是…), nominalized verbs, abstract subjects, aphoristic endings, and formulaic structure—so the text reads like a person speaking rather than a model generating.",
+      "description_zh": "识别并消除中文 AI 写作的典型痕迹——套话、排比三件套(是…，是…，更是…)、名词化、抽象主语、金句收尾、总分总八股——让文本读起来像有人在说话,而不是 AI 在生成。",
+      "long_en": "A Chinese-specific writing-quality editor built from scratch for the Chinese 'AI smell' rather than translated from an English version, aimed at readability across articles, posts, official documents, abstracts, and copy.",
+      "long_zh": "一个针对中文「AI 味」从零打造(而非英文版翻译)的中文写作质量编辑器,面向公众号、帖子、公文、摘要与文案等场景的可读性提升。",
+      "sec_note_en": "A prompt-based editing skill that rewrites your text for readability; it targets writing quality, not evading AI detectors. Review edits to preserve meaning.",
+      "sec_note_zh": "一个基于提示的编辑技能,为可读性重写你的文本;它针对的是写作质量,而非规避 AI 检测器。请审阅改动以保持原意。",
+      "requires_config": false
+    }
+  },
+  "cjpatten/canadian-finance-planner-skill": {
+    "etag": "W/\"039b43bb48094618f3daebaeddcab646068d0bfed2d6a3d294d0264ee0ac0365\"",
+    "readme_hash": "26dc16dbe5d88b12c898a62aff98636869ff32d8b0a0e2ac42c88e2928c96273",
+    "entry": {
+      "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
+      "repo_url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+      "via": "github:cjpatten",
+      "full_name": "cjpatten/canadian-finance-planner-skill",
+      "owner": "cjpatten",
+      "repo": "canadian-finance-planner-skill",
+      "kind": "skill",
+      "name": "Canadian Finance Planner",
+      "author": "cjpatten",
+      "category": "finance",
+      "tags": [
+        "personal-finance",
+        "canada",
+        "budgeting",
+        "retirement"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+        "git_ref": "main"
+      },
+      "description_en": "A personal financial planning partner built for Canadians—conducts financial interviews, builds complete plans, and generates interactive dashboards covering budgeting, saving, debt, RRSPs, TFSAs, RESPs, CPP, OAS, retirement, and tax optimization.",
+      "description_zh": "为加拿大人打造的个人理财规划伙伴——进行财务访谈、构建完整计划,并生成交互式仪表盘,覆盖预算、储蓄、债务、RRSP、TFSA、RESP、CPP、OAS、退休与税务优化。",
+      "long_en": "Turns an open-ended 'help me with my money' into a structured plan with ongoing coaching and check-ins, calibrated to Canadian accounts and government benefits.",
+      "long_zh": "把笼统的「帮我理财」变成结构化的计划,并提供持续的辅导与复盘,针对加拿大账户与政府福利做了校准。",
+      "sec_note_en": "Collects personal financial details to build plans; it is educational, Canada-specific, and not a substitute for a licensed financial advisor.",
+      "sec_note_zh": "会收集个人财务细节以制定计划;内容为教育性质、面向加拿大,且不能替代持牌理财顾问。",
+      "requires_config": false
+    }
+  },
+  "Farenhytee/database-sentinel": {
+    "etag": "W/\"7a26ade46e646e29ce55e25d624e6350854d536a9d5a9d0ae4c2779ce988e7ac\"",
+    "readme_hash": "a838ee78150bfe7e48b1716a6b3d5bc0f09646b42e07f562ea8fb99f185c6099",
+    "entry": {
+      "id": "aleph-hub:Farenhytee/database-sentinel",
+      "repo_url": "https://github.com/Farenhytee/database-sentinel",
+      "via": "github:Farenhytee",
+      "full_name": "Farenhytee/database-sentinel",
+      "owner": "Farenhytee",
+      "repo": "database-sentinel",
+      "kind": "skill",
+      "name": "Database Sentinel",
+      "author": "Farenhytee",
+      "category": "developer",
+      "tags": [
+        "database",
+        "security",
+        "audit",
+        "rls"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Farenhytee/database-sentinel",
+        "git_ref": "main"
+      },
+      "description_en": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
+      "description_zh": "跨后端的数据库安全审计器,覆盖 Supabase、Firebase、MongoDB、PostgreSQL 与 MySQL——识别 RLS/规则配置错误、凭据外泄、认证绕过与已知 CVE。",
+      "long_en": "Built for hardening \"vibe-coded\" apps from Lovable/Bolt/Replit/Cursor; checks for exposed storage, ghost auth, and specific CVEs across each backend's rules and access model.",
+      "long_zh": "面向加固 Lovable/Bolt/Replit/Cursor 等「随手生成」的应用;逐后端检查存储暴露、幽灵认证与特定 CVE 的规则与访问模型。",
+      "sec_note_en": "Reads your database configuration and rules to produce an audit; supply read-scoped credentials and review findings before acting.",
+      "sec_note_zh": "读取你的数据库配置与规则以生成审计;请提供只读凭据并在处置前审阅结论。",
+      "requires_config": false
+    }
+  },
+  "Adityapal67/context-graph-compressor": {
+    "etag": "W/\"cfb35f2c08de15d6f7f07167a4576cfac527c9c665f69ff934158de20568c42f\"",
+    "readme_hash": "c20b1f334839e662e3b9c7c6c823bc26fd4eb53a9ddf69157902205703d5be6a",
+    "entry": {
+      "id": "aleph-hub:Adityapal67/context-graph-compressor",
+      "repo_url": "https://github.com/Adityapal67/context-graph-compressor",
+      "via": "github:Adityapal67",
+      "full_name": "Adityapal67/context-graph-compressor",
+      "owner": "Adityapal67",
+      "repo": "context-graph-compressor",
+      "kind": "skill",
+      "name": "Context Graph Compressor",
+      "author": "Adityapal67",
+      "category": "productivity",
+      "tags": [
+        "context",
+        "handoff",
+        "compression",
+        "llm"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Adityapal67/context-graph-compressor",
+        "git_ref": "main"
+      },
+      "description_en": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
+      "description_zh": "把一段长对话压缩成可移植的 JSON 上下文图,token 用尽时可交接给新会话或另一个 LLM。",
+      "long_en": "Captures the essential entities, decisions, and state of a session so a fresh chat can continue without re-reading the full history.",
+      "long_zh": "提炼会话中的关键实体、决策与状态,让新会话无需重读完整历史即可接续。",
+      "sec_note_en": "Writes a context file locally from your conversation; review it before sharing, as it may contain sensitive details.",
+      "sec_note_zh": "从你的对话在本地生成上下文文件;分享前请审阅,其中可能含敏感信息。",
+      "requires_config": false
+    }
+  },
+  "brettdavies/crawl4ai-skill": {
+    "etag": "W/\"32aa9498940646d42c49d5561d947895e25c2a497303f7810edaef3108c239d8\"",
+    "readme_hash": "e9e0d45aaaa7019c0c9da8c9752809ea97513ddf67af32fbe4ce90ea0230b59d",
+    "entry": {
+      "id": "aleph-hub:brettdavies/crawl4ai-skill",
+      "repo_url": "https://github.com/brettdavies/crawl4ai-skill",
+      "via": "github:brettdavies",
+      "full_name": "brettdavies/crawl4ai-skill",
+      "owner": "brettdavies",
+      "repo": "crawl4ai-skill",
+      "kind": "skill",
+      "name": "Crawl4AI",
+      "author": "brettdavies",
+      "category": "data",
+      "tags": [
+        "scraping",
+        "crawling",
+        "web-data",
+        "extraction"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/brettdavies/crawl4ai-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Scrape JavaScript-heavy pages and SPAs, crawl many URLs concurrently, and extract structured data with reusable CSS/JSON schemas—wrapping the Crawl4AI library.",
+      "description_zh": "抓取重 JavaScript 的页面与 SPA、并发爬取多个 URL,并用可复用的 CSS/JSON schema 提取结构化数据——封装 Crawl4AI 库。",
+      "long_en": "Provides schema-generation patterns for LLM-free extraction via the `crwl` CLI and Python SDK, with guidance on when a lighter static fetch suffices.",
+      "long_zh": "通过 `crwl` CLI 与 Python SDK 提供免 LLM 抽取的 schema 生成范式,并给出何时用更轻量的静态抓取即可的建议。",
+      "sec_note_en": "Drives a headless browser to fetch third-party sites; respect target sites' terms and robots policies.",
+      "sec_note_zh": "会驱动无头浏览器抓取第三方站点;请遵守目标站点的条款与 robots 规则。",
+      "requires_config": false
+    }
+  },
+  "echoVic/spec-flow": {
+    "etag": "W/\"c15c1ceeacc05dac755348739a95583cf815051ed600ddcaea319453cb141f5b\"",
+    "readme_hash": "85a9e93a9a6fc47c85659e02aaad3848824a4166660281b661b7b760a6ac65fe",
+    "entry": {
+      "id": "aleph-hub:echoVic/spec-flow",
+      "repo_url": "https://github.com/echoVic/spec-flow",
+      "via": "github:echoVic",
+      "full_name": "echoVic/spec-flow",
+      "owner": "echoVic",
+      "repo": "spec-flow",
+      "kind": "skill",
+      "name": "Spec-Flow",
+      "author": "echoVic",
+      "category": "developer",
+      "tags": [
+        "spec-driven",
+        "planning",
+        "workflow",
+        "tasks"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/echoVic/spec-flow",
+        "git_ref": "main"
+      },
+      "description_en": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
+      "description_zh": "规格驱动的开发工作流,按阶段确认把一个功能从提案推进到需求、设计与任务拆解。",
+      "long_en": "Creates a .spec-flow/ directory holding the proposal, requirements, design, and tasks, with optional fast and skip-design modes.",
+      "long_zh": "生成 .spec-flow/ 目录存放提案、需求、设计与任务,并提供可选的快速模式与跳过设计模式。",
+      "sec_note_en": "Writes planning documents to your repo; no code is executed.",
+      "sec_note_zh": "在你的仓库写入规划文档;不执行任何代码。",
+      "requires_config": false
+    }
+  },
+  "kgraph57/paper-writer-skill": {
+    "etag": "W/\"2374cb3727d1144285d4beee38316aeeed503f60759153b01dab68d3f89a3f3c\"",
+    "readme_hash": "329d630faf2e19d304fd4bfd3033dbd3c79152ce684c28f3c755824a1d9d483c",
+    "entry": {
+      "id": "aleph-hub:kgraph57/paper-writer-skill",
+      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
+      "via": "github:kgraph57",
+      "full_name": "kgraph57/paper-writer-skill",
+      "owner": "kgraph57",
+      "repo": "paper-writer-skill",
+      "kind": "skill",
+      "name": "Paper Writer",
+      "author": "kgraph57",
+      "category": "writing",
+      "tags": [
+        "academic",
+        "research-paper",
+        "imrad",
+        "manuscript"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kgraph57/paper-writer-skill",
+        "git_ref": "main"
+      },
+      "description_en": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+      "description_zh": "医学/科研论文写作工作流,管理从文献检索到可投稿 IMRAD 稿件的全流程。",
+      "long_en": "Maintains a project directory with section files, a literature matrix, reference management, and quality checklists; supports English and Japanese.",
+      "long_zh": "维护含分节文件、文献矩阵、参考文献管理与质量清单的项目目录;支持英文与日文。",
+      "sec_note_en": "Drafts manuscript text and manages references; verify all citations and claims before submission.",
+      "sec_note_zh": "起草稿件文本并管理参考文献;投稿前请核验所有引用与论断。",
+      "requires_config": false
+    }
+  },
+  "googlarz/finance-assistant": {
+    "etag": "W/\"2900e70afff7b54643324be7f7965f850ef0effa1a105315a65aea63f3554ea3\"",
+    "readme_hash": "d3db2de48eeae77a155caaaef2aab8fc9f732be1f1c1618ca61de9d8546d04ec",
+    "entry": {
+      "id": "aleph-hub:googlarz/finance-assistant",
+      "repo_url": "https://github.com/googlarz/finance-assistant",
+      "via": "github:googlarz",
+      "full_name": "googlarz/finance-assistant",
+      "owner": "googlarz",
+      "repo": "finance-assistant",
+      "kind": "skill",
+      "name": "Finance Assistant",
+      "author": "googlarz",
+      "category": "finance",
+      "tags": [
+        "personal-finance",
+        "budgeting",
+        "tax",
+        "investing"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/googlarz/finance-assistant",
+        "git_ref": "main"
+      },
+      "description_en": "A personal-finance assistant for budgeting, savings goals, investment tracking, debt optimization, tax prep, and net-worth tracking with multi-currency support.",
+      "description_zh": "个人理财助手,覆盖预算、储蓄目标、投资跟踪、债务优化、报税与净资产跟踪,并支持多币种。",
+      "long_en": "Imports bank statements (CSV/MT940/OFX), applies locale-based tax rules, and models financial scenarios for everyday money decisions.",
+      "long_zh": "导入银行流水(CSV/MT940/OFX)、套用本地化税则,并对日常财务决策做情景建模。",
+      "sec_note_en": "Processes financial statements you provide locally; review imports and treat output as guidance, not professional advice.",
+      "sec_note_zh": "在本地处理你提供的财务流水;请审阅导入数据,并将输出视为参考而非专业意见。",
+      "requires_config": false
+    }
+  },
+  "likemaoke/wechat-article-to-md": {
+    "etag": "W/\"c675d1aaef1ece1b75e5f9a15499ae914aaac25dc0ee2ffaa49d687030340b1b\"",
+    "readme_hash": "61673781980b3b9094a313338e0fe3a95078eafcd82acaf49c5f471a9c41a738",
+    "entry": {
+      "id": "aleph-hub:likemaoke/wechat-article-to-md",
+      "repo_url": "https://github.com/likemaoke/wechat-article-to-md",
+      "via": "github:likemaoke",
+      "full_name": "likemaoke/wechat-article-to-md",
+      "owner": "likemaoke",
+      "repo": "wechat-article-to-md",
+      "kind": "skill",
+      "name": "WeChat Article to Markdown",
+      "author": "likemaoke",
+      "category": "files",
+      "tags": [
+        "wechat",
+        "markdown",
+        "obsidian",
+        "archive"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/likemaoke/wechat-article-to-md",
+        "git_ref": "main"
+      },
+      "description_en": "Fetch a WeChat public-account article from its mp.weixin.qq.com link and convert it to a Markdown file—extracting title, author, and body, preserving formatting, downloading images locally, with an Obsidian output mode.",
+      "description_zh": "从 mp.weixin.qq.com 链接抓取微信公众号文章并转换为 Markdown 文件——提取标题、作者与正文,保留格式,把图片下载到本地,并支持 Obsidian 输出模式。",
+      "long_en": "Turns ephemeral WeChat articles into durable local Markdown you can archive or drop into a knowledge base.",
+      "long_zh": "把易逝的微信文章变成可归档、可入知识库的持久本地 Markdown。",
+      "sec_note_en": "Fetches content from WeChat article URLs you provide and saves Markdown and images locally; respect the source's copyright and Terms of Service.",
+      "sec_note_zh": "从你提供的微信文章 URL 抓取内容并在本地保存 Markdown 与图片;请尊重来源的版权与服务条款。",
+      "requires_config": false
+    }
+  },
+  "jianshuo/jianshuo-wechat-mp-publish": {
+    "etag": "W/\"73b89280a8794b5de5840f0ce8107d3a008b1067adc2db0c4e7fd3e3083ab398\"",
+    "readme_hash": "1348b6aad9e3a693cfcf6e2c64d0a1a023fa0410fca56836a82d7688b57a208b",
+    "entry": {
+      "id": "aleph-hub:jianshuo/jianshuo-wechat-mp-publish",
+      "repo_url": "https://github.com/jianshuo/jianshuo-wechat-mp-publish",
+      "via": "github:jianshuo",
+      "full_name": "jianshuo/jianshuo-wechat-mp-publish",
+      "owner": "jianshuo",
+      "repo": "jianshuo-wechat-mp-publish",
+      "kind": "skill",
+      "name": "WeChat MP Publishing",
+      "author": "jianshuo",
+      "category": "communication",
+      "tags": [
+        "wechat",
+        "publishing",
+        "cover-image",
+        "drafts"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/jianshuo/jianshuo-wechat-mp-publish",
+        "git_ref": "main"
+      },
+      "description_en": "Help write and publish WeChat public-account articles from scattered ideas, drafts, or notes—lightly polishing rather than rewriting, generating cover and explainer images, and preparing the draft for upload to mp.weixin.qq.com with one command.",
+      "description_zh": "把零散思路、草稿或笔记整理成可发布的微信公众号文章——轻润色而非重写,生成题图与解释图,并用一条命令准备上传到 mp.weixin.qq.com 的草稿。",
+      "long_en": "Preserves the author's voice and rhythm while handling the mechanical parts of WeChat publishing—imagery and draft upload.",
+      "long_zh": "在保留作者语气与节奏的同时,处理微信发布中机械的部分——配图与草稿上传。",
+      "sec_note_en": "Can push drafts to your WeChat MP account, so it needs your account credentials; review every draft before it publishes.",
+      "sec_note_zh": "可把草稿推送到你的微信公众号账号,因而需要你的账号凭据;发布前请逐篇审阅草稿。",
+      "requires_config": false
+    }
+  },
+  "ktaletsk/learn-codebase": {
+    "etag": "W/\"e5a19fc797e1ce511eabad7504896294361d7dd54a1bd037593a2a21a578edf0\"",
+    "readme_hash": "ece91cc06f54381729e12b5a0ddac2e8a0542758ee990399c123ddd7be3ed754",
+    "entry": {
+      "id": "aleph-hub:ktaletsk/learn-codebase",
+      "repo_url": "https://github.com/ktaletsk/learn-codebase",
+      "via": "github:ktaletsk",
+      "full_name": "ktaletsk/learn-codebase",
+      "owner": "ktaletsk",
+      "repo": "learn-codebase",
+      "kind": "skill",
+      "name": "Learn Codebase",
+      "author": "ktaletsk",
+      "category": "knowledge",
+      "tags": [
+        "onboarding",
+        "tutor",
+        "active-recall",
+        "codebase"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/ktaletsk/learn-codebase",
+        "git_ref": "main"
+      },
+      "description_en": "A Socratic tutor that teaches codebase understanding through questioning, challenges, and active recall—useful when onboarding to a new codebase or deepening understanding of existing code—and maintains a learning journal that tracks mastery and schedules reviews.",
+      "description_zh": "一位苏格拉底式导师,通过提问、挑战与主动回忆来教你读懂代码库——适合上手新代码库或加深对现有代码的理解——并维护一份学习日志,跟踪掌握度并安排复习。",
+      "long_en": "Treats codebase onboarding as spaced, recall-based learning rather than a one-off read-through, persisting progress between sessions.",
+      "long_zh": "把代码库上手当作基于间隔与回忆的学习,而非一次性通读,并在多次会话间持久化进度。",
+      "sec_note_en": "Reads the codebase you point it at and keeps a local learning journal; analysis is read-only.",
+      "sec_note_zh": "读取你指定的代码库并在本地维护学习日志;分析为只读。",
+      "requires_config": false
+    }
+  },
+  "elderengineer/tax-organizer": {
+    "etag": "W/\"ff0a63ad175e3dac3d2c433df9e6e79b0b765007ad2ba6f623bfa881cccf2d84\"",
+    "readme_hash": "c1c5b88ab0ddb77c3a9f1e741b00eb4b368613cb0726dc64f8591a0176da8be6",
+    "entry": {
+      "id": "aleph-hub:elderengineer/tax-organizer",
+      "repo_url": "https://github.com/elderengineer/tax-organizer",
+      "via": "github:elderengineer",
+      "full_name": "elderengineer/tax-organizer",
+      "owner": "elderengineer",
+      "repo": "tax-organizer",
+      "kind": "skill",
+      "name": "Tax Organizer",
+      "author": "elderengineer",
+      "category": "finance",
+      "tags": [
+        "tax",
+        "us-tax",
+        "schedule-e",
+        "expenses"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/elderengineer/tax-organizer",
+        "git_ref": "master"
+      },
+      "description_en": "Organize and process US personal and consultant tax documents—W-2, 1099s, K-1s, 1098—into accurate reports and drafts, handling rental properties, royalties, partnerships/S-corps, business expenses, per-diem optimization, and charitable receipts.",
+      "description_zh": "整理并处理美国个人与顾问类报税文件——W-2、1099、K-1、1098——生成准确的报表与草稿,涵盖出租物业、版税、合伙/S-corp、业务开支、差旅 per-diem 优化与慈善凭据。",
+      "long_en": "Matches expenses to income sources and drafts schedules (e.g., Schedule E) from messy document sets, reducing the manual sorting before a return is finalized.",
+      "long_zh": "从杂乱的文件集中把开支与收入来源对应起来并起草附表(如 Schedule E),减少定稿前的人工整理。",
+      "sec_note_en": "Processes highly sensitive tax documents locally and produces drafts only—not professional tax advice; have a CPA review before filing.",
+      "sec_note_zh": "在本地处理高度敏感的报税文件,仅生成草稿而非专业税务意见;申报前请由注册会计师复核。",
+      "requires_config": false
+    }
+  },
+  "mathiaschu/watch": {
+    "etag": "W/\"e2cf5b611b9393a44a2231ffd8d4eaf1b54dd87dc124668b1f4433797e8644b3\"",
+    "readme_hash": "853551c79901ea6f38468020b4ca617efe7bb7480021719ab84f68421fecdbe0",
+    "entry": {
+      "id": "aleph-hub:mathiaschu/watch",
+      "repo_url": "https://github.com/mathiaschu/watch",
+      "via": "github:mathiaschu",
+      "full_name": "mathiaschu/watch",
+      "owner": "mathiaschu",
+      "repo": "watch",
+      "kind": "skill",
+      "name": "Watch (Video Ingestion)",
+      "author": "mathiaschu",
+      "category": "automation",
+      "tags": [
+        "video",
+        "yt-dlp",
+        "transcript",
+        "ffmpeg"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mathiaschu/watch",
+        "git_ref": "main"
+      },
+      "description_en": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
+      "description_zh": "给 Claude 一个视频输入:从 YouTube、Instagram、X、Vimeo、TikTok 或 yt-dlp 支持的约 1800 个站点(或本地文件)下载,用 ffmpeg 抽取自适应缩放的帧,并从字幕或本地 whisper 取得带时间戳的转写——然后回答与视频内容相关的问题。",
+      "long_en": "Chains yt-dlp, ffmpeg, and a local mlx-whisper fallback into one pipeline so the agent can reason over both frames and transcript without any API key.",
+      "long_zh": "把 yt-dlp、ffmpeg 与本地 mlx-whisper 回退串成一条流水线,让 agent 无需任何 API key 即可结合画面帧与转写进行推理。",
+      "sec_note_en": "Downloads third-party video locally via yt-dlp—respect copyright and platform Terms of Service. Transcription runs on-device (no API key); a fork of bradautomates/claude-video.",
+      "sec_note_zh": "通过 yt-dlp 把第三方视频下载到本地——请遵守版权与平台服务条款。转写在本机运行(无需 API key);本仓库为 bradautomates/claude-video 的 fork。",
+      "requires_config": false
+    }
+  },
+  "Danielbluz/skill-irpf-brasil": {
+    "etag": "W/\"4cd4dca1fb17a045a5f562dc50236c380aba9639a18f1711e33d0135f06b2489\"",
+    "readme_hash": "533340adfd32144e2c5494970b28ae9b7d7e08fd67d6dbbd4777589a2994e637",
+    "entry": {
+      "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
+      "repo_url": "https://github.com/Danielbluz/skill-irpf-brasil",
+      "via": "github:Danielbluz",
+      "full_name": "Danielbluz/skill-irpf-brasil",
+      "owner": "Danielbluz",
+      "repo": "skill-irpf-brasil",
+      "kind": "skill",
+      "name": "IRPF Brasil",
+      "author": "Danielbluz",
+      "category": "finance",
+      "tags": [
+        "tax",
+        "brazil",
+        "irpf",
+        "compliance"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Danielbluz/skill-irpf-brasil",
+        "git_ref": "main"
+      },
+      "description_en": "Specialist assistant for Brazil's personal income tax (IRPF, 2026 cycle / 2025 base year)—covers filing obligations, pre-filled returns, REVAR/B3, fixed income, capital gains (GCAP), offshore (Law 14.754), special cases, and the 2027 changes, with a focus on audit, compliance, and optimization.",
+      "description_zh": "巴西个人所得税(IRPF,2026 申报年度 / 2025 基准年)专项助手——覆盖申报义务、预填报、REVAR/B3、固定收益、资本利得(GCAP)、境外资产(14.754 号法)、特殊情形与 2027 年变更,聚焦审计、合规与优化。",
+      "long_en": "Guides Brazilian residents through the annual IRPF return with deep coverage of edge cases, explicitly positioned to assist alongside—not replace—the Receita Federal's official program.",
+      "long_zh": "引导巴西居民完成年度 IRPF 申报,对各类边角情形覆盖深入,并明确定位为辅助而非替代联邦税务局的官方程序。",
+      "sec_note_en": "Handles sensitive personal tax data and gives compliance guidance, not professional tax advice; confirm with the Receita Federal's official program and a qualified accountant before filing.",
+      "sec_note_zh": "会处理敏感的个人税务数据并提供合规指引,而非专业税务意见;申报前请以联邦税务局官方程序与合格会计师为准。",
+      "requires_config": false
+    }
+  },
+  "Bhanunamikaze/AI-Dataset-Generator": {
+    "etag": "W/\"2f0a79f56bf513bc089a6fbbc90668d1b3bd4fb25cf1724f385fc325a0c08a88\"",
+    "readme_hash": "20d2e688bc71e63555f022cfbe130d32cab911c6f08a51e7b5db86a9883afcbd",
+    "entry": {
+      "id": "aleph-hub:Bhanunamikaze/AI-Dataset-Generator",
+      "repo_url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
+      "via": "github:Bhanunamikaze",
+      "full_name": "Bhanunamikaze/AI-Dataset-Generator",
+      "owner": "Bhanunamikaze",
+      "repo": "AI-Dataset-Generator",
+      "kind": "skill",
+      "name": "Dataset Generator",
+      "author": "Bhanunamikaze",
+      "category": "data",
+      "tags": [
+        "dataset",
+        "training-data",
+        "sft",
+        "dpo"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
+        "git_ref": "main"
+      },
+      "description_en": "Generate, normalize, verify, deduplicate, and export training datasets from topics, URLs, reference material, or existing JSONL/CSV—supporting SFT and DPO workflows.",
+      "description_zh": "从主题、URL、参考材料或现有 JSONL/CSV 生成、规范化、校验、去重并导出训练数据集——支持 SFT 与 DPO 工作流。",
+      "long_en": "Uses deterministic local pipeline scripts with custom export schemas to build datasets for Codex, Antigravity, and Claude Code.",
+      "long_zh": "借助确定性的本地流水线脚本与自定义导出 schema,为 Codex、Antigravity 与 Claude Code 构建数据集。",
+      "sec_note_en": "Can fetch reference material from URLs and writes dataset files locally; review sources and outputs.",
+      "sec_note_zh": "可从 URL 获取参考材料并在本地写出数据集文件;请审阅来源与产物。",
+      "requires_config": false
+    }
+  },
+  "dancolta/seo-drift-monitor": {
+    "etag": "W/\"08d061cdb613591179aeb9b30c3068945bfa992bb12f8d499b1c46b67368ceb7\"",
+    "readme_hash": "17afe0c0dc44e9cf9013677968a80dc09cc3e157ce1efea14c712a5c9c6df3ec",
+    "entry": {
+      "id": "aleph-hub:dancolta/seo-drift-monitor",
+      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
+      "via": "github:dancolta",
+      "full_name": "dancolta/seo-drift-monitor",
+      "owner": "dancolta",
+      "repo": "seo-drift-monitor",
+      "kind": "skill",
+      "name": "SEO Drift Monitor",
+      "author": "dancolta",
+      "category": "automation",
+      "tags": [
+        "seo",
+        "monitoring",
+        "regression",
+        "audit"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dancolta/seo-drift-monitor",
+        "git_ref": "main"
+      },
+      "description_en": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "description_zh": "为页面的 SEO 状态建立基线,在页面变更后检测回归——监控结构化数据、标题层级、meta 标签、canonical 与 Core Web Vitals——并生成可视化的前后对比报告与修复建议。",
+      "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
+      "long_zh": "一个防御性的回归监控:防止已有的 SEO 成果被改动或重新部署悄悄破坏,而非排名操纵工具。",
+      "sec_note_en": "Fetches and snapshots the pages you specify for comparison; analysis is read-only and reports are written locally.",
+      "sec_note_zh": "会抓取并快照你指定的页面用于对比;分析为只读,报告写在本地。",
+      "requires_config": false
+    }
+  },
+  "Hasasasa/claude-skill-html-to-pptx": {
+    "etag": "W/\"c003ef7ba237d5df27af4456b497875a4d681b2a5b6895419180ca7e8601af98\"",
+    "readme_hash": "9085c2db376dea21843641a1885db7aadc195249a9bc9c030277f0a5ecebb962",
+    "entry": {
+      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
+      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+      "via": "github:Hasasasa",
+      "full_name": "Hasasasa/claude-skill-html-to-pptx",
+      "owner": "Hasasasa",
+      "repo": "claude-skill-html-to-pptx",
+      "kind": "skill",
+      "name": "HTML to PPTX",
+      "author": "Hasasasa",
+      "category": "utilities",
+      "tags": [
+        "pptx",
+        "html",
+        "slides",
+        "conversion"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+        "git_ref": "main"
+      },
+      "description_en": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
+      "description_zh": "把 HTML 幻灯片转换为可编辑的 .pptx 文件——文字保留为可编辑矢量、按需嵌入字体、复杂装饰自动走截图兜底——且不依赖 reveal.js 等任何特定 deck 框架。",
+      "long_en": "Bridges browser-rendered slides to PowerPoint so you can hand colleagues an editable .pptx copy instead of a webpage.",
+      "long_zh": "把浏览器渲染的幻灯片桥接到 PowerPoint,让你能把可编辑的 .pptx 副本交给同事,而不是一个网页。",
+      "sec_note_en": "Reads your local HTML deck and writes a .pptx locally; no network access required.",
+      "sec_note_zh": "读取你本地的 HTML deck 并在本地写出 .pptx;无需联网。",
+      "requires_config": false
+    }
+  },
+  "Zuokaiqi/claude-skill-business-analyst": {
+    "etag": "W/\"9803b264d9fbcb40a3ae7914168e369b7283f25767a65469fa9372e3c7275ef3\"",
+    "readme_hash": "aa0e751f1f637a3c217cccac888ae751d27c2b720b89b49766eccb067cddd42c",
+    "entry": {
+      "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
+      "repo_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
+      "via": "github:Zuokaiqi",
+      "full_name": "Zuokaiqi/claude-skill-business-analyst",
+      "owner": "Zuokaiqi",
+      "repo": "claude-skill-business-analyst",
+      "kind": "skill",
+      "name": "Business Analyst",
+      "author": "Zuokaiqi",
+      "category": "data",
+      "tags": [
+        "data-analysis",
+        "insights",
+        "excel",
+        "reporting"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
+        "git_ref": "main"
+      },
+      "description_en": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
+      "description_zh": "面向决策者的商业数据分析师:接收 Excel/CSV/文本数据,输出包含 actionable insight、关键指标与可视化图表的专业分析报告——目标是更好的决策,而非更漂亮的表格。",
+      "long_en": "Frames analysis around the decision a reader must make and is explicit about a dataset's limitations, rather than producing 'so what?' charts.",
+      "long_zh": "围绕读者要做的决策来组织分析,并诚实指出数据的局限,而非产出「所以呢?」式的图表。",
+      "sec_note_en": "Reads the Excel/CSV/text data you provide to generate a report; verify its insights against real business context before acting.",
+      "sec_note_zh": "读取你提供的 Excel/CSV/文本数据以生成报告;据此行动前请结合真实业务背景核实其结论。",
+      "requires_config": false
+    }
+  },
+  "dudaster/html2elementor": {
+    "etag": "W/\"277de2fbb085eed6e878fbbe7ef84c5a17412c7d192b01856410ab33828272b2\"",
+    "readme_hash": "2ad92101bc729d879ea6d21a919eda0f61a46400e3fbe80e05331ed93df6c31c",
+    "entry": {
+      "id": "aleph-hub:dudaster/html2elementor",
+      "repo_url": "https://github.com/dudaster/html2elementor",
+      "via": "github:dudaster",
+      "full_name": "dudaster/html2elementor",
+      "owner": "dudaster",
+      "repo": "html2elementor",
+      "kind": "skill",
+      "name": "HTML to Elementor",
+      "author": "dudaster",
+      "category": "utilities",
+      "tags": [
+        "elementor",
+        "wordpress",
+        "html",
+        "conversion"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dudaster/html2elementor",
+        "git_ref": "main"
+      },
+      "description_en": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
+      "description_zh": "把 HTML+CSS(粘贴、文件、URL 或 AI 生成)转换为可干净导入 WordPress 的 Elementor JSON,并正确处理 Elementor 的隐性坑——共享系统色全局变量、懒加载背景、行容器宽度、CSS 缓存刷新。",
+      "long_en": "Avoids the broken renders you get from hand-writing Elementor JSON, since the skill already encodes the quirks that make naive output import but display wrong.",
+      "long_zh": "避免手写 Elementor JSON 导致的渲染错误——这些「能导入却显示不对」的坑已被技能内置处理。",
+      "sec_note_en": "Runs locally with Python (beautifulsoup4/tinycss2) to emit Elementor JSON; you import the result into your own WordPress site.",
+      "sec_note_zh": "用 Python(beautifulsoup4/tinycss2)在本地运行并产出 Elementor JSON;由你自行把结果导入你的 WordPress 站点。",
+      "requires_config": false
+    }
+  },
+  "BayramAnnakov/excel-hygiene": {
+    "etag": "W/\"8575c855d1ea64b59dd1f54cf9ea153b0e2b23efcd6c637700af4d03da0a093b\"",
+    "readme_hash": "045927357a9d34539edb2eba0771de5520aa11bec35b41113552bda9ebd73fcd",
+    "entry": {
+      "id": "aleph-hub:BayramAnnakov/excel-hygiene",
+      "repo_url": "https://github.com/BayramAnnakov/excel-hygiene",
+      "via": "github:BayramAnnakov",
+      "full_name": "BayramAnnakov/excel-hygiene",
+      "owner": "BayramAnnakov",
+      "repo": "excel-hygiene",
+      "kind": "skill",
+      "name": "Excel Hygiene",
+      "author": "BayramAnnakov",
+      "category": "data",
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "qa",
+        "audit"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/BayramAnnakov/excel-hygiene",
+        "git_ref": "main"
+      },
+      "description_en": "A rigorous \"second pair of eyes\" on any xlsx before it ships—catches numbers-as-text, hardcoded-over-formula, cell errors, truncated SUMs, and percent-as-whole-number.",
+      "description_zh": "在 xlsx 发出前做严格的「第二双眼睛」——揪出数字存为文本、硬编码覆盖公式、单元格错误、被截断的 SUM 与百分比写成整数等问题。",
+      "long_en": "Runs a deterministic script for mechanical checks, then reasons across the full spreadsheet-error taxonomy (Panko 2008) for subtler issues.",
+      "long_zh": "先用确定性脚本做机械校验,再依据完整的电子表格错误分类法(Panko 2008)推理更隐蔽的问题。",
+      "sec_note_en": "Reads the spreadsheet you provide and reports issues; it does not modify your file without action.",
+      "sec_note_zh": "读取你提供的电子表格并报告问题;未经操作不会修改文件。",
+      "requires_config": false
+    }
+  },
+  "Mobiss11/Whisper-Skill": {
+    "etag": "W/\"b56ee0ec01eabcbacb658920423c5aaf352a99cfd03c6e7722e816834d7b5686\"",
+    "readme_hash": "15eb7e3fb4b2c192055ede3f0ccbe1a30e03428cf23d0a40f496334365891b93",
+    "entry": {
+      "id": "aleph-hub:Mobiss11/Whisper-Skill",
+      "repo_url": "https://github.com/Mobiss11/Whisper-Skill",
+      "via": "github:Mobiss11",
+      "full_name": "Mobiss11/Whisper-Skill",
+      "owner": "Mobiss11",
+      "repo": "Whisper-Skill",
+      "kind": "skill",
+      "name": "Whisper Skill",
+      "author": "Mobiss11",
+      "category": "utilities",
+      "tags": [
+        "whisper",
+        "transcription",
+        "subtitles",
+        "dictation"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Mobiss11/Whisper-Skill",
+        "git_ref": "main"
+      },
+      "description_en": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
+      "description_zh": "用 Whisper 在本地转写音/视频——无需 OpenAI API——并支持语音听写(push-to-talk)与给 MP4 烧录字幕。自动识别 OS/CPU/GPU,为你的硬件挑选最优后端(faster-whisper、whisper.cpp、whisperx、mlx-whisper、openvino)与模型。",
+      "long_en": "An interactive wizard installs everything in one command; supports all ~99 Whisper languages and speaker diarization, free after the initial model download.",
+      "long_zh": "交互式向导一条命令装好一切;支持 Whisper 约 99 种语言与说话人分离,首次下载模型后即免费。",
+      "sec_note_en": "Runs Whisper backends locally and downloads a model (~3 GB) on first use; transcription stays on-device with no API calls. If pulling from YouTube/TikTok, respect platform Terms.",
+      "sec_note_zh": "在本地运行 Whisper 后端,首次使用会下载模型(约 3 GB);转写全程在本机、无 API 调用。若从 YouTube/TikTok 拉取,请遵守平台条款。",
+      "requires_config": false
+    }
+  },
+  "patrickstigler/claude-skill-it-recht-dsgvo": {
+    "etag": "W/\"c1c695af3e4684217847aa0d39adb0522b1bc033f5dcfb491438eb846a4b7943\"",
+    "readme_hash": "470879a20ceffa30f180d63de9ab3c9813ab5f72c5cb4100ee4d6bc5a84dc9bc",
+    "entry": {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "via": "github:patrickstigler",
+      "full_name": "patrickstigler/claude-skill-it-recht-dsgvo",
+      "owner": "patrickstigler",
+      "repo": "claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "name": "German IT Law & GDPR",
+      "author": "patrickstigler",
+      "category": "writing",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "description_en": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "description_zh": "针对德国/欧盟问题,对德国 IT 法与 GDPR(DSGVO)做初步评估——数据保护、合同、条款(AGB)、Impressum、Cookie、NIS2 与欧盟 AI 法案。明确声明非法律意见。",
+      "long_en": "Analyzes your documents and gives structured orientation as a first step before engaging a lawyer, in the same vein as other regional legal skills in the catalog.",
+      "long_zh": "分析你的文档并给出结构化的初步指引,作为正式委托律师前的第一步,与目录中其它地区性法务技能同族。",
+      "sec_note_en": "Provides general legal orientation only, not legal advice under the German RDG; consult a licensed lawyer before acting, and handle the documents you share as confidential.",
+      "sec_note_zh": "仅提供一般性法律指引,并非德国 RDG 意义上的法律意见;行动前请咨询持牌律师,并将你分享的文档按机密处理。",
+      "requires_config": false
+    }
+  },
+  "muxuuu/serenity-skill": {
+    "etag": "W/\"7fb218dad34b76638c2fcec7e02bfc95168fe58221caf58f6da67d96fbfa8487\"",
+    "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
+    "entry": {
+      "id": "aleph-hub:muxuuu/serenity-skill",
+      "repo_url": "https://github.com/muxuuu/serenity-skill",
+      "via": "github:muxuuu",
+      "full_name": "muxuuu/serenity-skill",
+      "owner": "muxuuu",
+      "repo": "serenity-skill",
+      "kind": "skill",
+      "name": "Serenity Research",
+      "author": "muxuuu",
+      "category": "finance",
+      "tags": [
+        "investment",
+        "research",
+        "supply-chain",
+        "equities"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/muxuuu/serenity-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Source-backed investment research that hunts supply-chain bottlenecks, maps technology value chains, screens A-share/HK/US equities, and stress-tests theses.",
+      "description_zh": "有据可查的投研技能,挖掘供应链卡点、梳理技术价值链、筛选 A 股/港股/美股,并对投资论点做压力测试。",
+      "long_en": "Outputs plain-language reasoning, ranked research priorities, evidence chains, risks, and next verification steps—research support only, with no trade execution.",
+      "long_zh": "输出通俗推理、排序的研究优先级、证据链、风险与后续验证步骤——仅作研究支持,不执行交易。",
+      "sec_note_en": "Provides research only, not financial advice; verify data and do your own due diligence before investing.",
+      "sec_note_zh": "仅提供研究而非投资建议;投资前请核验数据并自行尽调。",
+      "requires_config": false
+    }
+  },
+  "917Dhj/DeepPaperNote": {
+    "etag": "W/\"51c77a998b2f9bb5793b92f37fdc851430130b4b1d709cab922ce728b3b2d22b\"",
+    "readme_hash": "f1418db6d21b145e07456e6d621d737221f62ec8dc52ec44c4126bab4d883282",
+    "entry": {
+      "id": "aleph-hub:917Dhj/DeepPaperNote",
+      "repo_url": "https://github.com/917Dhj/DeepPaperNote",
+      "via": "github:917Dhj",
+      "full_name": "917Dhj/DeepPaperNote",
+      "owner": "917Dhj",
+      "repo": "DeepPaperNote",
+      "kind": "skill",
+      "name": "DeepPaperNote",
+      "author": "917Dhj",
+      "category": "knowledge",
+      "tags": [
+        "papers",
+        "obsidian",
+        "notes",
+        "research"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/917Dhj/DeepPaperNote",
+        "git_ref": "main"
+      },
+      "description_en": "Deep-read a single paper—given a title, DOI, URL, arXiv ID, Zotero item, or local PDF—and generate a high-quality, well-structured Markdown reading note with evidence-based analysis and figure placeholders, saved into an Obsidian-style vault.",
+      "description_zh": "深读单篇论文——给定标题、DOI、URL、arXiv ID、Zotero 条目或本地 PDF——生成结构清晰、有据可循的高质量 Markdown 精读笔记(含图位占位),写入 Obsidian 风格的知识库。",
+      "long_en": "Focuses on one paper at a time to produce a polished, navigable note rather than a shallow summary, fitting straight into a personal knowledge base.",
+      "long_zh": "一次只聚焦一篇论文,产出可精读、可导航的笔记而非浅层摘要,直接融入个人知识库。",
+      "sec_note_en": "Reads the paper you point it at and writes notes into your vault or workspace; verify its analysis against the source.",
+      "sec_note_zh": "读取你指定的论文并把笔记写入你的库或工作区;请将其分析与原文核对。",
+      "requires_config": false
+    }
+  },
+  "gitroomhq/postiz-agent": {
+    "etag": "W/\"61d3d7bdf7add12dbf6252047d8b87e35fc5c2ec306a9375404771e5772d443e\"",
+    "readme_hash": "4cd8866741dcd6aa68f3a226b596a16719ca2f1ab0ca4f8223cc3023a7837e13",
+    "entry": {
+      "id": "aleph-hub:gitroomhq/postiz-agent",
+      "repo_url": "https://github.com/gitroomhq/postiz-agent",
+      "via": "github:gitroomhq",
+      "full_name": "gitroomhq/postiz-agent",
+      "owner": "gitroomhq",
+      "repo": "postiz-agent",
+      "kind": "skill",
+      "name": "Postiz Social Scheduler",
+      "author": "gitroomhq",
+      "category": "automation",
+      "tags": [
+        "social-media",
+        "scheduling",
+        "publishing",
+        "postiz"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/gitroomhq/postiz-agent",
+        "git_ref": "main"
+      },
+      "description_en": "Schedule and publish posts to 28+ social and chat channels (X, LinkedIn, Reddit, Instagram, Facebook, Threads, YouTube, TikTok, Mastodon, Bluesky, Telegram, Discord, Slack and more) through the open-source Postiz CLI.",
+      "description_zh": "通过开源 Postiz CLI 把帖子排期并发布到 28+ 社交与聊天渠道(X、LinkedIn、Reddit、Instagram、Facebook、Threads、YouTube、TikTok、Mastodon、Bluesky、Telegram、Discord、Slack 等)。",
+      "long_en": "Wraps the Postiz CLI so the agent can connect accounts and schedule cross-channel posts from natural language; Postiz itself is self-hostable open source.",
+      "long_zh": "封装 Postiz CLI,让 agent 用自然语言连接账号、跨渠道排期发帖;Postiz 本身是可自托管的开源项目。",
+      "sec_note_en": "Installs the Postiz npm CLI and posts on your behalf to the social accounts you connect; needs a Postiz instance and a POSTIZ_API_URL credential. Review scheduled content before it publishes.",
+      "sec_note_zh": "会安装 Postiz npm CLI 并代表你向已连接的社交账号发帖;需要一个 Postiz 实例与 POSTIZ_API_URL 凭据。发布前请审阅排期内容。",
+      "requires_config": false
+    }
+  },
+  "quailyquaily/aqua": {
+    "etag": "W/\"5799563c0b3dd395d145b12c9c4ad9b2ae6aafda6943d69c5952213df8194b6d\"",
+    "readme_hash": "e6422211a210ba60cd062a9a69e57987e7b21f04401aeb901a3b5628e01e6527",
+    "entry": {
+      "id": "aleph-hub:quailyquaily/aqua",
+      "repo_url": "https://github.com/quailyquaily/aqua",
+      "via": "github:quailyquaily",
+      "full_name": "quailyquaily/aqua",
+      "owner": "quailyquaily",
+      "repo": "aqua",
+      "kind": "skill",
+      "name": "Aqua",
+      "author": "quailyquaily",
+      "category": "communication",
+      "tags": [
+        "messaging",
+        "agents",
+        "cli",
+        "inbox"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/quailyquaily/aqua",
+        "git_ref": "master"
+      },
+      "description_en": "A CLI-first messaging tool for AI agents: exchange messages, manage contacts and invites, and drive agent inbox workflows—unread, watch, mark-read—or run webhook-triggered serve integrations for trusted peer-to-peer agent communication.",
+      "description_zh": "面向 AI agent 的 CLI 优先消息工具:收发消息、管理联系人与邀请、驱动 agent 收件箱流程(未读、watch、标记已读),或运行 webhook 触发的 serve 集成,实现可信的 agent 间点对点通信。",
+      "long_en": "Gives agents a reliable channel to message each other and humans, modeled around an inbox the agent can poll, watch, and act on.",
+      "long_zh": "为 agent 提供一条可靠的相互(及与人)通信通道,围绕一个 agent 可轮询、可监听、可处理的收件箱建模。",
+      "sec_note_en": "Sends and receives messages via the aqua CLI and can serve webhook endpoints; review what is exchanged and where it connects before use.",
+      "sec_note_zh": "通过 aqua CLI 收发消息,并可对外提供 webhook 端点;使用前请确认所交换的内容与连接的目标。",
+      "requires_config": false
+    }
+  },
+  "bowenliang123/markdown-exporter": {
+    "etag": "W/\"d69e172aa31c4f26f8a13709ede50348dbaf1d9c1d80e192ddb317efeb39a274\"",
+    "readme_hash": "2c7352b86a33e1d887553cfb97327ef5e3be924b3adf5e79c343816c37df2680",
+    "entry": {
+      "id": "aleph-hub:bowenliang123/markdown-exporter",
+      "repo_url": "https://github.com/bowenliang123/markdown-exporter",
+      "via": "github:bowenliang123",
+      "full_name": "bowenliang123/markdown-exporter",
+      "owner": "bowenliang123",
+      "repo": "markdown-exporter",
+      "kind": "skill",
+      "name": "Markdown Exporter",
+      "author": "bowenliang123",
+      "category": "files",
+      "tags": [
+        "markdown",
+        "docx",
+        "pdf",
+        "conversion"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/bowenliang123/markdown-exporter",
+        "git_ref": "main"
+      },
+      "description_en": "Convert Markdown to DOCX, PPTX, XLSX, PDF, HTML, IPYNB, CSV, JSON, XML and more, and extract fenced code blocks into Python, Bash, JS, and other source files.",
+      "description_zh": "把 Markdown 转换为 DOCX、PPTX、XLSX、PDF、HTML、IPYNB、CSV、JSON、XML 等格式,并把围栏代码块抽取为 Python、Bash、JS 等源文件。",
+      "long_en": "A broad document-conversion skill covering most office and notebook formats from a single Markdown source.",
+      "long_zh": "一个覆盖面广的文档转换技能,从单一 Markdown 源生成大多数办公与 notebook 格式。",
+      "sec_note_en": "Reads your Markdown and writes converted files locally; no network access required.",
+      "sec_note_zh": "读取你的 Markdown 并在本地写出转换文件;无需联网。",
+      "requires_config": false
+    }
+  },
+  "CosmoBlk/email-marketing-bible": {
+    "etag": "W/\"b895e6f6a583e51ece75853bfc7734388373a83428ba0d4ccd7e66f6fac2a265\"",
+    "readme_hash": "35d99ccb96a1ec97992fa7659e9694218aa34af021d42c001d317c11db4e4b18",
+    "entry": {
+      "id": "aleph-hub:CosmoBlk/email-marketing-bible",
+      "repo_url": "https://github.com/CosmoBlk/email-marketing-bible",
+      "via": "github:CosmoBlk",
+      "full_name": "CosmoBlk/email-marketing-bible",
+      "owner": "CosmoBlk",
+      "repo": "email-marketing-bible",
+      "kind": "skill",
+      "name": "Email Marketing Bible",
+      "author": "CosmoBlk",
+      "category": "communication",
+      "tags": [
+        "email",
+        "marketing",
+        "deliverability",
+        "copywriting"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/CosmoBlk/email-marketing-bible",
+        "git_ref": "main"
+      },
+      "description_en": "A data-backed email-marketing skill—plan and run automation flows, drive an ESP from an agent, diagnose deliverability, write and refine copy, and pull benchmarks.",
+      "description_zh": "以数据为依据的邮件营销技能——规划与运行自动化流程、从智能体驱动 ESP、诊断送达率、撰写与打磨文案,并调取基准数据。",
+      "long_en": "Covers AI email automation, flows, deliverability, copy, design, and platform selection, grounded in published benchmarks rather than guesswork.",
+      "long_zh": "覆盖 AI 邮件自动化、流程、送达率、文案、设计与平台选择,以公开基准而非拍脑袋为依据。",
+      "sec_note_en": "Can connect to your email service provider to send mail; use permission-based lists and review sends.",
+      "sec_note_zh": "可连接你的邮件服务商发送邮件;请使用经许可的名单并审阅发送内容。",
+      "requires_config": false
+    }
+  },
+  "caylent/tufte-data-viz": {
+    "etag": "W/\"b150fc1fa7266651c81cbebb05fada46ea4b48911db01a6301c566c3988037f4\"",
+    "readme_hash": "a70f4a6a39ed49b5ac334ac0a4d75da3543073cfdac8dc525d83711ca8488759",
+    "entry": {
+      "id": "aleph-hub:caylent/tufte-data-viz",
+      "repo_url": "https://github.com/caylent/tufte-data-viz",
+      "via": "github:caylent",
+      "full_name": "caylent/tufte-data-viz",
+      "owner": "caylent",
+      "repo": "tufte-data-viz",
+      "kind": "skill",
+      "name": "Tufte Data Viz",
+      "author": "caylent",
+      "category": "data",
+      "tags": [
+        "data-viz",
+        "charts",
+        "tufte",
+        "dashboards"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/caylent/tufte-data-viz",
+        "git_ref": "main"
+      },
+      "description_en": "Create, review, or style charts, graphs, dashboards, and sparklines enforcing Tufte principles—data-ink ratio, direct labeling, range-frame axes—plus modern screen-first standards (accessibility, responsive, dark mode), across Recharts, ECharts, Chart.js, matplotlib, Plotly, seaborn, D3.js, and SVG.",
+      "description_zh": "在 Recharts、ECharts、Chart.js、matplotlib、Plotly、seaborn、D3.js 与 SVG 上创建、审阅或美化图表、仪表盘与迷你折线图,贯彻 Tufte 原则——数据墨水比、直接标注、range-frame 轴——并兼顾现代屏幕标准(无障碍、响应式、深色模式)。",
+      "long_en": "Brings a consistent, evidence-based visualization standard to chart code rather than ad-hoc styling, working across the major charting libraries.",
+      "long_zh": "为图表代码引入一致、有据可循的可视化标准,而非临时调样式,并覆盖主流图表库。",
+      "sec_note_en": "Read-only guidance that reviews and restyles your chart code (allowed tools: Read/Glob/Grep); your data is not sent anywhere.",
+      "sec_note_zh": "只读式指导,审阅并重塑你的图表代码(允许工具:Read/Glob/Grep);不会把你的数据外发。",
+      "requires_config": false
+    }
+  },
+  "mohi-devhub/antivibe": {
+    "etag": "W/\"7d45aa3ff59c89104b962af51ff05570df9dc3ed64f416db113b597ccd74b42e\"",
+    "readme_hash": "00cbbecdc6a6353d728fe903e1e3c80e9391976b3c93f3d1a82300aa03088643",
+    "entry": {
+      "id": "aleph-hub:mohi-devhub/antivibe",
+      "repo_url": "https://github.com/mohi-devhub/antivibe",
+      "via": "github:mohi-devhub",
+      "full_name": "mohi-devhub/antivibe",
+      "owner": "mohi-devhub",
+      "repo": "antivibe",
+      "kind": "skill",
+      "name": "Antivibe",
+      "author": "mohi-devhub",
+      "category": "knowledge",
+      "tags": [
+        "code-explanation",
+        "learning",
+        "audit",
+        "education"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mohi-devhub/antivibe",
+        "git_ref": "main"
+      },
+      "description_en": "A code learning and audit framework: analyze any codebase—new, legacy, or AI-generated—and produce educational explanations of WHAT and WHY, or architectural audits of trade-offs and risks, so you understand code instead of just accepting it.",
+      "description_zh": "一个代码学习与审计框架:分析任意代码库——新写的、遗留的或 AI 生成的——产出关于「是什么/为什么」的教学式讲解,或对取舍与风险的架构审计,让你真正理解代码而非照单全收。",
+      "long_en": "Aimed at turning vibe-coded or unfamiliar code into a deliberate learning artifact, with separate modes for deep explanation and for audit-style trade-off analysis.",
+      "long_zh": "意在把「凭感觉写出」或陌生的代码变成有意识的学习材料,深度讲解与审计式取舍分析分作不同模式。",
+      "sec_note_en": "Performs read-only analysis of the codebase you point it at to generate explanations and audits.",
+      "sec_note_zh": "对你指定的代码库做只读分析以生成讲解与审计,不修改代码。",
+      "requires_config": false
+    }
+  },
+  "claude-world/notebooklm-skill": {
+    "etag": "W/\"f951a809b42320df505dc2a689885cd1ed0d45f6b7bfda44d63a4fec7633c39b\"",
+    "readme_hash": "7d73f30fdc6a29d90ab067fa0236517f7acae397935a8e2f0b0f2c921d8bf148",
+    "entry": {
+      "id": "aleph-hub:claude-world/notebooklm-skill",
+      "repo_url": "https://github.com/claude-world/notebooklm-skill",
+      "via": "github:claude-world",
+      "full_name": "claude-world/notebooklm-skill",
+      "owner": "claude-world",
+      "repo": "notebooklm-skill",
+      "kind": "skill",
+      "name": "NotebookLM Research",
+      "author": "claude-world",
+      "category": "search",
+      "tags": [
+        "research",
+        "notebooklm",
+        "sources",
+        "synthesis"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/claude-world/notebooklm-skill",
+        "git_ref": "main"
+      },
+      "description_en": "An autonomous research agent powered by Google NotebookLM: ingest sources (URL, text, PDF, DOCX, YouTube, Drive), run deep web research, ask cited questions, and generate artifacts (report, slides, quiz, flashcards, mind map, audio/video) plus Claude-written content drafts.",
+      "description_zh": "由 Google NotebookLM 驱动的自主研究 agent:摄取来源(URL、文本、PDF、DOCX、YouTube、Drive),执行深度网络研究、提出带引证的问题,并生成多种产物(报告、幻灯片、测验、闪卡、思维导图、音/视频)以及由 Claude 撰写的内容草稿。",
+      "long_en": "Drives a source-grounded research-and-synthesis pipeline end to end, turning a topic or a pile of sources into cited answers and finished artifacts.",
+      "long_zh": "端到端驱动一条以来源为依据的研究与综合流水线,把一个主题或一堆来源变成带引证的答案与成品产物。",
+      "sec_note_en": "Drives Google NotebookLM through the unofficial notebooklm-py library, so it may break on Google changes and is subject to NotebookLM's Terms; optional social publishing is opt-in.",
+      "sec_note_zh": "通过非官方的 notebooklm-py 库驱动 Google NotebookLM,Google 改动时可能失效,并受 NotebookLM 服务条款约束;可选的社媒发布为按需开启。",
+      "requires_config": false
+    }
+  },
+  "O0000-code/paper-search-pro": {
+    "etag": "W/\"fd24f528275f4c602c40d0dea6c3299a6b68ebb7da59dc3df757b6e19d2f4b67\"",
+    "readme_hash": "47dd71e57fe1fc22b781170f3b5823ac18d2cbcd04cfc602b33d82fd80cbc514",
+    "entry": {
+      "id": "aleph-hub:O0000-code/paper-search-pro",
+      "repo_url": "https://github.com/O0000-code/paper-search-pro",
+      "via": "github:O0000-code",
+      "full_name": "O0000-code/paper-search-pro",
+      "owner": "O0000-code",
+      "repo": "paper-search-pro",
+      "kind": "skill",
+      "name": "Paper Search Pro",
+      "author": "O0000-code",
+      "category": "search",
+      "tags": [
+        "academic",
+        "literature-search",
+        "references",
+        "research"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/O0000-code/paper-search-pro",
+        "git_ref": "main"
+      },
+      "description_en": "Find academic papers across five sources (OpenAlex, Semantic Scholar, CrossRef, PubMed, arXiv) with depth from a 5-minute quick scan to a 3-hour audit prep.",
+      "description_zh": "跨五大来源(OpenAlex、Semantic Scholar、CrossRef、PubMed、arXiv)检索学术论文,深度可从 5 分钟快扫到 3 小时审计级。",
+      "long_en": "Outputs an HTML report plus BibTeX/RIS/CSV exports and a PRISMA-S log for scoping and systematic reviews.",
+      "long_zh": "输出 HTML 报告以及 BibTeX/RIS/CSV 导出与 PRISMA-S 日志,适用于范围综述与系统综述。",
+      "sec_note_en": "Queries public scholarly APIs; verify retrieved metadata before citing.",
+      "sec_note_zh": "查询公开学术 API;引用前请核验检索到的元数据。",
+      "requires_config": false
+    }
+  },
+  "SpillwaveSolutions/plantuml": {
+    "etag": "W/\"23f5ee69193de5204943ac5e0f2a9d398f62535f891b3c4cdb3b32de09f18fb1\"",
+    "readme_hash": "3f4ff9d2677b5e05efbbf30d8b1fc1e7f3a3d59cb81dfa87deb383214cd3f137",
+    "entry": {
+      "id": "aleph-hub:SpillwaveSolutions/plantuml",
+      "repo_url": "https://github.com/SpillwaveSolutions/plantuml",
+      "via": "github:SpillwaveSolutions",
+      "full_name": "SpillwaveSolutions/plantuml",
+      "owner": "SpillwaveSolutions",
+      "repo": "plantuml",
+      "kind": "skill",
+      "name": "PlantUML",
+      "author": "SpillwaveSolutions",
+      "category": "utilities",
+      "tags": [
+        "plantuml",
+        "diagrams",
+        "uml",
+        "png-svg"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SpillwaveSolutions/plantuml",
+        "git_ref": "main"
+      },
+      "description_en": "Generate PlantUML diagrams from text descriptions and convert them to PNG/SVG—covering UML (sequence, class, activity, state, component, deployment, use case) and non-UML (ER, Gantt, JSON/YAML, mind maps, WBS, network, wireframes), plus extracting diagrams from Markdown for Confluence.",
+      "description_zh": "从文字描述生成 PlantUML 图并转换为 PNG/SVG——覆盖 UML(时序、类、活动、状态、组件、部署、用例)与非 UML(ER、甘特、JSON/YAML、思维导图、WBS、网络、线框),并支持从 Markdown 提取图、适配 Confluence。",
+      "long_en": "Turns prose into a wide range of diagram types and renders them to images, so diagrams live as version-controllable text rather than binary files.",
+      "long_zh": "把文字变成多种图表类型并渲染为图片,让图以可版本控制的文本形式存在,而非二进制文件。",
+      "sec_note_en": "Requires a local PlantUML/Java toolchain to render images; runs locally on the text you provide.",
+      "sec_note_zh": "渲染图片需要本地的 PlantUML/Java 工具链;在本地对你提供的文本运行。",
+      "requires_config": false
+    }
+  },
+  "Innei/media-library-organizer-skill": {
+    "etag": "W/\"d7316768345b897cd1e701367aa6ae47617d7ea0ee886bb3c56d9a0065cd38eb\"",
+    "readme_hash": "f229a19793ba1c1539417689aabe0ca371e28bd4453daaa58774e903f2732e32",
+    "entry": {
+      "id": "aleph-hub:Innei/media-library-organizer-skill",
+      "repo_url": "https://github.com/Innei/media-library-organizer-skill",
+      "via": "github:Innei",
+      "full_name": "Innei/media-library-organizer-skill",
+      "owner": "Innei",
+      "repo": "media-library-organizer-skill",
+      "kind": "skill",
+      "name": "Media Library Organizer",
+      "author": "Innei",
+      "category": "files",
+      "tags": [
+        "media",
+        "nas",
+        "organize",
+        "tmdb"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Innei/media-library-organizer-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Organize media files (movies, TV, anime) on NAS or local storage—clean junk files, merge scattered episodes, normalize folder names to \"Title (Year)\", and verify episode completeness against TMDB.",
+      "description_zh": "整理 NAS 或本地存储上的影音文件(电影、剧集、动画)——清理垃圾文件、合并散落剧集、把文件夹名规范为「标题 (年份)」,并对照 TMDB 校验集数完整性。",
+      "long_en": "Brings a consistent, media-server-friendly structure to large libraries while flagging missing episodes.",
+      "long_zh": "为大型媒体库带来一致、便于媒体服务器识别的目录结构,并标记缺失集数。",
+      "sec_note_en": "Renames and moves files in the directories you point it at; back up or dry-run before applying.",
+      "sec_note_zh": "会在你指定的目录中重命名与移动文件;应用前请先备份或试运行。",
+      "requires_config": false
+    }
+  },
+  "EternalWavee/benchmark-research-skill": {
+    "etag": "W/\"d010686a051796dc28b866865c37d6d98a4c448d134b6236999da360f1894e81\"",
+    "readme_hash": "79f1c8e0008de66fc2ef411e228d8e0bbbe3c01b1e995822a8c4428a2086bff9",
+    "entry": {
+      "id": "aleph-hub:EternalWavee/benchmark-research-skill",
+      "repo_url": "https://github.com/EternalWavee/benchmark-research-skill",
+      "via": "github:EternalWavee",
+      "full_name": "EternalWavee/benchmark-research-skill",
+      "owner": "EternalWavee",
+      "repo": "benchmark-research-skill",
+      "kind": "skill",
+      "name": "Benchmark Research",
+      "author": "EternalWavee",
+      "category": "search",
+      "tags": [
+        "research",
+        "benchmarks",
+        "datasets",
+        "papers"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/EternalWavee/benchmark-research-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Survey a research direction or a single paper to find and extract usable benchmarks—datasets, metrics, experiment tables/figures, baselines, and related work—into an auditable research note, with helper scripts fetching paper context and assets.",
+      "description_zh": "对一个研究方向或单篇论文做调研,找出并提取可用的基准——数据集、指标、实验表/图、baseline 与相关工作——整理成可审计的研究笔记,辅助脚本负责抓取论文上下文与素材。",
+      "long_en": "Turns the tedious benchmark-hunting step of evaluation work into a structured, source-linked note instead of scattered manual notes.",
+      "long_zh": "把评测工作中繁琐的「找基准」环节,变成结构化、可溯源的笔记,而非零散的手工记录。",
+      "sec_note_en": "Fetches paper context and assets from the web; verify extracted benchmark and metric claims against the original sources.",
+      "sec_note_zh": "会从网络抓取论文上下文与素材;请将提取出的基准与指标结论与原始来源核对。",
+      "requires_config": false
+    }
+  },
+  "sliday/genealogy-research": {
+    "etag": "W/\"f26f82dffffefe0b3a875650992fa58318ae5f2485062254ab55cb04a732250e\"",
+    "readme_hash": "f1cf8026200c2e42d0ceeb42c14c81d2eda13921b43193c72bf9d72ce9d68599",
+    "entry": {
+      "id": "aleph-hub:sliday/genealogy-research",
+      "repo_url": "https://github.com/sliday/genealogy-research",
+      "via": "github:sliday",
+      "full_name": "sliday/genealogy-research",
+      "owner": "sliday",
+      "repo": "genealogy-research",
+      "kind": "skill",
+      "name": "Genealogy Research",
+      "author": "sliday",
+      "category": "search",
+      "tags": [
+        "genealogy",
+        "research",
+        "gedcom",
+        "obsidian"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/sliday/genealogy-research",
+        "git_ref": "main"
+      },
+      "description_en": "A genealogy research assistant using the Genealogical Proof Standard: analyzes historical documents and handwritten records in any script, manages an Obsidian knowledge base, builds family trees and GEDCOM, and plans the next steps for systematic ancestor discovery.",
+      "description_zh": "采用「家谱证明标准」(GPS)的家谱研究助手:解析任意文字的历史文献与手写记录,管理 Obsidian 知识库,构建家谱与 GEDCOM,并为系统性的祖先溯源规划下一步。",
+      "long_en": "Brings a disciplined research methodology to ancestor discovery, tracking evidence and progress across countries and time periods rather than ad-hoc note-keeping.",
+      "long_zh": "为祖先溯源引入规范的研究方法,跨国家与年代地追踪证据与进度,而非临时记录。",
+      "sec_note_en": "Analyzes personal and historical documents you provide and maintains a local Obsidian vault; keep living-relatives' data private.",
+      "sec_note_zh": "会解析你提供的个人与历史文献,并维护本地 Obsidian 库;请妥善保护在世亲属的隐私数据。",
+      "requires_config": false
+    }
+  },
+  "Yoojin-nam/hwp-pipeline": {
+    "etag": "W/\"f8e6d117e8abe31fd3fdb7b63b43b8ceb97e8a1b3b2236da715ddbf3206def90\"",
+    "readme_hash": "1555745b852c43e2e6a70c73927eda893b63c81eb324c45b43fdc28ad877a5b5",
+    "entry": {
+      "id": "aleph-hub:Yoojin-nam/hwp-pipeline",
+      "repo_url": "https://github.com/Yoojin-nam/hwp-pipeline",
+      "via": "github:Yoojin-nam",
+      "full_name": "Yoojin-nam/hwp-pipeline",
+      "owner": "Yoojin-nam",
+      "repo": "hwp-pipeline",
+      "kind": "skill",
+      "name": "HWP Pipeline",
+      "author": "Yoojin-nam",
+      "category": "files",
+      "tags": [
+        "hwp",
+        "korean",
+        "documents",
+        "conversion"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Yoojin-nam/hwp-pipeline",
+        "git_ref": "main"
+      },
+      "description_en": "Read, convert, and edit Korean Hangul documents (.hwp/.hwpx) without Hancom Office—HWP to JSON/Markdown/HTML, HWP to HWPX, and HWPX editing with template filling and placeholder replacement.",
+      "description_zh": "无需 Hancom Office 即可读取、转换与编辑韩文 Hangul 文档(.hwp/.hwpx)——HWP 转 JSON/Markdown/HTML、HWP 转 HWPX,以及带模板填充与占位符替换的 HWPX 编辑。",
+      "long_en": "Unlocks the proprietary HWP format for programmatic conversion and template-based editing on any platform, no Hancom license required.",
+      "long_zh": "在任意平台上解锁专有的 HWP 格式,实现程序化转换与基于模板的编辑,无需 Hancom 授权。",
+      "sec_note_en": "Reads and rewrites your HWP/HWPX files locally; back up originals before applying edits.",
+      "sec_note_zh": "在本地读取并改写你的 HWP/HWPX 文件;应用编辑前请先备份原件。",
+      "requires_config": false
+    }
+  },
+  "WangYutao0915/pdf-to-chinese-latex": {
+    "etag": "W/\"9ed5e57714fdd767b96f6a6523cc6b94e965e9b3b347ea4fdb5dcdf2f74fedb6\"",
+    "readme_hash": "3403a0eb4bdd1b392ecb7ff38fb315964f60da28c8122dd6cbb5dea56d1ce069",
+    "entry": {
+      "id": "aleph-hub:WangYutao0915/pdf-to-chinese-latex",
+      "repo_url": "https://github.com/WangYutao0915/pdf-to-chinese-latex",
+      "via": "github:WangYutao0915",
+      "full_name": "WangYutao0915/pdf-to-chinese-latex",
+      "owner": "WangYutao0915",
+      "repo": "pdf-to-chinese-latex",
+      "kind": "skill",
+      "name": "PDF to Chinese LaTeX",
+      "author": "WangYutao0915",
+      "category": "utilities",
+      "tags": [
+        "pdf",
+        "latex",
+        "translation",
+        "overleaf"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/WangYutao0915/pdf-to-chinese-latex",
+        "git_ref": "main"
+      },
+      "description_en": "Translate academic PDFs in any language into Chinese LaTeX projects that compile in Overleaf with XeLaTeX, preserving equations, tables, figures, and bibliography one-to-one.",
+      "description_zh": "把任意语种的学术 PDF 论文翻译成可在 Overleaf 用 XeLaTeX 编译的中文 LaTeX 工程,公式、表格、图片与参考文献逐一对应保留。",
+      "long_en": "Keeps equation numbering and reference alignment intact, producing an Overleaf-ready Chinese version of foreign-language papers.",
+      "long_zh": "保持公式编号与引用对齐不变,产出可直接用于 Overleaf 的外文论文中文版。",
+      "sec_note_en": "Sends paper text to a translation step; review the translation for technical accuracy.",
+      "sec_note_zh": "会把论文文本送入翻译环节;请审阅译文的技术准确性。",
+      "requires_config": false
+    }
+  },
+  "xntj-ai/onepage-pdf": {
+    "etag": "W/\"0f933fc07d75b98369f618c934bc542ce02c74630febdec78630c28a05a0587e\"",
+    "readme_hash": "b7e04ecd779f2a6db33e4e49fd6d1e99ed2a9f58a8e35657915142ce4bb0e2fd",
+    "entry": {
+      "id": "aleph-hub:xntj-ai/onepage-pdf",
+      "repo_url": "https://github.com/xntj-ai/onepage-pdf",
+      "via": "github:xntj-ai",
+      "full_name": "xntj-ai/onepage-pdf",
+      "owner": "xntj-ai",
+      "repo": "onepage-pdf",
+      "kind": "skill",
+      "name": "OnePage PDF",
+      "author": "xntj-ai",
+      "category": "utilities",
+      "tags": [
+        "pdf",
+        "html",
+        "export",
+        "conversion"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xntj-ai/onepage-pdf",
+        "git_ref": "main"
+      },
+      "description_en": "Convert an HTML page into a single continuous-page PDF—one tall page with no pagination breaks—preserving desktop layout, backgrounds, and selectable text.",
+      "description_zh": "把 HTML 页面转成单张连续长页 PDF——一整张高页、不分页——保留桌面版排版、背景与可选中文本。",
+      "long_en": "Fixes HTML-to-PDF exports that break content across pages, with optional string redaction and leak verification.",
+      "long_zh": "解决 HTML 转 PDF 时内容被分页切断的问题,并支持可选的字符串脱敏与泄漏校验。",
+      "sec_note_en": "Renders local HTML to PDF; if using redaction, verify the leak-check output before sharing.",
+      "sec_note_zh": "把本地 HTML 渲染为 PDF;若使用脱敏,分享前请核对泄漏校验结果。",
+      "requires_config": false
+    }
+  },
+  "LewisLiu007/full-page-screenshot": {
+    "etag": "W/\"d7812965755e60afac394f316feb2e712035a400bd1469b109f3599901e64501\"",
+    "readme_hash": "60fea00530d6c1d21b1f0425be08107dc47aad89d35055b0495ec79562912eac",
+    "entry": {
+      "id": "aleph-hub:LewisLiu007/full-page-screenshot",
+      "repo_url": "https://github.com/LewisLiu007/full-page-screenshot",
+      "via": "github:LewisLiu007",
+      "full_name": "LewisLiu007/full-page-screenshot",
+      "owner": "LewisLiu007",
+      "repo": "full-page-screenshot",
+      "kind": "skill",
+      "name": "Full Page Screenshot",
+      "author": "LewisLiu007",
+      "category": "automation",
+      "tags": [
+        "screenshot",
+        "browser",
+        "chrome-devtools",
+        "capture"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/LewisLiu007/full-page-screenshot",
+        "git_ref": "main"
+      },
+      "description_en": "Capture a full-length PNG screenshot of any web page—covering everything below the fold—by driving Chrome directly over the DevTools Protocol, handling SPA scroll containers, lazy-loaded images, and tall-page stitching.",
+      "description_zh": "对任意网页生成一张完整长截图 PNG(覆盖需要滚动才能看到的全部内容)——直连 Chrome DevTools 协议驱动浏览器,自动处理 SPA 内部滚动容器、懒加载图片与超长页面分片拼接。",
+      "long_en": "Connects straight to the Chrome DevTools WebSocket with no CDP proxy or middleware, so it works on an already-open tab or a given URL with only Node and Chrome's remote debugging.",
+      "long_zh": "直连 Chrome DevTools WebSocket,无需 CDP 代理或中间层,只要 Node 与 Chrome 远程调试即可对已打开的标签页或指定 URL 截图。",
+      "sec_note_en": "Requires Node 22+ and Chrome started with remote debugging; it controls your local Chrome session and only fetches the page you point it at.",
+      "sec_note_zh": "需要 Node 22+ 与开启远程调试的 Chrome;会控制你本地的 Chrome 会话,仅抓取你指定的页面。",
+      "requires_config": false
+    }
+  },
+  "tlehman/litprog-skill": {
+    "etag": "W/\"65c146968ef10905a7d0cb1107eaec8b1974c8373e4520d9e9da95f9a0dd635e\"",
+    "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
+    "entry": {
+      "id": "aleph-hub:tlehman/litprog-skill",
+      "repo_url": "https://github.com/tlehman/litprog-skill",
+      "via": "hermes-atlas",
+      "full_name": "tlehman/litprog-skill",
+      "owner": "tlehman",
+      "repo": "litprog-skill",
+      "kind": "skill",
+      "name": "Literate Programming",
+      "author": "tlehman",
+      "category": "developer",
+      "tags": [
+        "literate-programming",
+        "documentation",
+        "pandoc"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/tlehman/litprog-skill",
+        "git_ref": "main"
+      },
+      "description_en": "Turn a codebase into a literate program—one markdown file that reads as documentation and tangles back into the original source code.",
+      "description_zh": "把代码库变成「文学化程序」——单个 markdown 文件既是面向人阅读的文档,又能 tangle 还原出原始源码。",
+      "long_en": "Write a `.lit.md` file with named code chunks: WEAVE renders a PDF (prose, diagrams, math, highlighted code) via Pandoc, while TANGLE extracts the source files from root chunks.",
+      "long_zh": "用具名代码块编写 `.lit.md` 文件:WEAVE 经 Pandoc 渲染出含散文、图表、公式与高亮代码的 PDF,TANGLE 则从根代码块抽取出源文件。",
+      "sec_note_en": "Runs Pandoc and tangles files locally; review generated code chunks before building.",
+      "sec_note_zh": "在本地运行 Pandoc 并 tangle 文件;构建前请审阅生成的代码块。",
       "requires_config": false
     }
   }

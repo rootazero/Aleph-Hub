@@ -3,103 +3,193 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 13,
-    "generated_at": "2026-06-20T18:57:16.179Z",
-    "content_hash": "sha256:71517451dd74dd28d6822f6207c84eb4709a5b5730f71d2c07fb4568ab4e430a"
+    "entry_count": 78,
+    "generated_at": "2026-06-21T08:21:09.126Z",
+    "content_hash": "sha256:1d03a8c804639475cb75b4a8fe75c5dec8b9643608e6e2e1ad94ae18e43769a2"
   },
   "entries": [
     {
-      "id": "aleph-hub:microsoft/playwright-mcp",
-      "kind": "mcp",
-      "category": "developer",
-      "name": "Playwright MCP",
-      "description": "Browser-automation MCP server that lets agents drive Chromium, Firefox, and WebKit through Playwright—navigate, click, fill forms, and capture accessibility snapshots.",
-      "repo_url": "https://github.com/microsoft/playwright-mcp",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "mcp_stdio",
-        "command": "npx",
-        "args": [
-          "-y",
-          "@playwright/mcp"
-        ],
-        "env": [
-          {
-            "name": "PLAYWRIGHT_MCP_SECRETS_FILE",
-            "required": true,
-            "secret": true
-          }
-        ]
-      },
-      "requires_config": true,
-      "author": "microsoft",
-      "tags": [
-        "browser",
-        "automation",
-        "testing",
-        "playwright"
-      ],
-      "via": "github:microsoft"
-    },
-    {
-      "id": "aleph-hub:wonderwhy-er/DesktopCommanderMCP",
-      "kind": "mcp",
-      "category": "developer",
-      "name": "Desktop Commander",
-      "description": "Gives Claude terminal control with filesystem search and edit across your machine—run commands, manage processes, and read or modify files.",
-      "repo_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Agentic SEO",
+      "description": "An LLM-first SEO analysis skill with keyword research and on-page audit modules.",
+      "repo_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
       "trust_tier": "verified",
       "install_spec": {
-        "type": "mcp_stdio",
-        "command": "npx",
-        "args": [
-          "-y",
-          "@wonderwhy-er/desktop-commander"
-        ],
-        "env": []
+        "type": "git_dir",
+        "git_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+        "git_ref": "main"
       },
       "requires_config": false,
-      "author": "wonderwhy-er",
+      "author": "Bhanunamikaze",
       "tags": [
-        "terminal",
-        "filesystem",
-        "shell",
-        "automation"
+        "seo",
+        "marketing",
+        "analysis"
       ],
-      "via": "github:wonderwhy-er"
+      "via": "github:Bhanunamikaze"
     },
     {
-      "id": "aleph-hub:mobile-next/mobile-mcp",
-      "kind": "mcp",
-      "category": "developer",
-      "name": "Mobile MCP",
-      "description": "Mobile-automation MCP server for iOS and Android—drives simulators, emulators, and physical devices for UI testing and scraping.",
-      "repo_url": "https://github.com/mobile-next/mobile-mcp",
-      "trust_tier": "verified",
+      "id": "aleph-hub:coffeefuelbump/csv-data-summarizer-claude-skill",
+      "kind": "skill",
+      "category": "data",
+      "name": "CSV Data Summarizer",
+      "description": "Analyze CSV files, generate summary statistics, and plot quick visualizations using Python, pandas, and matplotlib/seaborn.",
+      "repo_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+      "trust_tier": "community",
       "install_spec": {
-        "type": "mcp_stdio",
-        "command": "npx",
-        "args": [
-          "-y",
-          "@mobilenext/mobile-mcp"
-        ],
-        "env": [
-          {
-            "name": "MOBILEMCP_AUTH",
-            "required": true,
-            "secret": true
-          }
-        ]
+        "type": "git_dir",
+        "git_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+        "git_ref": "main"
       },
-      "requires_config": true,
-      "author": "mobile-next",
+      "requires_config": false,
+      "author": "coffeefuelbump",
       "tags": [
-        "mobile",
-        "ios",
-        "android",
-        "automation"
+        "csv",
+        "pandas",
+        "statistics",
+        "visualization"
       ],
-      "via": "github:mobile-next"
+      "via": "github:coffeefuelbump"
+    },
+    {
+      "id": "aleph-hub:KaguraNanaga/document-format-skills",
+      "kind": "skill",
+      "category": "files",
+      "name": "Chinese Document Formatter",
+      "description": "A Chinese Word document formatting toolkit for .docx/.doc/.wps: diagnose formatting issues, fix mixed Chinese/English punctuation and spacing, apply official/academic/legal presets, normalize tables and page numbers, preserve revision marks, and convert plain text or Markdown into formatted DOCX.",
+      "repo_url": "https://github.com/KaguraNanaga/document-format-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/KaguraNanaga/document-format-skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "KaguraNanaga",
+      "tags": [
+        "docx",
+        "formatting",
+        "chinese",
+        "word"
+      ],
+      "via": "github:KaguraNanaga"
+    },
+    {
+      "id": "aleph-hub:karanb192/algo-sensei",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Algo Sensei",
+      "description": "A personal DSA and LeetCode mentor: problem explanations, progressive hints, code reviews, mock interviews, pattern recognition, complexity analysis, and custom problem generation—teaching through the Socratic method rather than handing over answers.",
+      "repo_url": "https://github.com/karanb192/algo-sensei",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/karanb192/algo-sensei",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "karanb192",
+      "tags": [
+        "dsa",
+        "leetcode",
+        "interview-prep",
+        "tutor"
+      ],
+      "via": "github:karanb192"
+    },
+    {
+      "id": "aleph-hub:jtrackingai/analytics-tracking-automation",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Analytics Tracking Automation",
+      "description": "End-to-end GA4 + GTM event-tracking delivery: discover the site, design the event schema, validate selectors, preview in a real browser, sync to Google Tag Manager via OAuth, and publish.",
+      "repo_url": "https://github.com/jtrackingai/analytics-tracking-automation",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/jtrackingai/analytics-tracking-automation",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "jtrackingai",
+      "tags": [
+        "ga4",
+        "gtm",
+        "analytics",
+        "tracking",
+        "playwright"
+      ],
+      "via": "github:jtrackingai"
+    },
+    {
+      "id": "aleph-hub:apiotrowski-afk/commercial-legal-pl",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Polish Commercial Legal",
+      "description": "Analyze and draft contracts under Polish law—B2B, IP, and IT agreements (body leasing, NDA, deployments, SaaS, copyright transfer, settlements)—built by a Polish law firm.",
+      "repo_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "apiotrowski-afk",
+      "tags": [
+        "legal",
+        "contracts",
+        "poland",
+        "b2b"
+      ],
+      "via": "github:apiotrowski-afk"
+    },
+    {
+      "id": "aleph-hub:wrsmith108/linear-claude-skill",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Linear",
+      "description": "Manage Linear issues, projects, and teams from your agent—create issues, update status, query projects, and drive team workflows.",
+      "repo_url": "https://github.com/wrsmith108/linear-claude-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/wrsmith108/linear-claude-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "wrsmith108",
+      "tags": [
+        "linear",
+        "issue-tracking",
+        "project-management"
+      ],
+      "via": "github:wrsmith108"
+    },
+    {
+      "id": "aleph-hub:yfe404/web-scraper",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Web Scraper",
+      "description": "Scrape and extract data from websites with intelligent strategy selection—discovers hidden APIs via traffic interception, then picks among API, sitemap, DOM, or hybrid scraping and implements iteratively, up to production Apify Actors in TypeScript.",
+      "repo_url": "https://github.com/yfe404/web-scraper",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yfe404/web-scraper",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yfe404",
+      "tags": [
+        "web-scraping",
+        "data-extraction",
+        "apify",
+        "crawling"
+      ],
+      "via": "github:yfe404"
     },
     {
       "id": "aleph-hub:zarazhangrui/frontend-slides",
@@ -191,6 +281,29 @@
       "via": "github:tt-a1i"
     },
     {
+      "id": "aleph-hub:JuneYaooo/gpt-image2-ppt-skills",
+      "kind": "skill",
+      "category": "design",
+      "name": "GPT-Image PPT",
+      "description": "Generate visually striking slide decks with OpenAI's gpt-image-2—feed a markdown outline plus a visual style, get high-res slide PNGs packaged into a 16:9 PPTX.",
+      "repo_url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "JuneYaooo",
+      "tags": [
+        "powerpoint",
+        "slides",
+        "gpt-image",
+        "presentation"
+      ],
+      "via": "github:JuneYaooo"
+    },
+    {
       "id": "aleph-hub:nolangz/pixel2motion",
       "kind": "skill",
       "category": "design",
@@ -235,26 +348,27 @@
       "via": "github:dominikmartn"
     },
     {
-      "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
+      "id": "aleph-hub:KAOPU-XiaoPu/web-design",
       "kind": "skill",
-      "category": "productivity",
-      "name": "Agentic SEO",
-      "description": "An LLM-first SEO analysis skill with keyword research and on-page audit modules.",
-      "repo_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+      "category": "design",
+      "name": "Web Design",
+      "description": "A two-phase web visual-design skill: first produce a standardized DESIGN.md spec from your PRD / reference URL / screenshot / keywords, then generate UI/UX, visual, motion, and responsive web code that meets it.",
+      "repo_url": "https://github.com/KAOPU-XiaoPu/web-design",
       "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
-        "git_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+        "git_url": "https://github.com/KAOPU-XiaoPu/web-design",
         "git_ref": "main"
       },
       "requires_config": false,
-      "author": "Bhanunamikaze",
+      "author": "KAOPU-XiaoPu",
       "tags": [
-        "seo",
-        "marketing",
-        "analysis"
+        "web-design",
+        "ui",
+        "landing-page",
+        "frontend"
       ],
-      "via": "github:Bhanunamikaze"
+      "via": "github:KAOPU-XiaoPu"
     },
     {
       "id": "aleph-hub:TexasBedouin/vibe-check",
@@ -277,6 +391,75 @@
         "pm"
       ],
       "via": "github:TexasBedouin"
+    },
+    {
+      "id": "aleph-hub:dpconde/claude-android-skill",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Android Development",
+      "description": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
+      "repo_url": "https://github.com/dpconde/claude-android-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dpconde/claude-android-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dpconde",
+      "tags": [
+        "android",
+        "kotlin",
+        "jetpack-compose",
+        "architecture"
+      ],
+      "via": "github:dpconde"
+    },
+    {
+      "id": "aleph-hub:kimlawtech/korean-privacy-terms",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Privacy & Terms Generator",
+      "description": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
+      "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kimlawtech",
+      "tags": [
+        "privacy-policy",
+        "legal",
+        "gdpr",
+        "compliance"
+      ],
+      "via": "github:kimlawtech"
+    },
+    {
+      "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Visual Style PPT",
+      "description": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
+      "repo_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "irenerachel",
+      "tags": [
+        "slides",
+        "image-generation",
+        "design",
+        "presentation"
+      ],
+      "via": "github:irenerachel"
     },
     {
       "id": "aleph-hub:ckelsoe/prompt-architect",
@@ -321,6 +504,1293 @@
         "project"
       ],
       "via": "github:JamesShi96"
+    },
+    {
+      "id": "aleph-hub:likaku/Mck-ppt-design-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "McKinsey PPT Design",
+      "description": "Generate consultant-grade, McKinsey-style PowerPoint decks from scratch via a python-pptx engine with high-level layout methods and built-in guard rails.",
+      "repo_url": "https://github.com/likaku/Mck-ppt-design-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/likaku/Mck-ppt-design-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "likaku",
+      "tags": [
+        "powerpoint",
+        "slides",
+        "python-pptx",
+        "presentation"
+      ],
+      "via": "github:likaku"
+    },
+    {
+      "id": "aleph-hub:PleasePrompto/google-ai-mode-skill",
+      "kind": "skill",
+      "category": "search",
+      "name": "Google AI Mode",
+      "description": "Query Google's AI Search mode to retrieve comprehensive, source-cited overviews for current information and research beyond the model's knowledge cutoff.",
+      "repo_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "PleasePrompto",
+      "tags": [
+        "search",
+        "research",
+        "web",
+        "citations"
+      ],
+      "via": "github:PleasePrompto"
+    },
+    {
+      "id": "aleph-hub:moshuying/pitchcraft",
+      "kind": "skill",
+      "category": "communication",
+      "name": "PitchCraft",
+      "description": "Structured persuasion for tech leads, PMs, and founders—turn raw updates into briefings on a Hook→Context→Proposal→Evidence→Ask framework across five scenarios.",
+      "repo_url": "https://github.com/moshuying/pitchcraft",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/moshuying/pitchcraft",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "moshuying",
+      "tags": [
+        "persuasion",
+        "pitch",
+        "briefing",
+        "communication"
+      ],
+      "via": "github:moshuying"
+    },
+    {
+      "id": "aleph-hub:Hao0321/ai-media-generator",
+      "kind": "skill",
+      "category": "design",
+      "name": "AI Media Generator",
+      "description": "Write high-quality prompts for AI image, video, and music platforms—picking the right model for the task—and optionally drive the target site via browser automation to submit them.",
+      "repo_url": "https://github.com/Hao0321/ai-media-generator",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hao0321/ai-media-generator",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Hao0321",
+      "tags": [
+        "ai-art",
+        "video",
+        "music",
+        "prompts"
+      ],
+      "via": "github:Hao0321"
+    },
+    {
+      "id": "aleph-hub:axiaoge2/Apple-Hig-Designer",
+      "kind": "skill",
+      "category": "design",
+      "name": "Apple HIG Designer",
+      "description": "Design Apple-style iOS and macOS interfaces that follow the Human Interface Guidelines—SF Symbols, San Francisco typography, and proper accessibility.",
+      "repo_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "axiaoge2",
+      "tags": [
+        "apple",
+        "ios",
+        "macos",
+        "hig"
+      ],
+      "via": "github:axiaoge2"
+    },
+    {
+      "id": "aleph-hub:uxKero/anydesign",
+      "kind": "skill",
+      "category": "design",
+      "name": "AnyDesign",
+      "description": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
+      "repo_url": "https://github.com/uxKero/anydesign",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/uxKero/anydesign",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "uxKero",
+      "tags": [
+        "design-system",
+        "figma",
+        "tokens",
+        "reverse-engineering"
+      ],
+      "via": "github:uxKero"
+    },
+    {
+      "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Math Modeling",
+      "description": "End-to-end workflow for math-modeling competitions (CUMCM, MCM/ICM): topic selection, modeling, solving, paper writing, and final review.",
+      "repo_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "handsomeZR-netizen",
+      "tags": [
+        "math-modeling",
+        "academic",
+        "competition",
+        "writing"
+      ],
+      "via": "github:handsomeZR-netizen"
+    },
+    {
+      "id": "aleph-hub:agentenatalie/get-job.skill",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Get Job",
+      "description": "A full job-hunt agent: research what a target role actually wants, re-target your resume to it, and prep interviews bullet by bullet.",
+      "repo_url": "https://github.com/agentenatalie/get-job.skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/agentenatalie/get-job.skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "agentenatalie",
+      "tags": [
+        "job-search",
+        "resume",
+        "interview",
+        "career"
+      ],
+      "via": "github:agentenatalie"
+    },
+    {
+      "id": "aleph-hub:zy-zmc/tianming-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Tianming Novel System",
+      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
+      "repo_url": "https://github.com/zy-zmc/tianming-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zy-zmc/tianming-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zy-zmc",
+      "tags": [
+        "novel",
+        "creative-writing",
+        "long-form",
+        "chinese"
+      ],
+      "via": "github:zy-zmc"
+    },
+    {
+      "id": "aleph-hub:dososo/blcaptain-style-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "BLCaptain Style Cards",
+      "description": "Turn Chinese text into eye-catching social image cards—Xiaohongshu 3:4 and WeChat covers—using three distinct house visual languages.",
+      "repo_url": "https://github.com/dososo/blcaptain-style-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dososo/blcaptain-style-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dososo",
+      "tags": [
+        "social-cards",
+        "xiaohongshu",
+        "wechat",
+        "design"
+      ],
+      "via": "github:dososo"
+    },
+    {
+      "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
+      "kind": "skill",
+      "category": "communication",
+      "name": "WeChat Article Formatter",
+      "description": "Format markdown articles with bm.md styling and publish them straight to WeChat Official Account drafts via the official API.",
+      "repo_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "iamzifei",
+      "tags": [
+        "wechat",
+        "publishing",
+        "markdown",
+        "formatting"
+      ],
+      "via": "github:iamzifei"
+    },
+    {
+      "id": "aleph-hub:swaylq/master-skill",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Industry Master",
+      "description": "Distill an entire industry into a runnable \"Master OS\" skill—researching its leaders, tool map, workflows, canon, sources, and terminology across six tracks.",
+      "repo_url": "https://github.com/swaylq/master-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/swaylq/master-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "swaylq",
+      "tags": [
+        "research",
+        "onboarding",
+        "domain-expertise",
+        "workflow"
+      ],
+      "via": "github:swaylq"
+    },
+    {
+      "id": "aleph-hub:Jaderson-bit/mindmap-markmap-viewer",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Mindmap Viewer",
+      "description": "Turn Markdown outlines, notes, docs, or plans into an interactive mind map—a single self-contained offline HTML file built with markmap.js, featuring white-on-dark styling, expand-by-level control, zoom/export toolbar, and search that keeps matches in context.",
+      "repo_url": "https://github.com/Jaderson-bit/mindmap-markmap-viewer",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Jaderson-bit/mindmap-markmap-viewer",
+        "git_ref": "master"
+      },
+      "requires_config": false,
+      "author": "Jaderson-bit",
+      "tags": [
+        "mindmap",
+        "markmap",
+        "visualization",
+        "markdown"
+      ],
+      "via": "github:Jaderson-bit"
+    },
+    {
+      "id": "aleph-hub:Ashutos1997/claude-design-auditor-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Design Auditor",
+      "description": "Audit designs against 19 rules across Figma files and code (HTML/CSS/React/Vue/Tailwind)—accessibility, contrast, tokens, responsiveness, dark patterns, and Nielsen heuristics.",
+      "repo_url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Ashutos1997",
+      "tags": [
+        "design-review",
+        "accessibility",
+        "wcag",
+        "figma"
+      ],
+      "via": "github:Ashutos1997"
+    },
+    {
+      "id": "aleph-hub:SDLLL/claude-for-safari",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Claude for Safari",
+      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+      "repo_url": "https://github.com/SDLLL/claude-for-safari",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SDLLL/claude-for-safari",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "SDLLL",
+      "tags": [
+        "safari",
+        "browser",
+        "macos",
+        "automation"
+      ],
+      "via": "github:SDLLL"
+    },
+    {
+      "id": "aleph-hub:VincentOld/stop-slop-zh",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Stop AI Slop (Chinese)",
+      "description": "Identify and remove the telltale patterns of Chinese AI writing—clichés, three-part parallelism (是…，是…，更是…), nominalized verbs, abstract subjects, aphoristic endings, and formulaic structure—so the text reads like a person speaking rather than a model generating.",
+      "repo_url": "https://github.com/VincentOld/stop-slop-zh",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/VincentOld/stop-slop-zh",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "VincentOld",
+      "tags": [
+        "chinese",
+        "editing",
+        "writing-quality",
+        "style"
+      ],
+      "via": "github:VincentOld"
+    },
+    {
+      "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Canadian Finance Planner",
+      "description": "A personal financial planning partner built for Canadians—conducts financial interviews, builds complete plans, and generates interactive dashboards covering budgeting, saving, debt, RRSPs, TFSAs, RESPs, CPP, OAS, retirement, and tax optimization.",
+      "repo_url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cjpatten",
+      "tags": [
+        "personal-finance",
+        "canada",
+        "budgeting",
+        "retirement"
+      ],
+      "via": "github:cjpatten"
+    },
+    {
+      "id": "aleph-hub:Farenhytee/database-sentinel",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Database Sentinel",
+      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
+      "repo_url": "https://github.com/Farenhytee/database-sentinel",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Farenhytee/database-sentinel",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Farenhytee",
+      "tags": [
+        "database",
+        "security",
+        "audit",
+        "rls"
+      ],
+      "via": "github:Farenhytee"
+    },
+    {
+      "id": "aleph-hub:Adityapal67/context-graph-compressor",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Context Graph Compressor",
+      "description": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
+      "repo_url": "https://github.com/Adityapal67/context-graph-compressor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Adityapal67/context-graph-compressor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Adityapal67",
+      "tags": [
+        "context",
+        "handoff",
+        "compression",
+        "llm"
+      ],
+      "via": "github:Adityapal67"
+    },
+    {
+      "id": "aleph-hub:brettdavies/crawl4ai-skill",
+      "kind": "skill",
+      "category": "data",
+      "name": "Crawl4AI",
+      "description": "Scrape JavaScript-heavy pages and SPAs, crawl many URLs concurrently, and extract structured data with reusable CSS/JSON schemas—wrapping the Crawl4AI library.",
+      "repo_url": "https://github.com/brettdavies/crawl4ai-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/brettdavies/crawl4ai-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "brettdavies",
+      "tags": [
+        "scraping",
+        "crawling",
+        "web-data",
+        "extraction"
+      ],
+      "via": "github:brettdavies"
+    },
+    {
+      "id": "aleph-hub:echoVic/spec-flow",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Spec-Flow",
+      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
+      "repo_url": "https://github.com/echoVic/spec-flow",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/echoVic/spec-flow",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "echoVic",
+      "tags": [
+        "spec-driven",
+        "planning",
+        "workflow",
+        "tasks"
+      ],
+      "via": "github:echoVic"
+    },
+    {
+      "id": "aleph-hub:kgraph57/paper-writer-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Paper Writer",
+      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kgraph57/paper-writer-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kgraph57",
+      "tags": [
+        "academic",
+        "research-paper",
+        "imrad",
+        "manuscript"
+      ],
+      "via": "github:kgraph57"
+    },
+    {
+      "id": "aleph-hub:googlarz/finance-assistant",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Finance Assistant",
+      "description": "A personal-finance assistant for budgeting, savings goals, investment tracking, debt optimization, tax prep, and net-worth tracking with multi-currency support.",
+      "repo_url": "https://github.com/googlarz/finance-assistant",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/googlarz/finance-assistant",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "googlarz",
+      "tags": [
+        "personal-finance",
+        "budgeting",
+        "tax",
+        "investing"
+      ],
+      "via": "github:googlarz"
+    },
+    {
+      "id": "aleph-hub:likemaoke/wechat-article-to-md",
+      "kind": "skill",
+      "category": "files",
+      "name": "WeChat Article to Markdown",
+      "description": "Fetch a WeChat public-account article from its mp.weixin.qq.com link and convert it to a Markdown file—extracting title, author, and body, preserving formatting, downloading images locally, with an Obsidian output mode.",
+      "repo_url": "https://github.com/likemaoke/wechat-article-to-md",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/likemaoke/wechat-article-to-md",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "likemaoke",
+      "tags": [
+        "wechat",
+        "markdown",
+        "obsidian",
+        "archive"
+      ],
+      "via": "github:likemaoke"
+    },
+    {
+      "id": "aleph-hub:jianshuo/jianshuo-wechat-mp-publish",
+      "kind": "skill",
+      "category": "communication",
+      "name": "WeChat MP Publishing",
+      "description": "Help write and publish WeChat public-account articles from scattered ideas, drafts, or notes—lightly polishing rather than rewriting, generating cover and explainer images, and preparing the draft for upload to mp.weixin.qq.com with one command.",
+      "repo_url": "https://github.com/jianshuo/jianshuo-wechat-mp-publish",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/jianshuo/jianshuo-wechat-mp-publish",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "jianshuo",
+      "tags": [
+        "wechat",
+        "publishing",
+        "cover-image",
+        "drafts"
+      ],
+      "via": "github:jianshuo"
+    },
+    {
+      "id": "aleph-hub:ktaletsk/learn-codebase",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Learn Codebase",
+      "description": "A Socratic tutor that teaches codebase understanding through questioning, challenges, and active recall—useful when onboarding to a new codebase or deepening understanding of existing code—and maintains a learning journal that tracks mastery and schedules reviews.",
+      "repo_url": "https://github.com/ktaletsk/learn-codebase",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/ktaletsk/learn-codebase",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "ktaletsk",
+      "tags": [
+        "onboarding",
+        "tutor",
+        "active-recall",
+        "codebase"
+      ],
+      "via": "github:ktaletsk"
+    },
+    {
+      "id": "aleph-hub:elderengineer/tax-organizer",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Tax Organizer",
+      "description": "Organize and process US personal and consultant tax documents—W-2, 1099s, K-1s, 1098—into accurate reports and drafts, handling rental properties, royalties, partnerships/S-corps, business expenses, per-diem optimization, and charitable receipts.",
+      "repo_url": "https://github.com/elderengineer/tax-organizer",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/elderengineer/tax-organizer",
+        "git_ref": "master"
+      },
+      "requires_config": false,
+      "author": "elderengineer",
+      "tags": [
+        "tax",
+        "us-tax",
+        "schedule-e",
+        "expenses"
+      ],
+      "via": "github:elderengineer"
+    },
+    {
+      "id": "aleph-hub:mathiaschu/watch",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Watch (Video Ingestion)",
+      "description": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
+      "repo_url": "https://github.com/mathiaschu/watch",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mathiaschu/watch",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mathiaschu",
+      "tags": [
+        "video",
+        "yt-dlp",
+        "transcript",
+        "ffmpeg"
+      ],
+      "via": "github:mathiaschu"
+    },
+    {
+      "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
+      "kind": "skill",
+      "category": "finance",
+      "name": "IRPF Brasil",
+      "description": "Specialist assistant for Brazil's personal income tax (IRPF, 2026 cycle / 2025 base year)—covers filing obligations, pre-filled returns, REVAR/B3, fixed income, capital gains (GCAP), offshore (Law 14.754), special cases, and the 2027 changes, with a focus on audit, compliance, and optimization.",
+      "repo_url": "https://github.com/Danielbluz/skill-irpf-brasil",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Danielbluz/skill-irpf-brasil",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Danielbluz",
+      "tags": [
+        "tax",
+        "brazil",
+        "irpf",
+        "compliance"
+      ],
+      "via": "github:Danielbluz"
+    },
+    {
+      "id": "aleph-hub:Bhanunamikaze/AI-Dataset-Generator",
+      "kind": "skill",
+      "category": "data",
+      "name": "Dataset Generator",
+      "description": "Generate, normalize, verify, deduplicate, and export training datasets from topics, URLs, reference material, or existing JSONL/CSV—supporting SFT and DPO workflows.",
+      "repo_url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Bhanunamikaze",
+      "tags": [
+        "dataset",
+        "training-data",
+        "sft",
+        "dpo"
+      ],
+      "via": "github:Bhanunamikaze"
+    },
+    {
+      "id": "aleph-hub:dancolta/seo-drift-monitor",
+      "kind": "skill",
+      "category": "automation",
+      "name": "SEO Drift Monitor",
+      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dancolta/seo-drift-monitor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dancolta",
+      "tags": [
+        "seo",
+        "monitoring",
+        "regression",
+        "audit"
+      ],
+      "via": "github:dancolta"
+    },
+    {
+      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "HTML to PPTX",
+      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
+      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Hasasasa",
+      "tags": [
+        "pptx",
+        "html",
+        "slides",
+        "conversion"
+      ],
+      "via": "github:Hasasasa"
+    },
+    {
+      "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
+      "kind": "skill",
+      "category": "data",
+      "name": "Business Analyst",
+      "description": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
+      "repo_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Zuokaiqi",
+      "tags": [
+        "data-analysis",
+        "insights",
+        "excel",
+        "reporting"
+      ],
+      "via": "github:Zuokaiqi"
+    },
+    {
+      "id": "aleph-hub:dudaster/html2elementor",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "HTML to Elementor",
+      "description": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
+      "repo_url": "https://github.com/dudaster/html2elementor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dudaster/html2elementor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dudaster",
+      "tags": [
+        "elementor",
+        "wordpress",
+        "html",
+        "conversion"
+      ],
+      "via": "github:dudaster"
+    },
+    {
+      "id": "aleph-hub:BayramAnnakov/excel-hygiene",
+      "kind": "skill",
+      "category": "data",
+      "name": "Excel Hygiene",
+      "description": "A rigorous \"second pair of eyes\" on any xlsx before it ships—catches numbers-as-text, hardcoded-over-formula, cell errors, truncated SUMs, and percent-as-whole-number.",
+      "repo_url": "https://github.com/BayramAnnakov/excel-hygiene",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/BayramAnnakov/excel-hygiene",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "BayramAnnakov",
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "qa",
+        "audit"
+      ],
+      "via": "github:BayramAnnakov"
+    },
+    {
+      "id": "aleph-hub:Mobiss11/Whisper-Skill",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "Whisper Skill",
+      "description": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
+      "repo_url": "https://github.com/Mobiss11/Whisper-Skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Mobiss11/Whisper-Skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Mobiss11",
+      "tags": [
+        "whisper",
+        "transcription",
+        "subtitles",
+        "dictation"
+      ],
+      "via": "github:Mobiss11"
+    },
+    {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
+    },
+    {
+      "id": "aleph-hub:muxuuu/serenity-skill",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Serenity Research",
+      "description": "Source-backed investment research that hunts supply-chain bottlenecks, maps technology value chains, screens A-share/HK/US equities, and stress-tests theses.",
+      "repo_url": "https://github.com/muxuuu/serenity-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/muxuuu/serenity-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "muxuuu",
+      "tags": [
+        "investment",
+        "research",
+        "supply-chain",
+        "equities"
+      ],
+      "via": "github:muxuuu"
+    },
+    {
+      "id": "aleph-hub:917Dhj/DeepPaperNote",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "DeepPaperNote",
+      "description": "Deep-read a single paper—given a title, DOI, URL, arXiv ID, Zotero item, or local PDF—and generate a high-quality, well-structured Markdown reading note with evidence-based analysis and figure placeholders, saved into an Obsidian-style vault.",
+      "repo_url": "https://github.com/917Dhj/DeepPaperNote",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/917Dhj/DeepPaperNote",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "917Dhj",
+      "tags": [
+        "papers",
+        "obsidian",
+        "notes",
+        "research"
+      ],
+      "via": "github:917Dhj"
+    },
+    {
+      "id": "aleph-hub:gitroomhq/postiz-agent",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Postiz Social Scheduler",
+      "description": "Schedule and publish posts to 28+ social and chat channels (X, LinkedIn, Reddit, Instagram, Facebook, Threads, YouTube, TikTok, Mastodon, Bluesky, Telegram, Discord, Slack and more) through the open-source Postiz CLI.",
+      "repo_url": "https://github.com/gitroomhq/postiz-agent",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/gitroomhq/postiz-agent",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "gitroomhq",
+      "tags": [
+        "social-media",
+        "scheduling",
+        "publishing",
+        "postiz"
+      ],
+      "via": "github:gitroomhq"
+    },
+    {
+      "id": "aleph-hub:quailyquaily/aqua",
+      "kind": "skill",
+      "category": "communication",
+      "name": "Aqua",
+      "description": "A CLI-first messaging tool for AI agents: exchange messages, manage contacts and invites, and drive agent inbox workflows—unread, watch, mark-read—or run webhook-triggered serve integrations for trusted peer-to-peer agent communication.",
+      "repo_url": "https://github.com/quailyquaily/aqua",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/quailyquaily/aqua",
+        "git_ref": "master"
+      },
+      "requires_config": false,
+      "author": "quailyquaily",
+      "tags": [
+        "messaging",
+        "agents",
+        "cli",
+        "inbox"
+      ],
+      "via": "github:quailyquaily"
+    },
+    {
+      "id": "aleph-hub:bowenliang123/markdown-exporter",
+      "kind": "skill",
+      "category": "files",
+      "name": "Markdown Exporter",
+      "description": "Convert Markdown to DOCX, PPTX, XLSX, PDF, HTML, IPYNB, CSV, JSON, XML and more, and extract fenced code blocks into Python, Bash, JS, and other source files.",
+      "repo_url": "https://github.com/bowenliang123/markdown-exporter",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/bowenliang123/markdown-exporter",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "bowenliang123",
+      "tags": [
+        "markdown",
+        "docx",
+        "pdf",
+        "conversion"
+      ],
+      "via": "github:bowenliang123"
+    },
+    {
+      "id": "aleph-hub:CosmoBlk/email-marketing-bible",
+      "kind": "skill",
+      "category": "communication",
+      "name": "Email Marketing Bible",
+      "description": "A data-backed email-marketing skill—plan and run automation flows, drive an ESP from an agent, diagnose deliverability, write and refine copy, and pull benchmarks.",
+      "repo_url": "https://github.com/CosmoBlk/email-marketing-bible",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/CosmoBlk/email-marketing-bible",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "CosmoBlk",
+      "tags": [
+        "email",
+        "marketing",
+        "deliverability",
+        "copywriting"
+      ],
+      "via": "github:CosmoBlk"
+    },
+    {
+      "id": "aleph-hub:caylent/tufte-data-viz",
+      "kind": "skill",
+      "category": "data",
+      "name": "Tufte Data Viz",
+      "description": "Create, review, or style charts, graphs, dashboards, and sparklines enforcing Tufte principles—data-ink ratio, direct labeling, range-frame axes—plus modern screen-first standards (accessibility, responsive, dark mode), across Recharts, ECharts, Chart.js, matplotlib, Plotly, seaborn, D3.js, and SVG.",
+      "repo_url": "https://github.com/caylent/tufte-data-viz",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/caylent/tufte-data-viz",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "caylent",
+      "tags": [
+        "data-viz",
+        "charts",
+        "tufte",
+        "dashboards"
+      ],
+      "via": "github:caylent"
+    },
+    {
+      "id": "aleph-hub:mohi-devhub/antivibe",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Antivibe",
+      "description": "A code learning and audit framework: analyze any codebase—new, legacy, or AI-generated—and produce educational explanations of WHAT and WHY, or architectural audits of trade-offs and risks, so you understand code instead of just accepting it.",
+      "repo_url": "https://github.com/mohi-devhub/antivibe",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mohi-devhub/antivibe",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mohi-devhub",
+      "tags": [
+        "code-explanation",
+        "learning",
+        "audit",
+        "education"
+      ],
+      "via": "github:mohi-devhub"
+    },
+    {
+      "id": "aleph-hub:claude-world/notebooklm-skill",
+      "kind": "skill",
+      "category": "search",
+      "name": "NotebookLM Research",
+      "description": "An autonomous research agent powered by Google NotebookLM: ingest sources (URL, text, PDF, DOCX, YouTube, Drive), run deep web research, ask cited questions, and generate artifacts (report, slides, quiz, flashcards, mind map, audio/video) plus Claude-written content drafts.",
+      "repo_url": "https://github.com/claude-world/notebooklm-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/claude-world/notebooklm-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "claude-world",
+      "tags": [
+        "research",
+        "notebooklm",
+        "sources",
+        "synthesis"
+      ],
+      "via": "github:claude-world"
+    },
+    {
+      "id": "aleph-hub:O0000-code/paper-search-pro",
+      "kind": "skill",
+      "category": "search",
+      "name": "Paper Search Pro",
+      "description": "Find academic papers across five sources (OpenAlex, Semantic Scholar, CrossRef, PubMed, arXiv) with depth from a 5-minute quick scan to a 3-hour audit prep.",
+      "repo_url": "https://github.com/O0000-code/paper-search-pro",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/O0000-code/paper-search-pro",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "O0000-code",
+      "tags": [
+        "academic",
+        "literature-search",
+        "references",
+        "research"
+      ],
+      "via": "github:O0000-code"
+    },
+    {
+      "id": "aleph-hub:SpillwaveSolutions/plantuml",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "PlantUML",
+      "description": "Generate PlantUML diagrams from text descriptions and convert them to PNG/SVG—covering UML (sequence, class, activity, state, component, deployment, use case) and non-UML (ER, Gantt, JSON/YAML, mind maps, WBS, network, wireframes), plus extracting diagrams from Markdown for Confluence.",
+      "repo_url": "https://github.com/SpillwaveSolutions/plantuml",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SpillwaveSolutions/plantuml",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "SpillwaveSolutions",
+      "tags": [
+        "plantuml",
+        "diagrams",
+        "uml",
+        "png-svg"
+      ],
+      "via": "github:SpillwaveSolutions"
+    },
+    {
+      "id": "aleph-hub:Innei/media-library-organizer-skill",
+      "kind": "skill",
+      "category": "files",
+      "name": "Media Library Organizer",
+      "description": "Organize media files (movies, TV, anime) on NAS or local storage—clean junk files, merge scattered episodes, normalize folder names to \"Title (Year)\", and verify episode completeness against TMDB.",
+      "repo_url": "https://github.com/Innei/media-library-organizer-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Innei/media-library-organizer-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Innei",
+      "tags": [
+        "media",
+        "nas",
+        "organize",
+        "tmdb"
+      ],
+      "via": "github:Innei"
+    },
+    {
+      "id": "aleph-hub:EternalWavee/benchmark-research-skill",
+      "kind": "skill",
+      "category": "search",
+      "name": "Benchmark Research",
+      "description": "Survey a research direction or a single paper to find and extract usable benchmarks—datasets, metrics, experiment tables/figures, baselines, and related work—into an auditable research note, with helper scripts fetching paper context and assets.",
+      "repo_url": "https://github.com/EternalWavee/benchmark-research-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/EternalWavee/benchmark-research-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "EternalWavee",
+      "tags": [
+        "research",
+        "benchmarks",
+        "datasets",
+        "papers"
+      ],
+      "via": "github:EternalWavee"
+    },
+    {
+      "id": "aleph-hub:sliday/genealogy-research",
+      "kind": "skill",
+      "category": "search",
+      "name": "Genealogy Research",
+      "description": "A genealogy research assistant using the Genealogical Proof Standard: analyzes historical documents and handwritten records in any script, manages an Obsidian knowledge base, builds family trees and GEDCOM, and plans the next steps for systematic ancestor discovery.",
+      "repo_url": "https://github.com/sliday/genealogy-research",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/sliday/genealogy-research",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "sliday",
+      "tags": [
+        "genealogy",
+        "research",
+        "gedcom",
+        "obsidian"
+      ],
+      "via": "github:sliday"
+    },
+    {
+      "id": "aleph-hub:Yoojin-nam/hwp-pipeline",
+      "kind": "skill",
+      "category": "files",
+      "name": "HWP Pipeline",
+      "description": "Read, convert, and edit Korean Hangul documents (.hwp/.hwpx) without Hancom Office—HWP to JSON/Markdown/HTML, HWP to HWPX, and HWPX editing with template filling and placeholder replacement.",
+      "repo_url": "https://github.com/Yoojin-nam/hwp-pipeline",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Yoojin-nam/hwp-pipeline",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Yoojin-nam",
+      "tags": [
+        "hwp",
+        "korean",
+        "documents",
+        "conversion"
+      ],
+      "via": "github:Yoojin-nam"
+    },
+    {
+      "id": "aleph-hub:WangYutao0915/pdf-to-chinese-latex",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "PDF to Chinese LaTeX",
+      "description": "Translate academic PDFs in any language into Chinese LaTeX projects that compile in Overleaf with XeLaTeX, preserving equations, tables, figures, and bibliography one-to-one.",
+      "repo_url": "https://github.com/WangYutao0915/pdf-to-chinese-latex",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/WangYutao0915/pdf-to-chinese-latex",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "WangYutao0915",
+      "tags": [
+        "pdf",
+        "latex",
+        "translation",
+        "overleaf"
+      ],
+      "via": "github:WangYutao0915"
+    },
+    {
+      "id": "aleph-hub:xntj-ai/onepage-pdf",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "OnePage PDF",
+      "description": "Convert an HTML page into a single continuous-page PDF—one tall page with no pagination breaks—preserving desktop layout, backgrounds, and selectable text.",
+      "repo_url": "https://github.com/xntj-ai/onepage-pdf",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xntj-ai/onepage-pdf",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xntj-ai",
+      "tags": [
+        "pdf",
+        "html",
+        "export",
+        "conversion"
+      ],
+      "via": "github:xntj-ai"
+    },
+    {
+      "id": "aleph-hub:LewisLiu007/full-page-screenshot",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Full Page Screenshot",
+      "description": "Capture a full-length PNG screenshot of any web page—covering everything below the fold—by driving Chrome directly over the DevTools Protocol, handling SPA scroll containers, lazy-loaded images, and tall-page stitching.",
+      "repo_url": "https://github.com/LewisLiu007/full-page-screenshot",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/LewisLiu007/full-page-screenshot",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "LewisLiu007",
+      "tags": [
+        "screenshot",
+        "browser",
+        "chrome-devtools",
+        "capture"
+      ],
+      "via": "github:LewisLiu007"
+    },
+    {
+      "id": "aleph-hub:tlehman/litprog-skill",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Literate Programming",
+      "description": "Turn a codebase into a literate program—one markdown file that reads as documentation and tangles back into the original source code.",
+      "repo_url": "https://github.com/tlehman/litprog-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/tlehman/litprog-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "tlehman",
+      "tags": [
+        "literate-programming",
+        "documentation",
+        "pandoc"
+      ],
+      "via": "hermes-atlas"
     }
   ]
 }
