@@ -2,7 +2,7 @@
 // No business logic here (that lives in the tested stage modules); errors degrade to null.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
-import type { GitHubApi, RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord, RawGitHubApi } from "@/scripts/pipeline/ports";
+import type { RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord, RawGitHubApi } from "@/scripts/pipeline/ports";
 
 const GH_API = "https://api.github.com";
 
