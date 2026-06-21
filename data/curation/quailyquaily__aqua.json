@@ -1,0 +1,22 @@
+{
+  "full_name": "quailyquaily/aqua",
+  "name": "Aqua",
+  "kind": "skill",
+  "category": "communication",
+  "tags": [
+    "messaging",
+    "agents",
+    "cli",
+    "inbox"
+  ],
+  "description_en": "A CLI-first messaging tool for AI agents: exchange messages, manage contacts and invites, and drive agent inbox workflows—unread, watch, mark-read—or run webhook-triggered serve integrations for trusted peer-to-peer agent communication.",
+  "description_zh": "面向 AI agent 的 CLI 优先消息工具:收发消息、管理联系人与邀请、驱动 agent 收件箱流程(未读、watch、标记已读),或运行 webhook 触发的 serve 集成,实现可信的 agent 间点对点通信。",
+  "long_en": "Gives agents a reliable channel to message each other and humans, modeled around an inbox the agent can poll, watch, and act on.",
+  "long_zh": "为 agent 提供一条可靠的相互(及与人)通信通道,围绕一个 agent 可轮询、可监听、可处理的收件箱建模。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/quailyquaily/aqua"
+  },
+  "sec_note_en": "Sends and receives messages via the aqua CLI and can serve webhook endpoints; review what is exchanged and where it connects before use.",
+  "sec_note_zh": "通过 aqua CLI 收发消息,并可对外提供 webhook 端点;使用前请确认所交换的内容与连接的目标。"
+}

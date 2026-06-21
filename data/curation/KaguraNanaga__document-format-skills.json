@@ -1,0 +1,22 @@
+{
+  "full_name": "KaguraNanaga/document-format-skills",
+  "name": "Chinese Document Formatter",
+  "kind": "skill",
+  "category": "files",
+  "tags": [
+    "docx",
+    "formatting",
+    "chinese",
+    "word"
+  ],
+  "description_en": "A Chinese Word document formatting toolkit for .docx/.doc/.wps: diagnose formatting issues, fix mixed Chinese/English punctuation and spacing, apply official/academic/legal presets, normalize tables and page numbers, preserve revision marks, and convert plain text or Markdown into formatted DOCX.",
+  "description_zh": "面向 .docx/.doc/.wps 的中文 Word 文档排版工具箱:诊断排版问题、修正中英文标点与空格、套用公文/学术/法律预设、规范表格与页码、保留修订标记,并把纯文本或 Markdown 转成已排版的 DOCX。",
+  "long_en": "Runs command-line scripts that mirror a desktop formatter's pipeline, suited to batch cleanup of Chinese official documents without a GUI.",
+  "long_zh": "通过命令行脚本复刻桌面排版工具的核心流程,适合无 GUI 地批量清理中文公文。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/KaguraNanaga/document-format-skills"
+  },
+  "sec_note_en": "Runs local Python scripts that rewrite your Word documents in place; back up before batch cleanup.",
+  "sec_note_zh": "运行本地 Python 脚本就地改写你的 Word 文档;批量清理前请先备份。"
+}

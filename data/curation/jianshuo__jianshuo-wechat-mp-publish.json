@@ -1,0 +1,22 @@
+{
+  "full_name": "jianshuo/jianshuo-wechat-mp-publish",
+  "name": "WeChat MP Publishing",
+  "kind": "skill",
+  "category": "communication",
+  "tags": [
+    "wechat",
+    "publishing",
+    "cover-image",
+    "drafts"
+  ],
+  "description_en": "Help write and publish WeChat public-account articles from scattered ideas, drafts, or notes—lightly polishing rather than rewriting, generating cover and explainer images, and preparing the draft for upload to mp.weixin.qq.com with one command.",
+  "description_zh": "把零散思路、草稿或笔记整理成可发布的微信公众号文章——轻润色而非重写,生成题图与解释图,并用一条命令准备上传到 mp.weixin.qq.com 的草稿。",
+  "long_en": "Preserves the author's voice and rhythm while handling the mechanical parts of WeChat publishing—imagery and draft upload.",
+  "long_zh": "在保留作者语气与节奏的同时,处理微信发布中机械的部分——配图与草稿上传。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/jianshuo/jianshuo-wechat-mp-publish"
+  },
+  "sec_note_en": "Can push drafts to your WeChat MP account, so it needs your account credentials; review every draft before it publishes.",
+  "sec_note_zh": "可把草稿推送到你的微信公众号账号,因而需要你的账号凭据;发布前请逐篇审阅草稿。"
+}

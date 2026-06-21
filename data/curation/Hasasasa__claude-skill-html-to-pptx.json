@@ -1,0 +1,22 @@
+{
+  "full_name": "Hasasasa/claude-skill-html-to-pptx",
+  "name": "HTML to PPTX",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "pptx",
+    "html",
+    "slides",
+    "conversion"
+  ],
+  "description_en": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
+  "description_zh": "把 HTML 幻灯片转换为可编辑的 .pptx 文件——文字保留为可编辑矢量、按需嵌入字体、复杂装饰自动走截图兜底——且不依赖 reveal.js 等任何特定 deck 框架。",
+  "long_en": "Bridges browser-rendered slides to PowerPoint so you can hand colleagues an editable .pptx copy instead of a webpage.",
+  "long_zh": "把浏览器渲染的幻灯片桥接到 PowerPoint,让你能把可编辑的 .pptx 副本交给同事,而不是一个网页。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx"
+  },
+  "sec_note_en": "Reads your local HTML deck and writes a .pptx locally; no network access required.",
+  "sec_note_zh": "读取你本地的 HTML deck 并在本地写出 .pptx;无需联网。"
+}

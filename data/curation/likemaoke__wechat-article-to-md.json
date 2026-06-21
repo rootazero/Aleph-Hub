@@ -1,0 +1,22 @@
+{
+  "full_name": "likemaoke/wechat-article-to-md",
+  "name": "WeChat Article to Markdown",
+  "kind": "skill",
+  "category": "files",
+  "tags": [
+    "wechat",
+    "markdown",
+    "obsidian",
+    "archive"
+  ],
+  "description_en": "Fetch a WeChat public-account article from its mp.weixin.qq.com link and convert it to a Markdown file—extracting title, author, and body, preserving formatting, downloading images locally, with an Obsidian output mode.",
+  "description_zh": "从 mp.weixin.qq.com 链接抓取微信公众号文章并转换为 Markdown 文件——提取标题、作者与正文,保留格式,把图片下载到本地,并支持 Obsidian 输出模式。",
+  "long_en": "Turns ephemeral WeChat articles into durable local Markdown you can archive or drop into a knowledge base.",
+  "long_zh": "把易逝的微信文章变成可归档、可入知识库的持久本地 Markdown。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/likemaoke/wechat-article-to-md"
+  },
+  "sec_note_en": "Fetches content from WeChat article URLs you provide and saves Markdown and images locally; respect the source's copyright and Terms of Service.",
+  "sec_note_zh": "从你提供的微信文章 URL 抓取内容并在本地保存 Markdown 与图片;请尊重来源的版权与服务条款。"
+}

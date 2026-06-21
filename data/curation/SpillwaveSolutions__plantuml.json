@@ -1,0 +1,22 @@
+{
+  "full_name": "SpillwaveSolutions/plantuml",
+  "name": "PlantUML",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "plantuml",
+    "diagrams",
+    "uml",
+    "png-svg"
+  ],
+  "description_en": "Generate PlantUML diagrams from text descriptions and convert them to PNG/SVG—covering UML (sequence, class, activity, state, component, deployment, use case) and non-UML (ER, Gantt, JSON/YAML, mind maps, WBS, network, wireframes), plus extracting diagrams from Markdown for Confluence.",
+  "description_zh": "从文字描述生成 PlantUML 图并转换为 PNG/SVG——覆盖 UML(时序、类、活动、状态、组件、部署、用例)与非 UML(ER、甘特、JSON/YAML、思维导图、WBS、网络、线框),并支持从 Markdown 提取图、适配 Confluence。",
+  "long_en": "Turns prose into a wide range of diagram types and renders them to images, so diagrams live as version-controllable text rather than binary files.",
+  "long_zh": "把文字变成多种图表类型并渲染为图片,让图以可版本控制的文本形式存在,而非二进制文件。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/SpillwaveSolutions/plantuml"
+  },
+  "sec_note_en": "Requires a local PlantUML/Java toolchain to render images; runs locally on the text you provide.",
+  "sec_note_zh": "渲染图片需要本地的 PlantUML/Java 工具链;在本地对你提供的文本运行。"
+}

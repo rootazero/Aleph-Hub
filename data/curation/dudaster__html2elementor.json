@@ -1,0 +1,22 @@
+{
+  "full_name": "dudaster/html2elementor",
+  "name": "HTML to Elementor",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "elementor",
+    "wordpress",
+    "html",
+    "conversion"
+  ],
+  "description_en": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
+  "description_zh": "把 HTML+CSS(粘贴、文件、URL 或 AI 生成)转换为可干净导入 WordPress 的 Elementor JSON,并正确处理 Elementor 的隐性坑——共享系统色全局变量、懒加载背景、行容器宽度、CSS 缓存刷新。",
+  "long_en": "Avoids the broken renders you get from hand-writing Elementor JSON, since the skill already encodes the quirks that make naive output import but display wrong.",
+  "long_zh": "避免手写 Elementor JSON 导致的渲染错误——这些「能导入却显示不对」的坑已被技能内置处理。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/dudaster/html2elementor"
+  },
+  "sec_note_en": "Runs locally with Python (beautifulsoup4/tinycss2) to emit Elementor JSON; you import the result into your own WordPress site.",
+  "sec_note_zh": "用 Python(beautifulsoup4/tinycss2)在本地运行并产出 Elementor JSON;由你自行把结果导入你的 WordPress 站点。"
+}

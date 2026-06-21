@@ -1,0 +1,22 @@
+{
+  "full_name": "Mobiss11/Whisper-Skill",
+  "name": "Whisper Skill",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "whisper",
+    "transcription",
+    "subtitles",
+    "dictation"
+  ],
+  "description_en": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
+  "description_zh": "用 Whisper 在本地转写音/视频——无需 OpenAI API——并支持语音听写(push-to-talk)与给 MP4 烧录字幕。自动识别 OS/CPU/GPU,为你的硬件挑选最优后端(faster-whisper、whisper.cpp、whisperx、mlx-whisper、openvino)与模型。",
+  "long_en": "An interactive wizard installs everything in one command; supports all ~99 Whisper languages and speaker diarization, free after the initial model download.",
+  "long_zh": "交互式向导一条命令装好一切;支持 Whisper 约 99 种语言与说话人分离,首次下载模型后即免费。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Mobiss11/Whisper-Skill"
+  },
+  "sec_note_en": "Runs Whisper backends locally and downloads a model (~3 GB) on first use; transcription stays on-device with no API calls. If pulling from YouTube/TikTok, respect platform Terms.",
+  "sec_note_zh": "在本地运行 Whisper 后端,首次使用会下载模型(约 3 GB);转写全程在本机、无 API 调用。若从 YouTube/TikTok 拉取,请遵守平台条款。"
+}
