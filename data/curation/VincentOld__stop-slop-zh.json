@@ -1,0 +1,22 @@
+{
+  "full_name": "VincentOld/stop-slop-zh",
+  "name": "Stop AI Slop (Chinese)",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "chinese",
+    "editing",
+    "writing-quality",
+    "style"
+  ],
+  "description_en": "Identify and remove the telltale patterns of Chinese AI writing—clichés, three-part parallelism (是…，是…，更是…), nominalized verbs, abstract subjects, aphoristic endings, and formulaic structure—so the text reads like a person speaking rather than a model generating.",
+  "description_zh": "识别并消除中文 AI 写作的典型痕迹——套话、排比三件套(是…，是…，更是…)、名词化、抽象主语、金句收尾、总分总八股——让文本读起来像有人在说话,而不是 AI 在生成。",
+  "long_en": "A Chinese-specific writing-quality editor built from scratch for the Chinese 'AI smell' rather than translated from an English version, aimed at readability across articles, posts, official documents, abstracts, and copy.",
+  "long_zh": "一个针对中文「AI 味」从零打造(而非英文版翻译)的中文写作质量编辑器,面向公众号、帖子、公文、摘要与文案等场景的可读性提升。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/VincentOld/stop-slop-zh"
+  },
+  "sec_note_en": "A prompt-based editing skill that rewrites your text for readability; it targets writing quality, not evading AI detectors. Review edits to preserve meaning.",
+  "sec_note_zh": "一个基于提示的编辑技能,为可读性重写你的文本;它针对的是写作质量,而非规避 AI 检测器。请审阅改动以保持原意。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "patrickstigler/claude-skill-it-recht-dsgvo",
+  "name": "German IT Law & GDPR",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "legal",
+    "gdpr",
+    "germany",
+    "compliance"
+  ],
+  "description_en": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+  "description_zh": "针对德国/欧盟问题,对德国 IT 法与 GDPR(DSGVO)做初步评估——数据保护、合同、条款(AGB)、Impressum、Cookie、NIS2 与欧盟 AI 法案。明确声明非法律意见。",
+  "long_en": "Analyzes your documents and gives structured orientation as a first step before engaging a lawyer, in the same vein as other regional legal skills in the catalog.",
+  "long_zh": "分析你的文档并给出结构化的初步指引,作为正式委托律师前的第一步,与目录中其它地区性法务技能同族。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo"
+  },
+  "sec_note_en": "Provides general legal orientation only, not legal advice under the German RDG; consult a licensed lawyer before acting, and handle the documents you share as confidential.",
+  "sec_note_zh": "仅提供一般性法律指引,并非德国 RDG 意义上的法律意见;行动前请咨询持牌律师,并将你分享的文档按机密处理。"
+}

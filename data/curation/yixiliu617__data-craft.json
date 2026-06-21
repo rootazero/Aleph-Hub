@@ -1,0 +1,22 @@
+{
+  "full_name": "yixiliu617/data-craft",
+  "name": "Data Craft",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "data-viz",
+    "html",
+    "reports",
+    "dashboards"
+  ],
+  "description_en": "Generate beautiful, self-contained themed HTML data displays—charts, dashboards, reports, tearsheets, briefings—in one of six visual idioms, each with a matched visual language and writing voice so the format and tone fit the content.",
+  "description_zh": "生成精美、自包含的主题化 HTML 数据展示——图表、仪表盘、报告、tearsheet、简报——提供六种视觉范式,每种都有匹配的视觉语言与文字语气,让格式与语气贴合内容。",
+  "long_en": "Goes beyond styling to pair each data document with a voice—a finance tearsheet reads like a terminal, a culture story like a broadsheet—producing data-driven documents, not just charts.",
+  "long_zh": "不止于美化,还为每份数据文档配上语气——财务 tearsheet 读起来像终端、文化报道像大报——产出的是数据驱动的文档,而不仅是图表。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yixiliu617/data-craft"
+  },
+  "sec_note_en": "Renders self-contained HTML locally from the data you provide; no network access required.",
+  "sec_note_zh": "用你提供的数据在本地渲染自包含 HTML;无需联网。"
+}

@@ -1,0 +1,22 @@
+{
+  "full_name": "Yoojin-nam/hwp-pipeline",
+  "name": "HWP Pipeline",
+  "kind": "skill",
+  "category": "files",
+  "tags": [
+    "hwp",
+    "korean",
+    "documents",
+    "conversion"
+  ],
+  "description_en": "Read, convert, and edit Korean Hangul documents (.hwp/.hwpx) without Hancom Office—HWP to JSON/Markdown/HTML, HWP to HWPX, and HWPX editing with template filling and placeholder replacement.",
+  "description_zh": "无需 Hancom Office 即可读取、转换与编辑韩文 Hangul 文档(.hwp/.hwpx)——HWP 转 JSON/Markdown/HTML、HWP 转 HWPX,以及带模板填充与占位符替换的 HWPX 编辑。",
+  "long_en": "Unlocks the proprietary HWP format for programmatic conversion and template-based editing on any platform, no Hancom license required.",
+  "long_zh": "在任意平台上解锁专有的 HWP 格式,实现程序化转换与基于模板的编辑,无需 Hancom 授权。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Yoojin-nam/hwp-pipeline"
+  },
+  "sec_note_en": "Reads and rewrites your HWP/HWPX files locally; back up originals before applying edits.",
+  "sec_note_zh": "在本地读取并改写你的 HWP/HWPX 文件;应用编辑前请先备份原件。"
+}

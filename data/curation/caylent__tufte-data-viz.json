@@ -1,0 +1,22 @@
+{
+  "full_name": "caylent/tufte-data-viz",
+  "name": "Tufte Data Viz",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "data-viz",
+    "charts",
+    "tufte",
+    "dashboards"
+  ],
+  "description_en": "Create, review, or style charts, graphs, dashboards, and sparklines enforcing Tufte principles—data-ink ratio, direct labeling, range-frame axes—plus modern screen-first standards (accessibility, responsive, dark mode), across Recharts, ECharts, Chart.js, matplotlib, Plotly, seaborn, D3.js, and SVG.",
+  "description_zh": "在 Recharts、ECharts、Chart.js、matplotlib、Plotly、seaborn、D3.js 与 SVG 上创建、审阅或美化图表、仪表盘与迷你折线图,贯彻 Tufte 原则——数据墨水比、直接标注、range-frame 轴——并兼顾现代屏幕标准(无障碍、响应式、深色模式)。",
+  "long_en": "Brings a consistent, evidence-based visualization standard to chart code rather than ad-hoc styling, working across the major charting libraries.",
+  "long_zh": "为图表代码引入一致、有据可循的可视化标准,而非临时调样式,并覆盖主流图表库。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/caylent/tufte-data-viz"
+  },
+  "sec_note_en": "Read-only guidance that reviews and restyles your chart code (allowed tools: Read/Glob/Grep); your data is not sent anywhere.",
+  "sec_note_zh": "只读式指导,审阅并重塑你的图表代码(允许工具:Read/Glob/Grep);不会把你的数据外发。"
+}
