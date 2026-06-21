@@ -7,6 +7,7 @@ export interface Strings {
   ctaExplore: string; ctaAll: string; editorPick: string; searchPh: string;
   stProjects: string; stCats: string; stDailyN: string; stSync: string;
   indexTitle: string; browseByCat: string; trendingTitle: string; collectionTitle: string;
+  latestLabel: string; alsoNew: string; latestPrefix: string; comingSoon: string;
   viewAll: string; catalogKicker: string; results: string; sortBy: string; sortTrend: string;
   noResults: string; allCats: string; back: string; tabOverview: string; tabSecurity: string;
   secScan: string; secReview: string; secReviewNote: string;
@@ -25,6 +26,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ctaExplore: "开始探索", ctaAll: "浏览全部 622 件", editorPick: "编辑推荐", searchPh: "搜索 skill、MCP、集成…",
     stProjects: "收录项目", stCats: "大分类", stDailyN: "每日", stSync: "同步星标",
     indexTitle: "目录 · Index", browseByCat: "按类别浏览 →", trendingTitle: "本周趋势 · Trending", collectionTitle: "精选合辑 · Collection",
+    latestLabel: "最新收录", alsoNew: "近期更新", latestPrefix: "最新", comingSoon: "即将上线",
     viewAll: "查看全部", catalogKicker: "目录 · Catalog", results: "个结果", sortBy: "排序", sortTrend: "🔥 趋势",
     noResults: "没有找到匹配的项目，换个关键词试试。", allCats: "全部项目", back: "← 返回", tabOverview: "概览", tabSecurity: "安全",
     secScan: "已通过安全扫描", secReview: "人工复核中", secReviewNote: "每个项目纳入前都会经过审核者人工复核；社区项目请在安装前阅读源码。",
@@ -41,6 +43,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ctaExplore: "Start exploring", ctaAll: "Browse all 622", editorPick: "Editor's Pick", searchPh: "Search skills, MCP, integrations…",
     stProjects: "Projects", stCats: "Categories", stDailyN: "Daily", stSync: "Star sync",
     indexTitle: "Index", browseByCat: "Browse by category →", trendingTitle: "Trending this week", collectionTitle: "Editor's Collection",
+    latestLabel: "Latest", alsoNew: "Also new", latestPrefix: "Latest", comingSoon: "Coming soon",
     viewAll: "View all", catalogKicker: "Catalog", results: "results", sortBy: "Sort", sortTrend: "🔥 Trending",
     noResults: "No matching projects — try another keyword.", allCats: "All projects", back: "← Back", tabOverview: "Overview", tabSecurity: "Security",
     secScan: "Passed security scan", secReview: "Human review", secReviewNote: "Every project is human-reviewed before inclusion; read the source of community projects before installing.",

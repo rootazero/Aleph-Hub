@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <section style={{ maxWidth: 1480, margin: "0 auto", padding: "52px 48px 40px", display: "grid", gridTemplateColumns: "1.05fr .95fr", gap: 56, alignItems: "center" }}>
+        <section className="hero-grid" style={{ maxWidth: 1480, margin: "0 auto", padding: "52px 48px 40px", display: "grid", gridTemplateColumns: "1.05fr .95fr", gap: 56, alignItems: "center" }}>
           <Hero />
           <EditorsPick />
         </section>

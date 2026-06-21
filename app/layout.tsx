@@ -14,6 +14,7 @@ const notoSans = Noto_Sans_SC({ subsets: ["latin"], weight: ["400", "500"], vari
 export const metadata: Metadata = {
   title: "Aleph Hub — The Agent Capability Atlas",
   description: "Discover Agent Skills, MCP servers and plugins. Open source, security-reviewed, always fresh.",
+  icons: { icon: "/aleph-glyph.svg" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

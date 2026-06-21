@@ -6,16 +6,19 @@ import { formatStars, slugForEntry } from "@/lib/catalog";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Sparkline } from "@/components/Sparkline";
 
-export function Card({ entry }: { entry: SiteEntryT }) {
+export function Card({ entry, rank }: { entry: SiteEntryT; rank?: number }) {
   const { lang } = useLang();
   const desc = lang === "zh" ? entry.description_zh : entry.description_en;
   const trendColor = (entry.trend ?? 0) >= 15 ? "var(--green)" : "var(--taupe)";
   return (
-    <Link href={`/e/${slugForEntry(entry)}`} style={{ display: "block", textDecoration: "none", color: "inherit", background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 3, padding: 20 }}>
+    <Link href={`/e/${slugForEntry(entry)}`} className="cat-card" style={{ display: "block", textDecoration: "none", color: "inherit", background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 3, padding: 20 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 13 }}>
-        <div style={{ minWidth: 0 }}>
-          <div style={{ fontFamily: "var(--font-mono), monospace", fontSize: 15, fontWeight: 500 }}>{entry.name}</div>
-          <div style={{ fontSize: 11, color: "var(--taupe)", marginTop: 3 }}>{entry.author}</div>
+        <div style={{ display: "flex", gap: 12, alignItems: "baseline", minWidth: 0 }}>
+          {rank != null && <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 12, color: "var(--orange)", flex: "none" }}>{String(rank).padStart(2, "0")}</span>}
+          <div style={{ minWidth: 0 }}>
+            <div style={{ fontFamily: "var(--font-mono), monospace", fontSize: 15, fontWeight: 500 }}>{entry.name}</div>
+            <div style={{ fontSize: 11, color: "var(--taupe)", marginTop: 3 }}>{entry.author}</div>
+          </div>
         </div>
         <TrustBadge tier={entry.trust_tier} />
       </div>

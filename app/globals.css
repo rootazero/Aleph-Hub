@@ -9,3 +9,57 @@ body { margin: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeL
 ::selection { background: var(--orange); color: #fff; }
 input, textarea, select, button { font-family: inherit; }
 input::placeholder, textarea::placeholder { color: var(--taupe); }
+
+/* Index hover affordances. Color shifts are always on (not motion); padding/translate
+   movement is gated behind prefers-reduced-motion. */
+.idx-feature-title, .idx-row-name, .idx-preview-name { transition: color .18s ease; }
+.idx-feature:hover .idx-feature-title,
+.idx-row:hover .idx-row-name,
+.idx-preview:hover .idx-preview-name { color: var(--orange); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .idx-row, .idx-kind { transition: padding-left .18s ease; }
+  .idx-feature-arrow, .idx-kind-arrow { display: inline-block; transition: transform .18s ease; }
+  .idx-row:hover { padding-left: 6px; }
+  .idx-kind:hover { padding-left: 8px; }
+  .idx-feature:hover .idx-feature-arrow,
+  .idx-kind:hover .idx-kind-arrow { transform: translateX(4px); }
+}
+
+/* Mobile collapse for the latest lede (inline grid -> single column). */
+@media (max-width: 768px) {
+  .idx-lede { grid-template-columns: 1fr !important; gap: 26px !important; }
+  .idx-lede .idx-alsonew { border-left: none !important; padding-left: 0 !important; border-top: 1px solid var(--hair); padding-top: 18px; }
+}
+
+/* Catalog card hover: border + elevation. The lift transform is motion, so it is
+   gated; border-color and shadow are not movement and stay on. */
+.cat-card, .col-card { transition: border-color .18s ease, box-shadow .18s ease; }
+.cat-card:hover, .col-card:hover { border-color: var(--orange); }
+.col-card:hover .col-card-title { transition: color .18s ease; color: var(--orange); }
+.sec-more { transition: color .18s ease; }
+.sec-more:hover { color: var(--orange); }
+@media (prefers-reduced-motion: no-preference) {
+  .cat-card, .col-card { transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+  .cat-card:hover, .col-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(36,28,22,.10); }
+}
+
+/* Header: nav folds into a hamburger menu below the md breakpoint. */
+@media (max-width: 768px) {
+  .hdr { padding-left: 20px !important; padding-right: 20px !important; }
+  .hdr-nav { display: none !important; }
+  .hdr-submit { display: none !important; }
+  .hdr-burger { display: inline-flex !important; }
+}
+@media (min-width: 769px) { .hdr-menu { display: none !important; } }
+
+/* Card grids collapse on small screens (inline 3-col -> single column). */
+@media (max-width: 768px) {
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Hero stacks and the headline scales down on small screens. */
+@media (max-width: 768px) {
+  .hero-grid { grid-template-columns: 1fr !important; gap: 32px !important; padding: 32px 20px 24px !important; }
+  .hero-title { font-size: 44px !important; }
+}

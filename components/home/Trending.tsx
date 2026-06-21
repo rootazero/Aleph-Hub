@@ -13,10 +13,10 @@ export function Trending() {
     <section style={{ maxWidth: 1480, margin: "0 auto", padding: "44px 48px 76px" }}>
       <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", borderBottom: "1px solid var(--hair-strong)", paddingBottom: 11, marginBottom: 26 }}>
         <span style={{ fontSize: 11, letterSpacing: ".20em", textTransform: "uppercase", color: "var(--ink-soft)", fontWeight: 600 }}>{t.trendingTitle}</span>
-        <Link href="/c/mcp" style={{ fontSize: 11, letterSpacing: ".10em", color: "var(--taupe)", textDecoration: "none" }}>{t.viewAll} →</Link>
+        <Link href="/c/skill" className="sec-more" style={{ fontSize: 11, letterSpacing: ".10em", color: "var(--taupe)", textDecoration: "none" }}>{t.viewAll} →</Link>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
-        {trending(6).map((e) => <Card key={e.id} entry={e} />)}
+      <div className="card-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
+        {trending(6).map((e, i) => <Card key={e.id} entry={e} rank={i + 1} />)}
       </div>
     </section>
   );
