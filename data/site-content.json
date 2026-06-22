@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "content_schema_version": 1,
+    "hub_id": "aleph-hub",
+    "name": "Aleph Hub",
+    "entry_count": 1,
+    "generated_at": "2026-06-22T13:15:27.730Z",
+    "content_hash": "sha256:869c1d227f3e46f8c4eade74557aa8bd9f54de90bc39a926367ab155bfc3f593"
+  },
+  "entries": [
+    {
+      "id": "aleph-hub:dair-ai/Prompt-Engineering-Guide#text-summarize",
+      "kind": "prompt",
+      "category": "writing",
+      "name": "Text Summarizer",
+      "description": "Summarize any text into 2-3 sentences while preserving key facts.",
+      "author": "dair-ai",
+      "tags": [
+        "writing",
+        "summarization"
+      ],
+      "repo_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "source_path": "guides/prompts-basic-usage.md",
+      "trust_tier": "community",
+      "via": "github:dair-ai",
+      "body": "Summarize the following text into 2-3 concise sentences. Preserve the key facts and the original meaning. Do not add claims not present in the source.\n\nText:\n{input}",
+      "format": "markdown",
+      "description_zh": "将任意文本压缩为 2-3 句话，同时保留关键事实。",
+      "description_en": "Summarize any text into 2-3 sentences while preserving key facts.",
+      "long_zh": "即用型摘要提示词。将文章、邮件或文档作为 {input} 传入，即可获得保留所有关键事实、不添加新主张的 2-3 句精简摘要。",
+      "long_en": "A copy-paste prompt for quick summarization. Pass any article, email, or document as {input} and get a tight 2-3 sentence summary that keeps every key fact without adding new claims.",
+      "sec_note_zh": "纯文本转换提示词；不涉及工具调用或外部请求。",
+      "sec_note_en": "Plain text transformation prompt; no tool access or external calls.",
+      "cover_color": "#2A6B6B"
+    }
+  ]
+}

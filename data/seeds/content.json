@@ -1,0 +1,12 @@
+{
+  "prompt": {
+    "queries": ["topic:awesome-prompts", "topic:prompt-engineering", "topic:claude-prompts"],
+    "seeds": ["https://github.com/f/awesome-chatgpt-prompts"],
+    "pins": []
+  },
+  "workflow": {
+    "queries": ["topic:claude-code-workflow", "topic:agent-workflow"],
+    "seeds": [],
+    "pins": []
+  }
+}
