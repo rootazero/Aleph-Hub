@@ -24,7 +24,7 @@ function source(cands: ContentCandidate[]): ContentSource {
 }
 const cand = (over: Partial<ContentCandidate> = {}): ContentCandidate => ({
   repo_url: "https://github.com/acme/prompts", owner: "acme", repo: "prompts",
-  source_path: "p.md", slug: "p", via: "github:acme", raw: { text: "x" }, ...over,
+  source_path: "p.md", slug: "p", kind: "prompt", via: "github:acme", raw: { text: "x" }, ...over,
 });
 
 describe("runContent", () => {

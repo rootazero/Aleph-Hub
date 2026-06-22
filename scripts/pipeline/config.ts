@@ -10,6 +10,8 @@ export const CONFIG = {
   LLM_CURATE_PER_RUN: 20,    // max uncurated repos auto-curated per run (cost/rate-limit cap; backlog drains over days)
   LLM_README_CHARS: 12000,   // README chars passed to the curator (truncate to bound tokens)
   CONTENT_BODY_MAX: 65536,   // max content body bytes (prompt text / workflow script); over-cap → drop
+  CONTENT_FILES_PER_REPO: 25,  // max files exploded per repo per run (bounds GitHub fan-out)
+  LLM_BODY_CHARS: 16000,       // content body chars passed to the content curator (token bound)
 } as const;
 
 // `via` is mapped from the SOURCE ID, never derived from a module filename (provenance).

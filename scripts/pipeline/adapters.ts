@@ -57,6 +57,23 @@ export function makeGitHub(): RawGitHubApi {
   };
 }
 
+// Wraps RawGitHubApi to provide ContentGitHub surface (adds listFiles method).
+export function makeContentGitHub(raw: RawGitHubApi) {
+  return {
+    async searchRepos(query: string) { return raw.searchRepos(query); },
+    async getContent(fullName: string, path: string) { return raw.getContent(fullName, path); },
+    async getReadme(fullName: string) { return raw.getReadme(fullName); },
+    async listFiles(fullName: string): Promise<string[]> {
+      try {
+        const res = await fetch(`${GH_API}/repos/${fullName}/git/trees/HEAD?recursive=1`, { headers: ghHeaders() });
+        if (!res.ok) return [];
+        const json = (await res.json()) as { tree?: { path: string; type: string }[] };
+        return (json.tree ?? []).filter((e) => e.type === "blob").map((e) => e.path);
+      } catch { return []; }
+    },
+  };
+}
+
 // Loads every data/curation/*.json into a keyed map at construction (local, free — no API).
 export function makeCurationStore(dir = "data/curation"): CurationStore {
   const map = new Map<string, CurationRecord>();
@@ -126,5 +143,6 @@ function makeFileStore(): FileStore {
 }
 
 export function makeAdapters() {
-  return { store: makeCurationStore(), registry: makeRegistry(), http: makeHttp(), clock: makeClock(), fs: makeFileStore() };
+  const http = makeHttp();
+  return { store: makeCurationStore(), registry: makeRegistry(), http, clock: makeClock(), fs: makeFileStore() };
 }

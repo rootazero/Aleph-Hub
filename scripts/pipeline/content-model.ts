@@ -8,7 +8,9 @@ export interface ContentCandidate {
   repo: string;
   source_path: string;   // file path within the repo
   slug: string;          // stable per-unit slug
+  kind: ContentKindT;    // the source is kind-specific; carried for the curator + queue
   via: string;
+  readme?: string;       // repo README, fetched once per repo as curator context
   raw: { text: string };
 }
 
