@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { LangProvider } from "@/components/providers/LangProvider";
 import { CategoryView } from "@/components/category/CategoryView";
 import { getByKind } from "@/lib/catalog";
+import { getContentByKind } from "@/lib/content";
 
 const wrap = (ui: React.ReactNode) => render(<ThemeProvider><LangProvider>{ui}</LangProvider></ThemeProvider>);
 
@@ -25,5 +26,11 @@ describe("CategoryView", () => {
     wrap(<CategoryView kind="mcp" />);
     fireEvent.change(screen.getByPlaceholderText(/搜索|Search/), { target: { value: "zzzzz" } });
     expect(screen.getByText(/没有找到|No matching/)).toBeInTheDocument();
+  });
+  it("lists prompt entries on the content kind page", () => {
+    const prompts = getContentByKind("prompt");
+    expect(prompts.length).toBeGreaterThan(0);
+    wrap(<CategoryView kind="prompt" />);
+    expect(screen.getAllByText(prompts[0].name).length).toBeGreaterThan(0);
   });
 });
