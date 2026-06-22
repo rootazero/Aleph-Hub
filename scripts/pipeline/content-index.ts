@@ -1,5 +1,5 @@
 import { runContent } from "@/scripts/pipeline/content-run";
-import { makeAdapters, makeContentCurationStore, makeGitHub, makeContentGitHub } from "@/scripts/pipeline/adapters";
+import { makeAdapters, makeContentCurationStore, makeContentGitHub } from "@/scripts/pipeline/adapters";
 import { GitHubContentSource } from "@/scripts/pipeline/sources/github-content";
 import type { ContentSeeds } from "@/scripts/pipeline/sources/content-types";
 
@@ -11,11 +11,8 @@ async function main() {
   const store = makeContentCurationStore();
 
   // Pins require a GitHub token to read file contents; with none, fetch() yields [].
-  const gh = makeContentGitHub(makeGitHub());
-  const sources = [
-    new GitHubContentSource({ gh, http, kind: "prompt", seeds: seeds.prompt }),
-    new GitHubContentSource({ gh, http, kind: "workflow", seeds: seeds.workflow }),
-  ];
+  const gh = makeContentGitHub();
+  const sources = [new GitHubContentSource({ gh, http, kind: "prompt", seeds: seeds.prompt })];
 
   // previous on-disk content hash — used to skip re-emitting unchanged artifacts
   const prev = fs.readJson<{ manifest?: { content_hash?: string } }>("public/catalog-content.json");
