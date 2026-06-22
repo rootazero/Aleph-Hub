@@ -21,7 +21,12 @@ const Curated = z.object({
   description_en: z.string().min(1), description_zh: z.string().min(1),
   long_en: z.string().min(1), long_zh: z.string().min(1),
   sec_note_en: z.string().min(1), sec_note_zh: z.string().min(1),
-});
+}).refine(
+  // id is the queue dedup + provenance key; it must equal the canonical form
+  // derived from full_name + slug, or discovery/curation have drifted.
+  (r) => r.id === `aleph-hub:${r.full_name}#${r.slug}`,
+  { message: "id does not match full_name#slug" },
+);
 
 export function curateContent(record: ContentCurationRecord): ContentCuratedEntry | null {
   const parsed = Curated.safeParse(record);
@@ -29,6 +34,7 @@ export function curateContent(record: ContentCurationRecord): ContentCuratedEntr
   const c = parsed.data;
   const [owner, repo] = c.full_name.split("/");
   if (!owner || !repo) return null;            // unresolvable upstream → drop (provenance)
+  const id = `aleph-hub:${owner}/${repo}#${c.slug}`;
 
   // Safety (§4.6 + content): clean/drop name, descriptions, and the payload body.
   const safeName = safeOrNull(c.name);
@@ -42,7 +48,7 @@ export function curateContent(record: ContentCurationRecord): ContentCuratedEntr
   if (!safeName || !safeEn || !safeZh || !safeLongEn || !safeLongZh || !safeSecEn || !safeSecZh || !safeBody) return null;
 
   return {
-    id: c.id, kind: c.kind, category: c.category, name: safeName, author: owner,
+    id, kind: c.kind, category: c.category, name: safeName, author: owner,
     tags: c.tags, repo_url: `https://github.com/${owner}/${repo}`, source_path: c.source_path,
     via: `github:${owner}`, body: safeBody, format: c.format,
     description_en: safeEn, description_zh: safeZh,
