@@ -14,7 +14,9 @@
     "e2e": "playwright test",
     "pipeline": "tsx scripts/pipeline/index.ts",
     "pipeline:regen-firstparty": "tsx scripts/pipeline/regen-firstparty.ts",
-    "validate:catalog": "tsx scripts/validate-catalog.ts"
+    "pipeline:content": "tsx scripts/pipeline/content-index.ts",
+    "validate:catalog": "tsx scripts/validate-catalog.ts",
+    "validate:content": "tsx scripts/validate-content.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.105.0",
