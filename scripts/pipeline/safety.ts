@@ -20,6 +20,13 @@ const JAILBREAK = [
   "without any restrictions", "pretend you have no rules", "act as an unfiltered",
 ];
 
+// EVASION: "make AI output pass as human / defeat AI detectors" (灰帽, content kinds §4.3).
+// Coarse net — the LLM curator applies the nuanced AI-writing boundary ruling.
+const EVASION = [
+  "evade ai detect", "bypass ai detect", "avoid ai detect", "beat ai detector",
+  "pass as human-written", "humanize ai text", "remove ai fingerprint", "undetectable by ai",
+];
+
 export function sanitize(text: string): string {
   return text.replace(INVISIBLE, "");
 }
@@ -45,5 +52,6 @@ export function safeBodyOrNull(text: string): string | null {
   const lower = cleaned.toLowerCase();
   if (SUSPICIOUS.some((p) => lower.includes(p))) return null;
   if (JAILBREAK.some((p) => lower.includes(p))) return null;
+  if (EVASION.some((p) => lower.includes(p))) return null;
   return cleaned;
 }
