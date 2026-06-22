@@ -65,23 +65,16 @@ Three independent Plan-1 follow-ups, landed before content volume grows. All pur
 
 - [ ] **Step 1: Write the failing test for id integrity**
 
-Add to `scripts/pipeline/__tests__/content-curate.test.ts` (a new `it` inside the existing `describe`; reuse the file's existing `rec()` factory shape — a valid record builder). If the file has no shared factory, add this self-contained case:
+Add a new `it` inside the existing `describe`, reusing the file's existing `rec()` factory (its default record is canonical: id `aleph-hub:acme/prompts#hello`, full_name `acme/prompts`, slug `hello`):
 
 ```ts
 it("drops a record whose id does not match full_name + slug", () => {
-  const base = {
-    id: "aleph-hub:acme/repo#good", full_name: "acme/repo", slug: "good",
-    source_path: "prompts/good.md", kind: "prompt", category: "writing",
-    name: "Good", tags: ["writing"], format: "markdown", body: "Do the thing.",
-    description_en: "en", description_zh: "zh", long_en: "long en", long_zh: "long zh",
-    sec_note_en: "sec en", sec_note_zh: "sec zh",
-  } as const;
-  // canonical id passes
-  expect(curateContent(base)).not.toBeNull();
-  // tampered id (slug drift) is dropped
-  expect(curateContent({ ...base, id: "aleph-hub:acme/repo#WRONG" })).toBeNull();
-  // canonical id is reconstructed from full_name + slug, not trusted verbatim
-  expect(curateContent(base)!.id).toBe("aleph-hub:acme/repo#good");
+  // canonical id (the factory default) passes
+  expect(curateContent(rec())).not.toBeNull();
+  // a drifted id (slug mismatch) is dropped
+  expect(curateContent(rec({ id: "aleph-hub:acme/prompts#WRONG" }))).toBeNull();
+  // the emitted id is reconstructed from full_name + slug, not trusted verbatim
+  expect(curateContent(rec())!.id).toBe("aleph-hub:acme/prompts#hello");
 });
 ```
 
