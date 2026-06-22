@@ -1,5 +1,6 @@
 import type { ContentKindT, ContentFormatT } from "@/contract/content-schema";
 import type { ExtensionCategoryT, TrustTierT } from "@/contract/types";
+import type { ContentCurationRecord } from "@/scripts/pipeline/ports";
 
 // One discovered content unit (a single prompt/workflow file, post collection-explosion).
 export interface ContentCandidate {
@@ -36,7 +37,12 @@ export type ContentFinalEntry = ContentCuratedEntry & { trust_tier: TrustTierT }
 
 export interface ContentBuildReport {
   candidates: number;
-  curated: number;
+  curated: number;        // entries from existing (human/LLM) records this run
+  autoCurated: number;    // units the LLM accepted + emitted this run
   queued: number;
-  emitted: number;
+  emitted: number;        // total entries in the artifact
+  reservedDropped: number; // entries dropped because their slug collides with an install slug
 }
+
+// An LLM-authored content record persisted as a human-auditable review buffer.
+export type PersistedContentCuration = ContentCurationRecord & { curated_by: "llm" };
