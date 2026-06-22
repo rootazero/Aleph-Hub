@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"f6b40e039ca36e25ca19285c1dc2c5c46ff461a5dc2659012d1badfe1d6045b1\"",
+    "etag": "W/\"f5fb90541a68d1bde15f4400c26b4f1a4bddb697b27e104e78770a23637a9bec\"",
     "readme_hash": "87e19d568d5c9c58e5e44116a542916126ba1f17229384edee2fd81495a2cba4",
     "entry": {
       "id": "aleph-hub:microsoft/playwright-mcp",
@@ -44,7 +44,7 @@
     }
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"1f4d044f5de3aae8e37cdcd3c2b8df6b3d2c7857a8bbe5ba35ec278bd1eff7e3\"",
+    "etag": "W/\"5cf7a32d542685297df24ceaf203f2065d1fef173de9c41a4ebf2ff579ef7aa1\"",
     "readme_hash": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
     "entry": {
       "id": "aleph-hub:wonderwhy-er/DesktopCommanderMCP",
@@ -82,7 +82,7 @@
     }
   },
   "mobile-next/mobile-mcp": {
-    "etag": "W/\"9c041287bda1b23c1d8c12bf59fbad4e25f222047713df8b9146d197543cd2d7\"",
+    "etag": "W/\"071846402421f15cbed08ee4f7444515e8cd8c2d447920b48326104a2d2dd4fd\"",
     "readme_hash": "075cc97e124df82c71cf242d14748cf4e6fe245241458f38d447c7413e08cce5",
     "entry": {
       "id": "aleph-hub:mobile-next/mobile-mcp",
@@ -126,7 +126,7 @@
     }
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"f1ba917884c96c056a9477441293a2016e4e58a9899a188cbdfae8e8957c398a\"",
+    "etag": "W/\"0cda538acac7aefe84f2f4f5f216675d1322594549358250a5cbeec23832532f\"",
     "readme_hash": "1a82e557109371affb54e003d1228655b04f742215432bd6d86eeb956a93abae",
     "entry": {
       "id": "aleph-hub:zarazhangrui/frontend-slides",
@@ -159,7 +159,7 @@
     }
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "\"3185744162ab85c3c4b9b05fec0c22eabddfcea4a488065f0088f8c3dfd48944\"",
+    "etag": "W/\"90620d33c52586fe0d41ccb4375171c8390b945f961a8ced04f5f02c09663fbb\"",
     "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
     "entry": {
       "id": "aleph-hub:op7418/guizang-social-card-skill",
@@ -193,7 +193,7 @@
     }
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "\"0341f8c976f95fcbfbb8a0a094feb6c14c95529faa70dbd5e05c65b8570a906c\"",
+    "etag": "W/\"96c8620e2d73f4ffd4d6c251813807c404338dff4f90b4a0e8b57a4834192492\"",
     "readme_hash": "d719683e3641d3bdb7707b3b0be5f7c9844171c5cf3506fe25a00f79098acef8",
     "entry": {
       "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
@@ -226,7 +226,7 @@
     }
   },
   "tt-a1i/archify": {
-    "etag": "\"438533ba2a25602b2063cccf3d95f1e930338e50e6e874a5433aefaebe7b7a64\"",
+    "etag": "W/\"90aa99d81da65bbebe8837bb4491a8e0cb3af104ec379381cc913a4b728833df\"",
     "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
     "entry": {
       "id": "aleph-hub:tt-a1i/archify",
@@ -259,7 +259,7 @@
     }
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"19f7f5eaa6352fab2bde21b1d02299fd59137e84df14e0780282a9fb65eab0ae\"",
+    "etag": "W/\"2ac699b9d2f859b9dd716e7bc3227ea180518ddc3a834c4d11ce56487088aef9\"",
     "readme_hash": "8b739820f2a1008231eef8598f724aaf99326097c079fca86eaafe5c8a326ca0",
     "entry": {
       "id": "aleph-hub:nolangz/pixel2motion",
@@ -292,7 +292,7 @@
     }
   },
   "dominikmartn/hue": {
-    "etag": "\"a619c44acf9c7bd95baf315e167582a03e06c78fb7f2d483002f50bc124a8795\"",
+    "etag": "W/\"e53e3bb68ffe3cf17d630fd438d70299008da31ddc08d193ae736385a5ca140a\"",
     "readme_hash": "f739a93614d7836da1b87fc3b30d1be6f94a8a45f7ada2632acb8505c5831ce8",
     "entry": {
       "id": "aleph-hub:dominikmartn/hue",
@@ -325,7 +325,7 @@
     }
   },
   "Bhanunamikaze/Agentic-SEO-Skill": {
-    "etag": "\"c85e81de82f60e8be36c63f6e95ea494714ec3e1187f551d7eda4451dd4c6342\"",
+    "etag": "W/\"141afc1c04dbf32f05bd5714119a7d35ac1b53fa1ec5abd2fcd3f845953849f9\"",
     "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
     "entry": {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -358,7 +358,7 @@
     }
   },
   "TexasBedouin/vibe-check": {
-    "etag": "\"5b1995b82551246b46a2153863281becea571c9880ec3a470c036e59c70abfe6\"",
+    "etag": "W/\"c91dcfcc3b57c09c2ccbcc5c532272e14666b2a831504bc775d001d2275cbed3\"",
     "readme_hash": "75f06f2d835b270443bc58af8f4eacc0d0e7b2c6237e4a4ae234076d8555c4ec",
     "entry": {
       "id": "aleph-hub:TexasBedouin/vibe-check",
@@ -391,7 +391,7 @@
     }
   },
   "ckelsoe/prompt-architect": {
-    "etag": "\"c0d43f2ecb6a984ab8236adf4d9f0441a575b3c14ae9f059b0c0c7fd83a2d68d\"",
+    "etag": "W/\"e0ef1177ba6c20399032ce8f7aa1adea506a79781c117f7b46f7751c3957a551\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entry": {
       "id": "aleph-hub:ckelsoe/prompt-architect",
@@ -424,8 +424,8 @@
     }
   },
   "JamesShi96/project-butler": {
-    "etag": "\"6400c84109d243a34dae4977d555a262ce60e0ecf9e27d2064806aadafd6ae9f\"",
-    "readme_hash": "d75d21402c39a0c06c7f642b16521ddbd5c487c99fd07ddb373a3b870c987d3b",
+    "etag": "W/\"f24e70ba59b3eb7a967c856dd962a1999c756e7e72a335114fc8e04e487fca41\"",
+    "readme_hash": "27159f8e9c5a8b607eee0fe499c1f409123f3a7df54fd40a2a9ff47e5ed690af",
     "entry": {
       "id": "aleph-hub:JamesShi96/project-butler",
       "repo_url": "https://github.com/JamesShi96/project-butler",
@@ -525,7 +525,7 @@
     }
   },
   "karanb192/algo-sensei": {
-    "etag": "\"e4b908af882cd5bd567a432241abcc581cefc5ce99c0e3be573704e71e93b495\"",
+    "etag": "W/\"02dd51083c2330de8f3859b86520044288d9d29df84602ef6ef1be70aa0d7b6b\"",
     "readme_hash": "e102d6031dd5a513a587ee39f8f6f32cb5428390081df771ba59abe1f7f044eb",
     "entry": {
       "id": "aleph-hub:karanb192/algo-sensei",
@@ -594,7 +594,7 @@
     }
   },
   "apiotrowski-afk/commercial-legal-pl": {
-    "etag": "\"f320ccb7e7d2eb9d5c0d0650913238c7b0a15cb7c49092d9eb05c7c2612e4648\"",
+    "etag": "W/\"fbf5e5a8383c618fb2319b823f153ba89eed283627720ad79d98dafd6ee9a271\"",
     "readme_hash": "170a564b3c8ceef95957b755dc614e5d2452c19a5e9348b5b2594ee4054cd4ec",
     "entry": {
       "id": "aleph-hub:apiotrowski-afk/commercial-legal-pl",
@@ -661,7 +661,7 @@
     }
   },
   "yfe404/web-scraper": {
-    "etag": "\"b7a89f0f242b259b2e055c5943f9d507dd9475df2054a734a65224ab89a2e0d5\"",
+    "etag": "W/\"c594d02b9f49eb54e55af770f28bc6e688321ec5c3de4ca39c7a7d2c863e0e02\"",
     "readme_hash": "1a80a54e2d1cf3b3a830d5320b42feec49a237b474a93582b19aaafdc997c4e4",
     "entry": {
       "id": "aleph-hub:yfe404/web-scraper",
@@ -695,7 +695,7 @@
     }
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "\"d7c8ed844f4e03355e677342dc491a7dc81ad628115d1d3911e01f78c4a4d98d\"",
+    "etag": "W/\"1bd947309b0c127cf09d80b1e1c13fbd8649bd5145c8eab7fc8f27a1c6c3a712\"",
     "readme_hash": "3dd33ca4c6580ac8b40b1631943fbf50dd30ef1fb0f9360b16f1b05c11e0f8d7",
     "entry": {
       "id": "aleph-hub:JuneYaooo/gpt-image2-ppt-skills",
@@ -729,7 +729,7 @@
     }
   },
   "KAOPU-XiaoPu/web-design": {
-    "etag": "\"86b34a2546fecfc0ee458e8595d4a70839ddf632b8bc7bbe99ff6e87e504b2df\"",
+    "etag": "W/\"d1d1d51dfd650bfc43b3f961c52b832f49ac84a4efec31830636ad004252d84a\"",
     "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
     "entry": {
       "id": "aleph-hub:KAOPU-XiaoPu/web-design",
@@ -763,7 +763,7 @@
     }
   },
   "dpconde/claude-android-skill": {
-    "etag": "\"b5b67750205617eb058e58dcf1e8e5b5f1d682d44e79b89ba2a799c4e7715344\"",
+    "etag": "W/\"c7d8e901a6d2cb6035290461bb4ccd6e65e793f1d96eec367e8aa8e04c52d403\"",
     "readme_hash": "026826447e4b068f7b2b5c2a4bb6f093af7496e8d8c7588c766216de37a56773",
     "entry": {
       "id": "aleph-hub:dpconde/claude-android-skill",
@@ -797,7 +797,7 @@
     }
   },
   "kimlawtech/korean-privacy-terms": {
-    "etag": "\"1912917f603b92c8e94f477850dd11f6150f9bdc82f15bf23e12523e4b76886a\"",
+    "etag": "W/\"e3e00b2335051d33714c0bcf308f8ff27ee5b08ad916c09e962131126b2c0435\"",
     "readme_hash": "7b9db096c53f977b4e2ec6f82610e34180a0a44e1e9292e45458094daafabade",
     "entry": {
       "id": "aleph-hub:kimlawtech/korean-privacy-terms",
@@ -831,7 +831,7 @@
     }
   },
   "irenerachel/visual-style-ppt-skill": {
-    "etag": "\"f3b384bce0c87c22f9639faa027145cbeb24723880034e4f064d20047fd3dd6f\"",
+    "etag": "W/\"2c23cdfed665f23f8158ace6bda1f380daa75de87af6e3e4c8f81197c7f26e58\"",
     "readme_hash": "6a69ee0e2b2b26a85d9633d9ca967916412ae1cfab7a74cccfd3e052c054ead6",
     "entry": {
       "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
@@ -865,7 +865,7 @@
     }
   },
   "likaku/Mck-ppt-design-skill": {
-    "etag": "\"093afe2fecfb40dabe29eb3b6a9d4d6de09b08759e66a8351275607f2874ddac\"",
+    "etag": "W/\"b5207ca6ce6144aa58acb25b55071a811149d54d2ea5946a62da2b083dc4d37f\"",
     "readme_hash": "f2058627f43aaccb54f96391e27f5f0a7847e04f770f3598ca316829ad754692",
     "entry": {
       "id": "aleph-hub:likaku/Mck-ppt-design-skill",
@@ -967,7 +967,7 @@
     }
   },
   "Hao0321/ai-media-generator": {
-    "etag": "\"c025bcaa5c651257805f77f31ae9baf8adebd10e5a4fba36aed3f013b6359262\"",
+    "etag": "W/\"54e6d08c399309e9ce9992a18fbe27edf7732ee178f8311731518d391337cf98\"",
     "readme_hash": "8c3b95dbc2ff2007ae43dcb05431f2c0268ce8b585991cc1260ac841ed95d698",
     "entry": {
       "id": "aleph-hub:Hao0321/ai-media-generator",
@@ -1069,7 +1069,7 @@
     }
   },
   "handsomeZR-netizen/mathmodel-skill": {
-    "etag": "\"ab99f2c3db1c981001d288d1a96916a7f411a4beb1ebd6ce5bc2a6c72736a8e8\"",
+    "etag": "W/\"18fa1cfcb529483b8210e8b29a690d137a8f43ecc6c52223d721243bed6e405c\"",
     "readme_hash": "0dca5317246f4ae111a0c27ccb7a1ff62923e3889d11f1090d0f1ed090044686",
     "entry": {
       "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
@@ -1103,7 +1103,7 @@
     }
   },
   "agentenatalie/get-job.skill": {
-    "etag": "\"bf1fc54740a77fc780cc471368f5b653b97a1686f9e53ba6653cef87e17538ae\"",
+    "etag": "W/\"fa9bbe3b7bc619ef9f95b839cad272a177c25d3e85b1378afb1bbe411e5601eb\"",
     "readme_hash": "2f851b40caefa69830bce296677ecf377d9640c3114baa3d92842f8026d7d349",
     "entry": {
       "id": "aleph-hub:agentenatalie/get-job.skill",
@@ -1171,7 +1171,7 @@
     }
   },
   "dososo/blcaptain-style-skill": {
-    "etag": "\"e8dea9d7cf46e18fe6559a044399dfd8fac19d7b95e624fd9208642974124047\"",
+    "etag": "W/\"4802d2ad8168c56ee2d9f5bc0dce31f9a1a08ff8b183bffcde55763495986096\"",
     "readme_hash": "74889bf821d36745d2ced71bafd323c8e965bbb2cea251a52044ccda57595e6e",
     "entry": {
       "id": "aleph-hub:dososo/blcaptain-style-skill",
@@ -1239,7 +1239,7 @@
     }
   },
   "swaylq/master-skill": {
-    "etag": "\"6e51354052bd199e85a47efc82a072441a5229079dda33e182df597b9b4d422d\"",
+    "etag": "W/\"6f588414ceff39633aaf2b7b28770a17c7c784839752eb5c559e07036e33ab1b\"",
     "readme_hash": "564c5d7199914f056d1d4ac4f04eb36179b937b437bcf637b44b4c6251eeb02e",
     "entry": {
       "id": "aleph-hub:swaylq/master-skill",
@@ -1341,7 +1341,7 @@
     }
   },
   "SDLLL/claude-for-safari": {
-    "etag": "\"a2350e620330ec4e1158caeb7108fbbd330a22d346f47a61a072a1da103301fe\"",
+    "etag": "W/\"a766cf16afb89ca6561f861441b71a1782742fc44a85367bacf85b6046425c73\"",
     "readme_hash": "6e6558d1e7f351b9a247cefc8540403199529795de4c83421a62691fe608441d",
     "entry": {
       "id": "aleph-hub:SDLLL/claude-for-safari",
@@ -1511,7 +1511,7 @@
     }
   },
   "brettdavies/crawl4ai-skill": {
-    "etag": "\"c4f342716ddbcea007c8c5fd0e08c74ad432d68202658eb9db461e2724953f5e\"",
+    "etag": "W/\"41861c8ccd6f4fab4d70a0cc94f829c5bb5aa46ece9fa060916eae94921ce690\"",
     "readme_hash": "e9e0d45aaaa7019c0c9da8c9752809ea97513ddf67af32fbe4ce90ea0230b59d",
     "entry": {
       "id": "aleph-hub:brettdavies/crawl4ai-skill",
@@ -1647,7 +1647,7 @@
     }
   },
   "likemaoke/wechat-article-to-md": {
-    "etag": "W/\"f6060d7b0c9278a97242a7665b6a1ffc57e3c443c8f032047c07be7208b3f60c\"",
+    "etag": "\"f6060d7b0c9278a97242a7665b6a1ffc57e3c443c8f032047c07be7208b3f60c\"",
     "readme_hash": "61673781980b3b9094a313338e0fe3a95078eafcd82acaf49c5f471a9c41a738",
     "entry": {
       "id": "aleph-hub:likemaoke/wechat-article-to-md",
@@ -1885,7 +1885,7 @@
     }
   },
   "dancolta/seo-drift-monitor": {
-    "etag": "\"936e0c1ff750b715148ec4fb7e606a929486622b2459f3dcd8fbf9da0f0385d6\"",
+    "etag": "W/\"7759af7f59a53a6534c83f4dd908bd0faff9005724b4bd1dff6a2e39adfe32c0\"",
     "readme_hash": "17afe0c0dc44e9cf9013677968a80dc09cc3e157ce1efea14c712a5c9c6df3ec",
     "entry": {
       "id": "aleph-hub:dancolta/seo-drift-monitor",
@@ -1919,7 +1919,7 @@
     }
   },
   "Hasasasa/claude-skill-html-to-pptx": {
-    "etag": "\"62d8984852441fc7ddc8c3f4645c0c2b23f2ebf6a68ad1954c4dbbf0c9e6b698\"",
+    "etag": "W/\"f6bddb17149700f28309ada52408ced8477b10876978c9ff0af2a68911030171\"",
     "readme_hash": "9085c2db376dea21843641a1885db7aadc195249a9bc9c030277f0a5ecebb962",
     "entry": {
       "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
@@ -2089,7 +2089,7 @@
     }
   },
   "patrickstigler/claude-skill-it-recht-dsgvo": {
-    "etag": "\"66e13f87a0a9b1d4c2d096d73201aae03d869fcb7673e56bc9c68a4ca60b1aec\"",
+    "etag": "W/\"68374fac4c4a9830b824324ba11f315cdab4666a1e7868140d5fe5acfe728f86\"",
     "readme_hash": "470879a20ceffa30f180d63de9ab3c9813ab5f72c5cb4100ee4d6bc5a84dc9bc",
     "entry": {
       "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
@@ -2123,7 +2123,7 @@
     }
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"988d23977b66f15dca4665d366779bd7a597beec552c1906c5bc71e407f379c8\"",
+    "etag": "W/\"f71604607a6c86d632d8182332e22ba1bccaa1547bdfd13280f9c709e0ce152a\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entry": {
       "id": "aleph-hub:muxuuu/serenity-skill",
@@ -2157,7 +2157,7 @@
     }
   },
   "917Dhj/DeepPaperNote": {
-    "etag": "\"ff9e512d017b50c3742b9567528abf484c5664959b3cb04987408a6e8ddb6f07\"",
+    "etag": "W/\"b0e4631f3948dab62cf916cdbe274f16ba1292391999adbcda1ef7aa3f5654ae\"",
     "readme_hash": "f1418db6d21b145e07456e6d621d737221f62ec8dc52ec44c4126bab4d883282",
     "entry": {
       "id": "aleph-hub:917Dhj/DeepPaperNote",
@@ -2191,7 +2191,7 @@
     }
   },
   "gitroomhq/postiz-agent": {
-    "etag": "\"5c9ef76c0d5ad8f2fbb25d6620de6ebeb701f2b95b581f46876389fea6af72de\"",
+    "etag": "W/\"4a8adfef9beab2c95f8ebe8ea7decf57c00597a1bb2af71a6f42afd0211735ed\"",
     "readme_hash": "4cd8866741dcd6aa68f3a226b596a16719ca2f1ab0ca4f8223cc3023a7837e13",
     "entry": {
       "id": "aleph-hub:gitroomhq/postiz-agent",
@@ -2293,7 +2293,7 @@
     }
   },
   "CosmoBlk/email-marketing-bible": {
-    "etag": "\"a43cd5c449e5c19806eb5b3d0aff8e7805783e48ae6a6d5149a096ae58055669\"",
+    "etag": "W/\"b8d400c470d15e60067f343353e66142eb0bef6994a0d7dec5f8886063126c98\"",
     "readme_hash": "35d99ccb96a1ec97992fa7659e9694218aa34af021d42c001d317c11db4e4b18",
     "entry": {
       "id": "aleph-hub:CosmoBlk/email-marketing-bible",
@@ -2429,7 +2429,7 @@
     }
   },
   "O0000-code/paper-search-pro": {
-    "etag": "\"5b755d0f1f35835ac5eaa22863fbd5455d0b555a51bf73bbeecc94c0f1a50b9d\"",
+    "etag": "W/\"7ffa1cb402fe4f709aec72a847aa536329a011718e4748d44ced5d87f0e6ec1e\"",
     "readme_hash": "47dd71e57fe1fc22b781170f3b5823ac18d2cbcd04cfc602b33d82fd80cbc514",
     "entry": {
       "id": "aleph-hub:O0000-code/paper-search-pro",
@@ -2701,7 +2701,7 @@
     }
   },
   "LewisLiu007/full-page-screenshot": {
-    "etag": "\"a39d5ae6134b96fc27d20d8636f37f5bfc52df5ebd25ff68252380df5fbe8656\"",
+    "etag": "W/\"300b01e471c73a310724f37f29c5e32ce185da0857317251833603b08992cfd9\"",
     "readme_hash": "60fea00530d6c1d21b1f0425be08107dc47aad89d35055b0495ec79562912eac",
     "entry": {
       "id": "aleph-hub:LewisLiu007/full-page-screenshot",
@@ -2735,7 +2735,7 @@
     }
   },
   "tlehman/litprog-skill": {
-    "etag": "\"7abbf44d968cadb4c25846d4b7c722345e48610c8680b35a31063430cb8cc5de\"",
+    "etag": "W/\"604d96db36b9ace4d8688f859f6c8c603ef27c1fe2284560873e1b4d17781889\"",
     "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
     "entry": {
       "id": "aleph-hub:tlehman/litprog-skill",
@@ -2764,6 +2764,41 @@
       "long_zh": "用具名代码块编写 `.lit.md` 文件:WEAVE 经 Pandoc 渲染出含散文、图表、公式与高亮代码的 PDF,TANGLE 则从根代码块抽取出源文件。",
       "sec_note_en": "Runs Pandoc and tangles files locally; review generated code chunks before building.",
       "sec_note_zh": "在本地运行 Pandoc 并 tangle 文件;构建前请审阅生成的代码块。",
+      "requires_config": false
+    }
+  },
+  "BuilderIO/skills": {
+    "etag": "W/\"74c067e5514c50b3bb179a9a3ead03f9bdf37d6aae8f6b820f64b689d04901d7\"",
+    "readme_hash": "63b4c16d7dd5519d72aab9777c19ca801402742dab4b9fdd9390d19306a30e47",
+    "entry": {
+      "id": "aleph-hub:BuilderIO/skills",
+      "repo_url": "https://github.com/BuilderIO/skills",
+      "via": "github:BuilderIO",
+      "full_name": "BuilderIO/skills",
+      "owner": "BuilderIO",
+      "repo": "skills",
+      "kind": "plugin",
+      "name": "Builder Skills",
+      "author": "BuilderIO",
+      "category": "developer",
+      "tags": [
+        "agent-workflows",
+        "planning",
+        "visual-plan",
+        "visual-recap",
+        "code-review"
+      ],
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/BuilderIO/skills",
+        "git_ref": "main"
+      },
+      "description_en": "Builder.io's official skill bundle for coding agents—headlined by Agent-Native visual planning (visual-plan) and its companion status recaps (visual-recap), plus docs-first discipline, autonomous execution, cross-agent review, and efficiency guards across 10 skills.",
+      "description_zh": "Builder.io 官方的编码 agent 技能合集——核心是 Agent-Native 可视化规划(visual-plan)及其搭档状态回顾(visual-recap),外加文档优先纪律、自主执行、跨 agent 评审与效率护栏,共 10 个技能。",
+      "long_en": "A Claude Code plugin packaging ten Builder.io skills. The headline pair is visual-plan—which turns text plans into interactive visual review surfaces with inline diagrams, file maps, annotated code, open questions, and optional UI/prototype canvases—and visual-recap, which produces scannable recaps of completed work. Installing the bundle makes each skill (e.g. /visual-plan) invocable by name.",
+      "long_zh": "一个 Claude Code 插件,打包 Builder.io 的十个技能。核心组合是 visual-plan(把文字计划转成带内联图表、文件地图、注释代码、待解问题与可选 UI/原型画布的可交互评审界面)与 visual-recap(生成对已完成工作的可速览回顾)。安装合集后,/visual-plan 等单个技能即可按名调用。",
+      "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin. visual-plan can optionally publish plans to Builder's free hosted Agent-Native app for shareable links, but also supports a local-files mode that writes MDX with no external service.",
+      "sec_note_zh": "MIT 许可;作为 Claude Code 插件在本地运行。visual-plan 可选地把计划发布到 Builder 免费托管的 Agent-Native 应用以生成可分享链接,但也支持仅本地模式(写出 MDX,不经外部服务)。",
       "requires_config": false
     }
   }

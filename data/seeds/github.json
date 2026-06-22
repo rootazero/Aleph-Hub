@@ -7,6 +7,7 @@
   "pins": [
     "microsoft/playwright-mcp",
     "wonderwhy-er/DesktopCommanderMCP",
-    "mobile-next/mobile-mcp"
+    "mobile-next/mobile-mcp",
+    "BuilderIO/skills"
   ]
 }

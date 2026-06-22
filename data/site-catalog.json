@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 167,
-    "generated_at": "2026-06-21T10:23:35.743Z",
-    "content_hash": "sha256:92bf77a63a258466f7539b5e426f97c674c714ce60b56af9f1e88867f20d55ef"
+    "entry_count": 125,
+    "generated_at": "2026-06-22T08:13:26.298Z",
+    "content_hash": "sha256:bc9d930707b89ac438ac54f72903b6980ec7b971431a7d3a6f4b1519d97a0e6c"
   },
   "entries": [
     {
@@ -1549,1546 +1549,6 @@
       "sec_note_en": "Reads local Office document files to extract content. Official first-party plugin (Node.js)."
     },
     {
-      "id": "aleph-hub:rootazero/Aleph/skills/api-design",
-      "kind": "skill",
-      "category": "developer",
-      "name": "API Design",
-      "description": "Contract-first API design — REST/GraphQL conventions, error handling, versioning",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/api-design",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/api-design",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "api",
-        "rest",
-        "graphql"
-      ],
-      "via": "aleph-official",
-      "description_zh": "契约优先的 API 设计 — REST/GraphQL 规范、错误处理与版本管理",
-      "description_en": "Contract-first API design — REST/GraphQL conventions, error handling, versioning",
-      "long_zh": "以契约优先的方式设计 API，涵盖 REST 与 GraphQL 规范、统一错误信封、分页与版本演进策略。",
-      "long_en": "Guides contract-first API design with REST and GraphQL conventions, consistent error envelopes, pagination, and versioning strategies.",
-      "cover_color": "#B5562B",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add api-design",
-      "sec_note_zh": "纯建议型技能 — 仅产出设计指导，不执行任何代码。",
-      "sec_note_en": "Advisory skill — produces design guidance only; no code execution."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/architecture",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Architecture",
-      "description": "System architecture design — pattern selection, dependency analysis, visualization",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/architecture",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/architecture",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "architecture",
-        "design",
-        "patterns"
-      ],
-      "via": "aleph-official",
-      "description_zh": "系统架构设计 — 模式选型、依赖分析与可视化",
-      "description_en": "System architecture design — pattern selection, dependency analysis, visualization",
-      "long_zh": "在动手实现前帮助选择架构模式、分析模块依赖并将系统结构可视化。",
-      "long_en": "Helps select architectural patterns, analyze module dependencies, and visualize system structure before implementation.",
-      "cover_color": "#8C5430",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add architecture",
-      "sec_note_zh": "纯建议型技能 — 仅产出设计指导，不执行任何代码。",
-      "sec_note_en": "Advisory skill — produces design guidance only; no code execution."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/ci-cd",
-      "kind": "skill",
-      "category": "developer",
-      "name": "CI/CD",
-      "description": "CI/CD pipeline design — GitHub Actions templates, caching, secret management",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/ci-cd",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/ci-cd",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "ci-cd",
-        "github-actions",
-        "devops"
-      ],
-      "via": "aleph-official",
-      "description_zh": "CI/CD 流水线设计 — GitHub Actions 模板、缓存与密钥管理",
-      "description_en": "CI/CD pipeline design — GitHub Actions templates, caching, secret management",
-      "long_zh": "设计 CI/CD 流水线，提供可直接使用的 GitHub Actions 模板、依赖缓存与密钥处理指南。",
-      "long_en": "Designs CI/CD pipelines with ready-to-use GitHub Actions templates, dependency caching, and secret-handling guidance.",
-      "cover_color": "#9C5A2C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add ci-cd",
-      "sec_note_zh": "生成流水线配置；应用到真实仓库前请审查密钥处理步骤。",
-      "sec_note_en": "Generates pipeline configs; review secret-handling steps before applying to real repositories."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/code-review",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Code Review",
-      "description": "Multi-dimensional code review with confidence-based filtering",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/code-review",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/code-review",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "code-review",
-        "quality",
-        "security"
-      ],
-      "via": "aleph-official",
-      "description_zh": "多维度代码审查，基于置信度过滤问题",
-      "description_en": "Multi-dimensional code review with confidence-based filtering",
-      "long_zh": "从正确性、安全性与质量多个维度审查代码，仅呈现高置信度问题以降低噪声。",
-      "long_en": "Reviews code across correctness, security, and quality dimensions, surfacing only high-confidence findings to cut noise.",
-      "cover_color": "#C98A3C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add code-review",
-      "sec_note_zh": "只读审查 — 报告问题，不修改代码也不执行代码。",
-      "sec_note_en": "Read-only review — reports findings; does not modify code or execute it."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-book-flight",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: Book Flight",
-      "description": "Book a flight by driving a browser/desktop app end-to-end",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-book-flight",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-book-flight",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "browser"
-      ],
-      "via": "aleph-official",
-      "description_zh": "通过端到端操控浏览器/桌面应用完成订机票",
-      "description_en": "Book a flight by driving a browser/desktop app end-to-end",
-      "long_zh": "借助 computer-use 自动化操控浏览器或桌面应用，端到端地搜索并预订航班。",
-      "long_en": "Drives a browser or desktop app to search and book flights end-to-end via computer-use automation.",
-      "cover_color": "#7E4A2A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add computer-use-book-flight",
-      "sec_note_zh": "会操控真实浏览器/桌面并可能提交订单 — 仅应在受监督的沙箱环境中运行。",
-      "sec_note_en": "Controls a real browser/desktop and can submit bookings — run only in a supervised, sandboxed environment."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-book-hotel",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: Book Hotel",
-      "description": "Reserve a hotel room by driving a booking site end-to-end",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-book-hotel",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-book-hotel",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "browser"
-      ],
-      "via": "aleph-official",
-      "description_zh": "通过端到端操控预订网站完成订酒店",
-      "description_en": "Reserve a hotel room by driving a booking site end-to-end",
-      "long_zh": "借助 computer-use 自动化端到端操控预订网站，搜索并预订酒店房间。",
-      "long_en": "Drives a booking site end-to-end to search and reserve hotel rooms via computer-use automation.",
-      "cover_color": "#86512C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add computer-use-book-hotel",
-      "sec_note_zh": "会操控真实浏览器/桌面并可能提交订单 — 仅应在受监督的沙箱环境中运行。",
-      "sec_note_en": "Controls a real browser/desktop and can submit bookings — run only in a supervised, sandboxed environment."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-draw",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: Draw",
-      "description": "Drive a desktop drawing app/web canvas to produce a sketch",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-draw",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-draw",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "drawing"
-      ],
-      "via": "aleph-official",
-      "description_zh": "操控桌面绘图应用/网页画布生成草图",
-      "description_en": "Drive a desktop drawing app/web canvas to produce a sketch",
-      "long_zh": "通过 computer-use 自动化操控桌面绘图应用或网页画布来生成草图。",
-      "long_en": "Controls a desktop drawing app or web canvas to produce sketches through computer-use automation.",
-      "cover_color": "#86512C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add computer-use-draw",
-      "sec_note_zh": "会操控真实桌面/浏览器 — 仅应在受监督的沙箱环境中运行。",
-      "sec_note_en": "Controls a real desktop/browser — run only in a supervised, sandboxed environment."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-uitars-format",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: UI-TARS Format",
-      "description": "Drive desktop with UI-TARS-style normalized coordinates",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-uitars-format",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-uitars-format",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "ui-tars"
-      ],
-      "via": "aleph-official",
-      "description_zh": "以 UI-TARS 风格的归一化坐标操控桌面",
-      "description_en": "Drive desktop with UI-TARS-style normalized coordinates",
-      "long_zh": "使用 UI-TARS 风格的归一化坐标动作操控桌面，实现可定位的 GUI 自动化。",
-      "long_en": "Drives the desktop using UI-TARS-style normalized coordinate actions for grounded GUI automation.",
-      "cover_color": "#9E5B2E",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add computer-use-uitars-format",
-      "sec_note_zh": "会操控真实桌面/浏览器 — 仅应在受监督的沙箱环境中运行。",
-      "sec_note_en": "Controls a real desktop/browser — run only in a supervised, sandboxed environment."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/data-pipeline",
-      "kind": "skill",
-      "category": "data",
-      "name": "Data Pipeline",
-      "description": "Data processing/transformation via jq and Python",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/data-pipeline",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/data-pipeline",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "data",
-        "jq",
-        "python"
-      ],
-      "via": "aleph-official",
-      "description_zh": "通过 jq 与 Python 进行数据处理与转换",
-      "description_en": "Data processing/transformation via jq and Python",
-      "long_zh": "使用 jq 与 Python 构建数据处理与转换流程，完成清洗、重塑与聚合。",
-      "long_en": "Builds data processing and transformation flows using jq and Python for cleaning, reshaping, and aggregation.",
-      "cover_color": "#7A4A2B",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add data-pipeline",
-      "sec_note_zh": "会在你的数据上运行 jq/Python；处理不可信输入前请先校验。",
-      "sec_note_en": "Runs jq/Python on your data; validate untrusted inputs before processing."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/database",
-      "kind": "skill",
-      "category": "data",
-      "name": "Database",
-      "description": "Database design — selection tree, schema, query optimization, migrations",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/database",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/database",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "database",
-        "schema",
-        "sql"
-      ],
-      "via": "aleph-official",
-      "description_zh": "数据库设计 — 选型决策、模式、查询优化与迁移",
-      "description_en": "Database design — selection tree, schema, query optimization, migrations",
-      "long_zh": "指导关系型与 NoSQL 存储的数据库选型、模式设计、查询优化与迁移规划。",
-      "long_en": "Guides database selection, schema design, query optimization, and migration planning across relational and NoSQL stores.",
-      "cover_color": "#B5562B",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add database",
-      "sec_note_zh": "可能生成迁移/DDL 语句 — 在生产数据上执行前请审查。",
-      "sec_note_en": "Can generate migration/DDL statements — review before running against production data."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/debug",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Debug",
-      "description": "Systematic debugging — 7-step protocol with POE-aligned success contracts",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/debug",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/debug",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "debugging",
-        "troubleshooting"
-      ],
-      "via": "aleph-official",
-      "description_zh": "系统化调试 — 7 步协议与 POE 对齐的成功契约",
-      "description_en": "Systematic debugging — 7-step protocol with POE-aligned success contracts",
-      "long_zh": "采用系统化的 7 步调试协议，配合明确可验证的成功契约，定位并修复根因。",
-      "long_en": "Applies a systematic 7-step debugging protocol with explicit, verifiable success contracts to isolate and fix root causes.",
-      "cover_color": "#C9542A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add debug",
-      "sec_note_zh": "建议/流程型技能 — 引导排查，实际命令由你执行。",
-      "sec_note_en": "Advisory/process skill — guides investigation; you run the actual commands."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/deploy",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Deploy",
-      "description": "Deployment lifecycle — containerization, release strategies, monitoring, rollback",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/deploy",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/deploy",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "deploy",
-        "containers",
-        "devops"
-      ],
-      "via": "aleph-official",
-      "description_zh": "部署生命周期 — 容器化、发布策略、监控与回滚",
-      "description_en": "Deployment lifecycle — containerization, release strategies, monitoring, rollback",
-      "long_zh": "覆盖部署生命周期：容器化、发布策略、监控接入与安全回滚流程。",
-      "long_en": "Covers the deployment lifecycle: containerization, release strategies, monitoring hooks, and safe rollback procedures.",
-      "cover_color": "#8C5430",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add deploy",
-      "sec_note_zh": "会产出可能影响线上环境的部署操作 — 应用前请审查。",
-      "sec_note_en": "Produces deployment actions that can affect live environments — review before applying."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/doc",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Doc",
-      "description": "Documentation co-authoring — 3-stage workflow (RFC, ADR, README, specs)",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/doc",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/doc",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "documentation",
-        "writing",
-        "technical-writing"
-      ],
-      "via": "aleph-official",
-      "description_zh": "文档协作撰写 — 三阶段工作流（RFC、ADR、README、规格）",
-      "description_en": "Documentation co-authoring — 3-stage workflow (RFC, ADR, README, specs)",
-      "long_zh": "通过三阶段工作流协作撰写技术文档，涵盖 RFC、ADR、README 与规格说明。",
-      "long_en": "Co-authors technical documentation through a 3-stage workflow spanning RFCs, ADRs, READMEs, and specs.",
-      "cover_color": "#7E4A2A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add doc",
-      "sec_note_zh": "纯建议型技能 — 仅产出文档，不执行任何代码。",
-      "sec_note_en": "Advisory skill — produces documentation only; no code execution."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/email",
-      "kind": "skill",
-      "category": "communication",
-      "name": "Email",
-      "description": "Email automation — send/receive via curl SMTP/IMAP",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/email",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/email",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "email",
-        "smtp",
-        "imap"
-      ],
-      "via": "aleph-official",
-      "description_zh": "邮件自动化 — 通过 curl SMTP/IMAP 收发邮件",
-      "description_en": "Email automation — send/receive via curl SMTP/IMAP",
-      "long_zh": "使用 curl 通过 SMTP/IMAP 自动收发邮件。",
-      "long_en": "Automates sending and receiving email over SMTP/IMAP using curl.",
-      "cover_color": "#9C5A2C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add email",
-      "sec_note_zh": "会处理邮箱凭据并发送真实邮件 — 密钥应存于环境变量，切勿内联硬编码。",
-      "sec_note_en": "Handles mailbox credentials and sends real email — store secrets in env vars, never inline."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/emergency",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Emergency",
-      "description": "Developer emergency rescue — Git disasters, disk full, DB locks, credential leaks",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/emergency",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/emergency",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "emergency",
-        "recovery",
-        "troubleshooting"
-      ],
-      "via": "aleph-official",
-      "description_zh": "开发者应急救援 — Git 灾难、磁盘写满、数据库锁、凭据泄露",
-      "description_en": "Developer emergency rescue — Git disasters, disk full, DB locks, credential leaks",
-      "long_zh": "面向开发者紧急情况的救援手册：Git 灾难、磁盘写满、数据库锁与凭据泄露应对。",
-      "long_en": "A rescue playbook for developer emergencies: Git disasters, full disks, database locks, and credential-leak response.",
-      "cover_color": "#A0612F",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add emergency",
-      "sec_note_zh": "会建议可能改变系统/仓库状态的恢复命令 — 执行每一步前请先阅读。",
-      "sec_note_en": "Suggests recovery commands that can mutate system/repo state — read each step before executing."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/git",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Git",
-      "description": "Git workflow — daily ops, advanced techniques, Aleph conventions",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/git",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/git",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "git",
-        "version-control",
-        "workflow"
-      ],
-      "via": "aleph-official",
-      "description_zh": "Git 工作流 — 日常操作、进阶技巧与 Aleph 约定",
-      "description_en": "Git workflow — daily ops, advanced techniques, Aleph conventions",
-      "long_zh": "涵盖日常 Git 操作、进阶技巧以及 Aleph 的提交/分支约定。",
-      "long_en": "Covers daily Git operations, advanced techniques, and Aleph's commit/branch conventions.",
-      "cover_color": "#C98A3C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add git",
-      "sec_note_zh": "会运行修改仓库历史与工作区的 git 命令 — 破坏性操作请先审查。",
-      "sec_note_en": "Runs git commands that modify repository history and working tree — review destructive operations first."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/github",
-      "kind": "skill",
-      "category": "developer",
-      "name": "GitHub",
-      "description": "GitHub CLI automation — PR lifecycle, issues, CI debugging, releases via gh",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/github",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/github",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "github",
-        "gh-cli",
-        "automation"
-      ],
-      "via": "aleph-official",
-      "description_zh": "GitHub CLI 自动化 — 通过 gh 管理 PR 生命周期、Issue、CI 调试与发布",
-      "description_en": "GitHub CLI automation — PR lifecycle, issues, CI debugging, releases via gh",
-      "long_zh": "通过 gh CLI 自动化 GitHub 的 PR 生命周期、Issue、CI 调试与发布。",
-      "long_en": "Automates the GitHub PR lifecycle, issues, CI debugging, and releases through the gh CLI.",
-      "cover_color": "#7A4A2B",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add github",
-      "sec_note_zh": "通过 gh 以你的 GitHub 账户执行操作 — 使用你的已认证令牌，可修改仓库/PR。",
-      "sec_note_en": "Acts on your GitHub account via gh — uses your authenticated token and can modify repos/PRs."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/http-client",
-      "kind": "skill",
-      "category": "developer",
-      "name": "HTTP Client",
-      "description": "API debugging/testing — RESTful requests, auth, response analysis via curl",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/http-client",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/http-client",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "http",
-        "api",
-        "curl"
-      ],
-      "via": "aleph-official",
-      "description_zh": "API 调试/测试 — 通过 curl 发起 RESTful 请求、认证与响应分析",
-      "description_en": "API debugging/testing — RESTful requests, auth, response analysis via curl",
-      "long_zh": "通过 curl 发起带认证的 RESTful 请求并分析响应，用于 API 调试与测试。",
-      "long_en": "Debugs and tests APIs by issuing RESTful requests with auth and analyzing responses via curl.",
-      "cover_color": "#86512C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add http-client",
-      "sec_note_zh": "会携带你的凭据发送任意 HTTP 请求 — 避免指向不可信端点。",
-      "sec_note_en": "Sends arbitrary HTTP requests with your credentials — avoid pointing at untrusted endpoints."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/knowledge",
-      "kind": "skill",
-      "category": "knowledge",
-      "name": "Knowledge",
-      "description": "Knowledge distillation — Rephrasing Test, compress for retention",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/knowledge",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/knowledge",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "knowledge",
-        "learning",
-        "distillation"
-      ],
-      "via": "aleph-official",
-      "description_zh": "知识蒸馏 — 复述测试，压缩以利记忆留存",
-      "description_en": "Knowledge distillation — Rephrasing Test, compress for retention",
-      "long_zh": "运用复述测试与压缩技巧蒸馏知识，以实现持久的记忆留存。",
-      "long_en": "Distills knowledge using the Rephrasing Test and compression techniques for durable retention.",
-      "cover_color": "#86512C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add knowledge",
-      "sec_note_zh": "纯建议型技能 — 仅产出蒸馏后的笔记，不执行任何代码。",
-      "sec_note_en": "Advisory skill — produces distilled notes only; no code execution."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/mcp-dev",
-      "kind": "skill",
-      "category": "developer",
-      "name": "MCP Dev",
-      "description": "MCP Server development — agent-centric design, 4-phase workflow",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/mcp-dev",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/mcp-dev",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "mcp",
-        "development",
-        "agents"
-      ],
-      "via": "aleph-official",
-      "description_zh": "MCP 服务器开发 — 以智能体为中心的设计，四阶段工作流",
-      "description_en": "MCP Server development — agent-centric design, 4-phase workflow",
-      "long_zh": "以智能体为中心，按四阶段工作流指导 MCP 服务器开发。",
-      "long_en": "Guides MCP server development with agent-centric design across a 4-phase workflow.",
-      "cover_color": "#A86A3A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add mcp-dev",
-      "sec_note_zh": "建议/开发型技能 — 引导编写，服务器由你构建并运行。",
-      "sec_note_en": "Advisory/development skill — guides authoring; you build and run the server."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/media-tools",
-      "kind": "skill",
-      "category": "files",
-      "name": "Media Tools",
-      "description": "Media processing — video/audio/image via ffmpeg",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/media-tools",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/media-tools",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "media",
-        "ffmpeg",
-        "video"
-      ],
-      "via": "aleph-official",
-      "description_zh": "媒体处理 — 通过 ffmpeg 处理视频/音频/图像",
-      "description_en": "Media processing — video/audio/image via ffmpeg",
-      "long_zh": "使用 ffmpeg 处理视频、音频与图像，完成转换、裁剪与提取。",
-      "long_en": "Processes video, audio, and images using ffmpeg for conversion, trimming, and extraction.",
-      "cover_color": "#A86A3A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add media-tools",
-      "sec_note_zh": "需要本地安装 ffmpeg，并会读写本地媒体文件。",
-      "sec_note_en": "Requires a local ffmpeg install and reads/writes local media files."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/notification",
-      "kind": "skill",
-      "category": "communication",
-      "name": "Notification",
-      "description": "Multi-channel notifications — macOS, ntfy.sh, Telegram, webhooks",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/notification",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/notification",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "notification",
-        "telegram",
-        "webhook"
-      ],
-      "via": "aleph-official",
-      "description_zh": "多渠道通知 — macOS、ntfy.sh、Telegram、Webhook",
-      "description_en": "Multi-channel notifications — macOS, ntfy.sh, Telegram, webhooks",
-      "long_zh": "通过 macOS、ntfy.sh、Telegram 与通用 Webhook 发送通知。",
-      "long_en": "Sends notifications across macOS, ntfy.sh, Telegram, and generic webhooks.",
-      "cover_color": "#8C5430",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add notification",
-      "sec_note_zh": "会向外部服务发送消息 — 渠道令牌请存于环境变量。",
-      "sec_note_en": "Sends messages to external services — keep channel tokens in env vars."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/performance",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Performance",
-      "description": "Performance optimization — measure first, profile, optimize with evidence",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/performance",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/performance",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "performance",
-        "profiling",
-        "optimization"
-      ],
-      "via": "aleph-official",
-      "description_zh": "性能优化 — 先度量、再剖析、用证据驱动优化",
-      "description_en": "Performance optimization — measure first, profile, optimize with evidence",
-      "long_zh": "以先度量为原则优化性能：剖析、定位热点路径，并以证据驱动优化。",
-      "long_en": "Optimizes performance with a measure-first discipline: profile, find hot paths, and optimize with evidence.",
-      "cover_color": "#7E4A2A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add performance",
-      "sec_note_zh": "纯建议型技能 — 引导剖析与分析，不进行破坏性操作。",
-      "sec_note_en": "Advisory skill — guides profiling and analysis; no destructive operations."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/plan",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Plan",
-      "description": "Technical design — ambiguous requirements to ADR documentation",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/plan",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/plan",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "planning",
-        "design",
-        "adr"
-      ],
-      "via": "aleph-official",
-      "description_zh": "技术设计 — 将模糊需求转化为 ADR 文档",
-      "description_en": "Technical design — ambiguous requirements to ADR documentation",
-      "long_zh": "将模糊需求转化为具体的技术设计，并以 ADR 形式记录。",
-      "long_en": "Turns ambiguous requirements into concrete technical designs documented as ADRs.",
-      "cover_color": "#7A4A2B",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add plan",
-      "sec_note_zh": "纯建议型技能 — 仅产出设计文档，不执行任何代码。",
-      "sec_note_en": "Advisory skill — produces design documents only; no code execution."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/playwright",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Playwright",
-      "description": "Browser automation — E2E testing, screenshots, form filling via Playwright",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/playwright",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/playwright",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "playwright",
-        "testing",
-        "browser"
-      ],
-      "via": "aleph-official",
-      "description_zh": "浏览器自动化 — 通过 Playwright 进行 E2E 测试、截图与表单填写",
-      "description_en": "Browser automation — E2E testing, screenshots, form filling via Playwright",
-      "long_zh": "通过 Playwright 自动化浏览器，进行 E2E 测试、截图与表单填写。",
-      "long_en": "Automates the browser for E2E testing, screenshots, and form filling via Playwright.",
-      "cover_color": "#A0612F",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add playwright",
-      "sec_note_zh": "会驱动真实浏览器并可能提交表单 — 仅指向可信/测试目标。",
-      "sec_note_en": "Drives a real browser and can submit forms — point only at trusted/test targets."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/refactor",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Refactor",
-      "description": "Safe code refactoring — smell detection, test-protected incremental changes",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/refactor",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/refactor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "refactoring",
-        "code-quality",
-        "testing"
-      ],
-      "via": "aleph-official",
-      "description_zh": "安全重构 — 坏味道识别、测试保护下的增量改动",
-      "description_en": "Safe code refactoring — smell detection, test-protected incremental changes",
-      "long_zh": "通过识别代码坏味道并在测试保护下进行增量改动，实现安全重构。",
-      "long_en": "Refactors safely by detecting code smells and making incremental, test-protected changes.",
-      "cover_color": "#C98A3C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add refactor",
-      "sec_note_zh": "会修改源代码 — 请将改动纳入版本控制并保持测试通过。",
-      "sec_note_en": "Modifies source code — keep changes under version control and tests green."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/regex",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Regex",
-      "description": "Practical regex cookbook — validation/parsing/replacement across languages",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/regex",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/regex",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "regex",
-        "parsing",
-        "validation"
-      ],
-      "via": "aleph-official",
-      "description_zh": "实用正则手册 — 跨语言的校验/解析/替换",
-      "description_en": "Practical regex cookbook — validation/parsing/replacement across languages",
-      "long_zh": "跨多种语言的实用正则手册，覆盖校验、解析与替换。",
-      "long_en": "A practical regex cookbook for validation, parsing, and replacement across multiple languages.",
-      "cover_color": "#B5562B",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add regex",
-      "sec_note_zh": "纯建议型技能 — 对不可信输入应警惕灾难性回溯。",
-      "sec_note_en": "Advisory skill — beware catastrophic backtracking on untrusted input patterns."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/search",
-      "kind": "skill",
-      "category": "search",
-      "name": "Search",
-      "description": "Technical search strategies — code archaeology, doc retrieval, web research",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/search",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/search",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "search",
-        "research",
-        "retrieval"
-      ],
-      "via": "aleph-official",
-      "description_zh": "技术搜索策略 — 代码考古、文档检索与网络调研",
-      "description_en": "Technical search strategies — code archaeology, doc retrieval, web research",
-      "long_zh": "提供用于代码考古、文档检索与网络调研的技术搜索策略。",
-      "long_en": "Provides technical search strategies for code archaeology, documentation retrieval, and web research.",
-      "cover_color": "#7E4A2A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add search",
-      "sec_note_zh": "纯建议型技能 — 引导搜索；调研时可能抓取外部网页内容。",
-      "sec_note_en": "Advisory skill — guides search; may fetch external web content for research."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/security",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Security",
-      "description": "Security audit — OWASP checklist, credential leak response, dependency scanning",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/security",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/security",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "security",
-        "owasp",
-        "audit"
-      ],
-      "via": "aleph-official",
-      "description_zh": "安全审计 — OWASP 检查清单、凭据泄露应对、依赖扫描",
-      "description_en": "Security audit — OWASP checklist, credential leak response, dependency scanning",
-      "long_zh": "执行防御性安全审计，包含 OWASP 检查清单、凭据泄露应对与依赖扫描。",
-      "long_en": "Runs defensive security audits with an OWASP checklist, credential-leak response, and dependency scanning.",
-      "cover_color": "#86512C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add security",
-      "sec_note_zh": "仅防御性审计 — 报告问题，不进行利用。扫描可能读取源码与依赖清单。",
-      "sec_note_en": "Defensive auditing only — reports findings; does not exploit. Scans may read source and dependency manifests."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/self",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "Self",
-      "description": "Aleph self-management mode — configure LLM providers, channels, agents, skills, plugins",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/self",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/self",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "aleph",
-        "configuration",
-        "management"
-      ],
-      "via": "aleph-official",
-      "description_zh": "Aleph 自管理模式 — 配置 LLM 提供商、渠道、智能体、技能与插件",
-      "description_en": "Aleph self-management mode — configure LLM providers, channels, agents, skills, plugins",
-      "long_zh": "Aleph 的自管理模式，用于配置 LLM 提供商、渠道、智能体、技能与插件。",
-      "long_en": "Aleph's self-management mode for configuring LLM providers, channels, agents, skills, and plugins.",
-      "cover_color": "#C98A3C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add self",
-      "sec_note_zh": "会修改你的 Aleph 实例配置（含提供商凭据）— 官方一方技能。",
-      "sec_note_en": "Modifies your Aleph instance configuration, including provider credentials — official first-party skill."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/shell",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "Shell",
-      "description": "Scene-driven shell commands — system diagnostics, Docker, process management",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/shell",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/shell",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "shell",
-        "system",
-        "docker"
-      ],
-      "via": "aleph-official",
-      "description_zh": "场景驱动的 Shell 命令 — 系统诊断、Docker 与进程管理",
-      "description_en": "Scene-driven shell commands — system diagnostics, Docker, process management",
-      "long_zh": "提供面向场景的 Shell 命令，用于系统诊断、Docker 与进程管理。",
-      "long_en": "Provides scene-driven shell commands for system diagnostics, Docker, and process management.",
-      "cover_color": "#9E5B2E",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add shell",
-      "sec_note_zh": "会在主机上执行任意 Shell 命令 — 运行前请审查每条命令。",
-      "sec_note_en": "Executes arbitrary shell commands on the host — review each command before running."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/skill-creator",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Skill Creator",
-      "description": "Create/refactor/evaluate Aleph skills, author memory skill-notes",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/skill-creator",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/skill-creator",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "aleph",
-        "skills",
-        "authoring"
-      ],
-      "via": "aleph-official",
-      "description_zh": "创建/重构/评估 Aleph 技能，撰写记忆型 skill-notes",
-      "description_en": "Create/refactor/evaluate Aleph skills, author memory skill-notes",
-      "long_zh": "创建、重构与评估 Aleph 技能，并撰写记忆型 skill-notes。",
-      "long_en": "Creates, refactors, and evaluates Aleph skills, and authors memory skill-notes.",
-      "cover_color": "#C98A3C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add skill-creator",
-      "sec_note_zh": "会向你的 Aleph 实例写入技能文件 — 官方一方技能。",
-      "sec_note_en": "Writes skill files into your Aleph instance — official first-party skill."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/ssh",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "SSH",
-      "description": "SSH management — connections, port forwarding, file transfer, jump hosts, keys",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/ssh",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/ssh",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "ssh",
-        "remote",
-        "networking"
-      ],
-      "via": "aleph-official",
-      "description_zh": "SSH 管理 — 连接、端口转发、文件传输、跳板机与密钥",
-      "description_en": "SSH management — connections, port forwarding, file transfer, jump hosts, keys",
-      "long_zh": "管理 SSH 连接、端口转发、文件传输、跳板机与密钥。",
-      "long_en": "Manages SSH connections, port forwarding, file transfer, jump hosts, and key handling.",
-      "cover_color": "#9E5B2E",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add ssh",
-      "sec_note_zh": "会处理 SSH 凭据并建立远程连接 — 请使用可信主机并保护好私钥。",
-      "sec_note_en": "Handles SSH credentials and opens remote connections — use trusted hosts and protect private keys."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/test",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Test",
-      "description": "Unified testing workflow — TDD cycles, framework selection, patterns",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/test",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/test",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "testing",
-        "tdd",
-        "quality"
-      ],
-      "via": "aleph-official",
-      "description_zh": "统一测试工作流 — TDD 循环、框架选型与测试模式",
-      "description_en": "Unified testing workflow — TDD cycles, framework selection, patterns",
-      "long_zh": "统一的测试工作流，涵盖 TDD 循环、框架选型与常见测试模式。",
-      "long_en": "A unified testing workflow covering TDD cycles, framework selection, and common test patterns.",
-      "cover_color": "#7E4A2A",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add test",
-      "sec_note_zh": "纯建议型技能 — 引导编写测试；测试在你自己的环境中运行。",
-      "sec_note_en": "Advisory skill — guides test authoring; tests run in your own environment."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/typeset",
-      "kind": "skill",
-      "category": "files",
-      "name": "Typeset",
-      "description": "Document rendering — compile Typst/LaTeX to PDF, math, templates",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/typeset",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/typeset",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "typesetting",
-        "latex",
-        "typst"
-      ],
-      "via": "aleph-official",
-      "description_zh": "文档排版 — 将 Typst/LaTeX 编译为 PDF，支持公式与模板",
-      "description_en": "Document rendering — compile Typst/LaTeX to PDF, math, templates",
-      "long_zh": "通过将 Typst/LaTeX 编译为 PDF 进行文档排版，支持数学公式与模板。",
-      "long_en": "Renders documents by compiling Typst/LaTeX to PDF with math and templates.",
-      "cover_color": "#C98A3C",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add typeset",
-      "sec_note_zh": "需要本地 Typst/LaTeX 工具链，并会写出 PDF 文件。",
-      "sec_note_en": "Requires a local Typst/LaTeX toolchain and writes PDF output files."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/web-scraper",
-      "kind": "skill",
-      "category": "data",
-      "name": "Web Scraper",
-      "description": "Web data extraction — structured scraping, search, PDF download via curl/Python",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/web-scraper",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/web-scraper",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "scraping",
-        "web",
-        "data"
-      ],
-      "via": "aleph-official",
-      "description_zh": "网页数据提取 — 通过 curl/Python 进行结构化抓取、搜索与 PDF 下载",
-      "description_en": "Web data extraction — structured scraping, search, PDF download via curl/Python",
-      "long_zh": "使用 curl 与 Python 进行结构化抓取、搜索与 PDF 下载，提取网页数据。",
-      "long_en": "Extracts web data through structured scraping, search, and PDF download using curl and Python.",
-      "cover_color": "#8C5430",
-      "stars": 3,
-      "trend": null,
-      "spark": [],
-      "license": "MIT",
-      "updated": "2026-06-21",
-      "install_cmd": "aleph add web-scraper",
-      "sec_note_zh": "会抓取外部网页内容 — 请遵守目标站点 robots/服务条款并校验抓取数据。",
-      "sec_note_en": "Fetches external web content — respect target robots/ToS and validate scraped data."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/diagnostics",
-      "kind": "plugin",
-      "category": "developer",
-      "name": "Aleph Diagnostics",
-      "description": "System health monitoring and performance diagnostics",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/diagnostics",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/diagnostics",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "diagnostics",
-        "monitoring",
-        "health"
-      ],
-      "via": "aleph-official",
-      "description_zh": "系统健康监控与性能诊断",
-      "description_en": "System health monitoring and performance diagnostics",
-      "long_zh": "Aleph 官方插件，监控系统健康状况并为你的实例运行性能诊断。",
-      "long_en": "Official Aleph plugin that monitors system health and runs performance diagnostics for your instance.",
-      "cover_color": "#C9542A",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add diagnostics",
-      "sec_note_zh": "读取运行时/系统指标以报告健康状况 — 官方一方插件（Node.js）。",
-      "sec_note_en": "Reads runtime/system metrics to report health — official first-party plugin (Node.js)."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/llm-task",
-      "kind": "plugin",
-      "category": "automation",
-      "name": "LLM Task Runner",
-      "description": "Batch LLM operations with map, chain, and evaluate",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/llm-task",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/llm-task",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "llm",
-        "batch",
-        "automation"
-      ],
-      "via": "aleph-official",
-      "description_zh": "批量 LLM 操作，支持 map、chain 与 evaluate",
-      "description_en": "Batch LLM operations with map, chain, and evaluate",
-      "long_zh": "Aleph 官方插件，用于批量 LLM 操作，支持 map、chain 与 evaluate 工作流。",
-      "long_en": "Official Aleph plugin for batch LLM operations, supporting map, chain, and evaluate workflows.",
-      "cover_color": "#C98A3C",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add llm-task",
-      "sec_note_zh": "向你配置的 LLM 提供商发送批量请求 — 可能产生提供商费用。官方一方插件（Node.js）。",
-      "sec_note_en": "Sends batched prompts to your configured LLM provider — may incur provider costs. Official first-party plugin (Node.js)."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/memory-analytics",
-      "kind": "plugin",
-      "category": "data",
-      "name": "Memory Analytics",
-      "description": "Memory usage analytics — fact distribution, timeline, and health assessment",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/memory-analytics",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/memory-analytics",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "memory",
-        "analytics",
-        "data"
-      ],
-      "via": "aleph-official",
-      "description_zh": "记忆使用分析 — 事实分布、时间线与健康评估",
-      "description_en": "Memory usage analytics — fact distribution, timeline, and health assessment",
-      "long_zh": "Aleph 官方插件，分析记忆使用情况：事实分布、时间线与健康评估。",
-      "long_en": "Official Aleph plugin that analyzes memory usage: fact distribution, timeline, and health assessment.",
-      "cover_color": "#8C5430",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add memory-analytics",
-      "sec_note_zh": "读取你的 Aleph 记忆库以计算分析指标 — 以 WebAssembly 在本地运行。官方一方插件。",
-      "sec_note_en": "Reads your Aleph memory store to compute analytics — runs locally as WebAssembly. Official first-party plugin."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/diff-viewer",
-      "kind": "plugin",
-      "category": "developer",
-      "name": "Diff Viewer",
-      "description": "Code diff comparison and change analysis",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/diff-viewer",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/diff-viewer",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "diff",
-        "code-review",
-        "developer"
-      ],
-      "via": "aleph-official",
-      "description_zh": "代码差异对比与变更分析",
-      "description_en": "Code diff comparison and change analysis",
-      "long_zh": "Aleph 官方插件，用于代码差异对比与变更分析。",
-      "long_en": "Official Aleph plugin for code diff comparison and change analysis.",
-      "cover_color": "#B0703C",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add diff-viewer",
-      "sec_note_zh": "读取文件内容以计算差异 — 以 WebAssembly 在本地运行。官方一方插件。",
-      "sec_note_en": "Reads file contents to compute diffs — runs locally as WebAssembly. Official first-party plugin."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/voice-call",
-      "kind": "plugin",
-      "category": "communication",
-      "name": "Voice Call",
-      "description": "Voice calling framework with WebRTC/SIP stubs",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/voice-call",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/voice-call",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "voice",
-        "webrtc",
-        "sip"
-      ],
-      "via": "aleph-official",
-      "description_zh": "语音通话框架，含 WebRTC/SIP 桩实现",
-      "description_en": "Voice calling framework with WebRTC/SIP stubs",
-      "long_zh": "Aleph 官方插件，提供含 WebRTC/SIP 桩实现的语音通话框架。",
-      "long_en": "Official Aleph plugin providing a voice calling framework with WebRTC/SIP stubs.",
-      "cover_color": "#A86A3A",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add voice-call",
-      "sec_note_zh": "通过 WebRTC/SIP 建立语音连接 — 会处理通话凭据/端点。官方一方插件（Node.js）。",
-      "sec_note_en": "Establishes voice connections via WebRTC/SIP — handles call credentials/endpoints. Official first-party plugin (Node.js)."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/phone-control",
-      "kind": "plugin",
-      "category": "automation",
-      "name": "Phone Control",
-      "description": "Android phone control via ADB",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/phone-control",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/phone-control",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "android",
-        "adb",
-        "automation"
-      ],
-      "via": "aleph-official",
-      "description_zh": "通过 ADB 控制 Android 手机",
-      "description_en": "Android phone control via ADB",
-      "long_zh": "Aleph 官方插件，通过 ADB 控制 Android 手机。",
-      "long_en": "Official Aleph plugin that controls an Android phone via ADB.",
-      "cover_color": "#B5562B",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add phone-control",
-      "sec_note_zh": "通过 ADB 操控已连接的 Android 设备 — 可注入输入事件并读取设备状态。仅应用于你自己的可信设备。官方一方插件（Node.js）。",
-      "sec_note_en": "Drives a connected Android device over ADB — can inject input events and read device state. Use only with your own trusted device. Official first-party plugin (Node.js)."
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/media-office",
-      "kind": "plugin",
-      "category": "files",
-      "name": "Media Office",
-      "description": "Office document text, table, and metadata extraction",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/media-office",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/media-office",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "office",
-        "documents",
-        "extraction"
-      ],
-      "via": "aleph-official",
-      "description_zh": "Office 文档文本、表格与元数据提取",
-      "description_en": "Office document text, table, and metadata extraction",
-      "long_zh": "Aleph 官方插件，从 Office 文档中提取文本、表格与元数据。",
-      "long_en": "Official Aleph plugin for extracting text, tables, and metadata from Office documents.",
-      "cover_color": "#9C5A2C",
-      "stars": 0,
-      "trend": null,
-      "spark": [],
-      "updated": "2026-03-20",
-      "install_cmd": "aleph add media-office",
-      "sec_note_zh": "读取本地 Office 文档文件以提取内容。官方一方插件（Node.js）。",
-      "sec_note_en": "Reads local Office document files to extract content. Official first-party plugin (Node.js)."
-    },
-    {
       "id": "aleph-hub:microsoft/playwright-mcp",
       "kind": "mcp",
       "category": "developer",
@@ -3125,11 +1585,12 @@
       "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
       "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
       "cover_color": "#A0612F",
-      "stars": 34151,
+      "stars": 34190,
       "trend": 0,
       "spark": [
         34135,
-        34151
+        34151,
+        34190
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-20",
@@ -3168,11 +1629,12 @@
       "long_zh": "Desktop Commander 是把模型连接到真实 shell 与本地文件系统的 MCP 服务,可在对话中执行长任务命令、编辑代码并管理进程。",
       "long_en": "Desktop Commander is an MCP server that bridges the model to a real shell and the local filesystem, enabling long-running commands, code edits, and process management from a conversation.",
       "cover_color": "#7E4A2A",
-      "stars": 6189,
+      "stars": 6195,
       "trend": 0,
       "spark": [
         6188,
-        6189
+        6189,
+        6195
       ],
       "license": "MIT",
       "updated": "2026-06-19",
@@ -3217,17 +1679,55 @@
       "long_zh": "Mobile MCP 通过类 Appium 的自动化把移动设备控制开放给智能体,覆盖 iOS 与 Android,让模型可点击、输入并检视应用界面。",
       "long_en": "Mobile MCP exposes mobile device control to agents via Appium-style automation, working across iOS and Android targets so a model can tap, type, and inspect app screens.",
       "cover_color": "#9C5A2C",
-      "stars": 5241,
+      "stars": 5247,
       "trend": 0,
       "spark": [
         5236,
-        5241
+        5241,
+        5247
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-15",
       "install_cmd": "aleph add mobile-mcp",
       "sec_note_zh": "可驱动真机与应用;启用前请审阅其可访问的目标范围。",
       "sec_note_en": "Drives real devices and apps; review which targets it can reach before enabling."
+    },
+    {
+      "id": "aleph-hub:BuilderIO/skills",
+      "kind": "plugin",
+      "category": "developer",
+      "name": "Builder Skills",
+      "description": "Builder.io's official skill bundle for coding agents—headlined by Agent-Native visual planning (visual-plan) and its companion status recaps (visual-recap), plus docs-first discipline, autonomous execution, cross-agent review, and efficiency guards across 10 skills.",
+      "repo_url": "https://github.com/BuilderIO/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/BuilderIO/skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "BuilderIO",
+      "tags": [
+        "agent-workflows",
+        "planning",
+        "visual-plan",
+        "visual-recap",
+        "code-review"
+      ],
+      "via": "github:BuilderIO",
+      "description_zh": "Builder.io 官方的编码 agent 技能合集——核心是 Agent-Native 可视化规划(visual-plan)及其搭档状态回顾(visual-recap),外加文档优先纪律、自主执行、跨 agent 评审与效率护栏,共 10 个技能。",
+      "description_en": "Builder.io's official skill bundle for coding agents—headlined by Agent-Native visual planning (visual-plan) and its companion status recaps (visual-recap), plus docs-first discipline, autonomous execution, cross-agent review, and efficiency guards across 10 skills.",
+      "long_zh": "一个 Claude Code 插件,打包 Builder.io 的十个技能。核心组合是 visual-plan(把文字计划转成带内联图表、文件地图、注释代码、待解问题与可选 UI/原型画布的可交互评审界面)与 visual-recap(生成对已完成工作的可速览回顾)。安装合集后,/visual-plan 等单个技能即可按名调用。",
+      "long_en": "A Claude Code plugin packaging ten Builder.io skills. The headline pair is visual-plan—which turns text plans into interactive visual review surfaces with inline diagrams, file maps, annotated code, open questions, and optional UI/prototype canvases—and visual-recap, which produces scannable recaps of completed work. Installing the bundle makes each skill (e.g. /visual-plan) invocable by name.",
+      "cover_color": "#C98A3C",
+      "stars": 2374,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-22",
+      "install_cmd": "aleph add skills",
+      "sec_note_zh": "MIT 许可;作为 Claude Code 插件在本地运行。visual-plan 可选地把计划发布到 Builder 免费托管的 Agent-Native 应用以生成可分享链接,但也支持仅本地模式(写出 MDX,不经外部服务)。",
+      "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin. visual-plan can optionally publish plans to Builder's free hosted Agent-Native app for shareable links, but also supports a local-files mode that writes MDX with no external service."
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -3255,12 +1755,13 @@
       "long_zh": "执行结构化 SEO 分析(关键词、页面内检查与建议)的技能,可在多种智能体 CLI 中使用。",
       "long_en": "A skill that runs structured SEO analysis—keywords, on-page checks, and recommendations—usable across multiple agent CLIs.",
       "cover_color": "#86512C",
-      "stars": 676,
+      "stars": 679,
       "trend": 0,
       "spark": [
         674,
         676,
-        676
+        676,
+        679
       ],
       "license": "MIT",
       "updated": "2026-06-18",
@@ -3298,6 +1799,7 @@
       "stars": 410,
       "trend": 0,
       "spark": [
+        410,
         410,
         410
       ],
@@ -3337,6 +1839,7 @@
       "trend": 0,
       "spark": [
         186,
+        186,
         186
       ],
       "license": "MIT",
@@ -3372,11 +1875,12 @@
       "long_zh": "强调理解与模式直觉而非死记硬背,按学习者调整提示深度,而不是一上来就给出完整解法。",
       "long_en": "Emphasizes understanding and pattern intuition over memorization, adapting hint depth to the learner instead of revealing full solutions up front.",
       "cover_color": "#C9542A",
-      "stars": 157,
-      "trend": 0,
+      "stars": 158,
+      "trend": 1,
       "spark": [
         157,
-        157
+        157,
+        158
       ],
       "license": "MIT",
       "updated": "2025-10-22",
@@ -3416,6 +1920,7 @@
       "trend": 0,
       "spark": [
         129,
+        129,
         129
       ],
       "license": "Apache-2.0",
@@ -3451,11 +1956,12 @@
       "long_zh": "审计合同风险、按事务所风格生成新合同并校验条款一致性,以 KTZR 事务所的条款库与「黄金规则」为依据。",
       "long_en": "Audits contractual risk, generates new agreements in the firm's house style, and checks clause consistency, grounded in the KTZR firm's clause base and \"golden rules\".",
       "cover_color": "#A0612F",
-      "stars": 123,
-      "trend": 0,
+      "stars": 124,
+      "trend": 1,
       "spark": [
         123,
-        123
+        123,
+        124
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-20",
@@ -3492,6 +1998,7 @@
       "stars": 110,
       "trend": 0,
       "spark": [
+        110,
         110,
         110
       ],
@@ -3532,6 +2039,7 @@
       "trend": 0,
       "spark": [
         72,
+        72,
         72
       ],
       "license": "MIT",
@@ -3566,12 +2074,13 @@
       "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
       "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
       "cover_color": "#9E5B2E",
-      "stars": 22370,
+      "stars": 22466,
       "trend": 0,
       "spark": [
         22342,
         22368,
-        22370
+        22370,
+        22466
       ],
       "license": "MIT",
       "updated": "2026-06-13",
@@ -3606,12 +2115,13 @@
       "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
       "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
       "cover_color": "#9C5A2C",
-      "stars": 3832,
-      "trend": 0,
+      "stars": 3864,
+      "trend": 1,
       "spark": [
         3809,
         3832,
-        3832
+        3832,
+        3864
       ],
       "license": "AGPL-3.0",
       "updated": "2026-05-27",
@@ -3645,12 +2155,13 @@
       "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
       "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
       "cover_color": "#7A4A2B",
-      "stars": 2586,
-      "trend": 0,
+      "stars": 2607,
+      "trend": 1,
       "spark": [
         2579,
         2586,
-        2586
+        2586,
+        2607
       ],
       "license": "MIT",
       "updated": "2026-06-17",
@@ -3684,12 +2195,13 @@
       "long_zh": "生成架构与系统图的技能,可直接在对话中帮你记录代码库结构。",
       "long_en": "A skill that produces architecture and system diagrams, helping document a codebase's structure directly from a conversation.",
       "cover_color": "#B5562B",
-      "stars": 1197,
-      "trend": 0,
+      "stars": 1214,
+      "trend": 1,
       "spark": [
         1192,
         1197,
-        1197
+        1197,
+        1214
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -3724,11 +2236,12 @@
       "long_zh": "从大纲(或 slides_plan.json)逐页调用 OpenAI 官方 Images API,套用所选风格或仿照用户提供的 .pptx 模板出图。",
       "long_en": "Drives OpenAI's Images API page by page from an outline (or slides_plan.json), applying a chosen style or mimicking a user-supplied .pptx template.",
       "cover_color": "#B0703C",
-      "stars": 956,
+      "stars": 960,
       "trend": 0,
       "spark": [
         956,
-        956
+        956,
+        960
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-14",
@@ -3762,12 +2275,13 @@
       "long_zh": "把 logo 矢量化并加上动画的技能,从静态图片产出轻量的 SVG 动效。",
       "long_en": "A skill that vectorizes and animates logos, producing lightweight SVG motion from a static image.",
       "cover_color": "#7E4A2A",
-      "stars": 867,
-      "trend": 0,
+      "stars": 913,
+      "trend": 5,
       "spark": [
         848,
         866,
-        867
+        867,
+        913
       ],
       "license": "MIT",
       "updated": "2026-06-21",
@@ -3801,12 +2315,13 @@
       "long_zh": "提取品牌视觉语言(色彩、字体、间距)并输出连贯设计系统的技能,供智能体一致地应用。",
       "long_en": "A skill that extracts a brand's visual language (color, type, spacing) and outputs a coherent design system an agent can apply consistently.",
       "cover_color": "#9C5A2C",
-      "stars": 715,
+      "stars": 718,
       "trend": 0,
       "spark": [
         715,
         715,
-        715
+        715,
+        718
       ],
       "license": "MIT",
       "updated": "2026-06-11",
@@ -3841,11 +2356,12 @@
       "long_zh": "专攻 web 端——落地页、作品集、产品页、博客、个人站、SaaS 介绍页——先定规范再出代码。",
       "long_en": "Specializes in web surfaces—landing pages, portfolios, product pages, blogs, personal sites, SaaS pages—gating code generation behind an agreed design spec.",
       "cover_color": "#A0612F",
-      "stars": 525,
-      "trend": 0,
+      "stars": 539,
+      "trend": 3,
       "spark": [
         525,
-        525
+        525,
+        539
       ],
       "license": "MIT",
       "updated": "2026-04-16",
@@ -3879,12 +2395,13 @@
       "long_zh": "由资深 0→1 产品经理打造,这个技能把发现、范围界定与验证流程结构化,让非产品人也能稳妥地规划产品。",
       "long_en": "Built by a long-time 0-to-1 product manager, this skill structures discovery, scoping, and validation so non-PMs can plan a product responsibly.",
       "cover_color": "#7A4A2B",
-      "stars": 435,
+      "stars": 436,
       "trend": 0,
       "spark": [
         432,
         435,
-        435
+        435,
+        436
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -3919,11 +2436,12 @@
       "long_zh": "借助内置参考文档与模板搭建项目、功能模块、界面、ViewModel 与仓储,落地 Google 推荐的分层架构。",
       "long_en": "Scaffolds projects, feature modules, screens, ViewModels, and repositories using bundled reference docs and templates that encode Google's recommended layering.",
       "cover_color": "#A86A3A",
-      "stars": 259,
-      "trend": 0,
+      "stars": 261,
+      "trend": 1,
       "spark": [
         259,
-        259
+        259,
+        261
       ],
       "license": "MIT",
       "updated": "2025-12-07",
@@ -3958,11 +2476,12 @@
       "long_zh": "v4.0 调度入口以编号菜单提供 privacy-kr / privacy-eu / privacy-us / privacy-global,选定后直接进入对应问答,起草合规文档。",
       "long_en": "A v4.0 dispatcher presents privacy-kr / privacy-eu / privacy-us / privacy-global as a numbered menu and jumps straight into the chosen interview to draft compliant documents.",
       "cover_color": "#A0612F",
-      "stars": 258,
+      "stars": 259,
       "trend": 0,
       "spark": [
         258,
-        258
+        258,
+        259
       ],
       "license": "Apache-2.0",
       "updated": "2026-05-26",
@@ -3997,55 +2516,17 @@
       "long_zh": "从文档或参考图中提炼、保存并复用视觉风格关键词;最终产物是放入纯图幻灯片的整页图片。",
       "long_en": "Extracts, saves, and reapplies visual-style keywords from documents or references; the deliverable is full-slide images placed into an image-only deck.",
       "cover_color": "#A86A3A",
-      "stars": 216,
-      "trend": 0,
+      "stars": 228,
+      "trend": 6,
       "spark": [
         216,
-        216
+        216,
+        228
       ],
       "updated": "2026-04-30",
       "install_cmd": "aleph add visual-style-ppt-skill",
       "sec_note_zh": "需具备 \"Image 2\" 图像模型的访问权限——每页图片都由它生成,缺少则无法运行。",
       "sec_note_en": "Requires access to the \"Image 2\" image model—every slide image is generated through it, and the skill will not run without it."
-    },
-    {
-      "id": "aleph-hub:ckelsoe/prompt-architect",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Prompt Architect",
-      "description": "Transform vague requests into structured, expert-level prompts.",
-      "repo_url": "https://github.com/ckelsoe/prompt-architect",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/ckelsoe/prompt-architect",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "ckelsoe",
-      "tags": [
-        "prompts",
-        "writing",
-        "productivity"
-      ],
-      "via": "github:ckelsoe",
-      "description_zh": "把模糊的需求转化为结构化、专家级的提示词。",
-      "description_en": "Transform vague requests into structured, expert-level prompts.",
-      "long_zh": "一个围绕意图发问、把松散需求改写为精准且范围明确提示词的技能,适用于任意模型。",
-      "long_en": "A skill that interviews you about intent and rewrites loose asks into precise, well-scoped prompts for any model.",
-      "cover_color": "#B0703C",
-      "stars": 213,
-      "trend": 0,
-      "spark": [
-        212,
-        213,
-        213
-      ],
-      "license": "MIT",
-      "updated": "2026-06-04",
-      "install_cmd": "aleph add prompt-architect",
-      "sec_note_zh": "纯文本;不访问系统。",
-      "sec_note_en": "Text-only; no system access."
     },
     {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -4073,18 +2554,59 @@
       "long_zh": "维护持久项目上下文(决策、结构、笔记)的技能,让 Claude Code、Cursor 等助手能延续上下文继续工作。",
       "long_en": "A skill that maintains durable project context (decisions, structure, notes) so assistants like Claude Code or Cursor resume with continuity.",
       "cover_color": "#9C5A2C",
-      "stars": 207,
-      "trend": 0,
+      "stars": 217,
+      "trend": 5,
       "spark": [
         202,
         207,
-        207
+        207,
+        217
       ],
       "license": "MIT",
-      "updated": "2026-06-20",
+      "updated": "2026-06-22",
       "install_cmd": "aleph add project-butler",
       "sec_note_zh": "在本地存储项目笔记;请审阅其持久化的内容。",
       "sec_note_en": "Stores project notes locally; review what it persists."
+    },
+    {
+      "id": "aleph-hub:ckelsoe/prompt-architect",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Prompt Architect",
+      "description": "Transform vague requests into structured, expert-level prompts.",
+      "repo_url": "https://github.com/ckelsoe/prompt-architect",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/ckelsoe/prompt-architect",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "ckelsoe",
+      "tags": [
+        "prompts",
+        "writing",
+        "productivity"
+      ],
+      "via": "github:ckelsoe",
+      "description_zh": "把模糊的需求转化为结构化、专家级的提示词。",
+      "description_en": "Transform vague requests into structured, expert-level prompts.",
+      "long_zh": "一个围绕意图发问、把松散需求改写为精准且范围明确提示词的技能,适用于任意模型。",
+      "long_en": "A skill that interviews you about intent and rewrites loose asks into precise, well-scoped prompts for any model.",
+      "cover_color": "#B0703C",
+      "stars": 214,
+      "trend": 0,
+      "spark": [
+        212,
+        213,
+        213,
+        214
+      ],
+      "license": "MIT",
+      "updated": "2026-06-04",
+      "install_cmd": "aleph add prompt-architect",
+      "sec_note_zh": "纯文本;不访问系统。",
+      "sec_note_en": "Text-only; no system access."
     },
     {
       "id": "aleph-hub:likaku/Mck-ppt-design-skill",
@@ -4113,11 +2635,12 @@
       "long_zh": "MckEngine 封装 python-pptx,提供封面/环形图/时间线等覆盖结构、数据与叙事的数十种方法,统一字体与间距以规避文件损坏。",
       "long_en": "MckEngine wraps python-pptx with cover/donut/timeline and dozens more methods across structure, data, and storytelling, enforcing consistent typography and spacing to avoid file corruption.",
       "cover_color": "#7A4A2B",
-      "stars": 194,
-      "trend": 0,
+      "stars": 196,
+      "trend": 1,
       "spark": [
         194,
-        194
+        194,
+        196
       ],
       "license": "Apache-2.0",
       "updated": "2026-05-10",
@@ -4155,6 +2678,7 @@
       "stars": 176,
       "trend": 0,
       "spark": [
+        176,
         176,
         176
       ],
@@ -4194,6 +2718,7 @@
       "trend": 0,
       "spark": [
         167,
+        167,
         167
       ],
       "license": "Apache-2.0",
@@ -4229,11 +2754,12 @@
       "long_zh": "跨 Kling、Suno、Midjourney、Runway、Veo、Seedance、Flux 等平台通用,涵盖角色一致性、多镜头分镜与瑕疵修复的指引。",
       "long_en": "Platform-agnostic across Kling, Suno, Midjourney, Runway, Veo, Seedance, Flux and more, with guidance on character consistency, multi-shot storyboards, and fixing flawed results.",
       "cover_color": "#86512C",
-      "stars": 133,
-      "trend": 0,
+      "stars": 136,
+      "trend": 2,
       "spark": [
         133,
-        133
+        133,
+        136
       ],
       "license": "MIT",
       "updated": "2026-06-11",
@@ -4271,6 +2797,7 @@
       "stars": 124,
       "trend": 0,
       "spark": [
+        124,
         124,
         124
       ],
@@ -4311,6 +2838,7 @@
       "trend": 0,
       "spark": [
         113,
+        113,
         113
       ],
       "license": "MIT",
@@ -4346,11 +2874,12 @@
       "long_zh": "10 阶段、问答式驱动的工作流,每阶段含 rubric 自评与跨阶段一致性回检,同时按 Codex Skills 与 Claude Code 形态打包。",
       "long_en": "A 10-phase, Q&A-driven workflow with per-stage rubric self-checks and cross-stage consistency passes, packaged for both Codex Skills and Claude Code.",
       "cover_color": "#8C5430",
-      "stars": 111,
-      "trend": 0,
+      "stars": 112,
+      "trend": 1,
       "spark": [
         111,
-        111
+        111,
+        112
       ],
       "updated": "2026-05-22",
       "install_cmd": "aleph add mathmodel-skill",
@@ -4384,11 +2913,12 @@
       "long_zh": "三段链路——用网搜调研岗位、按岗位重定位简历、按轮次准备面试——产出岗位调研、改后的 .docx 简历与面试准备文件夹。",
       "long_en": "Three linked stages—role research via web search, resume re-targeting, and round-by-round interview prep—producing research notes, a revised .docx resume, and an interview-prep folder.",
       "cover_color": "#7E4A2A",
-      "stars": 104,
-      "trend": 0,
+      "stars": 107,
+      "trend": 3,
       "spark": [
         104,
-        104
+        104,
+        107
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-20",
@@ -4427,6 +2957,7 @@
       "trend": 0,
       "spark": [
         94,
+        94,
         94
       ],
       "license": "NOASSERTION",
@@ -4462,17 +2993,58 @@
       "long_zh": "由 agent 读懂内容并撰写 brief.json(分页、视觉语言、版式、金句),再交由确定性引擎渲染卡片并做质量校验。",
       "long_en": "The agent reads the content and authors a brief.json (page splits, visual language, layout, pull-quotes); a deterministic engine then renders the cards and runs quality checks.",
       "cover_color": "#A86A3A",
-      "stars": 92,
-      "trend": 0,
+      "stars": 93,
+      "trend": 1,
       "spark": [
         92,
-        92
+        92,
+        93
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-15",
       "install_cmd": "aleph add blcaptain-style-skill",
       "sec_note_zh": "生成用于发布的本地图片文件;发布前请审阅成片。",
       "sec_note_en": "Generates local image files for publishing; review cards before posting."
+    },
+    {
+      "id": "aleph-hub:swaylq/master-skill",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Industry Master",
+      "description": "Distill an entire industry into a runnable \"Master OS\" skill—researching its leaders, tool map, workflows, canon, sources, and terminology across six tracks.",
+      "repo_url": "https://github.com/swaylq/master-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/swaylq/master-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "swaylq",
+      "tags": [
+        "research",
+        "onboarding",
+        "domain-expertise",
+        "workflow"
+      ],
+      "via": "github:swaylq",
+      "description_zh": "把一整个行业蒸馏成可运行的「行业 Master OS」skill——从大佬、工具地图、工作流、知识正典、信息源到术语,六轨深度调研。",
+      "description_en": "Distill an entire industry into a runnable \"Master OS\" skill—researching its leaders, tool map, workflows, canon, sources, and terminology across six tracks.",
+      "long_zh": "输入一个行业,生成自包含的 {industry}.master skill,可被 Claude Code、Codex 等支持 SKILL.md 的 agent 安装,让 AI 进入「资深从业者」模式。",
+      "long_en": "Given an industry, it generates a self-contained {industry}.master skill installable by Claude Code, Codex, and other SKILL.md agents, putting the agent into \"domain veteran\" mode.",
+      "cover_color": "#7E4A2A",
+      "stars": 71,
+      "trend": 11,
+      "spark": [
+        64,
+        64,
+        71
+      ],
+      "license": "MIT",
+      "updated": "2026-06-21",
+      "install_cmd": "aleph add master-skill",
+      "sec_note_zh": "会进行网络调研并在本地写出新的 skill 目录;依赖前请审阅生成的 skill。",
+      "sec_note_en": "Runs web research and writes a new skill directory locally; review the generated skill before relying on it."
     },
     {
       "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
@@ -4505,51 +3077,13 @@
       "trend": 0,
       "spark": [
         69,
+        69,
         69
       ],
       "updated": "2026-03-23",
       "install_cmd": "aleph add wechat-article-formatter-skill",
       "sec_note_zh": "需要微信公众号 API 凭据并会上传内容;请限定凭据权限,发布前审阅草稿。",
       "sec_note_en": "Requires WeChat Official Account API credentials and uploads your content; scope the credentials and review drafts before publishing."
-    },
-    {
-      "id": "aleph-hub:swaylq/master-skill",
-      "kind": "skill",
-      "category": "knowledge",
-      "name": "Industry Master",
-      "description": "Distill an entire industry into a runnable \"Master OS\" skill—researching its leaders, tool map, workflows, canon, sources, and terminology across six tracks.",
-      "repo_url": "https://github.com/swaylq/master-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/swaylq/master-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "swaylq",
-      "tags": [
-        "research",
-        "onboarding",
-        "domain-expertise",
-        "workflow"
-      ],
-      "via": "github:swaylq",
-      "description_zh": "把一整个行业蒸馏成可运行的「行业 Master OS」skill——从大佬、工具地图、工作流、知识正典、信息源到术语,六轨深度调研。",
-      "description_en": "Distill an entire industry into a runnable \"Master OS\" skill—researching its leaders, tool map, workflows, canon, sources, and terminology across six tracks.",
-      "long_zh": "输入一个行业,生成自包含的 {industry}.master skill,可被 Claude Code、Codex 等支持 SKILL.md 的 agent 安装,让 AI 进入「资深从业者」模式。",
-      "long_en": "Given an industry, it generates a self-contained {industry}.master skill installable by Claude Code, Codex, and other SKILL.md agents, putting the agent into \"domain veteran\" mode.",
-      "cover_color": "#7E4A2A",
-      "stars": 64,
-      "trend": 0,
-      "spark": [
-        64,
-        64
-      ],
-      "license": "MIT",
-      "updated": "2026-06-20",
-      "install_cmd": "aleph add master-skill",
-      "sec_note_zh": "会进行网络调研并在本地写出新的 skill 目录;依赖前请审阅生成的 skill。",
-      "sec_note_en": "Runs web research and writes a new skill directory locally; review the generated skill before relying on it."
     },
     {
       "id": "aleph-hub:Jaderson-bit/mindmap-markmap-viewer",
@@ -4581,6 +3115,7 @@
       "stars": 61,
       "trend": 0,
       "spark": [
+        61,
         61,
         61
       ],
@@ -4621,6 +3156,7 @@
       "trend": 0,
       "spark": [
         59,
+        59,
         59
       ],
       "updated": "2026-05-17",
@@ -4655,11 +3191,12 @@
       "long_zh": "驱动用户当前真实的浏览器会话而非无头实例,因而能利用已登录站点与现有状态。",
       "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
       "cover_color": "#A0612F",
-      "stars": 40,
-      "trend": 0,
+      "stars": 41,
+      "trend": 3,
       "spark": [
         40,
-        40
+        40,
+        41
       ],
       "license": "MIT",
       "updated": "2026-03-06",
@@ -4697,6 +3234,7 @@
       "stars": 39,
       "trend": 0,
       "spark": [
+        39,
         39,
         39
       ],
@@ -4737,6 +3275,7 @@
       "trend": 0,
       "spark": [
         36,
+        36,
         36
       ],
       "license": "MIT",
@@ -4775,6 +3314,7 @@
       "stars": 34,
       "trend": 0,
       "spark": [
+        34,
         34,
         34
       ],
@@ -4815,6 +3355,7 @@
       "trend": 0,
       "spark": [
         33,
+        33,
         33
       ],
       "license": "MIT",
@@ -4850,11 +3391,12 @@
       "long_zh": "通过 `crwl` CLI 与 Python SDK 提供免 LLM 抽取的 schema 生成范式,并给出何时用更轻量的静态抓取即可的建议。",
       "long_en": "Provides schema-generation patterns for LLM-free extraction via the `crwl` CLI and Python SDK, with guidance on when a lighter static fetch suffices.",
       "cover_color": "#B5562B",
-      "stars": 32,
-      "trend": 0,
+      "stars": 33,
+      "trend": 3,
       "spark": [
         32,
-        32
+        32,
+        33
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-16",
@@ -4892,6 +3434,7 @@
       "stars": 32,
       "trend": 0,
       "spark": [
+        32,
         32,
         32
       ],
@@ -4932,6 +3475,7 @@
       "trend": 0,
       "spark": [
         32,
+        32,
         32
       ],
       "updated": "2026-06-16",
@@ -4970,6 +3514,7 @@
       "trend": 0,
       "spark": [
         29,
+        29,
         29
       ],
       "license": "NOASSERTION",
@@ -5006,9 +3551,10 @@
       "long_en": "Turns ephemeral WeChat articles into durable local Markdown you can archive or drop into a knowledge base.",
       "cover_color": "#86512C",
       "stars": 28,
-      "trend": 4,
+      "trend": 0,
       "spark": [
         27,
+        28,
         28
       ],
       "license": "MIT",
@@ -5047,6 +3593,7 @@
       "stars": 22,
       "trend": 0,
       "spark": [
+        22,
         22,
         22
       ],
@@ -5087,6 +3634,7 @@
       "trend": 0,
       "spark": [
         22,
+        22,
         22
       ],
       "license": "MIT",
@@ -5125,6 +3673,7 @@
       "stars": 20,
       "trend": 0,
       "spark": [
+        20,
         20,
         20
       ],
@@ -5165,6 +3714,7 @@
       "trend": 0,
       "spark": [
         17,
+        17,
         17
       ],
       "license": "MIT",
@@ -5172,6 +3722,45 @@
       "install_cmd": "aleph add watch",
       "sec_note_zh": "通过 yt-dlp 把第三方视频下载到本地——请遵守版权与平台服务条款。转写在本机运行(无需 API key);本仓库为 bradautomates/claude-video 的 fork。",
       "sec_note_en": "Downloads third-party video locally via yt-dlp—respect copyright and platform Terms of Service. Transcription runs on-device (no API key); a fork of bradautomates/claude-video."
+    },
+    {
+      "id": "aleph-hub:dancolta/seo-drift-monitor",
+      "kind": "skill",
+      "category": "automation",
+      "name": "SEO Drift Monitor",
+      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dancolta/seo-drift-monitor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dancolta",
+      "tags": [
+        "seo",
+        "monitoring",
+        "regression",
+        "audit"
+      ],
+      "via": "github:dancolta",
+      "description_zh": "为页面的 SEO 状态建立基线,在页面变更后检测回归——监控结构化数据、标题层级、meta 标签、canonical 与 Core Web Vitals——并生成可视化的前后对比报告与修复建议。",
+      "description_en": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "long_zh": "一个防御性的回归监控:防止已有的 SEO 成果被改动或重新部署悄悄破坏,而非排名操纵工具。",
+      "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
+      "cover_color": "#8C5430",
+      "stars": 16,
+      "trend": 7,
+      "spark": [
+        15,
+        15,
+        16
+      ],
+      "updated": "2026-05-18",
+      "install_cmd": "aleph add seo-drift-monitor",
+      "sec_note_zh": "会抓取并快照你指定的页面用于对比;分析为只读,报告写在本地。",
+      "sec_note_en": "Fetches and snapshots the pages you specify for comparison; analysis is read-only and reports are written locally."
     },
     {
       "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
@@ -5203,6 +3792,7 @@
       "stars": 15,
       "trend": 0,
       "spark": [
+        15,
         15,
         15
       ],
@@ -5243,6 +3833,7 @@
       "trend": 0,
       "spark": [
         15,
+        15,
         15
       ],
       "license": "MIT",
@@ -5250,44 +3841,6 @@
       "install_cmd": "aleph add AI-Dataset-Generator",
       "sec_note_zh": "可从 URL 获取参考材料并在本地写出数据集文件;请审阅来源与产物。",
       "sec_note_en": "Can fetch reference material from URLs and writes dataset files locally; review sources and outputs."
-    },
-    {
-      "id": "aleph-hub:dancolta/seo-drift-monitor",
-      "kind": "skill",
-      "category": "automation",
-      "name": "SEO Drift Monitor",
-      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
-      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dancolta/seo-drift-monitor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dancolta",
-      "tags": [
-        "seo",
-        "monitoring",
-        "regression",
-        "audit"
-      ],
-      "via": "github:dancolta",
-      "description_zh": "为页面的 SEO 状态建立基线,在页面变更后检测回归——监控结构化数据、标题层级、meta 标签、canonical 与 Core Web Vitals——并生成可视化的前后对比报告与修复建议。",
-      "description_en": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
-      "long_zh": "一个防御性的回归监控:防止已有的 SEO 成果被改动或重新部署悄悄破坏,而非排名操纵工具。",
-      "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
-      "cover_color": "#8C5430",
-      "stars": 15,
-      "trend": 0,
-      "spark": [
-        15,
-        15
-      ],
-      "updated": "2026-05-18",
-      "install_cmd": "aleph add seo-drift-monitor",
-      "sec_note_zh": "会抓取并快照你指定的页面用于对比;分析为只读,报告写在本地。",
-      "sec_note_en": "Fetches and snapshots the pages you specify for comparison; analysis is read-only and reports are written locally."
     },
     {
       "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
@@ -5319,6 +3872,7 @@
       "stars": 11,
       "trend": 0,
       "spark": [
+        11,
         11,
         11
       ],
@@ -5359,6 +3913,7 @@
       "trend": 0,
       "spark": [
         10,
+        10,
         10
       ],
       "license": "MIT",
@@ -5366,6 +3921,46 @@
       "install_cmd": "aleph add claude-skill-business-analyst",
       "sec_note_zh": "读取你提供的 Excel/CSV/文本数据以生成报告;据此行动前请结合真实业务背景核实其结论。",
       "sec_note_en": "Reads the Excel/CSV/text data you provide to generate a report; verify its insights against real business context before acting."
+    },
+    {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler",
+      "description_zh": "针对德国/欧盟问题,对德国 IT 法与 GDPR(DSGVO)做初步评估——数据保护、合同、条款(AGB)、Impressum、Cookie、NIS2 与欧盟 AI 法案。明确声明非法律意见。",
+      "description_en": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "long_zh": "分析你的文档并给出结构化的初步指引,作为正式委托律师前的第一步,与目录中其它地区性法务技能同族。",
+      "long_en": "Analyzes your documents and gives structured orientation as a first step before engaging a lawyer, in the same vein as other regional legal skills in the catalog.",
+      "cover_color": "#7E4A2A",
+      "stars": 10,
+      "trend": 11,
+      "spark": [
+        9,
+        9,
+        10
+      ],
+      "license": "NOASSERTION",
+      "updated": "2026-04-01",
+      "install_cmd": "aleph add claude-skill-it-recht-dsgvo",
+      "sec_note_zh": "仅提供一般性法律指引,并非德国 RDG 意义上的法律意见;行动前请咨询持牌律师,并将你分享的文档按机密处理。",
+      "sec_note_en": "Provides general legal orientation only, not legal advice under the German RDG; consult a licensed lawyer before acting, and handle the documents you share as confidential."
     },
     {
       "id": "aleph-hub:dudaster/html2elementor",
@@ -5397,6 +3992,7 @@
       "stars": 10,
       "trend": 0,
       "spark": [
+        10,
         10,
         10
       ],
@@ -5437,6 +4033,7 @@
       "trend": 0,
       "spark": [
         9,
+        9,
         9
       ],
       "license": "Apache-2.0",
@@ -5476,51 +4073,13 @@
       "trend": 0,
       "spark": [
         9,
+        9,
         9
       ],
       "updated": "2026-05-11",
       "install_cmd": "aleph add Whisper-Skill",
       "sec_note_zh": "在本地运行 Whisper 后端,首次使用会下载模型(约 3 GB);转写全程在本机、无 API 调用。若从 YouTube/TikTok 拉取,请遵守平台条款。",
       "sec_note_en": "Runs Whisper backends locally and downloads a model (~3 GB) on first use; transcription stays on-device with no API calls. If pulling from YouTube/TikTok, respect platform Terms."
-    },
-    {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
-      "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "patrickstigler",
-      "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
-      ],
-      "via": "github:patrickstigler",
-      "description_zh": "针对德国/欧盟问题,对德国 IT 法与 GDPR(DSGVO)做初步评估——数据保护、合同、条款(AGB)、Impressum、Cookie、NIS2 与欧盟 AI 法案。明确声明非法律意见。",
-      "description_en": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "long_zh": "分析你的文档并给出结构化的初步指引,作为正式委托律师前的第一步,与目录中其它地区性法务技能同族。",
-      "long_en": "Analyzes your documents and gives structured orientation as a first step before engaging a lawyer, in the same vein as other regional legal skills in the catalog.",
-      "cover_color": "#7E4A2A",
-      "stars": 9,
-      "trend": 0,
-      "spark": [
-        9,
-        9
-      ],
-      "license": "NOASSERTION",
-      "updated": "2026-04-01",
-      "install_cmd": "aleph add claude-skill-it-recht-dsgvo",
-      "sec_note_zh": "仅提供一般性法律指引,并非德国 RDG 意义上的法律意见;行动前请咨询持牌律师,并将你分享的文档按机密处理。",
-      "sec_note_en": "Provides general legal orientation only, not legal advice under the German RDG; consult a licensed lawyer before acting, and handle the documents you share as confidential."
     },
     {
       "id": "aleph-hub:muxuuu/serenity-skill",
@@ -5549,11 +4108,12 @@
       "long_zh": "输出通俗推理、排序的研究优先级、证据链、风险与后续验证步骤——仅作研究支持,不执行交易。",
       "long_en": "Outputs plain-language reasoning, ranked research priorities, evidence chains, risks, and next verification steps—research support only, with no trade execution.",
       "cover_color": "#B0703C",
-      "stars": 2559,
-      "trend": 0,
+      "stars": 2639,
+      "trend": 3,
       "spark": [
         2558,
-        2559
+        2559,
+        2639
       ],
       "license": "MIT",
       "updated": "2026-05-05",
@@ -5588,11 +4148,12 @@
       "long_zh": "一次只聚焦一篇论文,产出可精读、可导航的笔记而非浅层摘要,直接融入个人知识库。",
       "long_en": "Focuses on one paper at a time to produce a polished, navigable note rather than a shallow summary, fitting straight into a personal knowledge base.",
       "cover_color": "#9E5B2E",
-      "stars": 369,
-      "trend": 0,
+      "stars": 379,
+      "trend": 3,
       "spark": [
         369,
-        369
+        369,
+        379
       ],
       "license": "MIT",
       "updated": "2026-06-10",
@@ -5627,11 +4188,12 @@
       "long_zh": "封装 Postiz CLI,让 agent 用自然语言连接账号、跨渠道排期发帖;Postiz 本身是可自托管的开源项目。",
       "long_en": "Wraps the Postiz CLI so the agent can connect accounts and schedule cross-channel posts from natural language; Postiz itself is self-hostable open source.",
       "cover_color": "#7E4A2A",
-      "stars": 304,
-      "trend": 0,
+      "stars": 306,
+      "trend": 1,
       "spark": [
         304,
-        304
+        304,
+        306
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-02",
@@ -5669,6 +4231,7 @@
       "stars": 255,
       "trend": 0,
       "spark": [
+        255,
         255,
         255
       ],
@@ -5709,6 +4272,7 @@
       "trend": 0,
       "spark": [
         236,
+        236,
         236
       ],
       "license": "Apache-2.0",
@@ -5744,11 +4308,12 @@
       "long_zh": "覆盖 AI 邮件自动化、流程、送达率、文案、设计与平台选择,以公开基准而非拍脑袋为依据。",
       "long_en": "Covers AI email automation, flows, deliverability, copy, design, and platform selection, grounded in published benchmarks rather than guesswork.",
       "cover_color": "#7A4A2B",
-      "stars": 226,
+      "stars": 227,
       "trend": 0,
       "spark": [
         226,
-        226
+        226,
+        227
       ],
       "license": "MIT",
       "updated": "2026-06-15",
@@ -5786,6 +4351,7 @@
       "stars": 178,
       "trend": 0,
       "spark": [
+        178,
         178,
         178
       ],
@@ -5826,6 +4392,7 @@
       "trend": 0,
       "spark": [
         648,
+        648,
         648
       ],
       "license": "MIT",
@@ -5865,6 +4432,7 @@
       "trend": 0,
       "spark": [
         263,
+        263,
         263
       ],
       "license": "MIT",
@@ -5900,11 +4468,12 @@
       "long_zh": "输出 HTML 报告以及 BibTeX/RIS/CSV 导出与 PRISMA-S 日志,适用于范围综述与系统综述。",
       "long_en": "Outputs an HTML report plus BibTeX/RIS/CSV exports and a PRISMA-S log for scoping and systematic reviews.",
       "cover_color": "#8C5430",
-      "stars": 62,
-      "trend": 0,
+      "stars": 66,
+      "trend": 6,
       "spark": [
         62,
-        62
+        62,
+        66
       ],
       "license": "Apache-2.0",
       "updated": "2026-05-29",
@@ -5943,6 +4512,7 @@
       "trend": 0,
       "spark": [
         46,
+        46,
         46
       ],
       "updated": "2025-12-29",
@@ -5980,6 +4550,7 @@
       "stars": 36,
       "trend": 0,
       "spark": [
+        36,
         36,
         36
       ],
@@ -6020,6 +4591,7 @@
       "trend": 0,
       "spark": [
         31,
+        31,
         31
       ],
       "license": "MIT",
@@ -6058,6 +4630,7 @@
       "stars": 21,
       "trend": 0,
       "spark": [
+        21,
         21,
         21
       ],
@@ -6098,6 +4671,7 @@
       "trend": 0,
       "spark": [
         16,
+        16,
         16
       ],
       "license": "MIT",
@@ -6136,6 +4710,7 @@
       "stars": 16,
       "trend": 0,
       "spark": [
+        16,
         16,
         16
       ],
@@ -6176,6 +4751,7 @@
       "trend": 0,
       "spark": [
         9,
+        9,
         9
       ],
       "license": "MIT",
@@ -6215,6 +4791,7 @@
       "trend": 0,
       "spark": [
         5,
+        5,
         5
       ],
       "updated": "2026-04-28",
@@ -6248,11 +4825,12 @@
       "long_zh": "用具名代码块编写 `.lit.md` 文件:WEAVE 经 Pandoc 渲染出含散文、图表、公式与高亮代码的 PDF,TANGLE 则从根代码块抽取出源文件。",
       "long_en": "Write a `.lit.md` file with named code chunks: WEAVE renders a PDF (prose, diagrams, math, highlighted code) via Pandoc, while TANGLE extracts the source files from root chunks.",
       "cover_color": "#8C5430",
-      "stars": 182,
-      "trend": 0,
+      "stars": 183,
+      "trend": 1,
       "spark": [
         182,
-        182
+        182,
+        183
       ],
       "updated": "2026-04-10",
       "install_cmd": "aleph add litprog-skill",

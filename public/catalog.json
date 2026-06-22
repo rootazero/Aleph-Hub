@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 167,
-    "generated_at": "2026-06-21T10:23:35.743Z",
-    "content_hash": "sha256:92bf77a63a258466f7539b5e426f97c674c714ce60b56af9f1e88867f20d55ef"
+    "entry_count": 125,
+    "generated_at": "2026-06-22T08:13:26.298Z",
+    "content_hash": "sha256:bc9d930707b89ac438ac54f72903b6980ec7b971431a7d3a6f4b1519d97a0e6c"
   },
   "entries": [
     {
@@ -997,994 +997,6 @@
       "via": "aleph-official"
     },
     {
-      "id": "aleph-hub:rootazero/Aleph/skills/api-design",
-      "kind": "skill",
-      "category": "developer",
-      "name": "API Design",
-      "description": "Contract-first API design — REST/GraphQL conventions, error handling, versioning",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/api-design",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/api-design",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "api",
-        "rest",
-        "graphql"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/architecture",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Architecture",
-      "description": "System architecture design — pattern selection, dependency analysis, visualization",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/architecture",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/architecture",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "architecture",
-        "design",
-        "patterns"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/ci-cd",
-      "kind": "skill",
-      "category": "developer",
-      "name": "CI/CD",
-      "description": "CI/CD pipeline design — GitHub Actions templates, caching, secret management",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/ci-cd",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/ci-cd",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "ci-cd",
-        "github-actions",
-        "devops"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/code-review",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Code Review",
-      "description": "Multi-dimensional code review with confidence-based filtering",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/code-review",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/code-review",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "code-review",
-        "quality",
-        "security"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-book-flight",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: Book Flight",
-      "description": "Book a flight by driving a browser/desktop app end-to-end",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-book-flight",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-book-flight",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "browser"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-book-hotel",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: Book Hotel",
-      "description": "Reserve a hotel room by driving a booking site end-to-end",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-book-hotel",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-book-hotel",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "browser"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-draw",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: Draw",
-      "description": "Drive a desktop drawing app/web canvas to produce a sketch",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-draw",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-draw",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "drawing"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/computer-use-uitars-format",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Computer Use: UI-TARS Format",
-      "description": "Drive desktop with UI-TARS-style normalized coordinates",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/computer-use-uitars-format",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/computer-use-uitars-format",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "computer-use",
-        "automation",
-        "ui-tars"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/data-pipeline",
-      "kind": "skill",
-      "category": "data",
-      "name": "Data Pipeline",
-      "description": "Data processing/transformation via jq and Python",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/data-pipeline",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/data-pipeline",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "data",
-        "jq",
-        "python"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/database",
-      "kind": "skill",
-      "category": "data",
-      "name": "Database",
-      "description": "Database design — selection tree, schema, query optimization, migrations",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/database",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/database",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "database",
-        "schema",
-        "sql"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/debug",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Debug",
-      "description": "Systematic debugging — 7-step protocol with POE-aligned success contracts",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/debug",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/debug",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "debugging",
-        "troubleshooting"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/deploy",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Deploy",
-      "description": "Deployment lifecycle — containerization, release strategies, monitoring, rollback",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/deploy",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/deploy",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "deploy",
-        "containers",
-        "devops"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/doc",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Doc",
-      "description": "Documentation co-authoring — 3-stage workflow (RFC, ADR, README, specs)",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/doc",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/doc",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "documentation",
-        "writing",
-        "technical-writing"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/email",
-      "kind": "skill",
-      "category": "communication",
-      "name": "Email",
-      "description": "Email automation — send/receive via curl SMTP/IMAP",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/email",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/email",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "email",
-        "smtp",
-        "imap"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/emergency",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Emergency",
-      "description": "Developer emergency rescue — Git disasters, disk full, DB locks, credential leaks",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/emergency",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/emergency",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "emergency",
-        "recovery",
-        "troubleshooting"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/git",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Git",
-      "description": "Git workflow — daily ops, advanced techniques, Aleph conventions",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/git",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/git",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "git",
-        "version-control",
-        "workflow"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/github",
-      "kind": "skill",
-      "category": "developer",
-      "name": "GitHub",
-      "description": "GitHub CLI automation — PR lifecycle, issues, CI debugging, releases via gh",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/github",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/github",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "github",
-        "gh-cli",
-        "automation"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/http-client",
-      "kind": "skill",
-      "category": "developer",
-      "name": "HTTP Client",
-      "description": "API debugging/testing — RESTful requests, auth, response analysis via curl",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/http-client",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/http-client",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "http",
-        "api",
-        "curl"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/knowledge",
-      "kind": "skill",
-      "category": "knowledge",
-      "name": "Knowledge",
-      "description": "Knowledge distillation — Rephrasing Test, compress for retention",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/knowledge",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/knowledge",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "knowledge",
-        "learning",
-        "distillation"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/mcp-dev",
-      "kind": "skill",
-      "category": "developer",
-      "name": "MCP Dev",
-      "description": "MCP Server development — agent-centric design, 4-phase workflow",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/mcp-dev",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/mcp-dev",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "mcp",
-        "development",
-        "agents"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/media-tools",
-      "kind": "skill",
-      "category": "files",
-      "name": "Media Tools",
-      "description": "Media processing — video/audio/image via ffmpeg",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/media-tools",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/media-tools",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "media",
-        "ffmpeg",
-        "video"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/notification",
-      "kind": "skill",
-      "category": "communication",
-      "name": "Notification",
-      "description": "Multi-channel notifications — macOS, ntfy.sh, Telegram, webhooks",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/notification",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/notification",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "notification",
-        "telegram",
-        "webhook"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/performance",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Performance",
-      "description": "Performance optimization — measure first, profile, optimize with evidence",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/performance",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/performance",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "performance",
-        "profiling",
-        "optimization"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/plan",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Plan",
-      "description": "Technical design — ambiguous requirements to ADR documentation",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/plan",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/plan",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "planning",
-        "design",
-        "adr"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/playwright",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Playwright",
-      "description": "Browser automation — E2E testing, screenshots, form filling via Playwright",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/playwright",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/playwright",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "playwright",
-        "testing",
-        "browser"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/refactor",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Refactor",
-      "description": "Safe code refactoring — smell detection, test-protected incremental changes",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/refactor",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/refactor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "refactoring",
-        "code-quality",
-        "testing"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/regex",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Regex",
-      "description": "Practical regex cookbook — validation/parsing/replacement across languages",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/regex",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/regex",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "regex",
-        "parsing",
-        "validation"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/search",
-      "kind": "skill",
-      "category": "search",
-      "name": "Search",
-      "description": "Technical search strategies — code archaeology, doc retrieval, web research",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/search",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/search",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "search",
-        "research",
-        "retrieval"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/security",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Security",
-      "description": "Security audit — OWASP checklist, credential leak response, dependency scanning",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/security",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/security",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "security",
-        "owasp",
-        "audit"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/self",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "Self",
-      "description": "Aleph self-management mode — configure LLM providers, channels, agents, skills, plugins",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/self",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/self",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "aleph",
-        "configuration",
-        "management"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/shell",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "Shell",
-      "description": "Scene-driven shell commands — system diagnostics, Docker, process management",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/shell",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/shell",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "shell",
-        "system",
-        "docker"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/skill-creator",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Skill Creator",
-      "description": "Create/refactor/evaluate Aleph skills, author memory skill-notes",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/skill-creator",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/skill-creator",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "aleph",
-        "skills",
-        "authoring"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/ssh",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "SSH",
-      "description": "SSH management — connections, port forwarding, file transfer, jump hosts, keys",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/ssh",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/ssh",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "ssh",
-        "remote",
-        "networking"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/test",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Test",
-      "description": "Unified testing workflow — TDD cycles, framework selection, patterns",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/test",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/test",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "testing",
-        "tdd",
-        "quality"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/typeset",
-      "kind": "skill",
-      "category": "files",
-      "name": "Typeset",
-      "description": "Document rendering — compile Typst/LaTeX to PDF, math, templates",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/typeset",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/typeset",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "typesetting",
-        "latex",
-        "typst"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph/skills/web-scraper",
-      "kind": "skill",
-      "category": "data",
-      "name": "Web Scraper",
-      "description": "Web data extraction — structured scraping, search, PDF download via curl/Python",
-      "repo_url": "https://github.com/rootazero/Aleph/tree/main/skills/web-scraper",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph",
-        "subdir": "skills/web-scraper",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "scraping",
-        "web",
-        "data"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/diagnostics",
-      "kind": "plugin",
-      "category": "developer",
-      "name": "Aleph Diagnostics",
-      "description": "System health monitoring and performance diagnostics",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/diagnostics",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/diagnostics",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "diagnostics",
-        "monitoring",
-        "health"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/llm-task",
-      "kind": "plugin",
-      "category": "automation",
-      "name": "LLM Task Runner",
-      "description": "Batch LLM operations with map, chain, and evaluate",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/llm-task",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/llm-task",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "llm",
-        "batch",
-        "automation"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/memory-analytics",
-      "kind": "plugin",
-      "category": "data",
-      "name": "Memory Analytics",
-      "description": "Memory usage analytics — fact distribution, timeline, and health assessment",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/memory-analytics",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/memory-analytics",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "memory",
-        "analytics",
-        "data"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/diff-viewer",
-      "kind": "plugin",
-      "category": "developer",
-      "name": "Diff Viewer",
-      "description": "Code diff comparison and change analysis",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/diff-viewer",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/diff-viewer",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "diff",
-        "code-review",
-        "developer"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/voice-call",
-      "kind": "plugin",
-      "category": "communication",
-      "name": "Voice Call",
-      "description": "Voice calling framework with WebRTC/SIP stubs",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/voice-call",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/voice-call",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "voice",
-        "webrtc",
-        "sip"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/phone-control",
-      "kind": "plugin",
-      "category": "automation",
-      "name": "Phone Control",
-      "description": "Android phone control via ADB",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/phone-control",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/phone-control",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "android",
-        "adb",
-        "automation"
-      ],
-      "via": "aleph-official"
-    },
-    {
-      "id": "aleph-hub:rootazero/Aleph-plugins/plugins/media-office",
-      "kind": "plugin",
-      "category": "files",
-      "name": "Media Office",
-      "description": "Office document text, table, and metadata extraction",
-      "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/plugins/media-office",
-      "trust_tier": "official",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/rootazero/Aleph-plugins",
-        "subdir": "plugins/media-office",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "rootazero",
-      "tags": [
-        "office",
-        "documents",
-        "extraction"
-      ],
-      "via": "aleph-official"
-    },
-    {
       "id": "aleph-hub:microsoft/playwright-mcp",
       "kind": "mcp",
       "category": "developer",
@@ -2076,6 +1088,30 @@
         "automation"
       ],
       "via": "github:mobile-next"
+    },
+    {
+      "id": "aleph-hub:BuilderIO/skills",
+      "kind": "plugin",
+      "category": "developer",
+      "name": "Builder Skills",
+      "description": "Builder.io's official skill bundle for coding agents—headlined by Agent-Native visual planning (visual-plan) and its companion status recaps (visual-recap), plus docs-first discipline, autonomous execution, cross-agent review, and efficiency guards across 10 skills.",
+      "repo_url": "https://github.com/BuilderIO/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/BuilderIO/skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "BuilderIO",
+      "tags": [
+        "agent-workflows",
+        "planning",
+        "visual-plan",
+        "visual-recap",
+        "code-review"
+      ],
+      "via": "github:BuilderIO"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -2531,28 +1567,6 @@
       "via": "github:irenerachel"
     },
     {
-      "id": "aleph-hub:ckelsoe/prompt-architect",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Prompt Architect",
-      "description": "Transform vague requests into structured, expert-level prompts.",
-      "repo_url": "https://github.com/ckelsoe/prompt-architect",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/ckelsoe/prompt-architect",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "ckelsoe",
-      "tags": [
-        "prompts",
-        "writing",
-        "productivity"
-      ],
-      "via": "github:ckelsoe"
-    },
-    {
       "id": "aleph-hub:JamesShi96/project-butler",
       "kind": "skill",
       "category": "productivity",
@@ -2573,6 +1587,28 @@
         "project"
       ],
       "via": "github:JamesShi96"
+    },
+    {
+      "id": "aleph-hub:ckelsoe/prompt-architect",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Prompt Architect",
+      "description": "Transform vague requests into structured, expert-level prompts.",
+      "repo_url": "https://github.com/ckelsoe/prompt-architect",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/ckelsoe/prompt-architect",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "ckelsoe",
+      "tags": [
+        "prompts",
+        "writing",
+        "productivity"
+      ],
+      "via": "github:ckelsoe"
     },
     {
       "id": "aleph-hub:likaku/Mck-ppt-design-skill",
@@ -2805,29 +1841,6 @@
       "via": "github:dososo"
     },
     {
-      "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
-      "kind": "skill",
-      "category": "communication",
-      "name": "WeChat Article Formatter",
-      "description": "Format markdown articles with bm.md styling and publish them straight to WeChat Official Account drafts via the official API.",
-      "repo_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "iamzifei",
-      "tags": [
-        "wechat",
-        "publishing",
-        "markdown",
-        "formatting"
-      ],
-      "via": "github:iamzifei"
-    },
-    {
       "id": "aleph-hub:swaylq/master-skill",
       "kind": "skill",
       "category": "knowledge",
@@ -2849,6 +1862,29 @@
         "workflow"
       ],
       "via": "github:swaylq"
+    },
+    {
+      "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
+      "kind": "skill",
+      "category": "communication",
+      "name": "WeChat Article Formatter",
+      "description": "Format markdown articles with bm.md styling and publish them straight to WeChat Official Account drafts via the official API.",
+      "repo_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "iamzifei",
+      "tags": [
+        "wechat",
+        "publishing",
+        "markdown",
+        "formatting"
+      ],
+      "via": "github:iamzifei"
     },
     {
       "id": "aleph-hub:Jaderson-bit/mindmap-markmap-viewer",
@@ -3219,6 +2255,29 @@
       "via": "github:mathiaschu"
     },
     {
+      "id": "aleph-hub:dancolta/seo-drift-monitor",
+      "kind": "skill",
+      "category": "automation",
+      "name": "SEO Drift Monitor",
+      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dancolta/seo-drift-monitor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dancolta",
+      "tags": [
+        "seo",
+        "monitoring",
+        "regression",
+        "audit"
+      ],
+      "via": "github:dancolta"
+    },
+    {
       "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
       "kind": "skill",
       "category": "finance",
@@ -3265,29 +2324,6 @@
       "via": "github:Bhanunamikaze"
     },
     {
-      "id": "aleph-hub:dancolta/seo-drift-monitor",
-      "kind": "skill",
-      "category": "automation",
-      "name": "SEO Drift Monitor",
-      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
-      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dancolta/seo-drift-monitor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dancolta",
-      "tags": [
-        "seo",
-        "monitoring",
-        "regression",
-        "audit"
-      ],
-      "via": "github:dancolta"
-    },
-    {
       "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
       "kind": "skill",
       "category": "utilities",
@@ -3332,6 +2368,29 @@
         "reporting"
       ],
       "via": "github:Zuokaiqi"
+    },
+    {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
     },
     {
       "id": "aleph-hub:dudaster/html2elementor",
@@ -3401,29 +2460,6 @@
         "dictation"
       ],
       "via": "github:Mobiss11"
-    },
-    {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
-      "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "patrickstigler",
-      "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
-      ],
-      "via": "github:patrickstigler"
     },
     {
       "id": "aleph-hub:muxuuu/serenity-skill",

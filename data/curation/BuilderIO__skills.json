@@ -1,0 +1,23 @@
+{
+  "full_name": "BuilderIO/skills",
+  "name": "Builder Skills",
+  "kind": "plugin",
+  "category": "developer",
+  "tags": [
+    "agent-workflows",
+    "planning",
+    "visual-plan",
+    "visual-recap",
+    "code-review"
+  ],
+  "description_en": "Builder.io's official skill bundle for coding agents—headlined by Agent-Native visual planning (visual-plan) and its companion status recaps (visual-recap), plus docs-first discipline, autonomous execution, cross-agent review, and efficiency guards across 10 skills.",
+  "description_zh": "Builder.io 官方的编码 agent 技能合集——核心是 Agent-Native 可视化规划(visual-plan)及其搭档状态回顾(visual-recap),外加文档优先纪律、自主执行、跨 agent 评审与效率护栏,共 10 个技能。",
+  "long_en": "A Claude Code plugin packaging ten Builder.io skills. The headline pair is visual-plan—which turns text plans into interactive visual review surfaces with inline diagrams, file maps, annotated code, open questions, and optional UI/prototype canvases—and visual-recap, which produces scannable recaps of completed work. Installing the bundle makes each skill (e.g. /visual-plan) invocable by name.",
+  "long_zh": "一个 Claude Code 插件,打包 Builder.io 的十个技能。核心组合是 visual-plan(把文字计划转成带内联图表、文件地图、注释代码、待解问题与可选 UI/原型画布的可交互评审界面)与 visual-recap(生成对已完成工作的可速览回顾)。安装合集后,/visual-plan 等单个技能即可按名调用。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/BuilderIO/skills"
+  },
+  "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin. visual-plan can optionally publish plans to Builder's free hosted Agent-Native app for shareable links, but also supports a local-files mode that writes MDX with no external service.",
+  "sec_note_zh": "MIT 许可;作为 Claude Code 插件在本地运行。visual-plan 可选地把计划发布到 Builder 免费托管的 Agent-Native 应用以生成可分享链接,但也支持仅本地模式(写出 MDX,不经外部服务)。"
+}
