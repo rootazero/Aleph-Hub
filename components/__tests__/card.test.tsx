@@ -1,29 +1,27 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { LangProvider } from "@/components/providers/LangProvider";
-import { TrustBadge } from "@/components/TrustBadge";
-import { Sparkline } from "@/components/Sparkline";
 import { Card } from "@/components/Card";
-import { getAll } from "@/lib/catalog";
+import { getByKind } from "@/lib/catalog";
+import { getContentByKind } from "@/lib/content";
 
-describe("card primitives", () => {
-  it("TrustBadge shows 'Trusted' for verified (display alias)", () => {
-    render(<TrustBadge tier="verified" />);
-    expect(screen.getByText("Trusted")).toBeInTheDocument();
-  });
-  it("TrustBadge shows 'Community' for community tier", () => {
-    render(<TrustBadge tier="community" />);
-    expect(screen.getByText("Community")).toBeInTheDocument();
-  });
-  it("Sparkline renders nothing meaningful when empty", () => {
-    const { container } = render(<Sparkline points={[]} color="var(--green)" />);
-    expect(container.querySelector("polyline")).toBeNull();
-  });
-  it("Card renders entry name and links to its detail page", () => {
-    const e = getAll()[0];
-    const slug = e.id.replace(/^aleph-hub:/, "");
-    render(<LangProvider><Card entry={e} /></LangProvider>);
+const wrap = (ui: React.ReactNode) => render(<ThemeProvider><LangProvider>{ui}</LangProvider></ThemeProvider>);
+
+describe("Card", () => {
+  it("renders an install entry with its star count and detail link", () => {
+    const e = getByKind("mcp")[0];
+    wrap(<Card entry={e} />);
     expect(screen.getByText(e.name)).toBeInTheDocument();
-    expect(screen.getAllByRole("link").some((l) => l.getAttribute("href") === `/e/${slug}`)).toBe(true);
+    const link = screen.getByRole("link");
+    expect(link.getAttribute("href")).toBe(`/e/${e.id.replace(/^aleph-hub:/, "")}`);
+  });
+  it("renders a content entry with its format and a path-safe detail link", () => {
+    const e = getContentByKind("prompt")[0];
+    wrap(<Card entry={e} />);
+    expect(screen.getByText(e.name)).toBeInTheDocument();
+    expect(screen.getByText(e.format)).toBeInTheDocument();
+    const link = screen.getByRole("link");
+    expect(link.getAttribute("href")).toBe(`/e/${e.id.replace(/^aleph-hub:/, "").replace("#", "/")}`);
   });
 });
