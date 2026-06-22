@@ -34,15 +34,19 @@ export function curateContent(record: ContentCurationRecord): ContentCuratedEntr
   const safeName = safeOrNull(c.name);
   const safeEn = safeOrNull(c.description_en);
   const safeZh = safeOrNull(c.description_zh);
+  const safeLongEn = safeOrNull(c.long_en);
+  const safeLongZh = safeOrNull(c.long_zh);
+  const safeSecEn = safeOrNull(c.sec_note_en);
+  const safeSecZh = safeOrNull(c.sec_note_zh);
   const safeBody = safeBodyOrNull(c.body);
-  if (!safeName || !safeEn || !safeZh || !safeBody) return null;
+  if (!safeName || !safeEn || !safeZh || !safeLongEn || !safeLongZh || !safeSecEn || !safeSecZh || !safeBody) return null;
 
   return {
     id: c.id, kind: c.kind, category: c.category, name: safeName, author: owner,
     tags: c.tags, repo_url: `https://github.com/${owner}/${repo}`, source_path: c.source_path,
     via: `github:${owner}`, body: safeBody, format: c.format,
     description_en: safeEn, description_zh: safeZh,
-    long_en: c.long_en, long_zh: c.long_zh,
-    sec_note_en: c.sec_note_en, sec_note_zh: c.sec_note_zh,
+    long_en: safeLongEn, long_zh: safeLongZh,
+    sec_note_en: safeSecEn, sec_note_zh: safeSecZh,
   };
 }
