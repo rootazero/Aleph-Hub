@@ -16,15 +16,23 @@ export function slugForAny(e: AnySiteEntry): string {
   return isContent(e) ? slugForContent(e) : slugForEntry(e);
 }
 
-// Canonical forward-slug map across both catalogs. install full_name is always
-// 2 segments and content unit slugs never contain '/', so:
-//   install "owner/repo" (2 seg) and content "owner/repo/unit" (3 seg) never collide.
-// Keying by the precomputed forward slug avoids any reverse '/'->'#' guesswork.
-const entries: Array<[string, AnySiteEntry]> = [
-  ...getAll().map((e): [string, AnySiteEntry] => [slugForEntry(e), e]),
-  ...getAllContent().map((e): [string, AnySiteEntry] => [slugForContent(e), e]),
-];
-const BY_SLUG = new Map<string, AnySiteEntry>(entries);
+// Canonical forward-slug map across both catalogs, keyed by the precomputed forward
+// slug (no reverse '/'->'#' guesswork). Install slugs are NOT always 2 segments:
+// multi-skill repos emit "owner/repo/skill" (3 seg), the SAME shape as a content
+// "owner/repo/unit" slug — so the two spaces CAN overlap. We add install entries first
+// (the established URLs) and fail loud if a content slug would shadow one, rather than
+// silently hijacking an install detail URL. A real collision is a curation data error.
+export function buildBySlug(install: SiteEntryT[], content: ContentSiteEntryT[]): Map<string, AnySiteEntry> {
+  const map = new Map<string, AnySiteEntry>();
+  for (const e of install) map.set(slugForEntry(e), e);
+  for (const e of content) {
+    const slug = slugForContent(e);
+    if (map.has(slug)) throw new Error(`content slug collides with an install slug: ${slug}`);
+    map.set(slug, e);
+  }
+  return map;
+}
+const BY_SLUG = buildBySlug(getAll(), getAllContent());
 
 export function allSlugs(): string[][] {
   return [...BY_SLUG.keys()].map((s) => s.split("/"));
