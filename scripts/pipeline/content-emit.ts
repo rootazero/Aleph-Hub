@@ -38,8 +38,8 @@ export function buildContentArtifacts(input: ContentBuildInput): { catalog: unkn
   const hash = contentHash(catalogEntries);
   const manifest = { ...manifestBase, generated_at: input.generatedAt, content_hash: hash };
   return {
-    catalog: { manifest, entries: catalogEntries },
-    site: { manifest, entries: input.entries.map(toContentSiteEntry) },
+    catalog: { manifest: { ...manifest }, entries: catalogEntries },
+    site: { manifest: { ...manifest }, entries: input.entries.map(toContentSiteEntry) },
     hash,
   };
 }
