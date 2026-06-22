@@ -2,7 +2,7 @@
 // No business logic here (that lives in the tested stage modules); errors degrade to null.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
-import type { RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord, RawGitHubApi } from "@/scripts/pipeline/ports";
+import type { RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord, RawGitHubApi, ContentCurationRecord, ContentCurationStore } from "@/scripts/pipeline/ports";
 
 const GH_API = "https://api.github.com";
 
@@ -70,6 +70,21 @@ export function makeCurationStore(dir = "data/curation"): CurationStore {
     }
   }
   return { get: (fullName) => map.get(fullName.toLowerCase()) ?? null };
+}
+
+// Content records are keyed by full entry id (one file per unit), not by repo.
+export function makeContentCurationStore(dir = "data/curation-content"): ContentCurationStore {
+  const map = new Map<string, ContentCurationRecord>();
+  if (existsSync(dir)) {
+    for (const name of readdirSync(dir)) {
+      if (!name.endsWith(".json")) continue;
+      try {
+        const rec = JSON.parse(readFileSync(`${dir}/${name}`, "utf8")) as ContentCurationRecord;
+        if (rec?.id) map.set(rec.id, rec);
+      } catch { /* skip malformed record */ }
+    }
+  }
+  return { get: (id) => map.get(id) ?? null, all: () => [...map.values()] };
 }
 
 function makeRegistry(): RegistryClient {

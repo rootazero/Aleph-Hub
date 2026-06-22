@@ -103,3 +103,26 @@ export interface CacheStore {
   prevPerSource(): Record<string, number>;
   setPerSource(counts: Record<string, number>): void;
 }
+
+// --- Content kinds (prompt / workflow) -------------------------------------
+// Unlike install CurationRecord, a content record CARRIES the curated body — the
+// payload IS the text, so there is nothing to re-infer/verify downstream.
+export interface ContentCurationRecord {
+  id: string;                 // "aleph-hub:<owner>/<repo>#<slug>"
+  full_name: string;          // "owner/repo" (links the unit back to its upstream repo)
+  slug: string;
+  source_path: string;        // file within repo
+  kind: "prompt" | "workflow";
+  category: string;
+  name: string;
+  tags: string[];
+  format: "markdown" | "javascript";
+  body: string;
+  description_en: string; description_zh: string;
+  long_en: string; long_zh: string;
+  sec_note_en: string; sec_note_zh: string;
+}
+export interface ContentCurationStore {
+  get(id: string): ContentCurationRecord | null;
+  all(): ContentCurationRecord[];
+}
