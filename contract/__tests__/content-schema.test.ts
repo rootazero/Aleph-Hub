@@ -28,6 +28,9 @@ describe("content-schema", () => {
     const { repo_url, ...noRepo } = entry;
     expect(ContentCatalogEntry.safeParse(noRepo).success).toBe(false);
   });
+  it("rejects a non-URL repo_url", () => {
+    expect(ContentCatalogEntry.safeParse({ ...entry, repo_url: "acme/prompts" }).success).toBe(false);
+  });
   it("accepts a site entry with bilingual + display fields", () => {
     const site = validateContentSiteCatalog({
       manifest: { content_schema_version: 1, hub_id: "aleph-hub", name: "Aleph Hub" },
