@@ -1,4 +1,5 @@
 import { contentHash } from "@/scripts/pipeline/emit";
+import { CONTENT_SCHEMA_VERSION } from "@/contract/content-schema";
 import type { ContentFinalEntry } from "@/scripts/pipeline/content-model";
 import type { ContentCatalogEntryT } from "@/contract/content-schema";
 import type { ContentSiteEntryT } from "@/contract/content-site";
@@ -33,7 +34,7 @@ export interface ContentBuildInput { entries: ContentFinalEntry[]; generatedAt: 
 // No floor gate: the content axis legitimately starts empty and grows; an empty
 // artifact is valid. (A drop guard can be added once content volume stabilizes.)
 export function buildContentArtifacts(input: ContentBuildInput): { catalog: unknown; site: unknown; hash: string } {
-  const manifestBase = { content_schema_version: 1, hub_id: "aleph-hub", name: "Aleph Hub", entry_count: input.entries.length };
+  const manifestBase = { content_schema_version: CONTENT_SCHEMA_VERSION, hub_id: "aleph-hub", name: "Aleph Hub", entry_count: input.entries.length };
   const catalogEntries = input.entries.map(toContentEntry);
   const hash = contentHash(catalogEntries);
   const manifest = { ...manifestBase, generated_at: input.generatedAt, content_hash: hash };

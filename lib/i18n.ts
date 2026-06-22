@@ -1,4 +1,5 @@
 import type { ExtensionCategoryT } from "@/contract/types";
+import type { ContentKindT } from "@/contract/content-schema";
 
 export type Lang = "zh" | "en";
 
@@ -13,6 +14,8 @@ export interface Strings {
   secScan: string; secReview: string; secReviewNote: string;
   mBy: string; mCategory: string; mStars: string; mLicense: string; mUpdated: string;
   viewGithub: string; related: string; copy: string; copied: string;
+  copyPrompt: string; copyScript: string; insertAleph: string; runAleph: string;
+  mSource: string; mFormat: string; contentSoon: string;
   submitKicker: string; submitTitle: string; submitSub: string;
   fRepo: string; fName: string; fCategory: string; fDesc: string; fDescPh: string; fTags: string;
   submitNote: string; submitBtn: string; cancel: string; footer: string; footerTag: string;
@@ -32,6 +35,8 @@ export const STRINGS: Record<Lang, Strings> = {
     secScan: "已通过安全扫描", secReview: "人工复核中", secReviewNote: "每个项目纳入前都会经过审核者人工复核；社区项目请在安装前阅读源码。",
     mBy: "作者", mCategory: "分类", mStars: "Stars", mLicense: "许可", mUpdated: "更新于",
     viewGithub: "在 GitHub 查看", related: "相关推荐", copy: "复制安装命令", copied: "已复制 ✓",
+    copyPrompt: "复制提示词", copyScript: "复制脚本", insertAleph: "在 Aleph 中插入", runAleph: "在 Aleph 中保存并运行",
+    mSource: "来源文件", mFormat: "格式", contentSoon: "更多内容正在整理中，敬请期待。",
     submitKicker: "Contribute", submitTitle: "提交你的作品", submitSub: "把你的 Skill、MCP 插件或集成提交到 Aleph Hub。我们会做安全扫描与人工复核，通过后即收录进目录。",
     fRepo: "GitHub 仓库地址", fName: "名称", fCategory: "分类", fDesc: "一句话描述", fDescPh: "用一句话说清它解决什么问题…", fTags: "标签（逗号分隔）",
     submitNote: "提交后通常 1–3 个工作日完成审核，我们会通过仓库 issue 与你联系。", submitBtn: "提交审核", cancel: "取消",
@@ -49,6 +54,8 @@ export const STRINGS: Record<Lang, Strings> = {
     secScan: "Passed security scan", secReview: "Human review", secReviewNote: "Every project is human-reviewed before inclusion; read the source of community projects before installing.",
     mBy: "By", mCategory: "Category", mStars: "Stars", mLicense: "License", mUpdated: "Updated",
     viewGithub: "View on GitHub", related: "Related", copy: "Copy install command", copied: "Copied ✓",
+    copyPrompt: "Copy prompt", copyScript: "Copy script", insertAleph: "Insert in Aleph", runAleph: "Save & run in Aleph",
+    mSource: "Source", mFormat: "Format", contentSoon: "More are being curated — stay tuned.",
     submitKicker: "Contribute", submitTitle: "Submit your project", submitSub: "Submit your Skill, MCP plugin or integration to Aleph Hub. We run a security scan and human review; once approved it joins the catalog.",
     fRepo: "GitHub repo URL", fName: "Name", fCategory: "Category", fDesc: "One-line description", fDescPh: "In one sentence, what problem does it solve…", fTags: "Tags (comma-separated)",
     submitNote: "Review usually takes 1–3 business days; we reach out via a repo issue.", submitBtn: "Submit for review", cancel: "Cancel",
@@ -71,4 +78,10 @@ export const CATEGORY_LABELS: Record<ExtensionCategoryT, { zh: string; en: strin
   finance: { zh: "金融", en: "Finance" },
   utilities: { zh: "工具", en: "Utilities" },
   other: { zh: "其他", en: "Other" },
+};
+
+// Display names for the two content kinds (used by the home index region + kind pages).
+export const CONTENT_KIND_LABELS: Record<ContentKindT, { zh: string; en: string }> = {
+  prompt: { zh: "提示词", en: "Prompts" },
+  workflow: { zh: "工作流", en: "Workflows" },
 };

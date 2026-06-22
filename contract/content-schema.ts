@@ -7,6 +7,8 @@ export const ContentFormat = z.enum(["markdown", "javascript"]);
 
 export const CONTENT_BODY_MAX = 65536; // bytes; mirrored in CONFIG for the pipeline
 
+export const CONTENT_SCHEMA_VERSION = 1; // producer constant; wire value synced with Aleph
+
 export const ContentCatalogManifest = z.object({
   content_schema_version: z.number().int().nonnegative(), // distinct from install schema_version
   hub_id: z.string(),

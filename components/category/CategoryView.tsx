@@ -1,22 +1,27 @@
 "use client";
 import { useState } from "react";
 import type { ExtensionKindT } from "@/contract/types";
+import type { ContentKindT } from "@/contract/content-schema";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS } from "@/lib/i18n";
 import { getByKind } from "@/lib/catalog";
+import { getContentByKind } from "@/lib/content";
+import type { AnySiteEntry } from "@/lib/site";
 import { Card } from "@/components/Card";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
+type AnyKind = ExtensionKindT | ContentKindT;
 const CATS = ["search", "developer", "data", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
-const KIND_TITLE: Record<ExtensionKindT, string> = { skill: "Agent Skills", plugin: "Plugins", mcp: "MCP Servers" };
+const KIND_TITLE: Record<AnyKind, string> = { skill: "Agent Skills", plugin: "Plugins", mcp: "MCP Servers", prompt: "Prompts", workflow: "Workflows" };
+function isContentKind(k: AnyKind): k is ContentKindT { return k === "prompt" || k === "workflow"; }
 
-export function CategoryView({ kind }: { kind: ExtensionKindT }) {
+export function CategoryView({ kind }: { kind: AnyKind }) {
   const { lang } = useLang();
   const t = STRINGS[lang];
   const [q, setQ] = useState("");
   const [cat, setCat] = useState<string>("all");
-  const all = getByKind(kind);
+  const all: AnySiteEntry[] = isContentKind(kind) ? getContentByKind(kind) : getByKind(kind);
   const query = q.trim().toLowerCase();
   const visible = all
     .filter((e) => cat === "all" || e.category === cat)

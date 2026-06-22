@@ -2,6 +2,10 @@
 // Zero-width: U+200B–U+200F, U+FEFF. Bidi: U+202A–U+202E, U+2066–U+2069.
 const INVISIBLE = /[​-‏﻿‪-‮⁦-⁩]/g;
 
+// NOTE: SUSPICIOUS + JAILBREAK are a coarse DROP-net, not a complete filter. They
+// catch obvious override/jailbreak phrasing; residual whitespace/separator evasion
+// is accepted and backstopped by human curation review before an entry ships.
+
 // SUSPICIOUS: injection phrases that try to override instructions (prompt-injection vector).
 const SUSPICIOUS = [
   "ignore previous", "ignore all previous", "disregard above", "disregard previous",

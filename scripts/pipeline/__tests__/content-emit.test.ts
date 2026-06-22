@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { buildContentArtifacts } from "@/scripts/pipeline/content-emit";
-import { validateContentArtifact } from "@/contract/content-schema";
+import { validateContentArtifact, CONTENT_SCHEMA_VERSION } from "@/contract/content-schema";
 import { validateContentSiteCatalog } from "@/contract/content-site";
 import type { ContentFinalEntry } from "@/scripts/pipeline/content-model";
 
@@ -35,5 +35,9 @@ describe("content-emit", () => {
     const a = buildContentArtifacts({ entries: [fe()], generatedAt: "2026-06-22T00:00:00Z" }).hash;
     const b = buildContentArtifacts({ entries: [fe()], generatedAt: "2026-06-22T00:00:00Z" }).hash;
     expect(a).toBe(b);
+  });
+  it("stamps the manifest with the shared CONTENT_SCHEMA_VERSION", () => {
+    const { catalog } = buildContentArtifacts({ entries: [], generatedAt: "2026-06-22T00:00:00Z" });
+    expect((catalog as { manifest: { content_schema_version: number } }).manifest.content_schema_version).toBe(CONTENT_SCHEMA_VERSION);
   });
 });
