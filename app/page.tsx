@@ -4,6 +4,7 @@ import { Hero } from "@/components/home/Hero";
 import { EditorsPick } from "@/components/home/EditorsPick";
 import { StatsBar } from "@/components/home/StatsBar";
 import { CategoryIndex } from "@/components/home/CategoryIndex";
+import { ContentIndex } from "@/components/home/ContentIndex";
 import { Trending } from "@/components/home/Trending";
 import { Collection } from "@/components/home/Collection";
 
@@ -18,6 +19,7 @@ export default function Home() {
         </section>
         <StatsBar />
         <CategoryIndex />
+        <ContentIndex />
         <Trending />
         <Collection />
       </main>
