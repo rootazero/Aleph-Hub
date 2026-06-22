@@ -2,18 +2,18 @@
 // Zero-width: U+200B–U+200F, U+FEFF. Bidi: U+202A–U+202E, U+2066–U+2069.
 const INVISIBLE = /[​-‏﻿‪-‮⁦-⁩]/g;
 
+// SUSPICIOUS: injection phrases that try to override instructions (prompt-injection vector).
 const SUSPICIOUS = [
   "ignore previous", "ignore all previous", "disregard above", "disregard previous",
   "read .env", "exfiltrate", "send your credentials", "reveal the system prompt",
 ];
 
-// Content bodies are instructions a user will paste into their own agent, so we drop
-// jailbreak / safety-bypass payloads outright (stricter than name/description scanning).
+// JAILBREAK: safety-bypass phrases specific to jailbreak attempts.
+// Kept attack-specific to avoid false positives (e.g., "developer mode" is legitimate tooling language).
 const JAILBREAK = [
   "ignore your safety", "bypass your safety", "ignore all safety",
-  "jailbreak", "do anything now", "dan mode", "developer mode",
-  "without any restrictions", "ignore openai", "ignore anthropic",
-  "pretend you have no rules", "act as an unfiltered",
+  "jailbreak", "do anything now", "dan mode",
+  "without any restrictions", "pretend you have no rules", "act as an unfiltered",
 ];
 
 export function sanitize(text: string): string {

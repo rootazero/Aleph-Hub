@@ -37,4 +37,7 @@ describe("content body safety", () => {
   it("strips invisibles from an otherwise clean body", () => {
     expect(safeBodyOrNull("clean​body")).toBe("cleanbody");
   });
+  it("keeps a benign body that mentions developer tooling", () => {
+    expect(safeBodyOrNull("Enable developer mode in your IDE to debug the workflow.")).not.toBeNull();
+  });
 });
