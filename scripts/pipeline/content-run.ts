@@ -26,15 +26,16 @@ export async function runContent(ports: ContentRunPorts): Promise<{
   for (const s of ports.sources) candidates.push(...(await s.fetch()));
 
   // 2) Emission is driven by human curation records (the body is already curated).
+  const records = ports.store.all();
   const finals: ContentFinalEntry[] = [];
-  for (const rec of ports.store.all()) {
+  for (const rec of records) {
     const curated = curateContent(rec);
     if (!curated) continue;                                  // dropped by safety/zod
     finals.push({ ...curated, trust_tier: contentTrustTier(curated.author, ports.officialOrgs) });
   }
 
   // 3) Queue = discovered units that have no record yet.
-  const haveIds = new Set(ports.store.all().map((r) => r.id));
+  const haveIds = new Set(records.map((r) => r.id));
   const queue = candidates.filter((c) => !haveIds.has(`aleph-hub:${c.owner}/${c.repo}#${c.slug}`));
 
   const { catalog, site, hash } = buildContentArtifacts({ entries: finals, generatedAt: ports.clock.nowIso() });

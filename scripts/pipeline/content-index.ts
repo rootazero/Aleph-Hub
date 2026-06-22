@@ -14,6 +14,7 @@ async function main() {
   const gh = makeGitHub();
   const sources = [new GitHubContentSource({ gh, seeds: seeds.prompt })];
 
+  // previous on-disk content hash — used to skip re-emitting unchanged artifacts
   const prev = fs.readJson<{ manifest?: { content_hash?: string } }>("public/catalog-content.json");
   const res = await runContent({ sources, store, clock, officialOrgs });
 
