@@ -1,16 +1,23 @@
 import { notFound } from "next/navigation";
-import { getAll, slugForEntry, bySlug } from "@/lib/catalog";
+import { allSlugs, anyBySlug, isContent } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { DetailView } from "@/components/detail/DetailView";
+import { ContentDetailView } from "@/components/detail/ContentDetailView";
 
 export function generateStaticParams() {
-  return getAll().map((e) => ({ slug: slugForEntry(e).split("/") }));
+  return allSlugs().map((slug) => ({ slug }));
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
-  const entry = bySlug(slug.join("/"));
+  const entry = anyBySlug(slug.join("/"));
   if (!entry) notFound();
-  return <><Header /><DetailView entry={entry} /><Footer /></>;
+  return (
+    <>
+      <Header />
+      {isContent(entry) ? <ContentDetailView entry={entry} /> : <DetailView entry={entry} />}
+      <Footer />
+    </>
+  );
 }
