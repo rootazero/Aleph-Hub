@@ -49,14 +49,18 @@ input::placeholder, textarea::placeholder { color: var(--taupe); }
   .cat-card:hover, .col-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(36,28,22,.10); }
 }
 
-/* Header: nav folds into a hamburger menu below the md breakpoint. */
-@media (max-width: 768px) {
-  .hdr { padding-left: 20px !important; padding-right: 20px !important; }
+/* Header: nav + submit fold into a hamburger menu below the lg breakpoint.
+   Five nav items plus the lang/theme/submit controls need ~1000px to sit
+   inline without crowding, so collapse earlier than the page's md breakpoint. */
+@media (max-width: 1024px) {
   .hdr-nav { display: none !important; }
   .hdr-submit { display: none !important; }
   .hdr-burger { display: inline-flex !important; }
 }
-@media (min-width: 769px) { .hdr-menu { display: none !important; } }
+@media (min-width: 1025px) { .hdr-menu { display: none !important; } }
+@media (max-width: 768px) {
+  .hdr { padding-left: 20px !important; padding-right: 20px !important; }
+}
 
 /* Card grids collapse on small screens (inline 3-col -> single column). */
 @media (max-width: 768px) {

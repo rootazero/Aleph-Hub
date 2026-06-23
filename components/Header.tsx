@@ -9,6 +9,8 @@ const NAV: { kind: string; zh: string; en: string }[] = [
   { kind: "skill", zh: "Agent 技能", en: "Agent Skills" },
   { kind: "plugin", zh: "插件", en: "Plugins" },
   { kind: "mcp", zh: "MCP 服务", en: "MCP Servers" },
+  { kind: "prompt", zh: "提示词", en: "Prompts" },
+  { kind: "workflow", zh: "工作流", en: "Workflows" },
 ];
 
 export function Header() {
