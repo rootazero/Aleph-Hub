@@ -75,6 +75,32 @@ export interface LlmClient {
   curate(input: LlmCurationInput): Promise<LlmCurationResult | null>;
 }
 
+// Content kinds autonomous curation. The LLM authors metadata + accept/reject ONLY;
+// the body stays the upstream file verbatim (provenance), so there is no body field here.
+export interface ContentLlmInput {
+  repo_url: string;
+  full_name: string;
+  source_path: string;
+  kind: "prompt" | "workflow";
+  body: string;       // the file payload, for policy judgement (truncated by the curator)
+  readme: string;     // repo README context (truncated by the curator)
+}
+export interface ContentLlmProposal {
+  name: string;
+  category: string;
+  tags: string[];
+  description_en: string; description_zh: string;
+  long_en: string; long_zh: string;
+  sec_note_en: string; sec_note_zh: string;
+}
+export type ContentLlmResult =
+  | { decision: "accept"; proposal: ContentLlmProposal }
+  | { decision: "reject"; reason: string };
+export interface ContentLlmClient {
+  // null = transport/parse failure (caller leaves the unit queued for a later run).
+  curate(input: ContentLlmInput): Promise<ContentLlmResult | null>;
+}
+
 export interface RegistryClient {
   // null = lookup failed (network); {exists:false} = definitively absent.
   npmPackage(name: string): Promise<{ exists: boolean; repository: string | null } | null>;

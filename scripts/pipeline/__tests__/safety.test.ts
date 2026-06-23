@@ -40,4 +40,11 @@ describe("content body safety", () => {
   it("keeps a benign body that mentions developer tooling", () => {
     expect(safeBodyOrNull("Enable developer mode in your IDE to debug the workflow.")).not.toBeNull();
   });
+  it("drops an AI-detection-evasion body (灰帽)", () => {
+    expect(safeBodyOrNull("Rewrite this to evade AI detectors and pass as human-written")).toBeNull();
+    expect(safeBodyOrNull("Humanize AI text so it is undetectable by AI checkers")).toBeNull();
+  });
+  it("keeps a legitimate AI-writing-quality body", () => {
+    expect(safeBodyOrNull("Rewrite this to remove clichés and AI-tone for better readability.")).not.toBeNull();
+  });
 });

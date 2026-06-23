@@ -3,6 +3,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
 import type { RepoMeta, RegistryClient, Http, Clock, FileStore, CurationStore, CurationRecord, RawGitHubApi, ContentCurationRecord, ContentCurationStore } from "@/scripts/pipeline/ports";
+import type { ContentGitHub } from "@/scripts/pipeline/sources/content-types";
 
 const GH_API = "https://api.github.com";
 
@@ -53,6 +54,25 @@ export function makeGitHub(): RawGitHubApi {
         const res = await fetch(`${GH_API}/repos/${fullName}/contents/${path}`, { headers: ghHeaders({ Accept: "application/vnd.github.raw" }) });
         return res.ok ? await res.text() : null;
       } catch { return null; }
+    },
+  };
+}
+
+// Content source GitHub surface: reuse the raw adapter, add a recursive file lister
+// (git trees at HEAD). Content uses the raw adapter directly (no etag caching layer).
+export function makeContentGitHub(): ContentGitHub {
+  const raw = makeGitHub();
+  return {
+    searchRepos: (q) => raw.searchRepos(q),
+    getContent: (fn, p) => raw.getContent(fn, p),
+    getReadme: (fn) => raw.getReadme(fn),
+    async listFiles(fullName) {
+      try {
+        const res = await fetch(`${GH_API}/repos/${fullName}/git/trees/HEAD?recursive=1`, { headers: ghHeaders() });
+        if (!res.ok) return [];
+        const json = (await res.json()) as { tree?: { path: string; type: string }[] };
+        return (json.tree ?? []).filter((t) => t.type === "blob").map((t) => t.path);
+      } catch { return []; }
     },
   };
 }
@@ -126,5 +146,6 @@ function makeFileStore(): FileStore {
 }
 
 export function makeAdapters() {
-  return { store: makeCurationStore(), registry: makeRegistry(), http: makeHttp(), clock: makeClock(), fs: makeFileStore() };
+  const http = makeHttp();
+  return { store: makeCurationStore(), registry: makeRegistry(), http, clock: makeClock(), fs: makeFileStore() };
 }

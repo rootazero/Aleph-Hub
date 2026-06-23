@@ -1,11 +1,11 @@
 {
   "prompt": {
-    "queries": ["topic:awesome-prompts", "topic:prompt-engineering", "topic:claude-prompts"],
-    "seeds": ["https://github.com/f/awesome-chatgpt-prompts"],
-    "pins": []
+    "queries": ["topic:awesome-prompts", "topic:prompt-engineering", "topic:claude-prompts", "topic:chatgpt-prompts"],
+    "seeds": [],
+    "pins": ["dair-ai/Prompt-Engineering-Guide:guides/prompts-basic-usage.md"]
   },
   "workflow": {
-    "queries": ["topic:claude-code-workflow", "topic:agent-workflow"],
+    "queries": ["topic:claude-code-workflow", "topic:agent-workflow", "topic:claude-agent-workflow"],
     "seeds": [],
     "pins": []
   }

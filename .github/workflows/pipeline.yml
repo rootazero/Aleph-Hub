@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "17 3 * * *"   # daily 03:17 UTC
   workflow_dispatch:
+    inputs:
+      kind:
+        description: "Force a kind (skill|plugin|mcp|prompt|workflow); empty = auto by weekday"
+        required: false
+        default: ""
 concurrency:
   group: pipeline
   cancel-in-progress: false
@@ -18,20 +23,28 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Run deterministic pipeline
+      - name: Compute target kind
+        id: kind
+        run: echo "kind=$(node scripts/pipeline/target-kind.mjs $(date -u +%u))" >> "$GITHUB_OUTPUT"
+      - name: Run deterministic pipeline (kind-partitioned)
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          # Enables autonomous LLM curation of the discovered backlog. If the secret is
-          # unset, auto-curation is skipped and the run still publishes human + first-party
-          # entries (makeLlmCurator() returns null without a key).
+          # Enables autonomous LLM curation. Unset → auto-curation is skipped and the run
+          # still publishes human + first-party / existing entries (curator returns null).
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: npm run pipeline
+        run: |
+          K="${{ github.event.inputs.kind || steps.kind.outputs.kind }}"
+          echo "target kind: $K"
+          case "$K" in
+            prompt|workflow) npm run pipeline:content -- --kind="$K" ;;
+            *)               npm run pipeline ;;
+          esac
       # On push to main, Vercel's git integration auto-deploys the new catalog — no explicit hook step.
       - name: Commit artifacts if changed
         run: |
           git config user.name "aleph-hub-bot"
           git config user.email "bot@heyaleph.com"
-          git add public/catalog.json data/
+          git add public/catalog.json public/catalog-content.json data/
           if git diff --cached --quiet; then
             echo "no changes to commit"
           else
