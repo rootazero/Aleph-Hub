@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 130,
-    "generated_at": "2026-06-23T06:56:00.714Z",
-    "content_hash": "sha256:669e896152071eb1c92820db5bc9b4c2f32325759445a1ce1f8daeff1bb565cb"
+    "generated_at": "2026-06-23T08:44:52.186Z",
+    "content_hash": "sha256:63318dca2c486d5bf95a329bc639331ff6940a035b2051deedd4e9fe42ef2e45"
   },
   "entries": [
     {
@@ -1755,16 +1755,15 @@
       "kind": "mcp",
       "category": "design",
       "name": "SiliconFlow 媒体生成",
-      "description": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over a uvx stdio process.",
+      "description": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over an npx stdio process.",
       "repo_url": "https://github.com/rootazero/Aleph-mcp/tree/main/siliconflow",
       "trust_tier": "official",
       "install_spec": {
         "type": "mcp_stdio",
-        "command": "uvx",
+        "command": "npx",
         "args": [
-          "--from",
-          "git+https://github.com/rootazero/Aleph-mcp#subdirectory=siliconflow",
-          "aleph-siliconflow-mcp"
+          "-y",
+          "aleph-siliconflow-mcp@0.2.0"
         ],
         "env": [
           {
@@ -1803,19 +1802,19 @@
         "model-provider"
       ],
       "via": "aleph-official",
-      "description_zh": "Aleph 官方 SiliconFlow 媒体生成 MCP — 经 uvx stdio 暴露图像 / 视频 / 语音合成。",
-      "description_en": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over a uvx stdio process.",
-      "long_zh": "Aleph 自建的一方 MCP（全新实现，对照 SiliconFlow 官方文档核验）。经 uvx 拉起的 Python 子进程暴露 generate_image / edit_image / generate_video / generate_speech / list_models / get_user_info 等工具。",
-      "long_en": "First-party MCP built by Aleph (clean rewrite, verified against SiliconFlow's official docs). Exposes generate_image / edit_image / generate_video / generate_speech / list_models / get_user_info via a uvx-spawned Python process.",
+      "description_zh": "Aleph 官方 SiliconFlow 媒体生成 MCP — 经 npx stdio 暴露图像 / 视频 / 语音合成。",
+      "description_en": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over an npx stdio process.",
+      "long_zh": "Aleph 自建的一方 MCP（TypeScript 重写，对照 SiliconFlow 官方文档核验）。经 npx 拉起的 Node 子进程暴露 generate_image / edit_image / generate_video / submit_video_generation / get_video_status / generate_speech / list_models / get_user_info 等工具。",
+      "long_en": "First-party MCP built by Aleph (TypeScript rewrite, verified against SiliconFlow's official docs). Exposes generate_image / edit_image / generate_video / submit_video_generation / get_video_status / generate_speech / list_models / get_user_info via an npx-spawned Node process.",
       "cover_color": "#7A4A2B",
       "stars": 0,
       "trend": null,
       "spark": [],
       "license": "MIT",
       "updated": "2026-06-23",
-      "install_cmd": "uvx --from git+https://github.com/rootazero/Aleph-mcp#subdirectory=siliconflow aleph-siliconflow-mcp",
-      "sec_note_zh": "需 SILICONFLOW_API_KEY；经 uvx 拉起 Python 子进程，调用 SiliconFlow 付费媒体 API。生成的媒体 URL 很快过期 —— 设置 SILICONFLOW_IMAGE_DIR 可本地留存。",
-      "sec_note_en": "Needs a SILICONFLOW_API_KEY; runs a uvx-spawned Python process and calls SiliconFlow's paid media APIs. Generated media URLs expire quickly — set SILICONFLOW_IMAGE_DIR to persist assets."
+      "install_cmd": "npx -y aleph-siliconflow-mcp@0.2.0",
+      "sec_note_zh": "需 SILICONFLOW_API_KEY；经 npx 拉起 Node 子进程，调用 SiliconFlow 付费媒体 API。生成的媒体 URL 很快过期 —— 设置 SILICONFLOW_IMAGE_DIR 可本地留存。",
+      "sec_note_en": "Needs a SILICONFLOW_API_KEY; runs an npx-spawned Node process and calls SiliconFlow's paid media APIs. Generated media URLs expire quickly — set SILICONFLOW_IMAGE_DIR to persist assets."
     },
     {
       "id": "aleph-hub:microsoft/playwright-mcp",

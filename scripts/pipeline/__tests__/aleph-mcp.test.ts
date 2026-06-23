@@ -49,8 +49,8 @@ describe("loadAlephMcp", () => {
       expect(key?.required).toBe(true);
       expect(key?.secret).toBe(true);
     }
-    expect(s.install_cmd).toContain("uvx");
-    expect(s.install_cmd).toContain("#subdirectory=siliconflow");
+    expect(s.install_cmd).toContain("npx");
+    expect(s.install_cmd).toContain("aleph-siliconflow-mcp@0.2.0");
   });
 
   it("returns [] when the seed is absent", () => {

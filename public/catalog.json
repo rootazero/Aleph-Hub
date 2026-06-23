@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 130,
-    "generated_at": "2026-06-23T06:56:00.714Z",
-    "content_hash": "sha256:669e896152071eb1c92820db5bc9b4c2f32325759445a1ce1f8daeff1bb565cb"
+    "generated_at": "2026-06-23T08:44:52.186Z",
+    "content_hash": "sha256:63318dca2c486d5bf95a329bc639331ff6940a035b2051deedd4e9fe42ef2e45"
   },
   "entries": [
     {
@@ -1151,16 +1151,15 @@
       "kind": "mcp",
       "category": "design",
       "name": "SiliconFlow 媒体生成",
-      "description": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over a uvx stdio process.",
+      "description": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over an npx stdio process.",
       "repo_url": "https://github.com/rootazero/Aleph-mcp/tree/main/siliconflow",
       "trust_tier": "official",
       "install_spec": {
         "type": "mcp_stdio",
-        "command": "uvx",
+        "command": "npx",
         "args": [
-          "--from",
-          "git+https://github.com/rootazero/Aleph-mcp#subdirectory=siliconflow",
-          "aleph-siliconflow-mcp"
+          "-y",
+          "aleph-siliconflow-mcp@0.2.0"
         ],
         "env": [
           {
