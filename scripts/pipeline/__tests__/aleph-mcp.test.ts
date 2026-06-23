@@ -37,8 +37,10 @@ describe("loadAlephMcp", () => {
     }
   });
 
+  // Cross-repo id contract: id is the Aleph catalog.json preset slug (aleph-hub:siliconflow),
+  // matching the primer projection in Aleph src/hub/official_mcp.rs — NOT aleph-hub:<full_name>.
   it("siliconflow is a keyed stdio server requiring config", () => {
-    const s = byId.get("aleph-hub:rootazero/Aleph-mcp/siliconflow")!;
+    const s = byId.get("aleph-hub:siliconflow")!;
     expect(s).toBeDefined();
     expect(s.install_spec.type).toBe("mcp_stdio");
     expect(s.requires_config).toBe(true);

@@ -1,7 +1,8 @@
 {
+  "_note": "Third-party vendor MCP presets mirroring Aleph's src/mcp/presets/catalog.json. CROSS-REPO ID CONTRACT (P-Provenance): `id` MUST be `aleph-hub:<catalog.json id>` (the Aleph preset slug, e.g. aleph-hub:context7) — NOT `aleph-hub:<full_name>`. Aleph's cold-start primer projects each preset to `aleph-hub:<id>` (src/hub/official_mcp.rs), and installed-state is reconciled by that id (install.rs mcp_server_id: id.replace([':','/'],'_')). A divergent id silently breaks the primer→remote 'installed' handoff. `full_name`/`repo_url` keep the real upstream identity for provenance.",
   "entries": [
     {
-      "id": "aleph-hub:upstash/context7",
+      "id": "aleph-hub:context7",
       "full_name": "upstash/context7",
       "kind": "mcp",
       "name": "Context7",
@@ -26,7 +27,7 @@
       "updated": "2026-06-22"
     },
     {
-      "id": "aleph-hub:amap/amap-maps-mcp-server",
+      "id": "aleph-hub:amap",
       "full_name": "amap/amap-maps-mcp-server",
       "kind": "mcp",
       "name": "高德地图 Amap",
@@ -53,7 +54,7 @@
       "updated": "2026-03-18"
     },
     {
-      "id": "aleph-hub:MiniMax-AI/MiniMax-MCP",
+      "id": "aleph-hub:minimax",
       "full_name": "MiniMax-AI/MiniMax-MCP",
       "kind": "mcp",
       "name": "MiniMax",
@@ -81,7 +82,7 @@
       "updated": "2026-05-21"
     },
     {
-      "id": "aleph-hub:volcengine/mcp-server/veimagex",
+      "id": "aleph-hub:volcengine-veimagex",
       "full_name": "volcengine/mcp-server/veimagex",
       "kind": "mcp",
       "name": "火山引擎 veImageX",

@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 130,
-    "generated_at": "2026-06-23T03:56:45.329Z",
-    "content_hash": "sha256:8d8f4aab478fd91c2aa5870da291dde867b2b2d8a2d4292a718e5c92f5534e48"
+    "generated_at": "2026-06-23T06:56:00.714Z",
+    "content_hash": "sha256:669e896152071eb1c92820db5bc9b4c2f32325759445a1ce1f8daeff1bb565cb"
   },
   "entries": [
     {
@@ -1549,7 +1549,7 @@
       "sec_note_en": "Reads local Office document files to extract content. Official first-party plugin (Node.js)."
     },
     {
-      "id": "aleph-hub:upstash/context7",
+      "id": "aleph-hub:context7",
       "kind": "mcp",
       "category": "developer",
       "name": "Context7",
@@ -1585,7 +1585,7 @@
       "sec_note_en": "Official Upstash hosted MCP endpoint (anonymous, no key); an npx stdio fallback also exists upstream."
     },
     {
-      "id": "aleph-hub:amap/amap-maps-mcp-server",
+      "id": "aleph-hub:amap",
       "kind": "mcp",
       "category": "utilities",
       "name": "高德地图 Amap",
@@ -1632,7 +1632,7 @@
       "sec_note_en": "Requires an Amap Web-service API key (AMAP_MAPS_API_KEY); distributed as the official @amap npm package — no public source repository."
     },
     {
-      "id": "aleph-hub:MiniMax-AI/MiniMax-MCP",
+      "id": "aleph-hub:minimax",
       "kind": "mcp",
       "category": "design",
       "name": "MiniMax",
@@ -1686,7 +1686,7 @@
       "sec_note_en": "Needs a MiniMax API key (MINIMAX_API_KEY) and region host (MINIMAX_API_HOST); calls MiniMax's paid cloud APIs."
     },
     {
-      "id": "aleph-hub:volcengine/mcp-server/veimagex",
+      "id": "aleph-hub:volcengine-veimagex",
       "kind": "mcp",
       "category": "design",
       "name": "火山引擎 veImageX",
@@ -1751,7 +1751,7 @@
       "sec_note_en": "Needs Volcengine AK/SK plus SERVICE_ID and DOMAIN_NAME; runs a uvx-spawned Python process and calls Volcengine's paid cloud APIs."
     },
     {
-      "id": "aleph-hub:rootazero/Aleph-mcp/siliconflow",
+      "id": "aleph-hub:siliconflow",
       "kind": "mcp",
       "category": "design",
       "name": "SiliconFlow 媒体生成",

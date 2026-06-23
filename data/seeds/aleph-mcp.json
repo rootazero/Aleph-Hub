@@ -1,8 +1,8 @@
 {
-  "_note": "First-party Aleph MCP servers, hand-curated, trust_tier=official, via=aleph-official (same provenance badge as Aleph-skills / Aleph-plugins). Sourced from github.com/rootazero/Aleph-mcp — Aleph's official MCP repo that fills gaps where vendors ship no official MCP. Projected by scripts/pipeline/mcp-presets.ts (loadAlephMcp), bypassing source discovery. Each entry links to its real upstream subdir.",
+  "_note": "First-party Aleph MCP servers, hand-curated, trust_tier=official, via=aleph-official (same provenance badge as Aleph-skills / Aleph-plugins). Sourced from github.com/rootazero/Aleph-mcp — Aleph's official MCP repo that fills gaps where vendors ship no official MCP. Projected by scripts/pipeline/mcp-presets.ts (loadAlephMcp), bypassing source discovery. Each entry links to its real upstream subdir. CROSS-REPO ID CONTRACT (P-Provenance): `id` MUST be `aleph-hub:<catalog.json id>` (the Aleph preset slug, e.g. aleph-hub:siliconflow) — NOT `aleph-hub:<full_name>`. Aleph's primer projects each preset to `aleph-hub:<id>` and reconciles installed-state by that id; a divergent id silently breaks the primer→remote 'installed' handoff. `full_name`/`repo_url` keep the real upstream subdir for provenance.",
   "entries": [
     {
-      "id": "aleph-hub:rootazero/Aleph-mcp/siliconflow",
+      "id": "aleph-hub:siliconflow",
       "full_name": "rootazero/Aleph-mcp/siliconflow",
       "kind": "mcp",
       "name": "SiliconFlow 媒体生成",

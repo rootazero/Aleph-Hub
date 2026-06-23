@@ -32,10 +32,18 @@ function siteEntryToFinal(se: SiteEntryT): FinalEntry {
   };
 }
 
+// Provenance badges for the official track (loadFirstParty / loadMcpPresets / loadAlephMcp).
+// Their committed copies in site-catalog are always re-provided from the seeds below, so we
+// drop them before merging — this keeps regen idempotent even when a seed `id` changes
+// (otherwise the stale-id copy would survive as an orphan duplicate alongside the new id).
+const OFFICIAL_VIA = new Set(["aleph-official", "aleph-mcp-preset"]);
+
 function main(): void {
   const { fs } = makeAdapters();
   const site = fs.readJson<{ entries: SiteEntryT[] }>("data/site-catalog.json");
-  const existing: FinalEntry[] = (site?.entries ?? []).map(siteEntryToFinal);
+  const existing: FinalEntry[] = (site?.entries ?? [])
+    .filter((se) => !OFFICIAL_VIA.has(se.via ?? ""))
+    .map(siteEntryToFinal);
   const firstParty = [...loadFirstParty(fs), ...loadMcpPresets(fs), ...loadAlephMcp(fs)];
 
   // First-party official entries take precedence over any existing entry sharing an id.

@@ -36,14 +36,22 @@ describe("loadMcpPresets", () => {
     }
   });
 
+  // Cross-repo id contract: ids are the Aleph catalog.json preset slugs (aleph-hub:<slug>),
+  // matching the primer projection in Aleph src/hub/official_mcp.rs — NOT aleph-hub:<full_name>.
+  it("ids are the Aleph preset slugs (cross-repo install-state contract)", () => {
+    expect(new Set(presets.map((p) => p.id))).toEqual(
+      new Set(["aleph-hub:context7", "aleph-hub:amap", "aleph-hub:minimax", "aleph-hub:volcengine-veimagex"]),
+    );
+  });
+
   it("context7 is a zero-config remote endpoint", () => {
-    const c = byId.get("aleph-hub:upstash/context7")!;
+    const c = byId.get("aleph-hub:context7")!;
     expect(c.install_spec.type).toBe("mcp_remote");
     expect(c.requires_config).toBe(false);
   });
 
   it("keyed stdio presets require config and carry env declarations", () => {
-    for (const id of ["aleph-hub:amap/amap-maps-mcp-server", "aleph-hub:MiniMax-AI/MiniMax-MCP", "aleph-hub:volcengine/mcp-server/veimagex"]) {
+    for (const id of ["aleph-hub:amap", "aleph-hub:minimax", "aleph-hub:volcengine-veimagex"]) {
       const e = byId.get(id)!;
       expect(e.install_spec.type).toBe("mcp_stdio");
       expect(e.requires_config).toBe(true);
@@ -52,7 +60,7 @@ describe("loadMcpPresets", () => {
   });
 
   it("amap provenance points at the official npm package (no GitHub repo)", () => {
-    const a = byId.get("aleph-hub:amap/amap-maps-mcp-server")!;
+    const a = byId.get("aleph-hub:amap")!;
     expect(a.repo_url).toBe("https://www.npmjs.com/package/@amap/amap-maps-mcp-server");
   });
 
