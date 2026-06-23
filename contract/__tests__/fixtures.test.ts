@@ -14,7 +14,9 @@ describe("fixtures", () => {
     expect(art.manifest.hub_id).toBe("aleph-hub");
     for (const e of art.entries) {
       expect(e.id.startsWith("aleph-hub:")).toBe(true);
-      expect(e.repo_url).toMatch(/^https:\/\/github\.com\//);
+      // Real upstream (铁律): usually a GitHub repo, but an official package-registry page
+      // is allowed when the vendor ships no public source repo (e.g. 高德's @amap npm package).
+      expect(e.repo_url).toMatch(/^https:\/\/(github\.com|www\.npmjs\.com)\//);
       expect(e.install_spec.type).not.toBe("oci_image"); // producer never emits OCI
     }
   });

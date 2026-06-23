@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 125,
-    "generated_at": "2026-06-22T08:13:26.298Z",
-    "content_hash": "sha256:bc9d930707b89ac438ac54f72903b6980ec7b971431a7d3a6f4b1519d97a0e6c"
+    "entry_count": 129,
+    "generated_at": "2026-06-23T02:00:29.566Z",
+    "content_hash": "sha256:014c2b0aceba563ba51c84a30d1326f8b1273602f6e167636a3c5d6fb11ede5c"
   },
   "entries": [
     {
@@ -1547,6 +1547,208 @@
       "install_cmd": "aleph add media-office",
       "sec_note_zh": "读取本地 Office 文档文件以提取内容。官方一方插件（Node.js）。",
       "sec_note_en": "Reads local Office document files to extract content. Official first-party plugin (Node.js)."
+    },
+    {
+      "id": "aleph-hub:upstash/context7",
+      "kind": "mcp",
+      "category": "developer",
+      "name": "Context7",
+      "description": "Inject version-accurate, up-to-date library docs into context to cut hallucination.",
+      "repo_url": "https://github.com/upstash/context7",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_remote",
+        "url": "https://mcp.context7.com/mcp",
+        "transport": "streamable_http",
+        "headers": []
+      },
+      "requires_config": false,
+      "author": "Upstash",
+      "tags": [
+        "docs",
+        "developer",
+        "context"
+      ],
+      "via": "aleph-mcp-preset",
+      "description_zh": "把版本精确的最新库文档注入上下文，减少幻觉。",
+      "description_en": "Inject version-accurate, up-to-date library docs into context to cut hallucination.",
+      "long_zh": "Context7 按需拉取库/框架的版本精确最新文档与示例，让回答贴合你实际使用的 API。",
+      "long_en": "Context7 fetches current, version-specific documentation and code examples for libraries and frameworks on demand, so answers reflect the API you actually use.",
+      "cover_color": "#7A4A2B",
+      "stars": 57875,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-22",
+      "install_cmd": "https://mcp.context7.com/mcp",
+      "sec_note_zh": "Upstash 官方托管 MCP 端点（匿名、无需密钥）；上游另有 npx stdio 兜底形态。",
+      "sec_note_en": "Official Upstash hosted MCP endpoint (anonymous, no key); an npx stdio fallback also exists upstream."
+    },
+    {
+      "id": "aleph-hub:amap/amap-maps-mcp-server",
+      "kind": "mcp",
+      "category": "utilities",
+      "name": "高德地图 Amap",
+      "description": "Geocoding, POI search, route planning, and weather from AutoNavi (Amap), China-native.",
+      "repo_url": "https://www.npmjs.com/package/@amap/amap-maps-mcp-server",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@amap/amap-maps-mcp-server"
+        ],
+        "env": [
+          {
+            "name": "AMAP_MAPS_API_KEY",
+            "description": "高德 Web 服务 API Key (console.amap.com)",
+            "required": true,
+            "secret": true
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "高德 AutoNavi",
+      "tags": [
+        "maps",
+        "navigation",
+        "location",
+        "weather"
+      ],
+      "via": "aleph-mcp-preset",
+      "description_zh": "地理编码、POI 搜索、路线规划、天气（高德官方，大陆原生）。",
+      "description_en": "Geocoding, POI search, route planning, and weather from AutoNavi (Amap), China-native.",
+      "long_zh": "高德官方地图 MCP，经 npx stdio 提供地理编码、地点搜索、路线规划与天气等位置服务。",
+      "long_en": "The official Amap maps MCP server exposes location services — geocoding, place search, routing, and weather — over an npx stdio process.",
+      "cover_color": "#C98A3C",
+      "stars": 0,
+      "trend": null,
+      "spark": [],
+      "license": "ISC",
+      "updated": "2026-03-18",
+      "install_cmd": "npx -y @amap/amap-maps-mcp-server",
+      "sec_note_zh": "需高德 Web 服务 API Key（AMAP_MAPS_API_KEY）；以高德官方 @amap npm 包分发——无公开源码仓库。",
+      "sec_note_en": "Requires an Amap Web-service API key (AMAP_MAPS_API_KEY); distributed as the official @amap npm package — no public source repository."
+    },
+    {
+      "id": "aleph-hub:MiniMax-AI/MiniMax-MCP",
+      "kind": "mcp",
+      "category": "design",
+      "name": "MiniMax",
+      "description": "Image, video, and speech synthesis from MiniMax (official).",
+      "repo_url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "uvx",
+        "args": [
+          "minimax-mcp",
+          "-y"
+        ],
+        "env": [
+          {
+            "name": "MINIMAX_API_KEY",
+            "description": "MiniMax 平台 API Key (platform.minimaxi.com)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "MINIMAX_API_HOST",
+            "description": "区域接入点",
+            "required": true,
+            "secret": false,
+            "default": "https://api.minimaxi.com"
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "MiniMax",
+      "tags": [
+        "image",
+        "video",
+        "tts",
+        "model-provider"
+      ],
+      "via": "aleph-mcp-preset",
+      "description_zh": "图像 / 视频 / 语音合成（MiniMax 官方）。",
+      "description_en": "Image, video, and speech synthesis from MiniMax (official).",
+      "long_zh": "MiniMax 官方 MCP，经 uvx stdio 暴露平台的生成式媒体能力——图像、视频与语音合成。",
+      "long_en": "The official MiniMax MCP server exposes the platform's generative media APIs — image, video, and text-to-speech — over a uvx stdio process.",
+      "cover_color": "#B5562B",
+      "stars": 1519,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-05-21",
+      "install_cmd": "uvx minimax-mcp -y",
+      "sec_note_zh": "需 MiniMax API Key（MINIMAX_API_KEY）与区域接入点（MINIMAX_API_HOST）；调用 MiniMax 付费云 API。",
+      "sec_note_en": "Needs a MiniMax API key (MINIMAX_API_KEY) and region host (MINIMAX_API_HOST); calls MiniMax's paid cloud APIs."
+    },
+    {
+      "id": "aleph-hub:volcengine/mcp-server/veimagex",
+      "kind": "mcp",
+      "category": "design",
+      "name": "火山引擎 veImageX",
+      "description": "Text-to-image, super-resolution, outpainting, and OCR image capabilities from Volcengine (official).",
+      "repo_url": "https://github.com/volcengine/mcp-server",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "git+https://github.com/volcengine/mcp-server#subdirectory=server/mcp_server_veimagex",
+          "mcp-server-veimagex"
+        ],
+        "env": [
+          {
+            "name": "VOLCENGINE_ACCESS_KEY",
+            "description": "火山访问密钥 (AK)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "VOLCENGINE_SECRET_KEY",
+            "description": "火山私有密钥 (SK)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "SERVICE_ID",
+            "description": "veImageX 服务 ID",
+            "required": true,
+            "secret": false
+          },
+          {
+            "name": "DOMAIN_NAME",
+            "description": "veImageX 加速域名",
+            "required": true,
+            "secret": false
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "火山引擎 ByteDance",
+      "tags": [
+        "image",
+        "ocr",
+        "model-provider"
+      ],
+      "via": "aleph-mcp-preset",
+      "description_zh": "文生图 / 超分 / 外扩 / OCR 等图像能力（火山引擎官方）。",
+      "description_en": "Text-to-image, super-resolution, outpainting, and OCR image capabilities from Volcengine (official).",
+      "long_zh": "火山引擎官方 veImageX MCP，经 uvx stdio 暴露文生图、超分、外扩、OCR 等图像生成与处理能力。",
+      "long_en": "The official Volcengine veImageX MCP server exposes image generation and processing — text-to-image, super-resolution, outpainting, and OCR — over a uvx stdio process.",
+      "cover_color": "#A86A3A",
+      "stars": 299,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-21",
+      "install_cmd": "uvx --from git+https://github.com/volcengine/mcp-server#subdirectory=server/mcp_server_veimagex mcp-server-veimagex",
+      "sec_note_zh": "需火山 AK/SK 及 SERVICE_ID、加速域名（DOMAIN_NAME）；经 uvx 拉起 Python 子进程，调用火山付费云 API。",
+      "sec_note_en": "Needs Volcengine AK/SK plus SERVICE_ID and DOMAIN_NAME; runs a uvx-spawned Python process and calls Volcengine's paid cloud APIs."
     },
     {
       "id": "aleph-hub:microsoft/playwright-mcp",

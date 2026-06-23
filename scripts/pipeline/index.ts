@@ -1,5 +1,6 @@
 import { run } from "@/scripts/pipeline/run";
 import { loadFirstParty } from "@/scripts/pipeline/firstParty";
+import { loadMcpPresets } from "@/scripts/pipeline/mcp-presets";
 import { makeLlmCurator } from "@/scripts/pipeline/llm-curator";
 import { makeAdapters, makeGitHub } from "@/scripts/pipeline/adapters";
 import { makeCachingGitHub, type MetaCacheEntry } from "@/scripts/pipeline/gh-cache";
@@ -30,7 +31,7 @@ async function main() {
   const seeds = fs.readJson<{ queries: string[]; seeds: string[] }>("data/seeds/github.json")!;
   const officialOrgs = new Set((fs.readJson<string[]>("data/seeds/official-orgs.json") ?? []).map((s) => s.toLowerCase()));
   const history = fs.readJson<Record<string, number[]>>("data/stars-history.json") ?? {};
-  const firstParty = loadFirstParty(fs);
+  const firstParty = [...loadFirstParty(fs), ...loadMcpPresets(fs)];
   const llm = makeLlmCurator();   // null unless ANTHROPIC_API_KEY is set → auto-curation off
   const prev = fs.readJson<{ manifest?: { content_hash?: string }; entries: unknown[] }>("public/catalog.json");
   const prevHash = prev?.manifest?.content_hash;

@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 125,
-    "generated_at": "2026-06-22T08:13:26.298Z",
-    "content_hash": "sha256:bc9d930707b89ac438ac54f72903b6980ec7b971431a7d3a6f4b1519d97a0e6c"
+    "entry_count": 129,
+    "generated_at": "2026-06-23T02:00:29.566Z",
+    "content_hash": "sha256:014c2b0aceba563ba51c84a30d1326f8b1273602f6e167636a3c5d6fb11ede5c"
   },
   "entries": [
     {
@@ -995,6 +995,156 @@
         "extraction"
       ],
       "via": "aleph-official"
+    },
+    {
+      "id": "aleph-hub:upstash/context7",
+      "kind": "mcp",
+      "category": "developer",
+      "name": "Context7",
+      "description": "Inject version-accurate, up-to-date library docs into context to cut hallucination.",
+      "repo_url": "https://github.com/upstash/context7",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_remote",
+        "url": "https://mcp.context7.com/mcp",
+        "transport": "streamable_http",
+        "headers": []
+      },
+      "requires_config": false,
+      "author": "Upstash",
+      "tags": [
+        "docs",
+        "developer",
+        "context"
+      ],
+      "via": "aleph-mcp-preset"
+    },
+    {
+      "id": "aleph-hub:amap/amap-maps-mcp-server",
+      "kind": "mcp",
+      "category": "utilities",
+      "name": "高德地图 Amap",
+      "description": "Geocoding, POI search, route planning, and weather from AutoNavi (Amap), China-native.",
+      "repo_url": "https://www.npmjs.com/package/@amap/amap-maps-mcp-server",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@amap/amap-maps-mcp-server"
+        ],
+        "env": [
+          {
+            "name": "AMAP_MAPS_API_KEY",
+            "description": "高德 Web 服务 API Key (console.amap.com)",
+            "required": true,
+            "secret": true
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "高德 AutoNavi",
+      "tags": [
+        "maps",
+        "navigation",
+        "location",
+        "weather"
+      ],
+      "via": "aleph-mcp-preset"
+    },
+    {
+      "id": "aleph-hub:MiniMax-AI/MiniMax-MCP",
+      "kind": "mcp",
+      "category": "design",
+      "name": "MiniMax",
+      "description": "Image, video, and speech synthesis from MiniMax (official).",
+      "repo_url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "uvx",
+        "args": [
+          "minimax-mcp",
+          "-y"
+        ],
+        "env": [
+          {
+            "name": "MINIMAX_API_KEY",
+            "description": "MiniMax 平台 API Key (platform.minimaxi.com)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "MINIMAX_API_HOST",
+            "description": "区域接入点",
+            "required": true,
+            "secret": false,
+            "default": "https://api.minimaxi.com"
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "MiniMax",
+      "tags": [
+        "image",
+        "video",
+        "tts",
+        "model-provider"
+      ],
+      "via": "aleph-mcp-preset"
+    },
+    {
+      "id": "aleph-hub:volcengine/mcp-server/veimagex",
+      "kind": "mcp",
+      "category": "design",
+      "name": "火山引擎 veImageX",
+      "description": "Text-to-image, super-resolution, outpainting, and OCR image capabilities from Volcengine (official).",
+      "repo_url": "https://github.com/volcengine/mcp-server",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "git+https://github.com/volcengine/mcp-server#subdirectory=server/mcp_server_veimagex",
+          "mcp-server-veimagex"
+        ],
+        "env": [
+          {
+            "name": "VOLCENGINE_ACCESS_KEY",
+            "description": "火山访问密钥 (AK)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "VOLCENGINE_SECRET_KEY",
+            "description": "火山私有密钥 (SK)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "SERVICE_ID",
+            "description": "veImageX 服务 ID",
+            "required": true,
+            "secret": false
+          },
+          {
+            "name": "DOMAIN_NAME",
+            "description": "veImageX 加速域名",
+            "required": true,
+            "secret": false
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "火山引擎 ByteDance",
+      "tags": [
+        "image",
+        "ocr",
+        "model-provider"
+      ],
+      "via": "aleph-mcp-preset"
     },
     {
       "id": "aleph-hub:microsoft/playwright-mcp",

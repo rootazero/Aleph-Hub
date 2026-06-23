@@ -4,6 +4,7 @@
 // without a full pipeline run. The next real pipeline run reproduces this deterministically.
 import { makeAdapters } from "@/scripts/pipeline/adapters";
 import { loadFirstParty } from "@/scripts/pipeline/firstParty";
+import { loadMcpPresets } from "@/scripts/pipeline/mcp-presets";
 import { buildArtifacts } from "@/scripts/pipeline/emit";
 import { validateArtifact } from "@/contract/schema";
 import { validateSiteCatalog } from "@/contract/site";
@@ -35,7 +36,7 @@ function main(): void {
   const { fs } = makeAdapters();
   const site = fs.readJson<{ entries: SiteEntryT[] }>("data/site-catalog.json");
   const existing: FinalEntry[] = (site?.entries ?? []).map(siteEntryToFinal);
-  const firstParty = loadFirstParty(fs);
+  const firstParty = [...loadFirstParty(fs), ...loadMcpPresets(fs)];
 
   // First-party official entries take precedence over any existing entry sharing an id.
   const byId = new Map<string, FinalEntry>();
