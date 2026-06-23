@@ -29,9 +29,9 @@ jobs:
       - name: Run deterministic pipeline (kind-partitioned)
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          # Enables autonomous LLM curation. Unset → auto-curation is skipped and the run
-          # still publishes human + first-party / existing entries (curator returns null).
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # CI runs the deterministic pipeline only (discovery + dedup + publish existing/human
+          # entries). AI-side LLM curation runs out-of-band via Claude's cron, not here — hence no
+          # ANTHROPIC_API_KEY: an autoCurated=0 run in CI is expected, not a misconfiguration.
         run: |
           K="${{ github.event.inputs.kind || steps.kind.outputs.kind }}"
           echo "target kind: $K"
