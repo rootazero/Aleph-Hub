@@ -15,7 +15,7 @@ const Curated = z.object({
   kind: ContentKind,
   category: ExtensionCategory,
   name: z.string().min(1),
-  tags: z.array(z.string()).max(5),
+  tags: z.array(z.string()).min(1).max(5),
   format: ContentFormat,
   body: z.string().min(1).max(CONFIG.CONTENT_BODY_MAX),
   description_en: z.string().min(1), description_zh: z.string().min(1),

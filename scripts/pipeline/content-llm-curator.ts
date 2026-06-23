@@ -15,7 +15,7 @@ const ContentDecision = z.object({
   reason: z.string(),
   name: z.string().nullable(),
   category: ExtensionCategory.nullable(),
-  tags: z.array(z.string()).max(5).nullable(),
+  tags: z.array(z.string()).min(1).max(5).nullable(),
   description_en: z.string().nullable(),
   description_zh: z.string().nullable(),
   long_en: z.string().nullable(),

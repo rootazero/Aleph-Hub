@@ -32,6 +32,10 @@ describe("curate", () => {
     const e = await curate(cand, meta, record({ category: "misc" }), { registry, gh });
     expect(e).toBeNull();
   });
+  it("drops a record with empty tags", async () => {
+    const e = await curate(cand, meta, record({ tags: [] }), { registry, gh });
+    expect(e).toBeNull();
+  });
   it("drops an mcp repo with no inferrable install signal", async () => {
     const bare = { ...cand, raw: { readme: "Just a library." } };
     const e = await curate(bare, meta, record(), { registry, gh });

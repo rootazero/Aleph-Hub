@@ -13,7 +13,7 @@ const Curated = z.object({
   name: z.string().min(1),
   kind: ExtensionKind,
   category: ExtensionCategory,
-  tags: z.array(z.string()).max(5),
+  tags: z.array(z.string()).min(1).max(5),
   description_en: z.string().min(1), description_zh: z.string().min(1),
   long_en: z.string().min(1), long_zh: z.string().min(1),
   sec_note_en: z.string().min(1), sec_note_zh: z.string().min(1),

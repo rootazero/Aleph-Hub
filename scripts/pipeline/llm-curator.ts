@@ -20,7 +20,7 @@ const CurationDecision = z.object({
   name: z.string().nullable(),
   kind: ExtensionKind.nullable(),
   category: ExtensionCategory.nullable(),
-  tags: z.array(z.string()).max(5).nullable(),  // match curate()'s Curated schema (max 5)
+  tags: z.array(z.string()).min(1).max(5).nullable(),  // match curate()'s Curated schema (1–5)
   description_en: z.string().nullable(),
   description_zh: z.string().nullable(),
   long_en: z.string().nullable(),
