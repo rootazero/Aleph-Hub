@@ -15,7 +15,7 @@
         "command": "npx",
         "args": [
           "-y",
-          "aleph-siliconflow-mcp@0.2.1"
+          "aleph-siliconflow-mcp@0.2.2"
         ],
         "env": [
           {

@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 131,
-    "generated_at": "2026-06-23T08:57:49.664Z",
-    "content_hash": "sha256:263d2a9587cf8ffd253166b9aeb52bc3fb99faba918962f416cdf113baeef658"
+    "generated_at": "2026-06-23T09:20:09.575Z",
+    "content_hash": "sha256:bff1adb33312c0405afe510ec683040396ea8004974b588ccf071a5b33b2ab4e"
   },
   "entries": [
     {
@@ -1763,7 +1763,7 @@
         "command": "npx",
         "args": [
           "-y",
-          "aleph-siliconflow-mcp@0.2.1"
+          "aleph-siliconflow-mcp@0.2.2"
         ],
         "env": [
           {
@@ -1812,7 +1812,7 @@
       "spark": [],
       "license": "MIT",
       "updated": "2026-06-23",
-      "install_cmd": "npx -y aleph-siliconflow-mcp@0.2.1",
+      "install_cmd": "npx -y aleph-siliconflow-mcp@0.2.2",
       "sec_note_zh": "需 SILICONFLOW_API_KEY；经 npx 拉起 Node 子进程，调用 SiliconFlow 付费媒体 API。生成的媒体 URL 很快过期 —— 设置 SILICONFLOW_IMAGE_DIR 可本地留存。",
       "sec_note_en": "Needs a SILICONFLOW_API_KEY; runs an npx-spawned Node process and calls SiliconFlow's paid media APIs. Generated media URLs expire quickly — set SILICONFLOW_IMAGE_DIR to persist assets."
     },
