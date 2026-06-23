@@ -1,8 +1,11 @@
-// Official external MCP presets: vendor MCP servers that Aleph ships as one-click
-// presets (mirrors Aleph src/mcp/presets/catalog.json). Unlike first-party Aleph
-// extensions, these carry an EXPLICIT install_spec (mcp_stdio / mcp_remote) and bypass
-// source discovery, so they ride the same "official, pre-built FinalEntry" track as
-// loadFirstParty — merged into the run's finals (trust_tier=official) before buildArtifacts.
+// Official MCP servers projected from a hand-curated seed. Two flavors share this module:
+//   - loadMcpPresets → third-party vendor MCPs Aleph ships as one-click presets
+//     (mirrors Aleph src/mcp/presets/catalog.json), via "aleph-mcp-preset".
+//   - loadAlephMcp   → first-party MCPs Aleph itself builds (github.com/rootazero/Aleph-mcp),
+//     siblings of Aleph-skills / Aleph-plugins, via "aleph-official".
+// Both carry an EXPLICIT install_spec (mcp_stdio / mcp_remote), bypass source discovery,
+// and ride the same "official, pre-built FinalEntry" track as loadFirstParty — merged into
+// the run's finals (trust_tier=official) before buildArtifacts.
 import { InstallSpec } from "@/contract/schema";
 import { coverColorFor } from "@/scripts/pipeline/enrich";
 import { requiresConfig } from "@/scripts/pipeline/install_spec";
@@ -10,7 +13,8 @@ import type { FinalEntry } from "@/scripts/pipeline/model";
 import type { FileStore } from "@/scripts/pipeline/ports";
 import type { ExtensionKindT, ExtensionCategoryT, InstallSpecT } from "@/contract/types";
 
-const SEED_PATH = "data/seeds/mcp-presets.json";
+const PRESETS_PATH = "data/seeds/mcp-presets.json";
+const ALEPH_MCP_PATH = "data/seeds/aleph-mcp.json";
 
 interface PresetSeed {
   id: string;
@@ -22,6 +26,7 @@ interface PresetSeed {
   tags: string[];
   install_spec: InstallSpecT;
   repo_url: string;         // real upstream (铁律) — GitHub or the official package page
+  via?: string;             // provenance badge; defaults to "aleph-mcp-preset" (third-party vendor)
   description_en: string; description_zh: string;
   long_en: string; long_zh: string;
   sec_note_en: string; sec_note_zh: string;
@@ -32,10 +37,20 @@ interface PresetSeed {
 
 interface PresetFile { entries: PresetSeed[]; }
 
-export function loadMcpPresets(fs: FileStore): FinalEntry[] {
-  const seed = fs.readJson<PresetFile>(SEED_PATH);
+function loadSeed(fs: FileStore, path: string): FinalEntry[] {
+  const seed = fs.readJson<PresetFile>(path);
   if (!seed) return [];
   return seed.entries.map(toFinal);
+}
+
+// Third-party vendor MCP presets (context7, amap, minimax, veImageX …).
+export function loadMcpPresets(fs: FileStore): FinalEntry[] {
+  return loadSeed(fs, PRESETS_PATH);
+}
+
+// First-party Aleph MCPs (github.com/rootazero/Aleph-mcp) — sibling of skills/plugins.
+export function loadAlephMcp(fs: FileStore): FinalEntry[] {
+  return loadSeed(fs, ALEPH_MCP_PATH);
 }
 
 // A faithful copy-paste hint: the stdio command line, or the remote endpoint URL.
@@ -51,7 +66,7 @@ function toFinal(e: PresetSeed): FinalEntry {
   return {
     id: e.id,
     repo_url: e.repo_url,
-    via: "aleph-mcp-preset",
+    via: e.via ?? "aleph-mcp-preset",
     full_name: e.full_name, owner, repo,
     kind: e.kind,
     name: e.name,
