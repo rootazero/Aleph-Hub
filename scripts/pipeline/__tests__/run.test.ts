@@ -2,6 +2,22 @@ import { describe, it, expect } from "vitest";
 import { run } from "@/scripts/pipeline/run";
 import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, RepoMeta, CacheStore, LlmClient } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
+import type { FinalEntry } from "@/scripts/pipeline/model";
+
+// An official, pre-built seed (loadMcpPresets/loadAlephMcp shape): id is a catalog slug,
+// decoupled from full_name, with the real upstream carried by repo_url.
+const official = (id: string, full_name: string, repo_url: string): FinalEntry => {
+  const [owner, repo] = full_name.split("/");
+  return {
+    id, repo_url, via: "aleph-mcp-preset", full_name, owner, repo,
+    kind: "mcp", name: id, author: owner, category: "developer", tags: ["x"],
+    install_spec: { type: "mcp_stdio", command: "npx", args: ["-y", "x"], env: [] },
+    description_en: "Official.", description_zh: "官方。", long_en: "Long.", long_zh: "长。",
+    sec_note_en: "Reviewed.", sec_note_zh: "已审核。", requires_config: false,
+    stars: 100, license: "MIT", updated: "2026-06-01", trend: null, spark: [], cover_color: "#000",
+    install_cmd: "npx -y x", trust_tier: "official",
+  };
+};
 
 const emptyCache: CacheStore = { get: () => undefined, set: () => {}, entries: () => ({}), prevPerSource: () => ({}), setPerSource: () => {} };
 
@@ -57,6 +73,33 @@ describe("run (integration, mocked ports)", () => {
     expect(res.newCurations).toHaveLength(1);
     expect(res.newCurations[0].full_name).toBe("acme/foo8");
     expect(res.newCurations[0].curated_by).toBe("llm");
+  });
+
+  it("suppresses a discovered repo whose upstream an official seed already claims", async () => {
+    // Official seeds: a github-rooted preset (context7) and a monorepo sub-server (veimagex,
+    // whose repo_url roots at volcengine/mcp-server). A later curation record could make either
+    // upstream discoverable; the official seed must win even though ids differ (slug vs full_name).
+    const firstParty = [
+      official("aleph-hub:context7", "upstash/context7", "https://github.com/upstash/context7"),
+      official("aleph-hub:volcengine-veimagex", "volcengine/mcp-server/veimagex", "https://github.com/volcengine/mcp-server"),
+    ];
+    const urls = [
+      ...Array.from({ length: 9 }, (_, i) => `https://github.com/acme/foo${i}`), // foo0..foo7 curated, foo8 queued
+      "https://github.com/upstash/context7",        // collides with the context7 seed
+      "https://github.com/volcengine/mcp-server",   // collides with the veimagex seed's repo root
+    ];
+    const res = await run({ sources: [source(urls)], gh, store, registry, http, clock,
+      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache, firstParty, llm: null });
+
+    const entries = (res.catalog as any).entries as { id: string; repo_url: string }[];
+    expect(entries).toHaveLength(10);                                  // 8 foo + 2 official, both discovered dupes dropped
+    const ids = entries.map((e) => e.id).sort();
+    expect(ids).toContain("aleph-hub:context7");
+    expect(ids).toContain("aleph-hub:volcengine-veimagex");
+    expect(ids).not.toContain("aleph-hub:upstash/context7");          // discovered duplicate suppressed
+    expect(ids).not.toContain("aleph-hub:volcengine/mcp-server");
+    const byUrl = entries.filter((e) => e.repo_url === "https://github.com/upstash/context7");
+    expect(byUrl).toHaveLength(1);                                     // exactly one card per upstream
   });
 
   it("leaves repos queued when the LLM rejects them", async () => {

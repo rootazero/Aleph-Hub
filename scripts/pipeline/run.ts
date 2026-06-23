@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { dedupe } from "@/scripts/pipeline/dedup";
+import { dedupe, fullNameFromUrl } from "@/scripts/pipeline/dedup";
 import { curate } from "@/scripts/pipeline/curate";
 import { trustTier } from "@/scripts/pipeline/trust";
 import { enrich } from "@/scripts/pipeline/enrich";
@@ -112,10 +112,19 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
   }
 
   ports.cache.setPerSource(perSource);
-  // First-party official extensions take precedence over any discovered repo with the same id.
+  // First-party official extensions take precedence over any discovered repo with the same
+  // id OR the same upstream repo. Official ids are catalog slugs (decoupled from full_name),
+  // so the id check alone no longer dedupes a discovered curation of an officially-seeded repo
+  // (e.g. upstash/context7); guard the canonical upstream too. Monorepo sub-server seeds key on
+  // the repo root (volcengine/mcp-server), npm-only presets fall back to their synthetic full_name.
+  const upstreamKey = (f: FinalEntry): string => (fullNameFromUrl(f.repo_url) ?? f.full_name).toLowerCase();
   const byId = new Map<string, FinalEntry>();
-  for (const f of ports.firstParty) byId.set(f.id, f);
-  for (const f of finals) if (!byId.has(f.id)) byId.set(f.id, f);
+  const officialUpstreams = new Set<string>();
+  for (const f of ports.firstParty) { byId.set(f.id, f); officialUpstreams.add(upstreamKey(f)); }
+  for (const f of finals) {
+    if (byId.has(f.id) || officialUpstreams.has(upstreamKey(f))) continue;
+    byId.set(f.id, f);
+  }
   const allFinals = [...byId.values()];
 
   const { catalog, site, hash } = buildArtifacts({ entries: allFinals, generatedAt: ports.clock.nowIso(), prevContractCount: ports.prevContractCount });

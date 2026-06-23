@@ -3,6 +3,7 @@
 // Use after editing data/seeds/aleph-official.json to refresh the committed artifacts
 // without a full pipeline run. The next real pipeline run reproduces this deterministically.
 import { makeAdapters } from "@/scripts/pipeline/adapters";
+import { fullNameFromUrl } from "@/scripts/pipeline/dedup";
 import { loadFirstParty } from "@/scripts/pipeline/firstParty";
 import { loadMcpPresets, loadAlephMcp } from "@/scripts/pipeline/mcp-presets";
 import { buildArtifacts } from "@/scripts/pipeline/emit";
@@ -46,10 +47,17 @@ function main(): void {
     .map(siteEntryToFinal);
   const firstParty = [...loadFirstParty(fs), ...loadMcpPresets(fs), ...loadAlephMcp(fs)];
 
-  // First-party official entries take precedence over any existing entry sharing an id.
+  // First-party official entries take precedence over any existing entry sharing an id OR the
+  // same upstream repo — mirrors run.ts. Official ids are catalog slugs decoupled from full_name,
+  // so a committed discovered copy of an officially-seeded repo would otherwise survive as a dupe.
+  const upstreamKey = (f: FinalEntry): string => (fullNameFromUrl(f.repo_url) ?? f.full_name).toLowerCase();
   const byId = new Map<string, FinalEntry>();
-  for (const f of firstParty) byId.set(f.id, f);
-  for (const f of existing) if (!byId.has(f.id)) byId.set(f.id, f);
+  const officialUpstreams = new Set<string>();
+  for (const f of firstParty) { byId.set(f.id, f); officialUpstreams.add(upstreamKey(f)); }
+  for (const f of existing) {
+    if (byId.has(f.id) || officialUpstreams.has(upstreamKey(f))) continue;
+    byId.set(f.id, f);
+  }
   const merged = [...byId.values()];
 
   const { catalog, site: siteOut } = buildArtifacts({

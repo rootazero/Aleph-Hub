@@ -7,7 +7,7 @@ function sourceRank(via: string): number {
   const i = (CONFIG.SOURCE_PRIORITY as readonly string[]).indexOf(id);
   return i === -1 ? CONFIG.SOURCE_PRIORITY.length : i;
 }
-function fullNameFromUrl(url: string): string | null {
+export function fullNameFromUrl(url: string): string | null {
   const m = url.match(/github\.com\/([^/]+)\/([^/#?]+)/i);
   return m ? `${m[1]}/${m[2].replace(/\.git$/, "")}` : null;
 }
