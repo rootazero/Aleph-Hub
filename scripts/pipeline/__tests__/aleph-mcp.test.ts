@@ -50,7 +50,7 @@ describe("loadAlephMcp", () => {
       expect(key?.secret).toBe(true);
     }
     expect(s.install_cmd).toContain("npx");
-    expect(s.install_cmd).toContain("aleph-siliconflow-mcp@0.2.0");
+    expect(s.install_cmd).toContain("aleph-siliconflow-mcp@0.2.1");
   });
 
   it("returns [] when the seed is absent", () => {

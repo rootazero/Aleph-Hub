@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 130,
-    "generated_at": "2026-06-23T08:44:52.186Z",
-    "content_hash": "sha256:63318dca2c486d5bf95a329bc639331ff6940a035b2051deedd4e9fe42ef2e45"
+    "entry_count": 131,
+    "generated_at": "2026-06-23T08:57:49.664Z",
+    "content_hash": "sha256:263d2a9587cf8ffd253166b9aeb52bc3fb99faba918962f416cdf113baeef658"
   },
   "entries": [
     {
@@ -1159,7 +1159,7 @@
         "command": "npx",
         "args": [
           "-y",
-          "aleph-siliconflow-mcp@0.2.0"
+          "aleph-siliconflow-mcp@0.2.1"
         ],
         "env": [
           {
@@ -1194,6 +1194,58 @@
       "tags": [
         "image",
         "video",
+        "tts",
+        "model-provider"
+      ],
+      "via": "aleph-official"
+    },
+    {
+      "id": "aleph-hub:t8star",
+      "kind": "mcp",
+      "category": "design",
+      "name": "T8star 中转",
+      "description": "Aleph's official T8star media-generation MCP — image / TTS over an npx stdio process against the T8star model relay.",
+      "repo_url": "https://github.com/rootazero/Aleph-mcp/tree/main/t8star",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "aleph-t8star-mcp@0.2.1"
+        ],
+        "env": [
+          {
+            "name": "T8STAR_API_KEY",
+            "description": "T8star API 密钥（ai.t8star.org）",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "T8STAR_API_BASE",
+            "description": "可选：覆盖区域端点（默认 https://ai.t8star.org/v1；可改 .cn 镜像）",
+            "required": false,
+            "secret": false,
+            "default": "https://ai.t8star.org/v1"
+          },
+          {
+            "name": "T8STAR_IMAGE_DIR",
+            "description": "可选：本地保存生成的图片目录（否则仅返回临时 URL；部分模型返回 base64 需落盘）",
+            "required": false,
+            "secret": false
+          },
+          {
+            "name": "T8STAR_AUDIO_DIR",
+            "description": "可选：音频保存目录（默认同 T8STAR_IMAGE_DIR）",
+            "required": false,
+            "secret": false
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "rootazero",
+      "tags": [
+        "image",
         "tts",
         "model-provider"
       ],

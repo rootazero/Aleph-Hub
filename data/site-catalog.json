@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 130,
-    "generated_at": "2026-06-23T08:44:52.186Z",
-    "content_hash": "sha256:63318dca2c486d5bf95a329bc639331ff6940a035b2051deedd4e9fe42ef2e45"
+    "entry_count": 131,
+    "generated_at": "2026-06-23T08:57:49.664Z",
+    "content_hash": "sha256:263d2a9587cf8ffd253166b9aeb52bc3fb99faba918962f416cdf113baeef658"
   },
   "entries": [
     {
@@ -1763,7 +1763,7 @@
         "command": "npx",
         "args": [
           "-y",
-          "aleph-siliconflow-mcp@0.2.0"
+          "aleph-siliconflow-mcp@0.2.1"
         ],
         "env": [
           {
@@ -1812,9 +1812,74 @@
       "spark": [],
       "license": "MIT",
       "updated": "2026-06-23",
-      "install_cmd": "npx -y aleph-siliconflow-mcp@0.2.0",
+      "install_cmd": "npx -y aleph-siliconflow-mcp@0.2.1",
       "sec_note_zh": "需 SILICONFLOW_API_KEY；经 npx 拉起 Node 子进程，调用 SiliconFlow 付费媒体 API。生成的媒体 URL 很快过期 —— 设置 SILICONFLOW_IMAGE_DIR 可本地留存。",
       "sec_note_en": "Needs a SILICONFLOW_API_KEY; runs an npx-spawned Node process and calls SiliconFlow's paid media APIs. Generated media URLs expire quickly — set SILICONFLOW_IMAGE_DIR to persist assets."
+    },
+    {
+      "id": "aleph-hub:t8star",
+      "kind": "mcp",
+      "category": "design",
+      "name": "T8star 中转",
+      "description": "Aleph's official T8star media-generation MCP — image / TTS over an npx stdio process against the T8star model relay.",
+      "repo_url": "https://github.com/rootazero/Aleph-mcp/tree/main/t8star",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "aleph-t8star-mcp@0.2.1"
+        ],
+        "env": [
+          {
+            "name": "T8STAR_API_KEY",
+            "description": "T8star API 密钥（ai.t8star.org）",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "T8STAR_API_BASE",
+            "description": "可选：覆盖区域端点（默认 https://ai.t8star.org/v1；可改 .cn 镜像）",
+            "required": false,
+            "secret": false,
+            "default": "https://ai.t8star.org/v1"
+          },
+          {
+            "name": "T8STAR_IMAGE_DIR",
+            "description": "可选：本地保存生成的图片目录（否则仅返回临时 URL；部分模型返回 base64 需落盘）",
+            "required": false,
+            "secret": false
+          },
+          {
+            "name": "T8STAR_AUDIO_DIR",
+            "description": "可选：音频保存目录（默认同 T8STAR_IMAGE_DIR）",
+            "required": false,
+            "secret": false
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "rootazero",
+      "tags": [
+        "image",
+        "tts",
+        "model-provider"
+      ],
+      "via": "aleph-official",
+      "description_zh": "Aleph 官方 T8star 媒体生成 MCP — 经 npx stdio 暴露图像 / 语音合成，对接 T8star 中转。",
+      "description_en": "Aleph's official T8star media-generation MCP — image / TTS over an npx stdio process against the T8star model relay.",
+      "long_zh": "Aleph 为 T8star（ai.t8star.org，OpenAI/Anthropic 兼容的模型中转）自建的一方 MCP。仅暴露媒体生成工具 —— generate_image / edit_image / generate_speech / list_models / get_balance —— 经 npx 拉起的 Node 子进程。对话模型走 Aleph 的 Provider 系统，不经此 MCP。视频 / Midjourney / Suno 为后续迭代。",
+      "long_en": "First-party MCP built by Aleph for T8star (ai.t8star.org), an OpenAI/Anthropic-compatible model relay. Exposes media-generation tools only — generate_image / edit_image / generate_speech / list_models / get_balance — via an npx-spawned Node process. Chat models go through Aleph's Provider system, not this MCP. Video / Midjourney / Suno are planned follow-ups.",
+      "cover_color": "#9E5B2E",
+      "stars": 0,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "install_cmd": "npx -y aleph-t8star-mcp@0.2.1",
+      "sec_note_zh": "需 T8STAR_API_KEY；经 npx 拉起 Node 子进程，调用 T8star 付费媒体 API。生成的图片 URL 会过期（部分模型返回 base64 需落盘）—— 设置 T8STAR_IMAGE_DIR 可本地留存。",
+      "sec_note_en": "Needs a T8STAR_API_KEY; runs an npx-spawned Node process and calls T8star's paid media APIs. Generated image URLs expire (some models return base64 that must be saved) — set T8STAR_IMAGE_DIR to persist assets."
     },
     {
       "id": "aleph-hub:microsoft/playwright-mcp",
