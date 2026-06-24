@@ -469,7 +469,7 @@
       "kind": "skill",
       "name": "CSV Data Summarizer",
       "author": "coffeefuelbump",
-      "category": "data",
+      "category": "developer",
       "tags": [
         "csv",
         "pandas",
@@ -1523,7 +1523,7 @@
       "kind": "skill",
       "name": "Crawl4AI",
       "author": "brettdavies",
-      "category": "data",
+      "category": "developer",
       "tags": [
         "scraping",
         "crawling",
@@ -1863,7 +1863,7 @@
       "kind": "skill",
       "name": "Dataset Generator",
       "author": "Bhanunamikaze",
-      "category": "data",
+      "category": "developer",
       "tags": [
         "dataset",
         "training-data",
@@ -1965,7 +1965,7 @@
       "kind": "skill",
       "name": "Business Analyst",
       "author": "Zuokaiqi",
-      "category": "data",
+      "category": "developer",
       "tags": [
         "data-analysis",
         "insights",
@@ -2033,7 +2033,7 @@
       "kind": "skill",
       "name": "Excel Hygiene",
       "author": "BayramAnnakov",
-      "category": "data",
+      "category": "developer",
       "tags": [
         "excel",
         "spreadsheet",
@@ -2339,7 +2339,7 @@
       "kind": "skill",
       "name": "Tufte Data Viz",
       "author": "caylent",
-      "category": "data",
+      "category": "developer",
       "tags": [
         "data-viz",
         "charts",

@@ -2,13 +2,13 @@
 import { useState } from "react";
 import type { ExtensionKindT } from "@/contract/types";
 import { useLang } from "@/components/providers/LangProvider";
-import { STRINGS } from "@/lib/i18n";
+import { STRINGS, catLabel } from "@/lib/i18n";
 import { getAll } from "@/lib/catalog";
 import { Card } from "@/components/Card";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-const CATS = ["search", "developer", "data", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
+const CATS = ["search", "developer", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
 // The three install kinds (matches the catalog axes; content kinds live on /c/prompt etc.).
 const KINDS: { key: ExtensionKindT; zh: string; en: string }[] = [
   { key: "skill", zh: "技能", en: "Skills" },
@@ -55,7 +55,7 @@ export function AllView() {
         </section>
         <section style={{ display: "flex", gap: 10, padding: "6px 0 28px", flexWrap: "wrap" }}>
           {["all", ...CATS].map((c) => (
-            <span key={c} onClick={() => setCat(c)} style={chip(cat === c)}>{c === "all" ? t.allCats : c}</span>
+            <span key={c} onClick={() => setCat(c)} style={chip(cat === c)}>{catLabel(c, lang)}</span>
           ))}
         </section>
         {visible.length ? (

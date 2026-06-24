@@ -2,7 +2,7 @@
   "full_name": "coffeefuelbump/csv-data-summarizer-claude-skill",
   "name": "CSV Data Summarizer",
   "kind": "skill",
-  "category": "data",
+  "category": "developer",
   "tags": [
     "csv",
     "pandas",

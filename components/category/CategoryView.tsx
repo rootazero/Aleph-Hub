@@ -3,7 +3,7 @@ import { useState } from "react";
 import type { ExtensionKindT } from "@/contract/types";
 import type { ContentKindT } from "@/contract/content-schema";
 import { useLang } from "@/components/providers/LangProvider";
-import { STRINGS } from "@/lib/i18n";
+import { STRINGS, catLabel } from "@/lib/i18n";
 import { getByKind } from "@/lib/catalog";
 import { getContentByKind } from "@/lib/content";
 import type { AnySiteEntry } from "@/lib/site";
@@ -12,7 +12,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 type AnyKind = ExtensionKindT | ContentKindT;
-const CATS = ["search", "developer", "data", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
+const CATS = ["search", "developer", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
 const KIND_TITLE: Record<AnyKind, string> = { skill: "Agent Skills", plugin: "Plugins", mcp: "MCP Servers", prompt: "Prompts", workflow: "Workflows" };
 function isContentKind(k: AnyKind): k is ContentKindT { return k === "prompt" || k === "workflow"; }
 
@@ -45,7 +45,7 @@ export function CategoryView({ kind }: { kind: AnyKind }) {
         </section>
         <section style={{ display: "flex", gap: 10, padding: "18px 0 28px", flexWrap: "wrap" }}>
           {["all", ...CATS].map((c) => (
-            <span key={c} onClick={() => setCat(c)} style={{ fontSize: 12, padding: "8px 18px", borderRadius: 20, cursor: "pointer", color: cat === c ? "#FBF6EE" : "var(--ink-soft)", background: cat === c ? "var(--orange)" : "var(--panel)", border: cat === c ? "none" : "1px solid var(--hair)" }}>{c === "all" ? t.allCats : c}</span>
+            <span key={c} onClick={() => setCat(c)} style={{ fontSize: 12, padding: "8px 18px", borderRadius: 20, cursor: "pointer", color: cat === c ? "#FBF6EE" : "var(--ink-soft)", background: cat === c ? "var(--orange)" : "var(--panel)", border: cat === c ? "none" : "1px solid var(--hair)" }}>{catLabel(c, lang)}</span>
           ))}
         </section>
         {visible.length ? (

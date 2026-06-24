@@ -31,7 +31,7 @@ export const STRINGS: Record<Lang, Strings> = {
     indexTitle: "目录 · Index", browseByCat: "按类别浏览 →", trendingTitle: "本周趋势 · Trending", collectionTitle: "精选合辑 · Collection",
     newTag: "新", pluginsInvite: "插件目录正在筹备中，欢迎把你的插件提交进来一起共建。", submitPlugin: "提交插件", comingSoon: "即将上线",
     viewAll: "查看全部", catalogKicker: "目录 · Catalog", results: "个结果", sortBy: "排序", sortTrend: "🔥 趋势",
-    noResults: "没有找到匹配的项目，换个关键词试试。", allCats: "全部项目", back: "← 返回", tabOverview: "概览", tabSecurity: "安全",
+    noResults: "没有找到匹配的项目，换个关键词试试。", allCats: "全部", back: "← 返回", tabOverview: "概览", tabSecurity: "安全",
     secScan: "已通过安全扫描", secReview: "人工复核中", secReviewNote: "每个项目纳入前都会经过审核者人工复核；社区项目请在安装前阅读源码。",
     mBy: "作者", mCategory: "分类", mStars: "Stars", mLicense: "许可", mUpdated: "更新于",
     viewGithub: "在 GitHub 查看", related: "相关推荐", copy: "复制安装命令", copied: "已复制 ✓",
@@ -50,7 +50,7 @@ export const STRINGS: Record<Lang, Strings> = {
     indexTitle: "Index", browseByCat: "Browse by category →", trendingTitle: "Trending this week", collectionTitle: "Editor's Collection",
     newTag: "New", pluginsInvite: "The plugin shelf is being curated. Submit yours to help build it out.", submitPlugin: "Submit a plugin", comingSoon: "Coming soon",
     viewAll: "View all", catalogKicker: "Catalog", results: "results", sortBy: "Sort", sortTrend: "🔥 Trending",
-    noResults: "No matching projects — try another keyword.", allCats: "All projects", back: "← Back", tabOverview: "Overview", tabSecurity: "Security",
+    noResults: "No matching projects — try another keyword.", allCats: "All", back: "← Back", tabOverview: "Overview", tabSecurity: "Security",
     secScan: "Passed security scan", secReview: "Human review", secReviewNote: "Every project is human-reviewed before inclusion; read the source of community projects before installing.",
     mBy: "By", mCategory: "Category", mStars: "Stars", mLicense: "License", mUpdated: "Updated",
     viewGithub: "View on GitHub", related: "Related", copy: "Copy install command", copied: "Copied ✓",
@@ -65,8 +65,10 @@ export const STRINGS: Record<Lang, Strings> = {
 
 // Human labels for the 13 contract categories (mockup has no catName for these).
 export const CATEGORY_LABELS: Record<ExtensionCategoryT, { zh: string; en: string }> = {
-  search: { zh: "搜索", en: "Search" },
-  developer: { zh: "开发者", en: "Developer" },
+  search: { zh: "网络", en: "Web" },
+  developer: { zh: "开发", en: "Developer" },
+  // Tombstone: "data" folded into "developer" in the display taxonomy. Kept here
+  // (and in contract/schema.ts) only so legacy/cached "data" values still validate.
   data: { zh: "数据", en: "Data" },
   productivity: { zh: "效率", en: "Productivity" },
   writing: { zh: "写作", en: "Writing" },
@@ -79,6 +81,14 @@ export const CATEGORY_LABELS: Record<ExtensionCategoryT, { zh: string; en: strin
   utilities: { zh: "工具", en: "Utilities" },
   other: { zh: "其他", en: "Other" },
 };
+
+// Bilingual label for a category filter value, including the "all" pseudo-category.
+// Falls back to the raw value for anything outside the known taxonomy (defensive).
+export function catLabel(c: string, lang: Lang): string {
+  if (c === "all") return STRINGS[lang].allCats;
+  const entry = CATEGORY_LABELS[c as ExtensionCategoryT];
+  return entry ? entry[lang] : c;
+}
 
 // Display names for the two content kinds (used by the home index region + kind pages).
 export const CONTENT_KIND_LABELS: Record<ContentKindT, { zh: string; en: string }> = {
