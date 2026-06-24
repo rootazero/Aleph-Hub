@@ -1,0 +1,72 @@
+"use client";
+import { useState } from "react";
+import type { ExtensionKindT } from "@/contract/types";
+import { useLang } from "@/components/providers/LangProvider";
+import { STRINGS } from "@/lib/i18n";
+import { getAll } from "@/lib/catalog";
+import { Card } from "@/components/Card";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+
+const CATS = ["search", "developer", "data", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
+// The three install kinds (matches the catalog axes; content kinds live on /c/prompt etc.).
+const KINDS: { key: ExtensionKindT; zh: string; en: string }[] = [
+  { key: "skill", zh: "技能", en: "Skills" },
+  { key: "plugin", zh: "插件", en: "Plugins" },
+  { key: "mcp", zh: "MCP", en: "MCP" },
+];
+
+// Unified browse over the full install catalog: search + kind + category, one grid.
+export function AllView() {
+  const { lang } = useLang();
+  const t = STRINGS[lang];
+  const [q, setQ] = useState("");
+  const [kind, setKind] = useState<string>("all");
+  const [cat, setCat] = useState<string>("all");
+  const all = getAll();
+  const query = q.trim().toLowerCase();
+  const visible = all
+    .filter((e) => kind === "all" || e.kind === kind)
+    .filter((e) => cat === "all" || e.category === cat)
+    .filter((e) => !query || `${e.name} ${e.description_en} ${e.description_zh} ${e.tags.join(" ")}`.toLowerCase().includes(query));
+  const chip = (active: boolean) => ({ fontSize: 12, padding: "8px 18px", borderRadius: 20, cursor: "pointer", color: active ? "#FBF6EE" : "var(--ink-soft)", background: active ? "var(--orange)" : "var(--panel)", border: active ? "none" : "1px solid var(--hair)" });
+  return (
+    <>
+      <Header />
+      <main style={{ maxWidth: 1480, margin: "0 auto", padding: "0 48px 76px" }}>
+        <section style={{ padding: "56px 0 28px", borderBottom: "1px solid var(--hair-strong)" }}>
+          <div style={{ fontSize: 11, letterSpacing: ".24em", textTransform: "uppercase", color: "var(--orange)", marginBottom: 18, fontWeight: 600 }}>{t.catalogKicker}</div>
+          <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 24 }}>
+            <h1 style={{ fontFamily: "var(--font-cormorant), var(--font-noto-serif-sc), serif", fontWeight: 500, fontSize: 60, lineHeight: 1, margin: 0 }}>{t.allCats}</h1>
+            <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 14, color: "var(--ink-soft)", paddingBottom: 8 }}>{visible.length} {t.results}</span>
+          </div>
+        </section>
+        <section style={{ display: "flex", gap: 16, padding: "22px 0", borderBottom: "1px solid var(--hair)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, flex: 1, background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 2, padding: "11px 15px" }}>
+            <span style={{ color: "var(--taupe)" }}>⌕</span>
+            <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t.searchPh} style={{ flex: 1, border: "none", outline: "none", background: "transparent", fontSize: 14, color: "var(--ink)" }} />
+          </div>
+        </section>
+        <section style={{ display: "flex", gap: 10, padding: "18px 0 6px", flexWrap: "wrap" }}>
+          <span onClick={() => setKind("all")} style={chip(kind === "all")}>{t.allCats}</span>
+          {KINDS.map((k) => (
+            <span key={k.key} onClick={() => setKind(k.key)} style={chip(kind === k.key)}>{lang === "zh" ? k.zh : k.en}</span>
+          ))}
+        </section>
+        <section style={{ display: "flex", gap: 10, padding: "6px 0 28px", flexWrap: "wrap" }}>
+          {["all", ...CATS].map((c) => (
+            <span key={c} onClick={() => setCat(c)} style={chip(cat === c)}>{c === "all" ? t.allCats : c}</span>
+          ))}
+        </section>
+        {visible.length ? (
+          <section style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
+            {visible.map((e) => <Card key={e.id} entry={e} />)}
+          </section>
+        ) : (
+          <div style={{ textAlign: "center", padding: "60px 0", color: "var(--taupe)", fontSize: 15 }}>{t.noResults}</div>
+        )}
+      </main>
+      <Footer />
+    </>
+  );
+}

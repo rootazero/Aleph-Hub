@@ -19,7 +19,7 @@ export function Hero() {
       <p style={{ fontSize: 17, lineHeight: 1.62, color: "var(--ink-soft)", maxWidth: "46ch", margin: "0 0 32px" }}>{t.heroSub}</p>
       <div style={{ display: "flex", gap: 12 }}>
         <Link href="/c/skill" style={{ ...cta, color: "var(--bg)", background: "var(--ink)" }}>{t.ctaExplore}</Link>
-        <Link href="/c/mcp" style={{ ...cta, color: "var(--ink)", border: "1px solid var(--hair-strong)" }}>{ctaAll}</Link>
+        <Link href="/all" style={{ ...cta, color: "var(--ink)", border: "1px solid var(--hair-strong)" }}>{ctaAll}</Link>
       </div>
     </div>
   );
