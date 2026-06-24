@@ -1,0 +1,23 @@
+{
+  "full_name": "Leonxlnx/taste-skill",
+  "name": "Taste Skill",
+  "kind": "plugin",
+  "category": "design",
+  "tags": [
+    "frontend",
+    "design",
+    "ui",
+    "taste",
+    "anti-slop"
+  ],
+  "description_en": "A Claude Code plugin that gives coding agents design taste—a bundle of frontend skills (brutalist, minimalist, soft, redesign, stitch, brandkit, image-to-code, imagegen, and more) to stop agents from generating boring, generic UI.",
+  "description_zh": "一个 Claude Code 插件，为编码 agent 注入设计「品味」——打包多个前端技能(brutalist、minimalist、soft、redesign、stitch、brandkit、image-to-code、imagegen 等)，让 agent 不再生成乏味、千篇一律的 UI。",
+  "long_en": "A Claude Code plugin packaging more than a dozen frontend-design skills, each invocable by name after install. It offers distinct aesthetic directions (brutalist, minimalist, soft, Swiss/stitch), brand-kit and redesign helpers, and image-to-code / image-generation workflows—steering agents toward deliberate, non-generic interfaces.",
+  "long_zh": "一个 Claude Code 插件，打包十多个前端设计技能，安装后每个均可按名调用。提供多种鲜明的美学方向(brutalist、minimalist、soft、瑞士/stitch)、品牌套件与重设计助手，以及 image-to-code / 图像生成工作流——引导 agent 做出有意图、不千篇一律的界面。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin bundling frontend-design skills. It guides UI generation and produces frontend code—review generated code before shipping.",
+  "sec_note_zh": "MIT 许可；作为 Claude Code 插件在本地运行，打包多个前端设计技能。它指导 UI 生成并产出前端代码——上线前请审阅生成的代码。"
+}

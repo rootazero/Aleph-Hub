@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 131,
-    "generated_at": "2026-06-24T07:05:08.136Z",
-    "content_hash": "sha256:c499ca7c0dc48bf8bacbaf26cf99c9e581a1399a88befaced49951fb808d16f2"
+    "entry_count": 134,
+    "generated_at": "2026-06-24T09:17:56.312Z",
+    "content_hash": "sha256:fa9d14f6d397570cbfc3711623455a6f137d8c9aeeb101b73d04c561103d1e11"
   },
   "entries": [
     {
@@ -5253,6 +5253,116 @@
       "install_cmd": "aleph add litprog-skill",
       "sec_note_zh": "在本地运行 Pandoc 并 tangle 文件;构建前请审阅生成的代码块。",
       "sec_note_en": "Runs Pandoc and tangles files locally; review generated code chunks before building."
+    },
+    {
+      "id": "aleph-hub:op7418/Humanizer-zh",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Humanizer (Chinese)",
+      "description": "A Chinese writing-quality editor that strips the tell-tale patterns of AI prose—clichés, three-part parallelism, vague attribution, em-dash overuse, formulaic structure—so text reads like a person, not a model. Ported from blader/humanizer, built on Wikipedia's \"signs of AI writing\".",
+      "repo_url": "https://github.com/op7418/Humanizer-zh",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/Humanizer-zh",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "op7418",
+      "tags": [
+        "chinese",
+        "writing-quality",
+        "editing",
+        "style"
+      ],
+      "via": "github:op7418",
+      "description_zh": "一个中文写作质量编辑器，去除 AI 文风的典型痕迹——套话、三段式排比、模糊归因、破折号滥用、八股结构，让文本读起来像有人在说话，而非模型在生成。译自 blader/humanizer，基于维基百科「AI 写作特征」。",
+      "description_en": "A Chinese writing-quality editor that strips the tell-tale patterns of AI prose—clichés, three-part parallelism, vague attribution, em-dash overuse, formulaic structure—so text reads like a person, not a model. Ported from blader/humanizer, built on Wikipedia's \"signs of AI writing\".",
+      "long_zh": "一个基于提示的编辑器，扫描文本中的 AI 写作模式并重写问题片段，同时保留原意、匹配预期语气。除了去除不良模式，还注入「人味」——观点、节奏变化、承认复杂性——让成稿读起来像真人所写。与 stop-slop-zh 同源。",
+      "long_en": "A prompt-based editor that scans text for AI writing patterns and rewrites the offending passages while preserving meaning and matching the intended tone. Beyond removing bad patterns it injects voice—opinions, varied rhythm, acknowledged complexity—so the result reads like real human writing. Same lineage as stop-slop-zh.",
+      "cover_color": "#86512C",
+      "stars": 11401,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-01-19",
+      "install_cmd": "aleph add Humanizer-zh",
+      "sec_note_zh": "一个基于提示的编辑技能，为可读性与文风重写文本；针对的是写作质量，而非规避 AI 检测器。请审阅改动以保持原意。",
+      "sec_note_en": "A prompt-based editing skill that rewrites text for readability and voice; it targets writing quality, not evading AI detectors. Review edits to preserve meaning."
+    },
+    {
+      "id": "aleph-hub:op7418/guizang-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Guizang Web PPT",
+      "description": "Generates single-file HTML horizontal-swipe slide decks in two looks—editorial \"magazine × e-ink\" (serif + WebGL fluid background) and Swiss International style (sans-serif + dot grid)—with chapter covers, big-type data slides, and image grids. By 歸藏 (Guizang).",
+      "repo_url": "https://github.com/op7418/guizang-ppt-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/guizang-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "op7418",
+      "tags": [
+        "ppt",
+        "presentation",
+        "html",
+        "web-deck",
+        "design"
+      ],
+      "via": "github:op7418",
+      "description_zh": "生成单文件 HTML 横向翻页 PPT，两种风格——「电子杂志 × 电子墨水」(衬线 + WebGL 流体背景)与「瑞士国际主义」(无衬线 + 网格点阵)，含章节幕封、数据大字报与图片网格。作者歸藏。",
+      "description_en": "Generates single-file HTML horizontal-swipe slide decks in two looks—editorial \"magazine × e-ink\" (serif + WebGL fluid background) and Swiss International style (sans-serif + dot grid)—with chapter covers, big-type data slides, and image grids. By 歸藏 (Guizang).",
+      "long_zh": "一个 agent 技能，产出自包含的 HTML 演示，提供两套可选视觉系统、键盘/滚轮/触屏翻页与 ESC 索引、Lucide 图标，以及 Motion One 入场动效(本地 + CDN 双保险)。面向线下分享、产品发布，以及任何需要杂志感或瑞士设计感的演讲。",
+      "long_en": "An agent skill that outputs a self-contained HTML presentation with two selectable visual systems, keyboard / wheel / touch navigation and an ESC index, Lucide icons, and Motion One entrance animations (local + CDN fallback). Aimed at offline talks, product launches, and any deck that needs an editorial or Swiss-design feel.",
+      "cover_color": "#C98A3C",
+      "stars": 18726,
+      "trend": null,
+      "spark": [],
+      "license": "AGPL-3.0",
+      "updated": "2026-06-02",
+      "install_cmd": "aleph add guizang-ppt-skill",
+      "sec_note_zh": "产出在浏览器中渲染的自包含 HTML 演示；从 CDN 加载 Lucide 图标与 Motion One，并自带本地回退。采用 AGPL-3.0(copyleft)许可——再分发前请确认许可条款。",
+      "sec_note_en": "Produces a self-contained HTML deck rendered in the browser; pulls Lucide icons and Motion One from a CDN with a bundled local fallback. Licensed AGPL-3.0 (copyleft)—review the license terms before redistribution."
+    },
+    {
+      "id": "aleph-hub:Leonxlnx/taste-skill",
+      "kind": "plugin",
+      "category": "design",
+      "name": "Taste Skill",
+      "description": "A Claude Code plugin that gives coding agents design taste—a bundle of frontend skills (brutalist, minimalist, soft, redesign, stitch, brandkit, image-to-code, imagegen, and more) to stop agents from generating boring, generic UI.",
+      "repo_url": "https://github.com/Leonxlnx/taste-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Leonxlnx/taste-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Leonxlnx",
+      "tags": [
+        "frontend",
+        "design",
+        "ui",
+        "taste",
+        "anti-slop"
+      ],
+      "via": "github:Leonxlnx",
+      "description_zh": "一个 Claude Code 插件，为编码 agent 注入设计「品味」——打包多个前端技能(brutalist、minimalist、soft、redesign、stitch、brandkit、image-to-code、imagegen 等)，让 agent 不再生成乏味、千篇一律的 UI。",
+      "description_en": "A Claude Code plugin that gives coding agents design taste—a bundle of frontend skills (brutalist, minimalist, soft, redesign, stitch, brandkit, image-to-code, imagegen, and more) to stop agents from generating boring, generic UI.",
+      "long_zh": "一个 Claude Code 插件，打包十多个前端设计技能，安装后每个均可按名调用。提供多种鲜明的美学方向(brutalist、minimalist、soft、瑞士/stitch)、品牌套件与重设计助手，以及 image-to-code / 图像生成工作流——引导 agent 做出有意图、不千篇一律的界面。",
+      "long_en": "A Claude Code plugin packaging more than a dozen frontend-design skills, each invocable by name after install. It offers distinct aesthetic directions (brutalist, minimalist, soft, Swiss/stitch), brand-kit and redesign helpers, and image-to-code / image-generation workflows—steering agents toward deliberate, non-generic interfaces.",
+      "cover_color": "#7E4A2A",
+      "stars": 49935,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-20",
+      "install_cmd": "aleph add taste-skill",
+      "sec_note_zh": "MIT 许可；作为 Claude Code 插件在本地运行，打包多个前端设计技能。它指导 UI 生成并产出前端代码——上线前请审阅生成的代码。",
+      "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin bundling frontend-design skills. It guides UI generation and produces frontend code—review generated code before shipping."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "full_name": "op7418/guizang-ppt-skill",
+  "name": "Guizang Web PPT",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "ppt",
+    "presentation",
+    "html",
+    "web-deck",
+    "design"
+  ],
+  "description_en": "Generates single-file HTML horizontal-swipe slide decks in two looks—editorial \"magazine × e-ink\" (serif + WebGL fluid background) and Swiss International style (sans-serif + dot grid)—with chapter covers, big-type data slides, and image grids. By 歸藏 (Guizang).",
+  "description_zh": "生成单文件 HTML 横向翻页 PPT，两种风格——「电子杂志 × 电子墨水」(衬线 + WebGL 流体背景)与「瑞士国际主义」(无衬线 + 网格点阵)，含章节幕封、数据大字报与图片网格。作者歸藏。",
+  "long_en": "An agent skill that outputs a self-contained HTML presentation with two selectable visual systems, keyboard / wheel / touch navigation and an ESC index, Lucide icons, and Motion One entrance animations (local + CDN fallback). Aimed at offline talks, product launches, and any deck that needs an editorial or Swiss-design feel.",
+  "long_zh": "一个 agent 技能，产出自包含的 HTML 演示，提供两套可选视觉系统、键盘/滚轮/触屏翻页与 ESC 索引、Lucide 图标，以及 Motion One 入场动效(本地 + CDN 双保险)。面向线下分享、产品发布，以及任何需要杂志感或瑞士设计感的演讲。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/op7418/guizang-ppt-skill"
+  },
+  "sec_note_en": "Produces a self-contained HTML deck rendered in the browser; pulls Lucide icons and Motion One from a CDN with a bundled local fallback. Licensed AGPL-3.0 (copyleft)—review the license terms before redistribution.",
+  "sec_note_zh": "产出在浏览器中渲染的自包含 HTML 演示；从 CDN 加载 Lucide 图标与 Motion One，并自带本地回退。采用 AGPL-3.0(copyleft)许可——再分发前请确认许可条款。"
+}

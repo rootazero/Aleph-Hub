@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 131,
-    "generated_at": "2026-06-24T07:05:08.136Z",
-    "content_hash": "sha256:c499ca7c0dc48bf8bacbaf26cf99c9e581a1399a88befaced49951fb808d16f2"
+    "entry_count": 134,
+    "generated_at": "2026-06-24T09:17:56.312Z",
+    "content_hash": "sha256:fa9d14f6d397570cbfc3711623455a6f137d8c9aeeb101b73d04c561103d1e11"
   },
   "entries": [
     {
@@ -3151,6 +3151,77 @@
         "pandoc"
       ],
       "via": "hermes-atlas"
+    },
+    {
+      "id": "aleph-hub:op7418/Humanizer-zh",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Humanizer (Chinese)",
+      "description": "A Chinese writing-quality editor that strips the tell-tale patterns of AI prose—clichés, three-part parallelism, vague attribution, em-dash overuse, formulaic structure—so text reads like a person, not a model. Ported from blader/humanizer, built on Wikipedia's \"signs of AI writing\".",
+      "repo_url": "https://github.com/op7418/Humanizer-zh",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/Humanizer-zh",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "op7418",
+      "tags": [
+        "chinese",
+        "writing-quality",
+        "editing",
+        "style"
+      ],
+      "via": "github:op7418"
+    },
+    {
+      "id": "aleph-hub:op7418/guizang-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Guizang Web PPT",
+      "description": "Generates single-file HTML horizontal-swipe slide decks in two looks—editorial \"magazine × e-ink\" (serif + WebGL fluid background) and Swiss International style (sans-serif + dot grid)—with chapter covers, big-type data slides, and image grids. By 歸藏 (Guizang).",
+      "repo_url": "https://github.com/op7418/guizang-ppt-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/guizang-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "op7418",
+      "tags": [
+        "ppt",
+        "presentation",
+        "html",
+        "web-deck",
+        "design"
+      ],
+      "via": "github:op7418"
+    },
+    {
+      "id": "aleph-hub:Leonxlnx/taste-skill",
+      "kind": "plugin",
+      "category": "design",
+      "name": "Taste Skill",
+      "description": "A Claude Code plugin that gives coding agents design taste—a bundle of frontend skills (brutalist, minimalist, soft, redesign, stitch, brandkit, image-to-code, imagegen, and more) to stop agents from generating boring, generic UI.",
+      "repo_url": "https://github.com/Leonxlnx/taste-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Leonxlnx/taste-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Leonxlnx",
+      "tags": [
+        "frontend",
+        "design",
+        "ui",
+        "taste",
+        "anti-slop"
+      ],
+      "via": "github:Leonxlnx"
     }
   ]
 }

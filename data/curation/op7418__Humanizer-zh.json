@@ -1,0 +1,22 @@
+{
+  "full_name": "op7418/Humanizer-zh",
+  "name": "Humanizer (Chinese)",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "chinese",
+    "writing-quality",
+    "editing",
+    "style"
+  ],
+  "description_en": "A Chinese writing-quality editor that strips the tell-tale patterns of AI prose—clichés, three-part parallelism, vague attribution, em-dash overuse, formulaic structure—so text reads like a person, not a model. Ported from blader/humanizer, built on Wikipedia's \"signs of AI writing\".",
+  "description_zh": "一个中文写作质量编辑器，去除 AI 文风的典型痕迹——套话、三段式排比、模糊归因、破折号滥用、八股结构，让文本读起来像有人在说话，而非模型在生成。译自 blader/humanizer，基于维基百科「AI 写作特征」。",
+  "long_en": "A prompt-based editor that scans text for AI writing patterns and rewrites the offending passages while preserving meaning and matching the intended tone. Beyond removing bad patterns it injects voice—opinions, varied rhythm, acknowledged complexity—so the result reads like real human writing. Same lineage as stop-slop-zh.",
+  "long_zh": "一个基于提示的编辑器，扫描文本中的 AI 写作模式并重写问题片段，同时保留原意、匹配预期语气。除了去除不良模式，还注入「人味」——观点、节奏变化、承认复杂性——让成稿读起来像真人所写。与 stop-slop-zh 同源。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/op7418/Humanizer-zh"
+  },
+  "sec_note_en": "A prompt-based editing skill that rewrites text for readability and voice; it targets writing quality, not evading AI detectors. Review edits to preserve meaning.",
+  "sec_note_zh": "一个基于提示的编辑技能，为可读性与文风重写文本；针对的是写作质量，而非规避 AI 检测器。请审阅改动以保持原意。"
+}
