@@ -1,29 +1,37 @@
 "use client";
 import { useState } from "react";
 import type { ExtensionKindT } from "@/contract/types";
+import type { ContentKindT } from "@/contract/content-schema";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, catLabel } from "@/lib/i18n";
 import { getAll } from "@/lib/catalog";
+import { getAllContent } from "@/lib/content";
+import type { AnySiteEntry } from "@/lib/site";
 import { Card } from "@/components/Card";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 const CATS = ["search", "developer", "productivity", "writing", "communication", "knowledge", "files", "design", "automation", "finance", "utilities", "other"];
-// The three install kinds (matches the catalog axes; content kinds live on /c/prompt etc.).
-const KINDS: { key: ExtensionKindT; zh: string; en: string }[] = [
+// All five browse kinds: the three install kinds plus the two content kinds
+// (prompt|workflow). The content axes are wired up ahead of having entries, so the
+// filters appear now and light up automatically once content lands.
+type AnyKind = ExtensionKindT | ContentKindT;
+const KINDS: { key: AnyKind; zh: string; en: string }[] = [
   { key: "skill", zh: "技能", en: "Skills" },
   { key: "plugin", zh: "插件", en: "Plugins" },
   { key: "mcp", zh: "MCP", en: "MCP" },
+  { key: "prompt", zh: "提示词", en: "Prompts" },
+  { key: "workflow", zh: "工作流", en: "Workflows" },
 ];
 
-// Unified browse over the full install catalog: search + kind + category, one grid.
+// Unified browse over install + content catalogs: search + kind + category, one grid.
 export function AllView() {
   const { lang } = useLang();
   const t = STRINGS[lang];
   const [q, setQ] = useState("");
   const [kind, setKind] = useState<string>("all");
   const [cat, setCat] = useState<string>("all");
-  const all = getAll();
+  const all: AnySiteEntry[] = [...getAll(), ...getAllContent()];
   const query = q.trim().toLowerCase();
   const visible = all
     .filter((e) => kind === "all" || e.kind === kind)
