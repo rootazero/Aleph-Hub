@@ -35,10 +35,13 @@ export async function curate(
   const safeName = safeOrNull(c.name);
   if (!safeEn || !safeZh || !safeName) return null;
 
-  // Re-infer install_spec locally (the record's spec is only a hint).
+  // Re-infer install_spec locally (the record's spec is only a hint). For a git_dir
+  // skill/plugin we still honor a curator-provided subdir (the skill may live in a repo subdir).
+  const hint = record.install_spec as { type?: string; subdir?: string | null } | null | undefined;
+  const subdir = hint?.type === "git_dir" ? hint.subdir ?? null : null;
   const spec = inferInstallSpec(c.kind, {
     repo_url: cand.repo_url, owner: cand.owner, repo: cand.repo, default_branch: meta.default_branch,
-    readme, packageJson,
+    readme, packageJson, subdir,
   });
   if (!spec) return null; // §4.7 stage-1 drop
 

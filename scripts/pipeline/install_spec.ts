@@ -4,6 +4,7 @@ import type { InstallSpecT, ExtensionKindT } from "@/contract/types";
 export interface InferCtx {
   repo_url: string; owner: string; repo: string; default_branch: string;
   readme: string; packageJson?: string | null;
+  subdir?: string | null;   // curator hint: skill/plugin lives in a repo subdirectory
 }
 
 // Match `npx -y <pkg>` / `uvx <pkg>` / `node <entry>` in fenced or inline code.
@@ -44,8 +45,12 @@ export function inferInstallSpec(kind: ExtensionKindT, ctx: InferCtx): InstallSp
     }
     return null; // no install signal for an mcp repo → drop later
   }
-  // skill / plugin → git_dir
-  const parsed = InstallSpec.safeParse({ type: "git_dir", git_url: ctx.repo_url, git_ref: ctx.default_branch });
+  // skill / plugin → git_dir. Honor a curator-provided subdir so the emitted spec points at
+  // the skill folder (e.g. agent_reach/skill), not the repo root.
+  const parsed = InstallSpec.safeParse({
+    type: "git_dir", git_url: ctx.repo_url, git_ref: ctx.default_branch,
+    ...(ctx.subdir ? { subdir: ctx.subdir } : {}),
+  });
   return parsed.success ? parsed.data : null;
 }
 

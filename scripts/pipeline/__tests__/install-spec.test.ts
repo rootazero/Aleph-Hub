@@ -17,6 +17,10 @@ describe("install_spec inference", () => {
     const spec = inferInstallSpec("skill", { ...base, readme: "Clone and load." });
     expect(spec).toEqual({ type: "git_dir", git_url: "https://github.com/acme/foo", git_ref: "main" });
   });
+  it("honors a curator-provided subdir for git_dir skills/plugins", () => {
+    const spec = inferInstallSpec("skill", { ...base, readme: "Clone and load.", subdir: "pkg/skill" });
+    expect(spec).toEqual({ type: "git_dir", git_url: "https://github.com/acme/foo", git_ref: "main", subdir: "pkg/skill" });
+  });
   it("returns null when no install signal is found for an mcp repo", () => {
     expect(inferInstallSpec("mcp", { ...base, readme: "A library with no server entrypoint documented." })).toBeNull();
   });

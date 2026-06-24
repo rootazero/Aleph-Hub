@@ -41,4 +41,14 @@ describe("curate", () => {
     const e = await curate(bare, meta, record(), { registry, gh });
     expect(e).toBeNull();
   });
+  it("honors a curator subdir for a git_dir skill", async () => {
+    const skillCand = { ...cand, raw: { readme: "Clone and load." } };
+    const rec = record({
+      kind: "skill",
+      install_spec: { type: "git_dir", git_url: "https://github.com/acme/foo", subdir: "pkg/skill" },
+    });
+    const e = await curate(skillCand, meta, rec, { registry, gh });
+    expect(e).not.toBeNull();
+    expect(e!.install_spec).toMatchObject({ type: "git_dir", subdir: "pkg/skill" });
+  });
 });
