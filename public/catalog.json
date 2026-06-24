@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 131,
-    "generated_at": "2026-06-23T09:20:09.575Z",
-    "content_hash": "sha256:bff1adb33312c0405afe510ec683040396ea8004974b588ccf071a5b33b2ab4e"
+    "generated_at": "2026-06-24T07:05:08.136Z",
+    "content_hash": "sha256:c499ca7c0dc48bf8bacbaf26cf99c9e581a1399a88befaced49951fb808d16f2"
   },
   "entries": [
     {
@@ -1641,6 +1641,28 @@
       "via": "github:tt-a1i"
     },
     {
+      "id": "aleph-hub:nolangz/pixel2motion",
+      "kind": "skill",
+      "category": "design",
+      "name": "Pixel2Motion",
+      "description": "Turn raster logos into smooth animated SVGs.",
+      "repo_url": "https://github.com/nolangz/pixel2motion",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/nolangz/pixel2motion",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "nolangz",
+      "tags": [
+        "animation",
+        "svg",
+        "logo"
+      ],
+      "via": "github:nolangz"
+    },
+    {
       "id": "aleph-hub:JuneYaooo/gpt-image2-ppt-skills",
       "kind": "skill",
       "category": "design",
@@ -1662,28 +1684,6 @@
         "presentation"
       ],
       "via": "github:JuneYaooo"
-    },
-    {
-      "id": "aleph-hub:nolangz/pixel2motion",
-      "kind": "skill",
-      "category": "design",
-      "name": "Pixel2Motion",
-      "description": "Turn raster logos into smooth animated SVGs.",
-      "repo_url": "https://github.com/nolangz/pixel2motion",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/nolangz/pixel2motion",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "nolangz",
-      "tags": [
-        "animation",
-        "svg",
-        "logo"
-      ],
-      "via": "github:nolangz"
     },
     {
       "id": "aleph-hub:dominikmartn/hue",
@@ -1958,6 +1958,29 @@
       "via": "github:Hao0321"
     },
     {
+      "id": "aleph-hub:agentenatalie/get-job.skill",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Get Job",
+      "description": "A full job-hunt agent: research what a target role actually wants, re-target your resume to it, and prep interviews bullet by bullet.",
+      "repo_url": "https://github.com/agentenatalie/get-job.skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/agentenatalie/get-job.skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "agentenatalie",
+      "tags": [
+        "job-search",
+        "resume",
+        "interview",
+        "career"
+      ],
+      "via": "github:agentenatalie"
+    },
+    {
       "id": "aleph-hub:axiaoge2/Apple-Hig-Designer",
       "kind": "skill",
       "category": "design",
@@ -1979,29 +2002,6 @@
         "hig"
       ],
       "via": "github:axiaoge2"
-    },
-    {
-      "id": "aleph-hub:uxKero/anydesign",
-      "kind": "skill",
-      "category": "design",
-      "name": "AnyDesign",
-      "description": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
-      "repo_url": "https://github.com/uxKero/anydesign",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/uxKero/anydesign",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "uxKero",
-      "tags": [
-        "design-system",
-        "figma",
-        "tokens",
-        "reverse-engineering"
-      ],
-      "via": "github:uxKero"
     },
     {
       "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
@@ -2027,50 +2027,27 @@
       "via": "github:handsomeZR-netizen"
     },
     {
-      "id": "aleph-hub:agentenatalie/get-job.skill",
+      "id": "aleph-hub:uxKero/anydesign",
       "kind": "skill",
-      "category": "productivity",
-      "name": "Get Job",
-      "description": "A full job-hunt agent: research what a target role actually wants, re-target your resume to it, and prep interviews bullet by bullet.",
-      "repo_url": "https://github.com/agentenatalie/get-job.skill",
+      "category": "design",
+      "name": "AnyDesign",
+      "description": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
+      "repo_url": "https://github.com/uxKero/anydesign",
       "trust_tier": "community",
       "install_spec": {
         "type": "git_dir",
-        "git_url": "https://github.com/agentenatalie/get-job.skill",
+        "git_url": "https://github.com/uxKero/anydesign",
         "git_ref": "main"
       },
       "requires_config": false,
-      "author": "agentenatalie",
+      "author": "uxKero",
       "tags": [
-        "job-search",
-        "resume",
-        "interview",
-        "career"
+        "design-system",
+        "figma",
+        "tokens",
+        "reverse-engineering"
       ],
-      "via": "github:agentenatalie"
-    },
-    {
-      "id": "aleph-hub:zy-zmc/tianming-skill",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Tianming Novel System",
-      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
-      "repo_url": "https://github.com/zy-zmc/tianming-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/zy-zmc/tianming-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "zy-zmc",
-      "tags": [
-        "novel",
-        "creative-writing",
-        "long-form",
-        "chinese"
-      ],
-      "via": "github:zy-zmc"
+      "via": "github:uxKero"
     },
     {
       "id": "aleph-hub:dososo/blcaptain-style-skill",
@@ -2094,6 +2071,29 @@
         "design"
       ],
       "via": "github:dososo"
+    },
+    {
+      "id": "aleph-hub:zy-zmc/tianming-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Tianming Novel System",
+      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
+      "repo_url": "https://github.com/zy-zmc/tianming-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zy-zmc/tianming-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zy-zmc",
+      "tags": [
+        "novel",
+        "creative-writing",
+        "long-form",
+        "chinese"
+      ],
+      "via": "github:zy-zmc"
     },
     {
       "id": "aleph-hub:swaylq/master-skill",
@@ -2280,29 +2280,6 @@
       "via": "github:Farenhytee"
     },
     {
-      "id": "aleph-hub:Adityapal67/context-graph-compressor",
-      "kind": "skill",
-      "category": "productivity",
-      "name": "Context Graph Compressor",
-      "description": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
-      "repo_url": "https://github.com/Adityapal67/context-graph-compressor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Adityapal67/context-graph-compressor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Adityapal67",
-      "tags": [
-        "context",
-        "handoff",
-        "compression",
-        "llm"
-      ],
-      "via": "github:Adityapal67"
-    },
-    {
       "id": "aleph-hub:brettdavies/crawl4ai-skill",
       "kind": "skill",
       "category": "data",
@@ -2324,6 +2301,29 @@
         "extraction"
       ],
       "via": "github:brettdavies"
+    },
+    {
+      "id": "aleph-hub:Adityapal67/context-graph-compressor",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Context Graph Compressor",
+      "description": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
+      "repo_url": "https://github.com/Adityapal67/context-graph-compressor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Adityapal67/context-graph-compressor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Adityapal67",
+      "tags": [
+        "context",
+        "handoff",
+        "compression",
+        "llm"
+      ],
+      "via": "github:Adityapal67"
     },
     {
       "id": "aleph-hub:echoVic/spec-flow",
@@ -2602,6 +2602,29 @@
       "via": "github:Hasasasa"
     },
     {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
+    },
+    {
       "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
       "kind": "skill",
       "category": "data",
@@ -2625,27 +2648,27 @@
       "via": "github:Zuokaiqi"
     },
     {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "category": "utilities",
+      "name": "Whisper Skill",
+      "description": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
+      "repo_url": "https://github.com/Mobiss11/Whisper-Skill",
       "trust_tier": "community",
       "install_spec": {
         "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_url": "https://github.com/Mobiss11/Whisper-Skill",
         "git_ref": "main"
       },
       "requires_config": false,
-      "author": "patrickstigler",
+      "author": "Mobiss11",
       "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
+        "whisper",
+        "transcription",
+        "subtitles",
+        "dictation"
       ],
-      "via": "github:patrickstigler"
+      "via": "github:Mobiss11"
     },
     {
       "id": "aleph-hub:dudaster/html2elementor",
@@ -2692,29 +2715,6 @@
         "audit"
       ],
       "via": "github:BayramAnnakov"
-    },
-    {
-      "id": "aleph-hub:Mobiss11/Whisper-Skill",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "Whisper Skill",
-      "description": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
-      "repo_url": "https://github.com/Mobiss11/Whisper-Skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Mobiss11/Whisper-Skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Mobiss11",
-      "tags": [
-        "whisper",
-        "transcription",
-        "subtitles",
-        "dictation"
-      ],
-      "via": "github:Mobiss11"
     },
     {
       "id": "aleph-hub:muxuuu/serenity-skill",
