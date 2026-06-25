@@ -50,9 +50,7 @@ export function groupPublishers(entries: AnySiteEntry[]): Publisher[] {
   const byAuthor = new Map<string, AnySiteEntry[]>();
   for (const e of entries) {
     if (!e.author) continue;
-    const list = byAuthor.get(e.author);
-    if (list) list.push(e);
-    else byAuthor.set(e.author, [e]);
+    byAuthor.set(e.author, [...(byAuthor.get(e.author) ?? []), e]);
   }
   const used = new Set<string>();
   const out: Publisher[] = [];
