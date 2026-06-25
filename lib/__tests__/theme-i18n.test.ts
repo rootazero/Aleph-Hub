@@ -18,7 +18,7 @@ describe("theme + i18n", () => {
   });
   it("has bilingual labels for all 13 categories", () => {
     expect(CATEGORY_LABELS.developer.en).toBe("Developer");
-    expect(CATEGORY_LABELS.developer.zh).toBe("开发者");
+    expect(CATEGORY_LABELS.developer.zh).toBe("开发");
     expect(Object.keys(CATEGORY_LABELS)).toHaveLength(13);
   });
 });
