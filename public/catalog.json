@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 135,
-    "generated_at": "2026-06-25T00:42:19.883Z",
-    "content_hash": "sha256:342b48d99f0baa9f944de781fc8000eb92ac190118872250b0ca82d240ebb531"
+    "entry_count": 136,
+    "generated_at": "2026-06-25T01:13:45.156Z",
+    "content_hash": "sha256:b38a07d915a7277ad8ef6c7c2f51d198193650edc856c66b5c2970fc77750374"
   },
   "entries": [
     {
@@ -3247,6 +3247,29 @@
         "cli"
       ],
       "via": "github:Panniantong"
+    },
+    {
+      "id": "aleph-hub:yixiliu617/data-craft",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Data Craft",
+      "description": "Generate beautiful, self-contained themed HTML data displays—charts, dashboards, reports, tearsheets, briefings—in one of six visual idioms, each with a matched visual language and writing voice so the format and tone fit the content.",
+      "repo_url": "https://github.com/yixiliu617/data-craft",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yixiliu617/data-craft",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yixiliu617",
+      "tags": [
+        "data-viz",
+        "html",
+        "reports",
+        "dashboards"
+      ],
+      "via": "github:yixiliu617"
     }
   ]
 }

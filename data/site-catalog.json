@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 135,
-    "generated_at": "2026-06-25T00:42:19.883Z",
-    "content_hash": "sha256:342b48d99f0baa9f944de781fc8000eb92ac190118872250b0ca82d240ebb531"
+    "entry_count": 136,
+    "generated_at": "2026-06-25T01:13:45.156Z",
+    "content_hash": "sha256:b38a07d915a7277ad8ef6c7c2f51d198193650edc856c66b5c2970fc77750374"
   },
   "entries": [
     {
@@ -5401,6 +5401,42 @@
       "install_cmd": "aleph add Agent-Reach",
       "sec_note_zh": "按仓库的安装文档安装并驱动开源(MIT)的 `agent-reach` Python CLI,并非单纯克隆一个 skill 目录。需登录的平台会使用你自己的浏览器 Cookie / 登录态,仅存本地、不上传。仅读取 / 搜索(不发帖、不做写操作),并会绕过平台访问限制——请审阅抓取到的内容并遵守各站点条款。",
       "sec_note_en": "Installs and drives the open-source (MIT) `agent-reach` Python CLI per the repo's install doc—not a standalone skill clone. For login-gated platforms it uses your own browser cookies / login session, stored locally and not uploaded. It is read/search only (no posting or write actions) and routes around platform blocks—review fetched content and respect each site's terms."
+    },
+    {
+      "id": "aleph-hub:yixiliu617/data-craft",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Data Craft",
+      "description": "Generate beautiful, self-contained themed HTML data displays—charts, dashboards, reports, tearsheets, briefings—in one of six visual idioms, each with a matched visual language and writing voice so the format and tone fit the content.",
+      "repo_url": "https://github.com/yixiliu617/data-craft",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yixiliu617/data-craft",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yixiliu617",
+      "tags": [
+        "data-viz",
+        "html",
+        "reports",
+        "dashboards"
+      ],
+      "via": "github:yixiliu617",
+      "description_zh": "生成精美、自包含的主题化 HTML 数据展示——图表、仪表盘、报告、tearsheet、简报——提供六种视觉范式,每种都有匹配的视觉语言与文字语气,让格式与语气贴合内容。",
+      "description_en": "Generate beautiful, self-contained themed HTML data displays—charts, dashboards, reports, tearsheets, briefings—in one of six visual idioms, each with a matched visual language and writing voice so the format and tone fit the content.",
+      "long_zh": "不止于美化,还为每份数据文档配上语气——财务 tearsheet 读起来像终端、文化报道像大报——产出的是数据驱动的文档,而不仅是图表。",
+      "long_en": "Goes beyond styling to pair each data document with a voice—a finance tearsheet reads like a terminal, a culture story like a broadsheet—producing data-driven documents, not just charts.",
+      "cover_color": "#8C5430",
+      "stars": 7,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-05-28",
+      "install_cmd": "aleph add data-craft",
+      "sec_note_zh": "用你提供的数据在本地渲染自包含 HTML;无需联网。",
+      "sec_note_en": "Renders self-contained HTML locally from the data you provide; no network access required."
     }
   ]
 }
