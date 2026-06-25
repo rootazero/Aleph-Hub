@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 136,
-    "generated_at": "2026-06-25T01:13:45.156Z",
-    "content_hash": "sha256:b38a07d915a7277ad8ef6c7c2f51d198193650edc856c66b5c2970fc77750374"
+    "generated_at": "2026-06-25T01:23:16.526Z",
+    "content_hash": "sha256:59416d2e2e47a6b8f69a90fcb7ac57b4f09419e80b1d37de06e7fc7a9a69847b"
   },
   "entries": [
     {
@@ -195,7 +195,7 @@
     {
       "id": "aleph-hub:rootazero/Aleph-skills/data-pipeline",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Data Pipeline",
       "description": "Data processing/transformation via jq and Python",
       "repo_url": "https://github.com/rootazero/Aleph-skills/tree/main/data-pipeline",
@@ -218,7 +218,7 @@
     {
       "id": "aleph-hub:rootazero/Aleph-skills/database",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Database",
       "description": "Database design — selection tree, schema, query optimization, migrations",
       "repo_url": "https://github.com/rootazero/Aleph-skills/tree/main/database",
@@ -815,7 +815,7 @@
     {
       "id": "aleph-hub:rootazero/Aleph-skills/web-scraper",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Web Scraper",
       "description": "Web data extraction — structured scraping, search, PDF download via curl/Python",
       "repo_url": "https://github.com/rootazero/Aleph-skills/tree/main/web-scraper",
@@ -884,7 +884,7 @@
     {
       "id": "aleph-hub:rootazero/Aleph-plugins/memory-analytics",
       "kind": "plugin",
-      "category": "data",
+      "category": "developer",
       "name": "Memory Analytics",
       "description": "Memory usage analytics — fact distribution, timeline, and health assessment",
       "repo_url": "https://github.com/rootazero/Aleph-plugins/tree/main/memory-analytics",
@@ -1393,7 +1393,7 @@
     {
       "id": "aleph-hub:coffeefuelbump/csv-data-summarizer-claude-skill",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "CSV Data Summarizer",
       "description": "Analyze CSV files, generate summary statistics, and plot quick visualizations using Python, pandas, and matplotlib/seaborn.",
       "repo_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
@@ -2282,7 +2282,7 @@
     {
       "id": "aleph-hub:brettdavies/crawl4ai-skill",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Crawl4AI",
       "description": "Scrape JavaScript-heavy pages and SPAs, crawl many URLs concurrently, and extract structured data with reusable CSS/JSON schemas—wrapping the Crawl4AI library.",
       "repo_url": "https://github.com/brettdavies/crawl4ai-skill",
@@ -2558,7 +2558,7 @@
     {
       "id": "aleph-hub:Bhanunamikaze/AI-Dataset-Generator",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Dataset Generator",
       "description": "Generate, normalize, verify, deduplicate, and export training datasets from topics, URLs, reference material, or existing JSONL/CSV—supporting SFT and DPO workflows.",
       "repo_url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
@@ -2627,7 +2627,7 @@
     {
       "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Business Analyst",
       "description": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
       "repo_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
@@ -2696,7 +2696,7 @@
     {
       "id": "aleph-hub:BayramAnnakov/excel-hygiene",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Excel Hygiene",
       "description": "A rigorous \"second pair of eyes\" on any xlsx before it ships—catches numbers-as-text, hardcoded-over-formula, cell errors, truncated SUMs, and percent-as-whole-number.",
       "repo_url": "https://github.com/BayramAnnakov/excel-hygiene",
@@ -2857,7 +2857,7 @@
     {
       "id": "aleph-hub:caylent/tufte-data-viz",
       "kind": "skill",
-      "category": "data",
+      "category": "developer",
       "name": "Tufte Data Viz",
       "description": "Create, review, or style charts, graphs, dashboards, and sparklines enforcing Tufte principles—data-ink ratio, direct labeling, range-frame axes—plus modern screen-first standards (accessibility, responsive, dark mode), across Recharts, ECharts, Chart.js, matplotlib, Plotly, seaborn, D3.js, and SVG.",
       "repo_url": "https://github.com/caylent/tufte-data-viz",
