@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 136,
-    "generated_at": "2026-06-25T01:23:16.526Z",
-    "content_hash": "sha256:59416d2e2e47a6b8f69a90fcb7ac57b4f09419e80b1d37de06e7fc7a9a69847b"
+    "entry_count": 135,
+    "generated_at": "2026-06-25T07:04:35.546Z",
+    "content_hash": "sha256:529a8fdf92da9e0ed72fd8e1b09f86344137f44ce97f389b33e7816a686c4778"
   },
   "entries": [
     {
@@ -1369,6 +1369,125 @@
       "via": "github:BuilderIO"
     },
     {
+      "id": "aleph-hub:op7418/Humanizer-zh",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Humanizer (Chinese)",
+      "description": "A Chinese writing-quality editor that strips the tell-tale patterns of AI prose—clichés, three-part parallelism, vague attribution, em-dash overuse, formulaic structure—so text reads like a person, not a model. Ported from blader/humanizer, built on Wikipedia's \"signs of AI writing\".",
+      "repo_url": "https://github.com/op7418/Humanizer-zh",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/Humanizer-zh",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "op7418",
+      "tags": [
+        "chinese",
+        "writing-quality",
+        "editing",
+        "style"
+      ],
+      "via": "github:op7418"
+    },
+    {
+      "id": "aleph-hub:op7418/guizang-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Guizang Web PPT",
+      "description": "Generates single-file HTML horizontal-swipe slide decks in two looks—editorial \"magazine × e-ink\" (serif + WebGL fluid background) and Swiss International style (sans-serif + dot grid)—with chapter covers, big-type data slides, and image grids. By 歸藏 (Guizang).",
+      "repo_url": "https://github.com/op7418/guizang-ppt-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/op7418/guizang-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "op7418",
+      "tags": [
+        "ppt",
+        "presentation",
+        "html",
+        "web-deck",
+        "design"
+      ],
+      "via": "github:op7418"
+    },
+    {
+      "id": "aleph-hub:Leonxlnx/taste-skill",
+      "kind": "plugin",
+      "category": "design",
+      "name": "Taste Skill",
+      "description": "A Claude Code plugin that gives coding agents design taste—a bundle of frontend skills (brutalist, minimalist, soft, redesign, stitch, brandkit, image-to-code, imagegen, and more) to stop agents from generating boring, generic UI.",
+      "repo_url": "https://github.com/Leonxlnx/taste-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Leonxlnx/taste-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Leonxlnx",
+      "tags": [
+        "frontend",
+        "design",
+        "ui",
+        "taste",
+        "anti-slop"
+      ],
+      "via": "github:Leonxlnx"
+    },
+    {
+      "id": "aleph-hub:Panniantong/Agent-Reach",
+      "kind": "skill",
+      "category": "search",
+      "name": "Agent Reach",
+      "description": "Gives an AI agent internet access—read and search 13 platforms (Twitter/X, Reddit, YouTube, Bilibili, Xiaohongshu, GitHub, LinkedIn, V2EX, RSS, web pages, podcasts) through one CLI with multi-backend routing and zero paid APIs.",
+      "repo_url": "https://github.com/Panniantong/Agent-Reach",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Panniantong/Agent-Reach",
+        "subdir": "agent_reach/skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Panniantong",
+      "tags": [
+        "research",
+        "social-media",
+        "youtube",
+        "search",
+        "cli"
+      ],
+      "via": "github:Panniantong"
+    },
+    {
+      "id": "aleph-hub:yixiliu617/data-craft",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Data Craft",
+      "description": "Generate beautiful, self-contained themed HTML data displays—charts, dashboards, reports, tearsheets, briefings—in one of six visual idioms, each with a matched visual language and writing voice so the format and tone fit the content.",
+      "repo_url": "https://github.com/yixiliu617/data-craft",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yixiliu617/data-craft",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yixiliu617",
+      "tags": [
+        "data-viz",
+        "html",
+        "reports",
+        "dashboards"
+      ],
+      "via": "github:yixiliu617"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -1708,29 +1827,6 @@
       "via": "github:dominikmartn"
     },
     {
-      "id": "aleph-hub:KAOPU-XiaoPu/web-design",
-      "kind": "skill",
-      "category": "design",
-      "name": "Web Design",
-      "description": "A two-phase web visual-design skill: first produce a standardized DESIGN.md spec from your PRD / reference URL / screenshot / keywords, then generate UI/UX, visual, motion, and responsive web code that meets it.",
-      "repo_url": "https://github.com/KAOPU-XiaoPu/web-design",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/KAOPU-XiaoPu/web-design",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "KAOPU-XiaoPu",
-      "tags": [
-        "web-design",
-        "ui",
-        "landing-page",
-        "frontend"
-      ],
-      "via": "github:KAOPU-XiaoPu"
-    },
-    {
       "id": "aleph-hub:TexasBedouin/vibe-check",
       "kind": "skill",
       "category": "productivity",
@@ -1751,29 +1847,6 @@
         "pm"
       ],
       "via": "github:TexasBedouin"
-    },
-    {
-      "id": "aleph-hub:dpconde/claude-android-skill",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Android Development",
-      "description": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
-      "repo_url": "https://github.com/dpconde/claude-android-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dpconde/claude-android-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dpconde",
-      "tags": [
-        "android",
-        "kotlin",
-        "jetpack-compose",
-        "architecture"
-      ],
-      "via": "github:dpconde"
     },
     {
       "id": "aleph-hub:kimlawtech/korean-privacy-terms",
@@ -1799,27 +1872,27 @@
       "via": "github:kimlawtech"
     },
     {
-      "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
+      "id": "aleph-hub:dpconde/claude-android-skill",
       "kind": "skill",
-      "category": "design",
-      "name": "Visual Style PPT",
-      "description": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
-      "repo_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+      "category": "developer",
+      "name": "Android Development",
+      "description": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
+      "repo_url": "https://github.com/dpconde/claude-android-skill",
       "trust_tier": "community",
       "install_spec": {
         "type": "git_dir",
-        "git_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+        "git_url": "https://github.com/dpconde/claude-android-skill",
         "git_ref": "main"
       },
       "requires_config": false,
-      "author": "irenerachel",
+      "author": "dpconde",
       "tags": [
-        "slides",
-        "image-generation",
-        "design",
-        "presentation"
+        "android",
+        "kotlin",
+        "jetpack-compose",
+        "architecture"
       ],
-      "via": "github:irenerachel"
+      "via": "github:dpconde"
     },
     {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -1842,6 +1915,29 @@
         "project"
       ],
       "via": "github:JamesShi96"
+    },
+    {
+      "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Visual Style PPT",
+      "description": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
+      "repo_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "irenerachel",
+      "tags": [
+        "slides",
+        "image-generation",
+        "design",
+        "presentation"
+      ],
+      "via": "github:irenerachel"
     },
     {
       "id": "aleph-hub:ckelsoe/prompt-architect",
@@ -1935,29 +2031,6 @@
       "via": "github:moshuying"
     },
     {
-      "id": "aleph-hub:Hao0321/ai-media-generator",
-      "kind": "skill",
-      "category": "design",
-      "name": "AI Media Generator",
-      "description": "Write high-quality prompts for AI image, video, and music platforms—picking the right model for the task—and optionally drive the target site via browser automation to submit them.",
-      "repo_url": "https://github.com/Hao0321/ai-media-generator",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Hao0321/ai-media-generator",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Hao0321",
-      "tags": [
-        "ai-art",
-        "video",
-        "music",
-        "prompts"
-      ],
-      "via": "github:Hao0321"
-    },
-    {
       "id": "aleph-hub:agentenatalie/get-job.skill",
       "kind": "skill",
       "category": "productivity",
@@ -1979,6 +2052,29 @@
         "career"
       ],
       "via": "github:agentenatalie"
+    },
+    {
+      "id": "aleph-hub:Hao0321/ai-media-generator",
+      "kind": "skill",
+      "category": "design",
+      "name": "AI Media Generator",
+      "description": "Write high-quality prompts for AI image, video, and music platforms—picking the right model for the task—and optionally drive the target site via browser automation to submit them.",
+      "repo_url": "https://github.com/Hao0321/ai-media-generator",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hao0321/ai-media-generator",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Hao0321",
+      "tags": [
+        "ai-art",
+        "video",
+        "music",
+        "prompts"
+      ],
+      "via": "github:Hao0321"
     },
     {
       "id": "aleph-hub:axiaoge2/Apple-Hig-Designer",
@@ -2257,29 +2353,6 @@
       "via": "github:cjpatten"
     },
     {
-      "id": "aleph-hub:Farenhytee/database-sentinel",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Database Sentinel",
-      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
-      "repo_url": "https://github.com/Farenhytee/database-sentinel",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Farenhytee/database-sentinel",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Farenhytee",
-      "tags": [
-        "database",
-        "security",
-        "audit",
-        "rls"
-      ],
-      "via": "github:Farenhytee"
-    },
-    {
       "id": "aleph-hub:brettdavies/crawl4ai-skill",
       "kind": "skill",
       "category": "developer",
@@ -2301,6 +2374,29 @@
         "extraction"
       ],
       "via": "github:brettdavies"
+    },
+    {
+      "id": "aleph-hub:Farenhytee/database-sentinel",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Database Sentinel",
+      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
+      "repo_url": "https://github.com/Farenhytee/database-sentinel",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Farenhytee/database-sentinel",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Farenhytee",
+      "tags": [
+        "database",
+        "security",
+        "audit",
+        "rls"
+      ],
+      "via": "github:Farenhytee"
     },
     {
       "id": "aleph-hub:Adityapal67/context-graph-compressor",
@@ -3151,125 +3247,6 @@
         "pandoc"
       ],
       "via": "hermes-atlas"
-    },
-    {
-      "id": "aleph-hub:op7418/Humanizer-zh",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Humanizer (Chinese)",
-      "description": "A Chinese writing-quality editor that strips the tell-tale patterns of AI prose—clichés, three-part parallelism, vague attribution, em-dash overuse, formulaic structure—so text reads like a person, not a model. Ported from blader/humanizer, built on Wikipedia's \"signs of AI writing\".",
-      "repo_url": "https://github.com/op7418/Humanizer-zh",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/op7418/Humanizer-zh",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "op7418",
-      "tags": [
-        "chinese",
-        "writing-quality",
-        "editing",
-        "style"
-      ],
-      "via": "github:op7418"
-    },
-    {
-      "id": "aleph-hub:op7418/guizang-ppt-skill",
-      "kind": "skill",
-      "category": "design",
-      "name": "Guizang Web PPT",
-      "description": "Generates single-file HTML horizontal-swipe slide decks in two looks—editorial \"magazine × e-ink\" (serif + WebGL fluid background) and Swiss International style (sans-serif + dot grid)—with chapter covers, big-type data slides, and image grids. By 歸藏 (Guizang).",
-      "repo_url": "https://github.com/op7418/guizang-ppt-skill",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/op7418/guizang-ppt-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "op7418",
-      "tags": [
-        "ppt",
-        "presentation",
-        "html",
-        "web-deck",
-        "design"
-      ],
-      "via": "github:op7418"
-    },
-    {
-      "id": "aleph-hub:Leonxlnx/taste-skill",
-      "kind": "plugin",
-      "category": "design",
-      "name": "Taste Skill",
-      "description": "A Claude Code plugin that gives coding agents design taste—a bundle of frontend skills (brutalist, minimalist, soft, redesign, stitch, brandkit, image-to-code, imagegen, and more) to stop agents from generating boring, generic UI.",
-      "repo_url": "https://github.com/Leonxlnx/taste-skill",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Leonxlnx/taste-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Leonxlnx",
-      "tags": [
-        "frontend",
-        "design",
-        "ui",
-        "taste",
-        "anti-slop"
-      ],
-      "via": "github:Leonxlnx"
-    },
-    {
-      "id": "aleph-hub:Panniantong/Agent-Reach",
-      "kind": "skill",
-      "category": "search",
-      "name": "Agent Reach",
-      "description": "Gives an AI agent internet access—read and search 13 platforms (Twitter/X, Reddit, YouTube, Bilibili, Xiaohongshu, GitHub, LinkedIn, V2EX, RSS, web pages, podcasts) through one CLI with multi-backend routing and zero paid APIs.",
-      "repo_url": "https://github.com/Panniantong/Agent-Reach",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Panniantong/Agent-Reach",
-        "subdir": "agent_reach/skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Panniantong",
-      "tags": [
-        "research",
-        "social-media",
-        "youtube",
-        "search",
-        "cli"
-      ],
-      "via": "github:Panniantong"
-    },
-    {
-      "id": "aleph-hub:yixiliu617/data-craft",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Data Craft",
-      "description": "Generate beautiful, self-contained themed HTML data displays—charts, dashboards, reports, tearsheets, briefings—in one of six visual idioms, each with a matched visual language and writing voice so the format and tone fit the content.",
-      "repo_url": "https://github.com/yixiliu617/data-craft",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/yixiliu617/data-craft",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "yixiliu617",
-      "tags": [
-        "data-viz",
-        "html",
-        "reports",
-        "dashboards"
-      ],
-      "via": "github:yixiliu617"
     }
   ]
 }
