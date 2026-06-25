@@ -7,6 +7,8 @@ describe("allEntries", () => {
   it("unions install and content catalogs, install first", () => {
     const all = allEntries();
     expect(all.length).toBe(getAll().length + getAllContent().length);
+    // guard: the ordering assertion below is vacuous on an empty slice
+    expect(getAll().length).toBeGreaterThan(0);
     // install entries lead (skill|plugin|mcp), content (prompt|workflow) trails
     expect(all.slice(0, getAll().length).every((e) => e.kind === "skill" || e.kind === "plugin" || e.kind === "mcp")).toBe(true);
   });
