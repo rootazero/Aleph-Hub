@@ -16,6 +16,7 @@ export interface Strings {
   viewGithub: string; related: string; copy: string; copied: string;
   copyPrompt: string; copyScript: string; insertAleph: string; runAleph: string;
   mSource: string; mFormat: string; contentSoon: string;
+  pubKicker: string; pubEntries: string;
   submitKicker: string; submitTitle: string; submitSub: string;
   fRepo: string; fName: string; fCategory: string; fDesc: string; fDescPh: string; fTags: string;
   submitNote: string; submitBtn: string; cancel: string; footer: string; footerTag: string;
@@ -37,6 +38,7 @@ export const STRINGS: Record<Lang, Strings> = {
     viewGithub: "在 GitHub 查看", related: "相关推荐", copy: "复制安装命令", copied: "已复制 ✓",
     copyPrompt: "复制提示词", copyScript: "复制脚本", insertAleph: "在 Aleph 中插入", runAleph: "在 Aleph 中保存并运行",
     mSource: "来源文件", mFormat: "格式", contentSoon: "更多内容正在整理中，敬请期待。",
+    pubKicker: "发布者 · Publisher", pubEntries: "{n} 件作品",
     submitKicker: "Contribute", submitTitle: "提交你的作品", submitSub: "把你的 Skill、MCP 插件或集成提交到 Aleph Hub。我们会做安全扫描与人工复核，通过后即收录进目录。",
     fRepo: "GitHub 仓库地址", fName: "名称", fCategory: "分类", fDesc: "一句话描述", fDescPh: "用一句话说清它解决什么问题…", fTags: "标签（逗号分隔）",
     submitNote: "提交后通常 1–3 个工作日完成审核，我们会通过仓库 issue 与你联系。", submitBtn: "提交审核", cancel: "取消",
@@ -56,6 +58,7 @@ export const STRINGS: Record<Lang, Strings> = {
     viewGithub: "View on GitHub", related: "Related", copy: "Copy install command", copied: "Copied ✓",
     copyPrompt: "Copy prompt", copyScript: "Copy script", insertAleph: "Insert in Aleph", runAleph: "Save & run in Aleph",
     mSource: "Source", mFormat: "Format", contentSoon: "More are being curated — stay tuned.",
+    pubKicker: "Publisher", pubEntries: "{n} entries",
     submitKicker: "Contribute", submitTitle: "Submit your project", submitSub: "Submit your Skill, MCP plugin or integration to Aleph Hub. We run a security scan and human review; once approved it joins the catalog.",
     fRepo: "GitHub repo URL", fName: "Name", fCategory: "Category", fDesc: "One-line description", fDescPh: "In one sentence, what problem does it solve…", fTags: "Tags (comma-separated)",
     submitNote: "Review usually takes 1–3 business days; we reach out via a repo issue.", submitBtn: "Submit for review", cancel: "Cancel",
