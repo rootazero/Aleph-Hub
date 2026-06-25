@@ -5,6 +5,7 @@ import type { ContentSiteEntryT } from "@/contract/content-site";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, CATEGORY_LABELS } from "@/lib/i18n";
 import { relatedContent } from "@/lib/content";
+import { publisherSlug } from "@/lib/publishers";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Card } from "@/components/Card";
 
@@ -79,7 +80,12 @@ export function ContentDetailView({ entry }: { entry: ContentSiteEntryT }) {
           {/* Aleph-side action is a placeholder until the content-library consumer ships (separate ../Aleph spec). */}
           <span title={t.comingSoon} style={{ textAlign: "center", fontSize: 12, letterSpacing: ".10em", textTransform: "uppercase", fontWeight: 600, color: "var(--taupe)", border: "1px solid var(--hair-strong)", padding: 12, borderRadius: 2, marginTop: 10, cursor: "default" }}>{actionLabel}</span>
           <div style={{ borderTop: "1px solid var(--hair)", marginTop: 26, paddingTop: 20, display: "flex", flexDirection: "column", gap: 16 }}>
-            <div style={metaRow}><span style={metaKey}>{t.mBy}</span><span style={metaVal}>{entry.author}</span></div>
+            <div style={metaRow}>
+              <span style={metaKey}>{t.mBy}</span>
+              {entry.author
+                ? <Link href={`/p/${publisherSlug(entry.author)}`} style={{ ...metaVal, color: "var(--orange)", textDecoration: "none" }}>{entry.author}</Link>
+                : <span style={metaVal}>—</span>}
+            </div>
             <div style={metaRow}><span style={metaKey}>{t.mCategory}</span><span style={metaVal}>{CATEGORY_LABELS[entry.category][lang]}</span></div>
             <div style={metaRow}><span style={metaKey}>{t.mLicense}</span><span style={metaVal}>{entry.license ?? "—"}</span></div>
             <div style={metaRow}><span style={metaKey}>{t.mFormat}</span><span style={{ ...metaVal, fontFamily: "var(--font-mono), monospace" }}>{entry.format}</span></div>

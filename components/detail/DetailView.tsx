@@ -5,6 +5,7 @@ import type { SiteEntryT } from "@/contract/site";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, CATEGORY_LABELS } from "@/lib/i18n";
 import { related, formatStars } from "@/lib/catalog";
+import { publisherSlug } from "@/lib/publishers";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Card } from "@/components/Card";
 
@@ -74,7 +75,12 @@ export function DetailView({ entry }: { entry: SiteEntryT }) {
           </div>
           <span onClick={copy} style={{ textAlign: "center", fontSize: 12, letterSpacing: ".14em", textTransform: "uppercase", fontWeight: 600, color: "var(--bg)", background: "var(--ink)", padding: 13, borderRadius: 2, cursor: "pointer" }}>{copied ? t.copied : t.copy}</span>
           <div style={{ borderTop: "1px solid var(--hair)", marginTop: 26, paddingTop: 20, display: "flex", flexDirection: "column", gap: 16 }}>
-            <div style={metaRow}><span style={metaKey}>{t.mBy}</span><span style={metaVal}>{entry.author}</span></div>
+            <div style={metaRow}>
+              <span style={metaKey}>{t.mBy}</span>
+              {entry.author
+                ? <Link href={`/p/${publisherSlug(entry.author)}`} style={{ ...metaVal, color: "var(--orange)", textDecoration: "none" }}>{entry.author}</Link>
+                : <span style={metaVal}>—</span>}
+            </div>
             <div style={metaRow}><span style={metaKey}>{t.mCategory}</span><span style={metaVal}>{CATEGORY_LABELS[entry.category][lang]}</span></div>
             <div style={metaRow}><span style={metaKey}>{t.mStars}</span><span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 13, display: "flex", alignItems: "center", gap: 6 }}>★ {formatStars(entry.stars)} {entry.trend != null && <span style={{ color: trendColor, fontWeight: 600 }}>▲{entry.trend}%</span>}</span></div>
             <div style={metaRow}><span style={metaKey}>{t.mLicense}</span><span style={metaVal}>{entry.license ?? "—"}</span></div>
