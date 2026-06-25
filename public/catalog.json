@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 134,
-    "generated_at": "2026-06-24T09:17:56.312Z",
-    "content_hash": "sha256:fa9d14f6d397570cbfc3711623455a6f137d8c9aeeb101b73d04c561103d1e11"
+    "entry_count": 135,
+    "generated_at": "2026-06-25T00:42:19.883Z",
+    "content_hash": "sha256:342b48d99f0baa9f944de781fc8000eb92ac190118872250b0ca82d240ebb531"
   },
   "entries": [
     {
@@ -3222,6 +3222,31 @@
         "anti-slop"
       ],
       "via": "github:Leonxlnx"
+    },
+    {
+      "id": "aleph-hub:Panniantong/Agent-Reach",
+      "kind": "skill",
+      "category": "search",
+      "name": "Agent Reach",
+      "description": "Gives an AI agent internet access—read and search 13 platforms (Twitter/X, Reddit, YouTube, Bilibili, Xiaohongshu, GitHub, LinkedIn, V2EX, RSS, web pages, podcasts) through one CLI with multi-backend routing and zero paid APIs.",
+      "repo_url": "https://github.com/Panniantong/Agent-Reach",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Panniantong/Agent-Reach",
+        "subdir": "agent_reach/skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Panniantong",
+      "tags": [
+        "research",
+        "social-media",
+        "youtube",
+        "search",
+        "cli"
+      ],
+      "via": "github:Panniantong"
     }
   ]
 }

@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 134,
-    "generated_at": "2026-06-24T09:17:56.312Z",
-    "content_hash": "sha256:fa9d14f6d397570cbfc3711623455a6f137d8c9aeeb101b73d04c561103d1e11"
+    "entry_count": 135,
+    "generated_at": "2026-06-25T00:42:19.883Z",
+    "content_hash": "sha256:342b48d99f0baa9f944de781fc8000eb92ac190118872250b0ca82d240ebb531"
   },
   "entries": [
     {
@@ -5363,6 +5363,44 @@
       "install_cmd": "aleph add taste-skill",
       "sec_note_zh": "MIT 许可；作为 Claude Code 插件在本地运行，打包多个前端设计技能。它指导 UI 生成并产出前端代码——上线前请审阅生成的代码。",
       "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin bundling frontend-design skills. It guides UI generation and produces frontend code—review generated code before shipping."
+    },
+    {
+      "id": "aleph-hub:Panniantong/Agent-Reach",
+      "kind": "skill",
+      "category": "search",
+      "name": "Agent Reach",
+      "description": "Gives an AI agent internet access—read and search 13 platforms (Twitter/X, Reddit, YouTube, Bilibili, Xiaohongshu, GitHub, LinkedIn, V2EX, RSS, web pages, podcasts) through one CLI with multi-backend routing and zero paid APIs.",
+      "repo_url": "https://github.com/Panniantong/Agent-Reach",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Panniantong/Agent-Reach",
+        "subdir": "agent_reach/skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Panniantong",
+      "tags": [
+        "research",
+        "social-media",
+        "youtube",
+        "search",
+        "cli"
+      ],
+      "via": "github:Panniantong",
+      "description_zh": "给 AI agent 装上互联网能力——通过一个 CLI、多后端路由、零付费 API，读取与搜索 13 个平台(Twitter/X、Reddit、YouTube、B 站、小红书、GitHub、领英、V2EX、RSS、网页、播客)。",
+      "description_en": "Gives an AI agent internet access—read and search 13 platforms (Twitter/X, Reddit, YouTube, Bilibili, Xiaohongshu, GitHub, LinkedIn, V2EX, RSS, web pages, podcasts) through one CLI with multi-backend routing and zero paid APIs.",
+      "long_zh": "随仓库附带的 Claude skill(SKILL.md)是一个「互联网能力路由器」:把用户意图或粘贴的链接映射到对应的 agent-reach CLI 命令,先跑 `agent-reach doctor` 为每个平台挑选可用后端,某个接入失效时自动切换备选。六个渠道(网页、YouTube、RSS、V2EX、全文搜索、公开 GitHub)零配置可用;需登录的平台(Twitter、Reddit、小红书、领英)用用户自己的 Cookie 解锁。仅读取 / 搜索、不发帖——给 agent 眼睛而非手。",
+      "long_en": "A companion Claude skill (SKILL.md) acts as an 'internet capability router': it maps a user's intent or a pasted URL to the right agent-reach CLI command, runs `agent-reach doctor` to pick a working backend per platform, and falls back across backends when one is blocked. Six channels (web, YouTube, RSS, V2EX, full-text search, public GitHub) work with zero config; login-gated platforms (Twitter, Reddit, Xiaohongshu, LinkedIn) unlock with the user's own cookies. It is read/search only—no posting—so it gives the agent eyes, not hands.",
+      "cover_color": "#B5562B",
+      "stars": 39657,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "install_cmd": "aleph add Agent-Reach",
+      "sec_note_zh": "按仓库的安装文档安装并驱动开源(MIT)的 `agent-reach` Python CLI,并非单纯克隆一个 skill 目录。需登录的平台会使用你自己的浏览器 Cookie / 登录态,仅存本地、不上传。仅读取 / 搜索(不发帖、不做写操作),并会绕过平台访问限制——请审阅抓取到的内容并遵守各站点条款。",
+      "sec_note_en": "Installs and drives the open-source (MIT) `agent-reach` Python CLI per the repo's install doc—not a standalone skill clone. For login-gated platforms it uses your own browser cookies / login session, stored locally and not uploaded. It is read/search only (no posting or write actions) and routes around platform blocks—review fetched content and respect each site's terms."
     }
   ]
 }
