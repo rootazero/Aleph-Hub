@@ -8,7 +8,7 @@ const meta = (fn: string): RepoMeta => { const [owner, repo] = fn.split("/"); re
 const README = "# acme/foo\nRun npx -y @acme/foo";
 const gh: GitHubApi = { searchRepos: async () => [], getContent: async () => null, getReadme: async () => README, getRepo: async (fn) => ({ meta: meta(fn), etag: "e", notModified: false }) };
 const source: Source = { id: "github", fetch: async () => Array.from({ length: 8 }, (_, i) => ({ repo_url: `https://github.com/acme/foo${i}`, via: "github:acme", raw: { full_name: `acme/foo${i}` } })) };
-const store: CurationStore = { get: (fn) => ({ full_name: fn, name: fn.split("/")[1], kind: "mcp", category: "developer", tags: ["a"], description_en: "A tool.", description_zh: "工具。", long_en: "L.", long_zh: "长。", install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。" }) };
+const store: CurationStore = { get: (fn) => ({ full_name: fn, name: fn.split("/")[1], kind: "mcp", category: "developer", tags: ["a"], description_en: "A tool.", description_zh: "工具。", long_en: "L.", long_zh: "长。", install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。" }), all: () => [] };
 const registry: RegistryClient = { npmPackage: async () => ({ exists: true, repository: null }), pypiPackage: async () => ({ exists: true }) };
 const http: Http = { getText: async () => "" };
 const clock: Clock = { nowIso: () => "2026-06-20T00:00:00Z" };

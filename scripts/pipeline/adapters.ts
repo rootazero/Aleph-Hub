@@ -89,7 +89,7 @@ export function makeCurationStore(dir = "data/curation"): CurationStore {
       } catch { /* skip malformed record */ }
     }
   }
-  return { get: (fullName) => map.get(fullName.toLowerCase()) ?? null };
+  return { get: (fullName) => map.get(fullName.toLowerCase()) ?? null, all: () => [...map.values()] };
 }
 
 // Content records are keyed by full entry id (one file per unit), not by repo.

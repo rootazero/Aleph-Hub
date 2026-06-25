@@ -58,5 +58,8 @@ async function main() {
     fs.writeJson("data/cache/per-source.json", res.report.perSource);
   }
   console.log(JSON.stringify(res.report, null, 2));
+  if (res.report.curatedButNotEmitted.length) {
+    console.warn(`⚠ ${res.report.curatedButNotEmitted.length} curated record(s) not emitted this run — pin to keep, or delete a stale record:\n  ${res.report.curatedButNotEmitted.join("\n  ")}`);
+  }
 }
 main().catch((e) => { console.error(e); process.exit(1); });

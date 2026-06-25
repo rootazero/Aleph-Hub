@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { run } from "@/scripts/pipeline/run";
-import type { GitHubApi, CurationStore, RegistryClient, Http, Clock, RepoMeta, CacheStore, LlmClient } from "@/scripts/pipeline/ports";
+import type { GitHubApi, CurationStore, CurationRecord, RegistryClient, Http, Clock, RepoMeta, CacheStore, LlmClient } from "@/scripts/pipeline/ports";
 import type { Source } from "@/scripts/pipeline/sources/types";
 import type { FinalEntry } from "@/scripts/pipeline/model";
 
@@ -33,7 +33,7 @@ const store: CurationStore = { get: (fn) => fn.endsWith("/foo8") ? null : ({
   full_name: fn, name: fn.split("/")[1], kind: "mcp", category: "developer", tags: ["a"],
   description_en: "A tool.", description_zh: "工具。", long_en: "Long.", long_zh: "长。",
   install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。",
-}) };
+}), all: () => [] };
 const registry: RegistryClient = { npmPackage: async () => ({ exists: true, repository: null }), pypiPackage: async () => ({ exists: true }) };
 const http: Http = { getText: async () => "" };
 const clock: Clock = { nowIso: () => "2026-06-20T00:00:00Z" };
@@ -110,5 +110,20 @@ describe("run (integration, mocked ports)", () => {
     expect(res.report.autoCurated).toBe(0);
     expect(res.report.queued).toBe(1);                 // foo8 stays in the backlog
     expect(res.newCurations).toHaveLength(0);
+  });
+
+  it("flags a curated record whose repo was not emitted this run (silent-drop audit)", async () => {
+    const urls = Array.from({ length: 8 }, (_, i) => `https://github.com/acme/foo${i}`); // 8 emitted ≥ MIN_ENTRIES
+    const ghost: CurationRecord = {
+      full_name: "acme/ghost", name: "ghost", kind: "mcp", category: "developer", tags: ["a"],
+      description_en: "A tool.", description_zh: "工具。", long_en: "Long.", long_zh: "长。",
+      install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。",
+    };
+    // acme/foo0 is discovered + emitted; acme/ghost has a record but is never discovered → flagged.
+    const auditStore: CurationStore = { get: store.get, all: () => [store.get("acme/foo0")!, ghost] };
+    const res = await run({ sources: [source(urls)], gh, store: auditStore, registry, http, clock,
+      officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache, firstParty: [], llm: null });
+    expect(res.report.emitted).toBe(8);
+    expect(res.report.curatedButNotEmitted).toEqual(["acme/ghost"]);
   });
 });

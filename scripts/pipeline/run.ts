@@ -127,6 +127,17 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
   }
   const allFinals = [...byId.values()];
 
+  // Silent-drop audit: a curation record exists but its repo wasn't emitted this run (fell out of
+  // the discovery window, a transient fetch failure, or the repo went away). Surface it so a
+  // maintainer can pin the repo (to keep it) or delete a stale record. An official seed covering
+  // the same upstream counts as emitted (the official entry supersedes the discovered curation).
+  const emittedKeys = new Set<string>();
+  for (const f of allFinals) { emittedKeys.add(f.full_name.toLowerCase()); emittedKeys.add(upstreamKey(f)); }
+  const curatedButNotEmitted = ports.store.all()
+    .map((r) => r.full_name)
+    .filter((fn) => !emittedKeys.has(fn.toLowerCase()))
+    .sort((a, b) => a.localeCompare(b));
+
   const { catalog, site, hash } = buildArtifacts({ entries: allFinals, generatedAt: ports.clock.nowIso(), prevContractCount: ports.prevContractCount });
   const finalQueue = queue.filter((q) => !autoAccepted.has(q.full_name)); // auto-curated repos leave the backlog
   finalQueue.sort((a, b) => a.full_name.localeCompare(b.full_name));
@@ -135,6 +146,7 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
     discovered: deduped.length, curated: curatedThisRun, autoCurated: autoAccepted.size, queued: finalQueue.length,
     verified: allFinals.length, emitted: allFinals.length,
     curationCoverage: deduped.length ? finals.length / deduped.length : 0,
+    curatedButNotEmitted,
   };
   return { catalog, site, hash, report, nextHistory, heartbeat: `last_run: ${ports.clock.nowIso()}`, queue: finalQueue, newCurations };
 }

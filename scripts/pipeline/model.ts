@@ -52,6 +52,7 @@ export interface BuildReport {
   verified: number;
   emitted: number;
   curationCoverage: number;   // emitted / discovered
+  curatedButNotEmitted: string[];  // records that exist but weren't emitted this run (silent-drop audit)
 }
 
 // Re-export the contract projection targets for emit.

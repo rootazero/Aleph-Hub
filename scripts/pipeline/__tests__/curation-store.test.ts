@@ -14,6 +14,9 @@ describe("makeCurationStore", () => {
   it("returns null for an unknown repo", () => {
     expect(makeCurationStore(DIR).get("nobody/nothing")).toBeNull();
   });
+  it("all() returns every loaded record", () => {
+    expect(makeCurationStore(DIR).all().map((r) => r.full_name)).toContain("acme/foo");
+  });
   it("returns an empty store when the directory is absent", () => {
     expect(makeCurationStore("scripts/pipeline/__tests__/fixtures/does-not-exist").get("a/b")).toBeNull();
   });

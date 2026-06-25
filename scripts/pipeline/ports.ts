@@ -46,7 +46,10 @@ export interface CurationRecord {
   install_spec: unknown;      // hint only — re-inferred + verified locally
   sec_note_en: string; sec_note_zh: string;
 }
-export interface CurationStore { get(fullName: string): CurationRecord | null; }
+export interface CurationStore {
+  get(fullName: string): CurationRecord | null;
+  all(): CurationRecord[];   // every committed record — used to audit for silently-dropped entries
+}
 
 // Autonomous curation (Phase 2). The LLM applies the curation policy as a hard filter
 // ("不确定就排除") and either proposes a record or rejects with a reason. The proposal
