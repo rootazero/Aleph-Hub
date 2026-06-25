@@ -41,3 +41,9 @@ export function allSlugs(): string[][] {
 export function anyBySlug(slug: string): AnySiteEntry | undefined {
   return BY_SLUG.get(slug);
 }
+
+// Flat union of both catalogs, for facets that group across all entries (e.g.
+// publisher attribution). Install entries lead, content entries follow.
+export function allEntries(): AnySiteEntry[] {
+  return [...getAll(), ...getAllContent()];
+}
