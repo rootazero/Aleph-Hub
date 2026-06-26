@@ -1,0 +1,23 @@
+{
+  "full_name": "kdnsna/ultimate-ppt-master-skill",
+  "name": "Ultimate PPT Master",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "pptx",
+    "powerpoint",
+    "presentation",
+    "web-deck",
+    "document-conversion"
+  ],
+  "description_en": "Turn a one-line request, messy source files, or a structured brief into either a natively editable PPTX deck or a magazine-style web slide deck. It first auto-expands a thin prompt into a \"best-effect brief\" (audience, scenario, core message, route, style), then runs source→brief→assets→generate→verify→export, optionally generating key visuals with GPT/Gemini image models and keeping a render-review and delivery audit trail.",
+  "description_zh": "把一句话需求、杂乱资料或结构化 brief 变成原生可编辑的 PPTX 或杂志风 Web Deck:先把短指令自动扩写成「最佳效果 brief」(受众、场景、核心信息、路线、风格),再走 资料→brief→素材→生成→校验→导出 流水线,可选用 GPT/Gemini 等生图模型产出主视觉,并保留渲染审阅与正式交付的审计留痕。",
+  "long_en": "A local-first AI presentation skill (root SKILL.md) driven by whatever agent/model you already run (Codex, Claude Code, etc.). Two output routes: a formal editable PPTX path (Microsoft YaHei, formal-business quality gate, source-confidence and official/IP asset planning) and a Guizang-like magazine web-deck path used as a stable high-quality fallback for extremely thin prompts. Document conversion (PDF/DOCX/XLSX/HTML/URL→Markdown), SVG→PPTX export, optional per-slide TTS narration, and a localhost SVG editor ship as bundled Python scripts; image generation is multi-provider and switchable via one env var.",
+  "long_zh": "一个本地优先的 AI 演示文稿技能(根目录 SKILL.md),由你正在用的 Agent/模型驱动(Codex、Claude Code 等)。两条输出路线:正式可编辑 PPTX(微软雅黑、formal-business 门禁、来源可信度与官方/IP 素材计划),以及 Guizang 风杂志 Web Deck——作为极短指令的稳定高质量 fallback。文档转换(PDF/DOCX/XLSX/HTML/URL→Markdown)、SVG→PPTX 导出、可选逐页 TTS 旁白、本地 SVG 编辑器以 Python 脚本形式打包;生图为多 provider,改一个环境变量即可切换。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/kdnsna/ultimate-ppt-master-skill"
+  },
+  "sec_note_en": "Core generation runs locally and the export scripts mostly use the Python standard library (optional pip deps: python-pptx, PyMuPDF, cairosvg/svglib, mammoth, etc.). AI image generation is opt-in: only when enabled does it need a provider API key (OpenAI/Gemini/Qwen/Zhipu/Volcengine/…) and send your prompts to that provider, with usage cost. TTS narration defaults to keyless edge-tts; cloud voices are optional. The web-to-Markdown helper can optionally use curl_cffi to impersonate a browser TLS fingerprint for portals (e.g. WeChat) that block Python's default client. It also runs a localhost Flask SVG editor and an optional local Agent Bridge.",
+  "sec_note_zh": "核心生成在本地运行,导出脚本大多仅用 Python 标准库(可选 pip 依赖:python-pptx、PyMuPDF、cairosvg/svglib、mammoth 等)。AI 生图为可选:仅在启用时才需要某个 provider 的 API Key(OpenAI/Gemini/通义/智谱/火山引擎等)并向该厂商发送提示词(按量计费)。TTS 旁白默认用免 Key 的 edge-tts,云端音色可选。网页转 Markdown 工具可选用 curl_cffi 模拟浏览器 TLS 指纹,以抓取屏蔽 Python 默认客户端的门户(如微信公众号)。它还会启动本地 Flask SVG 编辑器和可选的本地 Agent Bridge。"
+}
