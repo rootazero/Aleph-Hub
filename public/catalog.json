@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 135,
-    "generated_at": "2026-06-25T07:04:35.546Z",
-    "content_hash": "sha256:529a8fdf92da9e0ed72fd8e1b09f86344137f44ce97f389b33e7816a686c4778"
+    "entry_count": 139,
+    "generated_at": "2026-06-26T08:08:12.311Z",
+    "content_hash": "sha256:67b2f07279871fa41691a6a067677b70f4fd0120d722df3c10febaa021bb7a9b"
   },
   "entries": [
     {
@@ -1488,6 +1488,103 @@
       "via": "github:yixiliu617"
     },
     {
+      "id": "aleph-hub:hugohe3/ppt-master",
+      "kind": "skill",
+      "category": "design",
+      "name": "PPT Master",
+      "description": "Turn a PDF / DOCX / URL / Markdown into a natively editable PPTX through a serial multi-role pipeline (strategist → executor → quality check → export): the agent hand-writes one SVG page at a time, then post-processes into real DrawingML shapes, text boxes, charts and animations—optionally following your own .pptx template and voicing speaker notes as audio narration.",
+      "repo_url": "https://github.com/hugohe3/ppt-master",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/hugohe3/ppt-master",
+        "subdir": "skills/ppt-master",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "hugohe3",
+      "tags": [
+        "pptx",
+        "powerpoint",
+        "slides",
+        "svg",
+        "document-conversion"
+      ],
+      "via": "github:hugohe3"
+    },
+    {
+      "id": "aleph-hub:alchaincyf/huashu-design",
+      "kind": "skill",
+      "category": "design",
+      "name": "Huashu Design",
+      "description": "An HTML-native design skill that has the agent embody the right specialist (UX / animator / slide designer / prototyper) to produce hi-fi prototypes, 1920×1080 HTML slide decks, timeline-driven animations and side-by-side design variants—backed by 20 design philosophies, a 5-dimension review, an anti-'AI slop' discipline, and optional MP4/GIF export.",
+      "repo_url": "https://github.com/alchaincyf/huashu-design",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/alchaincyf/huashu-design",
+        "git_ref": "master"
+      },
+      "requires_config": false,
+      "author": "alchaincyf",
+      "tags": [
+        "design",
+        "prototype",
+        "slides",
+        "animation",
+        "html"
+      ],
+      "via": "github:alchaincyf"
+    },
+    {
+      "id": "aleph-hub:JimLiu/baoyu-skills",
+      "kind": "skill",
+      "category": "design",
+      "name": "Baoyu Slide Deck",
+      "description": "Turn content into a professional slide deck rendered as images—the skill first writes an outline with per-slide style instructions, then generates each slide as an individual image. Decks are tuned for reading and sharing (self-explanatory, logical scroll flow, social-media-friendly) rather than live presentation.",
+      "repo_url": "https://github.com/JimLiu/baoyu-skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/JimLiu/baoyu-skills",
+        "subdir": "skills/baoyu-slide-deck",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "JimLiu",
+      "tags": [
+        "slides",
+        "deck",
+        "image-generation",
+        "presentation"
+      ],
+      "via": "github:JimLiu"
+    },
+    {
+      "id": "aleph-hub:lewislulu/html-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "HTML PPT Studio",
+      "description": "Author professional static HTML presentations from a large template library—36 swappable themes, 31 single-page layouts, 15 full-deck templates, and 27 CSS plus 20 canvas-FX animations—all on a shared token-based design system, with a keyboard runtime (theme/animation hotkeys, presenter mode, notes drawer) and headless-Chrome PNG export.",
+      "repo_url": "https://github.com/lewislulu/html-ppt-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/lewislulu/html-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "lewislulu",
+      "tags": [
+        "slides",
+        "html",
+        "presentation",
+        "themes",
+        "keynote"
+      ],
+      "via": "github:lewislulu"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -2100,29 +2197,6 @@
       "via": "github:axiaoge2"
     },
     {
-      "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
-      "kind": "skill",
-      "category": "knowledge",
-      "name": "Math Modeling",
-      "description": "End-to-end workflow for math-modeling competitions (CUMCM, MCM/ICM): topic selection, modeling, solving, paper writing, and final review.",
-      "repo_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "handsomeZR-netizen",
-      "tags": [
-        "math-modeling",
-        "academic",
-        "competition",
-        "writing"
-      ],
-      "via": "github:handsomeZR-netizen"
-    },
-    {
       "id": "aleph-hub:uxKero/anydesign",
       "kind": "skill",
       "category": "design",
@@ -2144,6 +2218,29 @@
         "reverse-engineering"
       ],
       "via": "github:uxKero"
+    },
+    {
+      "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Math Modeling",
+      "description": "End-to-end workflow for math-modeling competitions (CUMCM, MCM/ICM): topic selection, modeling, solving, paper writing, and final review.",
+      "repo_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "handsomeZR-netizen",
+      "tags": [
+        "math-modeling",
+        "academic",
+        "competition",
+        "writing"
+      ],
+      "via": "github:handsomeZR-netizen"
     },
     {
       "id": "aleph-hub:dososo/blcaptain-style-skill",
@@ -2284,29 +2381,6 @@
       "via": "github:Ashutos1997"
     },
     {
-      "id": "aleph-hub:SDLLL/claude-for-safari",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Claude for Safari",
-      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
-      "repo_url": "https://github.com/SDLLL/claude-for-safari",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/SDLLL/claude-for-safari",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "SDLLL",
-      "tags": [
-        "safari",
-        "browser",
-        "macos",
-        "automation"
-      ],
-      "via": "github:SDLLL"
-    },
-    {
       "id": "aleph-hub:VincentOld/stop-slop-zh",
       "kind": "skill",
       "category": "writing",
@@ -2328,6 +2402,29 @@
         "style"
       ],
       "via": "github:VincentOld"
+    },
+    {
+      "id": "aleph-hub:SDLLL/claude-for-safari",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Claude for Safari",
+      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+      "repo_url": "https://github.com/SDLLL/claude-for-safari",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SDLLL/claude-for-safari",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "SDLLL",
+      "tags": [
+        "safari",
+        "browser",
+        "macos",
+        "automation"
+      ],
+      "via": "github:SDLLL"
     },
     {
       "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
@@ -2422,29 +2519,6 @@
       "via": "github:Adityapal67"
     },
     {
-      "id": "aleph-hub:echoVic/spec-flow",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Spec-Flow",
-      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
-      "repo_url": "https://github.com/echoVic/spec-flow",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/echoVic/spec-flow",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "echoVic",
-      "tags": [
-        "spec-driven",
-        "planning",
-        "workflow",
-        "tasks"
-      ],
-      "via": "github:echoVic"
-    },
-    {
       "id": "aleph-hub:kgraph57/paper-writer-skill",
       "kind": "skill",
       "category": "writing",
@@ -2466,6 +2540,29 @@
         "manuscript"
       ],
       "via": "github:kgraph57"
+    },
+    {
+      "id": "aleph-hub:echoVic/spec-flow",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Spec-Flow",
+      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
+      "repo_url": "https://github.com/echoVic/spec-flow",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/echoVic/spec-flow",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "echoVic",
+      "tags": [
+        "spec-driven",
+        "planning",
+        "workflow",
+        "tasks"
+      ],
+      "via": "github:echoVic"
     },
     {
       "id": "aleph-hub:googlarz/finance-assistant",
