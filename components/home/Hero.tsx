@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS } from "@/lib/i18n";
-import { getAll } from "@/lib/catalog";
 
-// Mockup lines 47-55.
-export function Hero() {
+// Mockup lines 47-55. `total` (both catalogs) is computed server-side and passed in so
+// this client component never imports the catalog JSON.
+export function Hero({ total }: { total: number }) {
   const { lang } = useLang();
   const t = STRINGS[lang];
-  const ctaAll = t.ctaAll.replace("{n}", String(getAll().length));
+  // "Browse all" lands on /all, which lists both catalogs — the count spans both.
+  const ctaAll = t.ctaAll.replace("{n}", String(total));
   const cta = { fontSize: 12, letterSpacing: ".14em", textTransform: "uppercase" as const, fontWeight: 600, padding: "14px 28px", borderRadius: 2, textDecoration: "none" };
   return (
     <div>

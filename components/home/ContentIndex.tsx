@@ -1,27 +1,25 @@
 "use client";
 import Link from "next/link";
 import type { ContentKindT } from "@/contract/content-schema";
-import type { ContentSiteEntryT } from "@/contract/content-site";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, CONTENT_KIND_LABELS } from "@/lib/i18n";
-import { contentKindCounts, flagshipContent, featuredContent, slugForContent } from "@/lib/content";
+import { slugForAny } from "@/lib/entry";
+import type { HomeContentCard, HomeContentRow, ContentRegion } from "@/lib/home";
 
 // The two content axes continue the home Index below the three install axes.
-// Numbers 04/05 follow skill(01)/mcp(02)/plugin(03).
+// Numbers 04/05 follow skill(01)/mcp(02)/plugin(03). Data is computed server-side
+// (lib/home) and passed in slim.
 const META: Record<ContentKindT, { num: string; zhTag: string; enTag: string }> = {
   prompt: { num: "04", zhTag: "即用型提示词", enTag: "Copy-ready prompts" },
   workflow: { num: "05", zhTag: "可运行的 Agent 工作流", enTag: "Runnable agent workflows" },
 };
-const ORDER: ContentKindT[] = ["prompt", "workflow"];
 
-export function ContentIndex() {
+export function ContentIndex({ regions }: { regions: ContentRegion[] }) {
   const { lang } = useLang();
   const t = STRINGS[lang];
-  const counts = contentKindCounts();
-  const descOf = (e: ContentSiteEntryT) => (lang === "zh" ? e.description_zh : e.description_en);
   const nameOf = (k: ContentKindT) => (lang === "zh" ? CONTENT_KIND_LABELS[k].zh : CONTENT_KIND_LABELS[k].en);
 
-  const head = (k: ContentKindT) => (
+  const head = (k: ContentKindT, count: number) => (
     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 16, marginBottom: 18 }}>
       <span style={{ display: "flex", gap: 18, alignItems: "baseline", minWidth: 0 }}>
         <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 12, color: "var(--orange)" }}>{META[k].num}</span>
@@ -29,14 +27,14 @@ export function ContentIndex() {
         <span style={{ fontSize: 13, color: "var(--taupe)" }}>{lang === "zh" ? META[k].zhTag : META[k].enTag}</span>
       </span>
       <Link href={`/c/${k}`} className="sec-more" style={{ display: "flex", alignItems: "center", gap: 14, textDecoration: "none", color: "var(--taupe)", flex: "none" }}>
-        <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 13, color: "var(--ink-soft)" }}>{counts[k]}</span>
+        <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 13, color: "var(--ink-soft)" }}>{count}</span>
         <span style={{ fontSize: 11, letterSpacing: ".10em", textTransform: "uppercase" }}>{t.viewAll} →</span>
       </Link>
     </div>
   );
 
-  const featRow = (e: ContentSiteEntryT) => (
-    <Link key={e.id} href={`/e/${slugForContent(e)}`} className="idx-feat-row" style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 16, padding: "13px 0", borderTop: "1px solid var(--hair)", textDecoration: "none", color: "inherit" }}>
+  const featRow = (e: HomeContentRow) => (
+    <Link key={e.id} href={`/e/${slugForAny(e)}`} className="idx-feat-row" style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 16, padding: "13px 0", borderTop: "1px solid var(--hair)", textDecoration: "none", color: "inherit" }}>
       <span style={{ display: "flex", alignItems: "baseline", gap: 11, minWidth: 0 }}>
         <span className="idx-feat-name" style={{ fontFamily: "var(--font-mono), monospace", fontSize: 14, color: "var(--ink)", whiteSpace: "nowrap" }}>{e.name}</span>
         <span style={{ fontSize: 12, color: "var(--taupe)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{e.author}</span>
@@ -45,14 +43,14 @@ export function ContentIndex() {
     </Link>
   );
 
-  const mainCard = (e: ContentSiteEntryT) => (
-    <Link href={`/e/${slugForContent(e)}`} className="idx-main idx-spotlight" style={{ display: "flex", gap: 16, alignItems: "center", background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 3, padding: 14, textDecoration: "none", color: "inherit" }}>
+  const mainCard = (e: HomeContentCard) => (
+    <Link href={`/e/${slugForAny(e)}`} className="idx-main idx-spotlight" style={{ display: "flex", gap: 16, alignItems: "center", background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 3, padding: 14, textDecoration: "none", color: "inherit" }}>
       <div style={{ width: 74, height: 74, flex: "none", borderRadius: 2, background: e.cover_color, display: "flex", alignItems: "center", justifyContent: "center" }}>
         <span style={{ fontFamily: "var(--font-cormorant), serif", fontSize: 44, color: "rgba(255,255,255,.92)", lineHeight: 1 }}>{e.name[0]}</span>
       </div>
       <div style={{ minWidth: 0 }}>
         <div style={{ fontFamily: "var(--font-cormorant), var(--font-noto-serif-sc), serif", fontWeight: 600, fontSize: 21, marginBottom: 4 }}>{e.name}</div>
-        <p style={{ fontSize: 12.5, lineHeight: 1.4, color: "var(--ink-soft)", margin: "0 0 6px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{descOf(e)}</p>
+        <p style={{ fontSize: 12.5, lineHeight: 1.4, color: "var(--ink-soft)", margin: "0 0 6px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{lang === "zh" ? e.description_zh : e.description_en}</p>
         <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 11.5, color: "var(--ink-soft)" }}>{e.author} · {e.format}</span>
       </div>
     </Link>
@@ -66,24 +64,22 @@ export function ContentIndex() {
     </div>
   );
 
-  const region = (k: ContentKindT) => {
-    const main = flagshipContent(k);
-    if (!main) return emptyRegion;
-    const rows = featuredContent(k, 6);
+  const regionBody = (region: ContentRegion) => {
+    if (!region.main) return emptyRegion;
     return (
       <div className="idx-region-grid" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: "0 44px", alignItems: "start", gridAutoFlow: "row dense" }}>
-        {mainCard(main)}
-        {rows.map((e) => featRow(e))}
+        {mainCard(region.main)}
+        {region.rows.map((e) => featRow(e))}
       </div>
     );
   };
 
   return (
     <section style={{ maxWidth: 1480, margin: "0 auto", padding: "0 48px 8px" }}>
-      {ORDER.map((k) => (
-        <div key={k} style={{ padding: "30px 0", borderTop: "1px solid var(--hair)" }}>
-          {head(k)}
-          {region(k)}
+      {regions.map((region) => (
+        <div key={region.kind} style={{ padding: "30px 0", borderTop: "1px solid var(--hair)" }}>
+          {head(region.kind, region.count)}
+          {regionBody(region)}
         </div>
       ))}
     </section>

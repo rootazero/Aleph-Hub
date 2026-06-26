@@ -1,12 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useLang } from "@/components/providers/LangProvider";
-import { formatStars } from "@/lib/catalog";
-import { type AnySiteEntry, isContent, slugForAny } from "@/lib/site";
+import { type CardEntry, isContent, slugForAny, formatStars } from "@/lib/entry";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Sparkline } from "@/components/Sparkline";
 
-export function Card({ entry, rank }: { entry: AnySiteEntry; rank?: number }) {
+export function Card({ entry, rank }: { entry: CardEntry; rank?: number }) {
   const { lang } = useLang();
   const desc = lang === "zh" ? entry.description_zh : entry.description_en;
   return (

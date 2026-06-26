@@ -3,14 +3,14 @@ import Link from "next/link";
 import type { ExtensionCategoryT } from "@/contract/types";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, CATEGORY_LABELS } from "@/lib/i18n";
-import { editorialPicks, formatStars, slugForEntry } from "@/lib/catalog";
+import { slugForAny, formatStars } from "@/lib/entry";
+import type { CollectionPick } from "@/lib/home";
 
 // Editorial gallery: the standout entry in each of the richest areas (spec §7.4).
-// Replaces the old tag-bucket grouping, which had no matching data and rendered empty.
-export function Collection() {
+// Picks are computed server-side and passed in slim.
+export function Collection({ picks }: { picks: CollectionPick[] }) {
   const { lang } = useLang();
   const t = STRINGS[lang];
-  const picks = editorialPicks(3);
   if (!picks.length) return null;
   return (
     <section style={{ maxWidth: 1480, margin: "0 auto", padding: "8px 48px 80px" }}>
@@ -22,7 +22,7 @@ export function Collection() {
           const area = CATEGORY_LABELS[category as ExtensionCategoryT]?.[lang] ?? category;
           const desc = lang === "zh" ? entry.description_zh : entry.description_en;
           return (
-            <Link key={entry.id} href={`/e/${slugForEntry(entry)}`} className="col-card" style={{ display: "block", textDecoration: "none", color: "inherit", background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 3, overflow: "hidden" }}>
+            <Link key={entry.id} href={`/e/${slugForAny(entry)}`} className="col-card" style={{ display: "block", textDecoration: "none", color: "inherit", background: "var(--panel)", border: "1px solid var(--hair)", borderRadius: 3, overflow: "hidden" }}>
               <div style={{ height: 160, background: entry.cover_color, display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
                 <span style={{ fontFamily: "var(--font-cormorant), serif", fontSize: 86, color: "rgba(255,255,255,.92)", lineHeight: 1 }}>{entry.name[0]}</span>
                 <span style={{ position: "absolute", top: 14, left: 14, fontSize: 9, letterSpacing: ".10em", textTransform: "uppercase", fontWeight: 600, color: entry.cover_color, background: "#fff", padding: "4px 9px", borderRadius: 2 }}>{area}</span>

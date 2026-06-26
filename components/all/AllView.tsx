@@ -4,9 +4,8 @@ import type { ExtensionKindT } from "@/contract/types";
 import type { ContentKindT } from "@/contract/content-schema";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, catLabel } from "@/lib/i18n";
-import { getAll } from "@/lib/catalog";
-import { getAllContent } from "@/lib/content";
-import type { AnySiteEntry } from "@/lib/site";
+import type { ListEntry } from "@/lib/entry";
+import { useInfiniteScroll } from "@/lib/use-infinite-scroll";
 import { Card } from "@/components/Card";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -25,18 +24,21 @@ const KINDS: { key: AnyKind; zh: string; en: string }[] = [
 ];
 
 // Unified browse over install + content catalogs: search + kind + category, one grid.
-export function AllView() {
+// Entries arrive slim (no body/long_*/install_spec) from the server page; the grid is
+// revealed via infinite scroll so a large catalog never renders thousands of cards up
+// front. The header count stays the full filtered total, not the rendered slice.
+export function AllView({ entries }: { entries: ListEntry[] }) {
   const { lang } = useLang();
   const t = STRINGS[lang];
   const [q, setQ] = useState("");
   const [kind, setKind] = useState<string>("all");
   const [cat, setCat] = useState<string>("all");
-  const all: AnySiteEntry[] = [...getAll(), ...getAllContent()];
   const query = q.trim().toLowerCase();
-  const visible = all
+  const matches = entries
     .filter((e) => kind === "all" || e.kind === kind)
     .filter((e) => cat === "all" || e.category === cat)
     .filter((e) => !query || `${e.name} ${e.description_en} ${e.description_zh} ${e.tags.join(" ")}`.toLowerCase().includes(query));
+  const { visible, sentinel } = useInfiniteScroll(matches, `${kind}|${cat}|${query}`);
   const chip = (active: boolean) => ({ fontSize: 12, padding: "8px 18px", borderRadius: 20, cursor: "pointer", color: active ? "#FBF6EE" : "var(--ink-soft)", background: active ? "var(--orange)" : "var(--panel)", border: active ? "none" : "1px solid var(--hair)" });
   return (
     <>
@@ -46,7 +48,7 @@ export function AllView() {
           <div style={{ fontSize: 11, letterSpacing: ".24em", textTransform: "uppercase", color: "var(--orange)", marginBottom: 18, fontWeight: 600 }}>{t.catalogKicker}</div>
           <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 24 }}>
             <h1 style={{ fontFamily: "var(--font-cormorant), var(--font-noto-serif-sc), serif", fontWeight: 500, fontSize: 60, lineHeight: 1, margin: 0 }}>{t.allCats}</h1>
-            <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 14, color: "var(--ink-soft)", paddingBottom: 8 }}>{visible.length} {t.results}</span>
+            <span style={{ fontFamily: "var(--font-mono), monospace", fontSize: 14, color: "var(--ink-soft)", paddingBottom: 8 }}>{matches.length} {t.results}</span>
           </div>
         </section>
         <section style={{ display: "flex", gap: 16, padding: "22px 0", borderBottom: "1px solid var(--hair)" }}>
@@ -66,10 +68,13 @@ export function AllView() {
             <span key={c} onClick={() => setCat(c)} style={chip(cat === c)}>{catLabel(c, lang)}</span>
           ))}
         </section>
-        {visible.length ? (
-          <section style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
-            {visible.map((e) => <Card key={e.id} entry={e} />)}
-          </section>
+        {matches.length ? (
+          <>
+            <section style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
+              {visible.map((e) => <Card key={e.id} entry={e} />)}
+            </section>
+            <div ref={sentinel} aria-hidden style={{ height: 1 }} />
+          </>
         ) : (
           <div style={{ textAlign: "center", padding: "60px 0", color: "var(--taupe)", fontSize: 15 }}>{t.noResults}</div>
         )}

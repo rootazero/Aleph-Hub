@@ -2,11 +2,11 @@
 import Link from "next/link";
 import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS } from "@/lib/i18n";
-import { trending } from "@/lib/catalog";
+import type { ListEntry } from "@/lib/entry";
 import { Card } from "@/components/Card";
 
-// Mockup lines 91-105.
-export function Trending() {
+// Mockup lines 91-105. Entries arrive slim from the server page.
+export function Trending({ entries }: { entries: ListEntry[] }) {
   const { lang } = useLang();
   const t = STRINGS[lang];
   return (
@@ -16,7 +16,7 @@ export function Trending() {
         <Link href="/c/skill" className="sec-more" style={{ fontSize: 11, letterSpacing: ".10em", color: "var(--taupe)", textDecoration: "none" }}>{t.viewAll} →</Link>
       </div>
       <div className="card-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
-        {trending(6).map((e, i) => <Card key={e.id} entry={e} rank={i + 1} />)}
+        {entries.map((e, i) => <Card key={e.id} entry={e} rank={i + 1} />)}
       </div>
     </section>
   );
