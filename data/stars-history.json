@@ -5,7 +5,8 @@
     34190,
     34271,
     34311,
-    34372
+    34372,
+    34381
   ],
   "wonderwhy-er/DesktopCommanderMCP": [
     6188,
@@ -13,6 +14,7 @@
     6195,
     6204,
     6207,
+    6212,
     6212
   ],
   "mobile-next/mobile-mcp": [
@@ -21,7 +23,8 @@
     5247,
     5262,
     5271,
-    5283
+    5283,
+    5284
   ],
   "zarazhangrui/frontend-slides": [
     22342,
@@ -30,7 +33,8 @@
     22466,
     22722,
     22918,
-    23172
+    23172,
+    23249
   ],
   "op7418/guizang-social-card-skill": [
     3809,
@@ -39,7 +43,8 @@
     3864,
     3941,
     4019,
-    4058
+    4058,
+    4071
   ],
   "eugeniughelbur/obsidian-second-brain": [
     2579,
@@ -48,7 +53,8 @@
     2607,
     2666,
     2686,
-    2711
+    2711,
+    2714
   ],
   "tt-a1i/archify": [
     1192,
@@ -57,7 +63,8 @@
     1214,
     1220,
     1222,
-    1228
+    1228,
+    1230
   ],
   "nolangz/pixel2motion": [
     848,
@@ -66,7 +73,8 @@
     913,
     987,
     1011,
-    1037
+    1037,
+    1045
   ],
   "dominikmartn/hue": [
     715,
@@ -75,7 +83,8 @@
     718,
     718,
     719,
-    719
+    719,
+    720
   ],
   "Bhanunamikaze/Agentic-SEO-Skill": [
     674,
@@ -84,6 +93,7 @@
     679,
     688,
     694,
+    697,
     697
   ],
   "TexasBedouin/vibe-check": [
@@ -93,7 +103,8 @@
     436,
     446,
     450,
-    451
+    451,
+    452
   ],
   "ckelsoe/prompt-architect": [
     212,
@@ -102,7 +113,8 @@
     214,
     217,
     219,
-    220
+    220,
+    221
   ],
   "JamesShi96/project-butler": [
     202,
@@ -111,7 +123,8 @@
     217,
     235,
     247,
-    256
+    256,
+    259
   ],
   "coffeefuelbump/csv-data-summarizer-claude-skill": [
     410,
@@ -119,6 +132,7 @@
     410,
     412,
     412,
+    413,
     413
   ],
   "KaguraNanaga/document-format-skills": [
@@ -127,6 +141,7 @@
     186,
     189,
     189,
+    190,
     190
   ],
   "karanb192/algo-sensei": [
@@ -135,6 +150,7 @@
     158,
     165,
     165,
+    166,
     166
   ],
   "jtrackingai/analytics-tracking-automation": [
@@ -143,7 +159,8 @@
     129,
     130,
     130,
-    130
+    130,
+    131
   ],
   "apiotrowski-afk/commercial-legal-pl": [
     123,
@@ -151,6 +168,7 @@
     124,
     127,
     127,
+    128,
     128
   ],
   "wrsmith108/linear-claude-skill": [
@@ -159,9 +177,11 @@
     110,
     112,
     112,
+    112,
     112
   ],
   "yfe404/web-scraper": [
+    72,
     72,
     72,
     72,
@@ -175,7 +195,8 @@
     960,
     970,
     977,
-    981
+    981,
+    982
   ],
   "KAOPU-XiaoPu/web-design": [
     525,
@@ -189,13 +210,15 @@
     261,
     263,
     263,
-    265
+    265,
+    266
   ],
   "kimlawtech/korean-privacy-terms": [
     258,
     258,
     259,
     260,
+    268,
     268,
     268
   ],
@@ -205,7 +228,8 @@
     228,
     237,
     246,
-    253
+    253,
+    254
   ],
   "likaku/Mck-ppt-design-skill": [
     194,
@@ -213,9 +237,11 @@
     196,
     199,
     199,
-    201
+    201,
+    202
   ],
   "PleasePrompto/google-ai-mode-skill": [
+    176,
     176,
     176,
     176,
@@ -229,6 +255,7 @@
     167,
     167,
     167,
+    167,
     167
   ],
   "Hao0321/ai-media-generator": [
@@ -237,13 +264,15 @@
     136,
     138,
     139,
-    141
+    141,
+    142
   ],
   "axiaoge2/Apple-Hig-Designer": [
     124,
     124,
     124,
     125,
+    127,
     127,
     127
   ],
@@ -253,13 +282,15 @@
     113,
     113,
     114,
-    119
+    119,
+    120
   ],
   "handsomeZR-netizen/mathmodel-skill": [
     111,
     111,
     112,
     113,
+    114,
     114,
     114
   ],
@@ -269,6 +300,7 @@
     107,
     136,
     142,
+    148,
     148
   ],
   "zy-zmc/tianming-skill": [
@@ -277,6 +309,7 @@
     94,
     94,
     94,
+    95,
     95
   ],
   "dososo/blcaptain-style-skill": [
@@ -285,6 +318,7 @@
     93,
     94,
     96,
+    98,
     98
   ],
   "iamzifei/wechat-article-formatter-skill": [
@@ -293,6 +327,7 @@
     69,
     69,
     69,
+    70,
     70
   ],
   "swaylq/master-skill": [
@@ -301,6 +336,7 @@
     71,
     79,
     83,
+    87,
     87
   ],
   "Jaderson-bit/mindmap-markmap-viewer": [
@@ -309,9 +345,11 @@
     61,
     62,
     62,
+    62,
     62
   ],
   "Ashutos1997/claude-design-auditor-skill": [
+    59,
     59,
     59,
     59,
@@ -325,6 +363,7 @@
     41,
     41,
     43,
+    43,
     43
   ],
   "VincentOld/stop-slop-zh": [
@@ -333,6 +372,7 @@
     39,
     40,
     41,
+    43,
     43
   ],
   "cjpatten/canadian-finance-planner-skill": [
@@ -340,6 +380,7 @@
     36,
     36,
     36,
+    37,
     37,
     37
   ],
@@ -349,9 +390,11 @@
     34,
     35,
     35,
+    35,
     35
   ],
   "Adityapal67/context-graph-compressor": [
+    33,
     33,
     33,
     33,
@@ -365,9 +408,11 @@
     33,
     34,
     35,
+    35,
     35
   ],
   "echoVic/spec-flow": [
+    32,
     32,
     32,
     32,
@@ -381,9 +426,11 @@
     32,
     32,
     32,
+    33,
     33
   ],
   "googlarz/finance-assistant": [
+    29,
     29,
     29,
     29,
@@ -397,6 +444,7 @@
     28,
     28,
     28,
+    28,
     28
   ],
   "jianshuo/jianshuo-wechat-mp-publish": [
@@ -405,6 +453,7 @@
     22,
     22,
     22,
+    23,
     23
   ],
   "ktaletsk/learn-codebase": [
@@ -413,9 +462,11 @@
     22,
     22,
     22,
+    23,
     23
   ],
   "elderengineer/tax-organizer": [
+    20,
     20,
     20,
     20,
@@ -429,6 +480,7 @@
     17,
     17,
     17,
+    17,
     17
   ],
   "Danielbluz/skill-irpf-brasil": [
@@ -437,9 +489,11 @@
     15,
     15,
     15,
+    16,
     16
   ],
   "Bhanunamikaze/AI-Dataset-Generator": [
+    15,
     15,
     15,
     15,
@@ -453,9 +507,11 @@
     16,
     16,
     16,
+    17,
     17
   ],
   "Hasasasa/claude-skill-html-to-pptx": [
+    11,
     11,
     11,
     11,
@@ -469,9 +525,11 @@
     10,
     10,
     10,
+    10,
     10
   ],
   "dudaster/html2elementor": [
+    10,
     10,
     10,
     10,
@@ -485,6 +543,7 @@
     9,
     9,
     9,
+    9,
     9
   ],
   "Mobiss11/Whisper-Skill": [
@@ -493,12 +552,14 @@
     9,
     10,
     10,
-    10
+    10,
+    11
   ],
   "patrickstigler/claude-skill-it-recht-dsgvo": [
     9,
     9,
     10,
+    11,
     11,
     11,
     11
@@ -509,7 +570,8 @@
     2639,
     2747,
     2808,
-    2862
+    2862,
+    2875
   ],
   "917Dhj/DeepPaperNote": [
     369,
@@ -517,7 +579,8 @@
     379,
     397,
     404,
-    416
+    416,
+    417
   ],
   "gitroomhq/postiz-agent": [
     304,
@@ -525,9 +588,11 @@
     306,
     310,
     313,
+    315,
     315
   ],
   "quailyquaily/aqua": [
+    255,
     255,
     255,
     255,
@@ -541,6 +606,7 @@
     236,
     237,
     238,
+    239,
     239
   ],
   "CosmoBlk/email-marketing-bible": [
@@ -549,6 +615,7 @@
     227,
     230,
     230,
+    233,
     233
   ],
   "caylent/tufte-data-viz": [
@@ -557,6 +624,7 @@
     178,
     178,
     178,
+    179,
     179
   ],
   "mohi-devhub/antivibe": [
@@ -565,6 +633,7 @@
     648,
     649,
     649,
+    650,
     650
   ],
   "claude-world/notebooklm-skill": [
@@ -573,6 +642,7 @@
     263,
     265,
     265,
+    266,
     266
   ],
   "O0000-code/paper-search-pro": [
@@ -581,9 +651,11 @@
     66,
     68,
     69,
+    71,
     71
   ],
   "SpillwaveSolutions/plantuml": [
+    46,
     46,
     46,
     46,
@@ -597,9 +669,11 @@
     36,
     36,
     36,
+    36,
     36
   ],
   "EternalWavee/benchmark-research-skill": [
+    31,
     31,
     31,
     31,
@@ -613,9 +687,11 @@
     21,
     21,
     21,
+    21,
     21
   ],
   "Yoojin-nam/hwp-pipeline": [
+    16,
     16,
     16,
     16,
@@ -629,9 +705,11 @@
     16,
     16,
     16,
+    16,
     16
   ],
   "xntj-ai/onepage-pdf": [
+    9,
     9,
     9,
     9,
@@ -645,6 +723,7 @@
     5,
     5,
     5,
+    5,
     5
   ],
   "tlehman/litprog-skill": [
@@ -653,44 +732,58 @@
     183,
     189,
     192,
-    192
+    192,
+    194
   ],
   "BuilderIO/skills": [
     2374,
     2547,
     2578,
-    2701
+    2701,
+    2727
   ],
   "op7418/Humanizer-zh": [
     11517,
-    11644
+    11644,
+    11675
   ],
   "op7418/guizang-ppt-skill": [
     18869,
-    19023
+    19023,
+    19060
   ],
   "Leonxlnx/taste-skill": [
     50519,
-    51195
+    51195,
+    51304
   ],
   "Panniantong/Agent-Reach": [
     40248,
-    41649
+    41649,
+    41885
   ],
   "yixiliu617/data-craft": [
+    7,
     7,
     7
   ],
   "hugohe3/ppt-master": [
-    31789
+    31789,
+    32104
   ],
   "alchaincyf/huashu-design": [
-    19842
+    19842,
+    19880
   ],
   "JimLiu/baoyu-skills": [
-    22540
+    22540,
+    22566
   ],
   "lewislulu/html-ppt-skill": [
-    6545
+    6545,
+    6561
+  ],
+  "kdnsna/ultimate-ppt-master-skill": [
+    72
   ]
 }

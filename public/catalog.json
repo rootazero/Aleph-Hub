@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 139,
-    "generated_at": "2026-06-26T08:08:12.311Z",
-    "content_hash": "sha256:67b2f07279871fa41691a6a067677b70f4fd0120d722df3c10febaa021bb7a9b"
+    "entry_count": 140,
+    "generated_at": "2026-06-26T13:08:22.622Z",
+    "content_hash": "sha256:ca521b4669c7eb0fa92048380e87c38db8fe6869b1b1c431ea8788bfeb062f02"
   },
   "entries": [
     {
@@ -1585,6 +1585,30 @@
       "via": "github:lewislulu"
     },
     {
+      "id": "aleph-hub:kdnsna/ultimate-ppt-master-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Ultimate PPT Master",
+      "description": "Turn a one-line request, messy source files, or a structured brief into either a natively editable PPTX deck or a magazine-style web slide deck. It first auto-expands a thin prompt into a \"best-effect brief\" (audience, scenario, core message, route, style), then runs source→brief→assets→generate→verify→export, optionally generating key visuals with GPT/Gemini image models and keeping a render-review and delivery audit trail.",
+      "repo_url": "https://github.com/kdnsna/ultimate-ppt-master-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kdnsna/ultimate-ppt-master-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kdnsna",
+      "tags": [
+        "pptx",
+        "powerpoint",
+        "presentation",
+        "web-deck",
+        "document-conversion"
+      ],
+      "via": "github:kdnsna"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -2818,29 +2842,6 @@
       "via": "github:patrickstigler"
     },
     {
-      "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Business Analyst",
-      "description": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
-      "repo_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Zuokaiqi",
-      "tags": [
-        "data-analysis",
-        "insights",
-        "excel",
-        "reporting"
-      ],
-      "via": "github:Zuokaiqi"
-    },
-    {
       "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
       "category": "utilities",
@@ -2862,6 +2863,29 @@
         "dictation"
       ],
       "via": "github:Mobiss11"
+    },
+    {
+      "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Business Analyst",
+      "description": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
+      "repo_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Zuokaiqi",
+      "tags": [
+        "data-analysis",
+        "insights",
+        "excel",
+        "reporting"
+      ],
+      "via": "github:Zuokaiqi"
     },
     {
       "id": "aleph-hub:dudaster/html2elementor",
