@@ -1,0 +1,24 @@
+{
+  "full_name": "hugohe3/ppt-master",
+  "name": "PPT Master",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "pptx",
+    "powerpoint",
+    "slides",
+    "svg",
+    "document-conversion"
+  ],
+  "description_en": "Turn a PDF / DOCX / URL / Markdown into a natively editable PPTX through a serial multi-role pipeline (strategist → executor → quality check → export): the agent hand-writes one SVG page at a time, then post-processes into real DrawingML shapes, text boxes, charts and animations—optionally following your own .pptx template and voicing speaker notes as audio narration.",
+  "description_zh": "把 PDF / DOCX / URL / Markdown 经一条串行多角色流水线(策略师→执行器→质检→导出)做成原生可编辑的 PPTX:agent 逐页手写 SVG,再后处理为真正的 DrawingML 形状、文本框、图表与动画——可选套用你自己的 .pptx 模板,并把演讲者备注合成为语音旁白。",
+  "long_en": "A document-to-PPTX skill packaged as a Claude Code plugin (the skill lives at skills/ppt-master). It enforces a strict serial discipline—per-page SVG authoring with full upstream context rather than batch script generation—to keep long decks visually consistent, then converts the SVG pages into editable PowerPoint objects.",
+  "long_zh": "一个文档转 PPTX 的技能,以 Claude Code 插件形式打包(技能位于 skills/ppt-master)。它强制串行纪律——逐页手写 SVG 并携带完整上文,而非批量脚本生成——以保证长 deck 的视觉一致性,再把 SVG 页面转成可编辑的 PowerPoint 对象。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/hugohe3/ppt-master",
+    "subdir": "skills/ppt-master"
+  },
+  "sec_note_en": "Needs local Python dependencies (pip install -r requirements.txt) for the export/post-processing scripts. AI image generation is an optional backend—only when enabled does it require an OpenAI/Gemini/Qwen/Zhipu/Volcengine API key and send prompts to that provider (costs accrue); the core SVG→PPTX pipeline runs locally.",
+  "sec_note_zh": "导出/后处理脚本需在本地安装 Python 依赖(pip install -r requirements.txt)。AI 图片生成为可选后端——仅在启用时才需要 OpenAI/Gemini/Qwen/智谱/火山引擎的 API Key 并向该厂商发送提示词(按量计费);核心 SVG→PPTX 流程在本地运行。"
+}

@@ -1,0 +1,23 @@
+{
+  "full_name": "lewislulu/html-ppt-skill",
+  "name": "HTML PPT Studio",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "slides",
+    "html",
+    "presentation",
+    "themes",
+    "keynote"
+  ],
+  "description_en": "Author professional static HTML presentations from a large template library—36 swappable themes, 31 single-page layouts, 15 full-deck templates, and 27 CSS plus 20 canvas-FX animations—all on a shared token-based design system, with a keyboard runtime (theme/animation hotkeys, presenter mode, notes drawer) and headless-Chrome PNG export.",
+  "description_zh": "基于一个大型模板库撰写专业的静态 HTML 演示——36 套可切换主题、31 种单页布局、15 套整 deck 模板,外加 27 个 CSS 与 20 个 canvas 特效动画——全部建立在统一的 token 设计系统上,配备键盘运行时(主题/动画热键、演讲者模式、备注抽屉)与无头 Chrome PNG 导出。",
+  "long_en": "A template-driven slide studio: one theme file = one look, one layout file = one page type, one animation class = one entry effect. Pure static HTML/CSS/JS with only CDN webfonts—no build step—navigable entirely from the keyboard.",
+  "long_zh": "一个模板驱动的幻灯片工作室:一个主题文件=一种观感,一个布局文件=一种页型,一个动画类=一种入场效果。纯静态 HTML/CSS/JS,仅用 CDN 网络字体——无需构建——完全可用键盘操作。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/lewislulu/html-ppt-skill"
+  },
+  "sec_note_en": "Generates self-contained static HTML locally; decks load only CDN webfonts at view time. PNG export runs a local headless Chrome—no API key or backend service required.",
+  "sec_note_zh": "在本地生成自包含的静态 HTML;deck 仅在浏览时加载 CDN 网络字体。PNG 导出走本地无头 Chrome——无需 API Key 或后端服务。"
+}

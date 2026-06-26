@@ -1,0 +1,23 @@
+{
+  "full_name": "alchaincyf/huashu-design",
+  "name": "Huashu Design",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "design",
+    "prototype",
+    "slides",
+    "animation",
+    "html"
+  ],
+  "description_en": "An HTML-native design skill that has the agent embody the right specialist (UX / animator / slide designer / prototyper) to produce hi-fi prototypes, 1920×1080 HTML slide decks, timeline-driven animations and side-by-side design variants—backed by 20 design philosophies, a 5-dimension review, an anti-'AI slop' discipline, and optional MP4/GIF export.",
+  "description_zh": "一个 HTML 原生的设计技能,让 agent 按任务化身对应专家(UX/动画师/幻灯片设计师/原型师),产出高保真原型、1920×1080 的 HTML 幻灯片、时间轴驱动的动画与并排设计变体——内置 20 条设计哲学、5 维评审、反「AI 套路感」纪律,并可选导出 MP4/GIF。",
+  "long_en": "A design-focused skill (agent-agnostic) for visual HTML output—prototypes, slides, animations, infographics—rather than production web apps. It can run a design-direction advisor that produces three real visual variants in parallel when the brief is vague, and verifies product facts via web search before designing.",
+  "long_zh": "一个面向视觉 HTML 产出的设计技能(agent 无关)——原型、幻灯片、动画、信息图,而非生产级 Web App。需求模糊时可进入设计方向顾问、并行产出三套真实视觉变体,并在动手前用联网搜索核实产品事实。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/alchaincyf/huashu-design"
+  },
+  "sec_note_en": "Generates local HTML/assets; review before sharing. Uses web search to fact-check product claims, and MP4/GIF export runs a local headless browser (Node deps). Voiceover narration is optional—only that path needs a TTS API key and sends text to the provider.",
+  "sec_note_zh": "生成本地 HTML 与素材;分享前请审阅。会用联网搜索核实产品事实,MP4/GIF 导出走本地无头浏览器(需 Node 依赖)。语音解说为可选——仅该路径需要 TTS API Key 并向厂商发送文本。"
+}

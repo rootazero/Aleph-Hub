@@ -1,0 +1,23 @@
+{
+  "full_name": "JimLiu/baoyu-skills",
+  "name": "Baoyu Slide Deck",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "slides",
+    "deck",
+    "image-generation",
+    "presentation"
+  ],
+  "description_en": "Turn content into a professional slide deck rendered as images—the skill first writes an outline with per-slide style instructions, then generates each slide as an individual image. Decks are tuned for reading and sharing (self-explanatory, logical scroll flow, social-media-friendly) rather than live presentation.",
+  "description_zh": "把内容做成以图片呈现的专业幻灯片——技能先写出带逐页风格说明的大纲,再逐页生成单张幻灯片图片。deck 面向阅读与分享优化(自解释、顺滑的滚动逻辑、适合社媒),而非现场演讲。",
+  "long_en": "The slide-deck skill from Baoyu's (Jim Liu) skills collection—the curated entry installs just the baoyu-slide-deck folder, not the whole 21-skill bundle. It drives whatever user-input and image-generation tools the host agent exposes to lay out and render each slide.",
+  "long_zh": "宝玉(Jim Liu)技能合集中的幻灯片技能——本条目只安装 baoyu-slide-deck 这一个目录,而非整套 21 个技能。它调用宿主 agent 暴露的用户输入与图片生成工具来排版并渲染每一页。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/JimLiu/baoyu-skills",
+    "subdir": "skills/baoyu-slide-deck"
+  },
+  "sec_note_en": "Requires bun or npx to run its scripts, and an image-generation backend to render slides—rendering sends slide content to that image tool/provider and may incur API cost.",
+  "sec_note_zh": "运行脚本需要 bun 或 npx,渲染幻灯片需要一个图片生成后端——渲染会把幻灯片内容发送给该图片工具/厂商,并可能产生 API 费用。"
+}
