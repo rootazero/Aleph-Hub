@@ -41,5 +41,16 @@
   "aleph-hub:f/prompts.chat#github-pull-request-template",
   "aleph-hub:f/prompts.chat#github-workflows-spam-check",
   "aleph-hub:f/prompts.chat#windsurf-skills-book-translation-skill",
-  "aleph-hub:f/prompts.chat#windsurf-skills-widget-generator-skill"
+  "aleph-hub:f/prompts.chat#windsurf-skills-widget-generator-skill",
+  "aleph-hub:DietrichGebert/ponytail#clinerules-ponytail",
+  "aleph-hub:DietrichGebert/ponytail#github-copilot-instructions",
+  "aleph-hub:DietrichGebert/ponytail#windsurf-rules-ponytail",
+  "aleph-hub:f/prompts.chat#agents",
+  "aleph-hub:f/prompts.chat#claude",
+  "aleph-hub:f/prompts.chat#docker",
+  "aleph-hub:microsoft/generative-ai-for-beginners#docs-security-guidelines",
+  "aleph-hub:JuliusBrussee/caveman#claude",
+  "aleph-hub:JuliusBrussee/caveman#evals-prompts-en",
+  "aleph-hub:dair-ai/Prompt-Engineering-Guide#claude",
+  "aleph-hub:headroomlabs-ai/headroom#changelog"
 ]
