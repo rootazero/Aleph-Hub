@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-cute-chibi-keychain",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-cute-chibi-keychain",
+  "source_path": "prompts/3d/cute-chibi-keychain.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Cute Chibi Keychain",
+  "tags": [
+    "chibi",
+    "keychain",
+    "cute",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Cute Chibi Keychain\ncategory: 3d\ntags:\n  - chibi\n  - cute\n  - realistic\n  - 3d\n  - colorful\nauthor: '[@azed_ai](https://x.com/azed_ai)'\npreview: /media/3d/cute-chibi-keychain.webp\n---\n\nA close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background\n\n## Notes\nThe `[attached image]` part of the prompt needs to be used in conjunction with an uploaded image.\n\n## Reference Image\nA photo of a person or object as the subject for the keychain design.\n\n## Source\n- [Original Post](https://x.com/azed_ai/status/1916521742052503804)\n\n## Example Output\n![Cute Chibi Keychain](/media/3d/cute-chibi-keychain.webp)\n",
+  "description_en": "Image-generation prompt that renders an uploaded subject as a soft-rubber chibi keychain held in hand.",
+  "description_zh": "图像生成提示词，把上传的主体渲染成手持的软胶 Q 版钥匙扣。",
+  "long_en": "Produces a close-up of a colorful rubber keychain with bold black outlines on a silver keyring against a neutral background, based on an attached image. Needs an image model that accepts a reference photo.",
+  "long_zh": "依据上传图片生成一张彩色软胶钥匙扣特写：粗黑描边、挂在银色钥匙环上、中性背景。需要支持参考图的图像模型。",
+  "sec_note_en": "Requires an image-generation model and an uploaded reference image that is sent to a third-party service.",
+  "sec_note_zh": "需要图像生成模型，并将上传的参考图发送给第三方服务。"
+}

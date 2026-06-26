@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-chibi-proposal-scene",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-chibi-proposal-scene",
+  "source_path": "prompts/3d/3d-chibi-proposal-scene.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Chibi Proposal Scene",
+  "tags": [
+    "image-gen",
+    "3d",
+    "chibi",
+    "romance"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: \"3D Chibi Proposal Scene\"\ncategory: 3d\ntags: [\"3d\", \"chibi\", \"cartoon\", \"realistic\", \"cute\"]\nauthor: \"[@balconychy](https://x.com/balconychy)\"\npreview: \"/media/3d/3d-chibi-proposal-scene.webp\"\n---\n\nTransform the two people in the photo into chibi-style 3D cartoon characters. Change the scene to a proposal setting, with a soft pastel-colored floral arch in the background. Use romantic tones for the overall background. Rose petals are scattered on the ground. While the characters are rendered in cute chibi 3D style, the environment—including the arch, lighting, and textures—should be realistic and photorealistic.\n\n## Reference Image\nA couple's photo.\n\n## Source\n- [Original Post](https://x.com/balconychy/status/1909417750587486469)\n\n## Example Output\n![3D Chibi Proposal Scene](/media/3d/3d-chibi-proposal-scene.webp)\n",
+  "description_en": "An image-generation prompt that converts a couple's photo into cute chibi-style 3D characters set in a photorealistic proposal scene with a pastel floral arch.",
+  "description_zh": "一个图像生成提示词，把情侣照片转换为可爱 Q 版 3D 角色，置于带柔和粉彩花拱门的写实求婚场景中。",
+  "long_en": "Keeps the characters in cute chibi 3D style while rendering the environment—floral arch, lighting, scattered rose petals, and textures—in a realistic, photorealistic manner.",
+  "long_zh": "角色保持可爱的 Q 版 3D 风格，而环境——花拱门、灯光、散落的玫瑰花瓣与质感——则以写实、照片级真实的方式呈现。",
+  "sec_note_en": "Requires an image-generation model that accepts a reference photo; involves uploading a photo of real people.",
+  "sec_note_zh": "需要支持参考照片的图像生成模型；涉及上传真实人物照片。"
+}

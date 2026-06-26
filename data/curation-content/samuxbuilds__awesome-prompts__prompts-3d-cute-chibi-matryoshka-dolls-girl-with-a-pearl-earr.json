@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-cute-chibi-matryoshka-dolls-girl-with-a-pearl-earr",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-cute-chibi-matryoshka-dolls-girl-with-a-pearl-earr",
+  "source_path": "prompts/3d/cute-chibi-matryoshka-dolls-girl-with-a-pearl-earr.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Cute Chibi Matryoshka Dolls",
+  "tags": [
+    "chibi",
+    "matryoshka",
+    "cute",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring)\ncategory: 3d\ntags:\n  - chibi\n  - cute\n  - 3d\nauthor: '[@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)'\npreview: /media/3d/cute-chibi-matryoshka-dolls-girl-with-a-pearl-earr.webp\n---\n\nTransform the person in the image into a set of cute chibi-style Russian nesting dolls (🪆), with a total of five dolls arranged from largest to smallest. Place them on an elegant wooden table. Horizontal aspect ratio: 3:2.\n\n## Reference Image\nRequires uploading a person's image as the subject for transformation (The original post used ['Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931)).\n\n## Source\n- [Original Post](https://x.com/ZHO_ZHO_ZHO/status/1911669883315818497)\n\n## Example Output\n![Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring)](/media/3d/cute-chibi-matryoshka-dolls-girl-with-a-pearl-earr.webp)\n",
+  "description_en": "Image-generation prompt that transforms an uploaded portrait into a set of five chibi Russian nesting dolls on a wooden table.",
+  "description_zh": "图像生成提示词，把上传的人像转成木桌上一套五个的 Q 版俄罗斯套娃。",
+  "long_en": "Renders the subject as five chibi-style matryoshka dolls arranged largest to smallest in a 3:2 horizontal frame. Requires an image model that accepts a reference photo.",
+  "long_zh": "把主体渲染成由大到小排列的五个 Q 版套娃，采用 3:2 横幅构图。需要支持参考图的图像模型。",
+  "sec_note_en": "Requires an image-generation model and an uploaded personal photo that is sent to a third-party service.",
+  "sec_note_zh": "需要图像生成模型，并将上传的个人照片发送给第三方服务。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-close-up-black-and-white-portrait",
+  "full_name": "BELYAGOUBIABDELILAH/open-prompt-library",
+  "slug": "prompts-ai-automation-close-up-black-and-white-portrait",
+  "source_path": "prompts/ai-automation/close-up-black-and-white-portrait.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Dramatic Dual Portrait (B&W)",
+  "tags": [
+    "image-generation",
+    "portrait",
+    "photography",
+    "black-and-white"
+  ],
+  "format": "markdown",
+  "body": "# Close-up black and white portrait\n\n**Category:** AI & Automation  \n**Source:** Awesome ChatGPT Prompts\n\n## Prompt\n\n> Close-up black and white portrait of a man and a woman standing side by side. The man has tousled hair and a rough beard, the woman has softly tousled natural hair. Both tilt their heads slightly upward as dramatic overhead light falls on them. Their eyes remain in shadow, creating a powerful, mysterious, silhouette-like mood with strong contrast. 9:16 composition, intimate dual-portrait framing.\n\n---\n[← Back to AI & Automation](README.md) · [Main index](../../README.md)",
+  "description_en": "A text-to-image prompt describing a high-contrast black-and-white close-up dual portrait with dramatic overhead lighting.",
+  "description_zh": "一个文生图提示词，描述高对比度的黑白特写双人肖像，配以戏剧性的顶光。",
+  "long_en": "It specifies a 9:16 intimate dual-portrait of a man and woman with tousled hair, upward-tilted heads, shadowed eyes, and strong contrast for a mysterious, silhouette-like mood.",
+  "long_zh": "它指定 9:16 构图、亲密的男女双人肖像：凌乱发型、微仰头部、眼部隐于阴影、强烈对比，营造神秘的剪影般氛围。",
+  "sec_note_en": "Image-generation prompt for tools like Midjourney or DALL-E; output quality and fidelity vary by model, and it produces images only.",
+  "sec_note_zh": "面向 Midjourney、DALL-E 等工具的图像生成提示词；不同模型的输出质量与还原度各异，且仅生成图像。"
+}

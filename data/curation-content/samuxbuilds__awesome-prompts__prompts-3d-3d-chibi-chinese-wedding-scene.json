@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-chibi-chinese-wedding-scene",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-chibi-chinese-wedding-scene",
+  "source_path": "prompts/3d/3d-chibi-chinese-wedding-scene.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Chibi Chinese Wedding Scene",
+  "tags": [
+    "image-gen",
+    "3d",
+    "chibi",
+    "wedding"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: \"3D Chibi Chinese Wedding Scene\"\ncategory: 3d\ntags: [\"3d\", \"chibi\", \"cartoon\", \"realistic\", \"wedding\"]\nauthor: \"[@balconychy](https://x.com/balconychy)\"\npreview: \"/media/3d/3d-chibi-chinese-wedding-scene.webp\"\n---\n\nTransform the two people in the photo into chibi-style 3D cartoon characters, dressed in traditional Chinese wedding attire. The overall theme is a festive red Chinese-style wedding. The background features a decorative “囍” (double happiness) paper-cut pattern in a classic folk style. \nClothing (realistic texture, traditional details):\nMale: Wearing a red changpao and magua (traditional robe and jacket) embroidered with golden dragon motifs, symbolizing nobility and grandeur. A large red flower is tied on his chest, representing celebration and good fortune.\nFemale: Dressed in a red xiuhe wedding gown adorned with exquisite golden floral and phoenix embroidery, showcasing elegance and luxury. She wears delicate floral hair ornaments to enhance her gentle and graceful appearance.\nHeadwear:\nMale: A traditional red zhuangyuan (scholar) hat with golden patterns and a refined golden ornament at the top, exuding classic scholarly dignity.\nFemale: A phoenix crown adorned with a central red flower, gold 3D decorative elements, and hanging tassels—luxurious and full of classical charm.\nThis image should reflect the joy and blessing of a traditional Chinese wedding, with realistic textures for costumes and accessories, combined with stylized 3D chibi characters.\n\n## Reference Image\nA couple's photo.\n\n## Source\n- [Original Post](https://x.com/balconychy/status/1909418699150237917)\n\n## Example Output\n![3D Chibi Chinese Wedding Scene](/media/3d/3d-chibi-chinese-wedding-scene.webp)\n",
+  "description_en": "An image-generation prompt that turns a couple's photo into chibi-style 3D characters in traditional Chinese red wedding attire against a double-happiness backdrop.",
+  "description_zh": "一个图像生成提示词，把一张情侣照片转换成身着传统中式红色婚服、配以「囍」字背景的 Q 版 3D 卡通角色。",
+  "long_en": "Describes the male's dragon-embroidered changpao and magua, the female's phoenix-crowned xiuhe gown, and a festive folk-style double-happiness paper-cut background, combining realistic costume textures with stylized chibi characters.",
+  "long_zh": "描述男方绣金龙的长袍马褂、女方戴凤冠的秀禾婚服，以及喜庆民俗风的「囍」字剪纸背景，将写实的服饰质感与风格化的 Q 版角色相结合。",
+  "sec_note_en": "Requires an image-generation model that accepts a reference photo; involves uploading a photo of real people.",
+  "sec_note_zh": "需要支持参考照片的图像生成模型；涉及上传真实人物照片。"
+}

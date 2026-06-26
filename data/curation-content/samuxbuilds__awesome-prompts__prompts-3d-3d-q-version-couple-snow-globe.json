@@ -1,0 +1,24 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-q-version-couple-snow-globe",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-q-version-couple-snow-globe",
+  "source_path": "prompts/3d/3d-q-version-couple-snow-globe.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Q-version Couple Snow Globe",
+  "tags": [
+    "image-gen",
+    "3d",
+    "chibi",
+    "snow-globe",
+    "couple"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: 3D Q-version Couple Snow Globe\ncategory: 3d\ntags:\n  - 3d\n  - chibi\n  - cute\n  - couple\n  - character\n  - realistic\n  - dark\nauthor: '[@balconychy](https://x.com/balconychy)'\npreview: /media/3d/3d-q-version-couple-snow-globe.webp\n---\n\nTransform the person in the attached image into a snow globe scene.\nOverall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.\nInside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.\n\n## Reference Image\nA photo of a couple or another person.\n\n## Source\n- [Original Post](https://x.com/balconychy/status/1909908568129655248)\n\n## Example Output\n![3D Chibi Couple Snow Globe](/media/3d/3d-q-version-couple-snow-globe.webp)\n",
+  "description_en": "An image-generation prompt that places a person or couple from a photo as chibi 3D figures inside a sunlit snow globe.",
+  "description_zh": "一个图像生成提示词，把照片中的人物或情侣化作 Q 版 3D 角色，放进阳光照射的水晶雪球里。",
+  "long_en": "The prompt renders a reference photo as cute chibi-style characters inside a snow globe sitting on a tabletop by a window, with sunlight casting golden sparkles. It is intended for sentimental couple or single-person keepsake imagery.",
+  "long_zh": "提示词把参考照片渲染成水晶雪球内的可爱 Q 版角色，雪球放在窗边桌上，阳光投下金色光斑，适合制作温馨的情侣或单人纪念图像。",
+  "sec_note_en": "Requires an image-generation model and uploading a personal photo to a third-party service; no code execution.",
+  "sec_note_zh": "需要图像生成模型，并将个人照片上传到第三方服务；不执行任何代码。"
+}

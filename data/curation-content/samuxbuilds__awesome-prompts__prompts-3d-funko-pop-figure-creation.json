@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-funko-pop-figure-creation",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-funko-pop-figure-creation",
+  "source_path": "prompts/3d/funko-pop-figure-creation.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Funko Pop Figure Creation",
+  "tags": [
+    "funko-pop",
+    "figure",
+    "chibi",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Funko Pop Figure Creation\ncategory: 3d\ntags:\n  - chibi\n  - realistic\n  - 3d\n  - landscape\nauthor: '[@dotey](https://x.com/dotey)'\npreview: /media/3d/funko-pop-figure-creation.webp\n---\n\nTransform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.\nThe packaging is labeled with the title “JAMES BOND.”\nInside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.\nNext to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.\n\n## Reference Image\nA clear half-body or full-body photo.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1909047283485671924)\n\n## Example Output\n![Funko Pop Figure Creation](/media/3d/funko-pop-figure-creation.webp)\n",
+  "description_en": "Image-generation prompt that turns an uploaded photo into a Funko Pop-style boxed figure shown in isometric view alongside a realistic out-of-box rendering.",
+  "description_zh": "图像生成提示词，把上传照片做成等距视角的 Funko Pop 盒装手办，并在旁边附上写实开盒成品渲染。",
+  "long_en": "Builds a boxed chibi figure labeled with a title and signature accessories, plus a lifelike product shot of the figure outside the box, using a half- or full-body reference photo. Needs an image model that accepts a reference image.",
+  "long_zh": "依据半身或全身参考照片，生成带标题与标志性配件的盒装 Q 版手办，并附一张逼真的开盒成品照。需要支持参考图的图像模型。",
+  "sec_note_en": "Requires an image-generation model and an uploaded personal photo that is sent to a third-party service.",
+  "sec_note_zh": "需要图像生成模型，并将上传的个人照片发送给第三方服务。"
+}

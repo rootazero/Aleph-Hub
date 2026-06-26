@@ -1,0 +1,24 @@
+{
+  "id": "aleph-hub:wundercorp/awesome-prompts#prompts-portfolio-lexo-hero-section-prompt",
+  "full_name": "wundercorp/awesome-prompts",
+  "slug": "prompts-portfolio-lexo-hero-section-prompt",
+  "source_path": "prompts/portfolio/lexo-hero-section/prompt.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Lexo Hero Section",
+  "tags": [
+    "hero",
+    "landing-page",
+    "react",
+    "animation",
+    "tailwind"
+  ],
+  "format": "markdown",
+  "body": "Create a highly accurate, fully responsive React component for a Hero Section based on the following step-by-step requirements:\n\n**1. General Layout & Theme:**\n- The overall theme is dark mode with a primary background color of `#0a0f14`.\n- Ensure the layout is fully responsive across mobile, tablet, and desktop views.\n- Use Tailwind CSS for all styling and ensure content is constrained within a `max-w-7xl` container.\n\n**2. Background Video & Blend Effects:**\n- Implement a full-screen, auto-playing, looping, and muted background video that covers the entire hero section completely without leaving any empty gaps.\n- Use this specific video URL: https://cdn.sceneai.art/Hero Section Video/736fd4a0-70ac-4f44-9633-55769ead6aca.mp4\n- Apply a `mix-blend-screen` utility to the video so its native black background disappears and the bright waves blend seamlessly with the app's dark background.\n- In the bottom right corner, add multiple layers of absolute-positioned black shapes with heavy blurs (e.g., `blur-[120px]`, `blur-[80px]`, `blur-[60px]`). This will create a smooth, deep vignette that perfectly fades the bottom right of the video into the dark background.\n- Add some subtle ambient background glows and a few small, glowing white stars scattered around the top half.\n\n**3. Navigation Bar:**\n- **Logo:** Display the brand name \"Lexo\" in a bold, white font on the left.\n- **Links:** Center-align the navigation links: \"Features\", \"Contact\", \"Blog\", and \"Pricing\".\n- **Desktop CTA:** Place a bordered \"Get Started\" button on the far right.\n- **Mobile Menu:** Hide the links/CTA on mobile and implement a functional hamburger menu that toggles a full-screen blurred dark overlay containing the menu items.\n\n**4. Main Hero Content & Typography:**\n- **Heading:** The main `<h1>` must be exactly `48px` in size and span exactly 2 lines. \n  - Line 1: \"Stay Ahead With *Cutting-Edge*\" (Make the words \"Cutting-Edge\" use an elegant, light, italic serif font).\n  - Line 2: \"Realtime Price Alerts\".\n- **Subheading:** Add the text \"Automatically monitor your prices and adjust your offers to stay competitive 24/7\" in a light gray color beneath the heading.\n- **Main CTA:** Add a solid white button with black text saying \"Start Tracking\" with a subtle hover scale effect.\n\n**5. Social Proof / Store Logos:**\n- Positioned near the bottom, add a small text prompt: \"Tracking data from 1000+ most popular stores worldwide\" (highlighting \"1000+\" in white).\n- Below this, create a horizontal, responsive flex row of logos for: Shopify, Etsy, Amazon, and Walmart. Build these logos using precise typography and inline SVGs to ensure they are crisp on all devices.\n\n**6. Sequential Animations (4-Second Load):**\n- Implement custom CSS `@keyframes` for fade-up and fade-in effects.\n- When the page loads, ALL content must animate into view smoothly and sequentially over roughly 4 seconds.\n- The Main Heading must animate **word by word** (e.g., \"Stay\", \"Ahead\", \"With\", \"Cutting-Edge\" sliding up one after the other).\n- Use inline `style={{ animationDelay: '...' }}` to stagger the entrance of the background video, navigation bar, heading words, subheading, main CTA, and finally the bottom store logos so they cascade beautifully onto the screen.\n",
+  "description_en": "A prompt that builds a responsive dark React hero section with a blend-mode background video, word-by-word headline animation, and store-logo social proof.",
+  "description_zh": "一个构建响应式暗色 React hero 区块的提示词，带混合模式背景视频、逐词标题动画和商店 logo 社会证明。",
+  "long_en": "It covers the theme, a mix-blend-screen video with blurred vignette layers, a nav bar with mobile menu, a two-line headline with an italic serif accent, a CTA, and an inline-SVG store-logo row, all animating in over ~4 seconds. Aimed at one-shot generation of a price-alert SaaS hero.",
+  "long_zh": "它涵盖主题、带模糊渐隐层的 mix-blend-screen 视频、含移动端菜单的导航栏、带斜体衬线强调的两行标题、CTA 以及内联 SVG 商店 logo 行，全部在约 4 秒内逐步入场，用于一次性生成价格提醒类 SaaS hero。",
+  "sec_note_en": "Frontend only. Hardcodes a specific sceneai.art-hosted video URL that may break and depends on a React/Tailwind toolchain; no shell, network calls, or credentials.",
+  "sec_note_zh": "仅前端。硬编码了特定 sceneai.art 托管的视频 URL（可能失效），并依赖 React/Tailwind 工具链；无 shell、网络调用或凭据。"
+}

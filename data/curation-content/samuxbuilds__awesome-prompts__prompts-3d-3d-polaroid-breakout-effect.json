@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-polaroid-breakout-effect",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-polaroid-breakout-effect",
+  "source_path": "prompts/3d/3d-polaroid-breakout-effect.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Polaroid Breakout Effect",
+  "tags": [
+    "image-gen",
+    "3d",
+    "chibi",
+    "polaroid"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: 3D Polaroid Breakout Effect\ncategory: 3d\ntags:\n  - 3d\n  - chibi\n  - character\n  - realistic\nauthor: '[@dotey](https://x.com/dotey)'\npreview: /media/3d/3d-polaroid-breakout-effect.webp\n---\n\nConvert the character in the scene into a 3D chibi-style figure, placed inside a Polaroid photo. The photo paper is being held by a human hand. The character is stepping out of the Polaroid frame, creating a visual effect of breaking through the two-dimensional photo border and entering the real-world 3D space.\n\n## Reference Image\nA half-body or full-body single person photo.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1908238003169903060)\n\n## Example Output\n![3D Polaroid Breakout Effect](/media/3d/3d-polaroid-breakout-effect.webp)\n",
+  "description_en": "An image-generation prompt that turns a person's photo into a chibi 3D figure stepping out of a hand-held Polaroid frame.",
+  "description_zh": "一个图像生成提示词，把人物照片变成从手持拍立得相纸中走出来的 Q 版 3D 角色。",
+  "long_en": "The prompt converts a half- or full-body reference photo into a 3D chibi figure that appears to break through the 2D Polaroid border into real space, held by a human hand. It is aimed at playful single-person portrait edits.",
+  "long_zh": "提示词把半身或全身参考照片转换成 Q 版 3D 角色，呈现出冲破二维拍立得边框、进入现实空间的效果，并由一只手拿着，适合趣味单人肖像改图。",
+  "sec_note_en": "Requires an image-generation model and uploading a personal photo to a third-party service; no code execution.",
+  "sec_note_zh": "需要图像生成模型，并将个人照片上传到第三方服务；不执行任何代码。"
+}

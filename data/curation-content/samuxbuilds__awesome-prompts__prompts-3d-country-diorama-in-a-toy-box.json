@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-country-diorama-in-a-toy-box",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-country-diorama-in-a-toy-box",
+  "source_path": "prompts/3d/country-diorama-in-a-toy-box.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Country Diorama in a Toy Box",
+  "tags": [
+    "image-gen",
+    "3d",
+    "diorama",
+    "landscape"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Country Diorama in a Toy Box\ncategory: 3d\ntags:\n  - 3d\n  - realistic\n  - icon\n  - diorama\n  - landscape\n  - dark\n  - colorful\nauthor: '[@TheRelianceAI](https://x.com/TheRelianceAI)'\npreview: /media/3d/country-diorama-in-a-toy-box.webp\n---\n\nAn ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the nation\n\n## Notes\nPlease replace `[COUNTRY NAME]` in the prompt with a specific country name.\n\n## Source\n- [Original Post](https://x.com/TheRelianceAI/status/1925223613055017251)\n\n## Example Output\n![Country Diorama in a Toy Box](/media/3d/country-diorama-in-a-toy-box.webp)\n",
+  "description_en": "An image-generation prompt that renders a top-down photo of a miniature 3D-printed diorama of a chosen country inside an open cardboard toy box.",
+  "description_zh": "一个图像生成提示词，俯拍呈现一个装在敞开纸盒里的指定国家 3D 打印微缩立体模型。",
+  "long_en": "The prompt produces an ultra-realistic top-down shot of a beige box held open by two hands, revealing a country's landmarks, terrain and tiny figures in matte 3D-printed toy style, with the country name in raised plastic letters on the lid. A bracketed placeholder sets the country.",
+  "long_zh": "提示词生成超写实俯拍画面：双手撑开米色纸盒，内部是该国地标、地形与微缩人偶，采用哑光 3D 打印玩具质感，盒盖上用凸起塑料字母拼出国名，方括号占位符指定国家。",
+  "sec_note_en": "Requires an image-generation model; the bracketed country placeholder must be filled in. No code execution or external data access.",
+  "sec_note_zh": "需要图像生成模型；需填入方括号中的国家占位符；不执行代码也不访问外部数据。"
+}

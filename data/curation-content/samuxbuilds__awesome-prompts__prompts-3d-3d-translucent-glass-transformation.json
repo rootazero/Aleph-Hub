@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-translucent-glass-transformation",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-translucent-glass-transformation",
+  "source_path": "prompts/3d/3d-translucent-glass-transformation.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Translucent Glass Transformation",
+  "tags": [
+    "image-gen",
+    "3d",
+    "glass",
+    "product"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: 3D Translucent Glass Transformation\ncategory: 3d\ntags:\n  - 3d\n  - glass\n  - dark\nauthor: '[@azed_ai](https://x.com/azed_ai)'\npreview: /media/3d/3d-translucent-glass-transformation.webp\n---\n\nA soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting\n\n## Reference Image\nNeed to upload a reference image of a physical object\n\n## Source\n- [Original Post](https://x.com/azed_ai/status/1917948899098243407)\n\n## Example Output\n![3D Translucent Glass Transformation](/media/3d/3d-translucent-glass-transformation.webp)\n",
+  "description_en": "An image-generation prompt that re-renders a reference object as a soft, frosted translucent glass version floating in space.",
+  "description_zh": "一个图像生成提示词，把参考物体重新渲染成悬浮在空间中的柔和磨砂半透明玻璃版本。",
+  "long_en": "The prompt converts an uploaded object photo into a 3D translucent glass form with a frosty matte finish, original colors, soft shadows and natural lighting on a light gray background. It is a short, single-paragraph style transform.",
+  "long_zh": "提示词把上传的物体照片转换成 3D 半透明玻璃形态，带磨砂哑光质感、保留原色，置于浅灰背景上配柔和阴影与自然光，是一段简短的单段风格转换提示。",
+  "sec_note_en": "Requires an image-generation model and uploading a reference object photo; no code execution.",
+  "sec_note_zh": "需要图像生成模型，并上传参考物体照片；不执行任何代码。"
+}

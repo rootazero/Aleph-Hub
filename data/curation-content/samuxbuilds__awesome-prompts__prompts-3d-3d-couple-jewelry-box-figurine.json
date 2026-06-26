@@ -1,0 +1,24 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-couple-jewelry-box-figurine",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-couple-jewelry-box-figurine",
+  "source_path": "prompts/3d/3d-couple-jewelry-box-figurine.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Couple Jewelry Box Figurine",
+  "tags": [
+    "image-gen",
+    "3d",
+    "chibi",
+    "figurine",
+    "couple"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: 3D Couple Jewelry Box Figurine\ncategory: 3d\ntags:\n  - 3d\n  - chibi\n  - figurine\n  - pastel\n  - couple\n  - realistic\nauthor: '[@dotey](https://x.com/dotey)'\npreview: /media/3d/3d-couple-jewelry-box-figurine.webp\n---\n\nCreate a finely crafted, adorably charming 3D-rendered collectible figure based on the subjects in the photo, displayed inside a pastel-toned, warm and romantic presentation box. The box is designed in a soft cream color with gentle gold accents, resembling an elegant portable jewelry case.\n\nWhen opened, the box reveals a heartwarming romantic scene: two chibi-style characters gazing sweetly at each other. The lid is engraved with the words “FOREVER TOGETHER,” surrounded by delicate star and heart motifs.\n\nInside the box stands the female from the photo, holding a small bouquet of white flowers. Beside her is her partner, the male from the photo. Both characters have large, expressive, sparkling eyes and soft, warm smiles that radiate affection and charm.\n\nBehind them is a round window, through which a sunny skyline of a traditional Chinese town can be seen, along with gently drifting clouds. The interior is softly lit with warm ambient lighting, and petals float in the background to enhance the atmosphere.\n\nThe overall color scheme of both the display box and the characters is elegant and harmonious, creating a luxurious and dreamlike miniature keepsake.\n\nAspect ratio: 9:16\n\n## Reference Image\nA couple's photo.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1909332895115714835)\n\n## Example Output\n![3D Couple Jewelry Box Figurine](/media/3d/3d-couple-jewelry-box-figurine.webp)\n",
+  "description_en": "An image-generation prompt that turns a couple's photo into a chibi 3D collectible figurine displayed inside a pastel jewelry-box scene.",
+  "description_zh": "一个图像生成提示词，把情侣照片变成摆放在粉彩首饰盒场景里的 Q 版 3D 收藏摆件。",
+  "long_en": "This prompt instructs an image model to render two people from a reference photo as sweet chibi-style figurines inside an opened cream-and-gold presentation box engraved 'FOREVER TOGETHER', with a 9:16 aspect ratio. It is intended for personal keepsake-style couple portraits.",
+  "long_zh": "该提示词让图像模型把参考照片中的两人渲染成可爱的 Q 版摆件，放在印有 'FOREVER TOGETHER' 的奶油金色礼盒中，画幅为 9:16，适合制作情侣纪念风格的图像。",
+  "sec_note_en": "Requires an image-generation model and uploading a personal couple photo to a third-party service; no code execution.",
+  "sec_note_zh": "需要图像生成模型，并将个人情侣照片上传到第三方服务；不执行任何代码。"
+}

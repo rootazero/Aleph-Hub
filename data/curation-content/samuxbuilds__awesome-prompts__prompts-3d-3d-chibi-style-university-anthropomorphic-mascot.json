@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-chibi-style-university-anthropomorphic-mascot",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-chibi-style-university-anthropomorphic-mascot",
+  "source_path": "prompts/3d/3d-chibi-style-university-anthropomorphic-mascot.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Chibi University Mascot",
+  "tags": [
+    "image-gen",
+    "3d",
+    "chibi",
+    "mascot"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: \"3D Chibi-style University Anthropomorphic Mascot\"\ncategory: 3d\ntags: [\"3d\", \"chibi\", \"anime\", \"character\"]\nauthor: \"[@dotey](https://x.com/dotey)\"\npreview: \"/media/3d/3d-chibi-style-university-anthropomorphic-mascot.webp\"\n---\n\nCreate a personified 3D chibi-style anime girl character representing {Northwestern Polytechnical University}, embodying the school’s distinctive strengths in {aeronautics, astronautics, and marine engineering}.\n\n## Notes\nReplace the university name {Northwestern Polytechnical University} and characteristic description {Aeronautics, Astronautics, and Marine Technology - \"Three Ais\"} within the square brackets to generate anthropomorphic mascots for different universities.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1911988003729203648)\n\n## Example Output\n![3D Chibi-style University Anthropomorphic Mascot](/media/3d/3d-chibi-style-university-anthropomorphic-mascot.webp)\n",
+  "description_en": "A templated image-generation prompt that creates a personified chibi-style 3D anime-girl mascot embodying a given university's signature strengths.",
+  "description_zh": "一个模板化图像生成提示词，创建拟人化的 Q 版 3D 动漫少女吉祥物，体现给定大学的特色优势。",
+  "long_en": "Uses bracketed placeholders for the university name and its characteristic disciplines so the same prompt can generate anthropomorphic mascots for different schools.",
+  "long_zh": "使用方括号占位符填入大学名称及其特色学科，使同一提示词可为不同学校生成拟人化吉祥物。",
+  "sec_note_en": "Requires a text-to-image generation model; no reference photo is needed, but the output style depends heavily on the model used.",
+  "sec_note_zh": "需要文生图模型；无需参考照片，但输出风格高度依赖所用模型。"
+}

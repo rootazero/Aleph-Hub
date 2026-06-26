@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-papercraft-pop-up-book",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-papercraft-pop-up-book",
+  "source_path": "prompts/3d/3d-papercraft-pop-up-book.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Papercraft Pop-up Book",
+  "tags": [
+    "image-gen",
+    "3d",
+    "papercraft",
+    "diorama"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: 3D Papercraft Pop-up Book\ncategory: 3d\ntags:\n  - 3d\n  - realistic\n  - colorful\nauthor: '[@dotey](https://x.com/dotey)'\npreview: /media/3d/3d-papercraft-pop-up-book.webp\n---\n\nMulti-layered foldable paper sculpture pop-up book, placed on a desk, with a clean background highlighting the main subject. The book presents a 3D flip-book style, with a 2:3 vertical aspect ratio. The open pages display the scene of [Nezha Demon Child version battling Ao Bing]. All elements are finely foldable and assembled, showcasing a realistic and delicate texture of folded paper. The composition uniformly adopts a frontal perspective, with an overall dreamy and beautiful visual style, vibrant and gorgeous colors, full of a fantastical and lively story atmosphere.\n\n## Notes\nPlease modify the scene description within the square brackets 【】 as appropriate, and you can also add more details.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1923264349050675329)\n\n## Example Output\n![3D Papercraft Pop-up Book](/media/3d/3d-papercraft-pop-up-book.webp)\n",
+  "description_en": "An image-generation prompt that renders a chosen scene as a multi-layered 3D papercraft pop-up book on a desk.",
+  "description_zh": "一个图像生成提示词，把指定场景渲染成桌面上的多层 3D 立体折纸翻页书。",
+  "long_en": "The prompt describes a vertical 2:3 pop-up book with finely folded paper layers showing a user-supplied scene (the example is a Nezha-vs-Ao-Bing battle). A bracketed placeholder lets you swap in any scene description.",
+  "long_zh": "提示词描述一本 2:3 竖版立体书，用精细折纸层呈现用户指定的场景（示例为哪吒大战敖丙），方括号占位符可替换为任意场景描述。",
+  "sec_note_en": "Requires an image-generation model; the bracketed scene placeholder must be filled in. No code execution or external data access.",
+  "sec_note_zh": "需要图像生成模型；需填入方括号中的场景占位符；不执行代码也不访问外部数据。"
+}

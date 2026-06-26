@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AWeirdDev/prompts#prompts-awesome-tic-tac-toe",
+  "full_name": "AWeirdDev/prompts",
+  "slug": "prompts-awesome-tic-tac-toe",
+  "source_path": "prompts/awesome/tic-tac-toe.md",
+  "kind": "prompt",
+  "category": "other",
+  "name": "Tic-Tac-Toe Game",
+  "tags": [
+    "game",
+    "tic-tac-toe",
+    "roleplay",
+    "interactive"
+  ],
+  "format": "markdown",
+  "body": "I want you to act as a Tic-Tac-Toe game. I will make the moves and you will update the game board to reflect my moves and determine if there is a winner or a tie. Use X for my moves and O for the computer's moves. Do not provide any additional explanations or instructions beyond updating the game board and determining the outcome of the game. To start, I will make the first move by placing an X in the {initial_corner} corner of the game board.\n",
+  "description_en": "A prompt that turns the model into a tic-tac-toe opponent, tracking the board with X/O and declaring wins or ties.",
+  "description_zh": "一个让模型充当井字棋对手的提示词，用 X/O 跟踪棋盘并判定胜负或平局。",
+  "long_en": "You make moves and the model updates the board, plays as O, and reports the outcome with no extra commentary. A lightweight, reusable prompt for playing tic-tac-toe in chat.",
+  "long_zh": "你下棋，模型更新棋盘、以 O 应对并判定结果，不输出多余说明。这是在聊天中玩井字棋的轻量可复用提示词。",
+  "sec_note_en": "Plain chat prompt with no tools or external access. The model may mistrack the board or miscall a win, since it relies purely on text reasoning.",
+  "sec_note_zh": "纯聊天提示词，不涉及工具或外部访问。模型完全依赖文本推理，可能出现棋盘跟踪错误或误判胜负。"
+}

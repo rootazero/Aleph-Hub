@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-gold-pendant-necklace",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-gold-pendant-necklace",
+  "source_path": "prompts/3d/gold-pendant-necklace.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Gold Pendant Necklace",
+  "tags": [
+    "jewelry",
+    "product",
+    "realistic",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Gold Pendant Necklace\ncategory: 3d\ntags:\n  - realistic\n  - emoji\n  - 3d\nauthor: '[@azed_ai](https://x.com/azed_ai)'\npreview: /media/3d/gold-pendant-necklace.webp\n---\n\nA photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.\n\n## Notes\nReplace `[image /emoji]` in the prompt with a specific image description or an emoji.\n\n## Reference Image\n(Optional) An image can be uploaded to be used as the bas-relief pattern.\n\n## Source\n- [Original Post](https://x.com/azed_ai/status/1915770501705925106)\n\n## Example Output\n![Gold Pendant Necklace](/media/3d/gold-pendant-necklace.webp)\n",
+  "description_en": "Image-generation prompt for a photorealistic product shot of a gold pendant necklace whose bas-relief engraving is set from an image or emoji.",
+  "description_zh": "图像生成提示词，生成一条金色吊坠项链的写实产品照，吊坠浮雕图案由图片或 emoji 指定。",
+  "long_en": "Close-up of a gold pendant on a polished chain held in hand, soft beige background, 16:9 product photography. The engraving can be driven by an emoji or an optional uploaded image.",
+  "long_zh": "手持金色吊坠特写，抛光链条、柔和米色背景、16:9 产品摄影。浮雕图案可用 emoji 或可选上传的图片来指定。",
+  "sec_note_en": "Requires an image-generation model; an optional uploaded reference image would be sent to a third-party service.",
+  "sec_note_zh": "需要图像生成模型；可选上传的参考图会被发送给第三方服务。"
+}

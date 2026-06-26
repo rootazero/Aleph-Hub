@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-action-figure-and-real-person-in-the-same-frame",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-action-figure-and-real-person-in-the-same-frame",
+  "source_path": "prompts/3d/action-figure-and-real-person-in-the-same-frame.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Action Figure and Real Person in the Same Frame",
+  "tags": [
+    "image-gen",
+    "3d",
+    "figure",
+    "portrait"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Action Figure and Real Person in the Same Frame\ncategory: 3d\ntags:\n  - anime\n  - ai-art\n  - 3d\n  - colorful\nauthor: '[@dotey](https://x.com/dotey)'\npreview: /media/3d/action-figure-and-real-person-in-the-same-frame.webp\n---\n\nIn a casual, everyday style as if shot on a mobile phone, an anime figure of [Jackie Chan] is placed on a desk, striking an exaggerated and cool pose, fully equipped. Simultaneously, the corresponding real-life person also appears in the frame, striking a similar pose to the figure, creating an interesting visual contrast with the figure and the real person in the same frame. The overall composition is harmonious and natural, delivering a warm and vibrant, true-to-life visual experience.\n\n## Notes\nThe [Jackie Chan] in the prompt can be replaced with the name of any figurine character you want, or other types of characters.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1920994118580183316)\n\n## Example Output\n![Action Figure and Real Person in the Same Frame](/media/3d/action-figure-and-real-person-in-the-same-frame.webp)\n",
+  "description_en": "An image-generation prompt that places an anime action figure of a named character beside the matching real person striking the same pose, as if shot on a phone.",
+  "description_zh": "一个图像生成提示词，把指定角色的动漫手办与对应真人以相同姿势同框呈现，仿佛用手机随手拍下。",
+  "long_en": "The prompt generates a casual phone-style shot of a desk action figure and its real-life counterpart in matching poses (the example uses a celebrity name, swappable via a bracketed placeholder). It produces a playful figure-versus-person contrast.",
+  "long_zh": "提示词生成手机随拍风格的画面，桌上手办与其真人原型以相同姿势同框（示例使用名人姓名，可通过方括号占位符替换），形成手办与真人的趣味对比。",
+  "sec_note_en": "Requires an image-generation model; the placeholder often uses real celebrity/IP names, so mind likeness and trademark rights. No code execution.",
+  "sec_note_zh": "需要图像生成模型；占位符常填入真实名人/IP 名称，需注意肖像与商标权；不执行代码。"
+}

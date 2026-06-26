@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-bobblehead-generator-from-selfie",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-bobblehead-generator-from-selfie",
+  "source_path": "prompts/3d/bobblehead-generator-from-selfie.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Bobblehead Generator from Selfie",
+  "tags": [
+    "image-gen",
+    "3d",
+    "bobblehead",
+    "portrait"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Bobblehead Generator from Selfie\ncategory: 3d\ntags:\n  - cartoon\n  - ai-art\n  - realistic\n  - 3d\n  - portrait\nauthor: '[@thisdudelikesAI](https://x.com/thisdudelikesAI)'\npreview: /media/3d/bobblehead-generator-from-selfie.webp\n---\n\nTurn this photo into a bobblehead: enlarge the head slightly, keep the face accurate and cartoonify the body. [Place it on a bookshelf].\n\n## Notes\nPlease replace [Place it on a bookshelf] in the prompt with your desired specific scene or background, for example \"Place it on a bookshelf\" or \"Place it on an office desk\", or \"Place it on a neutral background\" or \"Generate with a transparent background\".\n\n## Reference Image\nA selfie needs to be uploaded as the basis for generating the bobblehead.\n\n## Source\n- [Original Post](https://x.com/thisdudelikesAI/status/1920433372243136730)\n\n## Example Output\n![Bobblehead Generator from Selfie](/media/3d/bobblehead-generator-from-selfie.webp)\n",
+  "description_en": "An image-generation prompt that turns a selfie into a bobblehead figure with an enlarged head and cartoonified body.",
+  "description_zh": "一个图像生成提示词，把自拍照变成头部放大、身体卡通化的摇头娃娃手办。",
+  "long_en": "The prompt enlarges the subject's head, keeps the face accurate, cartoonifies the body, and places the bobblehead in a user-specified scene via a bracketed placeholder (e.g. on a bookshelf or a transparent background). It works from an uploaded selfie.",
+  "long_zh": "提示词放大主体头部、保持面部相似、把身体卡通化，并通过方括号占位符把摇头娃娃放进用户指定的场景（如书架上或透明背景），以上传的自拍照为基础。",
+  "sec_note_en": "Requires an image-generation model and uploading a personal selfie to a third-party service; no code execution.",
+  "sec_note_zh": "需要图像生成模型，并将个人自拍上传到第三方服务；不执行任何代码。"
+}

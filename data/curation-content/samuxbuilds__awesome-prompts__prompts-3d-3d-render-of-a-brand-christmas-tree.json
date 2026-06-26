@@ -1,0 +1,24 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-3d-render-of-a-brand-christmas-tree",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-3d-render-of-a-brand-christmas-tree",
+  "source_path": "prompts/3d/3d-render-of-a-brand-christmas-tree.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "3D Render of a Brand Christmas Tree",
+  "tags": [
+    "image-gen",
+    "3d",
+    "christmas",
+    "branding",
+    "advertising"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: 3D Render of a Brand Christmas Tree\ncategory: 3d\ntags:\n  - 3d\n  - christmas\n  - advertising\n  - brand\n  - isometric\n  - c4d\n  - octane\n  - realistic\n  - minimalist\n  - portrait\n  - dark\nauthor: '[@samuxbuilds](https://x.com/samuxbuilds/status/1998338577663496592)'\npreview: /media/3d/3d-render-of-a-brand-christmas-tree.webp\n---\n\n*Create a premium 3D Christmas tree built entirely from brand products and packaging*\n\n```json\n{\n  \"brand\": \"{{brand}}\",\n  \"brand_analysis\": {\n    \"colors\": \"Automatically adapt to the brand's primary and secondary colors as seen on its real products and packaging, with subtle Christmas-season warmth.\",\n    \"key_elements\": \"Any physical products, packaging, or merchandise belonging to the brand, used as modular building blocks.\"\n  },\n  \"prompt\": \"A clean, highly detailed 3D render of a Brand Christmas Tree built entirely from {{brand}} products and packaging. The items are stacked in a perfect pyramid, with the largest elements at the base and the smallest toward the top, forming a clear Christmas tree silhouette. The style is premium, playful, and advertising-focused. Isometric miniature composition, studio photography look. Rendered in Cinema 4D (C4D) with Octane Render, ultra-smooth surfaces, accurate product proportions, and high realism. Minimal pastel or neutral background chosen to contrast the brand's colors. Soft volumetric studio lighting, gentle global illumination, subtle shadows, warm festive mood created through lighting and arrangement only. No text, no captions, no extra logos beyond what already appears on the products. Clean, modern, reusable, brand-agnostic Christmas advertising artwork.\"\n}\n```\n\n## Example Output\n![3D Render of a Brand Christmas Tree](/media/3d/3d-render-of-a-brand-christmas-tree.webp)\n",
+  "description_en": "A JSON-structured image-generation prompt that builds a premium 3D Christmas tree assembled entirely from a given brand's products and packaging.",
+  "description_zh": "一个 JSON 结构的图像生成提示词，把指定品牌的产品与包装堆叠成高级感的 3D 圣诞树。",
+  "long_en": "The prompt takes a brand name placeholder and produces a C4D/Octane-style studio render of products stacked into a pyramid tree silhouette, with colors auto-adapted to the brand. It is aimed at festive advertising visuals.",
+  "long_zh": "提示词以品牌名占位符为输入，生成 C4D/Octane 风格的工作室渲染图，把产品堆叠成金字塔状的圣诞树轮廓，并自动套用品牌配色，面向节日广告视觉。",
+  "sec_note_en": "Requires an image-generation model; renders third-party brand products and logos, so check trademark use before commercial publishing. No code execution.",
+  "sec_note_zh": "需要图像生成模型；会渲染第三方品牌产品与标志，商用发布前需注意商标使用；不执行代码。"
+}

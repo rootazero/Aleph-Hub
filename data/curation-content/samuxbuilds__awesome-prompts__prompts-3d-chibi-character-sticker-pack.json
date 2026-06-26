@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-chibi-character-sticker-pack",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-chibi-character-sticker-pack",
+  "source_path": "prompts/3d/chibi-character-sticker-pack.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Chibi Character Sticker Pack",
+  "tags": [
+    "image-gen",
+    "chibi",
+    "sticker",
+    "cartoon"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Chibi Character Sticker Pack\ncategory: 3d\ntags:\n  - chibi\n  - cartoon\n  - cute\n  - ghibli\n  - sticker\n  - 3d\n  - colorful\nauthor: '[@leon_yuan2001](https://x.com/leon_yuan2001)'\npreview: /media/3d/chibi-character-sticker-pack.webp\n---\n\nPlease create a set of 9 Chibi stickers featuring [the character in the reference image], arranged in a 3x3 grid.\nDesign requirements:\n- Transparent background.\n- 1:1 square aspect ratio.\n- Consistent Chibi Ghibli cartoon style with vibrant colors.\n- Each sticker must have a unique action, expression, and theme, reflecting diverse emotions like \"sassy, mischievous, cute, frantic\" (e.g., rolling eyes, laughing hysterically on the floor, soul leaving body, petrified, throwing money, foodie mode, social anxiety attack). Incorporate elements related to office workers and internet memes.\n- Each character depiction must be complete, with no missing parts.\n- Each sticker must have a uniform white outline, giving it a sticker-like appearance.\n- No extraneous or detached elements in the image.\n- Strictly no text, or ensure any text is 100% accurate (no text preferred).\n\n## Notes\nPlease replace \"[the character in the reference image]\" in the prompt with a specific description of the character's features, or directly upload a reference image.\n\n## Reference Image\nA character image needs to be uploaded as the main reference for creating the sticker pack.\n\n## Source\n- [Original Post](https://x.com/leon_yuan2001/status/1923712069209293014)\n\n## Example Output\n![Chibi Character Sticker Pack](/media/3d/chibi-character-sticker-pack.webp)\n",
+  "description_en": "An image-generation prompt that creates a 3x3 grid of nine chibi stickers of a character, each with a distinct expression and meme-style action on a transparent background.",
+  "description_zh": "一个图像生成提示词，生成某角色的 3x3 共九张 Q 版表情贴纸，每张表情与梗动作各异，背景透明。",
+  "long_en": "The prompt specifies nine unique chibi stickers in a consistent Ghibli-cartoon style, each with a white outline, transparent background, distinct emotion (sassy, mischievous, soul-leaving-body, etc.) and office/meme themes, taking a reference character image as input.",
+  "long_zh": "提示词要求生成九张统一吉卜力卡通风格的 Q 版贴纸，每张带白色描边、透明背景、不同情绪（傲娇、调皮、灵魂出窍等）与办公室/梗主题，以参考角色图像为输入。",
+  "sec_note_en": "Requires an image-generation model and a reference character image; the named art style references a third-party studio. No code execution.",
+  "sec_note_zh": "需要图像生成模型与参考角色图像；所指定的画风引用了第三方工作室风格；不执行代码。"
+}

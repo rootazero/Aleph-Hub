@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-happy-capsule-creation",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-happy-capsule-creation",
+  "source_path": "prompts/3d/happy-capsule-creation.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Happy Capsule Creation",
+  "tags": [
+    "product",
+    "capsule",
+    "mockup",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Happy Capsule Creation\ncategory: 3d\ntags:\n  - logo\n  - ai-art\n  - 3d\nauthor: '[@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)'\npreview: /media/3d/happy-capsule-creation.webp\n---\n\nTitle (large text): Fast-Acting Happiness Capsule\nA capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.\nDescription (small text): Take when feeling sad or down. Three times a day, two capsules per dose.\nBuy button: Same color as the capsule.\nBelow the button, display the price: $9.\nPlease follow medical advice and purchase as needed.\n\n## Source\n- [Original Post](https://x.com/ZHO_ZHO_ZHO/status/1911724629460455896)\n\n## Example Output\n![Happy Capsule](/media/3d/happy-capsule-creation.webp)\n",
+  "description_en": "Image-generation prompt for a playful mock product page of a 'happiness capsule' pill filled with coffee beans in Starbucks-style green.",
+  "description_zh": "图像生成提示词，生成一张趣味仿制品页：装满咖啡豆、星巴克绿配色的'快乐胶囊'药丸。",
+  "long_en": "Lays out a fake e-commerce listing with a large title, dosage description, a buy button and a $9 price for a transparent capsule of coffee beans. A pure creative mockup for a text-to-image model.",
+  "long_zh": "为一颗装着咖啡豆的透明胶囊排版出仿电商详情：大标题、用量说明、购买按钮和 9 美元价格。纯创意仿制图，面向文生图模型。",
+  "sec_note_en": "Requires a text-to-image model; it references third-party brand visuals (Starbucks), so reusing generated images commercially may raise trademark concerns.",
+  "sec_note_zh": "需要文生图模型；引用了第三方品牌元素（星巴克），商用再利用成图可能涉及商标问题。"
+}

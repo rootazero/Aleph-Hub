@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-esc-keycap-miniature-diorama",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-esc-keycap-miniature-diorama",
+  "source_path": "prompts/3d/esc-keycap-miniature-diorama.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "ESC Keycap Miniature Diorama",
+  "tags": [
+    "diorama",
+    "isometric",
+    "miniature",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: ESC Keycap Miniature Diorama\ncategory: 3d\ntags:\n  - 3d\n  - realistic\n  - diorama\n  - glass\n  - dark\nauthor: '[@egeberkina](https://x.com/egeberkina)'\npreview: /media/3d/esc-keycap-miniature-diorama.webp\n---\n\nA hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.\n\n## Source\n- [Original Post](https://x.com/egeberkina/status/1911368319212408926)\n\n## Example Output\n![Miniature computer setup diorama inside an ESC keycap](/media/3d/esc-keycap-miniature-diorama.webp)\n",
+  "description_en": "Image-generation prompt for a hyper-realistic isometric diorama of a tiny workspace built inside a translucent ESC keycap.",
+  "description_zh": "图像生成提示词，生成藏在半透明 ESC 键帽里的微缩工位、超写实等距 diorama。",
+  "long_en": "Detailed scene spec: a tiny figure working at a glowing screen inside the keycap, surrounded by miniature tech props on a soil-and-moss base, with frosted-glass 'ESC' lettering and cinematic phone-camera lighting. No reference image required.",
+  "long_zh": "详细场景设定：键帽内一个微缩人物在发光屏幕前工作，周围是泥土青苔底座上的微型科技道具，磨砂玻璃'ESC'字样与手机相机般的电影感光线。无需参考图。",
+  "sec_note_en": "Requires a text-to-image model; no personal photo needed, though output quality depends on the model used.",
+  "sec_note_zh": "需要文生图模型；无需个人照片，但成图质量取决于所用模型。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "aleph-hub:wundercorp/awesome-prompts#prompts-components-cta-hero-section-prompt",
+  "full_name": "wundercorp/awesome-prompts",
+  "slug": "prompts-components-cta-hero-section-prompt",
+  "source_path": "prompts/components/cta-hero-section/prompt.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "CTA Hero Section (React/Tailwind)",
+  "tags": [
+    "react",
+    "tailwind",
+    "hero-section",
+    "landing-page",
+    "ui"
+  ],
+  "format": "markdown",
+  "body": "Build a React + TypeScript + Tailwind CSS single-page hero section using Vite. The entire page lives in `src/App.tsx`. No extra libraries beyond `react`, `react-dom`, `lucide-react`, and Tailwind.\n\n**Background:**\n- A fullscreen autoplaying, muted, looping, `playsInline` background `<video>` element absolutely positioned `inset-0 w-full h-full object-cover`.\n- Video URL (exact): `https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_215831_c6a8989c-d716-4d8d-8745-e972a2eec711.mp4`\n- Root wrapper: `relative min-h-screen overflow-hidden bg-[#f0f0ee]`.\n- Foreground content wrapper: `relative z-10 flex flex-col min-h-screen`.\n\n**Logo (inline SVG component):**\n- `width=\"18\" height=\"18\"`, `viewBox=\"0 0 256 256\"`, `fill=\"none\"`.\n- Single path with `fill=\"rgb(84, 84, 84)\"` and `d=\"M 160 88 L 194 34 L 216 0 L 256 0 L 256 40 L 221.5 93.5 L 200 128 L 256 128 L 256 256 L 96 256 L 96 168 L 64.246 220 L 40 256 L 0 256 L 0 216 L 34 162 L 56 128 L 0 128 L 0 0 L 160 0 Z\"`.\n\n**Navbar (centered, pill-style, two separate pills):**\n- `<nav>` classes: `flex items-center justify-center pt-4 sm:pt-6 px-4 sm:px-8 gap-2 sm:gap-3`.\n- Left circular logo container: `flex items-center justify-center rounded-full w-10 h-10 sm:w-11 sm:h-11 shrink-0`, inline style `backgroundColor: '#EDEDED'`, contains the Logo.\n- Right pill container: `flex items-center gap-4 sm:gap-10 rounded-xl px-4 sm:px-8 py-2.5 sm:py-3`, inline style `backgroundColor: '#EDEDED'`.\n- Nav links array: `['Story', 'Products', 'Help', 'Support']`. Each anchor: `text-[12px] sm:text-[14px] font-medium text-gray-700 hover:text-gray-900 transition-colors duration-200`.\n\n**Hero content (bottom-left aligned):**\n- Outer: `flex-1 flex items-end pb-10 sm:pb-16 lg:pb-20 px-6 sm:px-12 md:px-20 lg:px-28`.\n- Inner: `max-w-xs`. Four stacked elements, each with `mb-3`:\n\n1. Badge link: `inline-flex items-center gap-1.5 text-[11.5px] font-medium text-blue-500 hover:text-blue-600 transition-colors mb-3 group`. Text: `Seen on Shark Tank in India` followed by an arrow `→` in a span with `inline-block transition-transform duration-200 group-hover:translate-x-0.5`.\n\n2. Headline `<h1>`: `text-[1.5rem] sm:text-[1.75rem] leading-[1.15] font-medium text-gray-900 tracking-tight mb-3`. Text: `Simple, smart prosthetics made for people who keep fighting.`\n\n3. Subtext `<p>`: `text-[13px] text-gray-400 font-normal mb-3`. Text: `Reclaim your movement now.`\n\n4. CTA anchor: `inline-flex items-center gap-2 text-[13px] font-medium text-blue-500 border border-blue-400 rounded-full px-5 py-2.5 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition-all duration-200 group`. Text: `Try a free fitting` plus arrow `→` in span with `transition-transform duration-200 group-hover:translate-x-0.5`.\n\n**Animations / micro-interactions:**\n- Arrow spans translate right by `0.5` on group hover (`group-hover:translate-x-0.5`).\n- CTA fills blue on hover (bg + text + border transitions, 200ms).\n- Nav links shift from gray-700 to gray-900 on hover.\n\n**Fonts:** Default Tailwind sans-serif system font stack (no custom font). All sizes are exact pixel/rem values above (`11.5px`, `12px`, `13px`, `14px`, `1.5rem`, `1.75rem`).\n\n**Colors:** Page background `#f0f0ee`; pill backgrounds `#EDEDED`; accent `blue-500/600/400`; text `gray-900/700/400`.\n\nDo not add any other sections, no Supabase wiring, no routing. Only the single hero page as described.\n",
+  "description_en": "A one-shot prompt to build a single React + TypeScript + Tailwind hero section with a fullscreen background video, pill navbar, and bottom-left CTA.",
+  "description_zh": "一个一次性提示词，用于构建单个 React + TypeScript + Tailwind 英雄区，包含全屏背景视频、胶囊导航栏和左下角 CTA。",
+  "long_en": "Specifies exact Tailwind classes, colors, an inline SVG logo path, nav links, headline copy, and hover micro-interactions for a single-page hero built with Vite. The README recommends the BuilderStudio runner, but the spec works with any code-generating LLM.",
+  "long_zh": "精确规定了用 Vite 构建的单页英雄区所需的 Tailwind 类、配色、内联 SVG logo 路径、导航链接、标题文案与悬停微交互。README 推荐 BuilderStudio 运行，但该规格可用于任意代码生成 LLM。",
+  "sec_note_en": "Generates front-end React/Vite code you run locally and embeds a hardcoded CloudFront background-video URL that may expire. No API key or secrets required.",
+  "sec_note_zh": "生成在本地运行的前端 React/Vite 代码，并内嵌可能失效的硬编码 CloudFront 背景视频 URL。无需 API 密钥或任何凭据。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-custom-anime-figure",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-custom-anime-figure",
+  "source_path": "prompts/3d/custom-anime-figure.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Custom Anime Figure",
+  "tags": [
+    "anime",
+    "figure",
+    "character",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Custom Anime Figure\ncategory: 3d\ntags:\n  - anime\n  - realistic\n  - character\n  - 3d\nauthor: '[@dotey](https://x.com/dotey)'\npreview: /media/3d/custom-anime-figure.webp\n---\n\nGenerate an anime-style figure photo placed on a desktop, presented from a casual, everyday snapshot perspective as if taken with a mobile phone. The figure model is based on the attached character photo, accurately reproducing the full body posture, facial expression, and clothing style of the person in the photo, ensuring the entire figure is fully rendered. The overall design is exquisite and detailed, with hair and clothing featuring natural, soft gradient colors and fine textures. The style leans towards Japanese anime, rich in detail, with realistic textures and a beautiful appearance.\n\n## Reference Image\nPlease upload a photo showing the person's full body posture, facial expression, and clothing style to be used as the basis for the figure model.\n\n## Source\n- [Original Post](https://x.com/dotey/status/1920851135516082246)\n\n## Example Output\n![Custom Anime Figure](/media/3d/custom-anime-figure.webp)\n",
+  "description_en": "Image-generation prompt that turns an uploaded full-body photo into a detailed anime-style collectible figure shot on a desktop.",
+  "description_zh": "图像生成提示词，把上传的全身照片转成桌面上随手拍质感的精致日系动漫手办风格人物。",
+  "long_en": "Describes a casual phone-snapshot of an anime figure modeled on the reference photo, reproducing pose, expression and clothing with soft gradient colors and fine textures. Intended for a text-to-image or image-editing model that accepts a reference image.",
+  "long_zh": "提示词描述一张手机抓拍感的动漫手办照片，依据参考照片还原姿势、表情与服装，并带柔和渐变色和细腻质感。面向支持参考图的文生图/图像编辑模型。",
+  "sec_note_en": "Requires a multimodal image-generation model and uploading a personal photo, which sends that image to a third-party service.",
+  "sec_note_zh": "需要多模态图像生成模型，并上传个人照片，会将该图片发送给第三方服务。"
+}

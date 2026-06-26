@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:samuxbuilds/awesome-prompts#prompts-3d-lego-collectible-figure",
+  "full_name": "samuxbuilds/awesome-prompts",
+  "slug": "prompts-3d-lego-collectible-figure",
+  "source_path": "prompts/3d/lego-collectible-figure.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Lego Collectible Figure",
+  "tags": [
+    "lego",
+    "figure",
+    "collectible",
+    "3d"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: Lego Collectible Figure\ncategory: 3d\ntags:\n  - minimalist\n  - surreal\n  - lego\n  - glass\n  - animal\n  - realistic\n  - 3d\n  - dark\nauthor: '[@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)'\npreview: /media/3d/lego-collectible-figure.webp\n---\n\nGenerate a vertically-oriented image based on my uploaded photo, using the following prompt:\nClassic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.\nPlease design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.\nThe entire scene is set within a transparent glass cube, with a minimalist interior design.\nThe base of the miniature is matte black with silver accents, following a clean and modern aesthetic.\nOn the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.\nThe lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.\nThe overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.\nBalance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.\n\n## Reference Image\nA half-body or full-body single person photo.\n\n## Source\n- [Original Post](https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091)\n\n## Example Output\n![Lego Collectible Figure](/media/3d/lego-collectible-figure.webp)\n",
+  "description_en": "Image-generation prompt that renders an uploaded photo as a LEGO minifigure paired with a personality-matched animal inside a glass display cube.",
+  "description_zh": "图像生成提示词，把上传照片渲染成玻璃展示立方体内、配上与性格相符动物的乐高小人仔。",
+  "long_en": "Produces a high-end collectible scene: a LEGO minifigure beside a chosen animal on a matte-black base with an engraved nameplate and museum-style taxonomy, against a color-matched gradient background. Requires an image model that accepts a reference photo.",
+  "long_zh": "生成一件高端收藏品场景：玻璃立方内乐高小人仔与所选动物并立，磨砂黑底座配雕刻名牌和博物馆式分类说明，背景为配色渐变。需要支持参考图的图像模型。",
+  "sec_note_en": "Requires an image-generation model and an uploaded personal photo sent to a third-party service; 'LEGO' is a trademark.",
+  "sec_note_zh": "需要图像生成模型，并将上传的个人照片发送给第三方服务；'乐高'为注册商标。"
+}
