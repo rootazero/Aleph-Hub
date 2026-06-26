@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-debugging-oncall-tickets",
+  "full_name": "BELYAGOUBIABDELILAH/open-prompt-library",
+  "slug": "prompts-ai-automation-debugging-oncall-tickets",
+  "source_path": "prompts/ai-automation/debugging-oncall-tickets.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Oncall Debugging Assistant",
+  "tags": [
+    "oncall",
+    "debugging",
+    "incident"
+  ],
+  "format": "markdown",
+  "body": "# Debugging Oncall Tickets\n\n**Category:** AI & Automation  \n**Source:** Glean\n\n## Prompt\n\n> Help solve complex deployment issues.\n> Given the oncall ticket:\n> 1. Summarize the issue in one sentence\n> 2. Identify the most likely failure point (service, dependency, config, data)\n> 3. List diagnostic steps in order of speed/ease\n> 4. Pull relevant runbooks, playbooks, or past incidents\n> 5. Suggest the fastest path to mitigation vs. full fix\n> 6. Draft the incident update for stakeholders (status + ETA + next step)\n> Bias toward speed. Mitigate first, root-cause later.\n\n---\n[← Back to AI & Automation](README.md) · [Main index](../../README.md)",
+  "description_en": "Triages an oncall ticket into a fast action plan: one-line summary, likely failure point, ordered diagnostics, relevant runbooks, and a stakeholder update.",
+  "description_zh": "把 oncall 工单整理成快速行动方案：一句话摘要、最可能的故障点、按优先级排序的诊断步骤、相关 runbook，以及对外的状态更新。",
+  "long_en": "Given an oncall ticket, it summarizes the issue, identifies the most likely failure point (service, dependency, config, data), lists diagnostics by speed, pulls relevant runbooks and past incidents, recommends mitigation vs. full fix, and drafts a stakeholder update — biased toward fast mitigation first.",
+  "long_zh": "给定 oncall 工单，它会概括问题、判断最可能的故障点（服务、依赖、配置、数据）、按速度排列诊断步骤、调取相关 runbook 与历史事故、给出先缓解还是彻底修复的建议，并起草对外状态更新——优先快速缓解。",
+  "sec_note_en": "Plain text prompt; no tool access. It cannot actually fetch your runbooks or systems — supply that context yourself, and verify diagnostics before acting in production.",
+  "sec_note_zh": "纯文本提示词，不涉及工具调用。它无法真正调取你的 runbook 或系统——相关上下文需你自行提供，且生产环境操作前请先验证诊断结论。"
+}
