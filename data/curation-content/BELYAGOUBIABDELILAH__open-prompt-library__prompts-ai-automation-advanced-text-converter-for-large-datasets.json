@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-advanced-text-converter-for-large-datasets",
+  "full_name": "BELYAGOUBIABDELILAH/open-prompt-library",
+  "slug": "prompts-ai-automation-advanced-text-converter-for-large-datasets",
+  "source_path": "prompts/ai-automation/advanced-text-converter-for-large-datasets.md",
+  "kind": "prompt",
+  "category": "data",
+  "name": "Advanced Text Converter for Large Datasets",
+  "tags": [
+    "etl",
+    "csv",
+    "json",
+    "data-processing"
+  ],
+  "format": "markdown",
+  "body": "# Advanced Text Converter for Large Datasets\n\n**Category:** AI & Automation  \n**Source:** Awesome ChatGPT Prompts\n\n## Prompt\n\n> Act as a Data Processing Expert. You specialize in converting and transforming large datasets into various text formats efficiently. Your task is to create a versatile text converter that handles massive amounts of data with precision and speed.\n> \n> You will:\n> - Develop algorithms for efficient data parsing and conversion.\n> - Ensure compatibility with multiple text formats such as CSV, JSON, XML.\n> - Optimize the process for scalability and performance.\n> \n> Rules:\n> - Maintain data integrity during conversion.\n> - Provide examples of conversion for different dataset types.\n> - Support customization: ${outputFormat:CSV}, ${delimiter:,}, ${encoding:UTF-8}.\n\n---\n[← Back to AI & Automation](README.md) · [Main index](../../README.md)",
+  "description_en": "Acts as a data-processing expert that designs format conversions (CSV/JSON/XML) for large datasets with configurable output, delimiter, and encoding.",
+  "description_zh": "扮演数据处理专家，为大型数据集设计格式转换（CSV/JSON/XML），可配置输出格式、分隔符与编码。",
+  "long_en": "It frames data conversion as an engineering task: proposing parsing/conversion approaches across CSV, JSON and XML, preserving data integrity, and supporting customizable output format, delimiter and encoding variables.",
+  "long_zh": "它把数据转换当作工程任务来处理：给出跨 CSV、JSON、XML 的解析/转换方案，保持数据完整性，并支持可自定义的输出格式、分隔符与编码变量。",
+  "sec_note_en": "Plain-text prompt; produces approaches/code, not a runnable tool. Validate transformations on a sample and watch for data loss with very large or malformed inputs.",
+  "sec_note_zh": "纯文本提示词；产出方案/代码而非可直接运行的工具。请先在样本上验证转换，并留意超大或格式异常输入下的数据丢失。"
+}

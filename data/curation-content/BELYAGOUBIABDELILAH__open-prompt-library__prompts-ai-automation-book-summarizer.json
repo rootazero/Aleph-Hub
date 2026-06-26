@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-book-summarizer",
+  "full_name": "BELYAGOUBIABDELILAH/open-prompt-library",
+  "slug": "prompts-ai-automation-book-summarizer",
+  "source_path": "prompts/ai-automation/book-summarizer.md",
+  "kind": "prompt",
+  "category": "knowledge",
+  "name": "Book Summarizer",
+  "tags": [
+    "summary",
+    "reading",
+    "study"
+  ],
+  "format": "markdown",
+  "body": "# Book Summarizer\n\n**Category:** AI & Automation  \n**Source:** Awesome ChatGPT Prompts\n\n## Prompt\n\n> I want you to act as a book summarizer. Provide a detailed summary of [bookname]. Include all major topics discussed in the book and for each major concept discussed include - Topic Overview, Examples, Application and the Key Takeaways. Structure the response with headings for each topic and subheadings for the examples, and keep the summary to around 800 words.\n\n---\n[← Back to AI & Automation](README.md) · [Main index](../../README.md)",
+  "description_en": "Produces a structured ~800-word summary of a named book with per-topic overview, examples, application, and key takeaways.",
+  "description_zh": "为指定书籍生成约 800 字的结构化摘要，每个主题含概述、示例、应用与关键要点。",
+  "long_en": "Give it a book title and it returns a detailed summary organized by major topic, with headings and subheadings covering each concept's overview, examples, real-world application and key takeaways.",
+  "long_zh": "输入书名，它会按主要主题组织出详细摘要，用标题和子标题分别给出每个概念的概述、示例、实际应用与关键要点。",
+  "sec_note_en": "Plain-text prompt; relies on the model's training knowledge of the book, which may be incomplete or inaccurate for niche or recent titles.",
+  "sec_note_zh": "纯文本提示词；依赖模型训练中对该书的了解，对冷门或较新书籍可能不全或不准确。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-automate-repetitive-development-tasks",
+  "full_name": "BELYAGOUBIABDELILAH/open-prompt-library",
+  "slug": "prompts-ai-automation-automate-repetitive-development-tasks",
+  "source_path": "prompts/ai-automation/automate-repetitive-development-tasks.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Automate Repetitive Development Tasks",
+  "tags": [
+    "automation",
+    "scripting",
+    "devops",
+    "testing"
+  ],
+  "format": "markdown",
+  "body": "# Automate Repetitive Development Tasks\n\n**Category:** AI & Automation  \n**Source:** GitLab Duo\n\n## Prompt\n\n> I want to automate the following repetitive task:\n> [DESCRIBE THE TASK]\n> \n> Help me build an automation script/workflow with:\n> \n> ## Analysis\n> 1. What are the exact steps being repeated?\n> 2. What triggers this task? (manual, schedule, event)\n> 3. What are the inputs and expected outputs?\n> 4. What could go wrong?\n> \n> ## Implementation Plan\n> Write the automation with these requirements:\n> - Input validation before execution\n> - Clear error messages with actionable guidance\n> - Structured logging (timestamp, step, status, duration)\n> - Dry-run mode: show what would happen without making changes\n> - Exit codes: 0 = success, 1 = partial failure, 2 = fatal error\n> \n> ## Script\n> Provide the complete script in: [LANGUAGE/TOOL]\n> \n> ## Test Plan\n> List 3–5 test cases covering: happy path, invalid input, partial failure.\n> \n> ## Documentation\n> Write a README block (5–7 lines) explaining what the script does, how to run it, and required permissions.\n\n---\n[← Back to AI & Automation](README.md) · [Main index](../../README.md)",
+  "description_en": "Turns a described repetitive dev task into a complete automation script with validation, logging, dry-run, exit codes, tests, and a README.",
+  "description_zh": "把你描述的重复性开发任务转化为完整自动化脚本，含输入校验、结构化日志、dry-run、退出码、测试用例与 README。",
+  "long_en": "A structured engineering prompt: it analyzes the task (steps, triggers, I/O, failure modes), then produces a script in your chosen language with input validation, actionable errors, structured logging, a dry-run mode and explicit exit codes, plus a 3–5 case test plan and a short README.",
+  "long_zh": "一个结构化的工程提示词：先分析任务（步骤、触发方式、输入输出、失败点），再用你指定的语言生成脚本，包含输入校验、可操作的错误信息、结构化日志、dry-run 模式与明确退出码，并附 3–5 条测试用例和简短 README。",
+  "sec_note_en": "Plain-text prompt; you fill in the task and language. Review and test any generated automation before running it against real systems.",
+  "sec_note_zh": "纯文本提示词；由你填入任务与语言。生成的自动化脚本在用于真实系统前请先审阅并测试。"
+}
