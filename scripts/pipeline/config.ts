@@ -12,6 +12,9 @@ export const CONFIG = {
   CONTENT_BODY_MAX: 65536,   // max content body bytes (prompt text / workflow script); over-cap → drop
   CONTENT_FILES_PER_REPO: 25,  // max files exploded per repo per run (bounds GitHub fan-out)
   LLM_BODY_CHARS: 16000,       // content body chars passed to the content curator (token bound)
+  CONTENT_QUEUE_BUFFER: 120,   // committed queue is a BOUNDED review buffer, not the full backlog —
+                               // it embeds bodies, so the whole backlog would blow GitHub's 100MB file cap
+  CONTENT_QUEUE_README_CHARS: 8000, // truncate each buffered candidate's README (curator context only)
 } as const;
 
 // `via` is mapped from the SOURCE ID, never derived from a module filename (provenance).
