@@ -15,6 +15,7 @@
     "pipeline": "tsx scripts/pipeline/index.ts",
     "pipeline:regen-firstparty": "tsx scripts/pipeline/regen-firstparty.ts",
     "pipeline:content": "tsx scripts/pipeline/content-index.ts",
+    "pipeline:regen-content": "tsx scripts/pipeline/regen-content.ts",
     "validate:catalog": "tsx scripts/validate-catalog.ts",
     "validate:content": "tsx scripts/validate-content.ts"
   },
