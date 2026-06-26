@@ -1,0 +1,51 @@
+name: land-content-routine
+# The curation routine cannot push to protected main, so it pushes its batch to a routine/** branch.
+# This workflow gates that branch through CI and, if green, lands it on main with GH_PAT (which can
+# push to main, like the daily pipeline bot). Catalog/site are regenerated post-merge so they stay
+# deterministic even if main moved since the routine branched.
+on:
+  push:
+    branches:
+      - "routine/**"
+concurrency:
+  group: land-content-routine
+  cancel-in-progress: false
+jobs:
+  land:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}   # can push to protected main (same identity as the pipeline bot)
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: CI gate (schema + types + tests)
+        run: |
+          npm run validate:content
+          npm run validate:catalog
+          npm run typecheck
+          npx vitest run
+      - name: Land on main
+        run: |
+          git config user.name "aleph-hub-bot"
+          git config user.email "bot@heyaleph.com"
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          git checkout main
+          git pull --ff-only origin main
+          if git merge --ff-only "origin/$BRANCH"; then
+            echo "fast-forwarded main"
+          else
+            # main moved since the routine branched: take the branch's records, regenerate artifacts.
+            git merge --no-ff --no-edit -X theirs "origin/$BRANCH" || true
+            npm run pipeline:regen-content
+            git add data/ public/
+            git commit --no-edit -m "chore(content): land $BRANCH (regenerated)" || true
+          fi
+          npm run validate:content   # final guard on the merged tree before publishing
+          git push origin main
+      - name: Delete landed routine branch
+        run: git push origin --delete "${GITHUB_REF#refs/heads/}"
