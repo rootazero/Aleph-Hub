@@ -7,11 +7,13 @@ import { slugForAny } from "@/lib/entry";
 import type { HomeContentCard, HomeContentRow, ContentRegion } from "@/lib/home";
 
 // The two content axes continue the home Index below the three install axes.
-// Numbers 04/05 follow skill(01)/mcp(02)/plugin(03). Data is computed server-side
+// Numbers 04/05 follow skill(01)/mcp(02)/plugin(03). Like the install axes, each
+// is a two-column / four-row region whose image "main" spans two rows on its side,
+// alternating right/left so the regions cross. Data is computed server-side
 // (lib/home) and passed in slim.
-const META: Record<ContentKindT, { num: string; zhTag: string; enTag: string }> = {
-  prompt: { num: "04", zhTag: "即用型提示词", enTag: "Copy-ready prompts" },
-  workflow: { num: "05", zhTag: "可运行的 Agent 工作流", enTag: "Runnable agent workflows" },
+const META: Record<ContentKindT, { num: string; side: "left" | "right"; zhTag: string; enTag: string }> = {
+  prompt: { num: "04", side: "right", zhTag: "即用型提示词", enTag: "Copy-ready prompts" },
+  workflow: { num: "05", side: "left", zhTag: "可运行的 Agent 工作流", enTag: "Runnable agent workflows" },
 };
 
 export function ContentIndex({ regions }: { regions: ContentRegion[] }) {
@@ -67,7 +69,7 @@ export function ContentIndex({ regions }: { regions: ContentRegion[] }) {
   const regionBody = (region: ContentRegion) => {
     if (!region.main) return emptyRegion;
     return (
-      <div className="idx-region-grid" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: "0 44px", alignItems: "start", gridAutoFlow: "row dense" }}>
+      <div className={`idx-region-grid idx-feat-${META[region.kind].side}`} style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: "0 44px", alignItems: "start", gridAutoFlow: "row dense" }}>
         {mainCard(region.main)}
         {region.rows.map((e) => featRow(e))}
       </div>
