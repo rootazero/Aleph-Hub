@@ -12,8 +12,8 @@ import type { HomeContentCard, HomeContentRow, ContentRegion } from "@/lib/home"
 // alternating right/left so the regions cross. Data is computed server-side
 // (lib/home) and passed in slim.
 const META: Record<ContentKindT, { num: string; side: "left" | "right"; zhTag: string; enTag: string }> = {
-  prompt: { num: "04", side: "right", zhTag: "即用型提示词", enTag: "Copy-ready prompts" },
-  workflow: { num: "05", side: "left", zhTag: "可运行的 Agent 工作流", enTag: "Runnable agent workflows" },
+  prompt: { num: "04", side: "left", zhTag: "即用型提示词", enTag: "Copy-ready prompts" },
+  workflow: { num: "05", side: "right", zhTag: "可运行的 Agent 工作流", enTag: "Runnable agent workflows" },
 };
 
 export function ContentIndex({ regions }: { regions: ContentRegion[] }) {
