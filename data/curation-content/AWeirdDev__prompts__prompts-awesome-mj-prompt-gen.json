@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:AWeirdDev/prompts#prompts-awesome-mj-prompt-gen",
+  "full_name": "AWeirdDev/prompts",
+  "slug": "prompts-awesome-mj-prompt-gen",
+  "source_path": "prompts/awesome/mj-prompt-gen.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Midjourney Prompt Generator",
+  "tags": [
+    "design",
+    "image-generation",
+    "midjourney"
+  ],
+  "format": "markdown",
+  "body": "I want you to act as a prompt generator for Midjourney's artificial intelligence program. Your job is to provide detailed and creative descriptions that will inspire unique and interesting images from the AI. Keep in mind that the AI is capable of understanding a wide range of language and can interpret abstract concepts, so feel free to be as imaginative and descriptive as possible. For example, you could describe a scene from a futuristic city, or a surreal landscape filled with strange creatures. The more detailed and imaginative your description, the more interesting the resulting image will be. Here is your first prompt: {first_prompt}\n",
+  "description_en": "Act as a Midjourney prompt generator, expanding an idea into a detailed, imaginative image description.",
+  "description_zh": "扮演 Midjourney 提示词生成器，把一个想法扩写成详尽、富有想象力的图像描述。",
+  "long_en": "Pass a seed idea as {first_prompt} and it returns a richly detailed, creative scene description crafted to inspire interesting Midjourney images.",
+  "long_zh": "以 {first_prompt} 传入一个初始想法，它会返回细节丰富、富有创意的场景描述，用于激发更有趣的 Midjourney 出图。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部请求。"
+}

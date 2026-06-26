@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:AWeirdDev/prompts#prompts-awesome-prompt-gen",
+  "full_name": "AWeirdDev/prompts",
+  "slug": "prompts-awesome-prompt-gen",
+  "source_path": "prompts/awesome/prompt-gen.md",
+  "kind": "prompt",
+  "category": "utilities",
+  "name": "Prompt Generator",
+  "tags": [
+    "prompting",
+    "meta-prompt",
+    "utilities"
+  ],
+  "format": "markdown",
+  "body": "I want you to act as a prompt generator. Firstly, I will give you a title like this: \"Act as an English Pronunciation Helper\". Then you give me a prompt like this: \"I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is 'how the weather is in Istanbul?'.\" (You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.) My first title is \"{first_title}\" (Give me prompt only)\n",
+  "description_en": "A meta-prompt: give it a title and it writes a complete, self-contained \"act as …\" prompt for that role.",
+  "description_zh": "元提示词：给它一个标题，它就为该角色写出完整、自洽的“act as …”提示词。",
+  "long_en": "Supply a role title as {first_title} and it returns a ready-to-use, self-explanatory prompt tailored to that title — handy for quickly bootstrapping new prompts.",
+  "long_zh": "以 {first_title} 传入角色标题，它会返回一个即用、自解释、贴合该标题的提示词，适合快速生成新提示词。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部请求。"
+}

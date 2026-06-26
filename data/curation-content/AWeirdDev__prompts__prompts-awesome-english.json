@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:AWeirdDev/prompts#prompts-awesome-english",
+  "full_name": "AWeirdDev/prompts",
+  "slug": "prompts-awesome-english",
+  "source_path": "prompts/awesome/english.md",
+  "kind": "prompt",
+  "category": "communication",
+  "name": "English Translator & Improver",
+  "tags": [
+    "translation",
+    "english",
+    "writing"
+  ],
+  "format": "markdown",
+  "body": "I want you to act as an English translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences. Keep the meaning same, but make them more literary. I want you to only reply the correction, the improvements and nothing else, do not write explanations. My first sentence is: {sentence}\n",
+  "description_en": "Detects your language, translates to English, and rewrites it into more elegant, upper-level prose — correction only, no explanations.",
+  "description_zh": "自动识别语言、译为英文，并改写成更优雅、更高级的表达——只给修订结果，不作解释。",
+  "long_en": "Speak in any language and it detects, translates, and returns a polished, more literary English version that keeps your meaning — replying with the improved text only.",
+  "long_zh": "用任意语言输入，它会识别、翻译并返回更优雅、更具文学性的英文表达，保持原意，只回复改进后的文本。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部请求。"
+}
