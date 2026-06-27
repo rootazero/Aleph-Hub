@@ -12,6 +12,7 @@ export interface CuratePorts { registry: RegistryClient; gh: GitHubApi; }
 const Curated = z.object({
   name: z.string().min(1),
   kind: ExtensionKind,
+  slug: z.string().min(1).optional(),   // multi-skill repo → per-skill id segment
   category: ExtensionCategory,
   tags: z.array(z.string()).min(1).max(5),
   description_en: z.string().min(1), description_zh: z.string().min(1),
@@ -50,7 +51,9 @@ export async function curate(
   if (!v.ok) return null;
 
   return {
-    id: `aleph-hub:${cand.full_name}`,
+    // Multi-skill collection repos disambiguate entries with a /slug segment; a bare
+    // repo (one curated skill) keeps the canonical "aleph-hub:owner/repo" id.
+    id: c.slug ? `aleph-hub:${cand.full_name}/${c.slug}` : `aleph-hub:${cand.full_name}`,
     repo_url: cand.repo_url, via: cand.via,
     full_name: cand.full_name, owner: cand.owner, repo: cand.repo,
     kind: c.kind, name: safeName, author: cand.owner,

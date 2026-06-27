@@ -51,4 +51,14 @@ describe("curate", () => {
     expect(e).not.toBeNull();
     expect(e!.install_spec).toMatchObject({ type: "git_dir", subdir: "pkg/skill" });
   });
+  it("derives a 3-segment id from a slug (multi-skill collection repo)", async () => {
+    const skillCand = { ...cand, raw: { readme: "Clone and load." } };
+    const rec = record({
+      kind: "skill", slug: "my-skill",
+      install_spec: { type: "git_dir", git_url: "https://github.com/acme/foo", subdir: "my-skill" },
+    });
+    const e = await curate(skillCand, meta, rec, { registry, gh });
+    expect(e).not.toBeNull();
+    expect(e!.id).toBe("aleph-hub:acme/foo/my-skill");
+  });
 });

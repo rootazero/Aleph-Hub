@@ -37,6 +37,7 @@ export interface RawGitHubApi {
 // Curation comes from a git-committed store (data/curation/*.json), not an API.
 export interface CurationRecord {
   full_name: string;          // canonical owner/repo (lower-cased on lookup)
+  slug?: string;              // optional per-skill id segment for multi-skill repos → id "owner/repo/<slug>"
   name: string;
   kind: "skill" | "plugin" | "mcp";
   category: string;
@@ -47,7 +48,8 @@ export interface CurationRecord {
   sec_note_en: string; sec_note_zh: string;
 }
 export interface CurationStore {
-  get(fullName: string): CurationRecord | null;
+  get(fullName: string): CurationRecord | null;          // first record for a repo (back-compat)
+  getForRepo(fullName: string): CurationRecord[];        // ALL records for a repo (a collection repo yields many)
   all(): CurationRecord[];   // every committed record — used to audit for silently-dropped entries
 }
 
@@ -124,7 +126,7 @@ export interface FileStore {
 // Per-repo incremental cache (§6.8/D13): reuse curation for unchanged repos.
 import type { CuratedEntry } from "@/scripts/pipeline/model";
 
-export interface RepoCache { etag?: string; readme_hash: string; entry: CuratedEntry; }
+export interface RepoCache { etag?: string; readme_hash: string; entries: CuratedEntry[]; }
 export interface CacheStore {
   get(fullName: string): RepoCache | undefined;
   set(fullName: string, value: RepoCache): void;

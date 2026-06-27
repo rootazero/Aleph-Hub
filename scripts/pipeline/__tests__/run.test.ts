@@ -33,7 +33,7 @@ const store: CurationStore = { get: (fn) => fn.endsWith("/foo8") ? null : ({
   full_name: fn, name: fn.split("/")[1], kind: "mcp", category: "developer", tags: ["a"],
   description_en: "A tool.", description_zh: "工具。", long_en: "Long.", long_zh: "长。",
   install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。",
-}), all: () => [] };
+}), getForRepo: (fn) => { const r = store.get(fn); return r ? [r] : []; }, all: () => [] };
 const registry: RegistryClient = { npmPackage: async () => ({ exists: true, repository: null }), pypiPackage: async () => ({ exists: true }) };
 const http: Http = { getText: async () => "" };
 const clock: Clock = { nowIso: () => "2026-06-20T00:00:00Z" };
@@ -120,7 +120,7 @@ describe("run (integration, mocked ports)", () => {
       install_spec: {}, sec_note_en: "Reviewed.", sec_note_zh: "已审核。",
     };
     // acme/foo0 is discovered + emitted; acme/ghost has a record but is never discovered → flagged.
-    const auditStore: CurationStore = { get: store.get, all: () => [store.get("acme/foo0")!, ghost] };
+    const auditStore: CurationStore = { get: store.get, getForRepo: store.getForRepo, all: () => [store.get("acme/foo0")!, ghost] };
     const res = await run({ sources: [source(urls)], gh, store: auditStore, registry, http, clock,
       officialOrgs: new Set(["anthropic"]), history: {}, prevContractCount: 8, cache: emptyCache, firstParty: [], llm: null });
     expect(res.report.emitted).toBe(8);

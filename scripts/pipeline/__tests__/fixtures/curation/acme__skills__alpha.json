@@ -1,0 +1,15 @@
+{
+  "full_name": "acme/skills",
+  "slug": "alpha",
+  "name": "Alpha Skill",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["alpha"],
+  "description_en": "First skill in a collection repo.",
+  "description_zh": "合集仓中的第一个技能。",
+  "long_en": "Longer English description.",
+  "long_zh": "更长的中文描述。",
+  "install_spec": { "type": "git_dir", "git_url": "https://github.com/acme/skills", "subdir": "alpha" },
+  "sec_note_en": "Local skill files only.",
+  "sec_note_zh": "仅本地技能文件。"
+}

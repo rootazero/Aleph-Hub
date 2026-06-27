@@ -77,19 +77,31 @@ export function makeContentGitHub(): ContentGitHub {
   };
 }
 
-// Loads every data/curation/*.json into a keyed map at construction (local, free — no API).
+// Loads every data/curation/*.json at construction (local, free — no API). A repo may
+// carry MANY records (a multi-skill collection), each disambiguated by an optional `slug`;
+// they are deduped by computed id (full_name + slug) and grouped by repo for lookup.
 export function makeCurationStore(dir = "data/curation"): CurationStore {
-  const map = new Map<string, CurationRecord>();
+  const byId = new Map<string, CurationRecord>();
+  const byRepo = new Map<string, CurationRecord[]>();
   if (existsSync(dir)) {
     for (const name of readdirSync(dir)) {
       if (!name.endsWith(".json")) continue;
       try {
         const rec = JSON.parse(readFileSync(`${dir}/${name}`, "utf8")) as CurationRecord;
-        if (rec?.full_name) map.set(rec.full_name.toLowerCase(), rec);
+        if (!rec?.full_name) continue;
+        const repoKey = rec.full_name.toLowerCase();
+        const idKey = rec.slug ? `${repoKey}/${rec.slug.toLowerCase()}` : repoKey;
+        if (byId.has(idKey)) continue;                 // duplicate id → keep first, skip
+        byId.set(idKey, rec);
+        byRepo.set(repoKey, [...(byRepo.get(repoKey) ?? []), rec]);
       } catch { /* skip malformed record */ }
     }
   }
-  return { get: (fullName) => map.get(fullName.toLowerCase()) ?? null, all: () => [...map.values()] };
+  return {
+    get: (fullName) => byRepo.get(fullName.toLowerCase())?.[0] ?? null,
+    getForRepo: (fullName) => byRepo.get(fullName.toLowerCase()) ?? [],
+    all: () => [...byId.values()],
+  };
 }
 
 // Content records are keyed by full entry id (one file per unit), not by repo.

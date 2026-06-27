@@ -63,32 +63,35 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
     const got = await ports.gh.getRepo(cand.full_name);
     if (!got) continue;
 
-    const record = ports.store.get(cand.full_name);
-    if (!record) {                                          // discovered, not yet curated
+    const records = ports.store.getForRepo(cand.full_name);
+    if (records.length === 0) {                             // discovered, not yet curated
       queue.push(queueRecord(cand, got.meta));
       uncurated.push({ cand, meta: got.meta });
       continue;
     }
 
-    let entry: CuratedEntry | null = null;
+    // A collection repo yields many entries that all share one README/meta, so the
+    // incremental cache is per-repo (one RepoCache holding every curated entry).
+    let entries: CuratedEntry[] | null = null;
     let readmeHash = cached?.readme_hash ?? "";
-    if (got.notModified && cached) {
-      entry = cached.entry;                                 // metadata unchanged → reuse
+    if (got.notModified && cached?.entries) {
+      entries = cached.entries;                             // metadata unchanged → reuse
     } else {
       const readme = (await ports.gh.getReadme(cand.full_name)) ?? "";
       readmeHash = contentHashReadme(readme);
-      if (cached && cached.readme_hash === readmeHash) {
-        entry = cached.entry;                               // README unchanged → reuse
+      if (cached?.entries && cached.readme_hash === readmeHash) {
+        entries = cached.entries;                           // README unchanged → reuse
       } else {
-        curatedThisRun++;
-        entry = await curate({ ...cand, raw: { ...cand.raw, readme } }, got.meta, record,
-          { registry: ports.registry, gh: ports.gh });
+        curatedThisRun += records.length;
+        const curatedList = await Promise.all(records.map((rec) =>
+          curate({ ...cand, raw: { ...cand.raw, readme } }, got.meta, rec, { registry: ports.registry, gh: ports.gh })));
+        entries = curatedList.filter((e): e is CuratedEntry => e !== null); // drop safety/verify/zod failures
       }
     }
-    if (!entry) continue;                                   // dropped by safety/verify/zod
+    if (entries.length === 0) continue;                     // every record dropped → don't cache, retry next run
 
-    ports.cache.set(cand.full_name, { etag: got.etag, readme_hash: readmeHash, entry });
-    finals.push(finalize(entry, got.meta));
+    ports.cache.set(cand.full_name, { etag: got.etag, readme_hash: readmeHash, entries });
+    for (const entry of entries) finals.push(finalize(entry, got.meta));
   }
 
   // Autonomous curation (Phase 2): for a capped batch of uncurated repos, the LLM applies
@@ -104,7 +107,7 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
       const record: CurationRecord = { full_name: cand.full_name, install_spec: {}, ...result.proposal };
       const entry = await curate({ ...cand, raw: { ...cand.raw, readme } }, meta, record, { registry: ports.registry, gh: ports.gh });
       if (!entry) continue;                                  // failed safety/verify → not persisted, not emitted
-      ports.cache.set(cand.full_name, { etag: "", readme_hash: contentHashReadme(readme), entry });
+      ports.cache.set(cand.full_name, { etag: "", readme_hash: contentHashReadme(readme), entries: [entry] });
       finals.push(finalize(entry, meta));
       newCurations.push({ ...record, curated_by: "llm" });
       autoAccepted.add(cand.full_name);
