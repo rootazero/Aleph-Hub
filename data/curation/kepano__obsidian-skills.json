@@ -1,0 +1,23 @@
+{
+  "full_name": "kepano/obsidian-skills",
+  "name": "Obsidian Skills",
+  "kind": "plugin",
+  "category": "knowledge",
+  "tags": [
+    "obsidian",
+    "markdown",
+    "pkm",
+    "canvas",
+    "notes"
+  ],
+  "description_en": "Five skills that teach an agent to work with an Obsidian vault's open formats—Obsidian Flavored Markdown (wikilinks, callouts, embeds, properties), Bases (.base) database views, JSON Canvas (.canvas), the Obsidian CLI, and Defuddle web-to-clean-markdown. By Obsidian's own maker, Steph Ango (kepano).",
+  "description_zh": "五个技能,教 agent 操作 Obsidian 仓库的开放格式——Obsidian 风格 Markdown(wikilink、callout、嵌入、属性)、Bases(.base)数据库视图、JSON Canvas(.canvas)、Obsidian CLI,以及 Defuddle 网页转干净 Markdown。出自 Obsidian 作者本人 Steph Ango(kepano)。",
+  "long_en": "A Claude Code plugin (also Agent-Skills-spec compatible, so it works in Codex and OpenCode) bundling obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli, and defuddle. Each is invocable on demand: create/edit notes with Obsidian-specific syntax, build database-like Bases views with filters and formulas, lay out visual canvases, drive the vault from the CLI (including plugin/theme dev—reload plugins, run JS, capture errors, screenshot, inspect the DOM), and extract clutter-free markdown from web pages to save tokens. The formats are open specs, so output stays portable.",
+  "long_zh": "一个 Claude Code 插件(同时兼容 Agent-Skills 规范,可用于 Codex 与 OpenCode),打包 obsidian-markdown、obsidian-bases、json-canvas、obsidian-cli、defuddle 五个技能。可按需调用:用 Obsidian 专有语法创建/编辑笔记,用 Bases 建带筛选与公式的类数据库视图,排布可视化 canvas,从命令行驱动仓库(含插件/主题开发——重载插件、运行 JS、捕获错误、截图、检查 DOM),以及把网页提取为去杂的 markdown 以省 token。所用格式均为开放规范,产物可移植。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/kepano/obsidian-skills"
+  },
+  "sec_note_en": "MIT-licensed; operates locally on your Obsidian vault files. obsidian-cli can run arbitrary JavaScript and mutate vault contents (note/task/property operations, plugin/theme debugging)—review actions before running on a real vault. defuddle fetches and cleans external web pages you point it at. The skills themselves send no vault data anywhere.",
+  "sec_note_zh": "MIT 许可;在本地 Obsidian 仓库文件上操作。obsidian-cli 可运行任意 JavaScript 并改动仓库内容(笔记/任务/属性操作、插件/主题调试)——在真实仓库上执行前请先审阅动作。defuddle 会抓取并清洗你指定的外部网页。技能本身不会把仓库数据发往任何地方。"
+}

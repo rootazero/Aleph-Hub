@@ -1,0 +1,24 @@
+{
+  "full_name": "lixiaolin94/skills",
+  "name": "Web Shader Extractor",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "webgl",
+    "shader",
+    "canvas",
+    "reverse-engineering",
+    "porting"
+  ],
+  "description_en": "Extract a webpage's WebGL/WebGPU/Canvas/shader visual effect and rebuild it as a standalone native-JS project. Locks the target rendering surface, gathers shader/resource/render-graph/timing evidence, builds an evidence-matched local baseline, then projectizes it—evidence before guessing, baseline before refactor.",
+  "description_zh": "把网页里的 WebGL/WebGPU/Canvas/shader 视觉特效提取出来,重建为独立的原生 JS 项目。先锁定目标渲染面,采集 shader/资源/渲染图/时序等证据,搭出与证据吻合的本地基线,再工程化为可编辑项目——先证据后猜测、先基线后重构。",
+  "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the web-shader-extractor folder, not the whole repo). A router-style SKILL.md plus a dozen focused references and JSON/markdown templates drive a disciplined recon state machine: intake → surface attribution → target lock → source/runtime trace → minimum-truth capture → verified baseline → projectize → QA. It labels facts as SOURCE / PARTIAL / GUESS, forbids 'compensation tuning' to mask missing pipeline evidence, and ships platform adapters for Three.js/TSL, Unicorn Studio, and shaders.com. Bundled scripts (rendered-DOM inventory, bundle scan) are treated as hypotheses, never as gate-passing proof. Not for ordinary DOM/CSS page cloning.",
+  "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 web-shader-extractor 这一个目录,而非整仓)。路由式 SKILL.md + 十余篇聚焦参考文档 + JSON/markdown 模板,驱动一套严谨的侦察状态机:摄入 → 渲染面归因 → 目标锁定 → 源码/运行时追踪 → 最小真值采集 → 基线校验 → 工程化 → QA。它把事实标注为 SOURCE / PARTIAL / GUESS,禁止用「补偿调参」掩盖缺失的管线证据,并内置 Three.js/TSL、Unicorn Studio、shaders.com 平台适配。附带脚本(渲染 DOM 盘点、bundle 扫描)只作假设证据,不能单独通过任何关卡。不用于普通 DOM/CSS 页面克隆。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/lixiaolin94/skills",
+    "subdir": "web-shader-extractor"
+  },
+  "sec_note_en": "Drives a headless browser (e.g. Playwright) to load and capture the target site, and may deobfuscate/inspect the target's JavaScript bundle and source maps to recover shader code. It is meant for studying and porting visual effects, not bulk site cloning—you are responsible for respecting the source site's copyright, license, and terms when reusing extracted shaders/assets. The repo's README states MIT, but it ships no LICENSE file.",
+  "sec_note_zh": "会驱动无头浏览器(如 Playwright)加载并采集目标站点,并可能反混淆/分析目标的 JavaScript bundle 与 source map 以还原 shader 代码。它用于研究与移植视觉特效,而非批量克隆站点——复用提取到的 shader/资源时,你需自行尊重源站的版权、许可与条款。仓库 README 标注 MIT,但未附 LICENSE 文件。"
+}

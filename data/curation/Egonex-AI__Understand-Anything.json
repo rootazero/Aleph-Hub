@@ -1,0 +1,23 @@
+{
+  "full_name": "Egonex-AI/Understand-Anything",
+  "name": "Understand Anything",
+  "kind": "plugin",
+  "category": "developer",
+  "tags": [
+    "codebase-analysis",
+    "knowledge-graph",
+    "onboarding",
+    "architecture",
+    "dashboard"
+  ],
+  "description_en": "A multi-agent Claude Code plugin that analyzes any codebase into an interactive knowledge graph—every file, function, class, and dependency as a clickable node with plain-English summaries—plus guided tours, fuzzy/semantic search, diff impact analysis, architectural layer grouping, and a business-domain view.",
+  "description_zh": "一个多 agent 的 Claude Code 插件,把任意代码库解析成可交互的知识图谱——每个文件、函数、类、依赖都是可点击节点并带白话摘要——并提供引导式导览、模糊/语义搜索、diff 影响分析、架构分层归类与业务域视图。",
+  "long_en": "Runs a multi-agent pipeline (project scan → per-file analysis → architecture layering → domain extraction → graph assembly → review) that emits JSON graphs and an interactive dashboard you pan, zoom, and search in the browser. Skills include /understand (build the graph), /understand-dashboard, /understand-explain, /understand-onboard, /understand-diff (ripple effect of a change), /understand-domain (business flows), /understand-knowledge (turn a Karpathy-style LLM wiki into a force-directed, community-clustered graph), and /understand-chat. Cross-platform: Claude Code marketplace, plus Codex, Cursor, Copilot, Gemini CLI and others via the repo's install.sh.",
+  "long_zh": "运行一条多 agent 流水线(项目扫描 → 逐文件分析 → 架构分层 → 业务域抽取 → 图谱组装 → 审校),产出 JSON 图谱与可在浏览器中平移、缩放、搜索的交互式仪表盘。技能包括 /understand(建图)、/understand-dashboard、/understand-explain、/understand-onboard、/understand-diff(改动的连锁影响)、/understand-domain(业务流)、/understand-knowledge(把 Karpathy 式 LLM wiki 变成力导向、社区聚类的图谱)与 /understand-chat。跨平台:Claude Code 市场,外加 Codex、Cursor、Copilot、Gemini CLI 等可经仓库的 install.sh 安装。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Egonex-AI/Understand-Anything"
+  },
+  "sec_note_en": "MIT-licensed; the analysis runs locally through your own agent/LLM—your source is read in bulk and fed to the model, so expect significant token usage on large repos and avoid pointing it at secrets-laden trees you don't want sent to your model provider. Output (graphs + dashboard) is written locally; an optional hosted demo/homepage exists but isn't required to use the plugin.",
+  "sec_note_zh": "MIT 许可;分析通过你自己的 agent/LLM 在本地运行——会大量读取源码并喂给模型,因此大仓库会产生可观的 token 消耗,也不宜对着含密钥、你不愿发送给模型厂商的目录使用。产物(图谱+仪表盘)写在本地;存在可选的托管 demo/主页,但使用插件并不依赖它。"
+}
