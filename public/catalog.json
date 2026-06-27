@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 148,
-    "generated_at": "2026-06-27T15:19:38.245Z",
-    "content_hash": "sha256:c758aabe48eda20a72a4dcb27cc5f2c5ff3f72375284e949ec9c53d6592cbdaa"
+    "entry_count": 168,
+    "generated_at": "2026-06-27T16:32:58.764Z",
+    "content_hash": "sha256:7e3695786840750f838c244044914c6c234ac7432f0d1169373092071a89a907"
   },
   "entries": [
     {
@@ -1820,6 +1820,494 @@
         "academic"
       ],
       "via": "github:zsyggg"
+    },
+    {
+      "id": "aleph-hub:Pluviobyte/video-production-skills/black-white-text-opener",
+      "kind": "skill",
+      "category": "design",
+      "name": "Black White Text Opener",
+      "description": "Create reusable black-background, white-text opening animations—large text typed in character by character, synchronized typing-click SFX, optional word swaps, and a clean transition into the main video. Original opener creation, not reference matching.",
+      "repo_url": "https://github.com/Pluviobyte/video-production-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Pluviobyte/video-production-skills",
+        "subdir": "black-white-text-opener",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Pluviobyte",
+      "tags": [
+        "video",
+        "opener",
+        "motion-design",
+        "kinetic-text",
+        "intro"
+      ],
+      "via": "github:Pluviobyte"
+    },
+    {
+      "id": "aleph-hub:Pluviobyte/video-production-skills/dark-saas-magic-video",
+      "kind": "skill",
+      "category": "design",
+      "name": "Dark SaaS Magic Video",
+      "description": "Create dark, cinematic SaaS/AI-product motion videos in a Presenton-like 'magic UI' style—black starfield stage, bottom purple glow, large kinetic type, gradient CTA buttons, floating UI templates, model rings, and speed-blur transitions. Style-level creation, not frame-accurate replication.",
+      "repo_url": "https://github.com/Pluviobyte/video-production-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Pluviobyte/video-production-skills",
+        "subdir": "dark-saas-magic-video",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Pluviobyte",
+      "tags": [
+        "video",
+        "motion-design",
+        "saas",
+        "product-video",
+        "hyperframes"
+      ],
+      "via": "github:Pluviobyte"
+    },
+    {
+      "id": "aleph-hub:Pluviobyte/video-production-skills/reference-video-replica-qc",
+      "kind": "skill",
+      "category": "design",
+      "name": "Reference Video Replica QC",
+      "description": "Make reference-video replication evidence-driven: classify the requested fidelity (pixel / visual / style), sample frames at a set interval, build timelines and side-by-side contact sheets, run PSNR/SSIM/hash checks, then approve or reject with hard evidence.",
+      "repo_url": "https://github.com/Pluviobyte/video-production-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Pluviobyte/video-production-skills",
+        "subdir": "reference-video-replica-qc",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Pluviobyte",
+      "tags": [
+        "video",
+        "qc",
+        "replication",
+        "frame-analysis",
+        "ffmpeg"
+      ],
+      "via": "github:Pluviobyte"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/ask-matt",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Ask Matt",
+      "description": "Ask which skill or flow fits your situation — a router over the user-invoked engineering skills in this repo.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/ask-matt",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "workflow",
+        "router",
+        "orchestration",
+        "agent"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/codebase-design",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Codebase Design",
+      "description": "Shared vocabulary for designing deep modules. Use when designing or improving a module's interface, finding deepening opportunities, deciding where a seam goes, or making code more testable and AI-navigable.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/codebase-design",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "architecture",
+        "deep-modules",
+        "interfaces",
+        "testability"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/diagnosing-bugs",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Diagnosing Bugs",
+      "description": "A disciplined diagnosis loop for hard bugs and performance regressions; use when something is broken, throwing, failing, or slow.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/diagnosing-bugs",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "debugging",
+        "diagnosis",
+        "testing",
+        "performance"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/domain-modeling",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Domain Modeling",
+      "description": "Build and sharpen a project's domain model. Use when pinning down domain terminology or a ubiquitous language, recording an architectural decision, or when another skill needs to maintain the domain model.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/domain-modeling",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "domain-modeling",
+        "ubiquitous-language",
+        "adr",
+        "glossary"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/grill-me",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Grill Me",
+      "description": "A relentless interview that stress-tests a plan or design until you reach shared understanding.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/productivity/grill-me",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "planning",
+        "design",
+        "interview",
+        "stress-test",
+        "review"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/grill-with-docs",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Grill With Docs",
+      "description": "A relentless interview that sharpens a plan or design while producing docs (ADRs and a glossary) as you go.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/grill-with-docs",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "planning",
+        "design",
+        "documentation",
+        "adr"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/grilling",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Grilling",
+      "description": "Interview the user relentlessly about a plan or design to stress-test it before building.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/productivity/grilling",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "planning",
+        "design",
+        "interview",
+        "stress-test",
+        "review"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/handoff",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Handoff",
+      "description": "Compact the current conversation into a handoff document so a fresh agent can pick up the work.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/productivity/handoff",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "handoff",
+        "context",
+        "summary",
+        "agents",
+        "workflow"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/improve-codebase-architecture",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Improve Codebase Architecture",
+      "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/improve-codebase-architecture",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "architecture",
+        "refactoring",
+        "code-quality",
+        "report"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/prototype",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Prototype",
+      "description": "Build a throwaway prototype to flesh out a design — a runnable terminal app for state and business-logic questions, or several radically different UI variations toggleable from one route.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/prototype",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "prototype",
+        "throwaway-code",
+        "design",
+        "ui-variations"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/setup-matt-pocock-skills",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Setup Matt Pocock Skills",
+      "description": "Configure this repo for the engineering skills — issue tracker, triage label vocabulary, and domain doc layout. Run once before first use.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/setup-matt-pocock-skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "setup",
+        "configuration",
+        "issue-tracker",
+        "scaffolding"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/tdd",
+      "kind": "skill",
+      "category": "developer",
+      "name": "TDD",
+      "description": "Test-driven development. Use when building features or fixing bugs test-first, when red-green-refactor is mentioned, or when you want integration tests.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/tdd",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "tdd",
+        "testing",
+        "red-green-refactor",
+        "integration-tests"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/teach",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Teach",
+      "description": "Teach you a new skill or concept across sessions, turning the current workspace into a stateful learning space.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/productivity/teach",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "learning",
+        "teaching",
+        "lessons",
+        "study",
+        "knowledge"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/to-issues",
+      "kind": "skill",
+      "category": "developer",
+      "name": "To Issues",
+      "description": "Break a plan, spec, or PRD into independently-grabbable issues on your project issue tracker using tracer-bullet vertical slices.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/to-issues",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "issues",
+        "planning",
+        "vertical-slices",
+        "issue-tracker"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/to-prd",
+      "kind": "skill",
+      "category": "developer",
+      "name": "To PRD",
+      "description": "Turn the current conversation into a PRD and publish it to your project issue tracker — no interview, just synthesis of what you've already discussed.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/to-prd",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "prd",
+        "product-spec",
+        "synthesis",
+        "issue-tracker"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/triage",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Triage",
+      "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/triage",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "triage",
+        "issues",
+        "workflow",
+        "github"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/writing-great-skills",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Writing Great Skills",
+      "description": "A reference of the vocabulary and principles that make an agent skill predictable, for writing and editing skills well.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/productivity/writing-great-skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "skills",
+        "authoring",
+        "meta-skill",
+        "reference",
+        "agents"
+      ],
+      "via": "github:mattpocock"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
