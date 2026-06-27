@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 148,
-    "generated_at": "2026-06-27T11:33:39.560Z",
-    "content_hash": "sha256:f2dcaff539e93aeb7229ba2c7951e256cc46a91917ead40e4269f4f82a844c6a"
+    "generated_at": "2026-06-27T15:19:38.245Z",
+    "content_hash": "sha256:c758aabe48eda20a72a4dcb27cc5f2c5ff3f72375284e949ec9c53d6592cbdaa"
   },
   "entries": [
     {
@@ -2183,29 +2183,6 @@
       "via": "github:TexasBedouin"
     },
     {
-      "id": "aleph-hub:kimlawtech/korean-privacy-terms",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Privacy & Terms Generator",
-      "description": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
-      "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "kimlawtech",
-      "tags": [
-        "privacy-policy",
-        "legal",
-        "gdpr",
-        "compliance"
-      ],
-      "via": "github:kimlawtech"
-    },
-    {
       "id": "aleph-hub:dpconde/claude-android-skill",
       "kind": "skill",
       "category": "developer",
@@ -2227,6 +2204,29 @@
         "architecture"
       ],
       "via": "github:dpconde"
+    },
+    {
+      "id": "aleph-hub:kimlawtech/korean-privacy-terms",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Privacy & Terms Generator",
+      "description": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
+      "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kimlawtech",
+      "tags": [
+        "privacy-policy",
+        "legal",
+        "gdpr",
+        "compliance"
+      ],
+      "via": "github:kimlawtech"
     },
     {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -3032,29 +3032,6 @@
       "via": "github:Hasasasa"
     },
     {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
-      "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "patrickstigler",
-      "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
-      ],
-      "via": "github:patrickstigler"
-    },
-    {
       "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
       "category": "utilities",
@@ -3076,6 +3053,29 @@
         "dictation"
       ],
       "via": "github:Mobiss11"
+    },
+    {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
     },
     {
       "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
