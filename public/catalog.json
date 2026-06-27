@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 168,
-    "generated_at": "2026-06-27T17:41:11.839Z",
-    "content_hash": "sha256:de2d4fae98e2fd6143f1d449f0c3aa9b5e2de34d2d192d6d31ae9727658a5c86"
+    "entry_count": 169,
+    "generated_at": "2026-06-27T17:56:04.406Z",
+    "content_hash": "sha256:00c27d773525ebb222718f172390de9bc2884d942f65f792a6635b24a2826b4a"
   },
   "entries": [
     {
@@ -1503,6 +1503,29 @@
         "cli"
       ],
       "via": "github:Panniantong"
+    },
+    {
+      "id": "aleph-hub:xiaopu-ai/web-design",
+      "kind": "skill",
+      "category": "design",
+      "name": "Web Design",
+      "description": "A two-phase web visual-design skill: first produce a standardized DESIGN.md spec from your PRD / reference URL / screenshot / keywords, then generate UI/UX, visual, motion, and responsive web code that meets it.",
+      "repo_url": "https://github.com/xiaopu-ai/web-design",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xiaopu-ai/web-design",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xiaopu-ai",
+      "tags": [
+        "web-design",
+        "ui",
+        "landing-page",
+        "frontend"
+      ],
+      "via": "github:xiaopu-ai"
     },
     {
       "id": "aleph-hub:yixiliu617/data-craft",

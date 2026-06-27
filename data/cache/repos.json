@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"c85fac7a18108a3404ce0687b94e6786211a3f5ffd4c187ccf4ac3407b7a8509\"",
+    "etag": "W/\"2572c65c873a60a1b23e0e56223c67868ffe588bed332430c4282b4f0ef9f31d\"",
     "readme_hash": "22d82a9114c111268660d2a3ed48e2201bb17ecd65a0cea96196dc15db73d357",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"5b0959e754966815d07fd2b07aff0901440859b5ce8fb48db1f92d9726def58f\"",
+    "etag": "\"5b0959e754966815d07fd2b07aff0901440859b5ce8fb48db1f92d9726def58f\"",
     "readme_hash": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "W/\"ce3c093ae4b3583105e68836c72cff1210ef608d1fbe84f3be62572ff9b1e823\"",
+    "etag": "W/\"3f6c87886f8108c0cd20aec27c615bc13b88b01e73e870fd861ccb0f9d24d94a\"",
     "readme_hash": "075cc97e124df82c71cf242d14748cf4e6fe245241458f38d447c7413e08cce5",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"f6af1759eaf3651b76fca77bd0c2fc4462e442ecf7218f3ebbb1f00d8b2fc77d\"",
+    "etag": "W/\"9df32431a163d48936e733aa312df501dd248c4d59bcb9ca4ee6a0b0a685742c\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"0506bb8b9a76b8160de100f586b03d7a52253beb959ebe565771732f7be5cc0b\"",
+    "etag": "\"0506bb8b9a76b8160de100f586b03d7a52253beb959ebe565771732f7be5cc0b\"",
     "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
     "entries": [
       {
@@ -203,7 +203,7 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"21dc2cdfa4e94701188d0eb382abb1b8ad59b6c68c5b8be36ee97d40603c4749\"",
+    "etag": "W/\"945962c348cfe31af14f1cc9b3c0c978e88e70e323326df3f358e0a4355ad0d5\"",
     "readme_hash": "c9227cf8c6338f6edb5de024408547343a39c6b6677d905bfce113e9aad4ec68",
     "entries": [
       {
@@ -238,7 +238,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"d67595bd21896e71b093c2f83cbd88ffbb088f17919c9be0461918ecba2ba4c4\"",
+    "etag": "W/\"c4413c6a179c2129eec2d319e28c2f1a5475e65f1ff69881e720a2b556b7c8df\"",
     "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
     "entries": [
       {
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"ba36d32b7f9e37ab4fde73c975f049483d2e7d1b4995446f4a55c98f6e1ce50e\"",
+    "etag": "\"ba36d32b7f9e37ab4fde73c975f049483d2e7d1b4995446f4a55c98f6e1ce50e\"",
     "readme_hash": "475fa0ec89589a191d01101abd90e2838a4b18b6df743769121fb3f18bc8ad83",
     "entries": [
       {
@@ -519,7 +519,7 @@
     ]
   },
   "KaguraNanaga/document-format-skills": {
-    "etag": "\"5c373877913b7d68a66bdc608753e0f22e10f45eef96734551352f11e6b26d1f\"",
+    "etag": "W/\"dd46cf9aebf5399eaef55cbf84681c4f14485e7d67d15a3e2eda49ab91a24fee\"",
     "readme_hash": "8885fa7d2a079a27ab6c6ac3caf53aa186f0b36e50aef81f18711ad8fb53ccf5",
     "entries": [
       {
@@ -913,7 +913,7 @@
     ]
   },
   "likaku/Mck-ppt-design-skill": {
-    "etag": "W/\"4382938fd8c5a2cb562a30c4d0551d6b58806cb4354f99769204bfa52c21a62e\"",
+    "etag": "\"4382938fd8c5a2cb562a30c4d0551d6b58806cb4354f99769204bfa52c21a62e\"",
     "readme_hash": "f2058627f43aaccb54f96391e27f5f0a7847e04f770f3598ca316829ad754692",
     "entries": [
       {
@@ -949,7 +949,7 @@
     ]
   },
   "PleasePrompto/google-ai-mode-skill": {
-    "etag": "W/\"3d4265c87e11b490a39c01ea048234b210438528a6950df83eeed5b0314ce347\"",
+    "etag": "\"3d4265c87e11b490a39c01ea048234b210438528a6950df83eeed5b0314ce347\"",
     "readme_hash": "3830e22a24b474154edc7779abb28e1701f01a7147e06e0d9d8b874a3d07522a",
     "entries": [
       {
@@ -1021,7 +1021,7 @@
     ]
   },
   "Hao0321/ai-media-generator": {
-    "etag": "W/\"80e13d232d2528f9b1b2a200db20fa1de86ad6de86be87ce84b8e291b9d9e68b\"",
+    "etag": "\"80e13d232d2528f9b1b2a200db20fa1de86ad6de86be87ce84b8e291b9d9e68b\"",
     "readme_hash": "8c3b95dbc2ff2007ae43dcb05431f2c0268ce8b585991cc1260ac841ed95d698",
     "entries": [
       {
@@ -2173,7 +2173,7 @@
     ]
   },
   "Mobiss11/Whisper-Skill": {
-    "etag": "W/\"0634fded2c3c81fd68311e9db391e671d72141a60ad6d2492ecca33d6361ae48\"",
+    "etag": "\"0634fded2c3c81fd68311e9db391e671d72141a60ad6d2492ecca33d6361ae48\"",
     "readme_hash": "15eb7e3fb4b2c192055ede3f0ccbe1a30e03428cf23d0a40f496334365891b93",
     "entries": [
       {
@@ -2893,7 +2893,7 @@
     ]
   },
   "tlehman/litprog-skill": {
-    "etag": "W/\"5d23452ddca42cc59afb8cd8005263024afa755aa3b96d12e41fbb182062e269\"",
+    "etag": "\"5d23452ddca42cc59afb8cd8005263024afa755aa3b96d12e41fbb182062e269\"",
     "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "W/\"140abad2d71267a3a6c628113b8e6ca1dde0e621209357951864be7f520251f6\"",
+    "etag": "\"140abad2d71267a3a6c628113b8e6ca1dde0e621209357951864be7f520251f6\"",
     "readme_hash": "cd790218b2f69d069c09551920c7447c81d931284cf54a7f8edf2cc32f22cf16",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"9d934e438c0f2ef2e506c897d41f558cbb01a54af838cb208378b4188c170eac\"",
+    "etag": "\"9d934e438c0f2ef2e506c897d41f558cbb01a54af838cb208378b4188c170eac\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"56f2d001c84ea742e13aba6012280e85fc1f4f256bd073530917e652416bb903\"",
+    "etag": "W/\"6603c271176a40e5c2d075cad82b1d23090887c53639f48e1cf931b16a970f50\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,7 +3038,7 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"74a8ac7d658d92e88cc0cd0a4d1822390a0a75a6fb7f234bb2778beca202f17e\"",
+    "etag": "W/\"97c239c507679f6b7200915e8da02754d6af843cce736f7c6bd74ce1dd60d111\"",
     "readme_hash": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6",
     "entries": [
       {
@@ -3075,7 +3075,7 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"716caf65958315cfd22082100acca994b2ffd03dd46c4baa71f42174704c5176\"",
+    "etag": "W/\"cb0216ed1e70004c2526007250f0601c41d9e9127004a7fa33a1d93be2e1fcb1\"",
     "readme_hash": "07c21176b8117e80b6a843fdcc0ca797c899fc89195dfc2d2ccd43433232f886",
     "entries": [
       {
@@ -3149,7 +3149,7 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"a711a09ee4315406a8b2745e030a3e01f6473d76c1d2c4aaca737a2ce78ca080\"",
+    "etag": "W/\"145a01338daad4e794b63ed24ddd457b34a7b545777fe8f913f2b673bb48c320\"",
     "readme_hash": "bc18904b1077d1e9dcf00bbb2a70947fc2fea61499f86a41e020e24a7339a640",
     "entries": [
       {
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"e065ad98bd63eababc4eb82bc027176525c717be7a41f8d4643acb40ec9e9058\"",
+    "etag": "W/\"528bd113c92c85c34921c9fd903df80393c27db1a7329675e8f988adcff186a4\"",
     "readme_hash": "9202c6fb8a233bb17f33cd10f9ee0ab3dc903e3cd0e6eee09122aa5d8c6965c6",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"2dc0b293669129f25478ec45dff907c45813c260498453394f7084f9e74bc6be\"",
+    "etag": "W/\"e0aa427ff8d069d3ed4c1a7de8d72889da4b32eb1f056cf20e75bf0a7f313d24\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"98b780e40c5bef16719c2a363c9d3e09dd385b1917db6cb30e5795d611360d1d\"",
+    "etag": "\"98b780e40c5bef16719c2a363c9d3e09dd385b1917db6cb30e5795d611360d1d\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"2d0e508c789021db47b0b999a900cbd2d6ea5446e225229654cbdf38fbbfa61f\"",
+    "etag": "\"2d0e508c789021db47b0b999a900cbd2d6ea5446e225229654cbdf38fbbfa61f\"",
     "readme_hash": "b10283ab95e16bffb70aba02c7253d00426fe0d5f239c66551186090e6d2a5e4",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"914024345f328ad7f702ba4c66830a5489e5a705f09d03a197975e72ca8e9d83\"",
+    "etag": "W/\"af728ee563e1743265392f399e1db8150423821b21eda1c4663fd6f498e1b235\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"773c7795ff329550d992177824ba3ec8904c392bbb3ab010acc6b7cad5c97b1f\"",
+    "etag": "W/\"c7cc10dc1c94f4f577c6d78b3992ca50e8b1283553bf773d8075d7a6b9556ade\"",
     "readme_hash": "9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"a19c3344e31e825f25feeabf645d92c47266fa2ed20a6ca3700f5362dfc1bd97\"",
+    "etag": "W/\"32ef193ffafa0e47ab7a6a0e5320dbbcc74bc8ac945ec3c16965955ad43910b1\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"ce2e14177ffa5650bbf80ccd69ba412f76d20063cd774d5fe40fa034e3864af1\"",
+    "etag": "W/\"29fdddbfff22b76aa61770dfdcceced946bd1934bed9ff2996a86dceb43032d0\"",
     "readme_hash": "34bbfbab1e6859177a0ac3ce04229ac949fb802998608aa182bee3efbee4ea6a",
     "entries": [
       {
@@ -3683,7 +3683,7 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"74b6b13997678a466aed8e2291a9959d5ee570650a4a47d75492a747e9fdfb81\"",
+    "etag": "W/\"964443b0c77d46f56f29d53adbb7e5c20b0f6f818479058b44f78fda5170e0ee\"",
     "readme_hash": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
     "entries": [
       {
@@ -4216,6 +4216,42 @@
         "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/writing-great-skills 这一个目录，而非整仓）。它是一个元技能：一份纯参考资料，阐明决定“可预测性”的各项杠杆——调用方式、描述撰写、信息层级与渐进式披露、何时拆分技能、剪枝至单一事实来源，以及善用“引导词”——并附带一份 GLOSSARY.md 提供完整定义。",
         "sec_note_en": "Pure reference material consulted on demand: it makes no external changes (no files written, no commands run, no network access). It only shapes how you author other skills.",
         "sec_note_zh": "按需查阅的纯参考资料：它不做任何外部改动（不写文件、不执行命令、不联网）。它只影响你如何撰写其他技能。",
+        "requires_config": false
+      }
+    ]
+  },
+  "xiaopu-ai/web-design": {
+    "etag": "\"69f7afa15df8d971dba1f75324bc900fd5971ae2b4937e28e62570943f5792e0\"",
+    "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
+    "entries": [
+      {
+        "id": "aleph-hub:xiaopu-ai/web-design",
+        "repo_url": "https://github.com/xiaopu-ai/web-design",
+        "via": "github:xiaopu-ai",
+        "full_name": "xiaopu-ai/web-design",
+        "owner": "xiaopu-ai",
+        "repo": "web-design",
+        "kind": "skill",
+        "name": "Web Design",
+        "author": "xiaopu-ai",
+        "category": "design",
+        "tags": [
+          "web-design",
+          "ui",
+          "landing-page",
+          "frontend"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/xiaopu-ai/web-design",
+          "git_ref": "main"
+        },
+        "description_en": "A two-phase web visual-design skill: first produce a standardized DESIGN.md spec from your PRD / reference URL / screenshot / keywords, then generate UI/UX, visual, motion, and responsive web code that meets it.",
+        "description_zh": "两阶段的 Web 视觉设计技能:先从 PRD / 参考 URL / 截图 / 关键词产出标准化的 DESIGN.md 规范,确认后据此生成达标的 UI/UX、视觉、动效与响应式网页代码。",
+        "long_en": "Specializes in web surfaces—landing pages, portfolios, product pages, blogs, personal sites, SaaS pages—gating code generation behind an agreed design spec.",
+        "long_zh": "专攻 web 端——落地页、作品集、产品页、博客、个人站、SaaS 介绍页——先定规范再出代码。",
+        "sec_note_en": "Generates local web code and assets; review output before deploying.",
+        "sec_note_zh": "生成本地网页代码与素材;部署前请审阅产物。",
         "requires_config": false
       }
     ]
