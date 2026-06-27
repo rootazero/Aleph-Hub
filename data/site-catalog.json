@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 140,
-    "generated_at": "2026-06-26T13:08:22.622Z",
-    "content_hash": "sha256:ca521b4669c7eb0fa92048380e87c38db8fe6869b1b1c431ea8788bfeb062f02"
+    "entry_count": 143,
+    "generated_at": "2026-06-27T03:36:13.084Z",
+    "content_hash": "sha256:56731da24462e0ac14759a511627b72d58e9e09993f7ee39b888e80ed45b64e9"
   },
   "entries": [
     {
@@ -1918,7 +1918,7 @@
       "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
       "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
       "cover_color": "#A0612F",
-      "stars": 34381,
+      "stars": 34397,
       "trend": 0,
       "spark": [
         34135,
@@ -1927,7 +1927,8 @@
         34271,
         34311,
         34372,
-        34381
+        34381,
+        34397
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-25",
@@ -1966,7 +1967,7 @@
       "long_zh": "Desktop Commander 是把模型连接到真实 shell 与本地文件系统的 MCP 服务,可在对话中执行长任务命令、编辑代码并管理进程。",
       "long_en": "Desktop Commander is an MCP server that bridges the model to a real shell and the local filesystem, enabling long-running commands, code edits, and process management from a conversation.",
       "cover_color": "#7E4A2A",
-      "stars": 6212,
+      "stars": 6215,
       "trend": 0,
       "spark": [
         6188,
@@ -1975,7 +1976,8 @@
         6204,
         6207,
         6212,
-        6212
+        6212,
+        6215
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -2020,7 +2022,7 @@
       "long_zh": "Mobile MCP 通过类 Appium 的自动化把移动设备控制开放给智能体,覆盖 iOS 与 Android,让模型可点击、输入并检视应用界面。",
       "long_en": "Mobile MCP exposes mobile device control to agents via Appium-style automation, working across iOS and Android targets so a model can tap, type, and inspect app screens.",
       "cover_color": "#9C5A2C",
-      "stars": 5284,
+      "stars": 5286,
       "trend": 0,
       "spark": [
         5236,
@@ -2029,7 +2031,8 @@
         5262,
         5271,
         5283,
-        5284
+        5284,
+        5286
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-15",
@@ -2065,14 +2068,15 @@
       "long_zh": "一个 Claude Code 插件,打包 Builder.io 的十个技能。核心组合是 visual-plan(把文字计划转成带内联图表、文件地图、注释代码、待解问题与可选 UI/原型画布的可交互评审界面)与 visual-recap(生成对已完成工作的可速览回顾)。安装合集后,/visual-plan 等单个技能即可按名调用。",
       "long_en": "A Claude Code plugin packaging ten Builder.io skills. The headline pair is visual-plan—which turns text plans into interactive visual review surfaces with inline diagrams, file maps, annotated code, open questions, and optional UI/prototype canvases—and visual-recap, which produces scannable recaps of completed work. Installing the bundle makes each skill (e.g. /visual-plan) invocable by name.",
       "cover_color": "#C98A3C",
-      "stars": 2727,
-      "trend": 1,
+      "stars": 2773,
+      "trend": 2,
       "spark": [
         2374,
         2547,
         2578,
         2701,
-        2727
+        2727,
+        2773
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -2107,12 +2111,13 @@
       "long_zh": "一个基于提示的编辑器，扫描文本中的 AI 写作模式并重写问题片段，同时保留原意、匹配预期语气。除了去除不良模式，还注入「人味」——观点、节奏变化、承认复杂性——让成稿读起来像真人所写。与 stop-slop-zh 同源。",
       "long_en": "A prompt-based editor that scans text for AI writing patterns and rewrites the offending passages while preserving meaning and matching the intended tone. Beyond removing bad patterns it injects voice—opinions, varied rhythm, acknowledged complexity—so the result reads like real human writing. Same lineage as stop-slop-zh.",
       "cover_color": "#86512C",
-      "stars": 11675,
+      "stars": 11694,
       "trend": 0,
       "spark": [
         11517,
         11644,
-        11675
+        11675,
+        11694
       ],
       "license": "MIT",
       "updated": "2026-01-19",
@@ -2148,12 +2153,13 @@
       "long_zh": "一个 agent 技能，产出自包含的 HTML 演示，提供两套可选视觉系统、键盘/滚轮/触屏翻页与 ESC 索引、Lucide 图标，以及 Motion One 入场动效(本地 + CDN 双保险)。面向线下分享、产品发布，以及任何需要杂志感或瑞士设计感的演讲。",
       "long_en": "An agent skill that outputs a self-contained HTML presentation with two selectable visual systems, keyboard / wheel / touch navigation and an ESC index, Lucide icons, and Motion One entrance animations (local + CDN fallback). Aimed at offline talks, product launches, and any deck that needs an editorial or Swiss-design feel.",
       "cover_color": "#C98A3C",
-      "stars": 19060,
+      "stars": 19110,
       "trend": 0,
       "spark": [
         18869,
         19023,
-        19060
+        19060,
+        19110
       ],
       "license": "AGPL-3.0",
       "updated": "2026-06-02",
@@ -2189,12 +2195,13 @@
       "long_zh": "一个 Claude Code 插件，打包十多个前端设计技能，安装后每个均可按名调用。提供多种鲜明的美学方向(brutalist、minimalist、soft、瑞士/stitch)、品牌套件与重设计助手，以及 image-to-code / 图像生成工作流——引导 agent 做出有意图、不千篇一律的界面。",
       "long_en": "A Claude Code plugin packaging more than a dozen frontend-design skills, each invocable by name after install. It offers distinct aesthetic directions (brutalist, minimalist, soft, Swiss/stitch), brand-kit and redesign helpers, and image-to-code / image-generation workflows—steering agents toward deliberate, non-generic interfaces.",
       "cover_color": "#7E4A2A",
-      "stars": 51304,
-      "trend": 0,
+      "stars": 51630,
+      "trend": 1,
       "spark": [
         50519,
         51195,
-        51304
+        51304,
+        51630
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2231,12 +2238,13 @@
       "long_zh": "随仓库附带的 Claude skill(SKILL.md)是一个「互联网能力路由器」:把用户意图或粘贴的链接映射到对应的 agent-reach CLI 命令,先跑 `agent-reach doctor` 为每个平台挑选可用后端,某个接入失效时自动切换备选。六个渠道(网页、YouTube、RSS、V2EX、全文搜索、公开 GitHub)零配置可用;需登录的平台(Twitter、Reddit、小红书、领英)用用户自己的 Cookie 解锁。仅读取 / 搜索、不发帖——给 agent 眼睛而非手。",
       "long_en": "A companion Claude skill (SKILL.md) acts as an 'internet capability router': it maps a user's intent or a pasted URL to the right agent-reach CLI command, runs `agent-reach doctor` to pick a working backend per platform, and falls back across backends when one is blocked. Six channels (web, YouTube, RSS, V2EX, full-text search, public GitHub) work with zero config; login-gated platforms (Twitter, Reddit, Xiaohongshu, LinkedIn) unlock with the user's own cookies. It is read/search only—no posting—so it gives the agent eyes, not hands.",
       "cover_color": "#B5562B",
-      "stars": 41885,
+      "stars": 42475,
       "trend": 1,
       "spark": [
         40248,
         41649,
-        41885
+        41885,
+        42475
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -2276,6 +2284,7 @@
       "spark": [
         7,
         7,
+        7,
         7
       ],
       "license": "MIT",
@@ -2313,11 +2322,12 @@
       "long_zh": "一个文档转 PPTX 的技能,以 Claude Code 插件形式打包(技能位于 skills/ppt-master)。它强制串行纪律——逐页手写 SVG 并携带完整上文,而非批量脚本生成——以保证长 deck 的视觉一致性,再把 SVG 页面转成可编辑的 PowerPoint 对象。",
       "long_en": "A document-to-PPTX skill packaged as a Claude Code plugin (the skill lives at skills/ppt-master). It enforces a strict serial discipline—per-page SVG authoring with full upstream context rather than batch script generation—to keep long decks visually consistent, then converts the SVG pages into editable PowerPoint objects.",
       "cover_color": "#B5562B",
-      "stars": 32104,
+      "stars": 32438,
       "trend": 1,
       "spark": [
         31789,
-        32104
+        32104,
+        32438
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -2353,11 +2363,12 @@
       "long_zh": "一个面向视觉 HTML 产出的设计技能(agent 无关)——原型、幻灯片、动画、信息图,而非生产级 Web App。需求模糊时可进入设计方向顾问、并行产出三套真实视觉变体,并在动手前用联网搜索核实产品事实。",
       "long_en": "A design-focused skill (agent-agnostic) for visual HTML output—prototypes, slides, animations, infographics—rather than production web apps. It can run a design-direction advisor that produces three real visual variants in parallel when the brief is vague, and verifies product facts via web search before designing.",
       "cover_color": "#9C5A2C",
-      "stars": 19880,
+      "stars": 19946,
       "trend": 0,
       "spark": [
         19842,
-        19880
+        19880,
+        19946
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -2393,11 +2404,12 @@
       "long_zh": "宝玉(Jim Liu)技能合集中的幻灯片技能——本条目只安装 baoyu-slide-deck 这一个目录,而非整套 21 个技能。它调用宿主 agent 暴露的用户输入与图片生成工具来排版并渲染每一页。",
       "long_en": "The slide-deck skill from Baoyu's (Jim Liu) skills collection—the curated entry installs just the baoyu-slide-deck folder, not the whole 21-skill bundle. It drives whatever user-input and image-generation tools the host agent exposes to lay out and render each slide.",
       "cover_color": "#7E4A2A",
-      "stars": 22566,
+      "stars": 22595,
       "trend": 0,
       "spark": [
         22540,
-        22566
+        22566,
+        22595
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2433,11 +2445,12 @@
       "long_zh": "一个模板驱动的幻灯片工作室:一个主题文件=一种观感,一个布局文件=一种页型,一个动画类=一种入场效果。纯静态 HTML/CSS/JS,仅用 CDN 网络字体——无需构建——完全可用键盘操作。",
       "long_en": "A template-driven slide studio: one theme file = one look, one layout file = one page type, one animation class = one entry effect. Pure static HTML/CSS/JS with only CDN webfonts—no build step—navigable entirely from the keyboard.",
       "cover_color": "#B0703C",
-      "stars": 6561,
+      "stars": 6579,
       "trend": 0,
       "spark": [
         6545,
-        6561
+        6561,
+        6579
       ],
       "license": "MIT",
       "updated": "2026-04-26",
@@ -2473,14 +2486,128 @@
       "long_zh": "一个本地优先的 AI 演示文稿技能(根目录 SKILL.md),由你正在用的 Agent/模型驱动(Codex、Claude Code 等)。两条输出路线:正式可编辑 PPTX(微软雅黑、formal-business 门禁、来源可信度与官方/IP 素材计划),以及 Guizang 风杂志 Web Deck——作为极短指令的稳定高质量 fallback。文档转换(PDF/DOCX/XLSX/HTML/URL→Markdown)、SVG→PPTX 导出、可选逐页 TTS 旁白、本地 SVG 编辑器以 Python 脚本形式打包;生图为多 provider,改一个环境变量即可切换。",
       "long_en": "A local-first AI presentation skill (root SKILL.md) driven by whatever agent/model you already run (Codex, Claude Code, etc.). Two output routes: a formal editable PPTX path (Microsoft YaHei, formal-business quality gate, source-confidence and official/IP asset planning) and a Guizang-like magazine web-deck path used as a stable high-quality fallback for extremely thin prompts. Document conversion (PDF/DOCX/XLSX/HTML/URL→Markdown), SVG→PPTX export, optional per-slide TTS narration, and a localhost SVG editor ship as bundled Python scripts; image generation is multi-provider and switchable via one env var.",
       "cover_color": "#C9542A",
-      "stars": 72,
-      "trend": null,
-      "spark": [],
+      "stars": 90,
+      "trend": 25,
+      "spark": [
+        72,
+        90
+      ],
       "license": "MIT",
       "updated": "2026-06-23",
       "install_cmd": "aleph add ultimate-ppt-master-skill",
       "sec_note_zh": "核心生成在本地运行,导出脚本大多仅用 Python 标准库(可选 pip 依赖:python-pptx、PyMuPDF、cairosvg/svglib、mammoth 等)。AI 生图为可选:仅在启用时才需要某个 provider 的 API Key(OpenAI/Gemini/通义/智谱/火山引擎等)并向该厂商发送提示词(按量计费)。TTS 旁白默认用免 Key 的 edge-tts,云端音色可选。网页转 Markdown 工具可选用 curl_cffi 模拟浏览器 TLS 指纹,以抓取屏蔽 Python 默认客户端的门户(如微信公众号)。它还会启动本地 Flask SVG 编辑器和可选的本地 Agent Bridge。",
       "sec_note_en": "Core generation runs locally and the export scripts mostly use the Python standard library (optional pip deps: python-pptx, PyMuPDF, cairosvg/svglib, mammoth, etc.). AI image generation is opt-in: only when enabled does it need a provider API key (OpenAI/Gemini/Qwen/Zhipu/Volcengine/…) and send your prompts to that provider, with usage cost. TTS narration defaults to keyless edge-tts; cloud voices are optional. The web-to-Markdown helper can optionally use curl_cffi to impersonate a browser TLS fingerprint for portals (e.g. WeChat) that block Python's default client. It also runs a localhost Flask SVG editor and an optional local Agent Bridge."
+    },
+    {
+      "id": "aleph-hub:lixiaolin94/skills",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Web Shader Extractor",
+      "description": "Extract a webpage's WebGL/WebGPU/Canvas/shader visual effect and rebuild it as a standalone native-JS project. Locks the target rendering surface, gathers shader/resource/render-graph/timing evidence, builds an evidence-matched local baseline, then projectizes it—evidence before guessing, baseline before refactor.",
+      "repo_url": "https://github.com/lixiaolin94/skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/lixiaolin94/skills",
+        "subdir": "web-shader-extractor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "lixiaolin94",
+      "tags": [
+        "webgl",
+        "shader",
+        "canvas",
+        "reverse-engineering",
+        "porting"
+      ],
+      "via": "github:lixiaolin94",
+      "description_zh": "把网页里的 WebGL/WebGPU/Canvas/shader 视觉特效提取出来,重建为独立的原生 JS 项目。先锁定目标渲染面,采集 shader/资源/渲染图/时序等证据,搭出与证据吻合的本地基线,再工程化为可编辑项目——先证据后猜测、先基线后重构。",
+      "description_en": "Extract a webpage's WebGL/WebGPU/Canvas/shader visual effect and rebuild it as a standalone native-JS project. Locks the target rendering surface, gathers shader/resource/render-graph/timing evidence, builds an evidence-matched local baseline, then projectizes it—evidence before guessing, baseline before refactor.",
+      "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 web-shader-extractor 这一个目录,而非整仓)。路由式 SKILL.md + 十余篇聚焦参考文档 + JSON/markdown 模板,驱动一套严谨的侦察状态机:摄入 → 渲染面归因 → 目标锁定 → 源码/运行时追踪 → 最小真值采集 → 基线校验 → 工程化 → QA。它把事实标注为 SOURCE / PARTIAL / GUESS,禁止用「补偿调参」掩盖缺失的管线证据,并内置 Three.js/TSL、Unicorn Studio、shaders.com 平台适配。附带脚本(渲染 DOM 盘点、bundle 扫描)只作假设证据,不能单独通过任何关卡。不用于普通 DOM/CSS 页面克隆。",
+      "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the web-shader-extractor folder, not the whole repo). A router-style SKILL.md plus a dozen focused references and JSON/markdown templates drive a disciplined recon state machine: intake → surface attribution → target lock → source/runtime trace → minimum-truth capture → verified baseline → projectize → QA. It labels facts as SOURCE / PARTIAL / GUESS, forbids 'compensation tuning' to mask missing pipeline evidence, and ships platform adapters for Three.js/TSL, Unicorn Studio, and shaders.com. Bundled scripts (rendered-DOM inventory, bundle scan) are treated as hypotheses, never as gate-passing proof. Not for ordinary DOM/CSS page cloning.",
+      "cover_color": "#B5562B",
+      "stars": 344,
+      "trend": null,
+      "spark": [],
+      "updated": "2026-06-26",
+      "install_cmd": "aleph add skills",
+      "sec_note_zh": "会驱动无头浏览器(如 Playwright)加载并采集目标站点,并可能反混淆/分析目标的 JavaScript bundle 与 source map 以还原 shader 代码。它用于研究与移植视觉特效,而非批量克隆站点——复用提取到的 shader/资源时,你需自行尊重源站的版权、许可与条款。仓库 README 标注 MIT,但未附 LICENSE 文件。",
+      "sec_note_en": "Drives a headless browser (e.g. Playwright) to load and capture the target site, and may deobfuscate/inspect the target's JavaScript bundle and source maps to recover shader code. It is meant for studying and porting visual effects, not bulk site cloning—you are responsible for respecting the source site's copyright, license, and terms when reusing extracted shaders/assets. The repo's README states MIT, but it ships no LICENSE file."
+    },
+    {
+      "id": "aleph-hub:kepano/obsidian-skills",
+      "kind": "plugin",
+      "category": "knowledge",
+      "name": "Obsidian Skills",
+      "description": "Five skills that teach an agent to work with an Obsidian vault's open formats—Obsidian Flavored Markdown (wikilinks, callouts, embeds, properties), Bases (.base) database views, JSON Canvas (.canvas), the Obsidian CLI, and Defuddle web-to-clean-markdown. By Obsidian's own maker, Steph Ango (kepano).",
+      "repo_url": "https://github.com/kepano/obsidian-skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kepano/obsidian-skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kepano",
+      "tags": [
+        "obsidian",
+        "markdown",
+        "pkm",
+        "canvas",
+        "notes"
+      ],
+      "via": "github:kepano",
+      "description_zh": "五个技能,教 agent 操作 Obsidian 仓库的开放格式——Obsidian 风格 Markdown(wikilink、callout、嵌入、属性)、Bases(.base)数据库视图、JSON Canvas(.canvas)、Obsidian CLI,以及 Defuddle 网页转干净 Markdown。出自 Obsidian 作者本人 Steph Ango(kepano)。",
+      "description_en": "Five skills that teach an agent to work with an Obsidian vault's open formats—Obsidian Flavored Markdown (wikilinks, callouts, embeds, properties), Bases (.base) database views, JSON Canvas (.canvas), the Obsidian CLI, and Defuddle web-to-clean-markdown. By Obsidian's own maker, Steph Ango (kepano).",
+      "long_zh": "一个 Claude Code 插件(同时兼容 Agent-Skills 规范,可用于 Codex 与 OpenCode),打包 obsidian-markdown、obsidian-bases、json-canvas、obsidian-cli、defuddle 五个技能。可按需调用:用 Obsidian 专有语法创建/编辑笔记,用 Bases 建带筛选与公式的类数据库视图,排布可视化 canvas,从命令行驱动仓库(含插件/主题开发——重载插件、运行 JS、捕获错误、截图、检查 DOM),以及把网页提取为去杂的 markdown 以省 token。所用格式均为开放规范,产物可移植。",
+      "long_en": "A Claude Code plugin (also Agent-Skills-spec compatible, so it works in Codex and OpenCode) bundling obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli, and defuddle. Each is invocable on demand: create/edit notes with Obsidian-specific syntax, build database-like Bases views with filters and formulas, lay out visual canvases, drive the vault from the CLI (including plugin/theme dev—reload plugins, run JS, capture errors, screenshot, inspect the DOM), and extract clutter-free markdown from web pages to save tokens. The formats are open specs, so output stays portable.",
+      "cover_color": "#C9542A",
+      "stars": 38409,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-08",
+      "install_cmd": "aleph add obsidian-skills",
+      "sec_note_zh": "MIT 许可;在本地 Obsidian 仓库文件上操作。obsidian-cli 可运行任意 JavaScript 并改动仓库内容(笔记/任务/属性操作、插件/主题调试)——在真实仓库上执行前请先审阅动作。defuddle 会抓取并清洗你指定的外部网页。技能本身不会把仓库数据发往任何地方。",
+      "sec_note_en": "MIT-licensed; operates locally on your Obsidian vault files. obsidian-cli can run arbitrary JavaScript and mutate vault contents (note/task/property operations, plugin/theme debugging)—review actions before running on a real vault. defuddle fetches and cleans external web pages you point it at. The skills themselves send no vault data anywhere."
+    },
+    {
+      "id": "aleph-hub:Egonex-AI/Understand-Anything",
+      "kind": "plugin",
+      "category": "developer",
+      "name": "Understand Anything",
+      "description": "A multi-agent Claude Code plugin that analyzes any codebase into an interactive knowledge graph—every file, function, class, and dependency as a clickable node with plain-English summaries—plus guided tours, fuzzy/semantic search, diff impact analysis, architectural layer grouping, and a business-domain view.",
+      "repo_url": "https://github.com/Egonex-AI/Understand-Anything",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Egonex-AI/Understand-Anything",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Egonex-AI",
+      "tags": [
+        "codebase-analysis",
+        "knowledge-graph",
+        "onboarding",
+        "architecture",
+        "dashboard"
+      ],
+      "via": "github:Egonex-AI",
+      "description_zh": "一个多 agent 的 Claude Code 插件,把任意代码库解析成可交互的知识图谱——每个文件、函数、类、依赖都是可点击节点并带白话摘要——并提供引导式导览、模糊/语义搜索、diff 影响分析、架构分层归类与业务域视图。",
+      "description_en": "A multi-agent Claude Code plugin that analyzes any codebase into an interactive knowledge graph—every file, function, class, and dependency as a clickable node with plain-English summaries—plus guided tours, fuzzy/semantic search, diff impact analysis, architectural layer grouping, and a business-domain view.",
+      "long_zh": "运行一条多 agent 流水线(项目扫描 → 逐文件分析 → 架构分层 → 业务域抽取 → 图谱组装 → 审校),产出 JSON 图谱与可在浏览器中平移、缩放、搜索的交互式仪表盘。技能包括 /understand(建图)、/understand-dashboard、/understand-explain、/understand-onboard、/understand-diff(改动的连锁影响)、/understand-domain(业务流)、/understand-knowledge(把 Karpathy 式 LLM wiki 变成力导向、社区聚类的图谱)与 /understand-chat。跨平台:Claude Code 市场,外加 Codex、Cursor、Copilot、Gemini CLI 等可经仓库的 install.sh 安装。",
+      "long_en": "Runs a multi-agent pipeline (project scan → per-file analysis → architecture layering → domain extraction → graph assembly → review) that emits JSON graphs and an interactive dashboard you pan, zoom, and search in the browser. Skills include /understand (build the graph), /understand-dashboard, /understand-explain, /understand-onboard, /understand-diff (ripple effect of a change), /understand-domain (business flows), /understand-knowledge (turn a Karpathy-style LLM wiki into a force-directed, community-clustered graph), and /understand-chat. Cross-platform: Claude Code marketplace, plus Codex, Cursor, Copilot, Gemini CLI and others via the repo's install.sh.",
+      "cover_color": "#A0612F",
+      "stars": 68389,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-06-23",
+      "install_cmd": "aleph add Understand-Anything",
+      "sec_note_zh": "MIT 许可;分析通过你自己的 agent/LLM 在本地运行——会大量读取源码并喂给模型,因此大仓库会产生可观的 token 消耗,也不宜对着含密钥、你不愿发送给模型厂商的目录使用。产物(图谱+仪表盘)写在本地;存在可选的托管 demo/主页,但使用插件并不依赖它。",
+      "sec_note_en": "MIT-licensed; the analysis runs locally through your own agent/LLM—your source is read in bulk and fed to the model, so expect significant token usage on large repos and avoid pointing it at secrets-laden trees you don't want sent to your model provider. Output (graphs + dashboard) is written locally; an optional hosted demo/homepage exists but isn't required to use the plugin."
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -2517,6 +2644,7 @@
         679,
         688,
         694,
+        697,
         697,
         697
       ],
@@ -2562,6 +2690,7 @@
         412,
         412,
         413,
+        413,
         413
       ],
       "updated": "2025-10-16",
@@ -2596,8 +2725,8 @@
       "long_zh": "通过命令行脚本复刻桌面排版工具的核心流程,适合无 GUI 地批量清理中文公文。",
       "long_en": "Runs command-line scripts that mirror a desktop formatter's pipeline, suited to batch cleanup of Chinese official documents without a GUI.",
       "cover_color": "#A86A3A",
-      "stars": 190,
-      "trend": 0,
+      "stars": 191,
+      "trend": 1,
       "spark": [
         186,
         186,
@@ -2605,7 +2734,8 @@
         189,
         189,
         190,
-        190
+        190,
+        191
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -2640,8 +2770,8 @@
       "long_zh": "强调理解与模式直觉而非死记硬背,按学习者调整提示深度,而不是一上来就给出完整解法。",
       "long_en": "Emphasizes understanding and pattern intuition over memorization, adapting hint depth to the learner instead of revealing full solutions up front.",
       "cover_color": "#C9542A",
-      "stars": 166,
-      "trend": 0,
+      "stars": 167,
+      "trend": 1,
       "spark": [
         157,
         157,
@@ -2649,7 +2779,8 @@
         165,
         165,
         166,
-        166
+        166,
+        167
       ],
       "license": "MIT",
       "updated": "2025-10-22",
@@ -2686,7 +2817,7 @@
       "long_en": "Coordinates the full tracking-delivery workflow as phased CLI steps, launching real Chromium for browser-backed checks and calling Google's official GTM API for sync and publish.",
       "cover_color": "#86512C",
       "stars": 131,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         129,
         129,
@@ -2694,6 +2825,7 @@
         130,
         130,
         130,
+        131,
         131
       ],
       "license": "Apache-2.0",
@@ -2738,6 +2870,7 @@
         127,
         127,
         128,
+        128,
         128
       ],
       "license": "Apache-2.0",
@@ -2778,6 +2911,7 @@
         110,
         110,
         110,
+        112,
         112,
         112,
         112,
@@ -2825,6 +2959,7 @@
         72,
         72,
         72,
+        72,
         72
       ],
       "license": "MIT",
@@ -2859,7 +2994,7 @@
       "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
       "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
       "cover_color": "#9E5B2E",
-      "stars": 23249,
+      "stars": 23330,
       "trend": 0,
       "spark": [
         22342,
@@ -2869,7 +3004,8 @@
         22722,
         22918,
         23172,
-        23249
+        23249,
+        23330
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -2904,7 +3040,7 @@
       "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
       "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
       "cover_color": "#9C5A2C",
-      "stars": 4071,
+      "stars": 4089,
       "trend": 0,
       "spark": [
         3809,
@@ -2914,7 +3050,8 @@
         3941,
         4019,
         4058,
-        4071
+        4071,
+        4089
       ],
       "license": "AGPL-3.0",
       "updated": "2026-05-27",
@@ -2948,8 +3085,8 @@
       "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
       "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
       "cover_color": "#7A4A2B",
-      "stars": 2714,
-      "trend": 0,
+      "stars": 2729,
+      "trend": 1,
       "spark": [
         2579,
         2586,
@@ -2958,10 +3095,11 @@
         2666,
         2686,
         2711,
-        2714
+        2714,
+        2729
       ],
       "license": "MIT",
-      "updated": "2026-06-22",
+      "updated": "2026-06-26",
       "install_cmd": "aleph add obsidian-second-brain",
       "sec_note_zh": "会读写你的笔记仓库;请仅指向你掌控的仓库。",
       "sec_note_en": "Reads and writes your notes vault; point it only at vaults you control."
@@ -2992,8 +3130,8 @@
       "long_zh": "生成架构与系统图的技能,可直接在对话中帮你记录代码库结构。",
       "long_en": "A skill that produces architecture and system diagrams, helping document a codebase's structure directly from a conversation.",
       "cover_color": "#B5562B",
-      "stars": 1230,
-      "trend": 0,
+      "stars": 1256,
+      "trend": 2,
       "spark": [
         1192,
         1197,
@@ -3002,7 +3140,8 @@
         1220,
         1222,
         1228,
-        1230
+        1230,
+        1256
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -3036,8 +3175,8 @@
       "long_zh": "把 logo 矢量化并加上动画的技能,从静态图片产出轻量的 SVG 动效。",
       "long_en": "A skill that vectorizes and animates logos, producing lightweight SVG motion from a static image.",
       "cover_color": "#7E4A2A",
-      "stars": 1045,
-      "trend": 1,
+      "stars": 1132,
+      "trend": 8,
       "spark": [
         848,
         866,
@@ -3046,7 +3185,8 @@
         987,
         1011,
         1037,
-        1045
+        1045,
+        1132
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -3081,7 +3221,7 @@
       "long_zh": "从大纲(或 slides_plan.json)逐页调用 OpenAI 官方 Images API,套用所选风格或仿照用户提供的 .pptx 模板出图。",
       "long_en": "Drives OpenAI's Images API page by page from an outline (or slides_plan.json), applying a chosen style or mimicking a user-supplied .pptx template.",
       "cover_color": "#B0703C",
-      "stars": 982,
+      "stars": 983,
       "trend": 0,
       "spark": [
         956,
@@ -3090,7 +3230,8 @@
         970,
         977,
         981,
-        982
+        982,
+        983
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-14",
@@ -3124,7 +3265,7 @@
       "long_zh": "提取品牌视觉语言(色彩、字体、间距)并输出连贯设计系统的技能,供智能体一致地应用。",
       "long_en": "A skill that extracts a brand's visual language (color, type, spacing) and outputs a coherent design system an agent can apply consistently.",
       "cover_color": "#9C5A2C",
-      "stars": 720,
+      "stars": 721,
       "trend": 0,
       "spark": [
         715,
@@ -3134,7 +3275,8 @@
         718,
         719,
         719,
-        720
+        720,
+        721
       ],
       "license": "MIT",
       "updated": "2026-06-11",
@@ -3168,7 +3310,7 @@
       "long_zh": "由资深 0→1 产品经理打造,这个技能把发现、范围界定与验证流程结构化,让非产品人也能稳妥地规划产品。",
       "long_en": "Built by a long-time 0-to-1 product manager, this skill structures discovery, scoping, and validation so non-PMs can plan a product responsibly.",
       "cover_color": "#7A4A2B",
-      "stars": 452,
+      "stars": 453,
       "trend": 0,
       "spark": [
         432,
@@ -3178,7 +3320,8 @@
         446,
         450,
         451,
-        452
+        452,
+        453
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -3220,6 +3363,7 @@
         258,
         259,
         260,
+        268,
         268,
         268,
         268
@@ -3266,6 +3410,7 @@
         263,
         263,
         265,
+        266,
         266
       ],
       "license": "MIT",
@@ -3300,7 +3445,7 @@
       "long_zh": "维护持久项目上下文(决策、结构、笔记)的技能,让 Claude Code、Cursor 等助手能延续上下文继续工作。",
       "long_en": "A skill that maintains durable project context (decisions, structure, notes) so assistants like Claude Code or Cursor resume with continuity.",
       "cover_color": "#9C5A2C",
-      "stars": 259,
+      "stars": 261,
       "trend": 1,
       "spark": [
         202,
@@ -3310,7 +3455,8 @@
         235,
         247,
         256,
-        259
+        259,
+        261
       ],
       "license": "MIT",
       "updated": "2026-06-22",
@@ -3345,7 +3491,7 @@
       "long_zh": "从文档或参考图中提炼、保存并复用视觉风格关键词;最终产物是放入纯图幻灯片的整页图片。",
       "long_en": "Extracts, saves, and reapplies visual-style keywords from documents or references; the deliverable is full-slide images placed into an image-only deck.",
       "cover_color": "#A86A3A",
-      "stars": 254,
+      "stars": 255,
       "trend": 0,
       "spark": [
         216,
@@ -3354,7 +3500,8 @@
         237,
         246,
         253,
-        254
+        254,
+        255
       ],
       "updated": "2026-04-30",
       "install_cmd": "aleph add visual-style-ppt-skill",
@@ -3387,7 +3534,7 @@
       "long_zh": "一个围绕意图发问、把松散需求改写为精准且范围明确提示词的技能,适用于任意模型。",
       "long_en": "A skill that interviews you about intent and rewrites loose asks into precise, well-scoped prompts for any model.",
       "cover_color": "#B0703C",
-      "stars": 221,
+      "stars": 222,
       "trend": 0,
       "spark": [
         212,
@@ -3397,7 +3544,8 @@
         217,
         219,
         220,
-        221
+        221,
+        222
       ],
       "license": "MIT",
       "updated": "2026-06-04",
@@ -3441,6 +3589,7 @@
         199,
         199,
         201,
+        202,
         202
       ],
       "license": "Apache-2.0",
@@ -3479,6 +3628,7 @@
       "stars": 176,
       "trend": 0,
       "spark": [
+        176,
         176,
         176,
         176,
@@ -3528,6 +3678,7 @@
         167,
         167,
         167,
+        167,
         167
       ],
       "license": "Apache-2.0",
@@ -3563,8 +3714,8 @@
       "long_zh": "三段链路——用网搜调研岗位、按岗位重定位简历、按轮次准备面试——产出岗位调研、改后的 .docx 简历与面试准备文件夹。",
       "long_en": "Three linked stages—role research via web search, resume re-targeting, and round-by-round interview prep—producing research notes, a revised .docx resume, and an interview-prep folder.",
       "cover_color": "#7E4A2A",
-      "stars": 148,
-      "trend": 0,
+      "stars": 149,
+      "trend": 1,
       "spark": [
         104,
         104,
@@ -3572,7 +3723,8 @@
         136,
         142,
         148,
-        148
+        148,
+        149
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-23",
@@ -3607,7 +3759,7 @@
       "long_zh": "跨 Kling、Suno、Midjourney、Runway、Veo、Seedance、Flux 等平台通用,涵盖角色一致性、多镜头分镜与瑕疵修复的指引。",
       "long_en": "Platform-agnostic across Kling, Suno, Midjourney, Runway, Veo, Seedance, Flux and more, with guidance on character consistency, multi-shot storyboards, and fixing flawed results.",
       "cover_color": "#86512C",
-      "stars": 142,
+      "stars": 144,
       "trend": 1,
       "spark": [
         133,
@@ -3616,7 +3768,8 @@
         138,
         139,
         141,
-        142
+        142,
+        144
       ],
       "license": "MIT",
       "updated": "2026-06-11",
@@ -3660,6 +3813,7 @@
         125,
         127,
         127,
+        127,
         127
       ],
       "license": "MIT",
@@ -3695,8 +3849,8 @@
       "long_zh": "既能处理整页也能处理单个元素(导航栏、插画),当元素是视觉艺术时还会输出基于令牌的图像模型提示词。",
       "long_en": "Works on full surfaces or single elements (navbar, illustration), emitting token-grounded image-model prompts when the element is visual art.",
       "cover_color": "#C9542A",
-      "stars": 120,
-      "trend": 1,
+      "stars": 123,
+      "trend": 3,
       "spark": [
         113,
         113,
@@ -3704,7 +3858,8 @@
         113,
         114,
         119,
-        120
+        120,
+        123
       ],
       "license": "MIT",
       "updated": "2026-06-11",
@@ -3748,6 +3903,7 @@
         113,
         114,
         114,
+        114,
         114
       ],
       "updated": "2026-05-22",
@@ -3782,8 +3938,8 @@
       "long_zh": "由 agent 读懂内容并撰写 brief.json(分页、视觉语言、版式、金句),再交由确定性引擎渲染卡片并做质量校验。",
       "long_en": "The agent reads the content and authors a brief.json (page splits, visual language, layout, pull-quotes); a deterministic engine then renders the cards and runs quality checks.",
       "cover_color": "#A86A3A",
-      "stars": 98,
-      "trend": 0,
+      "stars": 99,
+      "trend": 1,
       "spark": [
         92,
         92,
@@ -3791,7 +3947,8 @@
         94,
         96,
         98,
-        98
+        98,
+        99
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-15",
@@ -3835,6 +3992,7 @@
         94,
         94,
         95,
+        95,
         95
       ],
       "license": "NOASSERTION",
@@ -3870,8 +4028,8 @@
       "long_zh": "输入一个行业,生成自包含的 {industry}.master skill,可被 Claude Code、Codex 等支持 SKILL.md 的 agent 安装,让 AI 进入「资深从业者」模式。",
       "long_en": "Given an industry, it generates a self-contained {industry}.master skill installable by Claude Code, Codex, and other SKILL.md agents, putting the agent into \"domain veteran\" mode.",
       "cover_color": "#7E4A2A",
-      "stars": 87,
-      "trend": 0,
+      "stars": 89,
+      "trend": 2,
       "spark": [
         64,
         64,
@@ -3879,7 +4037,8 @@
         79,
         83,
         87,
-        87
+        87,
+        89
       ],
       "license": "MIT",
       "updated": "2026-06-22",
@@ -3923,6 +4082,7 @@
         69,
         69,
         70,
+        70,
         70
       ],
       "updated": "2026-03-23",
@@ -3957,8 +4117,8 @@
       "long_zh": "把层级化的 Markdown 渲染成可离线随处打开的可导航 SVG 树,让笔记与主题结构可探索,而非平铺。",
       "long_en": "Renders hierarchical Markdown as a navigable SVG tree you can open anywhere offline, making notes and topic structures explorable instead of flat.",
       "cover_color": "#9C5A2C",
-      "stars": 62,
-      "trend": 0,
+      "stars": 63,
+      "trend": 2,
       "spark": [
         61,
         61,
@@ -3966,7 +4126,8 @@
         62,
         62,
         62,
-        62
+        62,
+        63
       ],
       "license": "MIT",
       "updated": "2026-06-11",
@@ -4010,12 +4171,58 @@
         59,
         59,
         59,
+        59,
         59
       ],
       "updated": "2026-05-17",
       "install_cmd": "aleph add claude-design-auditor-skill",
       "sec_note_zh": "读取你的设计与代码文件以生成报告;未经你操作不会改动文件。",
       "sec_note_en": "Reads your design and code files to produce reports; no changes are applied without your action."
+    },
+    {
+      "id": "aleph-hub:SDLLL/claude-for-safari",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Claude for Safari",
+      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+      "repo_url": "https://github.com/SDLLL/claude-for-safari",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SDLLL/claude-for-safari",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "SDLLL",
+      "tags": [
+        "safari",
+        "browser",
+        "macos",
+        "automation"
+      ],
+      "via": "github:SDLLL",
+      "description_zh": "通过 AppleScript 与截屏控制 macOS 上真实的 Safari 浏览器——开标签页、读网页、填表单、点击并截取网页内容。",
+      "description_en": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+      "long_zh": "驱动用户当前真实的浏览器会话而非无头实例,因而能利用已登录站点与现有状态。",
+      "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
+      "cover_color": "#A0612F",
+      "stars": 44,
+      "trend": 2,
+      "spark": [
+        40,
+        40,
+        41,
+        41,
+        43,
+        43,
+        43,
+        44
+      ],
+      "license": "MIT",
+      "updated": "2026-03-06",
+      "install_cmd": "aleph add claude-for-safari",
+      "sec_note_zh": "操控你正在使用的 Safari、可触及已登录会话;请审阅操作,仅对可信站点使用。",
+      "sec_note_en": "Controls your live Safari with access to logged-in sessions; review actions and run only against sites you trust."
     },
     {
       "id": "aleph-hub:VincentOld/stop-slop-zh",
@@ -4053,6 +4260,7 @@
         40,
         41,
         43,
+        43,
         43
       ],
       "license": "MIT",
@@ -4060,50 +4268,6 @@
       "install_cmd": "aleph add stop-slop-zh",
       "sec_note_zh": "一个基于提示的编辑技能,为可读性重写你的文本;它针对的是写作质量,而非规避 AI 检测器。请审阅改动以保持原意。",
       "sec_note_en": "A prompt-based editing skill that rewrites your text for readability; it targets writing quality, not evading AI detectors. Review edits to preserve meaning."
-    },
-    {
-      "id": "aleph-hub:SDLLL/claude-for-safari",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Claude for Safari",
-      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
-      "repo_url": "https://github.com/SDLLL/claude-for-safari",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/SDLLL/claude-for-safari",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "SDLLL",
-      "tags": [
-        "safari",
-        "browser",
-        "macos",
-        "automation"
-      ],
-      "via": "github:SDLLL",
-      "description_zh": "通过 AppleScript 与截屏控制 macOS 上真实的 Safari 浏览器——开标签页、读网页、填表单、点击并截取网页内容。",
-      "description_en": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
-      "long_zh": "驱动用户当前真实的浏览器会话而非无头实例,因而能利用已登录站点与现有状态。",
-      "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
-      "cover_color": "#A0612F",
-      "stars": 43,
-      "trend": 0,
-      "spark": [
-        40,
-        40,
-        41,
-        41,
-        43,
-        43,
-        43
-      ],
-      "license": "MIT",
-      "updated": "2026-03-06",
-      "install_cmd": "aleph add claude-for-safari",
-      "sec_note_zh": "操控你正在使用的 Safari、可触及已登录会话;请审阅操作,仅对可信站点使用。",
-      "sec_note_en": "Controls your live Safari with access to logged-in sessions; review actions and run only against sites you trust."
     },
     {
       "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
@@ -4139,6 +4303,7 @@
         36,
         36,
         36,
+        37,
         37,
         37,
         37
@@ -4185,6 +4350,7 @@
         34,
         35,
         35,
+        35,
         35
       ],
       "license": "NOASSERTION",
@@ -4229,6 +4395,7 @@
         35,
         35,
         35,
+        35,
         35
       ],
       "license": "MIT",
@@ -4236,6 +4403,50 @@
       "install_cmd": "aleph add database-sentinel",
       "sec_note_zh": "读取你的数据库配置与规则以生成审计;请提供只读凭据并在处置前审阅结论。",
       "sec_note_en": "Reads your database configuration and rules to produce an audit; supply read-scoped credentials and review findings before acting."
+    },
+    {
+      "id": "aleph-hub:kgraph57/paper-writer-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Paper Writer",
+      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kgraph57/paper-writer-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kgraph57",
+      "tags": [
+        "academic",
+        "research-paper",
+        "imrad",
+        "manuscript"
+      ],
+      "via": "github:kgraph57",
+      "description_zh": "医学/科研论文写作工作流,管理从文献检索到可投稿 IMRAD 稿件的全流程。",
+      "description_en": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+      "long_zh": "维护含分节文件、文献矩阵、参考文献管理与质量清单的项目目录;支持英文与日文。",
+      "long_en": "Maintains a project directory with section files, a literature matrix, reference management, and quality checklists; supports English and Japanese.",
+      "cover_color": "#A86A3A",
+      "stars": 34,
+      "trend": 3,
+      "spark": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        33,
+        33,
+        34
+      ],
+      "updated": "2026-06-16",
+      "install_cmd": "aleph add paper-writer-skill",
+      "sec_note_zh": "起草稿件文本并管理参考文献;投稿前请核验所有引用与论断。",
+      "sec_note_en": "Drafts manuscript text and manages references; verify all citations and claims before submission."
     },
     {
       "id": "aleph-hub:Adityapal67/context-graph-compressor",
@@ -4273,6 +4484,7 @@
         33,
         33,
         33,
+        33,
         33
       ],
       "license": "MIT",
@@ -4280,49 +4492,6 @@
       "install_cmd": "aleph add context-graph-compressor",
       "sec_note_zh": "从你的对话在本地生成上下文文件;分享前请审阅,其中可能含敏感信息。",
       "sec_note_en": "Writes a context file locally from your conversation; review it before sharing, as it may contain sensitive details."
-    },
-    {
-      "id": "aleph-hub:kgraph57/paper-writer-skill",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Paper Writer",
-      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
-      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/kgraph57/paper-writer-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "kgraph57",
-      "tags": [
-        "academic",
-        "research-paper",
-        "imrad",
-        "manuscript"
-      ],
-      "via": "github:kgraph57",
-      "description_zh": "医学/科研论文写作工作流,管理从文献检索到可投稿 IMRAD 稿件的全流程。",
-      "description_en": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
-      "long_zh": "维护含分节文件、文献矩阵、参考文献管理与质量清单的项目目录;支持英文与日文。",
-      "long_en": "Maintains a project directory with section files, a literature matrix, reference management, and quality checklists; supports English and Japanese.",
-      "cover_color": "#A86A3A",
-      "stars": 33,
-      "trend": 0,
-      "spark": [
-        32,
-        32,
-        32,
-        32,
-        32,
-        33,
-        33
-      ],
-      "updated": "2026-06-16",
-      "install_cmd": "aleph add paper-writer-skill",
-      "sec_note_zh": "起草稿件文本并管理参考文献;投稿前请核验所有引用与论断。",
-      "sec_note_en": "Drafts manuscript text and manages references; verify all citations and claims before submission."
     },
     {
       "id": "aleph-hub:echoVic/spec-flow",
@@ -4354,6 +4523,7 @@
       "stars": 32,
       "trend": 0,
       "spark": [
+        32,
         32,
         32,
         32,
@@ -4404,6 +4574,7 @@
         29,
         29,
         29,
+        29,
         29
       ],
       "license": "NOASSERTION",
@@ -4443,6 +4614,7 @@
       "trend": 0,
       "spark": [
         27,
+        28,
         28,
         28,
         28,
@@ -4492,6 +4664,7 @@
         22,
         22,
         23,
+        23,
         23
       ],
       "license": "MIT",
@@ -4535,6 +4708,7 @@
         22,
         22,
         22,
+        23,
         23,
         23
       ],
@@ -4580,6 +4754,7 @@
         20,
         20,
         20,
+        20,
         20
       ],
       "license": "MIT",
@@ -4587,6 +4762,50 @@
       "install_cmd": "aleph add tax-organizer",
       "sec_note_zh": "在本地处理高度敏感的报税文件,仅生成草稿而非专业税务意见;申报前请由注册会计师复核。",
       "sec_note_en": "Processes highly sensitive tax documents locally and produces drafts only—not professional tax advice; have a CPA review before filing."
+    },
+    {
+      "id": "aleph-hub:dancolta/seo-drift-monitor",
+      "kind": "skill",
+      "category": "automation",
+      "name": "SEO Drift Monitor",
+      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dancolta/seo-drift-monitor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dancolta",
+      "tags": [
+        "seo",
+        "monitoring",
+        "regression",
+        "audit"
+      ],
+      "via": "github:dancolta",
+      "description_zh": "为页面的 SEO 状态建立基线,在页面变更后检测回归——监控结构化数据、标题层级、meta 标签、canonical 与 Core Web Vitals——并生成可视化的前后对比报告与修复建议。",
+      "description_en": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
+      "long_zh": "一个防御性的回归监控:防止已有的 SEO 成果被改动或重新部署悄悄破坏,而非排名操纵工具。",
+      "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
+      "cover_color": "#8C5430",
+      "stars": 18,
+      "trend": 6,
+      "spark": [
+        15,
+        15,
+        16,
+        16,
+        16,
+        17,
+        17,
+        18
+      ],
+      "updated": "2026-05-18",
+      "install_cmd": "aleph add seo-drift-monitor",
+      "sec_note_zh": "会抓取并快照你指定的页面用于对比;分析为只读,报告写在本地。",
+      "sec_note_en": "Fetches and snapshots the pages you specify for comparison; analysis is read-only and reports are written locally."
     },
     {
       "id": "aleph-hub:mathiaschu/watch",
@@ -4624,6 +4843,7 @@
         17,
         17,
         17,
+        17,
         17
       ],
       "license": "MIT",
@@ -4631,49 +4851,6 @@
       "install_cmd": "aleph add watch",
       "sec_note_zh": "通过 yt-dlp 把第三方视频下载到本地——请遵守版权与平台服务条款。转写在本机运行(无需 API key);本仓库为 bradautomates/claude-video 的 fork。",
       "sec_note_en": "Downloads third-party video locally via yt-dlp—respect copyright and platform Terms of Service. Transcription runs on-device (no API key); a fork of bradautomates/claude-video."
-    },
-    {
-      "id": "aleph-hub:dancolta/seo-drift-monitor",
-      "kind": "skill",
-      "category": "automation",
-      "name": "SEO Drift Monitor",
-      "description": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
-      "repo_url": "https://github.com/dancolta/seo-drift-monitor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dancolta/seo-drift-monitor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dancolta",
-      "tags": [
-        "seo",
-        "monitoring",
-        "regression",
-        "audit"
-      ],
-      "via": "github:dancolta",
-      "description_zh": "为页面的 SEO 状态建立基线,在页面变更后检测回归——监控结构化数据、标题层级、meta 标签、canonical 与 Core Web Vitals——并生成可视化的前后对比报告与修复建议。",
-      "description_en": "Baseline a page's SEO state, then detect regressions when the page changes—watching schema, headings, meta tags, canonical, and Core Web Vitals—and generate visual before/after reports with fix recommendations.",
-      "long_zh": "一个防御性的回归监控:防止已有的 SEO 成果被改动或重新部署悄悄破坏,而非排名操纵工具。",
-      "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
-      "cover_color": "#8C5430",
-      "stars": 17,
-      "trend": 0,
-      "spark": [
-        15,
-        15,
-        16,
-        16,
-        16,
-        17,
-        17
-      ],
-      "updated": "2026-05-18",
-      "install_cmd": "aleph add seo-drift-monitor",
-      "sec_note_zh": "会抓取并快照你指定的页面用于对比;分析为只读,报告写在本地。",
-      "sec_note_en": "Fetches and snapshots the pages you specify for comparison; analysis is read-only and reports are written locally."
     },
     {
       "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
@@ -4710,6 +4887,7 @@
         15,
         15,
         15,
+        16,
         16,
         16
       ],
@@ -4749,6 +4927,7 @@
       "stars": 15,
       "trend": 0,
       "spark": [
+        15,
         15,
         15,
         15,
@@ -4799,6 +4978,7 @@
         11,
         11,
         11,
+        11,
         11
       ],
       "license": "MIT",
@@ -4843,6 +5023,7 @@
         11,
         11,
         11,
+        11,
         11
       ],
       "license": "NOASSERTION",
@@ -4879,7 +5060,7 @@
       "long_en": "An interactive wizard installs everything in one command; supports all ~99 Whisper languages and speaker diarization, free after the initial model download.",
       "cover_color": "#7E4A2A",
       "stars": 11,
-      "trend": 10,
+      "trend": 0,
       "spark": [
         9,
         9,
@@ -4887,6 +5068,7 @@
         10,
         10,
         10,
+        11,
         11
       ],
       "updated": "2026-05-11",
@@ -4924,6 +5106,7 @@
       "stars": 10,
       "trend": 0,
       "spark": [
+        10,
         10,
         10,
         10,
@@ -4974,6 +5157,7 @@
         10,
         10,
         10,
+        10,
         10
       ],
       "license": "MIT",
@@ -5018,6 +5202,7 @@
         9,
         9,
         9,
+        9,
         9
       ],
       "license": "Apache-2.0",
@@ -5053,8 +5238,8 @@
       "long_zh": "输出通俗推理、排序的研究优先级、证据链、风险与后续验证步骤——仅作研究支持,不执行交易。",
       "long_en": "Outputs plain-language reasoning, ranked research priorities, evidence chains, risks, and next verification steps—research support only, with no trade execution.",
       "cover_color": "#B0703C",
-      "stars": 2875,
-      "trend": 0,
+      "stars": 2900,
+      "trend": 1,
       "spark": [
         2558,
         2559,
@@ -5062,7 +5247,8 @@
         2747,
         2808,
         2862,
-        2875
+        2875,
+        2900
       ],
       "license": "MIT",
       "updated": "2026-05-05",
@@ -5097,7 +5283,7 @@
       "long_zh": "一次只聚焦一篇论文,产出可精读、可导航的笔记而非浅层摘要,直接融入个人知识库。",
       "long_en": "Focuses on one paper at a time to produce a polished, navigable note rather than a shallow summary, fitting straight into a personal knowledge base.",
       "cover_color": "#9E5B2E",
-      "stars": 417,
+      "stars": 419,
       "trend": 0,
       "spark": [
         369,
@@ -5106,7 +5292,8 @@
         397,
         404,
         416,
-        417
+        417,
+        419
       ],
       "license": "MIT",
       "updated": "2026-06-10",
@@ -5141,8 +5328,8 @@
       "long_zh": "封装 Postiz CLI,让 agent 用自然语言连接账号、跨渠道排期发帖;Postiz 本身是可自托管的开源项目。",
       "long_en": "Wraps the Postiz CLI so the agent can connect accounts and schedule cross-channel posts from natural language; Postiz itself is self-hostable open source.",
       "cover_color": "#7E4A2A",
-      "stars": 315,
-      "trend": 0,
+      "stars": 318,
+      "trend": 1,
       "spark": [
         304,
         304,
@@ -5150,7 +5337,8 @@
         310,
         313,
         315,
-        315
+        315,
+        318
       ],
       "license": "NOASSERTION",
       "updated": "2026-06-02",
@@ -5188,6 +5376,7 @@
       "stars": 255,
       "trend": 0,
       "spark": [
+        255,
         255,
         255,
         255,
@@ -5238,6 +5427,7 @@
         237,
         238,
         239,
+        239,
         239
       ],
       "license": "Apache-2.0",
@@ -5281,6 +5471,7 @@
         227,
         230,
         230,
+        233,
         233,
         233
       ],
@@ -5326,6 +5517,7 @@
         178,
         178,
         179,
+        179,
         179
       ],
       "license": "MIT",
@@ -5369,6 +5561,7 @@
         648,
         649,
         649,
+        650,
         650,
         650
       ],
@@ -5414,6 +5607,7 @@
         265,
         265,
         266,
+        266,
         266
       ],
       "license": "MIT",
@@ -5457,6 +5651,7 @@
         66,
         68,
         69,
+        71,
         71,
         71
       ],
@@ -5502,6 +5697,7 @@
         46,
         46,
         46,
+        46,
         46
       ],
       "updated": "2025-12-29",
@@ -5539,6 +5735,7 @@
       "stars": 36,
       "trend": 0,
       "spark": [
+        36,
         36,
         36,
         36,
@@ -5589,6 +5786,7 @@
         31,
         31,
         31,
+        31,
         31
       ],
       "license": "MIT",
@@ -5627,6 +5825,7 @@
       "stars": 21,
       "trend": 0,
       "spark": [
+        21,
         21,
         21,
         21,
@@ -5677,6 +5876,7 @@
         16,
         16,
         16,
+        16,
         16
       ],
       "license": "MIT",
@@ -5715,6 +5915,7 @@
       "stars": 16,
       "trend": 0,
       "spark": [
+        16,
         16,
         16,
         16,
@@ -5765,6 +5966,7 @@
         9,
         9,
         9,
+        9,
         9
       ],
       "license": "MIT",
@@ -5809,6 +6011,7 @@
         5,
         5,
         5,
+        5,
         5
       ],
       "updated": "2026-04-28",
@@ -5843,7 +6046,7 @@
       "long_en": "Write a `.lit.md` file with named code chunks: WEAVE renders a PDF (prose, diagrams, math, highlighted code) via Pandoc, while TANGLE extracts the source files from root chunks.",
       "cover_color": "#8C5430",
       "stars": 194,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         182,
         182,
@@ -5851,6 +6054,7 @@
         189,
         192,
         192,
+        194,
         194
       ],
       "updated": "2026-04-10",

@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 140,
-    "generated_at": "2026-06-26T13:08:22.622Z",
-    "content_hash": "sha256:ca521b4669c7eb0fa92048380e87c38db8fe6869b1b1c431ea8788bfeb062f02"
+    "entry_count": 143,
+    "generated_at": "2026-06-27T03:36:13.084Z",
+    "content_hash": "sha256:56731da24462e0ac14759a511627b72d58e9e09993f7ee39b888e80ed45b64e9"
   },
   "entries": [
     {
@@ -1609,6 +1609,79 @@
       "via": "github:kdnsna"
     },
     {
+      "id": "aleph-hub:lixiaolin94/skills",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Web Shader Extractor",
+      "description": "Extract a webpage's WebGL/WebGPU/Canvas/shader visual effect and rebuild it as a standalone native-JS project. Locks the target rendering surface, gathers shader/resource/render-graph/timing evidence, builds an evidence-matched local baseline, then projectizes it—evidence before guessing, baseline before refactor.",
+      "repo_url": "https://github.com/lixiaolin94/skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/lixiaolin94/skills",
+        "subdir": "web-shader-extractor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "lixiaolin94",
+      "tags": [
+        "webgl",
+        "shader",
+        "canvas",
+        "reverse-engineering",
+        "porting"
+      ],
+      "via": "github:lixiaolin94"
+    },
+    {
+      "id": "aleph-hub:kepano/obsidian-skills",
+      "kind": "plugin",
+      "category": "knowledge",
+      "name": "Obsidian Skills",
+      "description": "Five skills that teach an agent to work with an Obsidian vault's open formats—Obsidian Flavored Markdown (wikilinks, callouts, embeds, properties), Bases (.base) database views, JSON Canvas (.canvas), the Obsidian CLI, and Defuddle web-to-clean-markdown. By Obsidian's own maker, Steph Ango (kepano).",
+      "repo_url": "https://github.com/kepano/obsidian-skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kepano/obsidian-skills",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kepano",
+      "tags": [
+        "obsidian",
+        "markdown",
+        "pkm",
+        "canvas",
+        "notes"
+      ],
+      "via": "github:kepano"
+    },
+    {
+      "id": "aleph-hub:Egonex-AI/Understand-Anything",
+      "kind": "plugin",
+      "category": "developer",
+      "name": "Understand Anything",
+      "description": "A multi-agent Claude Code plugin that analyzes any codebase into an interactive knowledge graph—every file, function, class, and dependency as a clickable node with plain-English summaries—plus guided tours, fuzzy/semantic search, diff impact analysis, architectural layer grouping, and a business-domain view.",
+      "repo_url": "https://github.com/Egonex-AI/Understand-Anything",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Egonex-AI/Understand-Anything",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Egonex-AI",
+      "tags": [
+        "codebase-analysis",
+        "knowledge-graph",
+        "onboarding",
+        "architecture",
+        "dashboard"
+      ],
+      "via": "github:Egonex-AI"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -2405,29 +2478,6 @@
       "via": "github:Ashutos1997"
     },
     {
-      "id": "aleph-hub:VincentOld/stop-slop-zh",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Stop AI Slop (Chinese)",
-      "description": "Identify and remove the telltale patterns of Chinese AI writing—clichés, three-part parallelism (是…，是…，更是…), nominalized verbs, abstract subjects, aphoristic endings, and formulaic structure—so the text reads like a person speaking rather than a model generating.",
-      "repo_url": "https://github.com/VincentOld/stop-slop-zh",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/VincentOld/stop-slop-zh",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "VincentOld",
-      "tags": [
-        "chinese",
-        "editing",
-        "writing-quality",
-        "style"
-      ],
-      "via": "github:VincentOld"
-    },
-    {
       "id": "aleph-hub:SDLLL/claude-for-safari",
       "kind": "skill",
       "category": "automation",
@@ -2449,6 +2499,29 @@
         "automation"
       ],
       "via": "github:SDLLL"
+    },
+    {
+      "id": "aleph-hub:VincentOld/stop-slop-zh",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Stop AI Slop (Chinese)",
+      "description": "Identify and remove the telltale patterns of Chinese AI writing—clichés, three-part parallelism (是…，是…，更是…), nominalized verbs, abstract subjects, aphoristic endings, and formulaic structure—so the text reads like a person speaking rather than a model generating.",
+      "repo_url": "https://github.com/VincentOld/stop-slop-zh",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/VincentOld/stop-slop-zh",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "VincentOld",
+      "tags": [
+        "chinese",
+        "editing",
+        "writing-quality",
+        "style"
+      ],
+      "via": "github:VincentOld"
     },
     {
       "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
@@ -2520,29 +2593,6 @@
       "via": "github:Farenhytee"
     },
     {
-      "id": "aleph-hub:Adityapal67/context-graph-compressor",
-      "kind": "skill",
-      "category": "productivity",
-      "name": "Context Graph Compressor",
-      "description": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
-      "repo_url": "https://github.com/Adityapal67/context-graph-compressor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Adityapal67/context-graph-compressor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Adityapal67",
-      "tags": [
-        "context",
-        "handoff",
-        "compression",
-        "llm"
-      ],
-      "via": "github:Adityapal67"
-    },
-    {
       "id": "aleph-hub:kgraph57/paper-writer-skill",
       "kind": "skill",
       "category": "writing",
@@ -2564,6 +2614,29 @@
         "manuscript"
       ],
       "via": "github:kgraph57"
+    },
+    {
+      "id": "aleph-hub:Adityapal67/context-graph-compressor",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Context Graph Compressor",
+      "description": "Compress a long conversation into a portable JSON context graph you can hand off to a new chat or another LLM when you're out of tokens.",
+      "repo_url": "https://github.com/Adityapal67/context-graph-compressor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Adityapal67/context-graph-compressor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Adityapal67",
+      "tags": [
+        "context",
+        "handoff",
+        "compression",
+        "llm"
+      ],
+      "via": "github:Adityapal67"
     },
     {
       "id": "aleph-hub:echoVic/spec-flow",
@@ -2704,29 +2777,6 @@
       "via": "github:elderengineer"
     },
     {
-      "id": "aleph-hub:mathiaschu/watch",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Watch (Video Ingestion)",
-      "description": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
-      "repo_url": "https://github.com/mathiaschu/watch",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/mathiaschu/watch",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "mathiaschu",
-      "tags": [
-        "video",
-        "yt-dlp",
-        "transcript",
-        "ffmpeg"
-      ],
-      "via": "github:mathiaschu"
-    },
-    {
       "id": "aleph-hub:dancolta/seo-drift-monitor",
       "kind": "skill",
       "category": "automation",
@@ -2748,6 +2798,29 @@
         "audit"
       ],
       "via": "github:dancolta"
+    },
+    {
+      "id": "aleph-hub:mathiaschu/watch",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Watch (Video Ingestion)",
+      "description": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
+      "repo_url": "https://github.com/mathiaschu/watch",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mathiaschu/watch",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mathiaschu",
+      "tags": [
+        "video",
+        "yt-dlp",
+        "transcript",
+        "ffmpeg"
+      ],
+      "via": "github:mathiaschu"
     },
     {
       "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
