@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 168,
-    "generated_at": "2026-06-27T16:32:58.764Z",
-    "content_hash": "sha256:7e3695786840750f838c244044914c6c234ac7432f0d1169373092071a89a907"
+    "generated_at": "2026-06-27T17:41:11.839Z",
+    "content_hash": "sha256:de2d4fae98e2fd6143f1d449f0c3aa9b5e2de34d2d192d6d31ae9727658a5c86"
   },
   "entries": [
     {
@@ -3497,29 +3497,6 @@
       "via": "github:Bhanunamikaze"
     },
     {
-      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "HTML to PPTX",
-      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
-      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Hasasasa",
-      "tags": [
-        "pptx",
-        "html",
-        "slides",
-        "conversion"
-      ],
-      "via": "github:Hasasasa"
-    },
-    {
       "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
       "category": "utilities",
@@ -3541,6 +3518,29 @@
         "dictation"
       ],
       "via": "github:Mobiss11"
+    },
+    {
+      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "HTML to PPTX",
+      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
+      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Hasasasa",
+      "tags": [
+        "pptx",
+        "html",
+        "slides",
+        "conversion"
+      ],
+      "via": "github:Hasasasa"
     },
     {
       "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
