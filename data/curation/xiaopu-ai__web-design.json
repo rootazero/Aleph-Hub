@@ -1,5 +1,5 @@
 {
-  "full_name": "KAOPU-XiaoPu/web-design",
+  "full_name": "xiaopu-ai/web-design",
   "name": "Web Design",
   "kind": "skill",
   "category": "design",
@@ -15,7 +15,7 @@
   "long_zh": "专攻 web 端——落地页、作品集、产品页、博客、个人站、SaaS 介绍页——先定规范再出代码。",
   "install_spec": {
     "type": "git_dir",
-    "git_url": "https://github.com/KAOPU-XiaoPu/web-design"
+    "git_url": "https://github.com/xiaopu-ai/web-design"
   },
   "sec_note_en": "Generates local web code and assets; review output before deploying.",
   "sec_note_zh": "生成本地网页代码与素材;部署前请审阅产物。"
