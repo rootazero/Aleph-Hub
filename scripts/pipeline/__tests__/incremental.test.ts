@@ -37,6 +37,20 @@ describe("incremental run", () => {
     expect(res.report.emitted).toBe(8);
     expect(res.report.curated).toBe(0); // all 8 reused from cache
   });
+  it("re-curates when cached entries is empty instead of reusing it (sticky-empty cache regression)", async () => {
+    // A previously-cached EMPTY entries array must count as a cache MISS, not a hit — an empty
+    // array is truthy, so the old `cached?.entries` check skipped the repo forever even on a 304
+    // (regression: KAOPU-XiaoPu/web-design was stuck curatedButNotEmitted). foo0 has an empty
+    // cache; the other 7 are valid 304 reuses. Old code emitted 7 (foo0 silently dropped); the
+    // fix re-curates foo0 → 8.
+    const ghNotModified: GitHubApi = { ...gh, getRepo: async (fn) => ({ meta: meta(fn), etag: "e", notModified: true }) };
+    const seed: Record<string, RepoCache> = {};
+    for (let i = 0; i < 8; i++) seed[`acme/foo${i}`] = { etag: "e", readme_hash: contentHashReadme(README), entries: i === 0 ? [] : [curatedFixture(`acme/foo${i}`)] };
+    const res = await run({ sources: [source], gh: ghNotModified, store, registry, http, clock,
+      officialOrgs: new Set(), history: {}, prevContractCount: 8, cache: memCache(seed), firstParty: [], llm: null });
+    expect(res.report.emitted).toBe(8);  // foo0 re-curated, not silently skipped
+    expect(res.report.curated).toBe(1);  // only foo0 re-curated; the other 7 reused from cache
+  });
   it("throws when a source collapses vs the previous run (§6.2)", async () => {
     const cache = memCache({}, { github: 100 }); // last run saw 100, now 8 → >50% drop
     await expect(run({ sources: [source], gh, store, registry, http, clock,

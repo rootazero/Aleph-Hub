@@ -74,13 +74,13 @@ export async function run(ports: RunPorts): Promise<{ catalog: unknown; site: un
     // incremental cache is per-repo (one RepoCache holding every curated entry).
     let entries: CuratedEntry[] | null = null;
     let readmeHash = cached?.readme_hash ?? "";
-    if (got.notModified && cached?.entries) {
-      entries = cached.entries;                             // metadata unchanged → reuse
+    if (got.notModified && cached?.entries?.length) {
+      entries = cached.entries;                             // metadata unchanged → reuse (non-empty cache only)
     } else {
       const readme = (await ports.gh.getReadme(cand.full_name)) ?? "";
       readmeHash = contentHashReadme(readme);
-      if (cached?.entries && cached.readme_hash === readmeHash) {
-        entries = cached.entries;                           // README unchanged → reuse
+      if (cached?.entries?.length && cached.readme_hash === readmeHash) {
+        entries = cached.entries;                           // README unchanged → reuse (non-empty cache only)
       } else {
         curatedThisRun += records.length;
         const curatedList = await Promise.all(records.map((rec) =>
