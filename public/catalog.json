@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 147,
-    "generated_at": "2026-06-27T05:06:34.408Z",
-    "content_hash": "sha256:2dd9bee685947175d4da3e9de65d5efecc28117b263732601284043188d54e2a"
+    "entry_count": 148,
+    "generated_at": "2026-06-27T11:25:41.128Z",
+    "content_hash": "sha256:d011c67fd94d3685d53c84eccb5a25be1bc14ad2d62f6e64d3153f44e05b88ce"
   },
   "entries": [
     {
@@ -1016,6 +1016,46 @@
         "docs",
         "developer",
         "context"
+      ],
+      "via": "aleph-mcp-preset"
+    },
+    {
+      "id": "aleph-hub:zhipu-vision",
+      "kind": "mcp",
+      "category": "developer",
+      "name": "智谱视觉理解 Z.AI Vision",
+      "description": "Gives coding agents sight: screenshot-to-code, OCR, error-screenshot diagnosis, and diagram/chart understanding (GLM-4.6V, official Z.AI/Zhipu).",
+      "repo_url": "https://www.npmjs.com/package/@z_ai/mcp-server",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@z_ai/mcp-server"
+        ],
+        "env": [
+          {
+            "name": "Z_AI_API_KEY",
+            "description": "智谱编程套餐 API Key (bigmodel.cn/coding-plan)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "Z_AI_MODE",
+            "description": "服务平台：ZHIPU（大陆）或 ZAI（海外）",
+            "required": false,
+            "secret": false,
+            "default": "ZHIPU"
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "智谱 AI Z.AI",
+      "tags": [
+        "vision",
+        "ocr",
+        "developer"
       ],
       "via": "aleph-mcp-preset"
     },

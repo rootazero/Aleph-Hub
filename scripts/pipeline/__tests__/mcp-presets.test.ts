@@ -20,9 +20,9 @@ describe("loadMcpPresets", () => {
   const presets = loadMcpPresets(fs);
   const byId = new Map(presets.map((p) => [p.id, p]));
 
-  it("loads the four official MCP presets", () => {
-    expect(presets).toHaveLength(4);
-    expect(new Set(presets.map((p) => p.id)).size).toBe(4); // ids unique
+  it("loads the five official MCP presets", () => {
+    expect(presets).toHaveLength(5);
+    expect(new Set(presets.map((p) => p.id)).size).toBe(5); // ids unique
     for (const p of presets) {
       expect(p.kind).toBe("mcp");
       expect(p.trust_tier).toBe("official");
@@ -40,7 +40,13 @@ describe("loadMcpPresets", () => {
   // matching the primer projection in Aleph src/hub/official_mcp.rs — NOT aleph-hub:<full_name>.
   it("ids are the Aleph preset slugs (cross-repo install-state contract)", () => {
     expect(new Set(presets.map((p) => p.id))).toEqual(
-      new Set(["aleph-hub:context7", "aleph-hub:amap", "aleph-hub:minimax", "aleph-hub:volcengine-veimagex"]),
+      new Set([
+        "aleph-hub:context7",
+        "aleph-hub:zhipu-vision",
+        "aleph-hub:amap",
+        "aleph-hub:minimax",
+        "aleph-hub:volcengine-veimagex",
+      ]),
     );
   });
 
@@ -51,7 +57,7 @@ describe("loadMcpPresets", () => {
   });
 
   it("keyed stdio presets require config and carry env declarations", () => {
-    for (const id of ["aleph-hub:amap", "aleph-hub:minimax", "aleph-hub:volcengine-veimagex"]) {
+    for (const id of ["aleph-hub:zhipu-vision", "aleph-hub:amap", "aleph-hub:minimax", "aleph-hub:volcengine-veimagex"]) {
       const e = byId.get(id)!;
       expect(e.install_spec.type).toBe("mcp_stdio");
       expect(e.requires_config).toBe(true);

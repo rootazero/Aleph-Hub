@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 147,
-    "generated_at": "2026-06-27T05:06:34.408Z",
-    "content_hash": "sha256:2dd9bee685947175d4da3e9de65d5efecc28117b263732601284043188d54e2a"
+    "entry_count": 148,
+    "generated_at": "2026-06-27T11:25:41.128Z",
+    "content_hash": "sha256:d011c67fd94d3685d53c84eccb5a25be1bc14ad2d62f6e64d3153f44e05b88ce"
   },
   "entries": [
     {
@@ -1583,6 +1583,59 @@
       "install_cmd": "https://mcp.context7.com/mcp",
       "sec_note_zh": "Upstash 官方托管 MCP 端点（匿名、无需密钥）；上游另有 npx stdio 兜底形态。",
       "sec_note_en": "Official Upstash hosted MCP endpoint (anonymous, no key); an npx stdio fallback also exists upstream."
+    },
+    {
+      "id": "aleph-hub:zhipu-vision",
+      "kind": "mcp",
+      "category": "developer",
+      "name": "智谱视觉理解 Z.AI Vision",
+      "description": "Gives coding agents sight: screenshot-to-code, OCR, error-screenshot diagnosis, and diagram/chart understanding (GLM-4.6V, official Z.AI/Zhipu).",
+      "repo_url": "https://www.npmjs.com/package/@z_ai/mcp-server",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@z_ai/mcp-server"
+        ],
+        "env": [
+          {
+            "name": "Z_AI_API_KEY",
+            "description": "智谱编程套餐 API Key (bigmodel.cn/coding-plan)",
+            "required": true,
+            "secret": true
+          },
+          {
+            "name": "Z_AI_MODE",
+            "description": "服务平台：ZHIPU（大陆）或 ZAI（海外）",
+            "required": false,
+            "secret": false,
+            "default": "ZHIPU"
+          }
+        ]
+      },
+      "requires_config": true,
+      "author": "智谱 AI Z.AI",
+      "tags": [
+        "vision",
+        "ocr",
+        "developer"
+      ],
+      "via": "aleph-mcp-preset",
+      "description_zh": "给代码 agent 加视觉：截图转代码 / OCR / 报错诊断 / 图表与架构图理解（GLM-4.6V，智谱官方）。",
+      "description_en": "Gives coding agents sight: screenshot-to-code, OCR, error-screenshot diagnosis, and diagram/chart understanding (GLM-4.6V, official Z.AI/Zhipu).",
+      "long_zh": "智谱官方视觉理解 MCP，给代码 agent 补上视觉能力：经 npx stdio 暴露 8 个 GLM-4.6V 工具——UI 截图转代码、截图 OCR、报错截图诊断、技术图/架构图解读、数据可视化分析、UI 对比验证、通用图像理解与视频解析。",
+      "long_en": "The official Z.AI (Zhipu) Vision MCP server gives coding agents sight via eight GLM-4.6V-powered tools — UI-screenshot-to-code, screenshot OCR, error-dialog diagnosis, technical-diagram reading, data-visualization analysis, UI diff checking, general image analysis, and video analysis — over an npx stdio process.",
+      "cover_color": "#A86A3A",
+      "stars": 0,
+      "trend": null,
+      "spark": [],
+      "license": "Apache-2.0",
+      "updated": "2026-04-20",
+      "install_cmd": "npx -y @z_ai/mcp-server",
+      "sec_note_zh": "需智谱 API Key（Z_AI_API_KEY，编程套餐）及可选区域开关 Z_AI_MODE；经 npx 拉起 Node 子进程，调用智谱付费 GLM-4.6V 云 API。以官方 @z_ai npm 包分发——无公开源码仓库。",
+      "sec_note_en": "Needs a Z.AI/Zhipu API key (Z_AI_API_KEY, GLM Coding Plan) plus optional region switch Z_AI_MODE; runs an npx-spawned Node process and calls Z.AI's paid GLM-4.6V cloud API. Distributed as the official @z_ai npm package — no public source repository."
     },
     {
       "id": "aleph-hub:amap",

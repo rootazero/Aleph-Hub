@@ -27,6 +27,34 @@
       "updated": "2026-06-22"
     },
     {
+      "id": "aleph-hub:zhipu-vision",
+      "full_name": "zai-org/mcp-server",
+      "kind": "mcp",
+      "name": "智谱视觉理解 Z.AI Vision",
+      "author": "智谱 AI Z.AI",
+      "category": "developer",
+      "tags": ["vision", "ocr", "developer"],
+      "install_spec": {
+        "type": "mcp_stdio",
+        "command": "npx",
+        "args": ["-y", "@z_ai/mcp-server"],
+        "env": [
+          { "name": "Z_AI_API_KEY", "description": "智谱编程套餐 API Key (bigmodel.cn/coding-plan)", "required": true, "secret": true },
+          { "name": "Z_AI_MODE", "description": "服务平台：ZHIPU（大陆）或 ZAI（海外）", "required": false, "secret": false, "default": "ZHIPU" }
+        ]
+      },
+      "repo_url": "https://www.npmjs.com/package/@z_ai/mcp-server",
+      "description_en": "Gives coding agents sight: screenshot-to-code, OCR, error-screenshot diagnosis, and diagram/chart understanding (GLM-4.6V, official Z.AI/Zhipu).",
+      "description_zh": "给代码 agent 加视觉：截图转代码 / OCR / 报错诊断 / 图表与架构图理解（GLM-4.6V，智谱官方）。",
+      "long_en": "The official Z.AI (Zhipu) Vision MCP server gives coding agents sight via eight GLM-4.6V-powered tools — UI-screenshot-to-code, screenshot OCR, error-dialog diagnosis, technical-diagram reading, data-visualization analysis, UI diff checking, general image analysis, and video analysis — over an npx stdio process.",
+      "long_zh": "智谱官方视觉理解 MCP，给代码 agent 补上视觉能力：经 npx stdio 暴露 8 个 GLM-4.6V 工具——UI 截图转代码、截图 OCR、报错截图诊断、技术图/架构图解读、数据可视化分析、UI 对比验证、通用图像理解与视频解析。",
+      "sec_note_en": "Needs a Z.AI/Zhipu API key (Z_AI_API_KEY, GLM Coding Plan) plus optional region switch Z_AI_MODE; runs an npx-spawned Node process and calls Z.AI's paid GLM-4.6V cloud API. Distributed as the official @z_ai npm package — no public source repository.",
+      "sec_note_zh": "需智谱 API Key（Z_AI_API_KEY，编程套餐）及可选区域开关 Z_AI_MODE；经 npx 拉起 Node 子进程，调用智谱付费 GLM-4.6V 云 API。以官方 @z_ai npm 包分发——无公开源码仓库。",
+      "stars": 0,
+      "license": "Apache-2.0",
+      "updated": "2026-04-20"
+    },
+    {
       "id": "aleph-hub:amap",
       "full_name": "amap/amap-maps-mcp-server",
       "kind": "mcp",
