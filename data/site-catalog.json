@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 143,
-    "generated_at": "2026-06-27T03:36:13.084Z",
-    "content_hash": "sha256:56731da24462e0ac14759a511627b72d58e9e09993f7ee39b888e80ed45b64e9"
+    "entry_count": 144,
+    "generated_at": "2026-06-27T04:34:28.297Z",
+    "content_hash": "sha256:3e529871a264e25eb774dd547fc64ae9e18459da24b754d5f89364c904aca721"
   },
   "entries": [
     {
@@ -1918,7 +1918,7 @@
       "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
       "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
       "cover_color": "#A0612F",
-      "stars": 34397,
+      "stars": 34399,
       "trend": 0,
       "spark": [
         34135,
@@ -1928,7 +1928,8 @@
         34311,
         34372,
         34381,
-        34397
+        34397,
+        34399
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-25",
@@ -1977,6 +1978,7 @@
         6207,
         6212,
         6212,
+        6215,
         6215
       ],
       "license": "MIT",
@@ -2032,6 +2034,7 @@
         5271,
         5283,
         5284,
+        5286,
         5286
       ],
       "license": "Apache-2.0",
@@ -2068,15 +2071,16 @@
       "long_zh": "一个 Claude Code 插件,打包 Builder.io 的十个技能。核心组合是 visual-plan(把文字计划转成带内联图表、文件地图、注释代码、待解问题与可选 UI/原型画布的可交互评审界面)与 visual-recap(生成对已完成工作的可速览回顾)。安装合集后,/visual-plan 等单个技能即可按名调用。",
       "long_en": "A Claude Code plugin packaging ten Builder.io skills. The headline pair is visual-plan—which turns text plans into interactive visual review surfaces with inline diagrams, file maps, annotated code, open questions, and optional UI/prototype canvases—and visual-recap, which produces scannable recaps of completed work. Installing the bundle makes each skill (e.g. /visual-plan) invocable by name.",
       "cover_color": "#C98A3C",
-      "stars": 2773,
-      "trend": 2,
+      "stars": 2776,
+      "trend": 0,
       "spark": [
         2374,
         2547,
         2578,
         2701,
         2727,
-        2773
+        2773,
+        2776
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -2111,13 +2115,14 @@
       "long_zh": "一个基于提示的编辑器，扫描文本中的 AI 写作模式并重写问题片段，同时保留原意、匹配预期语气。除了去除不良模式，还注入「人味」——观点、节奏变化、承认复杂性——让成稿读起来像真人所写。与 stop-slop-zh 同源。",
       "long_en": "A prompt-based editor that scans text for AI writing patterns and rewrites the offending passages while preserving meaning and matching the intended tone. Beyond removing bad patterns it injects voice—opinions, varied rhythm, acknowledged complexity—so the result reads like real human writing. Same lineage as stop-slop-zh.",
       "cover_color": "#86512C",
-      "stars": 11694,
+      "stars": 11698,
       "trend": 0,
       "spark": [
         11517,
         11644,
         11675,
-        11694
+        11694,
+        11698
       ],
       "license": "MIT",
       "updated": "2026-01-19",
@@ -2153,13 +2158,14 @@
       "long_zh": "一个 agent 技能，产出自包含的 HTML 演示，提供两套可选视觉系统、键盘/滚轮/触屏翻页与 ESC 索引、Lucide 图标，以及 Motion One 入场动效(本地 + CDN 双保险)。面向线下分享、产品发布，以及任何需要杂志感或瑞士设计感的演讲。",
       "long_en": "An agent skill that outputs a self-contained HTML presentation with two selectable visual systems, keyboard / wheel / touch navigation and an ESC index, Lucide icons, and Motion One entrance animations (local + CDN fallback). Aimed at offline talks, product launches, and any deck that needs an editorial or Swiss-design feel.",
       "cover_color": "#C98A3C",
-      "stars": 19110,
+      "stars": 19114,
       "trend": 0,
       "spark": [
         18869,
         19023,
         19060,
-        19110
+        19110,
+        19114
       ],
       "license": "AGPL-3.0",
       "updated": "2026-06-02",
@@ -2195,13 +2201,14 @@
       "long_zh": "一个 Claude Code 插件，打包十多个前端设计技能，安装后每个均可按名调用。提供多种鲜明的美学方向(brutalist、minimalist、soft、瑞士/stitch)、品牌套件与重设计助手，以及 image-to-code / 图像生成工作流——引导 agent 做出有意图、不千篇一律的界面。",
       "long_en": "A Claude Code plugin packaging more than a dozen frontend-design skills, each invocable by name after install. It offers distinct aesthetic directions (brutalist, minimalist, soft, Swiss/stitch), brand-kit and redesign helpers, and image-to-code / image-generation workflows—steering agents toward deliberate, non-generic interfaces.",
       "cover_color": "#7E4A2A",
-      "stars": 51630,
-      "trend": 1,
+      "stars": 51651,
+      "trend": 0,
       "spark": [
         50519,
         51195,
         51304,
-        51630
+        51630,
+        51651
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2238,13 +2245,14 @@
       "long_zh": "随仓库附带的 Claude skill(SKILL.md)是一个「互联网能力路由器」:把用户意图或粘贴的链接映射到对应的 agent-reach CLI 命令,先跑 `agent-reach doctor` 为每个平台挑选可用后端,某个接入失效时自动切换备选。六个渠道(网页、YouTube、RSS、V2EX、全文搜索、公开 GitHub)零配置可用;需登录的平台(Twitter、Reddit、小红书、领英)用用户自己的 Cookie 解锁。仅读取 / 搜索、不发帖——给 agent 眼睛而非手。",
       "long_en": "A companion Claude skill (SKILL.md) acts as an 'internet capability router': it maps a user's intent or a pasted URL to the right agent-reach CLI command, runs `agent-reach doctor` to pick a working backend per platform, and falls back across backends when one is blocked. Six channels (web, YouTube, RSS, V2EX, full-text search, public GitHub) work with zero config; login-gated platforms (Twitter, Reddit, Xiaohongshu, LinkedIn) unlock with the user's own cookies. It is read/search only—no posting—so it gives the agent eyes, not hands.",
       "cover_color": "#B5562B",
-      "stars": 42475,
-      "trend": 1,
+      "stars": 42527,
+      "trend": 0,
       "spark": [
         40248,
         41649,
         41885,
-        42475
+        42475,
+        42527
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -2285,6 +2293,7 @@
         7,
         7,
         7,
+        7,
         7
       ],
       "license": "MIT",
@@ -2322,12 +2331,13 @@
       "long_zh": "一个文档转 PPTX 的技能,以 Claude Code 插件形式打包(技能位于 skills/ppt-master)。它强制串行纪律——逐页手写 SVG 并携带完整上文,而非批量脚本生成——以保证长 deck 的视觉一致性,再把 SVG 页面转成可编辑的 PowerPoint 对象。",
       "long_en": "A document-to-PPTX skill packaged as a Claude Code plugin (the skill lives at skills/ppt-master). It enforces a strict serial discipline—per-page SVG authoring with full upstream context rather than batch script generation—to keep long decks visually consistent, then converts the SVG pages into editable PowerPoint objects.",
       "cover_color": "#B5562B",
-      "stars": 32438,
-      "trend": 1,
+      "stars": 32453,
+      "trend": 0,
       "spark": [
         31789,
         32104,
-        32438
+        32438,
+        32453
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -2363,12 +2373,13 @@
       "long_zh": "一个面向视觉 HTML 产出的设计技能(agent 无关)——原型、幻灯片、动画、信息图,而非生产级 Web App。需求模糊时可进入设计方向顾问、并行产出三套真实视觉变体,并在动手前用联网搜索核实产品事实。",
       "long_en": "A design-focused skill (agent-agnostic) for visual HTML output—prototypes, slides, animations, infographics—rather than production web apps. It can run a design-direction advisor that produces three real visual variants in parallel when the brief is vague, and verifies product facts via web search before designing.",
       "cover_color": "#9C5A2C",
-      "stars": 19946,
+      "stars": 19949,
       "trend": 0,
       "spark": [
         19842,
         19880,
-        19946
+        19946,
+        19949
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -2404,12 +2415,13 @@
       "long_zh": "宝玉(Jim Liu)技能合集中的幻灯片技能——本条目只安装 baoyu-slide-deck 这一个目录,而非整套 21 个技能。它调用宿主 agent 暴露的用户输入与图片生成工具来排版并渲染每一页。",
       "long_en": "The slide-deck skill from Baoyu's (Jim Liu) skills collection—the curated entry installs just the baoyu-slide-deck folder, not the whole 21-skill bundle. It drives whatever user-input and image-generation tools the host agent exposes to lay out and render each slide.",
       "cover_color": "#7E4A2A",
-      "stars": 22595,
+      "stars": 22601,
       "trend": 0,
       "spark": [
         22540,
         22566,
-        22595
+        22595,
+        22601
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2445,12 +2457,13 @@
       "long_zh": "一个模板驱动的幻灯片工作室:一个主题文件=一种观感,一个布局文件=一种页型,一个动画类=一种入场效果。纯静态 HTML/CSS/JS,仅用 CDN 网络字体——无需构建——完全可用键盘操作。",
       "long_en": "A template-driven slide studio: one theme file = one look, one layout file = one page type, one animation class = one entry effect. Pure static HTML/CSS/JS with only CDN webfonts—no build step—navigable entirely from the keyboard.",
       "cover_color": "#B0703C",
-      "stars": 6579,
+      "stars": 6581,
       "trend": 0,
       "spark": [
         6545,
         6561,
-        6579
+        6579,
+        6581
       ],
       "license": "MIT",
       "updated": "2026-04-26",
@@ -2487,9 +2500,10 @@
       "long_en": "A local-first AI presentation skill (root SKILL.md) driven by whatever agent/model you already run (Codex, Claude Code, etc.). Two output routes: a formal editable PPTX path (Microsoft YaHei, formal-business quality gate, source-confidence and official/IP asset planning) and a Guizang-like magazine web-deck path used as a stable high-quality fallback for extremely thin prompts. Document conversion (PDF/DOCX/XLSX/HTML/URL→Markdown), SVG→PPTX export, optional per-slide TTS narration, and a localhost SVG editor ship as bundled Python scripts; image generation is multi-provider and switchable via one env var.",
       "cover_color": "#C9542A",
       "stars": 90,
-      "trend": 25,
+      "trend": 0,
       "spark": [
         72,
+        90,
         90
       ],
       "license": "MIT",
@@ -2499,7 +2513,7 @@
       "sec_note_en": "Core generation runs locally and the export scripts mostly use the Python standard library (optional pip deps: python-pptx, PyMuPDF, cairosvg/svglib, mammoth, etc.). AI image generation is opt-in: only when enabled does it need a provider API key (OpenAI/Gemini/Qwen/Zhipu/Volcengine/…) and send your prompts to that provider, with usage cost. TTS narration defaults to keyless edge-tts; cloud voices are optional. The web-to-Markdown helper can optionally use curl_cffi to impersonate a browser TLS fingerprint for portals (e.g. WeChat) that block Python's default client. It also runs a localhost Flask SVG editor and an optional local Agent Bridge."
     },
     {
-      "id": "aleph-hub:lixiaolin94/skills",
+      "id": "aleph-hub:lixiaolin94/skills/web-shader-extractor",
       "kind": "skill",
       "category": "developer",
       "name": "Web Shader Extractor",
@@ -2527,13 +2541,56 @@
       "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 web-shader-extractor 这一个目录,而非整仓)。路由式 SKILL.md + 十余篇聚焦参考文档 + JSON/markdown 模板,驱动一套严谨的侦察状态机:摄入 → 渲染面归因 → 目标锁定 → 源码/运行时追踪 → 最小真值采集 → 基线校验 → 工程化 → QA。它把事实标注为 SOURCE / PARTIAL / GUESS,禁止用「补偿调参」掩盖缺失的管线证据,并内置 Three.js/TSL、Unicorn Studio、shaders.com 平台适配。附带脚本(渲染 DOM 盘点、bundle 扫描)只作假设证据,不能单独通过任何关卡。不用于普通 DOM/CSS 页面克隆。",
       "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the web-shader-extractor folder, not the whole repo). A router-style SKILL.md plus a dozen focused references and JSON/markdown templates drive a disciplined recon state machine: intake → surface attribution → target lock → source/runtime trace → minimum-truth capture → verified baseline → projectize → QA. It labels facts as SOURCE / PARTIAL / GUESS, forbids 'compensation tuning' to mask missing pipeline evidence, and ships platform adapters for Three.js/TSL, Unicorn Studio, and shaders.com. Bundled scripts (rendered-DOM inventory, bundle scan) are treated as hypotheses, never as gate-passing proof. Not for ordinary DOM/CSS page cloning.",
       "cover_color": "#B5562B",
-      "stars": 344,
-      "trend": null,
-      "spark": [],
+      "stars": 348,
+      "trend": 1,
+      "spark": [
+        344,
+        348
+      ],
       "updated": "2026-06-26",
       "install_cmd": "aleph add skills",
       "sec_note_zh": "会驱动无头浏览器(如 Playwright)加载并采集目标站点,并可能反混淆/分析目标的 JavaScript bundle 与 source map 以还原 shader 代码。它用于研究与移植视觉特效,而非批量克隆站点——复用提取到的 shader/资源时,你需自行尊重源站的版权、许可与条款。仓库 README 标注 MIT,但未附 LICENSE 文件。",
       "sec_note_en": "Drives a headless browser (e.g. Playwright) to load and capture the target site, and may deobfuscate/inspect the target's JavaScript bundle and source maps to recover shader code. It is meant for studying and porting visual effects, not bulk site cloning—you are responsible for respecting the source site's copyright, license, and terms when reusing extracted shaders/assets. The repo's README states MIT, but it ships no LICENSE file."
+    },
+    {
+      "id": "aleph-hub:lixiaolin94/skills/weekly-report",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Weekly Report",
+      "description": "Generate a send-ready weekly report by collecting evidence across four channel families—collaboration platforms, Git history, agent sessions, and local docs—normalizing it, merging into work topics, and writing a structured report that separates facts from inference. Resolves an absolute date range before collecting.",
+      "repo_url": "https://github.com/lixiaolin94/skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/lixiaolin94/skills",
+        "subdir": "weekly-report",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "lixiaolin94",
+      "tags": [
+        "weekly-report",
+        "work-summary",
+        "git",
+        "evidence",
+        "reporting"
+      ],
+      "via": "github:lixiaolin94",
+      "description_zh": "通过四类通道——协作平台、Git 历史、Agent 会话、本地文档——采集证据,归一化后并入「工作主题」,生成可直接发送、事实与推断分开的结构化周报。采集前先解析出绝对日期范围。",
+      "description_en": "Generate a send-ready weekly report by collecting evidence across four channel families—collaboration platforms, Git history, agent sessions, and local docs—normalizing it, merging into work topics, and writing a structured report that separates facts from inference. Resolves an absolute date range before collecting.",
+      "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 weekly-report 这一个目录,而非整仓)。它运行一套严谨的流水线:先解析本周的绝对日期范围(用附带的 `resolve_week_range.py`),发现当前可用通道(collab_platform、git、agent、local_docs),把各通道能力采集为归一化的 Evidence 对象(含来源、参与者、时间戳、url/路径、置信度),再并入「工作主题」(是什么/状态/关键结论/支撑证据/下周是否推进),最后按模板渲染周报。规则强制:明确日期范围、每项核心工作至少两类证据(或显式标注「证据不足」)、事实与推断硬性分开。参考文档覆盖各通道(含飞书/Lark、Git、本地文档)。",
+      "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the weekly-report folder, not the whole repo). It runs a disciplined pipeline: resolve the week's absolute range (via a bundled `resolve_week_range.py`), discover which channels are available (collab_platform, git, agent, local_docs), collect each channel's capabilities into normalized Evidence objects (with source, actors, timestamp, url/path, confidence), merge them into Work Topics (what/status/key conclusions/supporting evidence/next-week), and render a report from a template. Rules enforce a stated date range, ≥2 evidence types per core item (or an explicit 'insufficient evidence' flag), and a hard split between fact and inference. References cover each channel (incl. Lark/Feishu, Git, local docs).",
+      "cover_color": "#B5562B",
+      "stars": 348,
+      "trend": 1,
+      "spark": [
+        344,
+        348
+      ],
+      "updated": "2026-06-26",
+      "install_cmd": "aleph add skills",
+      "sec_note_zh": "从你启用的证据通道读取——Git 历史(本地)、Agent 会话记录、本地文档,以及协作平台(如通过飞书/Lark 的 API)。协作平台通道需要你自己的凭据/令牌,会把工作内容(日历、会议纪要、消息)拉进周报上下文;请审阅采集到的内容,以及发送前的周报。日期计算会运行附带的 Python 脚本(`resolve_week_range.py`)。",
+      "sec_note_en": "Reads from whatever evidence channels you enable—Git history (local), agent session logs, local documents, and collaboration platforms (e.g. Lark/Feishu via their APIs). The collaboration-platform channels need your own credentials/tokens and pull work content (calendars, meeting notes, messages) into the report context; review what gets collected, and the report before sending. Runs a bundled Python script (`resolve_week_range.py`) for date math."
     },
     {
       "id": "aleph-hub:kepano/obsidian-skills",
@@ -2563,9 +2620,12 @@
       "long_zh": "一个 Claude Code 插件(同时兼容 Agent-Skills 规范,可用于 Codex 与 OpenCode),打包 obsidian-markdown、obsidian-bases、json-canvas、obsidian-cli、defuddle 五个技能。可按需调用:用 Obsidian 专有语法创建/编辑笔记,用 Bases 建带筛选与公式的类数据库视图,排布可视化 canvas,从命令行驱动仓库(含插件/主题开发——重载插件、运行 JS、捕获错误、截图、检查 DOM),以及把网页提取为去杂的 markdown 以省 token。所用格式均为开放规范,产物可移植。",
       "long_en": "A Claude Code plugin (also Agent-Skills-spec compatible, so it works in Codex and OpenCode) bundling obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli, and defuddle. Each is invocable on demand: create/edit notes with Obsidian-specific syntax, build database-like Bases views with filters and formulas, lay out visual canvases, drive the vault from the CLI (including plugin/theme dev—reload plugins, run JS, capture errors, screenshot, inspect the DOM), and extract clutter-free markdown from web pages to save tokens. The formats are open specs, so output stays portable.",
       "cover_color": "#C9542A",
-      "stars": 38409,
-      "trend": null,
-      "spark": [],
+      "stars": 38417,
+      "trend": 0,
+      "spark": [
+        38409,
+        38417
+      ],
       "license": "MIT",
       "updated": "2026-06-08",
       "install_cmd": "aleph add obsidian-skills",
@@ -2600,9 +2660,12 @@
       "long_zh": "运行一条多 agent 流水线(项目扫描 → 逐文件分析 → 架构分层 → 业务域抽取 → 图谱组装 → 审校),产出 JSON 图谱与可在浏览器中平移、缩放、搜索的交互式仪表盘。技能包括 /understand(建图)、/understand-dashboard、/understand-explain、/understand-onboard、/understand-diff(改动的连锁影响)、/understand-domain(业务流)、/understand-knowledge(把 Karpathy 式 LLM wiki 变成力导向、社区聚类的图谱)与 /understand-chat。跨平台:Claude Code 市场,外加 Codex、Cursor、Copilot、Gemini CLI 等可经仓库的 install.sh 安装。",
       "long_en": "Runs a multi-agent pipeline (project scan → per-file analysis → architecture layering → domain extraction → graph assembly → review) that emits JSON graphs and an interactive dashboard you pan, zoom, and search in the browser. Skills include /understand (build the graph), /understand-dashboard, /understand-explain, /understand-onboard, /understand-diff (ripple effect of a change), /understand-domain (business flows), /understand-knowledge (turn a Karpathy-style LLM wiki into a force-directed, community-clustered graph), and /understand-chat. Cross-platform: Claude Code marketplace, plus Codex, Cursor, Copilot, Gemini CLI and others via the repo's install.sh.",
       "cover_color": "#A0612F",
-      "stars": 68389,
-      "trend": null,
-      "spark": [],
+      "stars": 68397,
+      "trend": 0,
+      "spark": [
+        68389,
+        68397
+      ],
       "license": "MIT",
       "updated": "2026-06-23",
       "install_cmd": "aleph add Understand-Anything",
@@ -2635,7 +2698,7 @@
       "long_zh": "执行结构化 SEO 分析(关键词、页面内检查与建议)的技能,可在多种智能体 CLI 中使用。",
       "long_en": "A skill that runs structured SEO analysis—keywords, on-page checks, and recommendations—usable across multiple agent CLIs.",
       "cover_color": "#86512C",
-      "stars": 697,
+      "stars": 698,
       "trend": 0,
       "spark": [
         674,
@@ -2646,7 +2709,8 @@
         694,
         697,
         697,
-        697
+        697,
+        698
       ],
       "license": "MIT",
       "updated": "2026-06-18",
@@ -2691,6 +2755,7 @@
         412,
         413,
         413,
+        413,
         413
       ],
       "updated": "2025-10-16",
@@ -2726,7 +2791,7 @@
       "long_en": "Runs command-line scripts that mirror a desktop formatter's pipeline, suited to batch cleanup of Chinese official documents without a GUI.",
       "cover_color": "#A86A3A",
       "stars": 191,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         186,
         186,
@@ -2735,6 +2800,7 @@
         189,
         190,
         190,
+        191,
         191
       ],
       "license": "MIT",
@@ -2771,7 +2837,7 @@
       "long_en": "Emphasizes understanding and pattern intuition over memorization, adapting hint depth to the learner instead of revealing full solutions up front.",
       "cover_color": "#C9542A",
       "stars": 167,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         157,
         157,
@@ -2780,6 +2846,7 @@
         165,
         166,
         166,
+        167,
         167
       ],
       "license": "MIT",
@@ -2826,6 +2893,7 @@
         130,
         130,
         131,
+        131,
         131
       ],
       "license": "Apache-2.0",
@@ -2871,6 +2939,7 @@
         127,
         128,
         128,
+        128,
         128
       ],
       "license": "Apache-2.0",
@@ -2911,6 +2980,7 @@
         110,
         110,
         110,
+        112,
         112,
         112,
         112,
@@ -2960,6 +3030,7 @@
         72,
         72,
         72,
+        72,
         72
       ],
       "license": "MIT",
@@ -2994,7 +3065,7 @@
       "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
       "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
       "cover_color": "#9E5B2E",
-      "stars": 23330,
+      "stars": 23337,
       "trend": 0,
       "spark": [
         22342,
@@ -3005,7 +3076,8 @@
         22918,
         23172,
         23249,
-        23330
+        23330,
+        23337
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -3040,7 +3112,7 @@
       "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
       "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
       "cover_color": "#9C5A2C",
-      "stars": 4089,
+      "stars": 4090,
       "trend": 0,
       "spark": [
         3809,
@@ -3051,7 +3123,8 @@
         4019,
         4058,
         4071,
-        4089
+        4089,
+        4090
       ],
       "license": "AGPL-3.0",
       "updated": "2026-05-27",
@@ -3085,8 +3158,8 @@
       "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
       "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
       "cover_color": "#7A4A2B",
-      "stars": 2729,
-      "trend": 1,
+      "stars": 2731,
+      "trend": 0,
       "spark": [
         2579,
         2586,
@@ -3096,7 +3169,8 @@
         2686,
         2711,
         2714,
-        2729
+        2729,
+        2731
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -3131,7 +3205,7 @@
       "long_en": "A skill that produces architecture and system diagrams, helping document a codebase's structure directly from a conversation.",
       "cover_color": "#B5562B",
       "stars": 1256,
-      "trend": 2,
+      "trend": 0,
       "spark": [
         1192,
         1197,
@@ -3141,6 +3215,7 @@
         1222,
         1228,
         1230,
+        1256,
         1256
       ],
       "license": "MIT",
@@ -3175,8 +3250,8 @@
       "long_zh": "把 logo 矢量化并加上动画的技能,从静态图片产出轻量的 SVG 动效。",
       "long_en": "A skill that vectorizes and animates logos, producing lightweight SVG motion from a static image.",
       "cover_color": "#7E4A2A",
-      "stars": 1132,
-      "trend": 8,
+      "stars": 1140,
+      "trend": 1,
       "spark": [
         848,
         866,
@@ -3186,7 +3261,8 @@
         1011,
         1037,
         1045,
-        1132
+        1132,
+        1140
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -3231,6 +3307,7 @@
         977,
         981,
         982,
+        983,
         983
       ],
       "license": "Apache-2.0",
@@ -3276,6 +3353,7 @@
         719,
         719,
         720,
+        721,
         721
       ],
       "license": "MIT",
@@ -3321,6 +3399,7 @@
         450,
         451,
         452,
+        453,
         453
       ],
       "license": "MIT",
@@ -3363,6 +3442,7 @@
         258,
         259,
         260,
+        268,
         268,
         268,
         268,
@@ -3411,6 +3491,7 @@
         263,
         265,
         266,
+        266,
         266
       ],
       "license": "MIT",
@@ -3446,7 +3527,7 @@
       "long_en": "A skill that maintains durable project context (decisions, structure, notes) so assistants like Claude Code or Cursor resume with continuity.",
       "cover_color": "#9C5A2C",
       "stars": 261,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         202,
         207,
@@ -3456,6 +3537,7 @@
         247,
         256,
         259,
+        261,
         261
       ],
       "license": "MIT",
@@ -3501,6 +3583,7 @@
         246,
         253,
         254,
+        255,
         255
       ],
       "updated": "2026-04-30",
@@ -3545,6 +3628,7 @@
         219,
         220,
         221,
+        222,
         222
       ],
       "license": "MIT",
@@ -3590,6 +3674,7 @@
         199,
         201,
         202,
+        202,
         202
       ],
       "license": "Apache-2.0",
@@ -3628,6 +3713,7 @@
       "stars": 176,
       "trend": 0,
       "spark": [
+        176,
         176,
         176,
         176,
@@ -3679,6 +3765,7 @@
         167,
         167,
         167,
+        167,
         167
       ],
       "license": "Apache-2.0",
@@ -3715,7 +3802,7 @@
       "long_en": "Three linked stages—role research via web search, resume re-targeting, and round-by-round interview prep—producing research notes, a revised .docx resume, and an interview-prep folder.",
       "cover_color": "#7E4A2A",
       "stars": 149,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         104,
         104,
@@ -3724,6 +3811,7 @@
         142,
         148,
         148,
+        149,
         149
       ],
       "license": "NOASSERTION",
@@ -3760,7 +3848,7 @@
       "long_en": "Platform-agnostic across Kling, Suno, Midjourney, Runway, Veo, Seedance, Flux and more, with guidance on character consistency, multi-shot storyboards, and fixing flawed results.",
       "cover_color": "#86512C",
       "stars": 144,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         133,
         133,
@@ -3769,6 +3857,7 @@
         139,
         141,
         142,
+        144,
         144
       ],
       "license": "MIT",
@@ -3814,6 +3903,7 @@
         127,
         127,
         127,
+        127,
         127
       ],
       "license": "MIT",
@@ -3850,7 +3940,7 @@
       "long_en": "Works on full surfaces or single elements (navbar, illustration), emitting token-grounded image-model prompts when the element is visual art.",
       "cover_color": "#C9542A",
       "stars": 123,
-      "trend": 3,
+      "trend": 0,
       "spark": [
         113,
         113,
@@ -3859,6 +3949,7 @@
         114,
         119,
         120,
+        123,
         123
       ],
       "license": "MIT",
@@ -3904,6 +3995,7 @@
         114,
         114,
         114,
+        114,
         114
       ],
       "updated": "2026-05-22",
@@ -3939,7 +4031,7 @@
       "long_en": "The agent reads the content and authors a brief.json (page splits, visual language, layout, pull-quotes); a deterministic engine then renders the cards and runs quality checks.",
       "cover_color": "#A86A3A",
       "stars": 99,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         92,
         92,
@@ -3948,6 +4040,7 @@
         96,
         98,
         98,
+        99,
         99
       ],
       "license": "NOASSERTION",
@@ -3993,6 +4086,7 @@
         94,
         95,
         95,
+        95,
         95
       ],
       "license": "NOASSERTION",
@@ -4029,7 +4123,7 @@
       "long_en": "Given an industry, it generates a self-contained {industry}.master skill installable by Claude Code, Codex, and other SKILL.md agents, putting the agent into \"domain veteran\" mode.",
       "cover_color": "#7E4A2A",
       "stars": 89,
-      "trend": 2,
+      "trend": 0,
       "spark": [
         64,
         64,
@@ -4038,6 +4132,7 @@
         83,
         87,
         87,
+        89,
         89
       ],
       "license": "MIT",
@@ -4083,6 +4178,7 @@
         69,
         70,
         70,
+        70,
         70
       ],
       "updated": "2026-03-23",
@@ -4118,7 +4214,7 @@
       "long_en": "Renders hierarchical Markdown as a navigable SVG tree you can open anywhere offline, making notes and topic structures explorable instead of flat.",
       "cover_color": "#9C5A2C",
       "stars": 63,
-      "trend": 2,
+      "trend": 0,
       "spark": [
         61,
         61,
@@ -4127,6 +4223,7 @@
         62,
         62,
         62,
+        63,
         63
       ],
       "license": "MIT",
@@ -4172,6 +4269,7 @@
         59,
         59,
         59,
+        59,
         59
       ],
       "updated": "2026-05-17",
@@ -4206,7 +4304,7 @@
       "long_zh": "驱动用户当前真实的浏览器会话而非无头实例,因而能利用已登录站点与现有状态。",
       "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
       "cover_color": "#A0612F",
-      "stars": 44,
+      "stars": 45,
       "trend": 2,
       "spark": [
         40,
@@ -4216,7 +4314,8 @@
         43,
         43,
         43,
-        44
+        44,
+        45
       ],
       "license": "MIT",
       "updated": "2026-03-06",
@@ -4261,6 +4360,7 @@
         41,
         43,
         43,
+        43,
         43
       ],
       "license": "MIT",
@@ -4303,6 +4403,7 @@
         36,
         36,
         36,
+        37,
         37,
         37,
         37,
@@ -4351,6 +4452,7 @@
         35,
         35,
         35,
+        35,
         35
       ],
       "license": "NOASSERTION",
@@ -4396,6 +4498,7 @@
         35,
         35,
         35,
+        35,
         35
       ],
       "license": "MIT",
@@ -4432,7 +4535,7 @@
       "long_en": "Maintains a project directory with section files, a literature matrix, reference management, and quality checklists; supports English and Japanese.",
       "cover_color": "#A86A3A",
       "stars": 34,
-      "trend": 3,
+      "trend": 0,
       "spark": [
         32,
         32,
@@ -4441,6 +4544,7 @@
         32,
         33,
         33,
+        34,
         34
       ],
       "updated": "2026-06-16",
@@ -4478,6 +4582,7 @@
       "stars": 33,
       "trend": 0,
       "spark": [
+        33,
         33,
         33,
         33,
@@ -4530,6 +4635,7 @@
         32,
         32,
         32,
+        32,
         32
       ],
       "license": "MIT",
@@ -4568,6 +4674,7 @@
       "stars": 29,
       "trend": 0,
       "spark": [
+        29,
         29,
         29,
         29,
@@ -4620,6 +4727,7 @@
         28,
         28,
         28,
+        28,
         28
       ],
       "license": "MIT",
@@ -4663,6 +4771,7 @@
         22,
         22,
         22,
+        23,
         23,
         23,
         23
@@ -4710,6 +4819,7 @@
         22,
         23,
         23,
+        23,
         23
       ],
       "license": "MIT",
@@ -4755,6 +4865,7 @@
         20,
         20,
         20,
+        20,
         20
       ],
       "license": "MIT",
@@ -4791,7 +4902,7 @@
       "long_en": "A defensive regression monitor that protects existing SEO work from being silently broken by edits or redeploys, rather than a ranking-manipulation tool.",
       "cover_color": "#8C5430",
       "stars": 18,
-      "trend": 6,
+      "trend": 0,
       "spark": [
         15,
         15,
@@ -4800,6 +4911,7 @@
         16,
         17,
         17,
+        18,
         18
       ],
       "updated": "2026-05-18",
@@ -4837,6 +4949,7 @@
       "stars": 17,
       "trend": 0,
       "spark": [
+        17,
         17,
         17,
         17,
@@ -4889,6 +5002,7 @@
         15,
         16,
         16,
+        16,
         16
       ],
       "license": "NOASSERTION",
@@ -4927,6 +5041,7 @@
       "stars": 15,
       "trend": 0,
       "spark": [
+        15,
         15,
         15,
         15,
@@ -4979,6 +5094,7 @@
         11,
         11,
         11,
+        11,
         11
       ],
       "license": "MIT",
@@ -5020,6 +5136,7 @@
         9,
         9,
         10,
+        11,
         11,
         11,
         11,
@@ -5069,6 +5186,7 @@
         10,
         10,
         11,
+        11,
         11
       ],
       "updated": "2026-05-11",
@@ -5106,6 +5224,7 @@
       "stars": 10,
       "trend": 0,
       "spark": [
+        10,
         10,
         10,
         10,
@@ -5158,6 +5277,7 @@
         10,
         10,
         10,
+        10,
         10
       ],
       "license": "MIT",
@@ -5203,6 +5323,7 @@
         9,
         9,
         9,
+        9,
         9
       ],
       "license": "Apache-2.0",
@@ -5239,7 +5360,7 @@
       "long_en": "Outputs plain-language reasoning, ranked research priorities, evidence chains, risks, and next verification steps—research support only, with no trade execution.",
       "cover_color": "#B0703C",
       "stars": 2900,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         2558,
         2559,
@@ -5248,6 +5369,7 @@
         2808,
         2862,
         2875,
+        2900,
         2900
       ],
       "license": "MIT",
@@ -5293,6 +5415,7 @@
         404,
         416,
         417,
+        419,
         419
       ],
       "license": "MIT",
@@ -5329,7 +5452,7 @@
       "long_en": "Wraps the Postiz CLI so the agent can connect accounts and schedule cross-channel posts from natural language; Postiz itself is self-hostable open source.",
       "cover_color": "#7E4A2A",
       "stars": 318,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         304,
         304,
@@ -5338,6 +5461,7 @@
         313,
         315,
         315,
+        318,
         318
       ],
       "license": "NOASSERTION",
@@ -5376,6 +5500,7 @@
       "stars": 255,
       "trend": 0,
       "spark": [
+        255,
         255,
         255,
         255,
@@ -5428,6 +5553,7 @@
         238,
         239,
         239,
+        239,
         239
       ],
       "license": "Apache-2.0",
@@ -5471,6 +5597,7 @@
         227,
         230,
         230,
+        233,
         233,
         233,
         233
@@ -5518,6 +5645,7 @@
         178,
         179,
         179,
+        179,
         179
       ],
       "license": "MIT",
@@ -5561,6 +5689,7 @@
         648,
         649,
         649,
+        650,
         650,
         650,
         650
@@ -5608,6 +5737,7 @@
         265,
         266,
         266,
+        266,
         266
       ],
       "license": "MIT",
@@ -5651,6 +5781,7 @@
         66,
         68,
         69,
+        71,
         71,
         71,
         71
@@ -5698,6 +5829,7 @@
         46,
         46,
         46,
+        46,
         46
       ],
       "updated": "2025-12-29",
@@ -5735,6 +5867,7 @@
       "stars": 36,
       "trend": 0,
       "spark": [
+        36,
         36,
         36,
         36,
@@ -5787,6 +5920,7 @@
         31,
         31,
         31,
+        31,
         31
       ],
       "license": "MIT",
@@ -5825,6 +5959,7 @@
       "stars": 21,
       "trend": 0,
       "spark": [
+        21,
         21,
         21,
         21,
@@ -5877,6 +6012,7 @@
         16,
         16,
         16,
+        16,
         16
       ],
       "license": "MIT",
@@ -5915,6 +6051,7 @@
       "stars": 16,
       "trend": 0,
       "spark": [
+        16,
         16,
         16,
         16,
@@ -5967,6 +6104,7 @@
         9,
         9,
         9,
+        9,
         9
       ],
       "license": "MIT",
@@ -6005,6 +6143,7 @@
       "stars": 5,
       "trend": 0,
       "spark": [
+        5,
         5,
         5,
         5,
@@ -6054,6 +6193,7 @@
         189,
         192,
         192,
+        194,
         194,
         194
       ],

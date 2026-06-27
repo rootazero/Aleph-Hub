@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 143,
-    "generated_at": "2026-06-27T03:36:13.084Z",
-    "content_hash": "sha256:56731da24462e0ac14759a511627b72d58e9e09993f7ee39b888e80ed45b64e9"
+    "entry_count": 144,
+    "generated_at": "2026-06-27T04:34:28.297Z",
+    "content_hash": "sha256:3e529871a264e25eb774dd547fc64ae9e18459da24b754d5f89364c904aca721"
   },
   "entries": [
     {
@@ -1609,7 +1609,7 @@
       "via": "github:kdnsna"
     },
     {
-      "id": "aleph-hub:lixiaolin94/skills",
+      "id": "aleph-hub:lixiaolin94/skills/web-shader-extractor",
       "kind": "skill",
       "category": "developer",
       "name": "Web Shader Extractor",
@@ -1630,6 +1630,31 @@
         "canvas",
         "reverse-engineering",
         "porting"
+      ],
+      "via": "github:lixiaolin94"
+    },
+    {
+      "id": "aleph-hub:lixiaolin94/skills/weekly-report",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Weekly Report",
+      "description": "Generate a send-ready weekly report by collecting evidence across four channel families—collaboration platforms, Git history, agent sessions, and local docs—normalizing it, merging into work topics, and writing a structured report that separates facts from inference. Resolves an absolute date range before collecting.",
+      "repo_url": "https://github.com/lixiaolin94/skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/lixiaolin94/skills",
+        "subdir": "weekly-report",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "lixiaolin94",
+      "tags": [
+        "weekly-report",
+        "work-summary",
+        "git",
+        "evidence",
+        "reporting"
       ],
       "via": "github:lixiaolin94"
     },

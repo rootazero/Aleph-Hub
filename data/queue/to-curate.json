@@ -199,7 +199,7 @@
     "full_name": "A-cat-with-carrots/OnlyShot",
     "repo_url": "https://github.com/A-cat-with-carrots/OnlyShot",
     "via": "github:A-cat-with-carrots",
-    "stars": 113,
+    "stars": 114,
     "pushed_at": "2026-05-16T15:23:56Z"
   },
   {
@@ -283,7 +283,7 @@
     "full_name": "abundantbeing/hermes-browser-extension",
     "repo_url": "https://github.com/abundantbeing/hermes-browser-extension",
     "via": "hermes-atlas",
-    "stars": 175,
+    "stars": 177,
     "pushed_at": "2026-06-27T01:50:29Z"
   },
   {
@@ -311,7 +311,7 @@
     "full_name": "addyosmani/agent-skills",
     "repo_url": "https://github.com/addyosmani/agent-skills",
     "via": "github:addyosmani",
-    "stars": 67064,
+    "stars": 67074,
     "pushed_at": "2026-06-25T17:51:35Z"
   },
   {
@@ -444,7 +444,7 @@
     "full_name": "Agents365-ai/drawio-skill",
     "repo_url": "https://github.com/Agents365-ai/drawio-skill",
     "via": "hermes-atlas",
-    "stars": 4736,
+    "stars": 4737,
     "pushed_at": "2026-06-22T01:41:41Z"
   },
   {
@@ -536,7 +536,7 @@
     "repo_url": "https://github.com/AgentWorkforce/relay",
     "via": "github:AgentWorkforce",
     "stars": 743,
-    "pushed_at": "2026-06-27T01:21:13Z"
+    "pushed_at": "2026-06-27T04:22:42Z"
   },
   {
     "full_name": "AgnosticUI/agnosticui",
@@ -563,7 +563,7 @@
     "full_name": "AgriciDaniel/claude-ads",
     "repo_url": "https://github.com/AgriciDaniel/claude-ads",
     "via": "github:AgriciDaniel",
-    "stars": 6522,
+    "stars": 6525,
     "pushed_at": "2026-06-26T21:03:50Z"
   },
   {
@@ -612,7 +612,7 @@
     "full_name": "AgriciDaniel/claude-obsidian",
     "repo_url": "https://github.com/AgriciDaniel/claude-obsidian",
     "via": "github:AgriciDaniel",
-    "stars": 7971,
+    "stars": 7974,
     "pushed_at": "2026-05-28T00:42:43Z"
   },
   {
@@ -626,7 +626,7 @@
     "full_name": "AgriciDaniel/claude-seo",
     "repo_url": "https://github.com/AgriciDaniel/claude-seo",
     "via": "github:AgriciDaniel",
-    "stars": 9909,
+    "stars": 9913,
     "pushed_at": "2026-06-22T06:08:48Z"
   },
   {
@@ -724,7 +724,7 @@
     "full_name": "AI272/speaker",
     "repo_url": "https://github.com/AI272/speaker",
     "via": "github:AI272",
-    "stars": 296,
+    "stars": 297,
     "pushed_at": "2026-06-23T12:25:55Z"
   },
   {
@@ -773,14 +773,14 @@
     "full_name": "aivrar/portable-hermes-agent",
     "repo_url": "https://github.com/aivrar/portable-hermes-agent",
     "via": "hermes-atlas",
-    "stars": 177,
+    "stars": 178,
     "pushed_at": "2026-05-22T03:35:25Z"
   },
   {
     "full_name": "aiworkskills/wechat-article-skills",
     "repo_url": "https://github.com/aiworkskills/wechat-article-skills",
     "via": "github:aiworkskills",
-    "stars": 293,
+    "stars": 294,
     "pushed_at": "2026-06-20T15:19:05Z"
   },
   {
@@ -899,7 +899,7 @@
     "full_name": "alibaba/open-code-review",
     "repo_url": "https://github.com/alibaba/open-code-review",
     "via": "github:alibaba",
-    "stars": 9413,
+    "stars": 9416,
     "pushed_at": "2026-06-27T03:21:54Z"
   },
   {
@@ -927,7 +927,7 @@
     "full_name": "alirezarezvani/claude-skills",
     "repo_url": "https://github.com/alirezarezvani/claude-skills",
     "via": "github:alirezarezvani",
-    "stars": 19158,
+    "stars": 19159,
     "pushed_at": "2026-06-26T10:03:48Z"
   },
   {
@@ -973,6 +973,13 @@
     "pushed_at": "2026-06-24T10:49:52Z"
   },
   {
+    "full_name": "Amal-David/pagecast",
+    "repo_url": "https://github.com/Amal-David/pagecast",
+    "via": "github:Amal-David",
+    "stars": 152,
+    "pushed_at": "2026-06-26T10:22:22Z"
+  },
+  {
     "full_name": "amanning3390/flowstate-qmd",
     "repo_url": "https://github.com/amanning3390/flowstate-qmd",
     "via": "hermes-atlas",
@@ -1004,8 +1011,8 @@
     "full_name": "amplifthq/opentag",
     "repo_url": "https://github.com/amplifthq/opentag",
     "via": "github:amplifthq",
-    "stars": 302,
-    "pushed_at": "2026-06-26T18:28:54Z"
+    "stars": 304,
+    "pushed_at": "2026-06-27T04:26:47Z"
   },
   {
     "full_name": "anandpareek-hub/pixelbin-claude-skill",
@@ -1025,7 +1032,7 @@
     "full_name": "anbeime/skill",
     "repo_url": "https://github.com/anbeime/skill",
     "via": "github:anbeime",
-    "stars": 2572,
+    "stars": 2573,
     "pushed_at": "2026-06-26T06:01:19Z"
   },
   {
@@ -1109,22 +1116,22 @@
     "full_name": "anthropics/claude-agent-sdk-python",
     "repo_url": "https://github.com/anthropics/claude-agent-sdk-python",
     "via": "github:anthropics",
-    "stars": 7431,
+    "stars": 7433,
     "pushed_at": "2026-06-26T21:30:36Z"
   },
   {
     "full_name": "anthropics/claude-cookbooks",
     "repo_url": "https://github.com/anthropics/claude-cookbooks",
     "via": "github:anthropics",
-    "stars": 46008,
+    "stars": 46009,
     "pushed_at": "2026-06-09T20:53:20Z"
   },
   {
     "full_name": "anthropics/skills",
     "repo_url": "https://github.com/anthropics/skills",
     "via": "github:anthropics",
-    "stars": 155605,
-    "pushed_at": "2026-06-09T20:35:19Z"
+    "stars": 155617,
+    "pushed_at": "2026-06-27T04:13:40Z"
   },
   {
     "full_name": "antonbabenko/terraform-skill",
@@ -1201,7 +1208,7 @@
     "repo_url": "https://github.com/arabicapp/everything-claude-code",
     "via": "github:arabicapp",
     "stars": 131,
-    "pushed_at": "2026-06-27T01:30:58Z"
+    "pushed_at": "2026-06-27T04:12:51Z"
   },
   {
     "full_name": "arimet/handoff",
@@ -1354,7 +1361,7 @@
     "full_name": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
     "repo_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill",
     "via": "github:AvdLee",
-    "stars": 1149,
+    "stars": 1150,
     "pushed_at": "2026-04-15T16:57:33Z"
   },
   {
@@ -1621,7 +1628,7 @@
     "repo_url": "https://github.com/boshu2/agentops",
     "via": "github:boshu2",
     "stars": 399,
-    "pushed_at": "2026-06-27T03:09:13Z"
+    "pushed_at": "2026-06-27T04:11:12Z"
   },
   {
     "full_name": "bradautomates/content-ideas",
@@ -1683,7 +1690,7 @@
     "full_name": "browser-act/skills",
     "repo_url": "https://github.com/browser-act/skills",
     "via": "github:browser-act",
-    "stars": 3058,
+    "stars": 3061,
     "pushed_at": "2026-06-26T12:34:30Z"
   },
   {
@@ -1725,7 +1732,7 @@
     "full_name": "builderz-labs/mission-control",
     "repo_url": "https://github.com/builderz-labs/mission-control",
     "via": "hermes-atlas",
-    "stars": 5433,
+    "stars": 5435,
     "pushed_at": "2026-06-22T03:56:46Z"
   },
   {
@@ -1809,8 +1816,8 @@
     "full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
     "via": "github:CherryHQ",
-    "stars": 47850,
-    "pushed_at": "2026-06-27T03:32:07Z"
+    "stars": 47851,
+    "pushed_at": "2026-06-27T04:11:34Z"
   },
   {
     "full_name": "chigwell/skilldock.io",
@@ -1858,7 +1865,7 @@
     "full_name": "chubbyguan/chubbyskills",
     "repo_url": "https://github.com/chubbyguan/chubbyskills",
     "via": "github:chubbyguan",
-    "stars": 471,
+    "stars": 472,
     "pushed_at": "2026-06-16T08:05:33Z"
   },
   {
@@ -1872,7 +1879,7 @@
     "full_name": "ciembor/agent-rules-books",
     "repo_url": "https://github.com/ciembor/agent-rules-books",
     "via": "github:ciembor",
-    "stars": 1982,
+    "stars": 1983,
     "pushed_at": "2026-05-22T11:00:37Z"
   },
   {
@@ -1893,7 +1900,7 @@
     "full_name": "citrolabs/ego-lite",
     "repo_url": "https://github.com/citrolabs/ego-lite",
     "via": "github:citrolabs",
-    "stars": 241,
+    "stars": 242,
     "pushed_at": "2026-06-26T08:44:43Z"
   },
   {
@@ -1956,14 +1963,14 @@
     "full_name": "code-yeongyu/oh-my-openagent",
     "repo_url": "https://github.com/code-yeongyu/oh-my-openagent",
     "via": "github:code-yeongyu",
-    "stars": 63739,
+    "stars": 63749,
     "pushed_at": "2026-06-26T17:34:18Z"
   },
   {
     "full_name": "codeaashu/claude-code",
     "repo_url": "https://github.com/codeaashu/claude-code",
     "via": "github:codeaashu",
-    "stars": 3004,
+    "stars": 3005,
     "pushed_at": "2026-04-22T07:08:37Z"
   },
   {
@@ -2005,7 +2012,7 @@
     "full_name": "colbymchenry/codegraph",
     "repo_url": "https://github.com/colbymchenry/codegraph",
     "via": "hermes-atlas",
-    "stars": 55079,
+    "stars": 55100,
     "pushed_at": "2026-06-27T01:30:26Z"
   },
   {
@@ -2033,7 +2040,7 @@
     "full_name": "ComposioHQ/awesome-claude-skills",
     "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills",
     "via": "github:ComposioHQ",
-    "stars": 66044,
+    "stars": 66050,
     "pushed_at": "2026-05-22T03:17:49Z"
   },
   {
@@ -2110,7 +2117,7 @@
     "full_name": "CryptoDmitry/hermes-agent-control-room",
     "repo_url": "https://github.com/CryptoDmitry/hermes-agent-control-room",
     "via": "hermes-atlas",
-    "stars": 857,
+    "stars": 858,
     "pushed_at": "2026-05-18T13:30:31Z"
   },
   {
@@ -2215,7 +2222,7 @@
     "full_name": "deanpeters/Product-Manager-Skills",
     "repo_url": "https://github.com/deanpeters/Product-Manager-Skills",
     "via": "github:deanpeters",
-    "stars": 5411,
+    "stars": 5412,
     "pushed_at": "2026-06-25T18:23:06Z"
   },
   {
@@ -2285,7 +2292,7 @@
     "full_name": "DietrichGebert/ponytail",
     "repo_url": "https://github.com/DietrichGebert/ponytail",
     "via": "github:DietrichGebert",
-    "stars": 60318,
+    "stars": 60364,
     "pushed_at": "2026-06-26T01:28:09Z"
   },
   {
@@ -2439,8 +2446,8 @@
     "full_name": "EKKOLearnAI/hermes-studio",
     "repo_url": "https://github.com/EKKOLearnAI/hermes-studio",
     "via": "hermes-atlas",
-    "stars": 8550,
-    "pushed_at": "2026-06-26T06:34:28Z"
+    "stars": 8553,
+    "pushed_at": "2026-06-27T04:32:13Z"
   },
   {
     "full_name": "elb-pr/claudikins-kernel",
@@ -2614,7 +2621,7 @@
     "full_name": "Eynzof/Hermes-CN-Desktop",
     "repo_url": "https://github.com/Eynzof/Hermes-CN-Desktop",
     "via": "hermes-atlas",
-    "stars": 591,
+    "stars": 593,
     "pushed_at": "2026-06-26T04:22:48Z"
   },
   {
@@ -2635,14 +2642,14 @@
     "full_name": "farion1231/cc-switch",
     "repo_url": "https://github.com/farion1231/cc-switch",
     "via": "hermes-atlas",
-    "stars": 109081,
-    "pushed_at": "2026-06-26T15:30:52Z"
+    "stars": 109100,
+    "pushed_at": "2026-06-27T04:25:05Z"
   },
   {
     "full_name": "fathah/hermes-desktop",
     "repo_url": "https://github.com/fathah/hermes-desktop",
     "via": "hermes-atlas",
-    "stars": 12764,
+    "stars": 12767,
     "pushed_at": "2026-06-26T13:22:00Z"
   },
   {
@@ -2734,7 +2741,7 @@
     "repo_url": "https://github.com/first-fluke/oh-my-agent",
     "via": "github:first-fluke",
     "stars": 1126,
-    "pushed_at": "2026-06-27T02:27:07Z"
+    "pushed_at": "2026-06-27T04:07:02Z"
   },
   {
     "full_name": "floflo11/mbb-decks",
@@ -2775,7 +2782,7 @@
     "full_name": "Forward-Future/loop-library",
     "repo_url": "https://github.com/Forward-Future/loop-library",
     "via": "github:Forward-Future",
-    "stars": 1718,
+    "stars": 1719,
     "pushed_at": "2026-06-26T21:51:26Z"
   },
   {
@@ -2908,7 +2915,7 @@
     "full_name": "garrytan/gbrain",
     "repo_url": "https://github.com/garrytan/gbrain",
     "via": "hermes-atlas",
-    "stars": 24236,
+    "stars": 24240,
     "pushed_at": "2026-06-25T16:47:43Z"
   },
   {
@@ -2964,7 +2971,7 @@
     "full_name": "geekjourneyx/md2wechat-skill",
     "repo_url": "https://github.com/geekjourneyx/md2wechat-skill",
     "via": "github:geekjourneyx",
-    "stars": 2992,
+    "stars": 2994,
     "pushed_at": "2026-06-26T12:31:38Z"
   },
   {
@@ -3027,7 +3034,7 @@
     "full_name": "github/awesome-copilot",
     "repo_url": "https://github.com/github/awesome-copilot",
     "via": "github:github",
-    "stars": 35797,
+    "stars": 35799,
     "pushed_at": "2026-06-26T21:19:52Z"
   },
   {
@@ -3083,14 +3090,14 @@
     "full_name": "googleworkspace/cli",
     "repo_url": "https://github.com/googleworkspace/cli",
     "via": "github:googleworkspace",
-    "stars": 28910,
+    "stars": 28913,
     "pushed_at": "2026-06-26T23:27:38Z"
   },
   {
     "full_name": "gooseworks-ai/goose-skills",
     "repo_url": "https://github.com/gooseworks-ai/goose-skills",
     "via": "github:gooseworks-ai",
-    "stars": 816,
+    "stars": 817,
     "pushed_at": "2026-06-26T11:11:01Z"
   },
   {
@@ -3154,13 +3161,13 @@
     "repo_url": "https://github.com/greyhaven-ai/autocontext",
     "via": "hermes-atlas",
     "stars": 1227,
-    "pushed_at": "2026-06-27T03:17:54Z"
+    "pushed_at": "2026-06-27T03:45:43Z"
   },
   {
     "full_name": "gsd-build/get-shit-done",
     "repo_url": "https://github.com/gsd-build/get-shit-done",
     "via": "github:gsd-build",
-    "stars": 64536,
+    "stars": 64538,
     "pushed_at": "2026-05-31T17:46:54Z"
   },
   {
@@ -3223,7 +3230,7 @@
     "full_name": "Hao0321/claude-skill-social-post",
     "repo_url": "https://github.com/Hao0321/claude-skill-social-post",
     "via": "github:Hao0321",
-    "stars": 464,
+    "stars": 465,
     "pushed_at": "2026-06-24T17:31:55Z"
   },
   {
@@ -3279,14 +3286,14 @@
     "full_name": "heshengtao/super-agent-party",
     "repo_url": "https://github.com/heshengtao/super-agent-party",
     "via": "github:heshengtao",
-    "stars": 2422,
+    "stars": 2423,
     "pushed_at": "2026-06-26T16:10:04Z"
   },
   {
     "full_name": "hesreallyhim/awesome-claude-code",
     "repo_url": "https://github.com/hesreallyhim/awesome-claude-code",
     "via": "github:hesreallyhim",
-    "stars": 47392,
+    "stars": 47394,
     "pushed_at": "2026-04-27T14:40:18Z"
   },
   {
@@ -3335,7 +3342,7 @@
     "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
     "repo_url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
     "via": "github:hoangsonww",
-    "stars": 678,
+    "stars": 681,
     "pushed_at": "2026-06-26T12:38:26Z"
   },
   {
@@ -3370,7 +3377,7 @@
     "full_name": "htdt/godogen",
     "repo_url": "https://github.com/htdt/godogen",
     "via": "github:htdt",
-    "stars": 4108,
+    "stars": 4110,
     "pushed_at": "2026-06-13T20:12:33Z"
   },
   {
@@ -3566,7 +3573,7 @@
     "full_name": "inkeep/open-knowledge",
     "repo_url": "https://github.com/inkeep/open-knowledge",
     "via": "github:inkeep",
-    "stars": 1082,
+    "stars": 1089,
     "pushed_at": "2026-06-27T01:44:49Z"
   },
   {
@@ -3594,7 +3601,7 @@
     "full_name": "iOfficeAI/AionUi",
     "repo_url": "https://github.com/iOfficeAI/AionUi",
     "via": "hermes-atlas",
-    "stars": 28925,
+    "stars": 28928,
     "pushed_at": "2026-06-26T14:18:14Z"
   },
   {
@@ -3664,7 +3671,7 @@
     "full_name": "JackyST0/awesome-agent-skills",
     "repo_url": "https://github.com/JackyST0/awesome-agent-skills",
     "via": "github:JackyST0",
-    "stars": 573,
+    "stars": 574,
     "pushed_at": "2026-06-22T02:27:43Z"
   },
   {
@@ -3756,7 +3763,7 @@
     "repo_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
     "via": "github:jeremylongshore",
     "stars": 2437,
-    "pushed_at": "2026-06-27T02:21:11Z"
+    "pushed_at": "2026-06-27T04:21:47Z"
   },
   {
     "full_name": "JetBrains/teamcity-cli",
@@ -3769,7 +3776,7 @@
     "full_name": "jezweb/claude-skills",
     "repo_url": "https://github.com/jezweb/claude-skills",
     "via": "github:jezweb",
-    "stars": 880,
+    "stars": 881,
     "pushed_at": "2026-06-11T13:18:31Z"
   },
   {
@@ -3797,7 +3804,7 @@
     "full_name": "JimLiu/baoyu-design",
     "repo_url": "https://github.com/JimLiu/baoyu-design",
     "via": "github:JimLiu",
-    "stars": 2031,
+    "stars": 2033,
     "pushed_at": "2026-06-22T22:13:46Z"
   },
   {
@@ -3853,21 +3860,21 @@
     "full_name": "jnMetaCode/superpowers-zh",
     "repo_url": "https://github.com/jnMetaCode/superpowers-zh",
     "via": "github:jnMetaCode",
-    "stars": 6002,
+    "stars": 6003,
     "pushed_at": "2026-06-23T15:29:43Z"
   },
   {
     "full_name": "joeynyc/hermes-skins",
     "repo_url": "https://github.com/joeynyc/hermes-skins",
     "via": "hermes-atlas",
-    "stars": 474,
+    "stars": 475,
     "pushed_at": "2026-05-07T13:36:48Z"
   },
   {
     "full_name": "Johell1NS/browser-search",
     "repo_url": "https://github.com/Johell1NS/browser-search",
     "via": "github:Johell1NS",
-    "stars": 178,
+    "stars": 179,
     "pushed_at": "2026-06-26T07:25:47Z"
   },
   {
@@ -3930,7 +3937,7 @@
     "full_name": "JuneYaooo/nihaisha-nishi-tcm",
     "repo_url": "https://github.com/JuneYaooo/nihaisha-nishi-tcm",
     "via": "github:JuneYaooo",
-    "stars": 882,
+    "stars": 883,
     "pushed_at": "2026-06-26T05:10:54Z"
   },
   {
@@ -4000,7 +4007,7 @@
     "full_name": "K-Dense-AI/scientific-agent-skills",
     "repo_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
     "via": "github:K-Dense-AI",
-    "stars": 29414,
+    "stars": 29417,
     "pushed_at": "2026-06-23T23:48:47Z"
   },
   {
@@ -4161,7 +4168,7 @@
     "full_name": "Klotzkette/claude-fuer-deutsches-recht",
     "repo_url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
     "via": "github:Klotzkette",
-    "stars": 1198,
+    "stars": 1199,
     "pushed_at": "2026-06-26T21:24:04Z"
   },
   {
@@ -4308,7 +4315,7 @@
     "full_name": "lanfuli/aleabito-serenity-skills",
     "repo_url": "https://github.com/lanfuli/aleabito-serenity-skills",
     "via": "github:lanfuli",
-    "stars": 82,
+    "stars": 81,
     "pushed_at": "2026-06-07T22:37:57Z"
   },
   {
@@ -4448,7 +4455,7 @@
     "full_name": "liaohch3/claude-tap",
     "repo_url": "https://github.com/liaohch3/claude-tap",
     "via": "hermes-atlas",
-    "stars": 2042,
+    "stars": 2045,
     "pushed_at": "2026-06-26T04:00:08Z"
   },
   {
@@ -4532,7 +4539,7 @@
     "full_name": "ljagiello/ctf-skills",
     "repo_url": "https://github.com/ljagiello/ctf-skills",
     "via": "github:ljagiello",
-    "stars": 2537,
+    "stars": 2539,
     "pushed_at": "2026-06-19T15:13:28Z"
   },
   {
@@ -4868,7 +4875,7 @@
     "full_name": "mem0ai/mem0",
     "repo_url": "https://github.com/mem0ai/mem0",
     "via": "hermes-atlas",
-    "stars": 59539,
+    "stars": 59541,
     "pushed_at": "2026-06-26T17:54:28Z"
   },
   {
@@ -4924,7 +4931,7 @@
     "full_name": "michalparkola/tapestry-skills",
     "repo_url": "https://github.com/michalparkola/tapestry-skills",
     "via": "github:michalparkola",
-    "stars": 447,
+    "stars": 448,
     "pushed_at": "2026-03-11T22:36:51Z"
   },
   {
@@ -4973,7 +4980,7 @@
     "full_name": "microsoft/SkillOpt",
     "repo_url": "https://github.com/microsoft/SkillOpt",
     "via": "github:microsoft",
-    "stars": 9420,
+    "stars": 9424,
     "pushed_at": "2026-06-26T03:04:24Z"
   },
   {
@@ -5043,7 +5050,7 @@
     "full_name": "mksglu/context-mode",
     "repo_url": "https://github.com/mksglu/context-mode",
     "via": "github:mksglu",
-    "stars": 18228,
+    "stars": 18230,
     "pushed_at": "2026-06-26T18:33:30Z"
   },
   {
@@ -5071,7 +5078,7 @@
     "full_name": "mnemosyne-oss/mnemosyne",
     "repo_url": "https://github.com/mnemosyne-oss/mnemosyne",
     "via": "hermes-atlas",
-    "stars": 1296,
+    "stars": 1297,
     "pushed_at": "2026-06-26T23:15:32Z"
   },
   {
@@ -5099,7 +5106,7 @@
     "full_name": "mohitagw15856/pm-claude-skills",
     "repo_url": "https://github.com/mohitagw15856/pm-claude-skills",
     "via": "github:mohitagw15856",
-    "stars": 1032,
+    "stars": 1033,
     "pushed_at": "2026-06-26T09:50:45Z"
   },
   {
@@ -5120,7 +5127,7 @@
     "full_name": "momozi1996/awesome-ai-persona-skills",
     "repo_url": "https://github.com/momozi1996/awesome-ai-persona-skills",
     "via": "github:momozi1996",
-    "stars": 325,
+    "stars": 326,
     "pushed_at": "2026-05-23T04:02:16Z"
   },
   {
@@ -5155,7 +5162,7 @@
     "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
     "repo_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
     "via": "hermes-atlas",
-    "stars": 21846,
+    "stars": 21854,
     "pushed_at": "2026-06-26T14:37:50Z"
   },
   {
@@ -5225,7 +5232,7 @@
     "full_name": "nanocoai/nanoclaw",
     "repo_url": "https://github.com/nanocoai/nanoclaw",
     "via": "github:nanocoai",
-    "stars": 30008,
+    "stars": 30006,
     "pushed_at": "2026-06-26T10:38:42Z"
   },
   {
@@ -5274,7 +5281,7 @@
     "full_name": "Natively-AI-assistant/natively-cluely-ai-assistant",
     "repo_url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
     "via": "github:Natively-AI-assistant",
-    "stars": 1621,
+    "stars": 1619,
     "pushed_at": "2026-06-26T06:28:41Z"
   },
   {
@@ -5288,7 +5295,7 @@
     "full_name": "ndesv21/socialclaw",
     "repo_url": "https://github.com/ndesv21/socialclaw",
     "via": "hermes-atlas",
-    "stars": 47,
+    "stars": 48,
     "pushed_at": "2026-06-17T10:11:05Z"
   },
   {
@@ -5309,8 +5316,8 @@
     "full_name": "nesquena/hermes-webui",
     "repo_url": "https://github.com/nesquena/hermes-webui",
     "via": "hermes-atlas",
-    "stars": 15071,
-    "pushed_at": "2026-06-27T03:06:25Z"
+    "stars": 15072,
+    "pushed_at": "2026-06-27T04:20:08Z"
   },
   {
     "full_name": "netresearch/agent-rules-skill",
@@ -5365,7 +5372,7 @@
     "full_name": "nexscope-ai/eCommerce-Skills",
     "repo_url": "https://github.com/nexscope-ai/eCommerce-Skills",
     "via": "github:nexscope-ai",
-    "stars": 293,
+    "stars": 294,
     "pushed_at": "2026-06-10T07:57:04Z"
   },
   {
@@ -5379,15 +5386,15 @@
     "full_name": "nexu-io/html-anything",
     "repo_url": "https://github.com/nexu-io/html-anything",
     "via": "github:nexu-io",
-    "stars": 7292,
+    "stars": 7294,
     "pushed_at": "2026-06-16T10:22:48Z"
   },
   {
     "full_name": "nexu-io/open-design",
     "repo_url": "https://github.com/nexu-io/open-design",
     "via": "hermes-atlas",
-    "stars": 71690,
-    "pushed_at": "2026-06-27T01:43:56Z"
+    "stars": 71708,
+    "pushed_at": "2026-06-27T03:41:17Z"
   },
   {
     "full_name": "ngmeyer/council-review",
@@ -5428,7 +5435,7 @@
     "full_name": "nidhinjs/prompt-master",
     "repo_url": "https://github.com/nidhinjs/prompt-master",
     "via": "github:nidhinjs",
-    "stars": 9806,
+    "stars": 9812,
     "pushed_at": "2026-06-10T16:14:44Z"
   },
   {
@@ -5470,7 +5477,7 @@
     "full_name": "ningzimu/codex-ppt-skill",
     "repo_url": "https://github.com/ningzimu/codex-ppt-skill",
     "via": "github:ningzimu",
-    "stars": 2586,
+    "stars": 2589,
     "pushed_at": "2026-06-20T15:56:57Z"
   },
   {
@@ -5519,7 +5526,7 @@
     "full_name": "NousResearch/atropos",
     "repo_url": "https://github.com/NousResearch/atropos",
     "via": "hermes-atlas",
-    "stars": 1312,
+    "stars": 1311,
     "pushed_at": "2026-06-22T16:42:07Z"
   },
   {
@@ -5533,14 +5540,14 @@
     "full_name": "NousResearch/hermes-agent",
     "repo_url": "https://github.com/NousResearch/hermes-agent",
     "via": "hermes-atlas",
-    "stars": 203837,
-    "pushed_at": "2026-06-27T03:34:50Z"
+    "stars": 203863,
+    "pushed_at": "2026-06-27T04:19:16Z"
   },
   {
     "full_name": "NousResearch/hermes-agent-self-evolution",
     "repo_url": "https://github.com/NousResearch/hermes-agent-self-evolution",
     "via": "hermes-atlas",
-    "stars": 4363,
+    "stars": 4364,
     "pushed_at": "2026-06-17T11:53:04Z"
   },
   {
@@ -5554,14 +5561,14 @@
     "full_name": "NousResearch/hermes-paperclip-adapter",
     "repo_url": "https://github.com/NousResearch/hermes-paperclip-adapter",
     "via": "hermes-atlas",
-    "stars": 1648,
+    "stars": 1649,
     "pushed_at": "2026-04-04T05:44:23Z"
   },
   {
     "full_name": "nowork-studio/NotFair",
     "repo_url": "https://github.com/nowork-studio/NotFair",
     "via": "github:nowork-studio",
-    "stars": 2999,
+    "stars": 3000,
     "pushed_at": "2026-06-24T00:45:00Z"
   },
   {
@@ -5596,7 +5603,7 @@
     "full_name": "obra/superpowers",
     "repo_url": "https://github.com/obra/superpowers",
     "via": "github:obra",
-    "stars": 239495,
+    "stars": 239527,
     "pushed_at": "2026-06-25T02:35:57Z"
   },
   {
@@ -5708,7 +5715,7 @@
     "full_name": "openclaw/acpx",
     "repo_url": "https://github.com/openclaw/acpx",
     "via": "clawhub",
-    "stars": 2902,
+    "stars": 2904,
     "pushed_at": "2026-06-26T21:06:35Z"
   },
   {
@@ -5722,15 +5729,15 @@
     "full_name": "openclaw/clawbench",
     "repo_url": "https://github.com/openclaw/clawbench",
     "via": "clawhub",
-    "stars": 120,
+    "stars": 121,
     "pushed_at": "2026-06-24T13:16:59Z"
   },
   {
     "full_name": "openclaw/clawhub",
     "repo_url": "https://github.com/openclaw/clawhub",
     "via": "clawhub",
-    "stars": 9040,
-    "pushed_at": "2026-06-27T03:33:25Z"
+    "stars": 9039,
+    "pushed_at": "2026-06-27T04:05:52Z"
   },
   {
     "full_name": "openclaw/clawpatch",
@@ -5778,7 +5785,7 @@
     "full_name": "openclaw/gitcrawl",
     "repo_url": "https://github.com/openclaw/gitcrawl",
     "via": "clawhub",
-    "stars": 88,
+    "stars": 87,
     "pushed_at": "2026-06-23T09:17:47Z"
   },
   {
@@ -5834,7 +5841,7 @@
     "full_name": "openclaw/telecrawl",
     "repo_url": "https://github.com/openclaw/telecrawl",
     "via": "clawhub",
-    "stars": 57,
+    "stars": 58,
     "pushed_at": "2026-06-20T00:55:13Z"
   },
   {
@@ -5883,7 +5890,7 @@
     "full_name": "Orchestra-Research/AI-Research-SKILLs",
     "repo_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
     "via": "github:Orchestra-Research",
-    "stars": 10150,
+    "stars": 10151,
     "pushed_at": "2026-06-16T01:36:46Z"
   },
   {
@@ -5904,7 +5911,7 @@
     "full_name": "OthmanAdi/planning-with-files",
     "repo_url": "https://github.com/OthmanAdi/planning-with-files",
     "via": "github:OthmanAdi",
-    "stars": 23996,
+    "stars": 23998,
     "pushed_at": "2026-06-16T15:16:19Z"
   },
   {
@@ -5927,13 +5934,6 @@
     "via": "github:owgit",
     "stars": 10,
     "pushed_at": "2026-03-30T22:24:09Z"
-  },
-  {
-    "full_name": "PabloNAX/ultracode-skill",
-    "repo_url": "https://github.com/PabloNAX/ultracode-skill",
-    "via": "github:PabloNAX",
-    "stars": 150,
-    "pushed_at": "2026-06-15T08:55:17Z"
   },
   {
     "full_name": "Panmax/awesome-nuwa",
@@ -6044,7 +6044,7 @@
     "full_name": "phuryn/pm-skills",
     "repo_url": "https://github.com/phuryn/pm-skills",
     "via": "github:phuryn",
-    "stars": 21245,
+    "stars": 21252,
     "pushed_at": "2026-06-22T09:34:56Z"
   },
   {
@@ -6079,7 +6079,7 @@
     "full_name": "plannotator/effective-html",
     "repo_url": "https://github.com/plannotator/effective-html",
     "via": "github:plannotator",
-    "stars": 1177,
+    "stars": 1178,
     "pushed_at": "2026-06-19T20:54:33Z"
   },
   {
@@ -6093,7 +6093,7 @@
     "full_name": "PleasePrompto/notebooklm-skill",
     "repo_url": "https://github.com/PleasePrompto/notebooklm-skill",
     "via": "github:PleasePrompto",
-    "stars": 7218,
+    "stars": 7215,
     "pushed_at": "2025-11-21T17:42:12Z"
   },
   {
@@ -6107,7 +6107,7 @@
     "full_name": "plugin87/ux-ui-agent-skills",
     "repo_url": "https://github.com/plugin87/ux-ui-agent-skills",
     "via": "github:plugin87",
-    "stars": 417,
+    "stars": 420,
     "pushed_at": "2026-06-22T03:02:28Z"
   },
   {
@@ -6198,7 +6198,7 @@
     "full_name": "pyrate-llama/hermes-ui",
     "repo_url": "https://github.com/pyrate-llama/hermes-ui",
     "via": "hermes-atlas",
-    "stars": 172,
+    "stars": 173,
     "pushed_at": "2026-06-25T10:37:54Z"
   },
   {
@@ -6443,7 +6443,7 @@
     "full_name": "rohitg00/awesome-claude-design",
     "repo_url": "https://github.com/rohitg00/awesome-claude-design",
     "via": "github:rohitg00",
-    "stars": 782,
+    "stars": 783,
     "pushed_at": "2026-04-23T13:37:55Z"
   },
   {
@@ -6625,14 +6625,14 @@
     "full_name": "samber/cc-skills-golang",
     "repo_url": "https://github.com/samber/cc-skills-golang",
     "via": "github:samber",
-    "stars": 2307,
+    "stars": 2308,
     "pushed_at": "2026-06-23T12:41:05Z"
   },
   {
     "full_name": "SamurAIGPT/Generative-Media-Skills",
     "repo_url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
     "via": "github:SamurAIGPT",
-    "stars": 3639,
+    "stars": 3640,
     "pushed_at": "2026-06-22T09:38:26Z"
   },
   {
@@ -6772,7 +6772,7 @@
     "full_name": "Shanyin-ai/shanyin-screenwriting-master",
     "repo_url": "https://github.com/Shanyin-ai/shanyin-screenwriting-master",
     "via": "github:Shanyin-ai",
-    "stars": 487,
+    "stars": 488,
     "pushed_at": "2026-04-01T02:18:00Z"
   },
   {
@@ -6787,7 +6787,7 @@
     "repo_url": "https://github.com/sheawinkler/hermes-agent-ultra",
     "via": "hermes-atlas",
     "stars": 58,
-    "pushed_at": "2026-06-27T00:06:54Z"
+    "pushed_at": "2026-06-27T04:30:19Z"
   },
   {
     "full_name": "sheeki03/Few-Word",
@@ -6877,7 +6877,7 @@
     "full_name": "sickn33/antigravity-awesome-skills",
     "repo_url": "https://github.com/sickn33/antigravity-awesome-skills",
     "via": "github:sickn33",
-    "stars": 41793,
+    "stars": 41798,
     "pushed_at": "2026-06-26T07:20:09Z"
   },
   {
@@ -7185,7 +7185,7 @@
     "full_name": "stephenschoettler/hermes-lcm",
     "repo_url": "https://github.com/stephenschoettler/hermes-lcm",
     "via": "hermes-atlas",
-    "stars": 788,
+    "stars": 789,
     "pushed_at": "2026-06-26T19:31:46Z"
   },
   {
@@ -7269,8 +7269,8 @@
     "full_name": "supermemoryai/supermemory",
     "repo_url": "https://github.com/supermemoryai/supermemory",
     "via": "hermes-atlas",
-    "stars": 27682,
-    "pushed_at": "2026-06-27T02:32:09Z"
+    "stars": 27689,
+    "pushed_at": "2026-06-27T03:51:40Z"
   },
   {
     "full_name": "supermodeltools/bigiron",
@@ -7388,7 +7388,7 @@
     "full_name": "techygarg/lattice",
     "repo_url": "https://github.com/techygarg/lattice",
     "via": "github:techygarg",
-    "stars": 148,
+    "stars": 149,
     "pushed_at": "2026-06-18T07:28:28Z"
   },
   {
@@ -7402,7 +7402,7 @@
     "full_name": "teknium1/hermes-miniverse",
     "repo_url": "https://github.com/teknium1/hermes-miniverse",
     "via": "hermes-atlas",
-    "stars": 45,
+    "stars": 46,
     "pushed_at": "2026-03-13T11:44:21Z"
   },
   {
@@ -7514,7 +7514,7 @@
     "full_name": "thedotmack/claude-mem",
     "repo_url": "https://github.com/thedotmack/claude-mem",
     "via": "github:thedotmack",
-    "stars": 84531,
+    "stars": 84538,
     "pushed_at": "2026-06-25T22:02:47Z"
   },
   {
@@ -7654,7 +7654,7 @@
     "full_name": "topoteretes/cognee",
     "repo_url": "https://github.com/topoteretes/cognee",
     "via": "github:topoteretes",
-    "stars": 23269,
+    "stars": 23300,
     "pushed_at": "2026-06-26T16:19:13Z"
   },
   {
@@ -7675,7 +7675,7 @@
     "full_name": "travisvn/awesome-claude-skills",
     "repo_url": "https://github.com/travisvn/awesome-claude-skills",
     "via": "github:travisvn",
-    "stars": 13751,
+    "stars": 13752,
     "pushed_at": "2026-04-28T19:30:24Z"
   },
   {
@@ -7780,7 +7780,7 @@
     "full_name": "vectorize-io/hindsight",
     "repo_url": "https://github.com/vectorize-io/hindsight",
     "via": "hermes-atlas",
-    "stars": 17636,
+    "stars": 17637,
     "pushed_at": "2026-06-27T00:38:49Z"
   },
   {
@@ -7794,7 +7794,7 @@
     "full_name": "vercel-labs/agent-browser",
     "repo_url": "https://github.com/vercel-labs/agent-browser",
     "via": "clawhub",
-    "stars": 37277,
+    "stars": 37284,
     "pushed_at": "2026-06-26T17:22:26Z"
   },
   {
@@ -7878,21 +7878,21 @@
     "full_name": "volcengine/OpenViking",
     "repo_url": "https://github.com/volcengine/OpenViking",
     "via": "hermes-atlas",
-    "stars": 26094,
+    "stars": 26095,
     "pushed_at": "2026-06-26T15:13:08Z"
   },
   {
     "full_name": "VoltAgent/awesome-agent-skills",
     "repo_url": "https://github.com/VoltAgent/awesome-agent-skills",
     "via": "github:VoltAgent",
-    "stars": 26571,
+    "stars": 26579,
     "pushed_at": "2026-06-24T05:59:59Z"
   },
   {
     "full_name": "VoltAgent/awesome-openclaw-skills",
     "repo_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
     "via": "github:VoltAgent",
-    "stars": 50642,
+    "stars": 50643,
     "pushed_at": "2026-06-24T05:50:01Z"
   },
   {
@@ -8004,7 +8004,7 @@
     "full_name": "WenyuChiou/awesome-agentic-ai-zh",
     "repo_url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
     "via": "github:WenyuChiou",
-    "stars": 3359,
+    "stars": 3360,
     "pushed_at": "2026-06-24T08:49:02Z"
   },
   {
@@ -8067,15 +8067,15 @@
     "full_name": "worldwonderer/oh-story-claudecode",
     "repo_url": "https://github.com/worldwonderer/oh-story-claudecode",
     "via": "github:worldwonderer",
-    "stars": 3150,
-    "pushed_at": "2026-06-27T02:45:17Z"
+    "stars": 3153,
+    "pushed_at": "2026-06-27T04:07:24Z"
   },
   {
     "full_name": "worldwonderer/video-recap-skills",
     "repo_url": "https://github.com/worldwonderer/video-recap-skills",
     "via": "github:worldwonderer",
-    "stars": 333,
-    "pushed_at": "2026-06-27T03:24:01Z"
+    "stars": 334,
+    "pushed_at": "2026-06-27T03:40:03Z"
   },
   {
     "full_name": "wrsmith108/claude-md-optimizer",
@@ -8102,7 +8102,7 @@
     "full_name": "wshobson/agents",
     "repo_url": "https://github.com/wshobson/agents",
     "via": "github:wshobson",
-    "stars": 37231,
+    "stars": 37232,
     "pushed_at": "2026-06-25T13:03:19Z"
   },
   {
@@ -8116,7 +8116,7 @@
     "full_name": "wuyoscar/GPT-Image2-Skill",
     "repo_url": "https://github.com/wuyoscar/GPT-Image2-Skill",
     "via": "github:wuyoscar",
-    "stars": 3298,
+    "stars": 3299,
     "pushed_at": "2026-05-23T09:30:10Z"
   },
   {
@@ -8235,7 +8235,7 @@
     "full_name": "Xquik-dev/hermes-tweet",
     "repo_url": "https://github.com/Xquik-dev/hermes-tweet",
     "via": "hermes-atlas",
-    "stars": 14,
+    "stars": 15,
     "pushed_at": "2026-06-25T19:38:30Z"
   },
   {
@@ -8277,7 +8277,7 @@
     "full_name": "yaojingang/yao-meta-skill",
     "repo_url": "https://github.com/yaojingang/yao-meta-skill",
     "via": "github:yaojingang",
-    "stars": 1620,
+    "stars": 1621,
     "pushed_at": "2026-06-21T08:40:42Z"
   },
   {
@@ -8340,7 +8340,7 @@
     "full_name": "ykdojo/claude-code-tips",
     "repo_url": "https://github.com/ykdojo/claude-code-tips",
     "via": "github:ykdojo",
-    "stars": 8938,
+    "stars": 8937,
     "pushed_at": "2026-06-27T01:13:06Z"
   },
   {
@@ -8362,7 +8362,7 @@
     "repo_url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
     "via": "github:YouMind-OpenLab",
     "stars": 1718,
-    "pushed_at": "2026-06-26T14:34:59Z"
+    "pushed_at": "2026-06-27T04:01:29Z"
   },
   {
     "full_name": "YPares/rigup.nix",
@@ -8389,7 +8389,7 @@
     "full_name": "YurunChen/repo-docs-skills",
     "repo_url": "https://github.com/YurunChen/repo-docs-skills",
     "via": "github:YurunChen",
-    "stars": 68,
+    "stars": 71,
     "pushed_at": "2026-06-25T07:16:34Z"
   },
   {
@@ -8410,7 +8410,7 @@
     "full_name": "yvgude/lean-ctx",
     "repo_url": "https://github.com/yvgude/lean-ctx",
     "via": "github:yvgude",
-    "stars": 2960,
+    "stars": 2961,
     "pushed_at": "2026-06-26T22:33:49Z"
   },
   {
@@ -8425,7 +8425,7 @@
     "repo_url": "https://github.com/yzhao062/anywhere-agents",
     "via": "github:yzhao062",
     "stars": 186,
-    "pushed_at": "2026-06-26T23:07:40Z"
+    "pushed_at": "2026-06-27T03:49:55Z"
   },
   {
     "full_name": "zaferayan/skills",
@@ -8452,7 +8452,7 @@
     "full_name": "zapier/gtm-cheat-codes",
     "repo_url": "https://github.com/zapier/gtm-cheat-codes",
     "via": "github:zapier",
-    "stars": 290,
+    "stars": 289,
     "pushed_at": "2026-06-12T00:50:33Z"
   },
   {
