@@ -1,0 +1,25 @@
+{
+  "full_name": "zsyggg/paper-craft-skills",
+  "slug": "paper-comic",
+  "name": "Paper Comic",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "paper-figure",
+    "illustration",
+    "image-generation",
+    "academic",
+    "diagram"
+  ],
+  "description_en": "Turn a paper's core method into visual method figures that explain exactly what it does and how. Reads the paper, proposes a cover / overview / mechanism-detail figure plan, and—only after you confirm scope, count, language, and style—generates 1–10 figures in a warm sketchnote or publication-grade paper-figure style.",
+  "description_zh": "把论文的核心方法转成讲清楚「做了什么、怎么做」的视觉方法图。读论文后先给出封面/概述/机制细节的出图方案,在你确认范围、张数、语言、风格之后,再生成 1–10 张图,支持温暖手记风(sketchnote)或顶会论文框架图风(paper-figure)。",
+  "long_en": "One of three skills in zsyggg's paper-craft collection (this entry installs just the paper-comic folder, not the whole repo). Unlike a generic article illustrator, it draws only three things—method flow (input→process→output), the single most novel mechanism unpacked, and the most convincing results—and refuses to decorate or visualize what a sentence already explains. The workflow is confirmation-gated: it reads the paper, recommends a figure plan (cover / overview / mechanism details / key result) with a suggested count and rationale, and will not generate until you confirm language, scope, count, and style. Two styles: sketchnote (bright, warm hand-drawn study-note look) and paper-figure (clean, publication-grade overview diagram). It hardcodes no image API—at runtime it detects and uses whatever image-generation backend is available (e.g. Codex's imagegen or an installed Claude Code image-gen skill).",
+  "long_zh": "zsyggg paper-craft 三件套技能之一(本条目只安装 paper-comic 这一个目录,而非整仓)。与通用配图工具不同,它只画三样东西——方法流程(输入→处理→输出)、最创新的那个机制(拆开看内部)、最有说服力的结果——并拒绝装饰图或把一句话就能讲清的东西画出来。工作流强制确认:读完论文先给出出图方案(封面 / 概述 / 机制细节 / 关键结果)及建议张数和理由,在你确认语言、范围、张数、风格之前不会生成。两种风格:sketchnote(明亮温暖的手绘研究手记风)与 paper-figure(干净的顶会级方法总览框架图)。它不写死任何图像 API——运行时自动检测并使用当前可用的生图后端(如 Codex 的 imagegen 或已安装的 Claude Code 生图技能)。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/zsyggg/paper-craft-skills",
+    "subdir": "skills/paper-comic"
+  },
+  "sec_note_en": "Needs an image-generation backend to produce figures—it hardcodes no API key and instead uses whatever is installed (Codex's built-in imagegen, or a Claude Code image-gen skill); that backend may require its own account/credits and sends your figure prompts to a third-party model. Reads the paper (arXiv/PDF) to plan figures. By design it asks for confirmation before generating, so you control scope and cost. The repo's README states MIT, but it ships no LICENSE file.",
+  "sec_note_zh": "生成图片需要一个生图后端——它不写死任何 API key,而是使用已安装的后端(Codex 内置 imagegen,或某个 Claude Code 生图技能);该后端可能需要自己的账号/额度,并会把你的出图 prompt 发送给第三方模型。读论文(arXiv/PDF)以规划出图。设计上生成前会先确认,因此范围与花费由你掌控。仓库 README 标注 MIT,但未附 LICENSE 文件。"
+}

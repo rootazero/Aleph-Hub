@@ -1,0 +1,25 @@
+{
+  "full_name": "zsyggg/paper-craft-skills",
+  "slug": "paper-analyzer",
+  "name": "Paper Analyzer",
+  "kind": "skill",
+  "category": "knowledge",
+  "tags": [
+    "paper-reading",
+    "research",
+    "arxiv",
+    "html",
+    "academic"
+  ],
+  "description_en": "Turn an academic paper (arXiv link, PDF, or pasted text) into a polished, shareable HTML deep-dive article. Runs a mandatory multi-round workflow: read the full paper, search GitHub for the matching code and cross-reference it, then write in one of three styles—storytelling / academic / concise—with KaTeX formulas and Mermaid diagrams. Zero config, no API keys.",
+  "description_zh": "把学术论文(arXiv 链接、PDF 或粘贴文本)转成精美、可直接分享的 HTML 深度解读长文。运行强制多轮工作流:读全文 → 搜 GitHub 找对应代码并交叉引用 → 按三种风格之一(故事 / 学术 / 速览)写作,带 KaTeX 公式与 Mermaid 图表。零配置、无需 API key。",
+  "long_en": "One of three skills in zsyggg's paper-craft collection (this entry installs just the paper-analyzer folder, not the whole repo). It runs a disciplined 6-round pipeline that cannot be skipped: (1) fetch the full paper—reading both the arXiv abstract and HTML full text, or the PDF, or pasted text; (2) find and clone the matching open-source code (`git clone --depth 1` into /tmp) and locate ≥2 concrete paper↔source correspondences; (3) analyze core contributions, method, key experiments, and weaknesses internally; (4) ask the user for a writing style; (5) emit a complete standalone HTML article; (6) self-review against per-style hard requirements. Three styles—storytelling (viral-blog voice), academic (peer-review-grade, ≥5 KaTeX formulas and comparison tables), concise (cheat-sheet with a Mermaid diagram). Bundled Python scripts handle paper-info extraction and HTML generation.",
+  "long_zh": "zsyggg paper-craft 三件套技能之一(本条目只安装 paper-analyzer 这一个目录,而非整仓)。它运行一套不可跳过的 6 轮流水线:(1) 获取论文全文——同时读 arXiv 摘要页与 HTML 全文,或读 PDF,或用粘贴文本;(2) 找到并克隆对应开源代码(`git clone --depth 1` 到 /tmp),定位 ≥2 处论文↔源码对应;(3) 内部分析核心创新、方法、关键实验与弱点;(4) 询问用户写作风格;(5) 输出完整独立 HTML 长文;(6) 按各风格硬标准自我审查。三种风格——故事型(公众号爆文腔)、学术型(同行评审级,≥5 处 KaTeX 公式 + 对比表)、速览型(带 Mermaid 图的速查卡)。附带 Python 脚本负责论文信息抽取与 HTML 生成。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/zsyggg/paper-craft-skills",
+    "subdir": "skills/paper-analyzer"
+  },
+  "sec_note_en": "Reaches the network: fetches arXiv pages/PDFs and, to cross-reference code, searches GitHub and runs `git clone --depth 1` on the repository it finds into /tmp. Reads local PDFs you point it at and runs bundled Python scripts (extract_paper_info.py, generate_html.py) to parse the paper and emit the HTML. No API keys or accounts. Review any cloned third-party code and the generated article before sharing. The repo's README states MIT, but it ships no LICENSE file.",
+  "sec_note_zh": "会联网:抓取 arXiv 页面/PDF,并为交叉引用代码而搜索 GitHub、对找到的仓库执行 `git clone --depth 1` 到 /tmp。读取你指定的本地 PDF,并运行附带的 Python 脚本(extract_paper_info.py、generate_html.py)解析论文、生成 HTML。无需 API key 或账号。分享前请审阅克隆的第三方代码与生成的文章。仓库 README 标注 MIT,但未附 LICENSE 文件。"
+}

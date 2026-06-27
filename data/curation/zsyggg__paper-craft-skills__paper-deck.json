@@ -1,0 +1,25 @@
+{
+  "full_name": "zsyggg/paper-craft-skills",
+  "slug": "paper-deck",
+  "name": "Paper Deck",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "slides",
+    "presentation",
+    "pptx",
+    "image-generation",
+    "academic"
+  ],
+  "description_en": "Turn a paper, article, or technical note into a designed AIGC slide deck that doesn't look like a template. Builds a deck brief and slide-by-slide outline, writes a reproducible visual prompt per page, generates 16:9 slide images via a raster image backend, and merges them into .pptx and .pdf. Four style presets; can mount real figures cropped from the source PDF.",
+  "description_zh": "把论文、技术文章或知识内容做成「看起来真的被设计过」的 AIGC 幻灯片。先做 deck brief 和逐页大纲,为每页写可复现的视觉 prompt,用生图后端生成 16:9 slide image,再合成 .pptx 与 .pdf。四种风格预设;可把源 PDF 里的真实图表裁剪后嵌入版面。",
+  "long_en": "One of three skills in zsyggg's paper-craft collection (this entry installs just the paper-deck folder, not the whole repo). A raster-first AIGC slide workflow: it analyzes the source into an analysis.md, gets your confirmation, writes a deck-brief.md and a per-page outline.md (one message per slide), then generates each 16:9 page as a real generated image and merges everything into .pptx and .pdf—keeping every page's prompt as a re-editable source so you can ask for precise changes ('redo slide 5', 'make it more journal-like'). Four style presets: journal-minimal, business-research, warm-notes, liquid-glass. It can plan and mount real source visuals (figures, tables, plots cropped from the PDF) instead of hallucinating them. It deliberately refuses to fake 'generated' pages with local drawing (Pillow/SVG/HTML/matplotlib) and stops if no raster image backend is available. A bundled Python script merges the deck.",
+  "long_zh": "zsyggg paper-craft 三件套技能之一(本条目只安装 paper-deck 这一个目录,而非整仓)。raster-first 的 AIGC 幻灯片工作流:先把源内容分析成 analysis.md,经你确认后写 deck-brief.md 和逐页 outline.md(每页一个观点),再把每一页 16:9 作为真实生图输出,最后合成 .pptx 与 .pdf——并保留每页 prompt 作为可返修源文件,便于你精确返修(「重做第 5 页」「更像期刊风」)。四种风格预设:journal-minimal、business-research、warm-notes、liquid-glass。它能规划并嵌入真实素材(从 PDF 裁剪的图、表、曲线)而非凭空生成。它刻意拒绝用本地绘图(Pillow/SVG/HTML/matplotlib)伪造「生图页」,若没有可用的生图后端会直接停止。附带的 Python 脚本负责合成 deck。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/zsyggg/paper-craft-skills",
+    "subdir": "skills/paper-deck"
+  },
+  "sec_note_en": "Requires a raster image-generation backend (it refuses to fall back to local drawing and stops if none is available); that backend may need its own account/credits and receives your per-slide prompts. Reads the source (arXiv/PDF), may screenshot/crop real figures from your PDF, and runs a bundled Python script to merge pages into .pptx/.pdf on disk. It asks for confirmation before generating, so you control page count and cost. The repo's README states MIT, but it ships no LICENSE file.",
+  "sec_note_zh": "需要一个生图后端(它拒绝退化为本地绘图,没有可用后端就停止);该后端可能需要自己的账号/额度,并会收到你每页的 prompt。读取源内容(arXiv/PDF),可能从你的 PDF 截图/裁剪真实图表,并运行附带的 Python 脚本把各页合成 .pptx/.pdf 写到磁盘。生成前会先确认,因此页数与花费由你掌控。仓库 README 标注 MIT,但未附 LICENSE 文件。"
+}
