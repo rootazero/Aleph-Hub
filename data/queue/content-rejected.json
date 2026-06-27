@@ -52,5 +52,10 @@
   "aleph-hub:JuliusBrussee/caveman#claude",
   "aleph-hub:JuliusBrussee/caveman#evals-prompts-en",
   "aleph-hub:dair-ai/Prompt-Engineering-Guide#claude",
-  "aleph-hub:headroomlabs-ai/headroom#changelog"
+  "aleph-hub:headroomlabs-ai/headroom#changelog",
+  "aleph-hub:JuliusBrussee/caveman#skills-caveman-stats-skill",
+  "aleph-hub:JuliusBrussee/caveman#skills-caveman-help-skill",
+  "aleph-hub:JuliusBrussee/caveman#skills-caveman-compress-skill",
+  "aleph-hub:DietrichGebert/ponytail#openclaw-skills-ponytail-gain-skill",
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-agents-prompt-manager"
 ]

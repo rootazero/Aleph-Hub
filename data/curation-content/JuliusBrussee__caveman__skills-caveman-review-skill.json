@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:JuliusBrussee/caveman#skills-caveman-review-skill",
+  "full_name": "JuliusBrussee/caveman",
+  "slug": "skills-caveman-review-skill",
+  "source_path": "skills/caveman-review/SKILL.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Caveman Review (Terse Code Review)",
+  "tags": [
+    "code-review",
+    "pull-request",
+    "developer"
+  ],
+  "format": "markdown",
+  "body": "---\nname: caveman-review\ndescription: >\n  Ultra-compressed code review comments. Cuts noise from PR feedback while preserving\n  the actionable signal. Each comment is one line: location, problem, fix. Use when user\n  says \"review this PR\", \"code review\", \"review the diff\", \"/review\", or invokes\n  /caveman-review. Auto-triggers when reviewing pull requests.\n---\n\nWrite code review comments terse and actionable. One line per finding. Location, problem, fix. No throat-clearing.\n\n## Rules\n\n**Format:** `L<line>: <problem>. <fix>.` — or `<file>:L<line>: ...` when reviewing multi-file diffs.\n\n**Severity prefix (optional, when mixed):**\n- `🔴 bug:` — broken behavior, will cause incident\n- `🟡 risk:` — works but fragile (race, missing null check, swallowed error)\n- `🔵 nit:` — style, naming, micro-optim. Author can ignore\n- `❓ q:` — genuine question, not a suggestion\n\n**Drop:**\n- \"I noticed that...\", \"It seems like...\", \"You might want to consider...\"\n- \"This is just a suggestion but...\" — use `nit:` instead\n- \"Great work!\", \"Looks good overall but...\" — say it once at the top, not per comment\n- Restating what the line does — the reviewer can read the diff\n- Hedging (\"perhaps\", \"maybe\", \"I think\") — if unsure use `q:`\n\n**Keep:**\n- Exact line numbers\n- Exact symbol/function/variable names in backticks\n- Concrete fix, not \"consider refactoring this\"\n- The *why* if the fix isn't obvious from the problem statement\n\n## Examples\n\n❌ \"I noticed that on line 42 you're not checking if the user object is null before accessing the email property. This could potentially cause a crash if the user is not found in the database. You might want to add a null check here.\"\n\n✅ `L42: 🔴 bug: user can be null after .find(). Add guard before .email.`\n\n❌ \"It looks like this function is doing a lot of things and might benefit from being broken up into smaller functions for readability.\"\n\n✅ `L88-140: 🔵 nit: 50-line fn does 4 things. Extract validate/normalize/persist.`\n\n❌ \"Have you considered what happens if the API returns a 429? I think we should probably handle that case.\"\n\n✅ `L23: 🟡 risk: no retry on 429. Wrap in withBackoff(3).`\n\n## Auto-Clarity\n\nDrop terse mode for: security findings (CVE-class bugs need full explanation + reference), architectural disagreements (need rationale, not just a one-liner), and onboarding contexts where the author is new and needs the \"why\". In those cases write a normal paragraph, then resume terse for the rest.\n\n## Boundaries\n\nReviews only — does not write the code fix, does not approve/request-changes, does not run linters. Output the comment(s) ready to paste into the PR. \"stop caveman-review\" or \"normal mode\": revert to verbose review style.",
+  "description_en": "A skill that writes one-line code-review comments — location, problem, fix — dropping hedging and throat-clearing.",
+  "description_zh": "一个技能：写出单行代码评审意见——位置、问题、修复——去掉模棱两可与客套铺垫。",
+  "long_en": "Turns PR feedback into terse, actionable one-liners with an optional severity prefix (bug/risk/nit/question) and a fixed 'L<line>: <problem>. <fix>.' format. It bans restating the diff and per-comment praise.",
+  "long_zh": "把 PR 反馈转成简洁、可执行的单行意见，可选严重级别前缀（bug/risk/nit/question），并使用固定的 `L<行号>: <问题>。<修复>。` 格式。它禁止复述 diff 与逐条夸赞。",
+  "sec_note_en": "Plain prompt/skill; no tool access or external calls.",
+  "sec_note_zh": "纯提示词/技能；不涉及工具调用或外部请求。"
+}
