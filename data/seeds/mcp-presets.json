@@ -87,7 +87,7 @@
       "kind": "mcp",
       "name": "MiniMax",
       "author": "MiniMax",
-      "category": "design",
+      "category": "developer",
       "tags": ["image", "video", "tts", "model-provider"],
       "install_spec": {
         "type": "mcp_stdio",
@@ -115,7 +115,7 @@
       "kind": "mcp",
       "name": "火山引擎 veImageX",
       "author": "火山引擎 ByteDance",
-      "category": "design",
+      "category": "developer",
       "tags": ["image", "ocr", "model-provider"],
       "install_spec": {
         "type": "mcp_stdio",

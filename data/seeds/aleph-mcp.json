@@ -7,7 +7,7 @@
       "kind": "mcp",
       "name": "SiliconFlow 媒体生成",
       "author": "rootazero",
-      "category": "design",
+      "category": "developer",
       "tags": ["image", "video", "tts", "model-provider"],
       "via": "aleph-official",
       "install_spec": {
@@ -62,7 +62,7 @@
       "kind": "mcp",
       "name": "T8star 中转",
       "author": "rootazero",
-      "category": "design",
+      "category": "developer",
       "tags": ["image", "tts", "model-provider"],
       "via": "aleph-official",
       "install_spec": {

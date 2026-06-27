@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 148,
-    "generated_at": "2026-06-27T11:25:41.128Z",
-    "content_hash": "sha256:d011c67fd94d3685d53c84eccb5a25be1bc14ad2d62f6e64d3153f44e05b88ce"
+    "generated_at": "2026-06-27T11:33:39.560Z",
+    "content_hash": "sha256:f2dcaff539e93aeb7229ba2c7951e256cc46a91917ead40e4269f4f82a844c6a"
   },
   "entries": [
     {
@@ -1096,7 +1096,7 @@
     {
       "id": "aleph-hub:minimax",
       "kind": "mcp",
-      "category": "design",
+      "category": "developer",
       "name": "MiniMax",
       "description": "Image, video, and speech synthesis from MiniMax (official).",
       "repo_url": "https://github.com/MiniMax-AI/MiniMax-MCP",
@@ -1137,7 +1137,7 @@
     {
       "id": "aleph-hub:volcengine-veimagex",
       "kind": "mcp",
-      "category": "design",
+      "category": "developer",
       "name": "火山引擎 veImageX",
       "description": "Text-to-image, super-resolution, outpainting, and OCR image capabilities from Volcengine (official).",
       "repo_url": "https://github.com/volcengine/mcp-server",
@@ -1189,7 +1189,7 @@
     {
       "id": "aleph-hub:siliconflow",
       "kind": "mcp",
-      "category": "design",
+      "category": "developer",
       "name": "SiliconFlow 媒体生成",
       "description": "Aleph's official SiliconFlow media-generation MCP — image / video / TTS over an npx stdio process.",
       "repo_url": "https://github.com/rootazero/Aleph-mcp/tree/main/siliconflow",
@@ -1242,7 +1242,7 @@
     {
       "id": "aleph-hub:t8star",
       "kind": "mcp",
-      "category": "design",
+      "category": "developer",
       "name": "T8star 中转",
       "description": "Aleph's official T8star media-generation MCP — image / TTS over an npx stdio process against the T8star model relay.",
       "repo_url": "https://github.com/rootazero/Aleph-mcp/tree/main/t8star",
