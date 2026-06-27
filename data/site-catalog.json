@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 144,
-    "generated_at": "2026-06-27T04:34:28.297Z",
-    "content_hash": "sha256:3e529871a264e25eb774dd547fc64ae9e18459da24b754d5f89364c904aca721"
+    "entry_count": 147,
+    "generated_at": "2026-06-27T05:06:34.408Z",
+    "content_hash": "sha256:2dd9bee685947175d4da3e9de65d5efecc28117b263732601284043188d54e2a"
   },
   "entries": [
     {
@@ -1918,7 +1918,7 @@
       "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
       "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
       "cover_color": "#A0612F",
-      "stars": 34399,
+      "stars": 34400,
       "trend": 0,
       "spark": [
         34135,
@@ -1929,7 +1929,8 @@
         34372,
         34381,
         34397,
-        34399
+        34399,
+        34400
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-25",
@@ -1978,6 +1979,7 @@
         6207,
         6212,
         6212,
+        6215,
         6215,
         6215
       ],
@@ -2035,6 +2037,7 @@
         5283,
         5284,
         5286,
+        5286,
         5286
       ],
       "license": "Apache-2.0",
@@ -2080,6 +2083,7 @@
         2701,
         2727,
         2773,
+        2776,
         2776
       ],
       "license": "MIT",
@@ -2115,14 +2119,15 @@
       "long_zh": "一个基于提示的编辑器，扫描文本中的 AI 写作模式并重写问题片段，同时保留原意、匹配预期语气。除了去除不良模式，还注入「人味」——观点、节奏变化、承认复杂性——让成稿读起来像真人所写。与 stop-slop-zh 同源。",
       "long_en": "A prompt-based editor that scans text for AI writing patterns and rewrites the offending passages while preserving meaning and matching the intended tone. Beyond removing bad patterns it injects voice—opinions, varied rhythm, acknowledged complexity—so the result reads like real human writing. Same lineage as stop-slop-zh.",
       "cover_color": "#86512C",
-      "stars": 11698,
+      "stars": 11699,
       "trend": 0,
       "spark": [
         11517,
         11644,
         11675,
         11694,
-        11698
+        11698,
+        11699
       ],
       "license": "MIT",
       "updated": "2026-01-19",
@@ -2158,14 +2163,15 @@
       "long_zh": "一个 agent 技能，产出自包含的 HTML 演示，提供两套可选视觉系统、键盘/滚轮/触屏翻页与 ESC 索引、Lucide 图标，以及 Motion One 入场动效(本地 + CDN 双保险)。面向线下分享、产品发布，以及任何需要杂志感或瑞士设计感的演讲。",
       "long_en": "An agent skill that outputs a self-contained HTML presentation with two selectable visual systems, keyboard / wheel / touch navigation and an ESC index, Lucide icons, and Motion One entrance animations (local + CDN fallback). Aimed at offline talks, product launches, and any deck that needs an editorial or Swiss-design feel.",
       "cover_color": "#C98A3C",
-      "stars": 19114,
+      "stars": 19117,
       "trend": 0,
       "spark": [
         18869,
         19023,
         19060,
         19110,
-        19114
+        19114,
+        19117
       ],
       "license": "AGPL-3.0",
       "updated": "2026-06-02",
@@ -2201,14 +2207,15 @@
       "long_zh": "一个 Claude Code 插件，打包十多个前端设计技能，安装后每个均可按名调用。提供多种鲜明的美学方向(brutalist、minimalist、soft、瑞士/stitch)、品牌套件与重设计助手，以及 image-to-code / 图像生成工作流——引导 agent 做出有意图、不千篇一律的界面。",
       "long_en": "A Claude Code plugin packaging more than a dozen frontend-design skills, each invocable by name after install. It offers distinct aesthetic directions (brutalist, minimalist, soft, Swiss/stitch), brand-kit and redesign helpers, and image-to-code / image-generation workflows—steering agents toward deliberate, non-generic interfaces.",
       "cover_color": "#7E4A2A",
-      "stars": 51651,
+      "stars": 51660,
       "trend": 0,
       "spark": [
         50519,
         51195,
         51304,
         51630,
-        51651
+        51651,
+        51660
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2245,14 +2252,15 @@
       "long_zh": "随仓库附带的 Claude skill(SKILL.md)是一个「互联网能力路由器」:把用户意图或粘贴的链接映射到对应的 agent-reach CLI 命令,先跑 `agent-reach doctor` 为每个平台挑选可用后端,某个接入失效时自动切换备选。六个渠道(网页、YouTube、RSS、V2EX、全文搜索、公开 GitHub)零配置可用;需登录的平台(Twitter、Reddit、小红书、领英)用用户自己的 Cookie 解锁。仅读取 / 搜索、不发帖——给 agent 眼睛而非手。",
       "long_en": "A companion Claude skill (SKILL.md) acts as an 'internet capability router': it maps a user's intent or a pasted URL to the right agent-reach CLI command, runs `agent-reach doctor` to pick a working backend per platform, and falls back across backends when one is blocked. Six channels (web, YouTube, RSS, V2EX, full-text search, public GitHub) work with zero config; login-gated platforms (Twitter, Reddit, Xiaohongshu, LinkedIn) unlock with the user's own cookies. It is read/search only—no posting—so it gives the agent eyes, not hands.",
       "cover_color": "#B5562B",
-      "stars": 42527,
+      "stars": 42560,
       "trend": 0,
       "spark": [
         40248,
         41649,
         41885,
         42475,
-        42527
+        42527,
+        42560
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -2294,6 +2302,7 @@
         7,
         7,
         7,
+        7,
         7
       ],
       "license": "MIT",
@@ -2331,13 +2340,14 @@
       "long_zh": "一个文档转 PPTX 的技能,以 Claude Code 插件形式打包(技能位于 skills/ppt-master)。它强制串行纪律——逐页手写 SVG 并携带完整上文,而非批量脚本生成——以保证长 deck 的视觉一致性,再把 SVG 页面转成可编辑的 PowerPoint 对象。",
       "long_en": "A document-to-PPTX skill packaged as a Claude Code plugin (the skill lives at skills/ppt-master). It enforces a strict serial discipline—per-page SVG authoring with full upstream context rather than batch script generation—to keep long decks visually consistent, then converts the SVG pages into editable PowerPoint objects.",
       "cover_color": "#B5562B",
-      "stars": 32453,
+      "stars": 32462,
       "trend": 0,
       "spark": [
         31789,
         32104,
         32438,
-        32453
+        32453,
+        32462
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -2373,13 +2383,14 @@
       "long_zh": "一个面向视觉 HTML 产出的设计技能(agent 无关)——原型、幻灯片、动画、信息图,而非生产级 Web App。需求模糊时可进入设计方向顾问、并行产出三套真实视觉变体,并在动手前用联网搜索核实产品事实。",
       "long_en": "A design-focused skill (agent-agnostic) for visual HTML output—prototypes, slides, animations, infographics—rather than production web apps. It can run a design-direction advisor that produces three real visual variants in parallel when the brief is vague, and verifies product facts via web search before designing.",
       "cover_color": "#9C5A2C",
-      "stars": 19949,
+      "stars": 19952,
       "trend": 0,
       "spark": [
         19842,
         19880,
         19946,
-        19949
+        19949,
+        19952
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -2415,13 +2426,14 @@
       "long_zh": "宝玉(Jim Liu)技能合集中的幻灯片技能——本条目只安装 baoyu-slide-deck 这一个目录,而非整套 21 个技能。它调用宿主 agent 暴露的用户输入与图片生成工具来排版并渲染每一页。",
       "long_en": "The slide-deck skill from Baoyu's (Jim Liu) skills collection—the curated entry installs just the baoyu-slide-deck folder, not the whole 21-skill bundle. It drives whatever user-input and image-generation tools the host agent exposes to lay out and render each slide.",
       "cover_color": "#7E4A2A",
-      "stars": 22601,
+      "stars": 22604,
       "trend": 0,
       "spark": [
         22540,
         22566,
         22595,
-        22601
+        22601,
+        22604
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2463,6 +2475,7 @@
         6545,
         6561,
         6579,
+        6581,
         6581
       ],
       "license": "MIT",
@@ -2504,6 +2517,7 @@
       "spark": [
         72,
         90,
+        90,
         90
       ],
       "license": "MIT",
@@ -2542,9 +2556,10 @@
       "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the web-shader-extractor folder, not the whole repo). A router-style SKILL.md plus a dozen focused references and JSON/markdown templates drive a disciplined recon state machine: intake → surface attribution → target lock → source/runtime trace → minimum-truth capture → verified baseline → projectize → QA. It labels facts as SOURCE / PARTIAL / GUESS, forbids 'compensation tuning' to mask missing pipeline evidence, and ships platform adapters for Three.js/TSL, Unicorn Studio, and shaders.com. Bundled scripts (rendered-DOM inventory, bundle scan) are treated as hypotheses, never as gate-passing proof. Not for ordinary DOM/CSS page cloning.",
       "cover_color": "#B5562B",
       "stars": 348,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         344,
+        348,
         348
       ],
       "updated": "2026-06-26",
@@ -2582,9 +2597,10 @@
       "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the weekly-report folder, not the whole repo). It runs a disciplined pipeline: resolve the week's absolute range (via a bundled `resolve_week_range.py`), discover which channels are available (collab_platform, git, agent, local_docs), collect each channel's capabilities into normalized Evidence objects (with source, actors, timestamp, url/path, confidence), merge them into Work Topics (what/status/key conclusions/supporting evidence/next-week), and render a report from a template. Rules enforce a stated date range, ≥2 evidence types per core item (or an explicit 'insufficient evidence' flag), and a hard split between fact and inference. References cover each channel (incl. Lark/Feishu, Git, local docs).",
       "cover_color": "#B5562B",
       "stars": 348,
-      "trend": 1,
+      "trend": 0,
       "spark": [
         344,
+        348,
         348
       ],
       "updated": "2026-06-26",
@@ -2620,11 +2636,12 @@
       "long_zh": "一个 Claude Code 插件(同时兼容 Agent-Skills 规范,可用于 Codex 与 OpenCode),打包 obsidian-markdown、obsidian-bases、json-canvas、obsidian-cli、defuddle 五个技能。可按需调用:用 Obsidian 专有语法创建/编辑笔记,用 Bases 建带筛选与公式的类数据库视图,排布可视化 canvas,从命令行驱动仓库(含插件/主题开发——重载插件、运行 JS、捕获错误、截图、检查 DOM),以及把网页提取为去杂的 markdown 以省 token。所用格式均为开放规范,产物可移植。",
       "long_en": "A Claude Code plugin (also Agent-Skills-spec compatible, so it works in Codex and OpenCode) bundling obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli, and defuddle. Each is invocable on demand: create/edit notes with Obsidian-specific syntax, build database-like Bases views with filters and formulas, lay out visual canvases, drive the vault from the CLI (including plugin/theme dev—reload plugins, run JS, capture errors, screenshot, inspect the DOM), and extract clutter-free markdown from web pages to save tokens. The formats are open specs, so output stays portable.",
       "cover_color": "#C9542A",
-      "stars": 38417,
+      "stars": 38423,
       "trend": 0,
       "spark": [
         38409,
-        38417
+        38417,
+        38423
       ],
       "license": "MIT",
       "updated": "2026-06-08",
@@ -2660,17 +2677,129 @@
       "long_zh": "运行一条多 agent 流水线(项目扫描 → 逐文件分析 → 架构分层 → 业务域抽取 → 图谱组装 → 审校),产出 JSON 图谱与可在浏览器中平移、缩放、搜索的交互式仪表盘。技能包括 /understand(建图)、/understand-dashboard、/understand-explain、/understand-onboard、/understand-diff(改动的连锁影响)、/understand-domain(业务流)、/understand-knowledge(把 Karpathy 式 LLM wiki 变成力导向、社区聚类的图谱)与 /understand-chat。跨平台:Claude Code 市场,外加 Codex、Cursor、Copilot、Gemini CLI 等可经仓库的 install.sh 安装。",
       "long_en": "Runs a multi-agent pipeline (project scan → per-file analysis → architecture layering → domain extraction → graph assembly → review) that emits JSON graphs and an interactive dashboard you pan, zoom, and search in the browser. Skills include /understand (build the graph), /understand-dashboard, /understand-explain, /understand-onboard, /understand-diff (ripple effect of a change), /understand-domain (business flows), /understand-knowledge (turn a Karpathy-style LLM wiki into a force-directed, community-clustered graph), and /understand-chat. Cross-platform: Claude Code marketplace, plus Codex, Cursor, Copilot, Gemini CLI and others via the repo's install.sh.",
       "cover_color": "#A0612F",
-      "stars": 68397,
+      "stars": 68402,
       "trend": 0,
       "spark": [
         68389,
-        68397
+        68397,
+        68402
       ],
       "license": "MIT",
       "updated": "2026-06-23",
       "install_cmd": "aleph add Understand-Anything",
       "sec_note_zh": "MIT 许可;分析通过你自己的 agent/LLM 在本地运行——会大量读取源码并喂给模型,因此大仓库会产生可观的 token 消耗,也不宜对着含密钥、你不愿发送给模型厂商的目录使用。产物(图谱+仪表盘)写在本地;存在可选的托管 demo/主页,但使用插件并不依赖它。",
       "sec_note_en": "MIT-licensed; the analysis runs locally through your own agent/LLM—your source is read in bulk and fed to the model, so expect significant token usage on large repos and avoid pointing it at secrets-laden trees you don't want sent to your model provider. Output (graphs + dashboard) is written locally; an optional hosted demo/homepage exists but isn't required to use the plugin."
+    },
+    {
+      "id": "aleph-hub:zsyggg/paper-craft-skills/paper-analyzer",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Paper Analyzer",
+      "description": "Turn an academic paper (arXiv link, PDF, or pasted text) into a polished, shareable HTML deep-dive article. Runs a mandatory multi-round workflow: read the full paper, search GitHub for the matching code and cross-reference it, then write in one of three styles—storytelling / academic / concise—with KaTeX formulas and Mermaid diagrams. Zero config, no API keys.",
+      "repo_url": "https://github.com/zsyggg/paper-craft-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zsyggg/paper-craft-skills",
+        "subdir": "skills/paper-analyzer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zsyggg",
+      "tags": [
+        "paper-reading",
+        "research",
+        "arxiv",
+        "html",
+        "academic"
+      ],
+      "via": "github:zsyggg",
+      "description_zh": "把学术论文(arXiv 链接、PDF 或粘贴文本)转成精美、可直接分享的 HTML 深度解读长文。运行强制多轮工作流:读全文 → 搜 GitHub 找对应代码并交叉引用 → 按三种风格之一(故事 / 学术 / 速览)写作,带 KaTeX 公式与 Mermaid 图表。零配置、无需 API key。",
+      "description_en": "Turn an academic paper (arXiv link, PDF, or pasted text) into a polished, shareable HTML deep-dive article. Runs a mandatory multi-round workflow: read the full paper, search GitHub for the matching code and cross-reference it, then write in one of three styles—storytelling / academic / concise—with KaTeX formulas and Mermaid diagrams. Zero config, no API keys.",
+      "long_zh": "zsyggg paper-craft 三件套技能之一(本条目只安装 paper-analyzer 这一个目录,而非整仓)。它运行一套不可跳过的 6 轮流水线:(1) 获取论文全文——同时读 arXiv 摘要页与 HTML 全文,或读 PDF,或用粘贴文本;(2) 找到并克隆对应开源代码(`git clone --depth 1` 到 /tmp),定位 ≥2 处论文↔源码对应;(3) 内部分析核心创新、方法、关键实验与弱点;(4) 询问用户写作风格;(5) 输出完整独立 HTML 长文;(6) 按各风格硬标准自我审查。三种风格——故事型(公众号爆文腔)、学术型(同行评审级,≥5 处 KaTeX 公式 + 对比表)、速览型(带 Mermaid 图的速查卡)。附带 Python 脚本负责论文信息抽取与 HTML 生成。",
+      "long_en": "One of three skills in zsyggg's paper-craft collection (this entry installs just the paper-analyzer folder, not the whole repo). It runs a disciplined 6-round pipeline that cannot be skipped: (1) fetch the full paper—reading both the arXiv abstract and HTML full text, or the PDF, or pasted text; (2) find and clone the matching open-source code (`git clone --depth 1` into /tmp) and locate ≥2 concrete paper↔source correspondences; (3) analyze core contributions, method, key experiments, and weaknesses internally; (4) ask the user for a writing style; (5) emit a complete standalone HTML article; (6) self-review against per-style hard requirements. Three styles—storytelling (viral-blog voice), academic (peer-review-grade, ≥5 KaTeX formulas and comparison tables), concise (cheat-sheet with a Mermaid diagram). Bundled Python scripts handle paper-info extraction and HTML generation.",
+      "cover_color": "#C98A3C",
+      "stars": 589,
+      "trend": null,
+      "spark": [],
+      "updated": "2026-05-29",
+      "install_cmd": "aleph add paper-craft-skills",
+      "sec_note_zh": "会联网:抓取 arXiv 页面/PDF,并为交叉引用代码而搜索 GitHub、对找到的仓库执行 `git clone --depth 1` 到 /tmp。读取你指定的本地 PDF,并运行附带的 Python 脚本(extract_paper_info.py、generate_html.py)解析论文、生成 HTML。无需 API key 或账号。分享前请审阅克隆的第三方代码与生成的文章。仓库 README 标注 MIT,但未附 LICENSE 文件。",
+      "sec_note_en": "Reaches the network: fetches arXiv pages/PDFs and, to cross-reference code, searches GitHub and runs `git clone --depth 1` on the repository it finds into /tmp. Reads local PDFs you point it at and runs bundled Python scripts (extract_paper_info.py, generate_html.py) to parse the paper and emit the HTML. No API keys or accounts. Review any cloned third-party code and the generated article before sharing. The repo's README states MIT, but it ships no LICENSE file."
+    },
+    {
+      "id": "aleph-hub:zsyggg/paper-craft-skills/paper-comic",
+      "kind": "skill",
+      "category": "design",
+      "name": "Paper Comic",
+      "description": "Turn a paper's core method into visual method figures that explain exactly what it does and how. Reads the paper, proposes a cover / overview / mechanism-detail figure plan, and—only after you confirm scope, count, language, and style—generates 1–10 figures in a warm sketchnote or publication-grade paper-figure style.",
+      "repo_url": "https://github.com/zsyggg/paper-craft-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zsyggg/paper-craft-skills",
+        "subdir": "skills/paper-comic",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zsyggg",
+      "tags": [
+        "paper-figure",
+        "illustration",
+        "image-generation",
+        "academic",
+        "diagram"
+      ],
+      "via": "github:zsyggg",
+      "description_zh": "把论文的核心方法转成讲清楚「做了什么、怎么做」的视觉方法图。读论文后先给出封面/概述/机制细节的出图方案,在你确认范围、张数、语言、风格之后,再生成 1–10 张图,支持温暖手记风(sketchnote)或顶会论文框架图风(paper-figure)。",
+      "description_en": "Turn a paper's core method into visual method figures that explain exactly what it does and how. Reads the paper, proposes a cover / overview / mechanism-detail figure plan, and—only after you confirm scope, count, language, and style—generates 1–10 figures in a warm sketchnote or publication-grade paper-figure style.",
+      "long_zh": "zsyggg paper-craft 三件套技能之一(本条目只安装 paper-comic 这一个目录,而非整仓)。与通用配图工具不同,它只画三样东西——方法流程(输入→处理→输出)、最创新的那个机制(拆开看内部)、最有说服力的结果——并拒绝装饰图或把一句话就能讲清的东西画出来。工作流强制确认:读完论文先给出出图方案(封面 / 概述 / 机制细节 / 关键结果)及建议张数和理由,在你确认语言、范围、张数、风格之前不会生成。两种风格:sketchnote(明亮温暖的手绘研究手记风)与 paper-figure(干净的顶会级方法总览框架图)。它不写死任何图像 API——运行时自动检测并使用当前可用的生图后端(如 Codex 的 imagegen 或已安装的 Claude Code 生图技能)。",
+      "long_en": "One of three skills in zsyggg's paper-craft collection (this entry installs just the paper-comic folder, not the whole repo). Unlike a generic article illustrator, it draws only three things—method flow (input→process→output), the single most novel mechanism unpacked, and the most convincing results—and refuses to decorate or visualize what a sentence already explains. The workflow is confirmation-gated: it reads the paper, recommends a figure plan (cover / overview / mechanism details / key result) with a suggested count and rationale, and will not generate until you confirm language, scope, count, and style. Two styles: sketchnote (bright, warm hand-drawn study-note look) and paper-figure (clean, publication-grade overview diagram). It hardcodes no image API—at runtime it detects and uses whatever image-generation backend is available (e.g. Codex's imagegen or an installed Claude Code image-gen skill).",
+      "cover_color": "#C98A3C",
+      "stars": 589,
+      "trend": null,
+      "spark": [],
+      "updated": "2026-05-29",
+      "install_cmd": "aleph add paper-craft-skills",
+      "sec_note_zh": "生成图片需要一个生图后端——它不写死任何 API key,而是使用已安装的后端(Codex 内置 imagegen,或某个 Claude Code 生图技能);该后端可能需要自己的账号/额度,并会把你的出图 prompt 发送给第三方模型。读论文(arXiv/PDF)以规划出图。设计上生成前会先确认,因此范围与花费由你掌控。仓库 README 标注 MIT,但未附 LICENSE 文件。",
+      "sec_note_en": "Needs an image-generation backend to produce figures—it hardcodes no API key and instead uses whatever is installed (Codex's built-in imagegen, or a Claude Code image-gen skill); that backend may require its own account/credits and sends your figure prompts to a third-party model. Reads the paper (arXiv/PDF) to plan figures. By design it asks for confirmation before generating, so you control scope and cost. The repo's README states MIT, but it ships no LICENSE file."
+    },
+    {
+      "id": "aleph-hub:zsyggg/paper-craft-skills/paper-deck",
+      "kind": "skill",
+      "category": "design",
+      "name": "Paper Deck",
+      "description": "Turn a paper, article, or technical note into a designed AIGC slide deck that doesn't look like a template. Builds a deck brief and slide-by-slide outline, writes a reproducible visual prompt per page, generates 16:9 slide images via a raster image backend, and merges them into .pptx and .pdf. Four style presets; can mount real figures cropped from the source PDF.",
+      "repo_url": "https://github.com/zsyggg/paper-craft-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zsyggg/paper-craft-skills",
+        "subdir": "skills/paper-deck",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zsyggg",
+      "tags": [
+        "slides",
+        "presentation",
+        "pptx",
+        "image-generation",
+        "academic"
+      ],
+      "via": "github:zsyggg",
+      "description_zh": "把论文、技术文章或知识内容做成「看起来真的被设计过」的 AIGC 幻灯片。先做 deck brief 和逐页大纲,为每页写可复现的视觉 prompt,用生图后端生成 16:9 slide image,再合成 .pptx 与 .pdf。四种风格预设;可把源 PDF 里的真实图表裁剪后嵌入版面。",
+      "description_en": "Turn a paper, article, or technical note into a designed AIGC slide deck that doesn't look like a template. Builds a deck brief and slide-by-slide outline, writes a reproducible visual prompt per page, generates 16:9 slide images via a raster image backend, and merges them into .pptx and .pdf. Four style presets; can mount real figures cropped from the source PDF.",
+      "long_zh": "zsyggg paper-craft 三件套技能之一(本条目只安装 paper-deck 这一个目录,而非整仓)。raster-first 的 AIGC 幻灯片工作流:先把源内容分析成 analysis.md,经你确认后写 deck-brief.md 和逐页 outline.md(每页一个观点),再把每一页 16:9 作为真实生图输出,最后合成 .pptx 与 .pdf——并保留每页 prompt 作为可返修源文件,便于你精确返修(「重做第 5 页」「更像期刊风」)。四种风格预设:journal-minimal、business-research、warm-notes、liquid-glass。它能规划并嵌入真实素材(从 PDF 裁剪的图、表、曲线)而非凭空生成。它刻意拒绝用本地绘图(Pillow/SVG/HTML/matplotlib)伪造「生图页」,若没有可用的生图后端会直接停止。附带的 Python 脚本负责合成 deck。",
+      "long_en": "One of three skills in zsyggg's paper-craft collection (this entry installs just the paper-deck folder, not the whole repo). A raster-first AIGC slide workflow: it analyzes the source into an analysis.md, gets your confirmation, writes a deck-brief.md and a per-page outline.md (one message per slide), then generates each 16:9 page as a real generated image and merges everything into .pptx and .pdf—keeping every page's prompt as a re-editable source so you can ask for precise changes ('redo slide 5', 'make it more journal-like'). Four style presets: journal-minimal, business-research, warm-notes, liquid-glass. It can plan and mount real source visuals (figures, tables, plots cropped from the PDF) instead of hallucinating them. It deliberately refuses to fake 'generated' pages with local drawing (Pillow/SVG/HTML/matplotlib) and stops if no raster image backend is available. A bundled Python script merges the deck.",
+      "cover_color": "#C98A3C",
+      "stars": 589,
+      "trend": null,
+      "spark": [],
+      "updated": "2026-05-29",
+      "install_cmd": "aleph add paper-craft-skills",
+      "sec_note_zh": "需要一个生图后端(它拒绝退化为本地绘图,没有可用后端就停止);该后端可能需要自己的账号/额度,并会收到你每页的 prompt。读取源内容(arXiv/PDF),可能从你的 PDF 截图/裁剪真实图表,并运行附带的 Python 脚本把各页合成 .pptx/.pdf 写到磁盘。生成前会先确认,因此页数与花费由你掌控。仓库 README 标注 MIT,但未附 LICENSE 文件。",
+      "sec_note_en": "Requires a raster image-generation backend (it refuses to fall back to local drawing and stops if none is available); that backend may need its own account/credits and receives your per-slide prompts. Reads the source (arXiv/PDF), may screenshot/crop real figures from your PDF, and runs a bundled Python script to merge pages into .pptx/.pdf on disk. It asks for confirmation before generating, so you control page count and cost. The repo's README states MIT, but it ships no LICENSE file."
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -2710,6 +2839,7 @@
         697,
         697,
         697,
+        698,
         698
       ],
       "license": "MIT",
@@ -2753,6 +2883,7 @@
         410,
         412,
         412,
+        413,
         413,
         413,
         413,
@@ -2801,6 +2932,7 @@
         190,
         190,
         191,
+        191,
         191
       ],
       "license": "MIT",
@@ -2846,6 +2978,7 @@
         165,
         166,
         166,
+        167,
         167,
         167
       ],
@@ -2894,6 +3027,7 @@
         130,
         131,
         131,
+        131,
         131
       ],
       "license": "Apache-2.0",
@@ -2940,6 +3074,7 @@
         128,
         128,
         128,
+        128,
         128
       ],
       "license": "Apache-2.0",
@@ -2980,6 +3115,7 @@
         110,
         110,
         110,
+        112,
         112,
         112,
         112,
@@ -3031,6 +3167,7 @@
         72,
         72,
         72,
+        72,
         72
       ],
       "license": "MIT",
@@ -3065,7 +3202,7 @@
       "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
       "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
       "cover_color": "#9E5B2E",
-      "stars": 23337,
+      "stars": 23341,
       "trend": 0,
       "spark": [
         22342,
@@ -3077,7 +3214,8 @@
         23172,
         23249,
         23330,
-        23337
+        23337,
+        23341
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -3112,7 +3250,7 @@
       "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
       "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
       "cover_color": "#9C5A2C",
-      "stars": 4090,
+      "stars": 4091,
       "trend": 0,
       "spark": [
         3809,
@@ -3124,7 +3262,8 @@
         4058,
         4071,
         4089,
-        4090
+        4090,
+        4091
       ],
       "license": "AGPL-3.0",
       "updated": "2026-05-27",
@@ -3158,7 +3297,7 @@
       "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
       "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
       "cover_color": "#7A4A2B",
-      "stars": 2731,
+      "stars": 2732,
       "trend": 0,
       "spark": [
         2579,
@@ -3170,7 +3309,8 @@
         2711,
         2714,
         2729,
-        2731
+        2731,
+        2732
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -3216,6 +3356,7 @@
         1228,
         1230,
         1256,
+        1256,
         1256
       ],
       "license": "MIT",
@@ -3250,8 +3391,8 @@
       "long_zh": "把 logo 矢量化并加上动画的技能,从静态图片产出轻量的 SVG 动效。",
       "long_en": "A skill that vectorizes and animates logos, producing lightweight SVG motion from a static image.",
       "cover_color": "#7E4A2A",
-      "stars": 1140,
-      "trend": 1,
+      "stars": 1143,
+      "trend": 0,
       "spark": [
         848,
         866,
@@ -3262,7 +3403,8 @@
         1037,
         1045,
         1132,
-        1140
+        1140,
+        1143
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -3307,6 +3449,7 @@
         977,
         981,
         982,
+        983,
         983,
         983
       ],
@@ -3354,6 +3497,7 @@
         719,
         720,
         721,
+        721,
         721
       ],
       "license": "MIT",
@@ -3400,6 +3544,7 @@
         451,
         452,
         453,
+        453,
         453
       ],
       "license": "MIT",
@@ -3442,6 +3587,7 @@
         258,
         259,
         260,
+        268,
         268,
         268,
         268,
@@ -3492,6 +3638,7 @@
         265,
         266,
         266,
+        266,
         266
       ],
       "license": "MIT",
@@ -3537,6 +3684,7 @@
         247,
         256,
         259,
+        261,
         261,
         261
       ],
@@ -3584,6 +3732,7 @@
         253,
         254,
         255,
+        255,
         255
       ],
       "updated": "2026-04-30",
@@ -3629,6 +3778,7 @@
         220,
         221,
         222,
+        222,
         222
       ],
       "license": "MIT",
@@ -3673,6 +3823,7 @@
         199,
         199,
         201,
+        202,
         202,
         202,
         202
@@ -3721,6 +3872,7 @@
         176,
         176,
         176,
+        176,
         176
       ],
       "updated": "2026-01-08",
@@ -3758,6 +3910,7 @@
       "stars": 167,
       "trend": 0,
       "spark": [
+        167,
         167,
         167,
         167,
@@ -3812,6 +3965,7 @@
         148,
         148,
         149,
+        149,
         149
       ],
       "license": "NOASSERTION",
@@ -3858,6 +4012,7 @@
         141,
         142,
         144,
+        144,
         144
       ],
       "license": "MIT",
@@ -3900,6 +4055,7 @@
         124,
         124,
         125,
+        127,
         127,
         127,
         127,
@@ -3950,6 +4106,7 @@
         119,
         120,
         123,
+        123,
         123
       ],
       "license": "MIT",
@@ -3992,6 +4149,7 @@
         111,
         112,
         113,
+        114,
         114,
         114,
         114,
@@ -4041,6 +4199,7 @@
         98,
         98,
         99,
+        99,
         99
       ],
       "license": "NOASSERTION",
@@ -4084,6 +4243,7 @@
         94,
         94,
         94,
+        95,
         95,
         95,
         95,
@@ -4133,6 +4293,7 @@
         87,
         87,
         89,
+        89,
         89
       ],
       "license": "MIT",
@@ -4176,6 +4337,7 @@
         69,
         69,
         69,
+        70,
         70,
         70,
         70,
@@ -4224,6 +4386,7 @@
         62,
         62,
         63,
+        63,
         63
       ],
       "license": "MIT",
@@ -4270,6 +4433,7 @@
         59,
         59,
         59,
+        59,
         59
       ],
       "updated": "2026-05-17",
@@ -4305,7 +4469,7 @@
       "long_en": "Drives the user's actual browser session rather than a headless instance, so it works with logged-in sites and existing state.",
       "cover_color": "#A0612F",
       "stars": 45,
-      "trend": 2,
+      "trend": 0,
       "spark": [
         40,
         40,
@@ -4315,6 +4479,7 @@
         43,
         43,
         44,
+        45,
         45
       ],
       "license": "MIT",
@@ -4361,6 +4526,7 @@
         43,
         43,
         43,
+        43,
         43
       ],
       "license": "MIT",
@@ -4403,6 +4569,7 @@
         36,
         36,
         36,
+        37,
         37,
         37,
         37,
@@ -4453,6 +4620,7 @@
         35,
         35,
         35,
+        35,
         35
       ],
       "license": "NOASSERTION",
@@ -4494,6 +4662,7 @@
         34,
         34,
         34,
+        35,
         35,
         35,
         35,
@@ -4545,6 +4714,7 @@
         33,
         33,
         34,
+        34,
         34
       ],
       "updated": "2026-06-16",
@@ -4582,6 +4752,7 @@
       "stars": 33,
       "trend": 0,
       "spark": [
+        33,
         33,
         33,
         33,
@@ -4636,6 +4807,7 @@
         32,
         32,
         32,
+        32,
         32
       ],
       "license": "MIT",
@@ -4674,6 +4846,7 @@
       "stars": 29,
       "trend": 0,
       "spark": [
+        29,
         29,
         29,
         29,
@@ -4728,6 +4901,7 @@
         28,
         28,
         28,
+        28,
         28
       ],
       "license": "MIT",
@@ -4771,6 +4945,7 @@
         22,
         22,
         22,
+        23,
         23,
         23,
         23,
@@ -4820,6 +4995,7 @@
         23,
         23,
         23,
+        23,
         23
       ],
       "license": "MIT",
@@ -4858,6 +5034,7 @@
       "stars": 20,
       "trend": 0,
       "spark": [
+        20,
         20,
         20,
         20,
@@ -4912,6 +5089,7 @@
         17,
         17,
         18,
+        18,
         18
       ],
       "updated": "2026-05-18",
@@ -4949,6 +5127,7 @@
       "stars": 17,
       "trend": 0,
       "spark": [
+        17,
         17,
         17,
         17,
@@ -5003,6 +5182,7 @@
         16,
         16,
         16,
+        16,
         16
       ],
       "license": "NOASSERTION",
@@ -5041,6 +5221,7 @@
       "stars": 15,
       "trend": 0,
       "spark": [
+        15,
         15,
         15,
         15,
@@ -5095,6 +5276,7 @@
         11,
         11,
         11,
+        11,
         11
       ],
       "license": "MIT",
@@ -5136,6 +5318,7 @@
         9,
         9,
         10,
+        11,
         11,
         11,
         11,
@@ -5187,6 +5370,7 @@
         10,
         11,
         11,
+        11,
         11
       ],
       "updated": "2026-05-11",
@@ -5224,6 +5408,7 @@
       "stars": 10,
       "trend": 0,
       "spark": [
+        10,
         10,
         10,
         10,
@@ -5278,6 +5463,7 @@
         10,
         10,
         10,
+        10,
         10
       ],
       "license": "MIT",
@@ -5316,6 +5502,7 @@
       "stars": 9,
       "trend": 0,
       "spark": [
+        9,
         9,
         9,
         9,
@@ -5370,6 +5557,7 @@
         2862,
         2875,
         2900,
+        2900,
         2900
       ],
       "license": "MIT",
@@ -5415,6 +5603,7 @@
         404,
         416,
         417,
+        419,
         419,
         419
       ],
@@ -5462,6 +5651,7 @@
         315,
         315,
         318,
+        318,
         318
       ],
       "license": "NOASSERTION",
@@ -5500,6 +5690,7 @@
       "stars": 255,
       "trend": 0,
       "spark": [
+        255,
         255,
         255,
         255,
@@ -5554,6 +5745,7 @@
         239,
         239,
         239,
+        239,
         239
       ],
       "license": "Apache-2.0",
@@ -5597,6 +5789,7 @@
         227,
         230,
         230,
+        233,
         233,
         233,
         233,
@@ -5646,6 +5839,7 @@
         179,
         179,
         179,
+        179,
         179
       ],
       "license": "MIT",
@@ -5689,6 +5883,7 @@
         648,
         649,
         649,
+        650,
         650,
         650,
         650,
@@ -5738,6 +5933,7 @@
         266,
         266,
         266,
+        266,
         266
       ],
       "license": "MIT",
@@ -5781,6 +5977,7 @@
         66,
         68,
         69,
+        71,
         71,
         71,
         71,
@@ -5830,6 +6027,7 @@
         46,
         46,
         46,
+        46,
         46
       ],
       "updated": "2025-12-29",
@@ -5867,6 +6065,7 @@
       "stars": 36,
       "trend": 0,
       "spark": [
+        36,
         36,
         36,
         36,
@@ -5921,6 +6120,7 @@
         31,
         31,
         31,
+        31,
         31
       ],
       "license": "MIT",
@@ -5959,6 +6159,7 @@
       "stars": 21,
       "trend": 0,
       "spark": [
+        21,
         21,
         21,
         21,
@@ -6013,6 +6214,7 @@
         16,
         16,
         16,
+        16,
         16
       ],
       "license": "MIT",
@@ -6051,6 +6253,7 @@
       "stars": 16,
       "trend": 0,
       "spark": [
+        16,
         16,
         16,
         16,
@@ -6105,6 +6308,7 @@
         9,
         9,
         9,
+        9,
         9
       ],
       "license": "MIT",
@@ -6143,6 +6347,7 @@
       "stars": 5,
       "trend": 0,
       "spark": [
+        5,
         5,
         5,
         5,
@@ -6193,6 +6398,7 @@
         189,
         192,
         192,
+        194,
         194,
         194,
         194

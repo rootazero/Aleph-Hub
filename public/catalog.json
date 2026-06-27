@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 144,
-    "generated_at": "2026-06-27T04:34:28.297Z",
-    "content_hash": "sha256:3e529871a264e25eb774dd547fc64ae9e18459da24b754d5f89364c904aca721"
+    "entry_count": 147,
+    "generated_at": "2026-06-27T05:06:34.408Z",
+    "content_hash": "sha256:2dd9bee685947175d4da3e9de65d5efecc28117b263732601284043188d54e2a"
   },
   "entries": [
     {
@@ -1705,6 +1705,81 @@
         "dashboard"
       ],
       "via": "github:Egonex-AI"
+    },
+    {
+      "id": "aleph-hub:zsyggg/paper-craft-skills/paper-analyzer",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Paper Analyzer",
+      "description": "Turn an academic paper (arXiv link, PDF, or pasted text) into a polished, shareable HTML deep-dive article. Runs a mandatory multi-round workflow: read the full paper, search GitHub for the matching code and cross-reference it, then write in one of three styles—storytelling / academic / concise—with KaTeX formulas and Mermaid diagrams. Zero config, no API keys.",
+      "repo_url": "https://github.com/zsyggg/paper-craft-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zsyggg/paper-craft-skills",
+        "subdir": "skills/paper-analyzer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zsyggg",
+      "tags": [
+        "paper-reading",
+        "research",
+        "arxiv",
+        "html",
+        "academic"
+      ],
+      "via": "github:zsyggg"
+    },
+    {
+      "id": "aleph-hub:zsyggg/paper-craft-skills/paper-comic",
+      "kind": "skill",
+      "category": "design",
+      "name": "Paper Comic",
+      "description": "Turn a paper's core method into visual method figures that explain exactly what it does and how. Reads the paper, proposes a cover / overview / mechanism-detail figure plan, and—only after you confirm scope, count, language, and style—generates 1–10 figures in a warm sketchnote or publication-grade paper-figure style.",
+      "repo_url": "https://github.com/zsyggg/paper-craft-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zsyggg/paper-craft-skills",
+        "subdir": "skills/paper-comic",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zsyggg",
+      "tags": [
+        "paper-figure",
+        "illustration",
+        "image-generation",
+        "academic",
+        "diagram"
+      ],
+      "via": "github:zsyggg"
+    },
+    {
+      "id": "aleph-hub:zsyggg/paper-craft-skills/paper-deck",
+      "kind": "skill",
+      "category": "design",
+      "name": "Paper Deck",
+      "description": "Turn a paper, article, or technical note into a designed AIGC slide deck that doesn't look like a template. Builds a deck brief and slide-by-slide outline, writes a reproducible visual prompt per page, generates 16:9 slide images via a raster image backend, and merges them into .pptx and .pdf. Four style presets; can mount real figures cropped from the source PDF.",
+      "repo_url": "https://github.com/zsyggg/paper-craft-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zsyggg/paper-craft-skills",
+        "subdir": "skills/paper-deck",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zsyggg",
+      "tags": [
+        "slides",
+        "presentation",
+        "pptx",
+        "image-generation",
+        "academic"
+      ],
+      "via": "github:zsyggg"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
