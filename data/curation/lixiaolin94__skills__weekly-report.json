@@ -1,0 +1,25 @@
+{
+  "full_name": "lixiaolin94/skills",
+  "slug": "weekly-report",
+  "name": "Weekly Report",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "weekly-report",
+    "work-summary",
+    "git",
+    "evidence",
+    "reporting"
+  ],
+  "description_en": "Generate a send-ready weekly report by collecting evidence across four channel families—collaboration platforms, Git history, agent sessions, and local docs—normalizing it, merging into work topics, and writing a structured report that separates facts from inference. Resolves an absolute date range before collecting.",
+  "description_zh": "通过四类通道——协作平台、Git 历史、Agent 会话、本地文档——采集证据,归一化后并入「工作主题」,生成可直接发送、事实与推断分开的结构化周报。采集前先解析出绝对日期范围。",
+  "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the weekly-report folder, not the whole repo). It runs a disciplined pipeline: resolve the week's absolute range (via a bundled `resolve_week_range.py`), discover which channels are available (collab_platform, git, agent, local_docs), collect each channel's capabilities into normalized Evidence objects (with source, actors, timestamp, url/path, confidence), merge them into Work Topics (what/status/key conclusions/supporting evidence/next-week), and render a report from a template. Rules enforce a stated date range, ≥2 evidence types per core item (or an explicit 'insufficient evidence' flag), and a hard split between fact and inference. References cover each channel (incl. Lark/Feishu, Git, local docs).",
+  "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 weekly-report 这一个目录,而非整仓)。它运行一套严谨的流水线:先解析本周的绝对日期范围(用附带的 `resolve_week_range.py`),发现当前可用通道(collab_platform、git、agent、local_docs),把各通道能力采集为归一化的 Evidence 对象(含来源、参与者、时间戳、url/路径、置信度),再并入「工作主题」(是什么/状态/关键结论/支撑证据/下周是否推进),最后按模板渲染周报。规则强制:明确日期范围、每项核心工作至少两类证据(或显式标注「证据不足」)、事实与推断硬性分开。参考文档覆盖各通道(含飞书/Lark、Git、本地文档)。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/lixiaolin94/skills",
+    "subdir": "weekly-report"
+  },
+  "sec_note_en": "Reads from whatever evidence channels you enable—Git history (local), agent session logs, local documents, and collaboration platforms (e.g. Lark/Feishu via their APIs). The collaboration-platform channels need your own credentials/tokens and pull work content (calendars, meeting notes, messages) into the report context; review what gets collected, and the report before sending. Runs a bundled Python script (`resolve_week_range.py`) for date math.",
+  "sec_note_zh": "从你启用的证据通道读取——Git 历史(本地)、Agent 会话记录、本地文档,以及协作平台(如通过飞书/Lark 的 API)。协作平台通道需要你自己的凭据/令牌,会把工作内容(日历、会议纪要、消息)拉进周报上下文;请审阅采集到的内容,以及发送前的周报。日期计算会运行附带的 Python 脚本(`resolve_week_range.py`)。"
+}
