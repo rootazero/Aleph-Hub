@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "grilling",
+  "name": "Grilling",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": ["planning", "design", "interview", "stress-test", "review"],
+  "description_en": "Interview the user relentlessly about a plan or design to stress-test it before building.",
+  "description_zh": "在动手开发前，就方案或设计对用户穷追不舍地提问，以充分压力测试。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grilling folder, not the whole repo). It walks down each branch of the design tree one decision at a time, asking a single question per turn and recommending an answer, resolving dependencies between decisions until you reach shared understanding; it prefers exploring the codebase over asking when a question can be answered there.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grilling 这一个目录，而非整仓）。它沿着设计决策树逐个分支推进，每轮只问一个问题并给出推荐答案，逐一厘清决策之间的依赖关系，直到达成共识；当某个问题能通过代码库回答时，它会优先去探查代码库而非直接发问。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/productivity/grilling"
+  },
+  "sec_note_en": "Pure conversational orchestration: it only drives a question-and-answer interview and makes no external changes (no files written, no commands run, no network access). It is model-invokable, so the agent may trigger it on grill-style phrasing; it may read your codebase to answer questions itself.",
+  "sec_note_zh": "纯对话式编排：它只驱动一问一答的访谈，不做任何外部改动（不写文件、不执行命令、不联网）。该技能可被模型自动调用，因此智能体可能在出现“烤问”类措辞时自动触发；它可能会读取你的代码库来自行解答问题。"
+}

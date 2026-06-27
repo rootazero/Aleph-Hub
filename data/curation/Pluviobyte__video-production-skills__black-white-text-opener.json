@@ -1,0 +1,25 @@
+{
+  "full_name": "Pluviobyte/video-production-skills",
+  "slug": "black-white-text-opener",
+  "name": "Black White Text Opener",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "video",
+    "opener",
+    "motion-design",
+    "kinetic-text",
+    "intro"
+  ],
+  "description_en": "Create reusable black-background, white-text opening animations—large text typed in character by character, synchronized typing-click SFX, optional word swaps, and a clean transition into the main video. Original opener creation, not reference matching.",
+  "description_zh": "做可复用的黑底白字开场动画——大字逐字打出、同步打字音效、可选词语替换、干净转场切入正片。原创开场生成，非参考复刻。",
+  "long_en": "One skill from Pluviobyte's video-production-skills collection (this entry installs only the black-white-text-opener folder, not the whole repo). A generative opener skill: it reads a motion contract and timing presets, picks HyperFrames / Remotion / ffmpeg via a tool-recipes reference, and defaults to ~14 chars/s typing with subtle key clicks over a 4.8–5.8s 'standard' duration. Given only a topic it drafts 2–3 short phrase options and picks the cleanest; it stays generative and never claims pixel-level alignment with a source.",
+  "long_zh": "Pluviobyte 视频制作技能合集中的一个技能（本条目只安装 black-white-text-opener 这一个目录，而非整仓）。生成型开场技能：先读动效契约与时间预设，按 tool-recipes 在 HyperFrames / Remotion / ffmpeg 间选型，默认约 14 字/秒打字、轻微按键音、4.8–5.8 秒「standard」时长。只给主题时会起草 2–3 个短句备选并挑最干净的；始终是生成型，不会宣称与源片像素级对齐。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Pluviobyte/video-production-skills",
+    "subdir": "black-white-text-opener"
+  },
+  "sec_note_en": "Requires HyperFrames / Remotion or ffmpeg to render the animation and typing-click audio; renders locally. No external API or credentials needed.",
+  "sec_note_zh": "渲染动画与打字音效需要 HyperFrames / Remotion 或 ffmpeg；本地渲染。无需外部 API 或凭据。"
+}

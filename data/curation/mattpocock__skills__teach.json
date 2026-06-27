@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "teach",
+  "name": "Teach",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": ["learning", "teaching", "lessons", "study", "knowledge"],
+  "description_en": "Teach you a new skill or concept across sessions, turning the current workspace into a stateful learning space.",
+  "description_zh": "跨多次会话教你一项新技能或新概念，把当前工作区变成一个有状态的学习空间。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/teach folder, not the whole repo). It treats the current directory as a teaching workspace, grounding lessons in a MISSION.md and curated resources, and produces short, beautiful self-contained HTML lessons plus reference sheets and learning records, using retrieval practice, spacing, and interleaving to build long-term retention.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/teach 这一个目录，而非整仓）。它把当前目录当作教学工作区，以 MISSION.md 和精选资源为依据，产出简短且精美的自包含 HTML 课程，以及参考速查表和学习记录，并运用回忆练习、间隔重复与交错练习来构建长期记忆。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/productivity/teach"
+  },
+  "sec_note_en": "Side effect: it creates and updates files in your current directory (MISSION.md, RESOURCES.md, NOTES.md, and HTML lessons/reference/learning-record folders) as learning state, and may run a CLI command to open a lesson. Point it at a dedicated learning folder rather than a code repo. It fetches external resources to ground lessons, so it reaches the network.",
+  "sec_note_zh": "副作用：它会在当前目录中创建并更新文件（MISSION.md、RESOURCES.md、NOTES.md 以及 HTML 课程/参考/学习记录等目录）作为学习状态，还可能运行 CLI 命令来打开课程。建议把它指向一个专门的学习目录，而非代码仓库。它会抓取外部资源来支撑教学，因此会访问网络。"
+}

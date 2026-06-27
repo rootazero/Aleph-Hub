@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "ask-matt",
+  "name": "Ask Matt",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["workflow", "router", "orchestration", "agent"],
+  "description_en": "Ask which skill or flow fits your situation — a router over the user-invoked engineering skills in this repo.",
+  "description_zh": "询问哪个技能或工作流最适合你当前的处境——是这个仓库里所有用户调用型工程技能的路由器。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/ask-matt folder, not the whole repo). It acts as a router that, in conversation, maps your situation onto the right skill or flow (the idea-to-ship main flow, on-ramps like triage, and standalone helpers), explaining when to chain grill-with-docs, prototype, to-prd, to-issues, and handoff.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/ask-matt 这一个目录，而非整仓）。它扮演路由器的角色，在对话中把你当前的处境映射到合适的技能或工作流（从想法到交付的主流程、triage 等入口、以及独立辅助技能），讲清何时串联 grill-with-docs、prototype、to-prd、to-issues 与 handoff。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/ask-matt"
+  },
+  "sec_note_en": "Pure conversational orchestration: it only reads your description and recommends which other skill to run. No external side effects, no code execution, no file writes of its own. It merely points at other skills (some of which do have side effects) — running those is a separate, explicit step.",
+  "sec_note_zh": "纯对话式编排：它只读取你的描述并推荐该运行哪个其他技能。自身没有外部副作用、不执行代码、不写文件。它只是指向其他技能（其中部分技能确实有副作用）——运行那些技能是单独且明确的步骤。"
+}

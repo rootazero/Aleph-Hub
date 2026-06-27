@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "domain-modeling",
+  "name": "Domain Modeling",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["domain-modeling", "ubiquitous-language", "adr", "glossary"],
+  "description_en": "Build and sharpen a project's domain model. Use when pinning down domain terminology or a ubiquitous language, recording an architectural decision, or when another skill needs to maintain the domain model.",
+  "description_zh": "构建并打磨项目的领域模型。适用于厘清领域术语或统一语言、记录架构决策、或其他技能需要维护领域模型时。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/domain-modeling folder, not the whole repo). It actively challenges terms, sharpens fuzzy language into canonical terms, stress-tests relationships with concrete edge-case scenarios, cross-checks claims against the code, and writes the glossary into CONTEXT.md (or per-context files via CONTEXT-MAP.md) and decisions into docs/adr/ as they crystallize.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/domain-modeling 这一个目录，而非整仓）。它会主动挑战术语、把模糊用语收敛成规范术语、用具体的边界场景压测概念间的关系、把陈述与代码相互印证，并在术语和决策成形时把术语表写入 CONTEXT.md（或经由 CONTEXT-MAP.md 写入各上下文文件）、把决策写入 docs/adr/。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/domain-modeling"
+  },
+  "sec_note_en": "This skill creates and edits documentation files in your repo — CONTEXT.md, CONTEXT-MAP.md, and ADRs under docs/adr/ — and reads your source to cross-check claims. It is otherwise conversational with no external side effects; the main effect is new and modified docs in your working tree.",
+  "sec_note_zh": "该技能会在你的仓库中创建和编辑文档文件——CONTEXT.md、CONTEXT-MAP.md 以及 docs/adr/ 下的 ADR——并会读取你的源码以相互印证陈述。除此之外它以对话为主、无外部副作用；主要影响是在工作区中新增和修改文档。"
+}

@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "handoff",
+  "name": "Handoff",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": ["handoff", "context", "summary", "agents", "workflow"],
+  "description_en": "Compact the current conversation into a handoff document so a fresh agent can pick up the work.",
+  "description_zh": "把当前对话浓缩成一份交接文档，让一个全新的智能体能够接手继续工作。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/handoff folder, not the whole repo). It writes a markdown handoff document summarising the current conversation, including a suggested-skills section, while referencing existing artifacts (PRDs, plans, ADRs, commits, diffs) by path or URL instead of duplicating them.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/handoff 这一个目录，而非整仓）。它会写出一份 Markdown 交接文档，概括当前对话并附带一个“建议技能”小节；对已有产物（PRD、计划、ADR、提交、diff）则以路径或 URL 引用，而不重复其内容。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/productivity/handoff"
+  },
+  "sec_note_en": "Side effect: it writes one markdown handoff file to your operating system's temporary directory (not the current workspace). It instructs the agent to redact secrets and PII before writing, but you should still review the generated document before sharing it.",
+  "sec_note_zh": "副作用：它会向你操作系统的临时目录（而非当前工作区）写入一份 Markdown 交接文件。它会要求智能体在写入前对密钥和个人身份信息进行脱敏，但在分享前你仍应自行复核生成的文档。"
+}

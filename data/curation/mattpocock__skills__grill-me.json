@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "grill-me",
+  "name": "Grill Me",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": ["planning", "design", "interview", "stress-test", "review"],
+  "description_en": "A relentless interview that stress-tests a plan or design until you reach shared understanding.",
+  "description_zh": "用一场穷追不舍的访谈来压力测试你的方案或设计，直到双方达成共识。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grill-me folder, not the whole repo). It is a user-invoked entry point that kicks off a grilling session: the agent interviews you one question at a time about every branch of your plan or design, recommending an answer for each, until the whole decision tree is resolved.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grill-me 这一个目录，而非整仓）。它是一个由用户手动触发的入口，启动一场“烤问”会话：智能体就你方案或设计的每一个分支逐条提问，每次只问一个问题并给出推荐答案，直到整棵决策树被逐一厘清。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/productivity/grill-me"
+  },
+  "sec_note_en": "Pure conversational orchestration: it only drives a question-and-answer interview and makes no external changes (no files written, no commands run, no network access). The agent may read your codebase to answer questions it can resolve itself.",
+  "sec_note_zh": "纯对话式编排：它只驱动一问一答的访谈，不做任何外部改动（不写文件、不执行命令、不联网）。智能体可能会读取你的代码库来自行解答某些问题。"
+}

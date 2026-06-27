@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "setup-matt-pocock-skills",
+  "name": "Setup Matt Pocock Skills",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["setup", "configuration", "issue-tracker", "scaffolding"],
+  "description_en": "Configure this repo for the engineering skills — issue tracker, triage label vocabulary, and domain doc layout. Run once before first use.",
+  "description_zh": "为本仓库配置这套工程技能——issue 追踪器、分诊标签词表和领域文档布局。首次使用其他技能前运行一次。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/setup-matt-pocock-skills folder, not the whole repo). It scaffolds the per-repo configuration the other engineering skills assume: it explores the repo (git remotes, CLAUDE.md/AGENTS.md, CONTEXT.md, docs/adr), walks you through choosing an issue tracker (GitHub/GitLab/local-markdown/other), maps the five triage label strings, and confirms the domain-doc layout before writing the config.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/setup-matt-pocock-skills 这一个目录，而非整仓）。它为其他工程技能搭好每个仓库所需的配置：探查仓库（git 远端、CLAUDE.md/AGENTS.md、CONTEXT.md、docs/adr），引导你选择 issue 追踪器（GitHub/GitLab/本地 markdown/其他），映射五个分诊标签字符串，并在写入配置前确认领域文档布局。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/setup-matt-pocock-skills"
+  },
+  "sec_note_en": "This skill writes configuration into your repo: it adds an '## Agent skills' block to CLAUDE.md or AGENTS.md and records tracker/label/doc choices (e.g. under docs/agents/). It inspects git config and remotes to suggest defaults but is prompt-driven and confirms with you before writing. No code execution; review the files it adds to your working tree.",
+  "sec_note_zh": "该技能会把配置写入你的仓库：它会向 CLAUDE.md 或 AGENTS.md 添加一个 '## Agent skills' 区块，并记录追踪器/标签/文档的选择（例如放在 docs/agents/ 下）。它会查看 git 配置和远端以建议默认值，但整个过程由提示驱动，并在写入前与你确认。不执行代码；请审查它写入工作区的文件。"
+}

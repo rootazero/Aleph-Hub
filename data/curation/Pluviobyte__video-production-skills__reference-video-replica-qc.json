@@ -1,0 +1,25 @@
+{
+  "full_name": "Pluviobyte/video-production-skills",
+  "slug": "reference-video-replica-qc",
+  "name": "Reference Video Replica QC",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "video",
+    "qc",
+    "replication",
+    "frame-analysis",
+    "ffmpeg"
+  ],
+  "description_en": "Make reference-video replication evidence-driven: classify the requested fidelity (pixel / visual / style), sample frames at a set interval, build timelines and side-by-side contact sheets, run PSNR/SSIM/hash checks, then approve or reject with hard evidence.",
+  "description_zh": "让参考视频复刻变成证据驱动：先判定保真级别（像素 / 视觉 / 风格），按间隔抽帧、生成时间线与对照图，跑 PSNR/SSIM/哈希校验，再用硬证据决定通过或打回。",
+  "long_en": "One skill from Pluviobyte's video-production-skills collection (this entry installs only the reference-video-replica-qc folder, not the whole repo). It refuses to claim pixel-level alignment by feel: pixel-level needs a matching SHA-256/`cmp`, PSNR infinity, or SSIM 1.0; visual-level is a hand-authored recreation matching timing, layout, motion, typography, and color; style-level uses the reference only as a design language. Bundled Python scripts (`extract_halfsec_frames.py`, `compare_videos.py`) do 0.5s frame sampling and metric comparison; references cover replica levels, alignment workflow, and lessons learned.",
+  "long_zh": "Pluviobyte 视频制作技能合集中的一个技能（本条目只安装 reference-video-replica-qc 这一个目录，而非整仓）。它拒绝凭感觉宣称像素级对齐：像素级需一致 SHA-256/`cmp`、PSNR 无穷或 SSIM 1.0；视觉级是手工还原、匹配时间/布局/动效/字体/色彩；风格级只把参考当设计语言。附带的 Python 脚本（`extract_halfsec_frames.py`、`compare_videos.py`）做 0.5 秒抽帧与指标比对；参考文档覆盖保真级别、对齐流程与复刻经验。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Pluviobyte/video-production-skills",
+    "subdir": "reference-video-replica-qc"
+  },
+  "sec_note_en": "Runs bundled Python scripts that need ffmpeg and image/video libraries (frame extraction, PSNR/SSIM, hashing); may fetch a remote source video for analysis. Review any URL it downloads from.",
+  "sec_note_zh": "运行附带的 Python 脚本，需要 ffmpeg 与图像/视频库（抽帧、PSNR/SSIM、哈希）；可能为分析拉取远程源视频。请审阅它下载的来源 URL。"
+}

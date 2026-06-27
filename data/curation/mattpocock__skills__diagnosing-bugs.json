@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "diagnosing-bugs",
+  "name": "Diagnosing Bugs",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["debugging", "diagnosis", "testing", "performance"],
+  "description_en": "A disciplined diagnosis loop for hard bugs and performance regressions; use when something is broken, throwing, failing, or slow.",
+  "description_zh": "针对疑难 bug 和性能退化的严谨诊断循环；当出现报错、崩溃、失败或变慢时使用。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/diagnosing-bugs folder, not the whole repo). It walks the agent through a phased diagnosis discipline — first build a tight, red-capable feedback loop (failing test, curl, CLI, replay, bisection, etc.), then reproduce and minimise, hypothesise, instrument, fix, and add a regression test — refusing to theorise before a reproducing signal exists.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/diagnosing-bugs 这一个目录，而非整仓）。它引导 agent 走一套分阶段的诊断纪律——先构建一个紧凑、能变红的反馈循环（失败的测试、curl、CLI、回放、二分等），再复现并最小化、提出假设、加埋点、修复并补上回归测试——在出现可复现信号之前拒绝凭空推理。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/diagnosing-bugs"
+  },
+  "sec_note_en": "This skill actively runs code against your project: it writes and executes failing tests, curl/HTTP scripts, CLI invocations, headless-browser drivers, and may add temporary instrumentation. As a last resort it can request access to a reproducing environment or production instrumentation. Review what it runs; commands execute in your repo with your credentials and environment.",
+  "sec_note_zh": "该技能会主动在你的项目上运行代码：它会编写并执行失败的测试、curl/HTTP 脚本、CLI 调用、无头浏览器驱动，并可能添加临时埋点。作为最后手段，它可能请求访问可复现的环境或生产环境埋点。请审查它运行的内容；这些命令会在你的仓库中以你的凭据和环境执行。"
+}

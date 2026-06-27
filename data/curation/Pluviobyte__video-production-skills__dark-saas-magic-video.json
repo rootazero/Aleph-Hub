@@ -1,0 +1,25 @@
+{
+  "full_name": "Pluviobyte/video-production-skills",
+  "slug": "dark-saas-magic-video",
+  "name": "Dark SaaS Magic Video",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "video",
+    "motion-design",
+    "saas",
+    "product-video",
+    "hyperframes"
+  ],
+  "description_en": "Create dark, cinematic SaaS/AI-product motion videos in a Presenton-like 'magic UI' style—black starfield stage, bottom purple glow, large kinetic type, gradient CTA buttons, floating UI templates, model rings, and speed-blur transitions. Style-level creation, not frame-accurate replication.",
+  "description_zh": "用类 Presenton 的「魔术 UI」风格做暗色电影感的 SaaS / AI 产品短片——黑色星空舞台、底部紫光、动感大字、渐变 CTA、漂浮 UI 模板、模型环、速度模糊转场。属风格级创作，非逐帧复刻。",
+  "long_en": "One skill from Pluviobyte's video-production-skills collection (this entry installs only the dark-saas-magic-video folder, not the whole repo). A style-generation skill, not reference-alignment—use reference-video-replica-qc for exact remakes. It reads a style language, scene blueprints, timing presets, and an asset contract before composing, runs a QC checklist before handoff, and builds with HyperFrames by default (Remotion on request). A bundled 1080p showcase sets the bar for scale, pacing, and polish.",
+  "long_zh": "Pluviobyte 视频制作技能合集中的一个技能（本条目只安装 dark-saas-magic-video 这一个目录，而非整仓）。这是风格生成技能，非参考对齐——逐帧复刻请用 reference-video-replica-qc。它在落地前先读风格语言、场景蓝图、时间预设与素材契约，交付前过质检清单，默认用 HyperFrames 构建（按需 Remotion）。附带的 1080p 成片设定了规模、节奏与完成度的基准。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/Pluviobyte/video-production-skills",
+    "subdir": "dark-saas-magic-video"
+  },
+  "sec_note_en": "Requires a Node-based video rendering toolchain (HyperFrames by default, or Remotion) to produce output; renders locally. The skill itself needs no paid API.",
+  "sec_note_zh": "需要基于 Node 的视频渲染工具链（默认 HyperFrames，或 Remotion）来出片；本地渲染。技能本身不需要付费 API。"
+}

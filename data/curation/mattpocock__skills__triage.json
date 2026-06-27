@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "triage",
+  "name": "Triage",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["triage", "issues", "workflow", "github"],
+  "description_en": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+  "description_zh": "用一套分诊角色状态机来流转 issue 和外部 PR——分类、验证、必要时拷问，并写出可交给 agent 的工作简报。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/triage folder, not the whole repo). It moves incoming issues (and optionally external PRs) through canonical triage roles — categorising bug vs enhancement, assigning states like needs-triage / needs-info / ready-for-agent, verifying the claim by reproducing it, grilling underspecified requests into shape, and posting agent-ready briefs back to the tracker.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/triage 这一个目录，而非整仓）。它把进来的 issue（以及可选的外部 PR）按规范化的分诊角色流转——区分 bug 与增强、打上 needs-triage / needs-info / ready-for-agent 等状态、通过复现来验证主张、把描述不清的请求拷问成形，并把可交给 agent 的简报回贴到追踪器。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/triage"
+  },
+  "sec_note_en": "This skill reads from and writes to your issue tracker (GitHub via the gh CLI by default, or GitLab/local-markdown/other), so it needs that tracker's access and will create labels, post comments, and change issue/PR states. It expects setup-matt-pocock-skills to have configured the label vocabulary first. When verifying claims it may check out PR branches and run their tests/commands — review code it executes.",
+  "sec_note_zh": "该技能会读写你的 issue 追踪器（默认通过 gh CLI 使用 GitHub，也支持 GitLab/本地 markdown/其他），因此需要该追踪器的访问权限，并会创建标签、发表评论、变更 issue/PR 状态。它要求先用 setup-matt-pocock-skills 配置好标签词表。在验证主张时，它可能检出 PR 分支并运行其测试/命令——请审查它执行的代码。"
+}

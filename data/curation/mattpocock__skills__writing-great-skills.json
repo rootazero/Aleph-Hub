@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "writing-great-skills",
+  "name": "Writing Great Skills",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["skills", "authoring", "meta-skill", "reference", "agents"],
+  "description_en": "A reference of the vocabulary and principles that make an agent skill predictable, for writing and editing skills well.",
+  "description_zh": "一份关于词汇与原则的参考，讲解如何让智能体技能更可预测，用于把技能写好、改好。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/writing-great-skills folder, not the whole repo). It is a meta-skill: a pure reference that defines the levers behind predictability — invocation modes, description writing, the information hierarchy and progressive disclosure, when to split skills, pruning to a single source of truth, and using leading words — with a bundled GLOSSARY.md for the full definitions.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/writing-great-skills 这一个目录，而非整仓）。它是一个元技能：一份纯参考资料，阐明决定“可预测性”的各项杠杆——调用方式、描述撰写、信息层级与渐进式披露、何时拆分技能、剪枝至单一事实来源，以及善用“引导词”——并附带一份 GLOSSARY.md 提供完整定义。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/productivity/writing-great-skills"
+  },
+  "sec_note_en": "Pure reference material consulted on demand: it makes no external changes (no files written, no commands run, no network access). It only shapes how you author other skills.",
+  "sec_note_zh": "按需查阅的纯参考资料：它不做任何外部改动（不写文件、不执行命令、不联网）。它只影响你如何撰写其他技能。"
+}

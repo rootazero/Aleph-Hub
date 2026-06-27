@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "to-issues",
+  "name": "To Issues",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["issues", "planning", "vertical-slices", "issue-tracker"],
+  "description_en": "Break a plan, spec, or PRD into independently-grabbable issues on your project issue tracker using tracer-bullet vertical slices.",
+  "description_zh": "用曳光弹式纵向切片，把计划、规格或 PRD 拆解成可被独立认领的 issue，并发布到你项目的 issue 追踪器。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-issues folder, not the whole repo). It explores the codebase, breaks a plan into thin vertical 'tracer bullet' slices that each cut end-to-end through every layer, quizzes you on granularity and dependencies, then publishes the approved slices as issues in dependency order.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-issues 这一个目录，而非整仓）。它会探查代码库，把计划拆成贯穿各层、端到端的薄「曳光弹」纵向切片，就粒度与依赖关系向你确认，然后按依赖顺序把已批准的切片作为 issue 发布。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/to-issues"
+  },
+  "sec_note_en": "This skill creates issues on your configured project issue tracker (GitHub, Linear, or local files) and applies triage labels, so it needs write access to that tracker and will publish content there. It also reads your codebase, CONTEXT.md, and ADRs to phrase issues; setup of the tracker vocabulary is a prerequisite.",
+  "sec_note_zh": "该技能会在你配置的项目 issue 追踪器（GitHub、Linear 或本地文件）上创建 issue 并打上分诊标签，因此需要对该追踪器的写入权限，并会在其中发布内容。它还会读取你的代码库、CONTEXT.md 和 ADR 来撰写 issue；预先配置好追踪器术语是前提条件。"
+}

@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "grill-with-docs",
+  "name": "Grill With Docs",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["planning", "design", "documentation", "adr"],
+  "description_en": "A relentless interview that sharpens a plan or design while producing docs (ADRs and a glossary) as you go.",
+  "description_zh": "一场刨根问底的访谈，在打磨方案或设计的同时随手产出文档（ADR 和术语表）。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/grill-with-docs folder, not the whole repo). It runs a stateful grilling session against your existing domain model, interrogating a plan one question at a time to expose gaps, and crystallises decisions inline by updating CONTEXT.md, ADRs, and the project glossary as terms get sharpened.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/grill-with-docs 这一个目录，而非整仓）。它针对你既有的领域模型运行一场有状态的拷问会话，逐个问题地审讯方案以暴露盲点，并在术语被打磨清晰的同时就地落定决策——更新 CONTEXT.md、ADR 和项目术语表。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/grill-with-docs"
+  },
+  "sec_note_en": "Mostly a conversational planning skill, but it does write to your repo: it creates and edits CONTEXT.md, ADR files, and a glossary as decisions land. It also depends on the sibling grilling and domain-modeling skills being available. No code execution, but review the doc changes it commits to your working tree.",
+  "sec_note_zh": "它主要是一个对话式的规划技能，但确实会写入你的仓库：随着决策落定，它会创建并编辑 CONTEXT.md、ADR 文件和术语表。它还依赖同仓的 grilling 与 domain-modeling 技能可用。不执行代码，但请审查它写入工作区的文档改动。"
+}

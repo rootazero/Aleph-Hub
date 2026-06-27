@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "tdd",
+  "name": "TDD",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["tdd", "testing", "red-green-refactor", "integration-tests"],
+  "description_en": "Test-driven development. Use when building features or fixing bugs test-first, when red-green-refactor is mentioned, or when you want integration tests.",
+  "description_zh": "测试驱动开发。适用于以测试先行的方式构建功能或修复 bug、提到红-绿-重构循环、或希望编写集成测试时。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/tdd folder, not the whole repo). It drives a strict red-green-refactor loop with vertical 'tracer bullet' slices (one test then one implementation, repeat) and favors integration-style tests that verify behavior through public interfaces rather than implementation details.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/tdd 这一个目录，而非整仓）。它驱动严格的红-绿-重构循环，采用纵向「曳光弹」切片（先一个测试再一个实现，循环往复），并偏好通过公共接口验证行为、而非耦合实现细节的集成式测试。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/tdd"
+  },
+  "sec_note_en": "This skill writes and runs tests against your codebase using your project's existing test framework and task runner, so it executes code locally. It reads CONTEXT.md and ADRs (if present) to align vocabulary but does not transmit anything externally; risk is limited to local test execution.",
+  "sec_note_zh": "该技能会基于你项目现有的测试框架和任务运行器编写并运行针对代码库的测试，因此会在本地执行代码。它会读取 CONTEXT.md 和 ADR（若存在）以对齐术语，但不会向外部传输任何内容；风险仅限于本地测试执行。"
+}

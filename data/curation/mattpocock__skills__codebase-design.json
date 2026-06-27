@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "codebase-design",
+  "name": "Codebase Design",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["architecture", "deep-modules", "interfaces", "testability"],
+  "description_en": "Shared vocabulary for designing deep modules. Use when designing or improving a module's interface, finding deepening opportunities, deciding where a seam goes, or making code more testable and AI-navigable.",
+  "description_zh": "设计深模块的统一词汇表。适用于设计或改进模块接口、寻找加深模块的机会、决定接缝位置，或让代码更易测试、更便于 AI 导航时。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/codebase-design folder, not the whole repo). It supplies a precise glossary (module, interface, implementation, depth, seam, adapter, leverage, locality) and principles for designing deep modules — lots of behaviour behind a small interface at a clean seam — guiding interface simplification, seam placement, and testability decisions.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/codebase-design 这一个目录，而非整仓）。它提供一套精确的词汇表（模块、接口、实现、深度、接缝、适配器、杠杆、局部性）和设计深模块的原则——即在干净的接缝处用小接口承载大量行为——用于指导接口精简、接缝定位和可测试性决策。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/codebase-design"
+  },
+  "sec_note_en": "This skill is reference vocabulary and design guidance that shapes how the agent reasons about and discusses module design; it has no inherent external side effects. Any code or doc changes happen only when you apply its recommendations through other tools, and it may read CONTEXT.md and ADRs to align terminology.",
+  "sec_note_zh": "该技能是一套参考词汇与设计指引，用于塑造 agent 推理和讨论模块设计的方式，本身没有外部副作用。只有当你通过其他工具采纳其建议时才会产生代码或文档变更，它还可能读取 CONTEXT.md 和 ADR 以对齐术语。"
+}

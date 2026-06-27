@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "improve-codebase-architecture",
+  "name": "Improve Codebase Architecture",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["architecture", "refactoring", "code-quality", "report"],
+  "description_en": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+  "description_zh": "扫描代码库寻找可深化的改进点，以可视化 HTML 报告呈现，再就你选定的那一项逐步拷问。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/improve-codebase-architecture folder, not the whole repo). It uses an explore agent to find architectural friction and shallow modules (guided by CONTEXT.md and ADRs), renders the candidate refactors as a self-contained Tailwind+Mermaid HTML report with before/after diagrams, and then runs a grilling loop over whichever deepening opportunity you choose.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/improve-codebase-architecture 这一个目录，而非整仓）。它用一个探索 agent 找出架构摩擦点和浅模块（以 CONTEXT.md 和 ADR 为指引），把候选重构渲染成一份自包含的 Tailwind+Mermaid HTML 报告（含前后对比图），随后就你选定的那个深化机会运行拷问循环。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/improve-codebase-architecture"
+  },
+  "sec_note_en": "Read-and-analyse plus reporting: it reads your codebase and writes a timestamped HTML report to the OS temp dir (not your repo) and opens it in a browser. It loads Tailwind and Mermaid from CDNs, so report rendering needs network access. The grilling phase may then update CONTEXT.md and ADRs in your repo. It depends on the sibling codebase-design, grilling, and domain-modeling skills.",
+  "sec_note_zh": "以读取分析加出报告为主：它会读取你的代码库，并把带时间戳的 HTML 报告写入操作系统临时目录（不写入你的仓库），然后在浏览器中打开。它从 CDN 加载 Tailwind 与 Mermaid，因此报告渲染需要网络访问。随后的拷问阶段可能会更新你仓库中的 CONTEXT.md 和 ADR。它依赖同仓的 codebase-design、grilling 与 domain-modeling 技能。"
+}
