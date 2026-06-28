@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 170,
-    "generated_at": "2026-06-28T04:28:22.825Z",
-    "content_hash": "sha256:f373708f50543ea2aae68c5e6e856b76cd3c48f2e79a6864a52b566bff062175"
+    "entry_count": 183,
+    "generated_at": "2026-06-28T05:05:33.510Z",
+    "content_hash": "sha256:01d95200c304748b8615a1e9f333cdb08d51027837ce8d3848e9f979b00c5a85"
   },
   "entries": [
     {
@@ -2355,6 +2355,327 @@
         "hand-drawn"
       ],
       "via": "github:cclank"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-brand-graph",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "GEO Brand Knowledge Graph",
+      "description": "Turns company materials, official sites, products, cases and people into an evidence-backed brand entity knowledge graph, outputting entity/relation lists, a disambiguation table, confidence tiers, Mermaid diagrams, JSON-LD, RDF triples and Word/PDF/HTML/Markdown reports.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-brand-graph",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "knowledge-graph",
+        "brand",
+        "entity",
+        "jsonld"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-comparison-builder",
+      "kind": "skill",
+      "category": "writing",
+      "name": "GEO Comparison Builder",
+      "description": "Generates evidence-bound, same-criteria GEO brand-comparison content (vs pages, alternatives, selection pages, FAQ) with a decision-dimension model, source ledger, and scoring matrix, delivered as Word, PDF, HTML, and Markdown.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-comparison-builder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "comparison",
+        "alternatives",
+        "chinese",
+        "evidence"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-content-refiner",
+      "kind": "skill",
+      "category": "writing",
+      "name": "GEO Content Refiner",
+      "description": "Refactors existing SEO articles, WeChat posts, white papers, or product-page copy into GEO-friendly, AI-citable content, outputting an original GEO score, refined article, before/after diff, atomic fact cards, FAQ, and a four-format report.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-content-refiner",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "refine",
+        "rewrite",
+        "faq",
+        "chinese"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-effect-monitor",
+      "kind": "skill",
+      "category": "data",
+      "name": "GEO Effect Monitor",
+      "description": "Designs a GEO answer-monitoring plan for Chinese answer engines (DeepSeek, Doubao, Qianwen, Kimi, Tencent Yuanbao): per-platform sampling specs, a prompt library, a six-layer metric system, citation-source tracking, a cautious attribution framework, a brand-fact correction loop, alert/threshold rules, dashboard fields and a DB/API draft, delivered as Word/PDF/HTML/Markdown reports.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-effect-monitor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "monitoring",
+        "ai-answers",
+        "citation-tracking",
+        "attribution"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-execution-roadmap",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "GEO Execution Roadmap",
+      "description": "Turns an existing GEO diagnosis and opportunity map into a 30/60/90-day execution plan with six project packages (page tech, content matrix, titles, knowledge base, external evidence, monitoring), roles, acceptance metrics, budget, and platform-specific actions for DeepSeek, Doubao, Qwen, Kimi, and Yuanbao, output in four formats.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-execution-roadmap",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "roadmap",
+        "planning",
+        "china-ai-platforms"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-explainer-builder",
+      "kind": "skill",
+      "category": "writing",
+      "name": "GEO Explainer Builder",
+      "description": "Builds a complete publishable GEO explainer article (how-to, concept explanation, buying guides, pitfalls, FAQ, glossary, evidence grading) plus a data-verification appendix, delivered as Markdown, HTML, Word, and PDF.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-explainer-builder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "explainer",
+        "how-to",
+        "faq",
+        "chinese"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-knowledge-base-builder",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "GEO Knowledge Base Builder",
+      "description": "Builds an evidence-backed, auditable GEO brand knowledge base from official sites, product pages, help centers, white papers and trusted third-party sources, outputting a complete entity inventory, fact cards, FAQ, prohibited-expression list, source index with evidence tiers, downstream prompt input packs and a four-format Chinese report (Markdown/HTML/Word/PDF).",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-knowledge-base-builder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "knowledge-base",
+        "brand",
+        "fact-cards",
+        "faq"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-page-audit",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "GEO Page Audit",
+      "description": "Audits a URL or small page set for GEO readiness across crawlability, structure, content evidence, and AI extractability, producing code-layer fixes, content/schema suggestions, an evidence ledger, and a four-format report with a quality-report.json self-check.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-page-audit",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "page-audit",
+        "schema",
+        "seo"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-page-blueprint",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "GEO Page Blueprint",
+      "description": "Designs a GEO-friendly page blueprint for a product, topic, ranking, comparison, FAQ, knowledge-base, or case page, producing query fan-out coverage, information architecture, AI-extractable modules, semantic HTML, Schema candidates, a CMS field list, and a four-format report.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-page-blueprint",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "page-design",
+        "schema",
+        "information-architecture"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-panorama-audit",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "GEO Panorama Audit",
+      "description": "Runs a full-brand GEO baseline audit by crawling the brand's official site, cross-verifying claims against public sources, and producing a 12-domain diagnosis with an onsite/offsite opportunity map and priorities, delivered as Word, PDF, HTML, and Markdown.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-panorama-audit",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "audit",
+        "content-strategy",
+        "brand"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-ranking-article-builder",
+      "kind": "skill",
+      "category": "writing",
+      "name": "GEO Ranking Article Builder",
+      "description": "Turns a brand brief, topic config, keywords, competitor set, and trusted sources into a traceable GEO ranking/review article (best/top/alternatives/vs/persona/use-case) with scoring methodology, comparison table, FAQ, and a sources table, delivered as Markdown, HTML, PDF, and Word.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-ranking-article-builder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "ranking",
+        "best",
+        "review",
+        "chinese"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-title-optimizer",
+      "kind": "skill",
+      "category": "writing",
+      "name": "GEO Title Optimizer",
+      "description": "Generates, scores, and compliance-checks GEO title candidates for Chinese AI search platforms, mapping each title to an article structure and exporting Markdown, HTML, DOCX, and PDF reports.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-title-optimizer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "title",
+        "seo",
+        "chinese",
+        "content"
+      ],
+      "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-tracking",
+      "kind": "skill",
+      "category": "data",
+      "name": "GEO Attribution & Tracking Planner",
+      "description": "From a company name plus optional supporting info, designs a company-specific GEO backend tracking and attribution PLAN: official-site verification, business-type and conversion-path mapping, direct-vs-indirect effect modeling, an observability estimation framework, data-model and metrics design, a prioritized roadmap, and optional rendered HTML and Word reports.",
+      "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yaojingang/yao-geo-skills",
+        "subdir": "skills/yao-geo-tracking",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yaojingang",
+      "tags": [
+        "geo",
+        "tracking",
+        "attribution",
+        "analytics",
+        "monitoring"
+      ],
+      "via": "github:yaojingang"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",

@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"97e37d0fce96f7925d9284b29b5adb0b977ee7d45c470877e6785fe06f27f586\"",
+    "etag": "W/\"c9e762ba04e4b0cc89b19c6da987b1a9a67257c2a0bb577701e958696b5f0080\"",
     "readme_hash": "22d82a9114c111268660d2a3ed48e2201bb17ecd65a0cea96196dc15db73d357",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"16038ac10e1fe17ecabb1188282ce8f9762d9cb082c73db6cb0b5c06c1ad4e18\"",
+    "etag": "\"16038ac10e1fe17ecabb1188282ce8f9762d9cb082c73db6cb0b5c06c1ad4e18\"",
     "readme_hash": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "W/\"1c5afaa7fcc575d42bb20ff20dc1a9ec8be41542f47becdd7da027ab360a63cf\"",
+    "etag": "\"1c5afaa7fcc575d42bb20ff20dc1a9ec8be41542f47becdd7da027ab360a63cf\"",
     "readme_hash": "075cc97e124df82c71cf242d14748cf4e6fe245241458f38d447c7413e08cce5",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"7f7bbd04798882e75a706827ef0f9d03c82de0695fcac20e2967ec098d036379\"",
+    "etag": "W/\"0a0963d30b7e4e40a5b149cc17ab1a369cab5151b2339ee58e88d100014ef822\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"570f3ddaa3f8ab676b97f1eebda75787434b3b0bd0a1a5da3921ff1f3d2f89dc\"",
+    "etag": "\"570f3ddaa3f8ab676b97f1eebda75787434b3b0bd0a1a5da3921ff1f3d2f89dc\"",
     "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
     "entries": [
       {
@@ -203,7 +203,7 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"602c1127cad8ad387615bb8343f6596f4258ad1dae50a158b958c11e80f36a61\"",
+    "etag": "W/\"a909bde5f79465db88672bc8c0a5976020ad8367282a22cb48d44c7dbc30900a\"",
     "readme_hash": "f17b9a73cbaca194246071813b0382536baf0ec2e969140e934ea3232e9c1807",
     "entries": [
       {
@@ -238,7 +238,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"a69ae2666f8018b2ec74eeb20ac34831f3f0e49c05cd05637786c67915bb98f7\"",
+    "etag": "W/\"50b49176a065f9281f2fdb0be107222be701d9c51ad97e1337daf4752650a1d3\"",
     "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
     "entries": [
       {
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"9e24ce2dc35cd44b10dabe3926c1df693b800d28fe24e4f24ff5adea90c389e4\"",
+    "etag": "W/\"ff0df7a1ed26f862952b0bf5f7580c3a0bc7b956bf2df64513c5ddebdfa77f63\"",
     "readme_hash": "475fa0ec89589a191d01101abd90e2838a4b18b6df743769121fb3f18bc8ad83",
     "entries": [
       {
@@ -308,7 +308,7 @@
     ]
   },
   "dominikmartn/hue": {
-    "etag": "W/\"e955804450876dc3536e4010b9773f68b2a0efc95f6719e19c447eae3496b29b\"",
+    "etag": "\"e955804450876dc3536e4010b9773f68b2a0efc95f6719e19c447eae3496b29b\"",
     "readme_hash": "f739a93614d7836da1b87fc3b30d1be6f94a8a45f7ada2632acb8505c5831ce8",
     "entries": [
       {
@@ -413,7 +413,7 @@
     ]
   },
   "ckelsoe/prompt-architect": {
-    "etag": "W/\"a541a408ebd159708fb7e18eedab4d21bd797d6503646397bf5f6f8bcc0bf631\"",
+    "etag": "\"a541a408ebd159708fb7e18eedab4d21bd797d6503646397bf5f6f8bcc0bf631\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entries": [
       {
@@ -555,7 +555,7 @@
     ]
   },
   "karanb192/algo-sensei": {
-    "etag": "W/\"43375613a3691c383f609eae62b561415817a124ba564f88729aea01a5aa2c07\"",
+    "etag": "\"43375613a3691c383f609eae62b561415817a124ba564f88729aea01a5aa2c07\"",
     "readme_hash": "e102d6031dd5a513a587ee39f8f6f32cb5428390081df771ba59abe1f7f044eb",
     "entries": [
       {
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "\"74ee43fdbb240efaf43c11a6504c52942dab7ed347f386ed43d54ae24a0bc283\"",
+    "etag": "W/\"a34e7facec800fe678033906b9812c7c40ea988ff48287db1bc4883ed1922acd\"",
     "readme_hash": "3dd33ca4c6580ac8b40b1631943fbf50dd30ef1fb0f9360b16f1b05c11e0f8d7",
     "entries": [
       {
@@ -805,7 +805,7 @@
     }
   },
   "dpconde/claude-android-skill": {
-    "etag": "W/\"e3c0b1fa5e6f500cf4acb5bcde1bfa6f19d6db74370695a8ecb055fd298a51e4\"",
+    "etag": "\"e3c0b1fa5e6f500cf4acb5bcde1bfa6f19d6db74370695a8ecb055fd298a51e4\"",
     "readme_hash": "026826447e4b068f7b2b5c2a4bb6f093af7496e8d8c7588c766216de37a56773",
     "entries": [
       {
@@ -877,7 +877,7 @@
     ]
   },
   "irenerachel/visual-style-ppt-skill": {
-    "etag": "W/\"720ff1ee5398a139b27839ed779b217debb642da24eb67b2b0b768b65e9929b0\"",
+    "etag": "\"720ff1ee5398a139b27839ed779b217debb642da24eb67b2b0b768b65e9929b0\"",
     "readme_hash": "6a69ee0e2b2b26a85d9633d9ca967916412ae1cfab7a74cccfd3e052c054ead6",
     "entries": [
       {
@@ -913,7 +913,7 @@
     ]
   },
   "likaku/Mck-ppt-design-skill": {
-    "etag": "W/\"634a0c4d8523a97f8e60129284cbf714950f1757baa9064045e6707b6b172dc0\"",
+    "etag": "\"634a0c4d8523a97f8e60129284cbf714950f1757baa9064045e6707b6b172dc0\"",
     "readme_hash": "f2058627f43aaccb54f96391e27f5f0a7847e04f770f3598ca316829ad754692",
     "entries": [
       {
@@ -1093,7 +1093,7 @@
     ]
   },
   "uxKero/anydesign": {
-    "etag": "W/\"cac09996438a3bbbef1dc0473b74e636dffada89a8d4e6e5a6fac783d4aa8597\"",
+    "etag": "\"cac09996438a3bbbef1dc0473b74e636dffada89a8d4e6e5a6fac783d4aa8597\"",
     "readme_hash": "b75f51ae14fc64363306931b1f298b239376d206c7dd7b8c612eb65118bc0156",
     "entries": [
       {
@@ -1165,7 +1165,7 @@
     ]
   },
   "agentenatalie/get-job.skill": {
-    "etag": "W/\"13887f476e62ebe7af286755798a4177f395598c013c126c27ee536c0630ff51\"",
+    "etag": "\"13887f476e62ebe7af286755798a4177f395598c013c126c27ee536c0630ff51\"",
     "readme_hash": "2ec1dd145694eb8be11a0de0e3ff503e260448eda6033a172bc203db51dadbcc",
     "entries": [
       {
@@ -1489,7 +1489,7 @@
     ]
   },
   "cjpatten/canadian-finance-planner-skill": {
-    "etag": "W/\"c41b2b4eea4e23cc8e707d503a9e357b332766e8dc0ff142d8386504c507784a\"",
+    "etag": "\"c41b2b4eea4e23cc8e707d503a9e357b332766e8dc0ff142d8386504c507784a\"",
     "readme_hash": "26dc16dbe5d88b12c898a62aff98636869ff32d8b0a0e2ac42c88e2928c96273",
     "entries": [
       {
@@ -1705,7 +1705,7 @@
     ]
   },
   "googlarz/finance-assistant": {
-    "etag": "W/\"cdd2760c28383f305da02a10b2af363ecc0abb9d58a149120bd43ebc733f1130\"",
+    "etag": "\"cdd2760c28383f305da02a10b2af363ecc0abb9d58a149120bd43ebc733f1130\"",
     "readme_hash": "d3db2de48eeae77a155caaaef2aab8fc9f732be1f1c1618ca61de9d8546d04ec",
     "entries": [
       {
@@ -1885,7 +1885,7 @@
     ]
   },
   "mathiaschu/watch": {
-    "etag": "W/\"1da27ea5ee3fbf014d7809e65d6ebfe55e44cb4042dfe7d6b9951c532cf3e0ef\"",
+    "etag": "\"1da27ea5ee3fbf014d7809e65d6ebfe55e44cb4042dfe7d6b9951c532cf3e0ef\"",
     "readme_hash": "853551c79901ea6f38468020b4ca617efe7bb7480021719ab84f68421fecdbe0",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"6fb86848686c476eed13c483ff8009761a0e2aa670deb2f5647d908c4eb82d96\"",
+    "etag": "W/\"938cb7a23855e61f1c22c0ba3430136701ab24b005ce2f8da867f042f50112af\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2281,7 +2281,7 @@
     ]
   },
   "917Dhj/DeepPaperNote": {
-    "etag": "W/\"d7082aa6bd096e105ceaf94455f62825c6fccf831cdcfdf99ab70764498bbb62\"",
+    "etag": "\"d7082aa6bd096e105ceaf94455f62825c6fccf831cdcfdf99ab70764498bbb62\"",
     "readme_hash": "f1418db6d21b145e07456e6d621d737221f62ec8dc52ec44c4126bab4d883282",
     "entries": [
       {
@@ -2317,7 +2317,7 @@
     ]
   },
   "gitroomhq/postiz-agent": {
-    "etag": "W/\"b66536be8f579200c440cc35800eef8f0b314f1962b0567b13b4064f44506d18\"",
+    "etag": "\"b66536be8f579200c440cc35800eef8f0b314f1962b0567b13b4064f44506d18\"",
     "readme_hash": "4cd8866741dcd6aa68f3a226b596a16719ca2f1ab0ca4f8223cc3023a7837e13",
     "entries": [
       {
@@ -2425,7 +2425,7 @@
     ]
   },
   "CosmoBlk/email-marketing-bible": {
-    "etag": "W/\"7368691dca91e516c37d88d83e94e2e881d1bdb15412c8cc3a9a34e69197093c\"",
+    "etag": "\"7368691dca91e516c37d88d83e94e2e881d1bdb15412c8cc3a9a34e69197093c\"",
     "readme_hash": "35d99ccb96a1ec97992fa7659e9694218aa34af021d42c001d317c11db4e4b18",
     "entries": [
       {
@@ -2461,7 +2461,7 @@
     ]
   },
   "caylent/tufte-data-viz": {
-    "etag": "W/\"9ef35897bee1c38227513f5e077dc3888ad86fbb48aea5ab3bb059acc3096bea\"",
+    "etag": "\"9ef35897bee1c38227513f5e077dc3888ad86fbb48aea5ab3bb059acc3096bea\"",
     "readme_hash": "a70f4a6a39ed49b5ac334ac0a4d75da3543073cfdac8dc525d83711ca8488759",
     "entries": [
       {
@@ -2533,7 +2533,7 @@
     ]
   },
   "claude-world/notebooklm-skill": {
-    "etag": "W/\"0af4160efa50226a19e41730c68bad07aec8c2f6fd34105b12c33cc7e6dd0b08\"",
+    "etag": "\"0af4160efa50226a19e41730c68bad07aec8c2f6fd34105b12c33cc7e6dd0b08\"",
     "readme_hash": "7d73f30fdc6a29d90ab067fa0236517f7acae397935a8e2f0b0f2c921d8bf148",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "W/\"5d113d6d3846fd6f639c05ae1b704e204e21e4cd977fede39b3cbb4c5588eebd\"",
+    "etag": "\"5d113d6d3846fd6f639c05ae1b704e204e21e4cd977fede39b3cbb4c5588eebd\"",
     "readme_hash": "cd790218b2f69d069c09551920c7447c81d931284cf54a7f8edf2cc32f22cf16",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"7d94a8240abc9bdd68740874e2efbeb8066769ab10663097f6a07b37fca92e7f\"",
+    "etag": "\"7d94a8240abc9bdd68740874e2efbeb8066769ab10663097f6a07b37fca92e7f\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"68ba089a06c3351bd7dcc032c4d0cbc81acc9e0cbe6ce3bdf44d52bda631cc92\"",
+    "etag": "\"68ba089a06c3351bd7dcc032c4d0cbc81acc9e0cbe6ce3bdf44d52bda631cc92\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,7 +3038,7 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"a81172292287e6a0c14d2ed39327de72c1c0f2d93fda4c794222774f88caa73f\"",
+    "etag": "W/\"c8b6ad066e79a1e2a8a8be7618312206bce8d028d8c77784c30259273fe4d0ae\"",
     "readme_hash": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6",
     "entries": [
       {
@@ -3075,7 +3075,7 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"90ba5ed4828bf90325d9a43db19aa42fc16d3f0532018cbffbb017a09e13bdac\"",
+    "etag": "W/\"2b768de1cf1d47188f2f3123125dc9f17f72b71c3700596b368c470d4b51cf9c\"",
     "readme_hash": "07c21176b8117e80b6a843fdcc0ca797c899fc89195dfc2d2ccd43433232f886",
     "entries": [
       {
@@ -3149,7 +3149,7 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"d604f3b6cad2ec67a99041d1d3107415bd700ff16eb01c29b74f05800fcc23b4\"",
+    "etag": "W/\"21b81f5e22d76ee469f32db4d0bb285fe60e160df558e1b3a4ecf05b768f64fb\"",
     "readme_hash": "bc18904b1077d1e9dcf00bbb2a70947fc2fea61499f86a41e020e24a7339a640",
     "entries": [
       {
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"a024ee495f48d0b12dc6fd2bb1e4b800ccb5bc9b00d41a76182b1da243f28478\"",
+    "etag": "W/\"9885d81b9e78004c676b7e3fca73d5564d4411826e51799d6ba6f3b516312bff\"",
     "readme_hash": "9202c6fb8a233bb17f33cd10f9ee0ab3dc903e3cd0e6eee09122aa5d8c6965c6",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"59696d2ba0ebcd833ff683a8a8e3a6a1b548528009c067d3bb634acc5dd5cc9c\"",
+    "etag": "W/\"b03f49823cda7b4bda9660f39a7f2ec64d000294ad4704d10e32853ebe4d0a4c\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"1792b93ad856bca5a71e2f155384d4460164baffeac03b01733b75f9539ffdde\"",
+    "etag": "W/\"cc59494cd263c099438d8511fd462f14e551bba9028a0f502981048c9da99497\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3298,7 +3298,7 @@
     ]
   },
   "kdnsna/ultimate-ppt-master-skill": {
-    "etag": "W/\"18c55411b583f8a10d275a9dc63ebc3d882539fadb13c600bb3315605edd3513\"",
+    "etag": "\"18c55411b583f8a10d275a9dc63ebc3d882539fadb13c600bb3315605edd3513\"",
     "readme_hash": "4cbd49d069528bdc3f29d68e2cf58945e94e8ccd08c643a14bcce7569444abed",
     "entries": [
       {
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"bc19f142799b6863ae2c13784abffb883c5c1cb0aa6ba820b26558f6281693e3\"",
+    "etag": "W/\"c1099e47960be5817cc8143dd3ccf5ccf9e6b78ec489236364c7e1497b1c94ef\"",
     "readme_hash": "b10283ab95e16bffb70aba02c7253d00426fe0d5f239c66551186090e6d2a5e4",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"6d76149e2cda401cd3f424edf1d10a6721e3c22e3a499cdd51785c9ff2b9d2a9\"",
+    "etag": "W/\"88b768530ca7a7d01298337823cc997d423e4f5ba594bee854aabdd5babb6b68\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"9a209b40f683addd2ec95bca4c6ffeaec20e615c8348ee1b03fdb5cbebf6fdf2\"",
+    "etag": "W/\"0854bd5c4b4b5d2d357b993b5e269524b4d5493a4a112e08a305a4e1487d5ec4\"",
     "readme_hash": "9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"4267f0c356d47238ed8a46d5f1d3b849c3f273a301549061eef0030ea64761cb\"",
+    "etag": "W/\"a0db6e52cfd44a663c99b3578e120ecb60f9f57b0df2d63a94ba63e10c62850b\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"62dd7f768fc9f043d06a5e0774d5b92a0cd6d19b5236ceeecc49c64509eb1420\"",
+    "etag": "W/\"d5c47fc1284cd0f7c20b14ee33008f63dd1bb64f10850226e17efc76fe170aa5\"",
     "readme_hash": "34bbfbab1e6859177a0ac3ce04229ac949fb802998608aa182bee3efbee4ea6a",
     "entries": [
       {
@@ -3683,7 +3683,7 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"612d6a268f3320e36ae14b9dff19458c956eaa51e265f929b4a59ff4e716dbf5\"",
+    "etag": "W/\"cabf8511927636d87bb352ef7ca6c586c11b54a69da850502bb30df7cf8254d2\"",
     "readme_hash": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
     "entries": [
       {
@@ -4221,7 +4221,7 @@
     ]
   },
   "xiaopu-ai/web-design": {
-    "etag": "W/\"aa0b2838f32e35a4abee17f86c3c79562d0300b4c68ef57329b716669e04c465\"",
+    "etag": "\"aa0b2838f32e35a4abee17f86c3c79562d0300b4c68ef57329b716669e04c465\"",
     "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
     "entries": [
       {
@@ -4257,7 +4257,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"7c5c6d19e9a784669edc73754ecc59afd392bff271bdd49856c30407580a252e\"",
+    "etag": "W/\"22bfff941272d1e63eca10e4ccb6bca390b3c56a551e9e60fe60eff4a497f448\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -4289,6 +4289,424 @@
         "long_zh": "把技术内容转成统一、精致的一套图（Excalidraw + PNG + 动图 GIF），让架构与流程讲解呈现为有设计感的视觉，而非平铺的方框与箭头。",
         "sec_note_en": "Runs a bundled Python renderer (Pillow) entirely on the local machine to emit .excalidraw/.png/.gif — no network, remote APIs, or external icon libraries. Requires Python 3.9+ and Pillow (ffprobe optional for media inspection). Authored and marketed as a Codex skill, but uses the portable SKILL.md format and a platform-agnostic Python renderer.",
         "sec_note_zh": "在本地运行内置的 Python 渲染器（Pillow）生成 .excalidraw/.png/.gif——不联网、无远程 API、无外部图标库。需要 Python 3.9+ 与 Pillow（ffprobe 可选，用于媒体检查）。作者按 Codex skill 定位与宣传，但采用通用的 SKILL.md 格式与平台无关的 Python 渲染器。",
+        "requires_config": false
+      }
+    ]
+  },
+  "yaojingang/yao-geo-skills": {
+    "etag": "W/\"e2115fd50ccf23d7dab05faf838b48dd915f051b35f8ea5eb1c1f15d353e6b44\"",
+    "readme_hash": "a8716deaf85d849ca7d880bc660364ec771ccfd87b0582eed0171ec362e89ab8",
+    "entries": [
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-brand-graph",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Brand Knowledge Graph",
+        "author": "yaojingang",
+        "category": "knowledge",
+        "tags": [
+          "geo",
+          "knowledge-graph",
+          "brand",
+          "entity",
+          "jsonld"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-brand-graph",
+          "git_ref": "main"
+        },
+        "description_en": "Turns company materials, official sites, products, cases and people into an evidence-backed brand entity knowledge graph, outputting entity/relation lists, a disambiguation table, confidence tiers, Mermaid diagrams, JSON-LD, RDF triples and Word/PDF/HTML/Markdown reports.",
+        "description_zh": "把企业资料、官网、产品、客户案例和人物整理成有证据支撑的品牌实体知识图谱，输出实体/关系清单、消歧表、可信等级、Mermaid 图、JSON-LD、RDF 三元组以及 Word/PDF/HTML/Markdown 报告。",
+        "long_en": "Build a consistent, evidence-traceable brand knowledge graph to power GEO content, page structure and AI-answer consistency.",
+        "long_zh": "构建一致、可溯源的品牌知识图谱，为 GEO 内容、页面结构和 AI 答案一致性治理提供底座。",
+        "sec_note_en": "Bundles two Python scripts: render_yao_geo_brand_graph.py builds Word/PDF/HTML/Markdown plus a quality-report.json from a structured report_input.json, and collect_source_validation.py samples source-URL reachability/page titles (needs network access when run). Reads a source ledger and structured input; writes report files locally. No private/vendor-system dependency; every relation edge requires an evidence ID.",
+        "sec_note_zh": "捆绑两个 Python 脚本：render_yao_geo_brand_graph.py 从结构化 report_input.json 生成 Word/PDF/HTML/Markdown 及 quality-report.json，collect_source_validation.py 会采样来源 URL 的可达性与页面标题（运行时需要联网）。读取来源账本与结构化输入，本地写出报告文件。不依赖任何私有/厂商系统；每条关系边都必须带证据 ID。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-comparison-builder",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Comparison Builder",
+        "author": "yaojingang",
+        "category": "writing",
+        "tags": [
+          "geo",
+          "comparison",
+          "alternatives",
+          "chinese",
+          "evidence"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-comparison-builder",
+          "git_ref": "main"
+        },
+        "description_en": "Generates evidence-bound, same-criteria GEO brand-comparison content (vs pages, alternatives, selection pages, FAQ) with a decision-dimension model, source ledger, and scoring matrix, delivered as Word, PDF, HTML, and Markdown.",
+        "description_zh": "生成证据绑定、同口径的 GEO 品牌对比内容（vs 页、替代方案、选型页、FAQ），含决策维度模型、来源台账与评分矩阵，并交付 Word、PDF、HTML、Markdown 四格式。",
+        "long_en": "Build fair, source-anchored brand comparisons for domestic AI platforms without disparaging competitors or making unverified claims.",
+        "long_zh": "为国内 AI 平台构建公平、来源锚定的品牌对比，不贬损竞品、不输出未经核验的结论。",
+        "sec_note_en": "White-hat content optimization, not competitor smearing or detection evasion. Bundles a Python DOCX layout checker (check_docx_layout.py) for table overflow. Real-data modes (public web, user files, authorized connectors/API, AI-platform sampling) are declared per run; it explicitly must not read logged-in, paywalled, internal-system, or personal data, and unverifiable market-share/customer-count/price claims must be dropped or downgraded. Web access only when public-web or connector mode is enabled.",
+        "sec_note_zh": "白帽内容优化，非诋毁竞品或检测规避。捆绑 Python DOCX 版式检查脚本（check_docx_layout.py）检测表格溢出。每次运行声明真实数据模式（公开网页、用户文件、授权连接器/API、AI 平台采样）；明确不得读取登录后、付费、内部系统或个人数据，无法核验的市场份额/客户数/价格须删除或降级。仅在启用公开网页或连接器模式时联网。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-content-refiner",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Content Refiner",
+        "author": "yaojingang",
+        "category": "writing",
+        "tags": [
+          "geo",
+          "refine",
+          "rewrite",
+          "faq",
+          "chinese"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-content-refiner",
+          "git_ref": "main"
+        },
+        "description_en": "Refactors existing SEO articles, WeChat posts, white papers, or product-page copy into GEO-friendly, AI-citable content, outputting an original GEO score, refined article, before/after diff, atomic fact cards, FAQ, and a four-format report.",
+        "description_zh": "把已有 SEO 文章、公众号稿、白皮书或产品页文案改造成 GEO 友好、AI 可引用的内容，输出原文 GEO 评分、改造版文章、改造前后差异、原子事实卡、FAQ 及四格式报告。",
+        "long_en": "Upgrade existing copy for AI extractability and citation with atomic facts, structure, and evidence grading across eight GEO dimensions.",
+        "long_zh": "用原子事实、结构补强与证据分级，按八个 GEO 维度提升已有文案的 AI 可抽取性与可引用性。",
+        "sec_note_en": "White-hat content optimization for AI answer engines, not detection evasion. Works from user-supplied source text and sources; it must not invent data, prices, or cases without sources, and must not access logged-in backends, paid databases, private APIs, or personal data without authorization. Optional web verification only when the operator allows it. Reference docs describe data-access and verification rules; layout rules govern DOCX/PDF table handling.",
+        "sec_note_zh": "面向 AI 答案引擎的白帽内容优化，非检测规避。基于用户提供的原文与来源工作；无来源时不得虚构数据、价格或案例，未经授权不得访问登录后台、付费数据库、私有 API 或个人数据。仅在操作者允许时可选联网核验。参考文档说明数据访问与核验规则，版式规则约束 DOCX/PDF 表格处理。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-effect-monitor",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Effect Monitor",
+        "author": "yaojingang",
+        "category": "data",
+        "tags": [
+          "geo",
+          "monitoring",
+          "ai-answers",
+          "citation-tracking",
+          "attribution"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-effect-monitor",
+          "git_ref": "main"
+        },
+        "description_en": "Designs a GEO answer-monitoring plan for Chinese answer engines (DeepSeek, Doubao, Qianwen, Kimi, Tencent Yuanbao): per-platform sampling specs, a prompt library, a six-layer metric system, citation-source tracking, a cautious attribution framework, a brand-fact correction loop, alert/threshold rules, dashboard fields and a DB/API draft, delivered as Word/PDF/HTML/Markdown reports.",
+        "description_zh": "为国内 AI 答案引擎（DeepSeek、豆包、千问、Kimi、腾讯元宝）设计 GEO 答案监测方案：各平台独立采样口径、Prompt 库、六层指标体系、引用源追踪、谨慎归因框架、品牌事实纠偏闭环、阈值告警规则、仪表盘字段与数据库/API 草案，并交付 Word/PDF/HTML/Markdown 报告。",
+        "long_en": "A long-running GEO measurement loop that tracks brand visibility, factuality and citation quality in AI answers, with disciplined, evidence-graded attribution.",
+        "long_zh": "面向长期运营的 GEO 测量闭环，追踪 AI 答案中的品牌可见性、事实准确性与引用质量，并做有证据分级的谨慎归因。",
+        "sec_note_en": "This is legitimate measurement/analytics: its methodology involves SAMPLING AI platform answers (recording raw answer text, citation links, screenshots, exports and the sampling environment) to compute brand-appearance, recommendation, accuracy and citation-quality metrics. It explicitly forbids bypassing platform limits, bulk over-scraping, faking human login, or violating terms of service, and requires any bulk automation to declare frequency, permissions and a human-review boundary. No bundled scripts (template/reference-driven); output is a monitoring PLAN plus reports, not a crawler. Actual sampling requires web/platform access; results without auditable raw samples must be marked synthetic or pending.",
+        "sec_note_zh": "属于正当的测量/分析：其方法学涉及对 AI 平台答案进行采样（记录答案原文、引用链接、截图、导出文件与采样环境），用于计算品牌出现率、推荐率、描述准确率和引用质量等指标。明确禁止绕过平台限制、批量滥采、模拟真人登录或违反服务条款，并要求任何批量自动化写明频率、权限与人工复核边界。不含捆绑脚本（以模板/参考驱动）；产物是监测方案与报告，而非爬虫。实际采样需要联网/平台访问；缺少可审计原始样本的结果必须标为合成或待复核。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-execution-roadmap",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Execution Roadmap",
+        "author": "yaojingang",
+        "category": "productivity",
+        "tags": [
+          "geo",
+          "roadmap",
+          "planning",
+          "china-ai-platforms"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-execution-roadmap",
+          "git_ref": "main"
+        },
+        "description_en": "Turns an existing GEO diagnosis and opportunity map into a 30/60/90-day execution plan with six project packages (page tech, content matrix, titles, knowledge base, external evidence, monitoring), roles, acceptance metrics, budget, and platform-specific actions for DeepSeek, Doubao, Qwen, Kimi, and Yuanbao, output in four formats.",
+        "description_zh": "把已有的 GEO 诊断与机会地图转成 30/60/90 天执行方案，含六个项目包（页面技术、内容矩阵、标题体系、知识库、外部证据、监测闭环）、角色分工、验收指标、预算，以及面向 DeepSeek、豆包、千问、Kimi、元宝的平台化动作，四格式输出。",
+        "long_en": "Converts GEO findings into an accountable 30/60/90-day roadmap with owners, metrics, and budget so teams can ship content that AI answer engines can cite.",
+        "long_zh": "把 GEO 诊断结论落成可问责的 30/60/90 天路线图，明确负责人、指标与预算，让团队产出可被 AI 答案引擎引用的内容。",
+        "sec_note_en": "White-hat content planning, not manipulation. Manifest declares requires_web: false; it consumes a prior diagnosis/opportunity map rather than crawling. Bundles a Python3 script (scripts/render_yao_geo_execution_roadmap.py) that renders the four-format (Word/PDF/HTML/Markdown) report from a JSON input and writes a quality-report.json. Reads input JSON and writes report files; default output language is Simplified Chinese.",
+        "sec_note_zh": "属白帽内容规划，非操纵。manifest 声明 requires_web: false；它承接已有诊断/机会地图而非自行抓取。打包了一个 Python3 脚本（scripts/render_yao_geo_execution_roadmap.py），从 JSON 输入渲染四格式（Word/PDF/HTML/Markdown）报告并写出 quality-report.json。读取输入 JSON、写出报告文件；默认输出语言为简体中文。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-explainer-builder",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Explainer Builder",
+        "author": "yaojingang",
+        "category": "writing",
+        "tags": [
+          "geo",
+          "explainer",
+          "how-to",
+          "faq",
+          "chinese"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-explainer-builder",
+          "git_ref": "main"
+        },
+        "description_en": "Builds a complete publishable GEO explainer article (how-to, concept explanation, buying guides, pitfalls, FAQ, glossary, evidence grading) plus a data-verification appendix, delivered as Markdown, HTML, Word, and PDF.",
+        "description_zh": "生成一篇完整可发布的 GEO 科普文章（How-to、概念解释、选择指南、避坑清单、FAQ、术语表、证据分级）及真实数据核验附录，并交付 Markdown、HTML、Word、PDF 四格式。",
+        "long_en": "Produce in-depth, citable Chinese explainer content with a self-contained core summary and natural brand placement for domestic AI search platforms.",
+        "long_zh": "为国内 AI 搜索平台产出深度、可引用、含上下文无关核心摘要与自然品牌植入的中文科普内容。",
+        "sec_note_en": "White-hat content optimization, not AI-detection evasion. Bundles a Python renderer (render_yao_geo_explainer_builder.py) that emits the four formats plus a quality-report.json. The skill itself does not guarantee live web scraping: real data must be supplied by an upper agent's retrieval, user uploads, or an existing knowledge base, with sources recorded; unverified brand/effect/safety claims must be downgraded or removed. Sensitive domains (health, finance, legal) require boundary disclaimers.",
+        "sec_note_zh": "白帽内容优化，非 AI 检测规避。捆绑 Python 渲染脚本（render_yao_geo_explainer_builder.py）生成四格式及 quality-report.json。技能本身不保证联网抓取：真实数据须由上层 agent 检索、用户上传或已有知识库提供并登记来源；未经核验的品牌/效果/安全断言须降级或删除。健康、金融、法律等敏感领域须加入边界提醒。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-knowledge-base-builder",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Knowledge Base Builder",
+        "author": "yaojingang",
+        "category": "knowledge",
+        "tags": [
+          "geo",
+          "knowledge-base",
+          "brand",
+          "fact-cards",
+          "faq"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-knowledge-base-builder",
+          "git_ref": "main"
+        },
+        "description_en": "Builds an evidence-backed, auditable GEO brand knowledge base from official sites, product pages, help centers, white papers and trusted third-party sources, outputting a complete entity inventory, fact cards, FAQ, prohibited-expression list, source index with evidence tiers, downstream prompt input packs and a four-format Chinese report (Markdown/HTML/Word/PDF).",
+        "description_zh": "从官网、产品页、帮助中心、白皮书和可信第三方来源构建可审计、可复用的 GEO 品牌知识库，输出完整实体清单、事实卡、FAQ、禁用表述清单、带证据等级的来源索引、下游 Prompt 输入包以及四格式中文报告（Markdown/HTML/Word/PDF）。",
+        "long_en": "A reusable, evidence-tiered brand knowledge base that feeds consistent GEO content, monitoring, page design and customer-service prep for Chinese answer engines.",
+        "long_zh": "一份分级证据、可复用的品牌知识库，为面向国内 AI 答案引擎的 GEO 内容、监测、页面设计和客服准备提供一致输入。",
+        "sec_note_en": "Manifest declares requires_web: true: it collects and verifies public official and third-party sources online, and degrades to user-provided files / manual brief when offline. Bundles a Python renderer (render_four_format.py) that writes Markdown/HTML/Word/PDF plus quality-report.json locally. Separates evidence tiers (A-D) and keeps unverified claims in a pending-confirmation area. This is white-hat content/source organization for Kimi/Qianwen/DeepSeek/Doubao/Yuanbao, not answer manipulation; no private CLI or intranet dependency.",
+        "sec_note_zh": "manifest 声明 requires_web: true：联网时采集并核验公开官方与第三方来源，离线时降级为基于用户提供文件/人工简报输出。捆绑 Python 渲染器 render_four_format.py，本地生成 Markdown/HTML/Word/PDF 及 quality-report.json。按 A-D 分级证据，未核验声明保留在待确认区。属于面向 Kimi/千问/DeepSeek/豆包/元宝的白帽内容与信源整理，而非操纵 AI 答案；不依赖私有 CLI 或内网。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-page-audit",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Page Audit",
+        "author": "yaojingang",
+        "category": "productivity",
+        "tags": [
+          "geo",
+          "page-audit",
+          "schema",
+          "seo"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-page-audit",
+          "git_ref": "main"
+        },
+        "description_en": "Audits a URL or small page set for GEO readiness across crawlability, structure, content evidence, and AI extractability, producing code-layer fixes, content/schema suggestions, an evidence ledger, and a four-format report with a quality-report.json self-check.",
+        "description_zh": "针对一个 URL 或少量页面做 GEO 就绪度诊断，覆盖可抓取性、结构、内容证据与 AI 可抽取性，产出代码层修复、内容/Schema 建议、证据台账，以及带 quality-report.json 自检的四格式报告。",
+        "long_en": "Diagnoses how well public pages can be discovered, parsed, and cited by AI search systems, with implementation-ready code, content, and schema fixes.",
+        "long_zh": "诊断公开页面被 AI 搜索系统发现、解析与引用的程度，给出可直接落地的代码、内容与 Schema 修复建议。",
+        "sec_note_en": "White-hat page optimization, not manipulation. Manifest declares requires_web: true; it fetches the target URL and prefers official/standards/research sources for evidence. Bundles Python3 scripts (scripts/polish_docx.py for Word typography, scripts/review_report_layout.py for layout checks). Reads the target page plus user inputs and writes Word/PDF/HTML/Markdown reports; default output language is Simplified Chinese.",
+        "sec_note_zh": "属白帽页面优化，非操纵。manifest 声明 requires_web: true；会抓取目标 URL，并优先以官方/标准/研究类来源作为证据。打包了 Python3 脚本（scripts/polish_docx.py 处理 Word 排版，scripts/review_report_layout.py 做版式检查）。读取目标页面及用户输入、写出 Word/PDF/HTML/Markdown 报告；默认输出语言为简体中文。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-page-blueprint",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Page Blueprint",
+        "author": "yaojingang",
+        "category": "productivity",
+        "tags": [
+          "geo",
+          "page-design",
+          "schema",
+          "information-architecture"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-page-blueprint",
+          "git_ref": "main"
+        },
+        "description_en": "Designs a GEO-friendly page blueprint for a product, topic, ranking, comparison, FAQ, knowledge-base, or case page, producing query fan-out coverage, information architecture, AI-extractable modules, semantic HTML, Schema candidates, a CMS field list, and a four-format report.",
+        "description_zh": "为产品、专题、榜单、对比、FAQ、知识库或案例页设计 GEO 友好的页面蓝图，产出查询 fan-out 覆盖、信息架构、AI 可抽取模块、语义化 HTML、Schema 候选、CMS 字段清单与四格式报告。",
+        "long_en": "Turns content goals into implementable page structure that serves AI answer extraction, real readers, and conversion at once.",
+        "long_zh": "把内容目标落成可实施的页面结构，同时服务 AI 答案抽取、真实读者阅读与转化。",
+        "sec_note_en": "White-hat page design, not manipulation. Manifest declares requires_web: false; web access is only an optional 'assisted-web-research' data mode and otherwise it plans from user-supplied source packs. Bundles a Python3 script (scripts/render_yao_geo_page_blueprint.py) that renders the four-format (Markdown/HTML/Word/PDF) report from report_input.json. Schema candidates are constrained to facts present on the page (no fabricated ratings/prices). Default output language is Simplified Chinese.",
+        "sec_note_zh": "属白帽页面设计，非操纵。manifest 声明 requires_web: false；联网仅是可选的 “assisted-web-research” 数据模式，否则基于用户提供的来源包进行规划。打包了一个 Python3 脚本（scripts/render_yao_geo_page_blueprint.py），从 report_input.json 渲染四格式（Markdown/HTML/Word/PDF）报告。Schema 候选受限于页面已有事实（不伪造评分/价格）。默认输出语言为简体中文。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-panorama-audit",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Panorama Audit",
+        "author": "yaojingang",
+        "category": "productivity",
+        "tags": [
+          "geo",
+          "audit",
+          "content-strategy",
+          "brand"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-panorama-audit",
+          "git_ref": "main"
+        },
+        "description_en": "Runs a full-brand GEO baseline audit by crawling the brand's official site, cross-verifying claims against public sources, and producing a 12-domain diagnosis with an onsite/offsite opportunity map and priorities, delivered as Word, PDF, HTML, and Markdown.",
+        "description_zh": "通过抓取品牌官网、用公开信源交叉核验断言，做一次全品牌 GEO 基线诊断，产出 12 个诊断域的报告、站内/站外机会地图与优先级，交付 Word、PDF、HTML、Markdown 四格式。",
+        "long_en": "Establishes a brand's GEO baseline so content is discoverable and citable by AI answer engines, with evidence-backed onsite and offsite action plans.",
+        "long_zh": "为品牌建立 GEO 基线，让内容可被 AI 答案引擎发现与引用，并给出有证据支撑的站内、站外行动方案。",
+        "sec_note_en": "White-hat content optimization, not manipulation. Needs web access to crawl the brand's official site and cross-verify public sources (manifest diagnosis_basis: official-site-crawl-and-cross-verification). No bundled scripts; the agent generates the four-format (Word/PDF/HTML/Markdown) reports itself. Reads brand-supplied inputs and writes report files; default output language is Simplified Chinese.",
+        "sec_note_zh": "属白帽内容优化，非操纵。需要联网抓取品牌官网并交叉核验公开信源（manifest 诊断口径为 official-site-crawl-and-cross-verification）。不含打包脚本；四格式（Word/PDF/HTML/Markdown）报告由 agent 自行生成。读取用户提供的品牌资料、写出报告文件；默认输出语言为简体中文。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-ranking-article-builder",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Ranking Article Builder",
+        "author": "yaojingang",
+        "category": "writing",
+        "tags": [
+          "geo",
+          "ranking",
+          "best",
+          "review",
+          "chinese"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-ranking-article-builder",
+          "git_ref": "main"
+        },
+        "description_en": "Turns a brand brief, topic config, keywords, competitor set, and trusted sources into a traceable GEO ranking/review article (best/top/alternatives/vs/persona/use-case) with scoring methodology, comparison table, FAQ, and a sources table, delivered as Markdown, HTML, PDF, and Word.",
+        "description_zh": "把品牌 Brief、选题配置、关键词、竞品库和可信来源转成可追溯的 GEO 榜单评测文章（best/top/alternatives/vs/persona/use-case），含评选方法、核心对比表、FAQ 与来源表，并交付 Markdown、HTML、PDF、Word 四格式。",
+        "long_en": "Produce evidence-backed ranking content for domestic AI platforms where TOP picks need multi-source support and the target brand earns rank only through evidence.",
+        "long_zh": "为国内 AI 平台产出证据支撑的榜单内容，TOP 名次需多源支持，目标品牌只能凭证据获得排名。",
+        "sec_note_en": "White-hat content optimization, not fake review-stuffing or detection evasion; it must not fabricate competitors, force the target brand to rank first, or use unsourced data/awards/prices. Bundles Python scripts: audit_sources.py checks whether Markdown URLs are reachable (requires web access) and render_ranking_article_pack.py builds the four-format pack. Public-data collection only; it explicitly does not bypass login, paywalls, anti-crawl limits, or private-system permissions.",
+        "sec_note_zh": "白帽内容优化，非刷好评或检测规避；不得虚构竞品、硬排目标品牌第一或使用无来源数据/奖项/价格。捆绑 Python 脚本：audit_sources.py 检查 Markdown 中 URL 是否可访问（需联网），render_ranking_article_pack.py 生成四格式包。仅采集公开数据，明确不绕过登录、付费墙、反爬限制或私有系统权限。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-title-optimizer",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Title Optimizer",
+        "author": "yaojingang",
+        "category": "writing",
+        "tags": [
+          "geo",
+          "title",
+          "seo",
+          "chinese",
+          "content"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-title-optimizer",
+          "git_ref": "main"
+        },
+        "description_en": "Generates, scores, and compliance-checks GEO title candidates for Chinese AI search platforms, mapping each title to an article structure and exporting Markdown, HTML, DOCX, and PDF reports.",
+        "description_zh": "为国内 AI 搜索平台生成、评分并做合规审查 GEO 标题候选，将每个标题映射到文章结构，并导出 Markdown、HTML、DOCX、PDF 四格式报告。",
+        "long_en": "Turn a keyword brief into compliant, well-scored GEO titles tuned for DeepSeek, Kimi, Doubao, Yuanbao, and Tongyi Qianwen.",
+        "long_zh": "把关键词简报转成合规、可评分、适配 DeepSeek/Kimi/豆包/元宝/通义千问的 GEO 标题方案。",
+        "sec_note_en": "White-hat content optimization for AI answer engines, not detection evasion. Bundles Python scripts: render_yao_geo_title_optimizer.py builds the four-format report from a report JSON, and collect_yao_geo_title_evidence.py optionally fetches public URLs to snapshot status code, title, and meta (requires web access). The evidence collector explicitly does not bypass authentication, paywalls, robots, or anti-bot rules; domestic AI platform answers must be supplied via API or manual export, not auto-scraped.",
+        "sec_note_zh": "面向 AI 答案引擎的白帽内容优化，非检测规避。捆绑 Python 脚本：render_yao_geo_title_optimizer.py 从报告 JSON 生成四格式报告，collect_yao_geo_title_evidence.py 可选抓取公开 URL 以快照状态码、标题与 meta（需联网）。证据采集脚本明确不绕过登录、付费墙、robots 或反爬规则；国内 AI 平台答案需经 API 或人工导出，不自动抓取。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-tracking",
+        "repo_url": "https://github.com/yaojingang/yao-geo-skills",
+        "via": "github:yaojingang",
+        "full_name": "yaojingang/yao-geo-skills",
+        "owner": "yaojingang",
+        "repo": "yao-geo-skills",
+        "kind": "skill",
+        "name": "GEO Attribution & Tracking Planner",
+        "author": "yaojingang",
+        "category": "data",
+        "tags": [
+          "geo",
+          "tracking",
+          "attribution",
+          "analytics",
+          "monitoring"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/yaojingang/yao-geo-skills",
+          "subdir": "skills/yao-geo-tracking",
+          "git_ref": "main"
+        },
+        "description_en": "From a company name plus optional supporting info, designs a company-specific GEO backend tracking and attribution PLAN: official-site verification, business-type and conversion-path mapping, direct-vs-indirect effect modeling, an observability estimation framework, data-model and metrics design, a prioritized roadmap, and optional rendered HTML and Word reports.",
+        "description_zh": "从公司名加可选补充信息出发，设计该公司专属的 GEO 后端效果跟踪与归因方案：官网核验、业务类型与转化链路映射、直接/间接效果双层建模、可观测性估算框架、数据模型与指标口径设计、优先级路线图，并可选生成 HTML 与 Word 报告。",
+        "long_en": "Produces a tailored, evidence-anchored GEO attribution design and tracking roadmap, including an honest observability boundary, rather than a generic methodology template.",
+        "long_zh": "产出针对该企业、以证据为锚的 GEO 归因设计与跟踪路线图，并诚实给出可观测性边界，而非通用方法论套话。",
+        "sec_note_en": "Performs authoritative web retrieval anchored on the official website when online (confirms the official domain and reads public homepage/product/about/contact/pricing/case pages); explicitly degrades to a low-confidence, user-material-only version when offline. Bundles a Python renderer (render_yao_geo_tracking.py) that writes .html and .docx from a report_input.json. Output is a planning/attribution-design document, not a live data collector; the skill is explicitly open-source sanitized and forbids any private CLI, intranet address, or internal company data.",
+        "sec_note_zh": "联网时以官网为核心做权威检索（先确认官方域名，再读取公开的首页/产品页/关于页/联系页/定价页/案例页）；不能联网时显式降级为仅基于用户材料的低置信度版本。捆绑 Python 渲染器 render_yao_geo_tracking.py，从 report_input.json 生成 .html 与 .docx。产物是规划/归因设计文档，而非实时数据采集器；该 skill 已做开源脱敏，禁止任何私有 CLI、内网地址或公司内部数据。",
         "requires_config": false
       }
     ]
