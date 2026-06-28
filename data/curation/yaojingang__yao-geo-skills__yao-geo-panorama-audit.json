@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Panorama Audit",
+  "kind": "skill",
+  "slug": "yao-geo-panorama-audit",
+  "category": "productivity",
+  "tags": ["geo", "audit", "content-strategy", "brand"],
+  "description_en": "Runs a full-brand GEO baseline audit by crawling the brand's official site, cross-verifying claims against public sources, and producing a 12-domain diagnosis with an onsite/offsite opportunity map and priorities, delivered as Word, PDF, HTML, and Markdown.",
+  "description_zh": "通过抓取品牌官网、用公开信源交叉核验断言，做一次全品牌 GEO 基线诊断，产出 12 个诊断域的报告、站内/站外机会地图与优先级，交付 Word、PDF、HTML、Markdown 四格式。",
+  "long_en": "Establishes a brand's GEO baseline so content is discoverable and citable by AI answer engines, with evidence-backed onsite and offsite action plans.",
+  "long_zh": "为品牌建立 GEO 基线，让内容可被 AI 答案引擎发现与引用，并给出有证据支撑的站内、站外行动方案。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-panorama-audit"
+  },
+  "sec_note_en": "White-hat content optimization, not manipulation. Needs web access to crawl the brand's official site and cross-verify public sources (manifest diagnosis_basis: official-site-crawl-and-cross-verification). No bundled scripts; the agent generates the four-format (Word/PDF/HTML/Markdown) reports itself. Reads brand-supplied inputs and writes report files; default output language is Simplified Chinese.",
+  "sec_note_zh": "属白帽内容优化，非操纵。需要联网抓取品牌官网并交叉核验公开信源（manifest 诊断口径为 official-site-crawl-and-cross-verification）。不含打包脚本；四格式（Word/PDF/HTML/Markdown）报告由 agent 自行生成。读取用户提供的品牌资料、写出报告文件；默认输出语言为简体中文。"
+}

@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Title Optimizer",
+  "kind": "skill",
+  "slug": "yao-geo-title-optimizer",
+  "category": "writing",
+  "tags": ["geo", "title", "seo", "chinese", "content"],
+  "description_en": "Generates, scores, and compliance-checks GEO title candidates for Chinese AI search platforms, mapping each title to an article structure and exporting Markdown, HTML, DOCX, and PDF reports.",
+  "description_zh": "为国内 AI 搜索平台生成、评分并做合规审查 GEO 标题候选，将每个标题映射到文章结构，并导出 Markdown、HTML、DOCX、PDF 四格式报告。",
+  "long_en": "Turn a keyword brief into compliant, well-scored GEO titles tuned for DeepSeek, Kimi, Doubao, Yuanbao, and Tongyi Qianwen.",
+  "long_zh": "把关键词简报转成合规、可评分、适配 DeepSeek/Kimi/豆包/元宝/通义千问的 GEO 标题方案。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-title-optimizer"
+  },
+  "sec_note_en": "White-hat content optimization for AI answer engines, not detection evasion. Bundles Python scripts: render_yao_geo_title_optimizer.py builds the four-format report from a report JSON, and collect_yao_geo_title_evidence.py optionally fetches public URLs to snapshot status code, title, and meta (requires web access). The evidence collector explicitly does not bypass authentication, paywalls, robots, or anti-bot rules; domestic AI platform answers must be supplied via API or manual export, not auto-scraped.",
+  "sec_note_zh": "面向 AI 答案引擎的白帽内容优化，非检测规避。捆绑 Python 脚本：render_yao_geo_title_optimizer.py 从报告 JSON 生成四格式报告，collect_yao_geo_title_evidence.py 可选抓取公开 URL 以快照状态码、标题与 meta（需联网）。证据采集脚本明确不绕过登录、付费墙、robots 或反爬规则；国内 AI 平台答案需经 API 或人工导出，不自动抓取。"
+}

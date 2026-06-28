@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Page Blueprint",
+  "kind": "skill",
+  "slug": "yao-geo-page-blueprint",
+  "category": "productivity",
+  "tags": ["geo", "page-design", "schema", "information-architecture"],
+  "description_en": "Designs a GEO-friendly page blueprint for a product, topic, ranking, comparison, FAQ, knowledge-base, or case page, producing query fan-out coverage, information architecture, AI-extractable modules, semantic HTML, Schema candidates, a CMS field list, and a four-format report.",
+  "description_zh": "为产品、专题、榜单、对比、FAQ、知识库或案例页设计 GEO 友好的页面蓝图，产出查询 fan-out 覆盖、信息架构、AI 可抽取模块、语义化 HTML、Schema 候选、CMS 字段清单与四格式报告。",
+  "long_en": "Turns content goals into implementable page structure that serves AI answer extraction, real readers, and conversion at once.",
+  "long_zh": "把内容目标落成可实施的页面结构，同时服务 AI 答案抽取、真实读者阅读与转化。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-page-blueprint"
+  },
+  "sec_note_en": "White-hat page design, not manipulation. Manifest declares requires_web: false; web access is only an optional 'assisted-web-research' data mode and otherwise it plans from user-supplied source packs. Bundles a Python3 script (scripts/render_yao_geo_page_blueprint.py) that renders the four-format (Markdown/HTML/Word/PDF) report from report_input.json. Schema candidates are constrained to facts present on the page (no fabricated ratings/prices). Default output language is Simplified Chinese.",
+  "sec_note_zh": "属白帽页面设计，非操纵。manifest 声明 requires_web: false；联网仅是可选的 “assisted-web-research” 数据模式，否则基于用户提供的来源包进行规划。打包了一个 Python3 脚本（scripts/render_yao_geo_page_blueprint.py），从 report_input.json 渲染四格式（Markdown/HTML/Word/PDF）报告。Schema 候选受限于页面已有事实（不伪造评分/价格）。默认输出语言为简体中文。"
+}

@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Knowledge Base Builder",
+  "kind": "skill",
+  "slug": "yao-geo-knowledge-base-builder",
+  "category": "knowledge",
+  "tags": ["geo", "knowledge-base", "brand", "fact-cards", "faq"],
+  "description_en": "Builds an evidence-backed, auditable GEO brand knowledge base from official sites, product pages, help centers, white papers and trusted third-party sources, outputting a complete entity inventory, fact cards, FAQ, prohibited-expression list, source index with evidence tiers, downstream prompt input packs and a four-format Chinese report (Markdown/HTML/Word/PDF).",
+  "description_zh": "从官网、产品页、帮助中心、白皮书和可信第三方来源构建可审计、可复用的 GEO 品牌知识库，输出完整实体清单、事实卡、FAQ、禁用表述清单、带证据等级的来源索引、下游 Prompt 输入包以及四格式中文报告（Markdown/HTML/Word/PDF）。",
+  "long_en": "A reusable, evidence-tiered brand knowledge base that feeds consistent GEO content, monitoring, page design and customer-service prep for Chinese answer engines.",
+  "long_zh": "一份分级证据、可复用的品牌知识库，为面向国内 AI 答案引擎的 GEO 内容、监测、页面设计和客服准备提供一致输入。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-knowledge-base-builder"
+  },
+  "sec_note_en": "Manifest declares requires_web: true: it collects and verifies public official and third-party sources online, and degrades to user-provided files / manual brief when offline. Bundles a Python renderer (render_four_format.py) that writes Markdown/HTML/Word/PDF plus quality-report.json locally. Separates evidence tiers (A-D) and keeps unverified claims in a pending-confirmation area. This is white-hat content/source organization for Kimi/Qianwen/DeepSeek/Doubao/Yuanbao, not answer manipulation; no private CLI or intranet dependency.",
+  "sec_note_zh": "manifest 声明 requires_web: true：联网时采集并核验公开官方与第三方来源，离线时降级为基于用户提供文件/人工简报输出。捆绑 Python 渲染器 render_four_format.py，本地生成 Markdown/HTML/Word/PDF 及 quality-report.json。按 A-D 分级证据，未核验声明保留在待确认区。属于面向 Kimi/千问/DeepSeek/豆包/元宝的白帽内容与信源整理，而非操纵 AI 答案；不依赖私有 CLI 或内网。"
+}

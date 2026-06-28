@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Execution Roadmap",
+  "kind": "skill",
+  "slug": "yao-geo-execution-roadmap",
+  "category": "productivity",
+  "tags": ["geo", "roadmap", "planning", "china-ai-platforms"],
+  "description_en": "Turns an existing GEO diagnosis and opportunity map into a 30/60/90-day execution plan with six project packages (page tech, content matrix, titles, knowledge base, external evidence, monitoring), roles, acceptance metrics, budget, and platform-specific actions for DeepSeek, Doubao, Qwen, Kimi, and Yuanbao, output in four formats.",
+  "description_zh": "把已有的 GEO 诊断与机会地图转成 30/60/90 天执行方案，含六个项目包（页面技术、内容矩阵、标题体系、知识库、外部证据、监测闭环）、角色分工、验收指标、预算，以及面向 DeepSeek、豆包、千问、Kimi、元宝的平台化动作，四格式输出。",
+  "long_en": "Converts GEO findings into an accountable 30/60/90-day roadmap with owners, metrics, and budget so teams can ship content that AI answer engines can cite.",
+  "long_zh": "把 GEO 诊断结论落成可问责的 30/60/90 天路线图，明确负责人、指标与预算，让团队产出可被 AI 答案引擎引用的内容。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-execution-roadmap"
+  },
+  "sec_note_en": "White-hat content planning, not manipulation. Manifest declares requires_web: false; it consumes a prior diagnosis/opportunity map rather than crawling. Bundles a Python3 script (scripts/render_yao_geo_execution_roadmap.py) that renders the four-format (Word/PDF/HTML/Markdown) report from a JSON input and writes a quality-report.json. Reads input JSON and writes report files; default output language is Simplified Chinese.",
+  "sec_note_zh": "属白帽内容规划，非操纵。manifest 声明 requires_web: false；它承接已有诊断/机会地图而非自行抓取。打包了一个 Python3 脚本（scripts/render_yao_geo_execution_roadmap.py），从 JSON 输入渲染四格式（Word/PDF/HTML/Markdown）报告并写出 quality-report.json。读取输入 JSON、写出报告文件；默认输出语言为简体中文。"
+}

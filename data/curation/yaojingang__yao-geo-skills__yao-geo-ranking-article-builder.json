@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Ranking Article Builder",
+  "kind": "skill",
+  "slug": "yao-geo-ranking-article-builder",
+  "category": "writing",
+  "tags": ["geo", "ranking", "best", "review", "chinese"],
+  "description_en": "Turns a brand brief, topic config, keywords, competitor set, and trusted sources into a traceable GEO ranking/review article (best/top/alternatives/vs/persona/use-case) with scoring methodology, comparison table, FAQ, and a sources table, delivered as Markdown, HTML, PDF, and Word.",
+  "description_zh": "把品牌 Brief、选题配置、关键词、竞品库和可信来源转成可追溯的 GEO 榜单评测文章（best/top/alternatives/vs/persona/use-case），含评选方法、核心对比表、FAQ 与来源表，并交付 Markdown、HTML、PDF、Word 四格式。",
+  "long_en": "Produce evidence-backed ranking content for domestic AI platforms where TOP picks need multi-source support and the target brand earns rank only through evidence.",
+  "long_zh": "为国内 AI 平台产出证据支撑的榜单内容，TOP 名次需多源支持，目标品牌只能凭证据获得排名。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-ranking-article-builder"
+  },
+  "sec_note_en": "White-hat content optimization, not fake review-stuffing or detection evasion; it must not fabricate competitors, force the target brand to rank first, or use unsourced data/awards/prices. Bundles Python scripts: audit_sources.py checks whether Markdown URLs are reachable (requires web access) and render_ranking_article_pack.py builds the four-format pack. Public-data collection only; it explicitly does not bypass login, paywalls, anti-crawl limits, or private-system permissions.",
+  "sec_note_zh": "白帽内容优化，非刷好评或检测规避；不得虚构竞品、硬排目标品牌第一或使用无来源数据/奖项/价格。捆绑 Python 脚本：audit_sources.py 检查 Markdown 中 URL 是否可访问（需联网），render_ranking_article_pack.py 生成四格式包。仅采集公开数据，明确不绕过登录、付费墙、反爬限制或私有系统权限。"
+}

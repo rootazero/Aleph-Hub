@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Page Audit",
+  "kind": "skill",
+  "slug": "yao-geo-page-audit",
+  "category": "productivity",
+  "tags": ["geo", "page-audit", "schema", "seo"],
+  "description_en": "Audits a URL or small page set for GEO readiness across crawlability, structure, content evidence, and AI extractability, producing code-layer fixes, content/schema suggestions, an evidence ledger, and a four-format report with a quality-report.json self-check.",
+  "description_zh": "针对一个 URL 或少量页面做 GEO 就绪度诊断，覆盖可抓取性、结构、内容证据与 AI 可抽取性，产出代码层修复、内容/Schema 建议、证据台账，以及带 quality-report.json 自检的四格式报告。",
+  "long_en": "Diagnoses how well public pages can be discovered, parsed, and cited by AI search systems, with implementation-ready code, content, and schema fixes.",
+  "long_zh": "诊断公开页面被 AI 搜索系统发现、解析与引用的程度，给出可直接落地的代码、内容与 Schema 修复建议。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-page-audit"
+  },
+  "sec_note_en": "White-hat page optimization, not manipulation. Manifest declares requires_web: true; it fetches the target URL and prefers official/standards/research sources for evidence. Bundles Python3 scripts (scripts/polish_docx.py for Word typography, scripts/review_report_layout.py for layout checks). Reads the target page plus user inputs and writes Word/PDF/HTML/Markdown reports; default output language is Simplified Chinese.",
+  "sec_note_zh": "属白帽页面优化，非操纵。manifest 声明 requires_web: true；会抓取目标 URL，并优先以官方/标准/研究类来源作为证据。打包了 Python3 脚本（scripts/polish_docx.py 处理 Word 排版，scripts/review_report_layout.py 做版式检查）。读取目标页面及用户输入、写出 Word/PDF/HTML/Markdown 报告；默认输出语言为简体中文。"
+}

@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Effect Monitor",
+  "kind": "skill",
+  "slug": "yao-geo-effect-monitor",
+  "category": "data",
+  "tags": ["geo", "monitoring", "ai-answers", "citation-tracking", "attribution"],
+  "description_en": "Designs a GEO answer-monitoring plan for Chinese answer engines (DeepSeek, Doubao, Qianwen, Kimi, Tencent Yuanbao): per-platform sampling specs, a prompt library, a six-layer metric system, citation-source tracking, a cautious attribution framework, a brand-fact correction loop, alert/threshold rules, dashboard fields and a DB/API draft, delivered as Word/PDF/HTML/Markdown reports.",
+  "description_zh": "为国内 AI 答案引擎（DeepSeek、豆包、千问、Kimi、腾讯元宝）设计 GEO 答案监测方案：各平台独立采样口径、Prompt 库、六层指标体系、引用源追踪、谨慎归因框架、品牌事实纠偏闭环、阈值告警规则、仪表盘字段与数据库/API 草案，并交付 Word/PDF/HTML/Markdown 报告。",
+  "long_en": "A long-running GEO measurement loop that tracks brand visibility, factuality and citation quality in AI answers, with disciplined, evidence-graded attribution.",
+  "long_zh": "面向长期运营的 GEO 测量闭环，追踪 AI 答案中的品牌可见性、事实准确性与引用质量，并做有证据分级的谨慎归因。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-effect-monitor"
+  },
+  "sec_note_en": "This is legitimate measurement/analytics: its methodology involves SAMPLING AI platform answers (recording raw answer text, citation links, screenshots, exports and the sampling environment) to compute brand-appearance, recommendation, accuracy and citation-quality metrics. It explicitly forbids bypassing platform limits, bulk over-scraping, faking human login, or violating terms of service, and requires any bulk automation to declare frequency, permissions and a human-review boundary. No bundled scripts (template/reference-driven); output is a monitoring PLAN plus reports, not a crawler. Actual sampling requires web/platform access; results without auditable raw samples must be marked synthetic or pending.",
+  "sec_note_zh": "属于正当的测量/分析：其方法学涉及对 AI 平台答案进行采样（记录答案原文、引用链接、截图、导出文件与采样环境），用于计算品牌出现率、推荐率、描述准确率和引用质量等指标。明确禁止绕过平台限制、批量滥采、模拟真人登录或违反服务条款，并要求任何批量自动化写明频率、权限与人工复核边界。不含捆绑脚本（以模板/参考驱动）；产物是监测方案与报告，而非爬虫。实际采样需要联网/平台访问；缺少可审计原始样本的结果必须标为合成或待复核。"
+}

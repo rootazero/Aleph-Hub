@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Explainer Builder",
+  "kind": "skill",
+  "slug": "yao-geo-explainer-builder",
+  "category": "writing",
+  "tags": ["geo", "explainer", "how-to", "faq", "chinese"],
+  "description_en": "Builds a complete publishable GEO explainer article (how-to, concept explanation, buying guides, pitfalls, FAQ, glossary, evidence grading) plus a data-verification appendix, delivered as Markdown, HTML, Word, and PDF.",
+  "description_zh": "生成一篇完整可发布的 GEO 科普文章（How-to、概念解释、选择指南、避坑清单、FAQ、术语表、证据分级）及真实数据核验附录，并交付 Markdown、HTML、Word、PDF 四格式。",
+  "long_en": "Produce in-depth, citable Chinese explainer content with a self-contained core summary and natural brand placement for domestic AI search platforms.",
+  "long_zh": "为国内 AI 搜索平台产出深度、可引用、含上下文无关核心摘要与自然品牌植入的中文科普内容。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-explainer-builder"
+  },
+  "sec_note_en": "White-hat content optimization, not AI-detection evasion. Bundles a Python renderer (render_yao_geo_explainer_builder.py) that emits the four formats plus a quality-report.json. The skill itself does not guarantee live web scraping: real data must be supplied by an upper agent's retrieval, user uploads, or an existing knowledge base, with sources recorded; unverified brand/effect/safety claims must be downgraded or removed. Sensitive domains (health, finance, legal) require boundary disclaimers.",
+  "sec_note_zh": "白帽内容优化，非 AI 检测规避。捆绑 Python 渲染脚本（render_yao_geo_explainer_builder.py）生成四格式及 quality-report.json。技能本身不保证联网抓取：真实数据须由上层 agent 检索、用户上传或已有知识库提供并登记来源；未经核验的品牌/效果/安全断言须降级或删除。健康、金融、法律等敏感领域须加入边界提醒。"
+}

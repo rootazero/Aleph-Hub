@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Comparison Builder",
+  "kind": "skill",
+  "slug": "yao-geo-comparison-builder",
+  "category": "writing",
+  "tags": ["geo", "comparison", "alternatives", "chinese", "evidence"],
+  "description_en": "Generates evidence-bound, same-criteria GEO brand-comparison content (vs pages, alternatives, selection pages, FAQ) with a decision-dimension model, source ledger, and scoring matrix, delivered as Word, PDF, HTML, and Markdown.",
+  "description_zh": "生成证据绑定、同口径的 GEO 品牌对比内容（vs 页、替代方案、选型页、FAQ），含决策维度模型、来源台账与评分矩阵，并交付 Word、PDF、HTML、Markdown 四格式。",
+  "long_en": "Build fair, source-anchored brand comparisons for domestic AI platforms without disparaging competitors or making unverified claims.",
+  "long_zh": "为国内 AI 平台构建公平、来源锚定的品牌对比，不贬损竞品、不输出未经核验的结论。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-comparison-builder"
+  },
+  "sec_note_en": "White-hat content optimization, not competitor smearing or detection evasion. Bundles a Python DOCX layout checker (check_docx_layout.py) for table overflow. Real-data modes (public web, user files, authorized connectors/API, AI-platform sampling) are declared per run; it explicitly must not read logged-in, paywalled, internal-system, or personal data, and unverifiable market-share/customer-count/price claims must be dropped or downgraded. Web access only when public-web or connector mode is enabled.",
+  "sec_note_zh": "白帽内容优化，非诋毁竞品或检测规避。捆绑 Python DOCX 版式检查脚本（check_docx_layout.py）检测表格溢出。每次运行声明真实数据模式（公开网页、用户文件、授权连接器/API、AI 平台采样）；明确不得读取登录后、付费、内部系统或个人数据，无法核验的市场份额/客户数/价格须删除或降级。仅在启用公开网页或连接器模式时联网。"
+}

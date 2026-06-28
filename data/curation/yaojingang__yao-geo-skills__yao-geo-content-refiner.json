@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Content Refiner",
+  "kind": "skill",
+  "slug": "yao-geo-content-refiner",
+  "category": "writing",
+  "tags": ["geo", "refine", "rewrite", "faq", "chinese"],
+  "description_en": "Refactors existing SEO articles, WeChat posts, white papers, or product-page copy into GEO-friendly, AI-citable content, outputting an original GEO score, refined article, before/after diff, atomic fact cards, FAQ, and a four-format report.",
+  "description_zh": "把已有 SEO 文章、公众号稿、白皮书或产品页文案改造成 GEO 友好、AI 可引用的内容，输出原文 GEO 评分、改造版文章、改造前后差异、原子事实卡、FAQ 及四格式报告。",
+  "long_en": "Upgrade existing copy for AI extractability and citation with atomic facts, structure, and evidence grading across eight GEO dimensions.",
+  "long_zh": "用原子事实、结构补强与证据分级，按八个 GEO 维度提升已有文案的 AI 可抽取性与可引用性。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-content-refiner"
+  },
+  "sec_note_en": "White-hat content optimization for AI answer engines, not detection evasion. Works from user-supplied source text and sources; it must not invent data, prices, or cases without sources, and must not access logged-in backends, paid databases, private APIs, or personal data without authorization. Optional web verification only when the operator allows it. Reference docs describe data-access and verification rules; layout rules govern DOCX/PDF table handling.",
+  "sec_note_zh": "面向 AI 答案引擎的白帽内容优化，非检测规避。基于用户提供的原文与来源工作；无来源时不得虚构数据、价格或案例，未经授权不得访问登录后台、付费数据库、私有 API 或个人数据。仅在操作者允许时可选联网核验。参考文档说明数据访问与核验规则，版式规则约束 DOCX/PDF 表格处理。"
+}

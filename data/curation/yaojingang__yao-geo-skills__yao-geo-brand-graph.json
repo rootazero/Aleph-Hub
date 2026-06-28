@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Brand Knowledge Graph",
+  "kind": "skill",
+  "slug": "yao-geo-brand-graph",
+  "category": "knowledge",
+  "tags": ["geo", "knowledge-graph", "brand", "entity", "jsonld"],
+  "description_en": "Turns company materials, official sites, products, cases and people into an evidence-backed brand entity knowledge graph, outputting entity/relation lists, a disambiguation table, confidence tiers, Mermaid diagrams, JSON-LD, RDF triples and Word/PDF/HTML/Markdown reports.",
+  "description_zh": "把企业资料、官网、产品、客户案例和人物整理成有证据支撑的品牌实体知识图谱，输出实体/关系清单、消歧表、可信等级、Mermaid 图、JSON-LD、RDF 三元组以及 Word/PDF/HTML/Markdown 报告。",
+  "long_en": "Build a consistent, evidence-traceable brand knowledge graph to power GEO content, page structure and AI-answer consistency.",
+  "long_zh": "构建一致、可溯源的品牌知识图谱，为 GEO 内容、页面结构和 AI 答案一致性治理提供底座。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-brand-graph"
+  },
+  "sec_note_en": "Bundles two Python scripts: render_yao_geo_brand_graph.py builds Word/PDF/HTML/Markdown plus a quality-report.json from a structured report_input.json, and collect_source_validation.py samples source-URL reachability/page titles (needs network access when run). Reads a source ledger and structured input; writes report files locally. No private/vendor-system dependency; every relation edge requires an evidence ID.",
+  "sec_note_zh": "捆绑两个 Python 脚本：render_yao_geo_brand_graph.py 从结构化 report_input.json 生成 Word/PDF/HTML/Markdown 及 quality-report.json，collect_source_validation.py 会采样来源 URL 的可达性与页面标题（运行时需要联网）。读取来源账本与结构化输入，本地写出报告文件。不依赖任何私有/厂商系统；每条关系边都必须带证据 ID。"
+}

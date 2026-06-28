@@ -1,0 +1,19 @@
+{
+  "full_name": "yaojingang/yao-geo-skills",
+  "name": "GEO Attribution & Tracking Planner",
+  "kind": "skill",
+  "slug": "yao-geo-tracking",
+  "category": "data",
+  "tags": ["geo", "tracking", "attribution", "analytics", "monitoring"],
+  "description_en": "From a company name plus optional supporting info, designs a company-specific GEO backend tracking and attribution PLAN: official-site verification, business-type and conversion-path mapping, direct-vs-indirect effect modeling, an observability estimation framework, data-model and metrics design, a prioritized roadmap, and optional rendered HTML and Word reports.",
+  "description_zh": "从公司名加可选补充信息出发，设计该公司专属的 GEO 后端效果跟踪与归因方案：官网核验、业务类型与转化链路映射、直接/间接效果双层建模、可观测性估算框架、数据模型与指标口径设计、优先级路线图，并可选生成 HTML 与 Word 报告。",
+  "long_en": "Produces a tailored, evidence-anchored GEO attribution design and tracking roadmap, including an honest observability boundary, rather than a generic methodology template.",
+  "long_zh": "产出针对该企业、以证据为锚的 GEO 归因设计与跟踪路线图，并诚实给出可观测性边界，而非通用方法论套话。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/yaojingang/yao-geo-skills",
+    "subdir": "skills/yao-geo-tracking"
+  },
+  "sec_note_en": "Performs authoritative web retrieval anchored on the official website when online (confirms the official domain and reads public homepage/product/about/contact/pricing/case pages); explicitly degrades to a low-confidence, user-material-only version when offline. Bundles a Python renderer (render_yao_geo_tracking.py) that writes .html and .docx from a report_input.json. Output is a planning/attribution-design document, not a live data collector; the skill is explicitly open-source sanitized and forbids any private CLI, intranet address, or internal company data.",
+  "sec_note_zh": "联网时以官网为核心做权威检索（先确认官方域名，再读取公开的首页/产品页/关于页/联系页/定价页/案例页）；不能联网时显式降级为仅基于用户材料的低置信度版本。捆绑 Python 渲染器 render_yao_geo_tracking.py，从 report_input.json 生成 .html 与 .docx。产物是规划/归因设计文档，而非实时数据采集器；该 skill 已做开源脱敏，禁止任何私有 CLI、内网地址或公司内部数据。"
+}
