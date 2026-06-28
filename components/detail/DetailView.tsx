@@ -6,6 +6,7 @@ import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, CATEGORY_LABELS } from "@/lib/i18n";
 import { related, formatStars } from "@/lib/catalog";
 import { publisherSlug } from "@/lib/publishers";
+import { tagSlug } from "@/lib/tags";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Card } from "@/components/Card";
 
@@ -52,7 +53,7 @@ export function DetailView({ entry }: { entry: SiteEntryT }) {
               <p style={{ fontSize: 15.5, lineHeight: 1.75, color: "var(--ink)", margin: "0 0 24px", whiteSpace: "pre-line" }}>{long}</p>
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                 {entry.tags.map((tg) => (
-                  <span key={tg} style={{ fontSize: 12, fontFamily: "var(--font-mono), monospace", color: "var(--ink-soft)", background: "var(--chip)", padding: "5px 11px", borderRadius: 2 }}>#{tg}</span>
+                  <Link key={tg} href={`/t/${tagSlug(tg)}`} style={{ fontSize: 12, fontFamily: "var(--font-mono), monospace", color: "var(--ink-soft)", background: "var(--chip)", padding: "5px 11px", borderRadius: 2, textDecoration: "none" }}>#{tg}</Link>
                 ))}
               </div>
             </>

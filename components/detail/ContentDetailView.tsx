@@ -6,6 +6,7 @@ import { useLang } from "@/components/providers/LangProvider";
 import { STRINGS, CATEGORY_LABELS } from "@/lib/i18n";
 import { relatedContent } from "@/lib/content";
 import { publisherSlug } from "@/lib/publishers";
+import { tagSlug } from "@/lib/tags";
 import { TrustBadge } from "@/components/TrustBadge";
 import { Card } from "@/components/Card";
 
@@ -58,7 +59,7 @@ export function ContentDetailView({ entry }: { entry: ContentSiteEntryT }) {
               <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-word", fontFamily: "var(--font-mono), monospace", fontSize: 13, lineHeight: 1.6, color: "var(--ink)", background: "var(--chip)", border: "1px solid var(--hair)", borderRadius: 3, padding: 16, margin: "0 0 24px", overflowX: "auto" }}><code>{entry.body}</code></pre>
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                 {entry.tags.map((tg) => (
-                  <span key={tg} style={{ fontSize: 12, fontFamily: "var(--font-mono), monospace", color: "var(--ink-soft)", background: "var(--chip)", padding: "5px 11px", borderRadius: 2 }}>#{tg}</span>
+                  <Link key={tg} href={`/t/${tagSlug(tg)}`} style={{ fontSize: 12, fontFamily: "var(--font-mono), monospace", color: "var(--ink-soft)", background: "var(--chip)", padding: "5px 11px", borderRadius: 2, textDecoration: "none" }}>#{tg}</Link>
                 ))}
               </div>
             </>
