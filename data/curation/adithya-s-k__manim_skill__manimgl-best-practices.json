@@ -1,0 +1,25 @@
+{
+  "full_name": "adithya-s-k/manim_skill",
+  "slug": "manimgl-best-practices",
+  "name": "ManimGL Best Practices",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "manim",
+    "manimgl",
+    "animation",
+    "math",
+    "education"
+  ],
+  "description_en": "Best practices for ManimGL (3Blue1Brown's OpenGL engine, `from manimlib import *` / `manimgl` CLI): InteractiveScene, Tex with tex_to_color_map, self.frame camera control, 3D, and the interactive `-se` / checkpoint_paste() development workflow.",
+  "description_zh": "ManimGL（3Blue1Brown 的 OpenGL 引擎，`from manimlib import *` 与 `manimgl` 命令行）的最佳实践：InteractiveScene、带 tex_to_color_map 的 Tex、self.frame 相机控制、三维，以及 `-se` 交互模式与 checkpoint_paste() 开发流。",
+  "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manimgl-best-practices folder, not the whole repo). Targets Grant Sanderson's ManimGL, NOT Manim Community Edition. Covers ManimGL-specific patterns (ShowCreation vs Create, Tex raw strings, self.frame.reorient(), self.embed(), backstroke) with rule files, five example scripts, scene templates, and a difference table. Note the bundled example code is adapted from 3Blue1Brown's videos repo and carries its own license.",
+  "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimgl-best-practices 这一个目录，而非整仓）。面向 Grant Sanderson 的 ManimGL，而非 Manim 社区版。覆盖 ManimGL 专有写法（ShowCreation 而非 Create、Tex 原始字符串、self.frame.reorient()、self.embed()、backstroke），含规则文件、五个示例脚本、场景模板与差异对照表。注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，带有其自身许可。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/adithya-s-k/manim_skill",
+    "subdir": "skills/manimgl-best-practices"
+  },
+  "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To render you need Python plus ManimGL (`pip install manimgl`) and a local LaTeX/ffmpeg toolchain; ManimGL also needs OpenGL and, on Apple Silicon, brew pkg-config/cairo. Licensing caveat: bundled example code is adapted from 3Blue1Brown's videos repo under CC BY-NC-SA 4.0 (attribution required, NonCommercial, ShareAlike)—not for commercial use. All rendering is local; no paid or cloud API required.",
+  "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。渲染需要 Python 与 ManimGL（`pip install manimgl`）以及本地 LaTeX/ffmpeg 工具链；ManimGL 还需要 OpenGL，在 Apple Silicon 上需 brew 安装 pkg-config/cairo。许可注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，采用 CC BY-NC-SA 4.0（需署名、禁商用、相同方式共享）——不可用于商业用途。全部本地渲染，无需付费或云端 API。"
+}

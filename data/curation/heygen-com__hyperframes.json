@@ -1,0 +1,23 @@
+{
+  "full_name": "heygen-com/hyperframes",
+  "name": "HyperFrames",
+  "kind": "plugin",
+  "category": "design",
+  "tags": [
+    "video",
+    "animation",
+    "html",
+    "rendering",
+    "agents"
+  ],
+  "description_en": "HyperFrames by HeyGen is an open-source Claude Code plugin that turns HTML/CSS/JS compositions into deterministic MP4 videos, bundling 19 on-demand skills—a router plus creation workflows (product launch, website-to-video, faceless explainer, PR-to-video, captions, motion graphics, music, slideshow) and domain skills (core composition contract, animation adapters, creative direction, media, CLI) that teach agents the full video-production loop.",
+  "description_zh": "HeyGen 出品的 HyperFrames 是一个开源 Claude Code 插件,把 HTML/CSS/JS 合成稿渲染成可复现的 MP4 视频,内置 19 个按需加载的技能——一个路由技能,加上创作工作流(产品发布、网站转视频、无人脸讲解、PR 转视频、字幕、动态图形、音乐、幻灯片)与领域技能(核心合成契约、动画适配器、创意方向、媒体、CLI),教 agent 完成完整的视频制作流程。",
+  "long_en": "Write HTML, render video: an Apache-2.0, agent-native framework whose renderer seeks each frame in headless Chrome and encodes with FFmpeg for reproducible output—no React, no build step, no proprietary timeline, and no per-render fees.",
+  "long_zh": "写 HTML,渲染视频:一个 Apache-2.0、面向 agent 的框架,渲染器在无头 Chrome 中逐帧 seek 并用 FFmpeg 编码,产出可复现——无需 React、无需构建步骤、无私有时间轴,也没有按次渲染收费。",
+  "sec_note_en": "Standalone local renderer, NOT a paid-API shell. Requires Node.js 22+, FFmpeg on PATH, and headless Chrome driven via Puppeteer (the @hyperframes/engine package); renders run locally with an optional AWS Lambda path. It reads your composition HTML/media and writes MP4s into the project. Optional media features (TTS voiceover, background music/SFX) can use a HeyGen/ElevenLabs/Gemini API key, but fall back to fully local models (Kokoro TTS, MusicGen, Whisper, u2net background-removal) that pull large model downloads (~75MB–3GB) and need Python—none are required for HTML-to-video rendering. Cloning the full repo also fetches ~240MB of Git LFS golden-test baselines (skippable with GIT_LFS_SKIP_SMUDGE=1).",
+  "sec_note_zh": "独立本地渲染器,而非付费 API 薄壳。需要 Node.js 22+、PATH 上的 FFmpeg,以及经 Puppeteer 驱动的无头 Chrome(@hyperframes/engine 包);渲染默认在本地运行,可选 AWS Lambda 路径。它读取你的合成 HTML/媒体,把 MP4 写入项目。可选的媒体功能(TTS 配音、背景音乐/音效)可使用 HeyGen/ElevenLabs/Gemini 的 API key,但也能回退到完全本地的模型(Kokoro TTS、MusicGen、Whisper、u2net 抠图),这些会下载较大的模型文件(约 75MB–3GB)并依赖 Python——HTML 转视频的渲染本身并不需要它们。克隆完整仓库还会拉取约 240MB 的 Git LFS 基准测试产物(可用 GIT_LFS_SKIP_SMUDGE=1 跳过)。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/heygen-com/hyperframes"
+  }
+}

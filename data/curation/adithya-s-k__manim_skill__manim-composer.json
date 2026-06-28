@@ -1,0 +1,25 @@
+{
+  "full_name": "adithya-s-k/manim_skill",
+  "slug": "manim-composer",
+  "name": "Manim Composer",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "manim",
+    "animation",
+    "math",
+    "education",
+    "video"
+  ],
+  "description_en": "Turn a vague explainer-video idea into a detailed, scene-by-scene plan (scenes.md): researches the topic, asks about audience/scope/style, then specifies mobjects, animations, narration, pacing, and a color palette in 3Blue1Brown style—before any code is written.",
+  "description_zh": "把模糊的讲解视频想法变成逐场景的详细方案（scenes.md）：先研究主题，再询问受众/范围/风格，然后以 3Blue1Brown 风格写清每场的对象、动画、旁白、节奏与配色——在写任何代码之前完成。",
+  "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manim-composer folder, not the whole repo). It is the planning stage, version-agnostic: it produces a scenes.md spec (narrative hook, scene breakdowns, transitions, color palette, math content, implementation order) meant to be handed off to manimce-best-practices or manimgl-best-practices for actual implementation. Ships reference docs on 3b1b narrative patterns and visual techniques plus a blank scenes template; it plans and does not render.",
+  "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manim-composer 这一个目录，而非整仓）。它是与版本无关的规划阶段：产出一份 scenes.md 方案（叙事钩子、分场拆解、转场、配色、数学内容、实现顺序），交给 manimce-best-practices 或 manimgl-best-practices 去真正实现。附带 3b1b 叙事模式与视觉技巧的参考文档及空白 scenes 模板；它只做规划，不做渲染。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/adithya-s-k/manim_skill",
+    "subdir": "skills/manim-composer"
+  },
+  "sec_note_en": "Planning-only: outputs a Markdown scenes.md and does not render video, so it needs no Manim/LaTeX/ffmpeg itself. It uses web search to research the topic, so it sends your topic to the agent's search tool. To later build the planned video you will need Python plus Manim (and a LaTeX/ffmpeg toolchain for rendering) via the companion skills.",
+  "sec_note_zh": "仅做规划：输出 Markdown 版 scenes.md，不渲染视频，因此自身不需要 Manim/LaTeX/ffmpeg。它会用网络搜索研究主题，故会把你的主题发给代理的搜索工具。后续真正实现所规划的视频，需通过配套技能用到 Python 与 Manim（渲染还需 LaTeX/ffmpeg 工具链）。"
+}

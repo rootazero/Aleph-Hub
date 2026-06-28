@@ -1,0 +1,22 @@
+{
+  "full_name": "fabriqaai/ffmpeg-analyse-video-skill",
+  "name": "FFmpeg Video Analyzer",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "ffmpeg",
+    "video",
+    "analysis",
+    "vision"
+  ],
+  "description_en": "Analyzes a local video file by extracting frames with ffmpeg/ffprobe and delegating frame reading to disposable vision sub-agents, then synthesizes a timestamped, step-by-step Markdown summary (timeline, key moments, narrative).",
+  "description_zh": "用 ffmpeg/ffprobe 从本地视频抽帧，把读帧交给一次性的视觉子代理，再综合成带时间戳的逐步 Markdown 摘要（时间线、关键时刻、叙述）。",
+  "long_en": "A context-efficient pipeline—frame images live only inside sub-agent contexts while the main agent reads text-only batch reports—so understanding screen recordings, tutorials, presentations, or footage costs roughly 90% less context than reading frames directly.",
+  "long_zh": "上下文高效的流水线——帧图像只存在于子代理上下文中，主代理只读纯文本批次报告——理解屏幕录制、教程、演示或素材时，比直接读帧省约 90% 上下文。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill"
+  },
+  "sec_note_en": "Requires ffmpeg and ffprobe installed locally and an agent with an AI vision model to read frames; reads the given video and writes JPEG frames plus Markdown to a temp dir (cleaned up afterward). The repo has no LICENSE file committed (the README states MIT, but no license is actually present).",
+  "sec_note_zh": "需要本地安装 ffmpeg 与 ffprobe，并需一个具备 AI 视觉模型的代理来读帧；会读取给定视频、向临时目录写入 JPEG 帧与 Markdown（完成后清理）。仓库未提交 LICENSE 文件（README 写的是 MIT，但实际并未附带许可证）。"
+}

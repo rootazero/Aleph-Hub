@@ -1,0 +1,25 @@
+{
+  "full_name": "adithya-s-k/manim_skill",
+  "slug": "manimce-best-practices",
+  "name": "Manim CE Best Practices",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "manim",
+    "manimce",
+    "animation",
+    "math",
+    "education"
+  ],
+  "description_en": "Best practices for Manim Community Edition (the `from manim import *` / `manim` CLI engine): scene structure, mobjects, animations, LaTeX/MathTex, coordinate systems and graphing, 3D with ThreeDScene, camera control, updaters, styling, and CLI render flags.",
+  "description_zh": "Manim 社区版（`from manim import *` 与 `manim` 命令行引擎）的最佳实践：场景结构、对象、动画、LaTeX/MathTex、坐标系与绘图、ThreeDScene 三维、相机控制、updater、样式与命令行渲染参数。",
+  "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manimce-best-practices folder, not the whole repo). Targets the community-maintained ManimCE, NOT 3b1b's ManimGL. Bundles ~25 topic rule files, five tested example scripts (basic animations, math visualization, updater patterns, graph plotting, 3D), copy-and-modify scene templates, and a quick reference with render flags, Jupyter %%manim cell magic, install steps, and a ManimCE-vs-ManimGL difference table to avoid version confusion.",
+  "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimce-best-practices 这一个目录，而非整仓）。面向社区维护的 ManimCE，而非 3b1b 的 ManimGL。打包约 25 个主题规则文件、五个经过测试的示例脚本（基础动画、数学可视化、updater 模式、函数绘图、三维）、可复制修改的场景模板，以及一份包含渲染参数、Jupyter %%manim 单元魔法、安装步骤与 ManimCE/ManimGL 差异对照表的速查表，以避免版本混淆。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/adithya-s-k/manim_skill",
+    "subdir": "skills/manimce-best-practices"
+  },
+  "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To actually render the examples you need Python plus Manim Community (`pip install manim`) and a local LaTeX/ffmpeg toolchain (TeX Live/MiKTeX/MacTeX + ffmpeg) for math typesetting and video encoding. All rendering is local; no paid or cloud API required.",
+  "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。要真正渲染示例，需要 Python 与 Manim 社区版（`pip install manim`），以及本地的 LaTeX/ffmpeg 工具链（TeX Live/MiKTeX/MacTeX + ffmpeg）用于数学排版与视频编码。全部本地渲染，无需付费或云端 API。"
+}

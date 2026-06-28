@@ -1,0 +1,23 @@
+{
+  "full_name": "remotion-dev/skills",
+  "name": "Remotion Best Practices",
+  "kind": "skill",
+  "category": "developer",
+  "tags": [
+    "video",
+    "react",
+    "remotion",
+    "code-driven"
+  ],
+  "description_en": "Domain knowledge and best practices for building videos as code with Remotion (React)—animating via useCurrentFrame()/interpolate(), composition and sequence setup, captions, effects, audio, and a one-frame render check.",
+  "description_zh": "用 Remotion（React）以代码方式制作视频的领域知识与最佳实践——通过 useCurrentFrame()/interpolate() 做动画、组合与时序编排、字幕、特效、音频，以及单帧渲染自检。",
+  "long_en": "Loads Remotion-specific rules (40+ topic files on layout, transitions, fonts, 3D, audio, ffmpeg, voiceover and more) so an agent writes renderable Remotion code instead of CSS/Tailwind animation patterns that silently fail to render.",
+  "long_zh": "加载 Remotion 专属规则（40+ 个主题文件，涵盖布局、转场、字体、3D、音频、ffmpeg、配音等），让代理写出可渲染的 Remotion 代码，而非那些会静默渲染失败的 CSS/Tailwind 动画写法。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/remotion-dev/skills",
+    "subdir": "skills/remotion"
+  },
+  "sec_note_en": "A knowledge/best-practices skill that scaffolds and renders real Remotion projects via npx (create-video, remotion studio/render), so it needs Node.js plus React and the Remotion toolchain. Remotion ships under its own license (free for individuals and small teams, paid for larger companies), which is not a standard OSS license—check it before commercial use. The skills repo itself has no LICENSE file at root.",
+  "sec_note_zh": "这是知识/最佳实践型技能，会通过 npx 实际脚手架并渲染 Remotion 项目（create-video、remotion studio/render），因此需要 Node.js 以及 React 与 Remotion 工具链。Remotion 使用其自有许可证（个人与小团队免费、较大公司需付费），并非标准开源许可证——商用前请先查看。skills 仓库本身根目录没有 LICENSE 文件。"
+}

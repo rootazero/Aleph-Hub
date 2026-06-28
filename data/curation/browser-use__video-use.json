@@ -1,0 +1,22 @@
+{
+  "full_name": "browser-use/video-use",
+  "name": "Video Use",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "video",
+    "editing",
+    "subtitles",
+    "montage"
+  ],
+  "description_en": "Edit any video by conversation with a coding agent—transcribe, cut filler and dead space, color grade, generate overlay animations, and burn subtitles—reasoning from the raw transcript plus on-demand timeline visuals instead of frame-dumping.",
+  "description_zh": "用编码代理通过对话编辑任意视频——转写、剪掉口头语与空白、调色、生成叠加动画、烧录字幕——以原始转录文本加按需的时间线可视化为依据，而非整片抽帧。",
+  "long_en": "Ask → confirm → execute → self-eval → persist: it reasons over a packed phrase-level transcript, snaps every cut to word boundaries, applies 30ms audio fades, composites overlays (PIL/Remotion/HyperFrames/Manim) and subtitles, then checks its own rendered output at each cut before showing you.",
+  "long_zh": "提问 → 确认 → 执行 → 自检 → 持久化：基于打包的短语级转录推理，把每个剪切点对齐到词边界，加 30ms 音频淡入淡出，合成叠加动画（PIL/Remotion/HyperFrames/Manim）与字幕，再在展示前对自己渲染的输出逐个剪切点自检。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/browser-use/video-use"
+  },
+  "sec_note_en": "Needs ffmpeg/ffprobe and Python (uv/pip) deps installed locally; transcription uses the hosted ElevenLabs Scribe API and requires an ELEVENLABS_API_KEY (a paid cloud service) stored in a .env at the repo root. Optional Node.js for HyperFrames/Remotion overlays, Manim for diagram slots, and yt-dlp for online sources. Reads your footage and writes all outputs to <videos_dir>/edit/. MIT licensed.",
+  "sec_note_zh": "需要本地安装 ffmpeg/ffprobe 与 Python（uv/pip）依赖；转写使用托管的 ElevenLabs Scribe API，需要 ELEVENLABS_API_KEY（付费云服务），存放在仓库根目录的 .env 中。叠加动画可选 Node.js（HyperFrames/Remotion）、图解片段需 Manim、在线源需 yt-dlp。会读取你的素材并把全部输出写入 <videos_dir>/edit/。MIT 许可证。"
+}
