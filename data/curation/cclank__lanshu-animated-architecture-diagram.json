@@ -1,0 +1,23 @@
+{
+  "full_name": "cclank/lanshu-animated-architecture-diagram",
+  "name": "Lanshu Animated Diagram",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "architecture-diagram",
+    "excalidraw",
+    "animated-gif",
+    "diagram",
+    "hand-drawn"
+  ],
+  "description_en": "Turn an article or system design into a premium black-canvas hand-drawn architecture/process diagram from one JSON spec, producing an editable .excalidraw source, a static PNG preview, and a genuinely animated GIF with moving flow highlights and pulsing module accents. Renders locally with Python/Pillow using a fixed art-directed layout, and ships frame-diff verification to prove the GIF actually moves.",
+  "description_zh": "用一份 JSON spec 把文章或系统设计整理成高质感的黑底手绘架构/流程图（岚叔动态架构图风格），同时产出可编辑的 .excalidraw 源文件、静态 PNG 预览，以及带流动高亮与模块脉冲的真正动图 GIF。基于固定的美术排版用本地 Python/Pillow 渲染，并自带逐帧差分校验来证明 GIF 确实在动。",
+  "long_en": "Converts technical content into a consistent, polished diagram set (Excalidraw + PNG + animated GIF) so architecture and process explanations read as designed visuals rather than flat boxes-and-arrows.",
+  "long_zh": "把技术内容转成统一、精致的一套图（Excalidraw + PNG + 动图 GIF），让架构与流程讲解呈现为有设计感的视觉，而非平铺的方框与箭头。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/cclank/lanshu-animated-architecture-diagram"
+  },
+  "sec_note_en": "Runs a bundled Python renderer (Pillow) entirely on the local machine to emit .excalidraw/.png/.gif — no network, remote APIs, or external icon libraries. Requires Python 3.9+ and Pillow (ffprobe optional for media inspection). Authored and marketed as a Codex skill, but uses the portable SKILL.md format and a platform-agnostic Python renderer.",
+  "sec_note_zh": "在本地运行内置的 Python 渲染器（Pillow）生成 .excalidraw/.png/.gif——不联网、无远程 API、无外部图标库。需要 Python 3.9+ 与 Pillow（ffprobe 可选，用于媒体检查）。作者按 Codex skill 定位与宣传，但采用通用的 SKILL.md 格式与平台无关的 Python 渲染器。"
+}
