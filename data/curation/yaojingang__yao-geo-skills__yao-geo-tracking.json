@@ -3,8 +3,14 @@
   "name": "GEO Attribution & Tracking Planner",
   "kind": "skill",
   "slug": "yao-geo-tracking",
-  "category": "data",
-  "tags": ["geo", "tracking", "attribution", "analytics", "monitoring"],
+  "category": "productivity",
+  "tags": [
+    "geo",
+    "tracking",
+    "attribution",
+    "analytics",
+    "monitoring"
+  ],
   "description_en": "From a company name plus optional supporting info, designs a company-specific GEO backend tracking and attribution PLAN: official-site verification, business-type and conversion-path mapping, direct-vs-indirect effect modeling, an observability estimation framework, data-model and metrics design, a prioritized roadmap, and optional rendered HTML and Word reports.",
   "description_zh": "从公司名加可选补充信息出发，设计该公司专属的 GEO 后端效果跟踪与归因方案：官网核验、业务类型与转化链路映射、直接/间接效果双层建模、可观测性估算框架、数据模型与指标口径设计、优先级路线图，并可选生成 HTML 与 Word 报告。",
   "long_en": "Produces a tailored, evidence-anchored GEO attribution design and tracking roadmap, including an honest observability boundary, rather than a generic methodology template.",

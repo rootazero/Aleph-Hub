@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 124,
-    "generated_at": "2026-06-28T09:09:15.370Z",
-    "content_hash": "sha256:0cebd25d5345aa8c83555f215d18478f91625b6bb99619cb2dea9af346021561"
+    "generated_at": "2026-06-28T13:57:14.522Z",
+    "content_hash": "sha256:2c8d8068e471f6cd9b1f9d3c23998e0ff37ce3648e9e8ce143c1a48cd5fede7a"
   },
   "entries": [
     {
@@ -116,7 +116,7 @@
     {
       "id": "aleph-hub:AWeirdDev/prompts#prompts-awesome-excel",
       "kind": "prompt",
-      "category": "data",
+      "category": "productivity",
       "name": "Text-Based Excel",
       "description": "Turns the model into a text-based spreadsheet: you dictate cell values and formulas, it replies only with the rendered 10-row table.",
       "author": "AWeirdDev",
@@ -640,7 +640,7 @@
     {
       "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-advanced-text-converter-for-large-datasets",
       "kind": "prompt",
-      "category": "data",
+      "category": "developer",
       "name": "Advanced Text Converter for Large Datasets",
       "description": "Acts as a data-processing expert that designs format conversions (CSV/JSON/XML) for large datasets with configurable output, delimiter, and encoding.",
       "author": "BELYAGOUBIABDELILAH",
@@ -1038,7 +1038,7 @@
     {
       "id": "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#prompts-ai-automation-data-analyst",
       "kind": "prompt",
-      "category": "data",
+      "category": "developer",
       "name": "Data Analyst",
       "description": "Act as a data analyst: explain a dataset, surface the key questions it answers, and extract actionable insights in plain language.",
       "author": "BELYAGOUBIABDELILAH",

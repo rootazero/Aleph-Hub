@@ -6,7 +6,10 @@ import { STRINGS, CATEGORY_LABELS } from "@/lib/i18n";
 import type { ExtensionCategoryT } from "@/contract/types";
 import { buildIssueUrl } from "@/lib/submit";
 
-const CATS = Object.keys(CATEGORY_LABELS) as ExtensionCategoryT[];
+// "data" is a tombstoned category (folded into "developer" in the display taxonomy,
+// see lib/i18n.ts) — kept in the contract for back-compat but not offered for new
+// submissions, since the browse UI doesn't surface it.
+const CATS = (Object.keys(CATEGORY_LABELS) as ExtensionCategoryT[]).filter((c) => c !== "data");
 
 // Mockup lines 206-224. On submit, opens a prefilled GitHub issue.
 export function SubmitForm() {

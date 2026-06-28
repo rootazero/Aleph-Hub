@@ -3,8 +3,14 @@
   "name": "GEO Effect Monitor",
   "kind": "skill",
   "slug": "yao-geo-effect-monitor",
-  "category": "data",
-  "tags": ["geo", "monitoring", "ai-answers", "citation-tracking", "attribution"],
+  "category": "productivity",
+  "tags": [
+    "geo",
+    "monitoring",
+    "ai-answers",
+    "citation-tracking",
+    "attribution"
+  ],
   "description_en": "Designs a GEO answer-monitoring plan for Chinese answer engines (DeepSeek, Doubao, Qianwen, Kimi, Tencent Yuanbao): per-platform sampling specs, a prompt library, a six-layer metric system, citation-source tracking, a cautious attribution framework, a brand-fact correction loop, alert/threshold rules, dashboard fields and a DB/API draft, delivered as Word/PDF/HTML/Markdown reports.",
   "description_zh": "为国内 AI 答案引擎（DeepSeek、豆包、千问、Kimi、腾讯元宝）设计 GEO 答案监测方案：各平台独立采样口径、Prompt 库、六层指标体系、引用源追踪、谨慎归因框架、品牌事实纠偏闭环、阈值告警规则、仪表盘字段与数据库/API 草案，并交付 Word/PDF/HTML/Markdown 报告。",
   "long_en": "A long-running GEO measurement loop that tracks brand visibility, factuality and citation quality in AI answers, with disciplined, evidence-graded attribution.",
