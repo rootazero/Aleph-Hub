@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 208,
-    "generated_at": "2026-06-28T14:11:26.579Z",
-    "content_hash": "sha256:921fc7f7a80e5c087eca42772940bd15a606a04f127dcf1075664199dd11f226"
+    "generated_at": "2026-06-28T14:22:24.298Z",
+    "content_hash": "sha256:10d5036984b3a7743b19fcc10502dc454d0ec46317c4e23d8682383acf164124"
   },
   "entries": [
     {
@@ -2434,7 +2434,7 @@
     {
       "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-effect-monitor",
       "kind": "skill",
-      "category": "data",
+      "category": "productivity",
       "name": "GEO Effect Monitor",
       "description": "Designs a GEO answer-monitoring plan for Chinese answer engines (DeepSeek, Doubao, Qianwen, Kimi, Tencent Yuanbao): per-platform sampling specs, a prompt library, a six-layer metric system, citation-source tracking, a cautious attribution framework, a brand-fact correction loop, alert/threshold rules, dashboard fields and a DB/API draft, delivered as Word/PDF/HTML/Markdown reports.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2655,7 +2655,7 @@
     {
       "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-tracking",
       "kind": "skill",
-      "category": "data",
+      "category": "productivity",
       "name": "GEO Attribution & Tracking Planner",
       "description": "From a company name plus optional supporting info, designs a company-specific GEO backend tracking and attribution PLAN: official-site verification, business-type and conversion-path mapping, direct-vs-indirect effect modeling, an observability estimation framework, data-model and metrics design, a prioritized roadmap, and optional rendered HTML and Word reports.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -4481,29 +4481,6 @@
       "via": "github:Bhanunamikaze"
     },
     {
-      "id": "aleph-hub:Mobiss11/Whisper-Skill",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "Whisper Skill",
-      "description": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
-      "repo_url": "https://github.com/Mobiss11/Whisper-Skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Mobiss11/Whisper-Skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Mobiss11",
-      "tags": [
-        "whisper",
-        "transcription",
-        "subtitles",
-        "dictation"
-      ],
-      "via": "github:Mobiss11"
-    },
-    {
       "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
       "kind": "skill",
       "category": "writing",
@@ -4525,6 +4502,29 @@
         "compliance"
       ],
       "via": "github:patrickstigler"
+    },
+    {
+      "id": "aleph-hub:Mobiss11/Whisper-Skill",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "Whisper Skill",
+      "description": "Local audio/video transcription with Whisper—no OpenAI API—plus voice dictation (push-to-talk) and burned-in MP4 subtitles. Auto-detects OS/CPU/GPU and picks the optimal backend (faster-whisper, whisper.cpp, whisperx, mlx-whisper, openvino) and model for your hardware.",
+      "repo_url": "https://github.com/Mobiss11/Whisper-Skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Mobiss11/Whisper-Skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Mobiss11",
+      "tags": [
+        "whisper",
+        "transcription",
+        "subtitles",
+        "dictation"
+      ],
+      "via": "github:Mobiss11"
     },
     {
       "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",

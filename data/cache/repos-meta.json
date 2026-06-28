@@ -14,12 +14,12 @@
     }
   },
   "egonex-ai/understand-anything": {
-    "etag": "W/\"3d38ce11057b36aa505058bbc86fb870f2e9e800d4fe1dd2b8433bb3c1c24c91\"",
+    "etag": "W/\"a0c4d48de8438322e42283c108f66d557f83acc94ddfb388524da65984248565\"",
     "meta": {
       "full_name": "Egonex-AI/Understand-Anything",
       "owner": "Egonex-AI",
       "repo": "Understand-Anything",
-      "stars": 68834,
+      "stars": 68837,
       "license": "MIT",
       "pushed_at": "2026-06-23T20:29:48Z",
       "fork": false,
@@ -42,7 +42,7 @@
     }
   },
   "nanocoai/nanoclaw": {
-    "etag": "W/\"2573f4ae52273b2b06f33383a432d4c1344c307e3014992ebaaaa95f38e78653\"",
+    "etag": "W/\"7324151d7dd9665dbd49920a2c6eed48847fee85d2654f25116979651b94f966\"",
     "meta": {
       "full_name": "nanocoai/nanoclaw",
       "owner": "nanocoai",
@@ -56,7 +56,7 @@
     }
   },
   "k-dense-ai/scientific-agent-skills": {
-    "etag": "W/\"b53a65c11c3a453f61ef75f088108d30c19d50b1810b35197c3893c0be70021f\"",
+    "etag": "W/\"679eb380b35d766779220fd0059818851b628776f0cf09e9da6be53c71cd0f92\"",
     "meta": {
       "full_name": "K-Dense-AI/scientific-agent-skills",
       "owner": "K-Dense-AI",
@@ -70,12 +70,12 @@
     }
   },
   "voltagent/awesome-agent-skills": {
-    "etag": "W/\"c2201755566a1fce08884703ca7ddc45039d99837af64fba5ae23d763b028df7\"",
+    "etag": "W/\"c7868d6437c4a29de83f4899cfb952b1d03544fdfd45809b9ade999d854928f2\"",
     "meta": {
       "full_name": "VoltAgent/awesome-agent-skills",
       "owner": "VoltAgent",
       "repo": "awesome-agent-skills",
-      "stars": 26721,
+      "stars": 26722,
       "license": "MIT",
       "pushed_at": "2026-06-24T05:59:59Z",
       "fork": false,
@@ -112,12 +112,12 @@
     }
   },
   "alirezarezvani/claude-skills": {
-    "etag": "W/\"176693db3d228847563da9813d4627b7b8d417c4bf34fd56cfa121d92ee776f3\"",
+    "etag": "W/\"af588da5c22281c2e2baf6f77dc72c8cd943c83c75539c125b3d0c6bef6a4db4\"",
     "meta": {
       "full_name": "alirezarezvani/claude-skills",
       "owner": "alirezarezvani",
       "repo": "claude-skills",
-      "stars": 19261,
+      "stars": 19262,
       "license": "MIT",
       "pushed_at": "2026-06-26T10:03:48Z",
       "fork": false,
@@ -182,12 +182,12 @@
     }
   },
   "jeffallan/claude-skills": {
-    "etag": "W/\"cde7aa2a6f0105b9a4480fa417e84a6909211a45c89e45546d8950da02209eb2\"",
+    "etag": "W/\"7df107d72b8affdf4810166ae16ea25a5b9e2b6c7b8c5083c83e82fd2b48c1f8\"",
     "meta": {
       "full_name": "Jeffallan/claude-skills",
       "owner": "Jeffallan",
       "repo": "claude-skills",
-      "stars": 10265,
+      "stars": 10266,
       "license": "MIT",
       "pushed_at": "2026-05-20T13:35:05Z",
       "fork": false,
@@ -196,12 +196,12 @@
     }
   },
   "orchestra-research/ai-research-skills": {
-    "etag": "W/\"ced3304dc3fca5ac40cfa17acefc5f143a9147309196942b244f8f50583b9428\"",
+    "etag": "W/\"3660e1020258e7756f0f9a9b1e26ef2895642980e38529dc97de70f81a3175e8\"",
     "meta": {
       "full_name": "Orchestra-Research/AI-Research-SKILLs",
       "owner": "Orchestra-Research",
       "repo": "AI-Research-SKILLs",
-      "stars": 10180,
+      "stars": 10182,
       "license": "MIT",
       "pushed_at": "2026-06-16T01:36:46Z",
       "fork": false,
@@ -434,7 +434,7 @@
     }
   },
   "browser-act/skills": {
-    "etag": "W/\"488fc82b0a2b7eb295ae657ae1893f837ef26123fc7c89297fa3fcd4eb018f6d\"",
+    "etag": "W/\"c341aab4bc6c9bfbebcc620e84a6d9b48a366c93faeb5aba7df2108d49524881\"",
     "meta": {
       "full_name": "browser-act/skills",
       "owner": "browser-act",
@@ -490,12 +490,12 @@
     }
   },
   "snailsploit/claude-red": {
-    "etag": "W/\"51dd733c6a50c727c143e15826cb160d7ccd084a80654d1aff8189d366a55351\"",
+    "etag": "W/\"e358878803d22d87f899f1fbda7833f3639c2508aa23e8baab4047aab5c1316e\"",
     "meta": {
       "full_name": "SnailSploit/Claude-Red",
       "owner": "SnailSploit",
       "repo": "Claude-Red",
-      "stars": 2409,
+      "stars": 2410,
       "license": "MIT",
       "pushed_at": "2026-05-08T16:05:21Z",
       "fork": false,
@@ -504,12 +504,12 @@
     }
   },
   "rohitg00/pro-workflow": {
-    "etag": "W/\"b516a56c1a1da47fa262bd3a76c86133f249e7fc805a346c17c78a8aacbba79e\"",
+    "etag": "W/\"0518b0d1d8528a1e99bb4f68d130ef7f4aa31cec0e5daecf72c6a13f3f5aa2fa\"",
     "meta": {
       "full_name": "rohitg00/pro-workflow",
       "owner": "rohitg00",
       "repo": "pro-workflow",
-      "stars": 2398,
+      "stars": 2399,
       "license": null,
       "pushed_at": "2026-06-22T20:24:32Z",
       "fork": false,
@@ -532,12 +532,12 @@
     }
   },
   "romainsimon/paperasse": {
-    "etag": "W/\"3e652756ca9c3659e32d2d77911789beb267945e7c99858547a6dc213467b788\"",
+    "etag": "W/\"21054421e66115100b51ee6a2df4ff44516009d709531bfe2f572a0ea4baee7c\"",
     "meta": {
       "full_name": "romainsimon/paperasse",
       "owner": "romainsimon",
       "repo": "paperasse",
-      "stars": 2199,
+      "stars": 2200,
       "license": "MIT",
       "pushed_at": "2026-05-13T15:42:08Z",
       "fork": false,
@@ -910,12 +910,12 @@
     }
   },
   "zanwei/design-dna": {
-    "etag": "W/\"da13652728e838bce265a4e77cbe471c2f829ff442820abe23109889b7a083d8\"",
+    "etag": "W/\"be8547c461ab87f99430f49b0c4ba5870b045d175954c4a50bf509ecc2be56d7\"",
     "meta": {
       "full_name": "zanwei/design-dna",
       "owner": "zanwei",
       "repo": "design-dna",
-      "stars": 907,
+      "stars": 908,
       "license": "MIT",
       "pushed_at": "2026-04-13T01:30:34Z",
       "fork": false,
@@ -1232,12 +1232,12 @@
     }
   },
   "shanyin-ai/shanyin-screenwriting-master": {
-    "etag": "W/\"e11354bf446883e3487a5760a3eab772caf77e835a227d13989f75a5b244e3c8\"",
+    "etag": "W/\"d6ec2c841d1a4553c7f3d6b6b47c64d0f22dd7d5f299d6de19e0453142bc1d3a\"",
     "meta": {
       "full_name": "Shanyin-ai/shanyin-screenwriting-master",
       "owner": "Shanyin-ai",
       "repo": "shanyin-screenwriting-master",
-      "stars": 495,
+      "stars": 496,
       "license": "MIT",
       "pushed_at": "2026-04-01T02:18:00Z",
       "fork": false,
@@ -1540,14 +1540,14 @@
     }
   },
   "aiskillstore/marketplace": {
-    "etag": "W/\"14b94759549a85aa57e8cd5918090bea6cd75eea30d585ffb7d2dd0f06647589\"",
+    "etag": "W/\"28d1b45b15fccfacb98f220be3605bb5838be202adfc92baab32888ec13ec579\"",
     "meta": {
       "full_name": "aiskillstore/marketplace",
       "owner": "aiskillstore",
       "repo": "marketplace",
       "stars": 379,
       "license": null,
-      "pushed_at": "2026-06-28T13:13:04Z",
+      "pushed_at": "2026-06-28T14:13:06Z",
       "fork": false,
       "source_full_name": null,
       "default_branch": "main"
@@ -1764,7 +1764,7 @@
     }
   },
   "nexscope-ai/amazon-skills": {
-    "etag": "W/\"5ebfd99eb2f51926049e5b419de225862e9f932efbd87c8d1a835d382fe8494e\"",
+    "etag": "W/\"f37416a5e20cef51dd38d6cfb7b248c118f373d9c1f17ac49240024e635fe231\"",
     "meta": {
       "full_name": "nexscope-ai/Amazon-Skills",
       "owner": "nexscope-ai",
@@ -4200,12 +4200,12 @@
     }
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"3bd569387e46df3aea8f4dd394a42006c45549cfb25d8a3cb898dd159354f492\"",
+    "etag": "W/\"f2dc51fcf7599b13e2a4d5129b356c7eef023a3570284ad6c1adecac639df64c\"",
     "meta": {
       "full_name": "zarazhangrui/frontend-slides",
       "owner": "zarazhangrui",
       "repo": "frontend-slides",
-      "stars": 23642,
+      "stars": 23647,
       "license": "MIT",
       "pushed_at": "2026-06-23T20:08:19Z",
       "fork": false,
@@ -4242,12 +4242,12 @@
     }
   },
   "tt-a1i/archify": {
-    "etag": "W/\"590919e684e6a387e8164ef7a07fa6cb27d9a7ed42ce10768f37b394fe6ca751\"",
+    "etag": "W/\"64a1b5fb2a5dc20436ad1cbe2d6427465053834773456a19537eba40b6e2bf4f\"",
     "meta": {
       "full_name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "repo": "archify",
-      "stars": 1407,
+      "stars": 1409,
       "license": "MIT",
       "pushed_at": "2026-06-28T09:18:38Z",
       "fork": false,
@@ -4256,7 +4256,7 @@
     }
   },
   "agricidaniel/claude-blog": {
-    "etag": "W/\"85de7429a989aa38de2c86bbb86b94bceba9862594ae8d2d3e9472b4d3c0a63c\"",
+    "etag": "W/\"d83ce57fdbdb058a67ad4819fe8cef299e34e594a040755bfb5097afb8bbbb24\"",
     "meta": {
       "full_name": "AgriciDaniel/claude-blog",
       "owner": "AgriciDaniel",
@@ -4340,12 +4340,12 @@
     }
   },
   "dzcmemory-web/bazi-ziwei-skill": {
-    "etag": "W/\"b45f70c1d63c9bcd90b42b85f57fa4217b7ac7d61260f264464d45bb24ad80dd\"",
+    "etag": "W/\"57b7526efbcfacda4638d1f9e9c411a577f6ee07b96309ff1411f788f5b057a8\"",
     "meta": {
       "full_name": "dzcmemory-web/bazi-ziwei-skill",
       "owner": "dzcmemory-web",
       "repo": "bazi-ziwei-skill",
-      "stars": 523,
+      "stars": 524,
       "license": "MIT",
       "pushed_at": "2026-06-14T03:53:54Z",
       "fork": false,
@@ -4452,12 +4452,12 @@
     }
   },
   "irenerachel/visual-style-ppt-skill": {
-    "etag": "W/\"36e1916307da74770825e62817afd44a4cf96e7f76c41d9c5cffe68a584adf82\"",
+    "etag": "W/\"0fb8d61762201563aebf753ffa2119215da655c8cfae4970f1a1f9bc304ebdd0\"",
     "meta": {
       "full_name": "irenerachel/visual-style-ppt-skill",
       "owner": "irenerachel",
       "repo": "visual-style-ppt-skill",
-      "stars": 263,
+      "stars": 264,
       "license": null,
       "pushed_at": "2026-04-30T04:26:54Z",
       "fork": false,
@@ -8232,12 +8232,12 @@
     }
   },
   "anthropics/skills": {
-    "etag": "W/\"ae1ae9b052ecb0420763add5e5c99f6bcc31069d41e0ffc4cdb21208de6ce69a\"",
+    "etag": "W/\"4e3d8fbb416e4d9d991cb655370ce075b2e4368f2a1ea05fce1520082365831d\"",
     "meta": {
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "repo": "skills",
-      "stars": 156112,
+      "stars": 156119,
       "license": null,
       "pushed_at": "2026-06-27T16:07:58Z",
       "fork": false,
@@ -8246,26 +8246,26 @@
     }
   },
   "nexu-io/open-design": {
-    "etag": "W/\"5d76c955e2d637f00e13272e87d35df683f8f0850d5209ba28e869d26a79cf93\"",
+    "etag": "W/\"d9a0374528ddbb4a124aba9228221775d81c773b74bbca5b52ed23cd852a34e9\"",
     "meta": {
       "full_name": "nexu-io/open-design",
       "owner": "nexu-io",
       "repo": "open-design",
-      "stars": 72252,
+      "stars": 72259,
       "license": "Apache-2.0",
-      "pushed_at": "2026-06-28T13:22:42Z",
+      "pushed_at": "2026-06-28T14:18:12Z",
       "fork": false,
       "source_full_name": null,
       "default_branch": "main"
     }
   },
   "composiohq/awesome-claude-skills": {
-    "etag": "W/\"c5431848ab472ec17820195214524b50cd900272ce8161ebeccf56e212dd2e8d\"",
+    "etag": "W/\"9ef4fb092f9b0c0849871f28b27b571ffe123d6828d4de6f9dad2aab123e0c22\"",
     "meta": {
       "full_name": "ComposioHQ/awesome-claude-skills",
       "owner": "ComposioHQ",
       "repo": "awesome-claude-skills",
-      "stars": 66191,
+      "stars": 66193,
       "license": null,
       "pushed_at": "2026-05-22T03:17:49Z",
       "fork": false,
@@ -8274,12 +8274,12 @@
     }
   },
   "addyosmani/agent-skills": {
-    "etag": "W/\"2792171a2e86bbe9dc4c95bfbb59acf78e6b2a7a3c7090513500158f32bc95b6\"",
+    "etag": "W/\"28290ebc9167ce2751be0dae81c3a35d0dfa7af858607aae3a8ace5346e9cd71\"",
     "meta": {
       "full_name": "addyosmani/agent-skills",
       "owner": "addyosmani",
       "repo": "agent-skills",
-      "stars": 67531,
+      "stars": 67533,
       "license": "MIT",
       "pushed_at": "2026-06-28T09:51:20Z",
       "fork": false,
@@ -8302,12 +8302,12 @@
     }
   },
   "cherryhq/cherry-studio": {
-    "etag": "W/\"d46cc4a3e90a554332d3297b39b406a76cc1de6f551117b7a5ba2e97bb25f5ca\"",
+    "etag": "W/\"f09d63707fc78378514e2c1de35ebc71f80bda7de1cf16f260e999e641cb274e\"",
     "meta": {
       "full_name": "CherryHQ/cherry-studio",
       "owner": "CherryHQ",
       "repo": "cherry-studio",
-      "stars": 47917,
+      "stars": 47918,
       "license": "AGPL-3.0",
       "pushed_at": "2026-06-28T12:24:13Z",
       "fork": false,
@@ -8330,12 +8330,12 @@
     }
   },
   "dietrichgebert/ponytail": {
-    "etag": "W/\"42b92e9395b3bd7bea39ac53673b9cf9e25eed2ca95a593cb226fa43e963d97b\"",
+    "etag": "W/\"7ff242734f51be12e85e8b4c3360cc9f305bc0dc807ccf80e5cc765770e09625\"",
     "meta": {
       "full_name": "DietrichGebert/ponytail",
       "owner": "DietrichGebert",
       "repo": "ponytail",
-      "stars": 62933,
+      "stars": 62972,
       "license": "MIT",
       "pushed_at": "2026-06-26T01:28:09Z",
       "fork": false,
@@ -8344,7 +8344,7 @@
     }
   },
   "sickn33/antigravity-awesome-skills": {
-    "etag": "W/\"7dad1e7ccc86286d9278f681ca88e006a0d255ea3ed096ecde35ea2e09e0a533\"",
+    "etag": "W/\"bf65d09d385c0fe877bf44da1a457e2c4a848b183f9e5f546e598f7f30fb6a58\"",
     "meta": {
       "full_name": "sickn33/antigravity-awesome-skills",
       "owner": "sickn33",
@@ -8358,12 +8358,12 @@
     }
   },
   "wshobson/agents": {
-    "etag": "W/\"bf4df2ec100d85b20af6e6284ac36e566932dd0a77749b3fe5e8532f00972dac\"",
+    "etag": "W/\"edbc740ef07eb3b8736b79553d7e648d1c118e98a8812415a16db3c443c10206\"",
     "meta": {
       "full_name": "wshobson/agents",
       "owner": "wshobson",
       "repo": "agents",
-      "stars": 37280,
+      "stars": 37281,
       "license": "MIT",
       "pushed_at": "2026-06-25T13:03:19Z",
       "fork": false,
@@ -8386,12 +8386,12 @@
     }
   },
   "googleworkspace/cli": {
-    "etag": "W/\"7b8fb50249a5efc4366085acae440a71c2bc5406cb7d79132f86d80492d7c55f\"",
+    "etag": "W/\"7d06869b419e47259dd8481ed1547becc3b504e19c73fbd619ebeaac39082f65\"",
     "meta": {
       "full_name": "googleworkspace/cli",
       "owner": "googleworkspace",
       "repo": "cli",
-      "stars": 29036,
+      "stars": 29039,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-26T23:27:38Z",
       "fork": false,
@@ -8400,12 +8400,12 @@
     }
   },
   "agentskills/agentskills": {
-    "etag": "W/\"af04e2fa7584aecc88cbba1cddefc68c21db646572daa98ffd36fa37a7a32fc1\"",
+    "etag": "W/\"1302c64f40fe012a41346e7e0af66e1cf41d458ec022fa84f87edf5d17cb32d3\"",
     "meta": {
       "full_name": "agentskills/agentskills",
       "owner": "agentskills",
       "repo": "agentskills",
-      "stars": 21168,
+      "stars": 21169,
       "license": "Apache-2.0",
       "pushed_at": "2026-05-20T17:23:06Z",
       "fork": false,
@@ -8414,12 +8414,12 @@
     }
   },
   "phuryn/pm-skills": {
-    "etag": "W/\"c9325d0c24159530b09988fb2c2400e434e97b47dda7422410ab2f4d26244f17\"",
+    "etag": "W/\"020130b6a9734056d455ef841d0d101a52d7d94d3219fb1c2c274b3ecb70d0a7\"",
     "meta": {
       "full_name": "phuryn/pm-skills",
       "owner": "phuryn",
       "repo": "pm-skills",
-      "stars": 21446,
+      "stars": 21447,
       "license": "MIT",
       "pushed_at": "2026-06-22T09:34:56Z",
       "fork": false,
@@ -8428,12 +8428,12 @@
     }
   },
   "topoteretes/cognee": {
-    "etag": "W/\"90dc085cde508d50418de9036971e9cb93d83277c2ed7180861dfd8f2f495f1e\"",
+    "etag": "W/\"8228fd047bee8cacf4fcf5d42937e90ab8c411732cd924b78aef687f85fc8b7c\"",
     "meta": {
       "full_name": "topoteretes/cognee",
       "owner": "topoteretes",
       "repo": "cognee",
-      "stars": 24497,
+      "stars": 24511,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-27T14:39:34Z",
       "fork": false,
@@ -8470,12 +8470,12 @@
     }
   },
   "alibaba/zvec": {
-    "etag": "W/\"d8ec35db04f43725a7f783ef97d68131b1909fab5e9c34ac31ddeafa2f371bb3\"",
+    "etag": "W/\"732229bac1411d17ba932a7d020c4dca66f3f7b90ca579d960b07c1769ce8b59\"",
     "meta": {
       "full_name": "alibaba/zvec",
       "owner": "alibaba",
       "repo": "zvec",
-      "stars": 12561,
+      "stars": 12562,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-26T11:16:20Z",
       "fork": false,
@@ -8498,12 +8498,12 @@
     }
   },
   "microsoft/skillopt": {
-    "etag": "W/\"ff18ac8be3714b863c38f85ca130dd4fbe381c9a903d97a69c0a0310e24da9dc\"",
+    "etag": "W/\"413810fd6b517e0ba9e0c568155a219cbc0522da38cdc43693526066588550e0\"",
     "meta": {
       "full_name": "microsoft/SkillOpt",
       "owner": "microsoft",
       "repo": "SkillOpt",
-      "stars": 9599,
+      "stars": 9601,
       "license": "MIT",
       "pushed_at": "2026-06-26T03:04:24Z",
       "fork": false,
@@ -8540,12 +8540,12 @@
     }
   },
   "agricidaniel/claude-obsidian": {
-    "etag": "W/\"91a48d64c8e9cdcecafa20dbd38a3580a8bef9670b17a9fd55869cc9226654ae\"",
+    "etag": "W/\"2dab9d85bddc5e6e74d1f16f31eef1168b47418d6f82d100fa8a6b0234d3e6ea\"",
     "meta": {
       "full_name": "AgriciDaniel/claude-obsidian",
       "owner": "AgriciDaniel",
       "repo": "claude-obsidian",
-      "stars": 8086,
+      "stars": 8088,
       "license": "MIT",
       "pushed_at": "2026-05-28T00:42:43Z",
       "fork": false,
@@ -8596,12 +8596,12 @@
     }
   },
   "heilcheng/awesome-agent-skills": {
-    "etag": "W/\"4068ce7f6a6c93c8f51144a277ac9875c0742b708ab60071f4daa9978f092c2c\"",
+    "etag": "W/\"0d4ed1e561dbce52dcf38bea8ec2517b02039b7e1669fbb4c950d9be51ea7a3f\"",
     "meta": {
       "full_name": "heilcheng/awesome-agent-skills",
       "owner": "heilcheng",
       "repo": "awesome-agent-skills",
-      "stars": 5895,
+      "stars": 5896,
       "license": "MIT",
       "pushed_at": "2026-04-05T20:39:24Z",
       "fork": false,
@@ -8610,12 +8610,12 @@
     }
   },
   "jnmetacode/superpowers-zh": {
-    "etag": "W/\"2668f6d50b3aeba6bf910cc93f7911a8993a09c096c3a21cb910ba8f8c271f95\"",
+    "etag": "W/\"a26be2db1f8d6d9c2a49232f0e28a1e7d9a2baf5cd293e8b3c05d9370efa051c\"",
     "meta": {
       "full_name": "jnMetaCode/superpowers-zh",
       "owner": "jnMetaCode",
       "repo": "superpowers-zh",
-      "stars": 6055,
+      "stars": 6057,
       "license": "MIT",
       "pushed_at": "2026-06-23T15:29:43Z",
       "fork": false,
@@ -8680,12 +8680,12 @@
     }
   },
   "xixu-me/awesome-persona-distill-skills": {
-    "etag": "W/\"903210f9e2d1ff3926095f4df51a7a71cc8f27845d1bae36f59ecc2783209c03\"",
+    "etag": "W/\"dba57c4a70bd8cf3640d835fccc86a4daae7472a9982aa3243783057a2de6d80\"",
     "meta": {
       "full_name": "xixu-me/awesome-persona-distill-skills",
       "owner": "xixu-me",
       "repo": "awesome-persona-distill-skills",
-      "stars": 4490,
+      "stars": 4491,
       "license": "CC0-1.0",
       "pushed_at": "2026-06-14T18:01:18Z",
       "fork": false,
@@ -8736,12 +8736,12 @@
     }
   },
   "wuyoscar/gpt-image2-skill": {
-    "etag": "W/\"f8e99a74e021c02d4715cdbc2cc2b6532592fb8ffdb449b396f995a00d1add32\"",
+    "etag": "W/\"3c80c7b6a49adb96a8caf7097355c0a1a62a6022d1e10b74255ae29e747ceae0\"",
     "meta": {
       "full_name": "wuyoscar/GPT-Image2-Skill",
       "owner": "wuyoscar",
       "repo": "GPT-Image2-Skill",
-      "stars": 3320,
+      "stars": 3322,
       "license": "MIT",
       "pushed_at": "2026-05-23T09:30:10Z",
       "fork": false,
@@ -8876,7 +8876,7 @@
     }
   },
   "jeremylongshore/claude-code-plugins-plus-skills": {
-    "etag": "W/\"8eeffe983a0bd0d6f33798a05e3ac034a7221edcfff1e1f1ac6493957420b36d\"",
+    "etag": "W/\"b041a87c4f2479dff00c06b57881199c91ba417f74190e254878839de7c3cda7\"",
     "meta": {
       "full_name": "jeremylongshore/claude-code-plugins-plus-skills",
       "owner": "jeremylongshore",
@@ -9002,12 +9002,12 @@
     }
   },
   "brycewang-stanford/auto-empirical-research-skills": {
-    "etag": "W/\"ad631749440d001e0ad015d7caa921f80f73322a9a5d2fee98397fe4d91462bb\"",
+    "etag": "W/\"7faf529a4e29d941acba4ceea8f0e1d3d68f183528b770cc7da5288a482f9517\"",
     "meta": {
       "full_name": "brycewang-stanford/Auto-Empirical-Research-Skills",
       "owner": "brycewang-stanford",
       "repo": "Auto-Empirical-Research-Skills",
-      "stars": 2392,
+      "stars": 2393,
       "license": "NOASSERTION",
       "pushed_at": "2026-06-26T08:42:11Z",
       "fork": false,
@@ -9072,12 +9072,12 @@
     }
   },
   "jimliu/baoyu-design": {
-    "etag": "W/\"48007e865318acaf26df48461b874a7c159701083519841d75c29392b60c456a\"",
+    "etag": "W/\"63a2528667a029683d8d6443a29712e48db14e39c02fb3ff7d6f9dabb4ee5784\"",
     "meta": {
       "full_name": "JimLiu/baoyu-design",
       "owner": "JimLiu",
       "repo": "baoyu-design",
-      "stars": 2110,
+      "stars": 2112,
       "license": "MIT",
       "pushed_at": "2026-06-28T07:18:42Z",
       "fork": false,
@@ -9100,12 +9100,12 @@
     }
   },
   "yaojingang/yao-meta-skill": {
-    "etag": "W/\"00c8e3a947cb1d0770182b2e54383a9c8602706e34dcf4c2b06490d523a7b05d\"",
+    "etag": "W/\"eb59a6d3a0e96d92a9d4cac8712a979faea402407e9a7abb791840eae8bb70d7\"",
     "meta": {
       "full_name": "yaojingang/yao-meta-skill",
       "owner": "yaojingang",
       "repo": "yao-meta-skill",
-      "stars": 1641,
+      "stars": 1642,
       "license": "MIT",
       "pushed_at": "2026-06-21T08:40:42Z",
       "fork": false,
@@ -9114,12 +9114,12 @@
     }
   },
   "codeaholicguy/ai-devkit": {
-    "etag": "W/\"2ab7c9535a53e3afdb0e7338fd428648855e0ece0820f394e9e47d27c7bcb72b\"",
+    "etag": "W/\"6d0a16f10a90e2eb1d41ba12ca5c18aed6ec9add389bf573cad5ddfc27371aeb\"",
     "meta": {
       "full_name": "codeaholicguy/ai-devkit",
       "owner": "codeaholicguy",
       "repo": "ai-devkit",
-      "stars": 1493,
+      "stars": 1494,
       "license": null,
       "pushed_at": "2026-06-28T07:30:45Z",
       "fork": false,
@@ -9282,7 +9282,7 @@
     }
   },
   "aipoch/medical-research-skills": {
-    "etag": "W/\"9a351b76a41040756b9a14380625645dde784e918a14ca2093cf520ba95f7aa5\"",
+    "etag": "W/\"a839f91b95e27e2594a9cc62268397f314d75c5ba5452d5409a61843f048f3ae\"",
     "meta": {
       "full_name": "aipoch/medical-research-skills",
       "owner": "aipoch",
@@ -9702,12 +9702,12 @@
     }
   },
   "matlab/matlab-agentic-toolkit": {
-    "etag": "W/\"9f8701e67342a6b913ebf6cea498d11af15835ce83e87407db468ba10fba51c6\"",
+    "etag": "W/\"dfa597a121b9dd6c30805b46eab1cf7454cd806855d17c9b53cc5d2fe40ecd85\"",
     "meta": {
       "full_name": "matlab/matlab-agentic-toolkit",
       "owner": "matlab",
       "repo": "matlab-agentic-toolkit",
-      "stars": 685,
+      "stars": 686,
       "license": "NOASSERTION",
       "pushed_at": "2026-06-18T13:57:22Z",
       "fork": false,
@@ -11578,12 +11578,12 @@
     }
   },
   "agricidaniel/claude-seo": {
-    "etag": "W/\"00d05cdc226259491db21bc841234e7017f359e38b2125ff7e0d4de43895d26d\"",
+    "etag": "W/\"f2fd7d249d48c4375363c32160dca2a0afbe59a939b910aa918c385527c12d88\"",
     "meta": {
       "full_name": "AgriciDaniel/claude-seo",
       "owner": "AgriciDaniel",
       "repo": "claude-seo",
-      "stars": 9992,
+      "stars": 9993,
       "license": "MIT",
       "pushed_at": "2026-06-22T06:08:48Z",
       "fork": false,
@@ -11648,12 +11648,12 @@
     }
   },
   "alexgreensh/token-optimizer": {
-    "etag": "W/\"054f935f0bab10de2d9689ad94e6ed62c19196d1ae372b2f05934304b2475caf\"",
+    "etag": "W/\"17d7d9df6d7013b62ca1aff3089033a0464d97070b9917015f227760e91e1b6c\"",
     "meta": {
       "full_name": "alexgreensh/token-optimizer",
       "owner": "alexgreensh",
       "repo": "token-optimizer",
-      "stars": 1471,
+      "stars": 1472,
       "license": "NOASSERTION",
       "pushed_at": "2026-06-27T11:22:35Z",
       "fork": false,
@@ -15190,12 +15190,12 @@
     }
   },
   "obra/superpowers": {
-    "etag": "W/\"51716ef10182614a77410e52c01089ac49709a05ef5029c611b68bd8448fd726\"",
+    "etag": "W/\"7a230ceafc51ff3d4382358437d50e62843b838956b749beea021d47eaa0a8c2\"",
     "meta": {
       "full_name": "obra/superpowers",
       "owner": "obra",
       "repo": "superpowers",
-      "stars": 240429,
+      "stars": 240436,
       "license": "MIT",
       "pushed_at": "2026-06-25T02:35:57Z",
       "fork": false,
@@ -15834,12 +15834,12 @@
     }
   },
   "nousresearch/hermes-agent": {
-    "etag": "W/\"3d2654a9827ef6f8c3b3dafdf6df32eb5a59896b10e51087845d9a2be832c3f8\"",
+    "etag": "W/\"dd8332fb3959093b24a31cb6fcf2d438e6c9dbf52ef0fce4cf27d0c2af1a51bd\"",
     "meta": {
       "full_name": "NousResearch/hermes-agent",
       "owner": "NousResearch",
       "repo": "hermes-agent",
-      "stars": 204715,
+      "stars": 204726,
       "license": "MIT",
       "pushed_at": "2026-06-28T12:49:23Z",
       "fork": false,
@@ -15988,12 +15988,12 @@
     }
   },
   "fathah/hermes-desktop": {
-    "etag": "W/\"7d74fafa0cc3753363cfe5204f37d19798d15d09e80d0a364a34b916c69ce5c6\"",
+    "etag": "W/\"e1272405cdcc94479547fa8d17ff1caac61a7aa679a23efcdec08424b94ae7a9\"",
     "meta": {
       "full_name": "fathah/hermes-desktop",
       "owner": "fathah",
       "repo": "hermes-desktop",
-      "stars": 12807,
+      "stars": 12808,
       "license": "MIT",
       "pushed_at": "2026-06-28T10:54:11Z",
       "fork": false,
@@ -16072,12 +16072,12 @@
     }
   },
   "farion1231/cc-switch": {
-    "etag": "W/\"4a7fdbcff76f704a83caa2c31b09b92b9511629cbb1719e42a236f74cfec46bc\"",
+    "etag": "W/\"5de4db5bd9d01151a01b42ed242c685dbbcc245c8a0cbe1779aba45e9ab5bf94\"",
     "meta": {
       "full_name": "farion1231/cc-switch",
       "owner": "farion1231",
       "repo": "cc-switch",
-      "stars": 109836,
+      "stars": 109846,
       "license": "MIT",
       "pushed_at": "2026-06-28T09:49:52Z",
       "fork": false,
@@ -16086,12 +16086,12 @@
     }
   },
   "iofficeai/aionui": {
-    "etag": "W/\"9521a4069826cc7e227342cd357d611dfa17eefd72ba3ef3f2d2961fba82d7ec\"",
+    "etag": "W/\"fa09c5309008d46a4dfcc8281c96054e0a27f17cf8b739b5bb0fe9ee4687fc8d\"",
     "meta": {
       "full_name": "iOfficeAI/AionUi",
       "owner": "iOfficeAI",
       "repo": "AionUi",
-      "stars": 28985,
+      "stars": 28986,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-27T05:01:14Z",
       "fork": false,
@@ -16170,12 +16170,12 @@
     }
   },
   "mukul975/anthropic-cybersecurity-skills": {
-    "etag": "W/\"0777488b368fe5025b62f93806d1503a8ee66c45c72cfa6c47162af8c1298dba\"",
+    "etag": "W/\"5c2a94038ceaa39f59baaaed6b2bc643f7bebdc8fd03ec6ca5cf28ca84e6b47d\"",
     "meta": {
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
       "owner": "mukul975",
       "repo": "Anthropic-Cybersecurity-Skills",
-      "stars": 22463,
+      "stars": 22470,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-26T14:37:50Z",
       "fork": false,
@@ -16478,12 +16478,12 @@
     }
   },
   "mem0ai/mem0": {
-    "etag": "W/\"641c2621f9e289ca731a76a3ec5d58c4dc186f2742128234886b1090047a9ae0\"",
+    "etag": "W/\"c324864079778c97b92333eb98f50d8a93785e22ace0d5d5ab9f2b27dcdd30c3\"",
     "meta": {
       "full_name": "mem0ai/mem0",
       "owner": "mem0ai",
       "repo": "mem0",
-      "stars": 59618,
+      "stars": 59619,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-27T17:10:07Z",
       "fork": false,
@@ -16492,12 +16492,12 @@
     }
   },
   "garrytan/gbrain": {
-    "etag": "W/\"d2b0b67f4eb17ac5f1922875dc3e5d6b82d1ad5f72caa2e871404daa10cd48d6\"",
+    "etag": "W/\"290630914b8b2a801ab8aa00fd9130981e2d41ba229201e0dae124b28e6e7919\"",
     "meta": {
       "full_name": "garrytan/gbrain",
       "owner": "garrytan",
       "repo": "gbrain",
-      "stars": 24387,
+      "stars": 24390,
       "license": "MIT",
       "pushed_at": "2026-06-25T16:47:43Z",
       "fork": false,
@@ -16506,12 +16506,12 @@
     }
   },
   "vectorize-io/hindsight": {
-    "etag": "W/\"93dd5c42838cde0995f5774f5894b56b8d16fbfa13deee5a8fd3d153b45841c1\"",
+    "etag": "W/\"f8ed9709ee5bc148668081bef444a7cff505f1d2b8c65db26a6b8d9f397db31f\"",
     "meta": {
       "full_name": "vectorize-io/hindsight",
       "owner": "vectorize-io",
       "repo": "hindsight",
-      "stars": 17713,
+      "stars": 17715,
       "license": "MIT",
       "pushed_at": "2026-06-27T18:28:02Z",
       "fork": false,
@@ -16618,12 +16618,12 @@
     }
   },
   "plastic-labs/honcho": {
-    "etag": "W/\"a2cda8b6e0fd5cb8a5e393b35052ebe9e410d8f4a2a4f8c2fcb46cc2fcd364d9\"",
+    "etag": "W/\"d338477f246240ea1ad847a5317b6a1b03f50cc90063761d481333bc1ced1ce9\"",
     "meta": {
       "full_name": "plastic-labs/honcho",
       "owner": "plastic-labs",
       "repo": "honcho",
-      "stars": 5603,
+      "stars": 5605,
       "license": "AGPL-3.0",
       "pushed_at": "2026-06-26T21:31:06Z",
       "fork": false,
@@ -16716,12 +16716,12 @@
     }
   },
   "supermemoryai/supermemory": {
-    "etag": "W/\"9f2b2cbd203db6fe66b7bfc3dc74824d2cae618da3d3ed1b3b220780b218dc80\"",
+    "etag": "W/\"5b73c23f52764899e3055159049898c692ac4d6cbb07b3d62a190b5831c7935f\"",
     "meta": {
       "full_name": "supermemoryai/supermemory",
       "owner": "supermemoryai",
       "repo": "supermemory",
-      "stars": 27819,
+      "stars": 27824,
       "license": "MIT",
       "pushed_at": "2026-06-28T07:06:27Z",
       "fork": false,
@@ -16954,7 +16954,7 @@
     }
   },
   "xquik-dev/hermes-tweet": {
-    "etag": "W/\"837eb5f526901f6aa4e849f9d1855c9ce3a62d107ab53352ff4c33a1408c6ac9\"",
+    "etag": "W/\"5f7722c52f55e3a72a6ddc602237551c1d8931b4819f327ec19f65f61acae3cf\"",
     "meta": {
       "full_name": "Xquik-dev/hermes-tweet",
       "owner": "Xquik-dev",
@@ -17206,7 +17206,7 @@
     }
   },
   "agent-of-empires/agent-of-empires": {
-    "etag": "W/\"2da99f019db8871f21825d8a0ee2b1e864ae9837a94f913dcd9f60a7e4cfb65d\"",
+    "etag": "W/\"19fe541538934d2e003ee4175baeafb11fa8be869ed10b256c9a66f068291b32\"",
     "meta": {
       "full_name": "agent-of-empires/agent-of-empires",
       "owner": "agent-of-empires",
@@ -17570,14 +17570,14 @@
     }
   },
   "junhoyeo/tokscale": {
-    "etag": "W/\"25823bf8d986dfd4842c45d3040ecffc23bc165a1c193bfb251817fde40a026b\"",
+    "etag": "W/\"4ad71527372dd83b2f6ef7ca965a96b2acd21b4e3f706bb44577123516c75654\"",
     "meta": {
       "full_name": "junhoyeo/tokscale",
       "owner": "junhoyeo",
       "repo": "tokscale",
       "stars": 4001,
       "license": "MIT",
-      "pushed_at": "2026-06-28T00:25:32Z",
+      "pushed_at": "2026-06-28T14:20:59Z",
       "fork": false,
       "source_full_name": null,
       "default_branch": "main"
@@ -17682,12 +17682,12 @@
     }
   },
   "colbymchenry/codegraph": {
-    "etag": "W/\"3f3df2ca81d8a15920ffed0d30637aaca955f3a229d13f782f2ba94f8b036c74\"",
+    "etag": "W/\"eae502e507ce8c08b7cd4bfc63a79ab3613004f8705ad8a559f59bdfaf4babb8\"",
     "meta": {
       "full_name": "colbymchenry/codegraph",
       "owner": "colbymchenry",
       "repo": "codegraph",
-      "stars": 55550,
+      "stars": 55553,
       "license": "MIT",
       "pushed_at": "2026-06-28T06:34:10Z",
       "fork": false,
@@ -18116,12 +18116,12 @@
     }
   },
   "microsoft/playwright-mcp": {
-    "etag": "W/\"81e82e71d94bcd6a40b4f6bfdf86b16b1fce1acbc04aafdee17ddc454acbaa1b\"",
+    "etag": "W/\"9a348e3815487f77a8350f4dc2bea72c24c7b2cd7a5611ddc4d2503ff5dce371\"",
     "meta": {
       "full_name": "microsoft/playwright-mcp",
       "owner": "microsoft",
       "repo": "playwright-mcp",
-      "stars": 34453,
+      "stars": 34455,
       "license": "Apache-2.0",
       "pushed_at": "2026-06-25T15:19:51Z",
       "fork": false,
@@ -18368,12 +18368,12 @@
     }
   },
   "alisa0808/vibe-creating-skill": {
-    "etag": "W/\"bcf4086e552c0ba1c2d0e3da0dfdf8f7417f9cec048d3a3795360f3139449b2b\"",
+    "etag": "W/\"b97558e06a2d04e7f96692e345f2a4db6e2f156b2fce68348560af44c8f825bd\"",
     "meta": {
       "full_name": "Alisa0808/vibe-creating-skill",
       "owner": "Alisa0808",
       "repo": "vibe-creating-skill",
-      "stars": 55,
+      "stars": 57,
       "license": "NOASSERTION",
       "pushed_at": "2026-06-17T09:12:18Z",
       "fork": false,
@@ -18452,12 +18452,12 @@
     }
   },
   "light0305/light-skills": {
-    "etag": "W/\"1886b06a2eedbceed1446df2c200f7dd5de8418d9a988f9fa358b74833b5ba8d\"",
+    "etag": "W/\"081153cd7448b809c0595c4f150da1066ee9311d4196ef135cdcaaba54aadf6a\"",
     "meta": {
       "full_name": "Light0305/Light-skills",
       "owner": "Light0305",
       "repo": "Light-skills",
-      "stars": 301,
+      "stars": 302,
       "license": "MIT",
       "pushed_at": "2026-06-15T14:33:34Z",
       "fork": false,
@@ -18536,12 +18536,12 @@
     }
   },
   "op7418/humanizer-zh": {
-    "etag": "W/\"c11b20d5b414ab1c699bb119a681487d016f5afca3d80bbf52426c1c9523a5d4\"",
+    "etag": "W/\"22edd122afff3419632225fc0ed4a09ad544b94703cbdd8b88a5c225b50edb09\"",
     "meta": {
       "full_name": "op7418/Humanizer-zh",
       "owner": "op7418",
       "repo": "Humanizer-zh",
-      "stars": 11822,
+      "stars": 11825,
       "license": "MIT",
       "pushed_at": "2026-01-19T07:46:35Z",
       "fork": false,
@@ -18550,12 +18550,12 @@
     }
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"6307c181ae21729f33a72d1debaeb74d8f9bdedb16180c0fac9e488cf233d3ea\"",
+    "etag": "W/\"bdc1d5f066818603853e01ad33f5affcdd5dbcc131baf2e8d70d860118a72e47\"",
     "meta": {
       "full_name": "op7418/guizang-ppt-skill",
       "owner": "op7418",
       "repo": "guizang-ppt-skill",
-      "stars": 19254,
+      "stars": 19258,
       "license": "AGPL-3.0",
       "pushed_at": "2026-06-02T09:53:57Z",
       "fork": false,
@@ -18564,12 +18564,12 @@
     }
   },
   "leonxlnx/taste-skill": {
-    "etag": "W/\"fcfe95d57bd830fdacaaf6e3746f01d1a250d31c3f208a7566c1a63550e622bf\"",
+    "etag": "W/\"a63835385c0ab968f281a41c918b3b6d9bf1234bbdb02ef06a692ff76b165b95\"",
     "meta": {
       "full_name": "Leonxlnx/taste-skill",
       "owner": "Leonxlnx",
       "repo": "taste-skill",
-      "stars": 52354,
+      "stars": 52361,
       "license": "MIT",
       "pushed_at": "2026-06-20T23:05:00Z",
       "fork": false,
@@ -18578,12 +18578,12 @@
     }
   },
   "panniantong/agent-reach": {
-    "etag": "W/\"0f3567859c1d53f14f7e08938d655f060a16ee38f12bba9248c655fe8b6c1ae4\"",
+    "etag": "W/\"b45aae2dd096cfc983d4a9d4702185ae5b366255920bf87cdc5ef3bcbbc8b8e2\"",
     "meta": {
       "full_name": "Panniantong/Agent-Reach",
       "owner": "Panniantong",
       "repo": "Agent-Reach",
-      "stars": 44064,
+      "stars": 44081,
       "license": "MIT",
       "pushed_at": "2026-06-23T13:04:55Z",
       "fork": false,
@@ -18788,26 +18788,26 @@
     }
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"499a4f9ed6ea58b56c54ad528f33efdaeef081b67c06c55cc34b96d0074fbb14\"",
+    "etag": "W/\"face151f3f9315160c3abf96e63d81d782f93fce4b8d3e7f92fc0a1fe972ba91\"",
     "meta": {
       "full_name": "hugohe3/ppt-master",
       "owner": "hugohe3",
       "repo": "ppt-master",
-      "stars": 33549,
+      "stars": 33552,
       "license": "MIT",
-      "pushed_at": "2026-06-28T13:32:24Z",
+      "pushed_at": "2026-06-28T14:17:08Z",
       "fork": false,
       "source_full_name": null,
       "default_branch": "main"
     }
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"800c5198d8a80c88e6494c58815665c22d3c856ef222fbe2ec6114a6c03b1084\"",
+    "etag": "W/\"8112a97579dfee59aabb355e5429fe5cb11d18ff97575e5cd1c4e02fb2eff8e5\"",
     "meta": {
       "full_name": "alchaincyf/huashu-design",
       "owner": "alchaincyf",
       "repo": "huashu-design",
-      "stars": 20149,
+      "stars": 20150,
       "license": "MIT",
       "pushed_at": "2026-06-14T12:25:26Z",
       "fork": false,
@@ -18816,12 +18816,12 @@
     }
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"4054518a3e36b4efd5b4284405532d9d346ab8684a7743b83bb9a099fffd364c\"",
+    "etag": "W/\"ab65ce2f604006fc878e5e721a459a52ad491551e08bb203a81cbd2c531f248a\"",
     "meta": {
       "full_name": "lewislulu/html-ppt-skill",
       "owner": "lewislulu",
       "repo": "html-ppt-skill",
-      "stars": 6614,
+      "stars": 6615,
       "license": "MIT",
       "pushed_at": "2026-04-26T07:13:39Z",
       "fork": false,
@@ -18900,12 +18900,12 @@
     }
   },
   "amplifthq/opentag": {
-    "etag": "W/\"2dcbb04cffe4ce776edae9f2432c77c4d75d8a3e71088d4f7c224a0fcb46a21f\"",
+    "etag": "W/\"c0d4b22eaa9a31779b54651325d98de28159fe6bac8a0980e6ad3a30c1242202\"",
     "meta": {
       "full_name": "amplifthq/opentag",
       "owner": "amplifthq",
       "repo": "opentag",
-      "stars": 348,
+      "stars": 349,
       "license": "MIT",
       "pushed_at": "2026-06-28T08:28:52Z",
       "fork": false,
@@ -19026,12 +19026,12 @@
     }
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"d6f583e0cd1b22c42d1df799ac371be104db1e2957245d4571ffc74faa29416a\"",
+    "etag": "W/\"db1758eed633496585385ea77123c40bd45b4108f26d2a76feb5681b3bce0784\"",
     "meta": {
       "full_name": "lixiaolin94/skills",
       "owner": "lixiaolin94",
       "repo": "skills",
-      "stars": 468,
+      "stars": 469,
       "license": null,
       "pushed_at": "2026-06-26T09:21:42Z",
       "fork": false,
@@ -19040,12 +19040,12 @@
     }
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"221d9aa2939b7fe5685b1ece42853f4df4c7099b5e079a3cb3e6fe20e898e6eb\"",
+    "etag": "W/\"d128b7b96838b95b34b48b650cc59d12423689df5a32e052deaf988aa2cfdaff\"",
     "meta": {
       "full_name": "kepano/obsidian-skills",
       "owner": "kepano",
       "repo": "obsidian-skills",
-      "stars": 38642,
+      "stars": 38644,
       "license": "MIT",
       "pushed_at": "2026-06-08T16:12:01Z",
       "fork": false,
@@ -19082,12 +19082,12 @@
     }
   },
   "gotalab/goal-setter-skill": {
-    "etag": "W/\"5d4d88a036d9b05d8ee2daccf596ad65292288db7b2166d6f9bb35dc00c95e7f\"",
+    "etag": "W/\"ae582dad3f2c1967b7a2b0a6656e39564191b7b52b5d1f7b98ea0c10f962d3d1\"",
     "meta": {
       "full_name": "gotalab/goal-setter-skill",
       "owner": "gotalab",
       "repo": "goal-setter-skill",
-      "stars": 69,
+      "stars": 70,
       "license": "MIT",
       "pushed_at": "2026-06-23T04:31:55Z",
       "fork": false,
@@ -19138,12 +19138,12 @@
     }
   },
   "abundantbeing/hermes-browser-extension": {
-    "etag": "W/\"47145a4872c0657d7a56f175acdacebd7a2f1cef975152a730f50aba2bfd2547\"",
+    "etag": "W/\"4852ba072ae340cdd6415ba16285dafce2c25df5430d3756c5b82b79ddc9e014\"",
     "meta": {
       "full_name": "abundantbeing/hermes-browser-extension",
       "owner": "abundantbeing",
       "repo": "hermes-browser-extension",
-      "stars": 271,
+      "stars": 272,
       "license": "MIT",
       "pushed_at": "2026-06-27T16:32:25Z",
       "fork": false,
@@ -19166,12 +19166,12 @@
     }
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"2bfad2a65226f922a7d463a4070f2a8d544dbc51354733850617f0c6b4e3f0e9\"",
+    "etag": "W/\"6102ec6c8c8d395e46491a6f580ee7ac6832d4b7ff75c6c57c87e78a378ed7c6\"",
     "meta": {
       "full_name": "zsyggg/paper-craft-skills",
       "owner": "zsyggg",
       "repo": "paper-craft-skills",
-      "stars": 649,
+      "stars": 650,
       "license": null,
       "pushed_at": "2026-05-29T05:42:08Z",
       "fork": false,
@@ -19278,12 +19278,12 @@
     }
   },
   "mattpocock/skills": {
-    "etag": "W/\"047bc49ce53402fd79916cf68586381f62c09aa82ec75f99b1ae472d7c02747e\"",
+    "etag": "W/\"127029f59ef7889494f9e8d1ed85b1d6254a6da6381b4542611dc8815e10d8d2\"",
     "meta": {
       "full_name": "mattpocock/skills",
       "owner": "mattpocock",
       "repo": "skills",
-      "stars": 148935,
+      "stars": 148951,
       "license": "MIT",
       "pushed_at": "2026-06-25T11:48:40Z",
       "fork": false,
@@ -19292,12 +19292,12 @@
     }
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"94ecbc7c12da5a89a550a2fb6cab0c5262b77367e0420ee5137c0e3764b65660\"",
+    "etag": "W/\"93dcc37e910945b86354bf0c29c5137a0c7df975011e6bcce5d08ccc96e2bcdc\"",
     "meta": {
       "full_name": "cclank/lanshu-animated-architecture-diagram",
       "owner": "cclank",
       "repo": "lanshu-animated-architecture-diagram",
-      "stars": 255,
+      "stars": 256,
       "license": "MIT",
       "pushed_at": "2026-06-26T15:12:14Z",
       "fork": false,
@@ -19306,12 +19306,12 @@
     }
   },
   "smixs/skill-conductor": {
-    "etag": "W/\"3dc5616678cf8dba6956840073df10d41b6651c04dd14c15037f475a5c15e653\"",
+    "etag": "W/\"aac45b31c00e72423a45e427acb8bd33839bd391c48f6ddfeef0fb0b65b44596\"",
     "meta": {
       "full_name": "smixs/skill-conductor",
       "owner": "smixs",
       "repo": "skill-conductor",
-      "stars": 105,
+      "stars": 106,
       "license": "MIT",
       "pushed_at": "2026-06-28T04:49:44Z",
       "fork": false,
@@ -19334,12 +19334,12 @@
     }
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "W/\"2babb47897a10e6bc334b379f337a629f5b97b96ff17c9f45c457206b0326a2f\"",
+    "etag": "W/\"5002ed831a080978a7f8574b03157da9e5b3cab1bfbfcc314b22eb08d6caf502\"",
     "meta": {
       "full_name": "yaojingang/yao-geo-skills",
       "owner": "yaojingang",
       "repo": "yao-geo-skills",
-      "stars": 506,
+      "stars": 507,
       "license": "MIT",
       "pushed_at": "2026-06-27T08:56:27Z",
       "fork": false,
@@ -19348,14 +19348,14 @@
     }
   },
   "heygen-com/hyperframes": {
-    "etag": "W/\"e32497a751fc356432e839aee6d1ac2d0f570a14b58913269e10fcd6736a0e52\"",
+    "etag": "W/\"d391e80e1bfbe81548da16f5c563c9fc0c2b968e895cd52eb76e1803b07048e8\"",
     "meta": {
       "full_name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "repo": "hyperframes",
-      "stars": 31903,
+      "stars": 31905,
       "license": "Apache-2.0",
-      "pushed_at": "2026-06-28T13:00:00Z",
+      "pushed_at": "2026-06-28T14:08:40Z",
       "fork": false,
       "source_full_name": null,
       "default_branch": "main"
@@ -19390,12 +19390,12 @@
     }
   },
   "browser-use/video-use": {
-    "etag": "W/\"10fba2a4ac50dcfd5de09a39e34bbce1a3a9aacc74298bb375bf961847f59882\"",
+    "etag": "W/\"c190dd97f2c50e2ffe6734a2bae2aaf72dad5ad498a62fb2e6e0634c312c61e8\"",
     "meta": {
       "full_name": "browser-use/video-use",
       "owner": "browser-use",
       "repo": "video-use",
-      "stars": 10689,
+      "stars": 10698,
       "license": "MIT",
       "pushed_at": "2026-05-15T06:39:02Z",
       "fork": false,
@@ -19404,7 +19404,7 @@
     }
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "etag": "W/\"0d4e68fda1cc07d241d4ea5b3d1459342526d27bc37aab873c31d92259473764\"",
+    "etag": "W/\"f24f43b51de960e73445bfde99aa44c660af70c4ad033b4fd518992bb3ebe007\"",
     "meta": {
       "full_name": "aaron-he-zhu/aaron-marketing-skills",
       "owner": "aaron-he-zhu",
@@ -19454,6 +19454,20 @@
       "stars": 69,
       "license": "MIT",
       "pushed_at": "2026-06-27T03:23:06Z",
+      "fork": false,
+      "source_full_name": null,
+      "default_branch": "main"
+    }
+  },
+  "thalesholleben/copy-thief": {
+    "etag": "W/\"0f0759fe6a8edfeb6a3dc56900b0bc73036c515c6bda802c0987a01a197aeeca\"",
+    "meta": {
+      "full_name": "thalesholleben/copy-thief",
+      "owner": "thalesholleben",
+      "repo": "copy-thief",
+      "stars": 8,
+      "license": "MIT",
+      "pushed_at": "2026-06-27T16:24:46Z",
       "fork": false,
       "source_full_name": null,
       "default_branch": "main"
