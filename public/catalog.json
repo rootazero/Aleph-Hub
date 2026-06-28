@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 169,
-    "generated_at": "2026-06-27T17:56:04.406Z",
-    "content_hash": "sha256:00c27d773525ebb222718f172390de9bc2884d942f65f792a6635b24a2826b4a"
+    "entry_count": 170,
+    "generated_at": "2026-06-28T04:28:22.825Z",
+    "content_hash": "sha256:f373708f50543ea2aae68c5e6e856b76cd3c48f2e79a6864a52b566bff062175"
   },
   "entries": [
     {
@@ -2331,6 +2331,30 @@
         "agents"
       ],
       "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:cclank/lanshu-animated-architecture-diagram",
+      "kind": "skill",
+      "category": "design",
+      "name": "Lanshu Animated Diagram",
+      "description": "Turn an article or system design into a premium black-canvas hand-drawn architecture/process diagram from one JSON spec, producing an editable .excalidraw source, a static PNG preview, and a genuinely animated GIF with moving flow highlights and pulsing module accents. Renders locally with Python/Pillow using a fixed art-directed layout, and ships frame-diff verification to prove the GIF actually moves.",
+      "repo_url": "https://github.com/cclank/lanshu-animated-architecture-diagram",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cclank/lanshu-animated-architecture-diagram",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cclank",
+      "tags": [
+        "architecture-diagram",
+        "excalidraw",
+        "animated-gif",
+        "diagram",
+        "hand-drawn"
+      ],
+      "via": "github:cclank"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
