@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 183,
-    "generated_at": "2026-06-28T05:05:33.510Z",
-    "content_hash": "sha256:01d95200c304748b8615a1e9f333cdb08d51027837ce8d3848e9f979b00c5a85"
+    "entry_count": 190,
+    "generated_at": "2026-06-28T05:32:57.689Z",
+    "content_hash": "sha256:87488e64ab18ea239ff07366923fde707f79d46f37f69605a5bc2cfd2f24a590"
   },
   "entries": [
     {
@@ -1971,10 +1971,9 @@
       "long_zh": "微软官方的 Playwright MCP 服务向 MCP 客户端开放结构化的浏览器控制,基于可访问性树而非截图,让智能体在确定性的页面结构上操作。",
       "long_en": "Microsoft's official Playwright MCP server exposes structured browser control to MCP clients, using accessibility trees rather than screenshots so agents act on deterministic page structure.",
       "cover_color": "#A0612F",
-      "stars": 34438,
+      "stars": 34439,
       "trend": 0,
       "spark": [
-        34271,
         34311,
         34372,
         34381,
@@ -1986,7 +1985,8 @@
         34422,
         34423,
         34436,
-        34438
+        34438,
+        34439
       ],
       "license": "Apache-2.0",
       "updated": "2026-06-25",
@@ -2028,7 +2028,6 @@
       "stars": 6217,
       "trend": 0,
       "spark": [
-        6204,
         6207,
         6212,
         6212,
@@ -2039,6 +2038,7 @@
         6214,
         6215,
         6215,
+        6217,
         6217,
         6217
       ],
@@ -2088,7 +2088,6 @@
       "stars": 5291,
       "trend": 0,
       "spark": [
-        5262,
         5271,
         5283,
         5284,
@@ -2099,6 +2098,7 @@
         5288,
         5289,
         5290,
+        5291,
         5291,
         5291
       ],
@@ -2139,7 +2139,6 @@
       "stars": 2817,
       "trend": 0,
       "spark": [
-        2547,
         2578,
         2701,
         2727,
@@ -2150,6 +2149,7 @@
         2800,
         2803,
         2803,
+        2817,
         2817,
         2817
       ],
@@ -2186,7 +2186,7 @@
       "long_zh": "一个基于提示的编辑器，扫描文本中的 AI 写作模式并重写问题片段，同时保留原意、匹配预期语气。除了去除不良模式，还注入「人味」——观点、节奏变化、承认复杂性——让成稿读起来像真人所写。与 stop-slop-zh 同源。",
       "long_en": "A prompt-based editor that scans text for AI writing patterns and rewrites the offending passages while preserving meaning and matching the intended tone. Beyond removing bad patterns it injects voice—opinions, varied rhythm, acknowledged complexity—so the result reads like real human writing. Same lineage as stop-slop-zh.",
       "cover_color": "#86512C",
-      "stars": 11780,
+      "stars": 11782,
       "trend": 0,
       "spark": [
         11517,
@@ -2200,7 +2200,8 @@
         11760,
         11760,
         11780,
-        11780
+        11780,
+        11782
       ],
       "license": "MIT",
       "updated": "2026-01-19",
@@ -2236,7 +2237,7 @@
       "long_zh": "一个 agent 技能，产出自包含的 HTML 演示，提供两套可选视觉系统、键盘/滚轮/触屏翻页与 ESC 索引、Lucide 图标，以及 Motion One 入场动效(本地 + CDN 双保险)。面向线下分享、产品发布，以及任何需要杂志感或瑞士设计感的演讲。",
       "long_en": "An agent skill that outputs a self-contained HTML presentation with two selectable visual systems, keyboard / wheel / touch navigation and an ESC index, Lucide icons, and Motion One entrance animations (local + CDN fallback). Aimed at offline talks, product launches, and any deck that needs an editorial or Swiss-design feel.",
       "cover_color": "#C98A3C",
-      "stars": 19208,
+      "stars": 19213,
       "trend": 0,
       "spark": [
         18869,
@@ -2250,7 +2251,8 @@
         19182,
         19183,
         19208,
-        19208
+        19208,
+        19213
       ],
       "license": "AGPL-3.0",
       "updated": "2026-06-02",
@@ -2286,7 +2288,7 @@
       "long_zh": "一个 Claude Code 插件，打包十多个前端设计技能，安装后每个均可按名调用。提供多种鲜明的美学方向(brutalist、minimalist、soft、瑞士/stitch)、品牌套件与重设计助手，以及 image-to-code / 图像生成工作流——引导 agent 做出有意图、不千篇一律的界面。",
       "long_en": "A Claude Code plugin packaging more than a dozen frontend-design skills, each invocable by name after install. It offers distinct aesthetic directions (brutalist, minimalist, soft, Swiss/stitch), brand-kit and redesign helpers, and image-to-code / image-generation workflows—steering agents toward deliberate, non-generic interfaces.",
       "cover_color": "#7E4A2A",
-      "stars": 52137,
+      "stars": 52145,
       "trend": 0,
       "spark": [
         50519,
@@ -2300,7 +2302,8 @@
         51933,
         51939,
         52119,
-        52137
+        52137,
+        52145
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2337,7 +2340,7 @@
       "long_zh": "随仓库附带的 Claude skill(SKILL.md)是一个「互联网能力路由器」:把用户意图或粘贴的链接映射到对应的 agent-reach CLI 命令,先跑 `agent-reach doctor` 为每个平台挑选可用后端,某个接入失效时自动切换备选。六个渠道(网页、YouTube、RSS、V2EX、全文搜索、公开 GitHub)零配置可用;需登录的平台(Twitter、Reddit、小红书、领英)用用户自己的 Cookie 解锁。仅读取 / 搜索、不发帖——给 agent 眼睛而非手。",
       "long_en": "A companion Claude skill (SKILL.md) acts as an 'internet capability router': it maps a user's intent or a pasted URL to the right agent-reach CLI command, runs `agent-reach doctor` to pick a working backend per platform, and falls back across backends when one is blocked. Six channels (web, YouTube, RSS, V2EX, full-text search, public GitHub) work with zero config; login-gated platforms (Twitter, Reddit, Xiaohongshu, LinkedIn) unlock with the user's own cookies. It is read/search only—no posting—so it gives the agent eyes, not hands.",
       "cover_color": "#B5562B",
-      "stars": 43626,
+      "stars": 43645,
       "trend": 0,
       "spark": [
         40248,
@@ -2351,7 +2354,8 @@
         43261,
         43273,
         43603,
-        43626
+        43626,
+        43645
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -2390,6 +2394,7 @@
       "trend": 0,
       "spark": [
         559,
+        560,
         560,
         560
       ],
@@ -2440,6 +2445,7 @@
         7,
         7,
         7,
+        7,
         7
       ],
       "license": "MIT",
@@ -2477,7 +2483,7 @@
       "long_zh": "一个文档转 PPTX 的技能,以 Claude Code 插件形式打包(技能位于 skills/ppt-master)。它强制串行纪律——逐页手写 SVG 并携带完整上文,而非批量脚本生成——以保证长 deck 的视觉一致性,再把 SVG 页面转成可编辑的 PowerPoint 对象。",
       "long_en": "A document-to-PPTX skill packaged as a Claude Code plugin (the skill lives at skills/ppt-master). It enforces a strict serial discipline—per-page SVG authoring with full upstream context rather than batch script generation—to keep long decks visually consistent, then converts the SVG pages into editable PowerPoint objects.",
       "cover_color": "#B5562B",
-      "stars": 33231,
+      "stars": 33250,
       "trend": 0,
       "spark": [
         31789,
@@ -2490,10 +2496,11 @@
         32917,
         32923,
         33207,
-        33231
+        33231,
+        33250
       ],
       "license": "MIT",
-      "updated": "2026-06-27",
+      "updated": "2026-06-28",
       "install_cmd": "aleph add ppt-master",
       "sec_note_zh": "导出/后处理脚本需在本地安装 Python 依赖(pip install -r requirements.txt)。AI 图片生成为可选后端——仅在启用时才需要 OpenAI/Gemini/Qwen/智谱/火山引擎的 API Key 并向该厂商发送提示词(按量计费);核心 SVG→PPTX 流程在本地运行。",
       "sec_note_en": "Needs local Python dependencies (pip install -r requirements.txt) for the export/post-processing scripts. AI image generation is an optional backend—only when enabled does it require an OpenAI/Gemini/Qwen/Zhipu/Volcengine API key and send prompts to that provider (costs accrue); the core SVG→PPTX pipeline runs locally."
@@ -2526,7 +2533,7 @@
       "long_zh": "一个面向视觉 HTML 产出的设计技能(agent 无关)——原型、幻灯片、动画、信息图,而非生产级 Web App。需求模糊时可进入设计方向顾问、并行产出三套真实视觉变体,并在动手前用联网搜索核实产品事实。",
       "long_en": "A design-focused skill (agent-agnostic) for visual HTML output—prototypes, slides, animations, infographics—rather than production web apps. It can run a design-direction advisor that produces three real visual variants in parallel when the brief is vague, and verifies product facts via web search before designing.",
       "cover_color": "#9C5A2C",
-      "stars": 20102,
+      "stars": 20104,
       "trend": 0,
       "spark": [
         19842,
@@ -2539,7 +2546,8 @@
         20052,
         20055,
         20101,
-        20102
+        20102,
+        20104
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -2575,7 +2583,7 @@
       "long_zh": "宝玉(Jim Liu)技能合集中的幻灯片技能——本条目只安装 baoyu-slide-deck 这一个目录,而非整套 21 个技能。它调用宿主 agent 暴露的用户输入与图片生成工具来排版并渲染每一页。",
       "long_en": "The slide-deck skill from Baoyu's (Jim Liu) skills collection—the curated entry installs just the baoyu-slide-deck folder, not the whole 21-skill bundle. It drives whatever user-input and image-generation tools the host agent exposes to lay out and render each slide.",
       "cover_color": "#7E4A2A",
-      "stars": 22656,
+      "stars": 22659,
       "trend": 0,
       "spark": [
         22540,
@@ -2588,7 +2596,8 @@
         22646,
         22647,
         22655,
-        22656
+        22656,
+        22659
       ],
       "license": "MIT",
       "updated": "2026-06-20",
@@ -2637,6 +2646,7 @@
         6592,
         6592,
         6600,
+        6601,
         6601
       ],
       "license": "MIT",
@@ -2685,6 +2695,7 @@
         92,
         92,
         93,
+        93,
         93
       ],
       "license": "MIT",
@@ -2722,7 +2733,7 @@
       "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 web-shader-extractor 这一个目录,而非整仓)。路由式 SKILL.md + 十余篇聚焦参考文档 + JSON/markdown 模板,驱动一套严谨的侦察状态机:摄入 → 渲染面归因 → 目标锁定 → 源码/运行时追踪 → 最小真值采集 → 基线校验 → 工程化 → QA。它把事实标注为 SOURCE / PARTIAL / GUESS,禁止用「补偿调参」掩盖缺失的管线证据,并内置 Three.js/TSL、Unicorn Studio、shaders.com 平台适配。附带脚本(渲染 DOM 盘点、bundle 扫描)只作假设证据,不能单独通过任何关卡。不用于普通 DOM/CSS 页面克隆。",
       "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the web-shader-extractor folder, not the whole repo). A router-style SKILL.md plus a dozen focused references and JSON/markdown templates drive a disciplined recon state machine: intake → surface attribution → target lock → source/runtime trace → minimum-truth capture → verified baseline → projectize → QA. It labels facts as SOURCE / PARTIAL / GUESS, forbids 'compensation tuning' to mask missing pipeline evidence, and ships platform adapters for Three.js/TSL, Unicorn Studio, and shaders.com. Bundled scripts (rendered-DOM inventory, bundle scan) are treated as hypotheses, never as gate-passing proof. Not for ordinary DOM/CSS page cloning.",
       "cover_color": "#B5562B",
-      "stars": 427,
+      "stars": 428,
       "trend": 0,
       "spark": [
         344,
@@ -2733,7 +2744,8 @@
         405,
         405,
         426,
-        427
+        427,
+        428
       ],
       "updated": "2026-06-26",
       "install_cmd": "aleph add skills",
@@ -2769,7 +2781,7 @@
       "long_zh": "lixiaolin94 技能合集中的一个技能(本条目只安装 weekly-report 这一个目录,而非整仓)。它运行一套严谨的流水线:先解析本周的绝对日期范围(用附带的 `resolve_week_range.py`),发现当前可用通道(collab_platform、git、agent、local_docs),把各通道能力采集为归一化的 Evidence 对象(含来源、参与者、时间戳、url/路径、置信度),再并入「工作主题」(是什么/状态/关键结论/支撑证据/下周是否推进),最后按模板渲染周报。规则强制:明确日期范围、每项核心工作至少两类证据(或显式标注「证据不足」)、事实与推断硬性分开。参考文档覆盖各通道(含飞书/Lark、Git、本地文档)。",
       "long_en": "One skill from lixiaolin94's collection (the curated entry installs just the weekly-report folder, not the whole repo). It runs a disciplined pipeline: resolve the week's absolute range (via a bundled `resolve_week_range.py`), discover which channels are available (collab_platform, git, agent, local_docs), collect each channel's capabilities into normalized Evidence objects (with source, actors, timestamp, url/path, confidence), merge them into Work Topics (what/status/key conclusions/supporting evidence/next-week), and render a report from a template. Rules enforce a stated date range, ≥2 evidence types per core item (or an explicit 'insufficient evidence' flag), and a hard split between fact and inference. References cover each channel (incl. Lark/Feishu, Git, local docs).",
       "cover_color": "#B5562B",
-      "stars": 427,
+      "stars": 428,
       "trend": 0,
       "spark": [
         344,
@@ -2780,7 +2792,8 @@
         405,
         405,
         426,
-        427
+        427,
+        428
       ],
       "updated": "2026-06-26",
       "install_cmd": "aleph add skills",
@@ -2815,7 +2828,7 @@
       "long_zh": "一个 Claude Code 插件(同时兼容 Agent-Skills 规范,可用于 Codex 与 OpenCode),打包 obsidian-markdown、obsidian-bases、json-canvas、obsidian-cli、defuddle 五个技能。可按需调用:用 Obsidian 专有语法创建/编辑笔记,用 Bases 建带筛选与公式的类数据库视图,排布可视化 canvas,从命令行驱动仓库(含插件/主题开发——重载插件、运行 JS、捕获错误、截图、检查 DOM),以及把网页提取为去杂的 markdown 以省 token。所用格式均为开放规范,产物可移植。",
       "long_en": "A Claude Code plugin (also Agent-Skills-spec compatible, so it works in Codex and OpenCode) bundling obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli, and defuddle. Each is invocable on demand: create/edit notes with Obsidian-specific syntax, build database-like Bases views with filters and formulas, lay out visual canvases, drive the vault from the CLI (including plugin/theme dev—reload plugins, run JS, capture errors, screenshot, inspect the DOM), and extract clutter-free markdown from web pages to save tokens. The formats are open specs, so output stays portable.",
       "cover_color": "#C9542A",
-      "stars": 38586,
+      "stars": 38587,
       "trend": 0,
       "spark": [
         38409,
@@ -2826,7 +2839,8 @@
         38517,
         38518,
         38585,
-        38586
+        38586,
+        38587
       ],
       "license": "MIT",
       "updated": "2026-06-08",
@@ -2862,7 +2876,7 @@
       "long_zh": "运行一条多 agent 流水线(项目扫描 → 逐文件分析 → 架构分层 → 业务域抽取 → 图谱组装 → 审校),产出 JSON 图谱与可在浏览器中平移、缩放、搜索的交互式仪表盘。技能包括 /understand(建图)、/understand-dashboard、/understand-explain、/understand-onboard、/understand-diff(改动的连锁影响)、/understand-domain(业务流)、/understand-knowledge(把 Karpathy 式 LLM wiki 变成力导向、社区聚类的图谱)与 /understand-chat。跨平台:Claude Code 市场,外加 Codex、Cursor、Copilot、Gemini CLI 等可经仓库的 install.sh 安装。",
       "long_en": "Runs a multi-agent pipeline (project scan → per-file analysis → architecture layering → domain extraction → graph assembly → review) that emits JSON graphs and an interactive dashboard you pan, zoom, and search in the browser. Skills include /understand (build the graph), /understand-dashboard, /understand-explain, /understand-onboard, /understand-diff (ripple effect of a change), /understand-domain (business flows), /understand-knowledge (turn a Karpathy-style LLM wiki into a force-directed, community-clustered graph), and /understand-chat. Cross-platform: Claude Code marketplace, plus Codex, Cursor, Copilot, Gemini CLI and others via the repo's install.sh.",
       "cover_color": "#A0612F",
-      "stars": 68719,
+      "stars": 68729,
       "trend": 0,
       "spark": [
         68389,
@@ -2873,7 +2887,8 @@
         68599,
         68605,
         68711,
-        68719
+        68719,
+        68729
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -2919,6 +2934,7 @@
         612,
         614,
         630,
+        631,
         631
       ],
       "updated": "2026-05-29",
@@ -2964,6 +2980,7 @@
         612,
         614,
         630,
+        631,
         631
       ],
       "updated": "2026-05-29",
@@ -3009,6 +3026,7 @@
         612,
         614,
         630,
+        631,
         631
       ],
       "updated": "2026-05-29",
@@ -3045,14 +3063,15 @@
       "long_zh": "Pluviobyte 视频制作技能合集中的一个技能（本条目只安装 black-white-text-opener 这一个目录，而非整仓）。生成型开场技能：先读动效契约与时间预设，按 tool-recipes 在 HyperFrames / Remotion / ffmpeg 间选型，默认约 14 字/秒打字、轻微按键音、4.8–5.8 秒「standard」时长。只给主题时会起草 2–3 个短句备选并挑最干净的；始终是生成型，不会宣称与源片像素级对齐。",
       "long_en": "One skill from Pluviobyte's video-production-skills collection (this entry installs only the black-white-text-opener folder, not the whole repo). A generative opener skill: it reads a motion contract and timing presets, picks HyperFrames / Remotion / ffmpeg via a tool-recipes reference, and defaults to ~14 chars/s typing with subtle key clicks over a 4.8–5.8s 'standard' duration. Given only a topic it drafts 2–3 short phrase options and picks the cleanest; it stays generative and never claims pixel-level alignment with a source.",
       "cover_color": "#A86A3A",
-      "stars": 342,
-      "trend": 1,
+      "stars": 343,
+      "trend": 0,
       "spark": [
         306,
         312,
         313,
         340,
-        342
+        342,
+        343
       ],
       "updated": "2026-06-26",
       "install_cmd": "aleph add video-production-skills",
@@ -3088,14 +3107,15 @@
       "long_zh": "Pluviobyte 视频制作技能合集中的一个技能（本条目只安装 dark-saas-magic-video 这一个目录，而非整仓）。这是风格生成技能，非参考对齐——逐帧复刻请用 reference-video-replica-qc。它在落地前先读风格语言、场景蓝图、时间预设与素材契约，交付前过质检清单，默认用 HyperFrames 构建（按需 Remotion）。附带的 1080p 成片设定了规模、节奏与完成度的基准。",
       "long_en": "One skill from Pluviobyte's video-production-skills collection (this entry installs only the dark-saas-magic-video folder, not the whole repo). A style-generation skill, not reference-alignment—use reference-video-replica-qc for exact remakes. It reads a style language, scene blueprints, timing presets, and an asset contract before composing, runs a QC checklist before handoff, and builds with HyperFrames by default (Remotion on request). A bundled 1080p showcase sets the bar for scale, pacing, and polish.",
       "cover_color": "#A86A3A",
-      "stars": 342,
-      "trend": 1,
+      "stars": 343,
+      "trend": 0,
       "spark": [
         306,
         312,
         313,
         340,
-        342
+        342,
+        343
       ],
       "updated": "2026-06-26",
       "install_cmd": "aleph add video-production-skills",
@@ -3131,14 +3151,15 @@
       "long_zh": "Pluviobyte 视频制作技能合集中的一个技能（本条目只安装 reference-video-replica-qc 这一个目录，而非整仓）。它拒绝凭感觉宣称像素级对齐：像素级需一致 SHA-256/`cmp`、PSNR 无穷或 SSIM 1.0；视觉级是手工还原、匹配时间/布局/动效/字体/色彩；风格级只把参考当设计语言。附带的 Python 脚本（`extract_halfsec_frames.py`、`compare_videos.py`）做 0.5 秒抽帧与指标比对；参考文档覆盖保真级别、对齐流程与复刻经验。",
       "long_en": "One skill from Pluviobyte's video-production-skills collection (this entry installs only the reference-video-replica-qc folder, not the whole repo). It refuses to claim pixel-level alignment by feel: pixel-level needs a matching SHA-256/`cmp`, PSNR infinity, or SSIM 1.0; visual-level is a hand-authored recreation matching timing, layout, motion, typography, and color; style-level uses the reference only as a design language. Bundled Python scripts (`extract_halfsec_frames.py`, `compare_videos.py`) do 0.5s frame sampling and metric comparison; references cover replica levels, alignment workflow, and lessons learned.",
       "cover_color": "#A86A3A",
-      "stars": 342,
-      "trend": 1,
+      "stars": 343,
+      "trend": 0,
       "spark": [
         306,
         312,
         313,
         340,
-        342
+        342,
+        343
       ],
       "updated": "2026-06-26",
       "install_cmd": "aleph add video-production-skills",
@@ -3173,14 +3194,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/ask-matt 这一个目录，而非整仓）。它扮演路由器的角色，在对话中把你当前的处境映射到合适的技能或工作流（从想法到交付的主流程、triage 等入口、以及独立辅助技能），讲清何时串联 grill-with-docs、prototype、to-prd、to-issues 与 handoff。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/ask-matt folder, not the whole repo). It acts as a router that, in conversation, maps your situation onto the right skill or flow (the idea-to-ship main flow, on-ramps like triage, and standalone helpers), explaining when to chain grill-with-docs, prototype, to-prd, to-issues, and handoff.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3216,14 +3238,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/codebase-design 这一个目录，而非整仓）。它提供一套精确的词汇表（模块、接口、实现、深度、接缝、适配器、杠杆、局部性）和设计深模块的原则——即在干净的接缝处用小接口承载大量行为——用于指导接口精简、接缝定位和可测试性决策。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/codebase-design folder, not the whole repo). It supplies a precise glossary (module, interface, implementation, depth, seam, adapter, leverage, locality) and principles for designing deep modules — lots of behaviour behind a small interface at a clean seam — guiding interface simplification, seam placement, and testability decisions.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3259,14 +3282,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/diagnosing-bugs 这一个目录，而非整仓）。它引导 agent 走一套分阶段的诊断纪律——先构建一个紧凑、能变红的反馈循环（失败的测试、curl、CLI、回放、二分等），再复现并最小化、提出假设、加埋点、修复并补上回归测试——在出现可复现信号之前拒绝凭空推理。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/diagnosing-bugs folder, not the whole repo). It walks the agent through a phased diagnosis discipline — first build a tight, red-capable feedback loop (failing test, curl, CLI, replay, bisection, etc.), then reproduce and minimise, hypothesise, instrument, fix, and add a regression test — refusing to theorise before a reproducing signal exists.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3302,14 +3326,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/domain-modeling 这一个目录，而非整仓）。它会主动挑战术语、把模糊用语收敛成规范术语、用具体的边界场景压测概念间的关系、把陈述与代码相互印证，并在术语和决策成形时把术语表写入 CONTEXT.md（或经由 CONTEXT-MAP.md 写入各上下文文件）、把决策写入 docs/adr/。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/domain-modeling folder, not the whole repo). It actively challenges terms, sharpens fuzzy language into canonical terms, stress-tests relationships with concrete edge-case scenarios, cross-checks claims against the code, and writes the glossary into CONTEXT.md (or per-context files via CONTEXT-MAP.md) and decisions into docs/adr/ as they crystallize.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3346,14 +3371,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grill-me 这一个目录，而非整仓）。它是一个由用户手动触发的入口，启动一场“烤问”会话：智能体就你方案或设计的每一个分支逐条提问，每次只问一个问题并给出推荐答案，直到整棵决策树被逐一厘清。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grill-me folder, not the whole repo). It is a user-invoked entry point that kicks off a grilling session: the agent interviews you one question at a time about every branch of your plan or design, recommending an answer for each, until the whole decision tree is resolved.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3389,14 +3415,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/grill-with-docs 这一个目录，而非整仓）。它针对你既有的领域模型运行一场有状态的拷问会话，逐个问题地审讯方案以暴露盲点，并在术语被打磨清晰的同时就地落定决策——更新 CONTEXT.md、ADR 和项目术语表。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/grill-with-docs folder, not the whole repo). It runs a stateful grilling session against your existing domain model, interrogating a plan one question at a time to expose gaps, and crystallises decisions inline by updating CONTEXT.md, ADRs, and the project glossary as terms get sharpened.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3433,14 +3460,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grilling 这一个目录，而非整仓）。它沿着设计决策树逐个分支推进，每轮只问一个问题并给出推荐答案，逐一厘清决策之间的依赖关系，直到达成共识；当某个问题能通过代码库回答时，它会优先去探查代码库而非直接发问。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grilling folder, not the whole repo). It walks down each branch of the design tree one decision at a time, asking a single question per turn and recommending an answer, resolving dependencies between decisions until you reach shared understanding; it prefers exploring the codebase over asking when a question can be answered there.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3477,14 +3505,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/handoff 这一个目录，而非整仓）。它会写出一份 Markdown 交接文档，概括当前对话并附带一个“建议技能”小节；对已有产物（PRD、计划、ADR、提交、diff）则以路径或 URL 引用，而不重复其内容。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/handoff folder, not the whole repo). It writes a markdown handoff document summarising the current conversation, including a suggested-skills section, while referencing existing artifacts (PRDs, plans, ADRs, commits, diffs) by path or URL instead of duplicating them.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3520,14 +3549,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/improve-codebase-architecture 这一个目录，而非整仓）。它用一个探索 agent 找出架构摩擦点和浅模块（以 CONTEXT.md 和 ADR 为指引），把候选重构渲染成一份自包含的 Tailwind+Mermaid HTML 报告（含前后对比图），随后就你选定的那个深化机会运行拷问循环。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/improve-codebase-architecture folder, not the whole repo). It uses an explore agent to find architectural friction and shallow modules (guided by CONTEXT.md and ADRs), renders the candidate refactors as a self-contained Tailwind+Mermaid HTML report with before/after diagrams, and then runs a grilling loop over whichever deepening opportunity you choose.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3563,14 +3593,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/prototype 这一个目录，而非整仓）。它会在两个分支中择一：要么做一个小型交互式终端程序来压测状态机或业务逻辑，要么生成几种通过 URL 查询参数切换的、风格迥异的 UI 变体；产出的是明确标记为用完即弃、只需一条命令运行、内存内保存状态、不做打磨的代码，待回答完问题后即删除或吸收进正式代码。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/prototype folder, not the whole repo). It picks one of two branches — a tiny interactive terminal app to stress-test a state machine or business logic, or several radically different UI variations switchable via a URL search param — building clearly-marked throwaway code with one run command, in-memory state, no polish, to be deleted or absorbed once it answers its question.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3606,14 +3637,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/setup-matt-pocock-skills 这一个目录，而非整仓）。它为其他工程技能搭好每个仓库所需的配置：探查仓库（git 远端、CLAUDE.md/AGENTS.md、CONTEXT.md、docs/adr），引导你选择 issue 追踪器（GitHub/GitLab/本地 markdown/其他），映射五个分诊标签字符串，并在写入配置前确认领域文档布局。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/setup-matt-pocock-skills folder, not the whole repo). It scaffolds the per-repo configuration the other engineering skills assume: it explores the repo (git remotes, CLAUDE.md/AGENTS.md, CONTEXT.md, docs/adr), walks you through choosing an issue tracker (GitHub/GitLab/local-markdown/other), maps the five triage label strings, and confirms the domain-doc layout before writing the config.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3649,14 +3681,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/tdd 这一个目录，而非整仓）。它驱动严格的红-绿-重构循环，采用纵向「曳光弹」切片（先一个测试再一个实现，循环往复），并偏好通过公共接口验证行为、而非耦合实现细节的集成式测试。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/tdd folder, not the whole repo). It drives a strict red-green-refactor loop with vertical 'tracer bullet' slices (one test then one implementation, repeat) and favors integration-style tests that verify behavior through public interfaces rather than implementation details.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3693,14 +3726,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/teach 这一个目录，而非整仓）。它把当前目录当作教学工作区，以 MISSION.md 和精选资源为依据，产出简短且精美的自包含 HTML 课程，以及参考速查表和学习记录，并运用回忆练习、间隔重复与交错练习来构建长期记忆。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/teach folder, not the whole repo). It treats the current directory as a teaching workspace, grounding lessons in a MISSION.md and curated resources, and produces short, beautiful self-contained HTML lessons plus reference sheets and learning records, using retrieval practice, spacing, and interleaving to build long-term retention.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3736,14 +3770,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-issues 这一个目录，而非整仓）。它会探查代码库，把计划拆成贯穿各层、端到端的薄「曳光弹」纵向切片，就粒度与依赖关系向你确认，然后按依赖顺序把已批准的切片作为 issue 发布。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-issues folder, not the whole repo). It explores the codebase, breaks a plan into thin vertical 'tracer bullet' slices that each cut end-to-end through every layer, quizzes you on granularity and dependencies, then publishes the approved slices as issues in dependency order.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3779,14 +3814,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-prd 这一个目录，而非整仓）。它把当前对话与对代码库的理解综合成一份 PRD（问题陈述、详尽的用户故事、实现与测试决策，并优先选用单一的高层测试接缝），与你确认这些接缝后，再把文档发布到你的 issue 追踪器并打上 ready-for-agent 标签。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-prd folder, not the whole repo). It synthesizes the current conversation and codebase understanding into a PRD (problem statement, extensive user stories, implementation and testing decisions, preferring a single high test seam), confirms the seams with you, then publishes the document to your issue tracker with a ready-for-agent label.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3822,14 +3858,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/triage 这一个目录，而非整仓）。它把进来的 issue（以及可选的外部 PR）按规范化的分诊角色流转——区分 bug 与增强、打上 needs-triage / needs-info / ready-for-agent 等状态、通过复现来验证主张、把描述不清的请求拷问成形，并把可交给 agent 的简报回贴到追踪器。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/triage folder, not the whole repo). It moves incoming issues (and optionally external PRs) through canonical triage roles — categorising bug vs enhancement, assigning states like needs-triage / needs-info / ready-for-agent, verifying the claim by reproducing it, grilling underspecified requests into shape, and posting agent-ready briefs back to the tracker.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3866,14 +3903,15 @@
       "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/writing-great-skills 这一个目录，而非整仓）。它是一个元技能：一份纯参考资料，阐明决定“可预测性”的各项杠杆——调用方式、描述撰写、信息层级与渐进式披露、何时拆分技能、剪枝至单一事实来源，以及善用“引导词”——并附带一份 GLOSSARY.md 提供完整定义。",
       "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/writing-great-skills folder, not the whole repo). It is a meta-skill: a pure reference that defines the levers behind predictability — invocation modes, description writing, the information hierarchy and progressive disclosure, when to split skills, pruning to a single source of truth, and using leading words — with a bundled GLOSSARY.md for the full definitions.",
       "cover_color": "#7E4A2A",
-      "stars": 148487,
+      "stars": 148497,
       "trend": 0,
       "spark": [
         148139,
         148179,
         148188,
         148467,
-        148487
+        148487,
+        148497
       ],
       "license": "MIT",
       "updated": "2026-06-25",
@@ -3909,11 +3947,12 @@
       "long_zh": "把技术内容转成统一、精致的一套图（Excalidraw + PNG + 动图 GIF），让架构与流程讲解呈现为有设计感的视觉，而非平铺的方框与箭头。",
       "long_en": "Converts technical content into a consistent, polished diagram set (Excalidraw + PNG + animated GIF) so architecture and process explanations read as designed visuals rather than flat boxes-and-arrows.",
       "cover_color": "#9E5B2E",
-      "stars": 223,
+      "stars": 226,
       "trend": 1,
       "spark": [
         221,
-        223
+        223,
+        226
       ],
       "license": "MIT",
       "updated": "2026-06-26",
@@ -3950,9 +3989,12 @@
       "long_zh": "构建一致、可溯源的品牌知识图谱，为 GEO 内容、页面结构和 AI 答案一致性治理提供底座。",
       "long_en": "Build a consistent, evidence-traceable brand knowledge graph to power GEO content, page structure and AI-answer consistency.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -3988,9 +4030,12 @@
       "long_zh": "为国内 AI 平台构建公平、来源锚定的品牌对比，不贬损竞品、不输出未经核验的结论。",
       "long_en": "Build fair, source-anchored brand comparisons for domestic AI platforms without disparaging competitors or making unverified claims.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4026,9 +4071,12 @@
       "long_zh": "用原子事实、结构补强与证据分级，按八个 GEO 维度提升已有文案的 AI 可抽取性与可引用性。",
       "long_en": "Upgrade existing copy for AI extractability and citation with atomic facts, structure, and evidence grading across eight GEO dimensions.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4064,9 +4112,12 @@
       "long_zh": "面向长期运营的 GEO 测量闭环，追踪 AI 答案中的品牌可见性、事实准确性与引用质量，并做有证据分级的谨慎归因。",
       "long_en": "A long-running GEO measurement loop that tracks brand visibility, factuality and citation quality in AI answers, with disciplined, evidence-graded attribution.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4101,9 +4152,12 @@
       "long_zh": "把 GEO 诊断结论落成可问责的 30/60/90 天路线图，明确负责人、指标与预算，让团队产出可被 AI 答案引擎引用的内容。",
       "long_en": "Converts GEO findings into an accountable 30/60/90-day roadmap with owners, metrics, and budget so teams can ship content that AI answer engines can cite.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4139,9 +4193,12 @@
       "long_zh": "为国内 AI 搜索平台产出深度、可引用、含上下文无关核心摘要与自然品牌植入的中文科普内容。",
       "long_en": "Produce in-depth, citable Chinese explainer content with a self-contained core summary and natural brand placement for domestic AI search platforms.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4177,9 +4234,12 @@
       "long_zh": "一份分级证据、可复用的品牌知识库，为面向国内 AI 答案引擎的 GEO 内容、监测、页面设计和客服准备提供一致输入。",
       "long_en": "A reusable, evidence-tiered brand knowledge base that feeds consistent GEO content, monitoring, page design and customer-service prep for Chinese answer engines.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4214,9 +4274,12 @@
       "long_zh": "诊断公开页面被 AI 搜索系统发现、解析与引用的程度，给出可直接落地的代码、内容与 Schema 修复建议。",
       "long_en": "Diagnoses how well public pages can be discovered, parsed, and cited by AI search systems, with implementation-ready code, content, and schema fixes.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4251,9 +4314,12 @@
       "long_zh": "把内容目标落成可实施的页面结构，同时服务 AI 答案抽取、真实读者阅读与转化。",
       "long_en": "Turns content goals into implementable page structure that serves AI answer extraction, real readers, and conversion at once.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4288,9 +4354,12 @@
       "long_zh": "为品牌建立 GEO 基线，让内容可被 AI 答案引擎发现与引用，并给出有证据支撑的站内、站外行动方案。",
       "long_en": "Establishes a brand's GEO baseline so content is discoverable and citable by AI answer engines, with evidence-backed onsite and offsite action plans.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4326,9 +4395,12 @@
       "long_zh": "为国内 AI 平台产出证据支撑的榜单内容，TOP 名次需多源支持，目标品牌只能凭证据获得排名。",
       "long_en": "Produce evidence-backed ranking content for domestic AI platforms where TOP picks need multi-source support and the target brand earns rank only through evidence.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4364,9 +4436,12 @@
       "long_zh": "把关键词简报转成合规、可评分、适配 DeepSeek/Kimi/豆包/元宝/通义千问的 GEO 标题方案。",
       "long_en": "Turn a keyword brief into compliant, well-scored GEO titles tuned for DeepSeek, Kimi, Doubao, Yuanbao, and Tongyi Qianwen.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
@@ -4402,14 +4477,275 @@
       "long_zh": "产出针对该企业、以证据为锚的 GEO 归因设计与跟踪路线图，并诚实给出可观测性边界，而非通用方法论套话。",
       "long_en": "Produces a tailored, evidence-anchored GEO attribution design and tracking roadmap, including an honest observability boundary, rather than a generic methodology template.",
       "cover_color": "#9C5A2C",
-      "stars": 478,
-      "trend": null,
-      "spark": [],
+      "stars": 479,
+      "trend": 0,
+      "spark": [
+        478,
+        479
+      ],
       "license": "MIT",
       "updated": "2026-06-27",
       "install_cmd": "aleph add yao-geo-skills",
       "sec_note_zh": "联网时以官网为核心做权威检索（先确认官方域名，再读取公开的首页/产品页/关于页/联系页/定价页/案例页）；不能联网时显式降级为仅基于用户材料的低置信度版本。捆绑 Python 渲染器 render_yao_geo_tracking.py，从 report_input.json 生成 .html 与 .docx。产物是规划/归因设计文档，而非实时数据采集器；该 skill 已做开源脱敏，禁止任何私有 CLI、内网地址或公司内部数据。",
       "sec_note_en": "Performs authoritative web retrieval anchored on the official website when online (confirms the official domain and reads public homepage/product/about/contact/pricing/case pages); explicitly degrades to a low-confidence, user-material-only version when offline. Bundles a Python renderer (render_yao_geo_tracking.py) that writes .html and .docx from a report_input.json. Output is a planning/attribution-design document, not a live data collector; the skill is explicitly open-source sanitized and forbids any private CLI, intranet address, or internal company data."
+    },
+    {
+      "id": "aleph-hub:heygen-com/hyperframes",
+      "kind": "plugin",
+      "category": "design",
+      "name": "HyperFrames",
+      "description": "HyperFrames by HeyGen is an open-source Claude Code plugin that turns HTML/CSS/JS compositions into deterministic MP4 videos, bundling 19 on-demand skills—a router plus creation workflows (product launch, website-to-video, faceless explainer, PR-to-video, captions, motion graphics, music, slideshow) and domain skills (core composition contract, animation adapters, creative direction, media, CLI) that teach agents the full video-production loop.",
+      "repo_url": "https://github.com/heygen-com/hyperframes",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/heygen-com/hyperframes",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "heygen-com",
+      "tags": [
+        "video",
+        "animation",
+        "html",
+        "rendering",
+        "agents"
+      ],
+      "via": "github:heygen-com",
+      "description_zh": "HeyGen 出品的 HyperFrames 是一个开源 Claude Code 插件,把 HTML/CSS/JS 合成稿渲染成可复现的 MP4 视频,内置 19 个按需加载的技能——一个路由技能,加上创作工作流(产品发布、网站转视频、无人脸讲解、PR 转视频、字幕、动态图形、音乐、幻灯片)与领域技能(核心合成契约、动画适配器、创意方向、媒体、CLI),教 agent 完成完整的视频制作流程。",
+      "description_en": "HyperFrames by HeyGen is an open-source Claude Code plugin that turns HTML/CSS/JS compositions into deterministic MP4 videos, bundling 19 on-demand skills—a router plus creation workflows (product launch, website-to-video, faceless explainer, PR-to-video, captions, motion graphics, music, slideshow) and domain skills (core composition contract, animation adapters, creative direction, media, CLI) that teach agents the full video-production loop.",
+      "long_zh": "写 HTML,渲染视频:一个 Apache-2.0、面向 agent 的框架,渲染器在无头 Chrome 中逐帧 seek 并用 FFmpeg 编码,产出可复现——无需 React、无需构建步骤、无私有时间轴,也没有按次渲染收费。",
+      "long_en": "Write HTML, render video: an Apache-2.0, agent-native framework whose renderer seeks each frame in headless Chrome and encodes with FFmpeg for reproducible output—no React, no build step, no proprietary timeline, and no per-render fees.",
+      "cover_color": "#8C5430",
+      "stars": 31810,
+      "trend": null,
+      "spark": [],
+      "license": "Apache-2.0",
+      "updated": "2026-06-28",
+      "install_cmd": "aleph add hyperframes",
+      "sec_note_zh": "独立本地渲染器,而非付费 API 薄壳。需要 Node.js 22+、PATH 上的 FFmpeg,以及经 Puppeteer 驱动的无头 Chrome(@hyperframes/engine 包);渲染默认在本地运行,可选 AWS Lambda 路径。它读取你的合成 HTML/媒体,把 MP4 写入项目。可选的媒体功能(TTS 配音、背景音乐/音效)可使用 HeyGen/ElevenLabs/Gemini 的 API key,但也能回退到完全本地的模型(Kokoro TTS、MusicGen、Whisper、u2net 抠图),这些会下载较大的模型文件(约 75MB–3GB)并依赖 Python——HTML 转视频的渲染本身并不需要它们。克隆完整仓库还会拉取约 240MB 的 Git LFS 基准测试产物(可用 GIT_LFS_SKIP_SMUDGE=1 跳过)。",
+      "sec_note_en": "Standalone local renderer, NOT a paid-API shell. Requires Node.js 22+, FFmpeg on PATH, and headless Chrome driven via Puppeteer (the @hyperframes/engine package); renders run locally with an optional AWS Lambda path. It reads your composition HTML/media and writes MP4s into the project. Optional media features (TTS voiceover, background music/SFX) can use a HeyGen/ElevenLabs/Gemini API key, but fall back to fully local models (Kokoro TTS, MusicGen, Whisper, u2net background-removal) that pull large model downloads (~75MB–3GB) and need Python—none are required for HTML-to-video rendering. Cloning the full repo also fetches ~240MB of Git LFS golden-test baselines (skippable with GIT_LFS_SKIP_SMUDGE=1)."
+    },
+    {
+      "id": "aleph-hub:fabriqaai/ffmpeg-analyse-video-skill",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "FFmpeg Video Analyzer",
+      "description": "Analyzes a local video file by extracting frames with ffmpeg/ffprobe and delegating frame reading to disposable vision sub-agents, then synthesizes a timestamped, step-by-step Markdown summary (timeline, key moments, narrative).",
+      "repo_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "fabriqaai",
+      "tags": [
+        "ffmpeg",
+        "video",
+        "analysis",
+        "vision"
+      ],
+      "via": "github:fabriqaai",
+      "description_zh": "用 ffmpeg/ffprobe 从本地视频抽帧，把读帧交给一次性的视觉子代理，再综合成带时间戳的逐步 Markdown 摘要（时间线、关键时刻、叙述）。",
+      "description_en": "Analyzes a local video file by extracting frames with ffmpeg/ffprobe and delegating frame reading to disposable vision sub-agents, then synthesizes a timestamped, step-by-step Markdown summary (timeline, key moments, narrative).",
+      "long_zh": "上下文高效的流水线——帧图像只存在于子代理上下文中，主代理只读纯文本批次报告——理解屏幕录制、教程、演示或素材时，比直接读帧省约 90% 上下文。",
+      "long_en": "A context-efficient pipeline—frame images live only inside sub-agent contexts while the main agent reads text-only batch reports—so understanding screen recordings, tutorials, presentations, or footage costs roughly 90% less context than reading frames directly.",
+      "cover_color": "#C98A3C",
+      "stars": 16,
+      "trend": null,
+      "spark": [],
+      "updated": "2026-02-15",
+      "install_cmd": "aleph add ffmpeg-analyse-video-skill",
+      "sec_note_zh": "需要本地安装 ffmpeg 与 ffprobe，并需一个具备 AI 视觉模型的代理来读帧；会读取给定视频、向临时目录写入 JPEG 帧与 Markdown（完成后清理）。仓库未提交 LICENSE 文件（README 写的是 MIT，但实际并未附带许可证）。",
+      "sec_note_en": "Requires ffmpeg and ffprobe installed locally and an agent with an AI vision model to read frames; reads the given video and writes JPEG frames plus Markdown to a temp dir (cleaned up afterward). The repo has no LICENSE file committed (the README states MIT, but no license is actually present)."
+    },
+    {
+      "id": "aleph-hub:remotion-dev/skills",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Remotion Best Practices",
+      "description": "Domain knowledge and best practices for building videos as code with Remotion (React)—animating via useCurrentFrame()/interpolate(), composition and sequence setup, captions, effects, audio, and a one-frame render check.",
+      "repo_url": "https://github.com/remotion-dev/skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/remotion-dev/skills",
+        "subdir": "skills/remotion",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "remotion-dev",
+      "tags": [
+        "video",
+        "react",
+        "remotion",
+        "code-driven"
+      ],
+      "via": "github:remotion-dev",
+      "description_zh": "用 Remotion（React）以代码方式制作视频的领域知识与最佳实践——通过 useCurrentFrame()/interpolate() 做动画、组合与时序编排、字幕、特效、音频，以及单帧渲染自检。",
+      "description_en": "Domain knowledge and best practices for building videos as code with Remotion (React)—animating via useCurrentFrame()/interpolate(), composition and sequence setup, captions, effects, audio, and a one-frame render check.",
+      "long_zh": "加载 Remotion 专属规则（40+ 个主题文件，涵盖布局、转场、字体、3D、音频、ffmpeg、配音等），让代理写出可渲染的 Remotion 代码，而非那些会静默渲染失败的 CSS/Tailwind 动画写法。",
+      "long_en": "Loads Remotion-specific rules (40+ topic files on layout, transitions, fonts, 3D, audio, ffmpeg, voiceover and more) so an agent writes renderable Remotion code instead of CSS/Tailwind animation patterns that silently fail to render.",
+      "cover_color": "#9C5A2C",
+      "stars": 3815,
+      "trend": null,
+      "spark": [],
+      "updated": "2026-06-22",
+      "install_cmd": "aleph add skills",
+      "sec_note_zh": "这是知识/最佳实践型技能，会通过 npx 实际脚手架并渲染 Remotion 项目（create-video、remotion studio/render），因此需要 Node.js 以及 React 与 Remotion 工具链。Remotion 使用其自有许可证（个人与小团队免费、较大公司需付费），并非标准开源许可证——商用前请先查看。skills 仓库本身根目录没有 LICENSE 文件。",
+      "sec_note_en": "A knowledge/best-practices skill that scaffolds and renders real Remotion projects via npx (create-video, remotion studio/render), so it needs Node.js plus React and the Remotion toolchain. Remotion ships under its own license (free for individuals and small teams, paid for larger companies), which is not a standard OSS license—check it before commercial use. The skills repo itself has no LICENSE file at root."
+    },
+    {
+      "id": "aleph-hub:browser-use/video-use",
+      "kind": "skill",
+      "category": "design",
+      "name": "Video Use",
+      "description": "Edit any video by conversation with a coding agent—transcribe, cut filler and dead space, color grade, generate overlay animations, and burn subtitles—reasoning from the raw transcript plus on-demand timeline visuals instead of frame-dumping.",
+      "repo_url": "https://github.com/browser-use/video-use",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/browser-use/video-use",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "browser-use",
+      "tags": [
+        "video",
+        "editing",
+        "subtitles",
+        "montage"
+      ],
+      "via": "github:browser-use",
+      "description_zh": "用编码代理通过对话编辑任意视频——转写、剪掉口头语与空白、调色、生成叠加动画、烧录字幕——以原始转录文本加按需的时间线可视化为依据，而非整片抽帧。",
+      "description_en": "Edit any video by conversation with a coding agent—transcribe, cut filler and dead space, color grade, generate overlay animations, and burn subtitles—reasoning from the raw transcript plus on-demand timeline visuals instead of frame-dumping.",
+      "long_zh": "提问 → 确认 → 执行 → 自检 → 持久化：基于打包的短语级转录推理，把每个剪切点对齐到词边界，加 30ms 音频淡入淡出，合成叠加动画（PIL/Remotion/HyperFrames/Manim）与字幕，再在展示前对自己渲染的输出逐个剪切点自检。",
+      "long_en": "Ask → confirm → execute → self-eval → persist: it reasons over a packed phrase-level transcript, snaps every cut to word boundaries, applies 30ms audio fades, composites overlays (PIL/Remotion/HyperFrames/Manim) and subtitles, then checks its own rendered output at each cut before showing you.",
+      "cover_color": "#86512C",
+      "stars": 10526,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-05-15",
+      "install_cmd": "aleph add video-use",
+      "sec_note_zh": "需要本地安装 ffmpeg/ffprobe 与 Python（uv/pip）依赖；转写使用托管的 ElevenLabs Scribe API，需要 ELEVENLABS_API_KEY（付费云服务），存放在仓库根目录的 .env 中。叠加动画可选 Node.js（HyperFrames/Remotion）、图解片段需 Manim、在线源需 yt-dlp。会读取你的素材并把全部输出写入 <videos_dir>/edit/。MIT 许可证。",
+      "sec_note_en": "Needs ffmpeg/ffprobe and Python (uv/pip) deps installed locally; transcription uses the hosted ElevenLabs Scribe API and requires an ELEVENLABS_API_KEY (a paid cloud service) stored in a .env at the repo root. Optional Node.js for HyperFrames/Remotion overlays, Manim for diagram slots, and yt-dlp for online sources. Reads your footage and writes all outputs to <videos_dir>/edit/. MIT licensed."
+    },
+    {
+      "id": "aleph-hub:adithya-s-k/manim_skill/manim-composer",
+      "kind": "skill",
+      "category": "design",
+      "name": "Manim Composer",
+      "description": "Turn a vague explainer-video idea into a detailed, scene-by-scene plan (scenes.md): researches the topic, asks about audience/scope/style, then specifies mobjects, animations, narration, pacing, and a color palette in 3Blue1Brown style—before any code is written.",
+      "repo_url": "https://github.com/adithya-s-k/manim_skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/adithya-s-k/manim_skill",
+        "subdir": "skills/manim-composer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "adithya-s-k",
+      "tags": [
+        "manim",
+        "animation",
+        "math",
+        "education",
+        "video"
+      ],
+      "via": "github:adithya-s-k",
+      "description_zh": "把模糊的讲解视频想法变成逐场景的详细方案（scenes.md）：先研究主题，再询问受众/范围/风格，然后以 3Blue1Brown 风格写清每场的对象、动画、旁白、节奏与配色——在写任何代码之前完成。",
+      "description_en": "Turn a vague explainer-video idea into a detailed, scene-by-scene plan (scenes.md): researches the topic, asks about audience/scope/style, then specifies mobjects, animations, narration, pacing, and a color palette in 3Blue1Brown style—before any code is written.",
+      "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manim-composer 这一个目录，而非整仓）。它是与版本无关的规划阶段：产出一份 scenes.md 方案（叙事钩子、分场拆解、转场、配色、数学内容、实现顺序），交给 manimce-best-practices 或 manimgl-best-practices 去真正实现。附带 3b1b 叙事模式与视觉技巧的参考文档及空白 scenes 模板；它只做规划，不做渲染。",
+      "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manim-composer folder, not the whole repo). It is the planning stage, version-agnostic: it produces a scenes.md spec (narrative hook, scene breakdowns, transitions, color palette, math content, implementation order) meant to be handed off to manimce-best-practices or manimgl-best-practices for actual implementation. Ships reference docs on 3b1b narrative patterns and visual techniques plus a blank scenes template; it plans and does not render.",
+      "cover_color": "#7A4A2B",
+      "stars": 950,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-01-23",
+      "install_cmd": "aleph add manim_skill",
+      "sec_note_zh": "仅做规划：输出 Markdown 版 scenes.md，不渲染视频，因此自身不需要 Manim/LaTeX/ffmpeg。它会用网络搜索研究主题，故会把你的主题发给代理的搜索工具。后续真正实现所规划的视频，需通过配套技能用到 Python 与 Manim（渲染还需 LaTeX/ffmpeg 工具链）。",
+      "sec_note_en": "Planning-only: outputs a Markdown scenes.md and does not render video, so it needs no Manim/LaTeX/ffmpeg itself. It uses web search to research the topic, so it sends your topic to the agent's search tool. To later build the planned video you will need Python plus Manim (and a LaTeX/ffmpeg toolchain for rendering) via the companion skills."
+    },
+    {
+      "id": "aleph-hub:adithya-s-k/manim_skill/manimce-best-practices",
+      "kind": "skill",
+      "category": "design",
+      "name": "Manim CE Best Practices",
+      "description": "Best practices for Manim Community Edition (the `from manim import *` / `manim` CLI engine): scene structure, mobjects, animations, LaTeX/MathTex, coordinate systems and graphing, 3D with ThreeDScene, camera control, updaters, styling, and CLI render flags.",
+      "repo_url": "https://github.com/adithya-s-k/manim_skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/adithya-s-k/manim_skill",
+        "subdir": "skills/manimce-best-practices",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "adithya-s-k",
+      "tags": [
+        "manim",
+        "manimce",
+        "animation",
+        "math",
+        "education"
+      ],
+      "via": "github:adithya-s-k",
+      "description_zh": "Manim 社区版（`from manim import *` 与 `manim` 命令行引擎）的最佳实践：场景结构、对象、动画、LaTeX/MathTex、坐标系与绘图、ThreeDScene 三维、相机控制、updater、样式与命令行渲染参数。",
+      "description_en": "Best practices for Manim Community Edition (the `from manim import *` / `manim` CLI engine): scene structure, mobjects, animations, LaTeX/MathTex, coordinate systems and graphing, 3D with ThreeDScene, camera control, updaters, styling, and CLI render flags.",
+      "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimce-best-practices 这一个目录，而非整仓）。面向社区维护的 ManimCE，而非 3b1b 的 ManimGL。打包约 25 个主题规则文件、五个经过测试的示例脚本（基础动画、数学可视化、updater 模式、函数绘图、三维）、可复制修改的场景模板，以及一份包含渲染参数、Jupyter %%manim 单元魔法、安装步骤与 ManimCE/ManimGL 差异对照表的速查表，以避免版本混淆。",
+      "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manimce-best-practices folder, not the whole repo). Targets the community-maintained ManimCE, NOT 3b1b's ManimGL. Bundles ~25 topic rule files, five tested example scripts (basic animations, math visualization, updater patterns, graph plotting, 3D), copy-and-modify scene templates, and a quick reference with render flags, Jupyter %%manim cell magic, install steps, and a ManimCE-vs-ManimGL difference table to avoid version confusion.",
+      "cover_color": "#7A4A2B",
+      "stars": 950,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-01-23",
+      "install_cmd": "aleph add manim_skill",
+      "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。要真正渲染示例，需要 Python 与 Manim 社区版（`pip install manim`），以及本地的 LaTeX/ffmpeg 工具链（TeX Live/MiKTeX/MacTeX + ffmpeg）用于数学排版与视频编码。全部本地渲染，无需付费或云端 API。",
+      "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To actually render the examples you need Python plus Manim Community (`pip install manim`) and a local LaTeX/ffmpeg toolchain (TeX Live/MiKTeX/MacTeX + ffmpeg) for math typesetting and video encoding. All rendering is local; no paid or cloud API required."
+    },
+    {
+      "id": "aleph-hub:adithya-s-k/manim_skill/manimgl-best-practices",
+      "kind": "skill",
+      "category": "design",
+      "name": "ManimGL Best Practices",
+      "description": "Best practices for ManimGL (3Blue1Brown's OpenGL engine, `from manimlib import *` / `manimgl` CLI): InteractiveScene, Tex with tex_to_color_map, self.frame camera control, 3D, and the interactive `-se` / checkpoint_paste() development workflow.",
+      "repo_url": "https://github.com/adithya-s-k/manim_skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/adithya-s-k/manim_skill",
+        "subdir": "skills/manimgl-best-practices",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "adithya-s-k",
+      "tags": [
+        "manim",
+        "manimgl",
+        "animation",
+        "math",
+        "education"
+      ],
+      "via": "github:adithya-s-k",
+      "description_zh": "ManimGL（3Blue1Brown 的 OpenGL 引擎，`from manimlib import *` 与 `manimgl` 命令行）的最佳实践：InteractiveScene、带 tex_to_color_map 的 Tex、self.frame 相机控制、三维，以及 `-se` 交互模式与 checkpoint_paste() 开发流。",
+      "description_en": "Best practices for ManimGL (3Blue1Brown's OpenGL engine, `from manimlib import *` / `manimgl` CLI): InteractiveScene, Tex with tex_to_color_map, self.frame camera control, 3D, and the interactive `-se` / checkpoint_paste() development workflow.",
+      "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimgl-best-practices 这一个目录，而非整仓）。面向 Grant Sanderson 的 ManimGL，而非 Manim 社区版。覆盖 ManimGL 专有写法（ShowCreation 而非 Create、Tex 原始字符串、self.frame.reorient()、self.embed()、backstroke），含规则文件、五个示例脚本、场景模板与差异对照表。注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，带有其自身许可。",
+      "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manimgl-best-practices folder, not the whole repo). Targets Grant Sanderson's ManimGL, NOT Manim Community Edition. Covers ManimGL-specific patterns (ShowCreation vs Create, Tex raw strings, self.frame.reorient(), self.embed(), backstroke) with rule files, five example scripts, scene templates, and a difference table. Note the bundled example code is adapted from 3Blue1Brown's videos repo and carries its own license.",
+      "cover_color": "#7A4A2B",
+      "stars": 950,
+      "trend": null,
+      "spark": [],
+      "license": "MIT",
+      "updated": "2026-01-23",
+      "install_cmd": "aleph add manim_skill",
+      "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。渲染需要 Python 与 ManimGL（`pip install manimgl`）以及本地 LaTeX/ffmpeg 工具链；ManimGL 还需要 OpenGL，在 Apple Silicon 上需 brew 安装 pkg-config/cairo。许可注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，采用 CC BY-NC-SA 4.0（需署名、禁商用、相同方式共享）——不可用于商业用途。全部本地渲染，无需付费或云端 API。",
+      "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To render you need Python plus ManimGL (`pip install manimgl`) and a local LaTeX/ffmpeg toolchain; ManimGL also needs OpenGL and, on Apple Silicon, brew pkg-config/cairo. Licensing caveat: bundled example code is adapted from 3Blue1Brown's videos repo under CC BY-NC-SA 4.0 (attribution required, NonCommercial, ShareAlike)—not for commercial use. All rendering is local; no paid or cloud API required."
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
@@ -4440,13 +4776,13 @@
       "stars": 699,
       "trend": 0,
       "spark": [
-        688,
         694,
         697,
         697,
         697,
         698,
         698,
+        699,
         699,
         699,
         699,
@@ -4491,7 +4827,7 @@
       "trend": 0,
       "spark": [
         412,
-        412,
+        413,
         413,
         413,
         413,
@@ -4540,7 +4876,6 @@
       "trend": 0,
       "spark": [
         189,
-        189,
         190,
         190,
         191,
@@ -4549,6 +4884,7 @@
         192,
         192,
         192,
+        193,
         193,
         193,
         193
@@ -4590,7 +4926,6 @@
       "trend": 0,
       "spark": [
         165,
-        165,
         166,
         166,
         167,
@@ -4600,6 +4935,7 @@
         167,
         167,
         167,
+        168,
         168,
         168
       ],
@@ -4642,7 +4978,7 @@
       "spark": [
         130,
         130,
-        130,
+        131,
         131,
         131,
         131,
@@ -4691,7 +5027,7 @@
       "trend": 0,
       "spark": [
         127,
-        127,
+        128,
         128,
         128,
         128,
@@ -4835,10 +5171,9 @@
       "long_zh": "把编码智能体变成幻灯片设计师的技能,生成可在浏览器中打开与分享的精致 HTML/CSS 演示。",
       "long_en": "A skill that turns a coding agent into a slide designer, generating polished HTML/CSS presentations you can open and share in a browser.",
       "cover_color": "#9E5B2E",
-      "stars": 23538,
+      "stars": 23547,
       "trend": 0,
       "spark": [
-        22722,
         22918,
         23172,
         23249,
@@ -4850,7 +5185,8 @@
         23440,
         23441,
         23531,
-        23538
+        23538,
+        23547
       ],
       "license": "MIT",
       "updated": "2026-06-23",
@@ -4885,10 +5221,9 @@
       "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
       "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
       "cover_color": "#9C5A2C",
-      "stars": 4120,
+      "stars": 4122,
       "trend": 0,
       "spark": [
-        3941,
         4019,
         4058,
         4071,
@@ -4900,7 +5235,8 @@
         4112,
         4112,
         4120,
-        4120
+        4120,
+        4122
       ],
       "license": "AGPL-3.0",
       "updated": "2026-05-27",
@@ -4934,10 +5270,9 @@
       "long_zh": "一个跨 CLI 的技能,帮助智能体阅读、整理并持续扩充 Obsidian 仓库,作为活的知识库。",
       "long_en": "A cross-CLI skill that helps an agent read, organize, and grow an Obsidian vault as a living knowledge base.",
       "cover_color": "#7A4A2B",
-      "stars": 2758,
+      "stars": 2759,
       "trend": 0,
       "spark": [
-        2666,
         2686,
         2711,
         2714,
@@ -4949,7 +5284,8 @@
         2746,
         2747,
         2757,
-        2758
+        2758,
+        2759
       ],
       "license": "MIT",
       "updated": "2026-06-27",
@@ -4983,10 +5319,9 @@
       "long_zh": "生成架构与系统图的技能,可直接在对话中帮你记录代码库结构。",
       "long_en": "A skill that produces architecture and system diagrams, helping document a codebase's structure directly from a conversation.",
       "cover_color": "#B5562B",
-      "stars": 1319,
-      "trend": 0,
+      "stars": 1326,
+      "trend": 1,
       "spark": [
-        1220,
         1222,
         1228,
         1230,
@@ -4998,7 +5333,8 @@
         1283,
         1285,
         1315,
-        1319
+        1319,
+        1326
       ],
       "license": "MIT",
       "updated": "2026-06-14",
@@ -5035,7 +5371,6 @@
       "stars": 1238,
       "trend": 0,
       "spark": [
-        987,
         1011,
         1037,
         1045,
@@ -5047,6 +5382,7 @@
         1217,
         1217,
         1236,
+        1238,
         1238
       ],
       "license": "MIT",
@@ -5085,7 +5421,6 @@
       "stars": 986,
       "trend": 0,
       "spark": [
-        970,
         977,
         981,
         982,
@@ -5097,6 +5432,7 @@
         985,
         985,
         985,
+        986,
         986
       ],
       "license": "Apache-2.0",
@@ -5134,7 +5470,6 @@
       "stars": 721,
       "trend": 0,
       "spark": [
-        718,
         719,
         719,
         720,
@@ -5145,6 +5480,7 @@
         720,
         720,
         720,
+        721,
         721,
         721
       ],
@@ -5183,13 +5519,13 @@
       "stars": 454,
       "trend": 0,
       "spark": [
-        446,
         450,
         451,
         452,
         453,
         453,
         453,
+        454,
         454,
         454,
         454,
@@ -5234,7 +5570,6 @@
       "trend": 0,
       "spark": [
         263,
-        263,
         265,
         266,
         266,
@@ -5244,6 +5579,7 @@
         270,
         270,
         270,
+        271,
         271,
         271
       ],
@@ -5283,13 +5619,13 @@
       "stars": 269,
       "trend": 0,
       "spark": [
-        260,
         268,
         268,
         268,
         268,
         268,
         268,
+        269,
         269,
         269,
         269,
@@ -5332,13 +5668,13 @@
       "stars": 262,
       "trend": 0,
       "spark": [
-        235,
         247,
         256,
         259,
         261,
         261,
         261,
+        262,
         262,
         262,
         262,
@@ -5382,7 +5718,6 @@
       "stars": 258,
       "trend": 0,
       "spark": [
-        237,
         246,
         253,
         254,
@@ -5393,6 +5728,7 @@
         257,
         257,
         257,
+        258,
         258,
         258
       ],
@@ -5430,10 +5766,10 @@
       "stars": 222,
       "trend": 0,
       "spark": [
-        217,
         219,
         220,
         221,
+        222,
         222,
         222,
         222,
@@ -5481,8 +5817,8 @@
       "trend": 0,
       "spark": [
         199,
-        199,
         201,
+        202,
         202,
         202,
         202,
@@ -5538,7 +5874,7 @@
         176,
         176,
         176,
-        176,
+        177,
         177,
         177,
         177,
@@ -5629,7 +5965,6 @@
       "stars": 152,
       "trend": 0,
       "spark": [
-        136,
         142,
         148,
         148,
@@ -5640,6 +5975,7 @@
         151,
         151,
         151,
+        152,
         152,
         152
       ],
@@ -5679,7 +6015,6 @@
       "stars": 145,
       "trend": 0,
       "spark": [
-        138,
         139,
         141,
         142,
@@ -5688,6 +6023,7 @@
         144,
         144,
         144,
+        145,
         145,
         145,
         145,
@@ -5729,7 +6065,7 @@
       "stars": 127,
       "trend": 0,
       "spark": [
-        125,
+        127,
         127,
         127,
         127,
@@ -5779,7 +6115,6 @@
       "stars": 124,
       "trend": 0,
       "spark": [
-        113,
         114,
         119,
         120,
@@ -5790,6 +6125,7 @@
         123,
         123,
         123,
+        124,
         124,
         124
       ],
@@ -5829,13 +6165,13 @@
       "stars": 115,
       "trend": 0,
       "spark": [
-        113,
         114,
         114,
         114,
         114,
         114,
         114,
+        115,
         115,
         115,
         115,
@@ -5878,10 +6214,10 @@
       "stars": 99,
       "trend": 0,
       "spark": [
-        94,
         96,
         98,
         98,
+        99,
         99,
         99,
         99,
@@ -5929,7 +6265,7 @@
       "trend": 0,
       "spark": [
         94,
-        94,
+        95,
         95,
         95,
         95,
@@ -5978,13 +6314,13 @@
       "stars": 91,
       "trend": 0,
       "spark": [
-        79,
         83,
         87,
         87,
         89,
         89,
         89,
+        91,
         91,
         91,
         91,
@@ -6029,12 +6365,12 @@
       "trend": 0,
       "spark": [
         69,
-        69,
         70,
         70,
         70,
         70,
         70,
+        71,
         71,
         71,
         71,
@@ -6080,7 +6416,7 @@
         62,
         62,
         62,
-        62,
+        63,
         63,
         63,
         63,
@@ -6176,11 +6512,11 @@
       "stars": 45,
       "trend": 0,
       "spark": [
-        41,
         43,
         43,
         43,
         44,
+        45,
         45,
         45,
         45,
@@ -6226,8 +6562,8 @@
       "stars": 43,
       "trend": 0,
       "spark": [
-        40,
         41,
+        43,
         43,
         43,
         43,
@@ -6276,7 +6612,6 @@
       "stars": 38,
       "trend": 0,
       "spark": [
-        36,
         37,
         37,
         37,
@@ -6287,6 +6622,7 @@
         37,
         37,
         37,
+        38,
         38,
         38
       ],
@@ -6326,7 +6662,7 @@
       "stars": 35,
       "trend": 0,
       "spark": [
-        34,
+        35,
         35,
         35,
         35,
@@ -6427,9 +6763,9 @@
       "trend": 0,
       "spark": [
         32,
-        32,
         33,
         33,
+        34,
         34,
         34,
         34,
@@ -6585,7 +6921,7 @@
         29,
         29,
         29,
-        29,
+        30,
         30,
         30
       ],
@@ -6631,7 +6967,7 @@
         28,
         28,
         28,
-        28,
+        29,
         29,
         29,
         29,
@@ -6676,7 +7012,7 @@
       "trend": 0,
       "spark": [
         22,
-        22,
+        23,
         23,
         23,
         23,
@@ -6726,7 +7062,7 @@
       "trend": 0,
       "spark": [
         22,
-        22,
+        23,
         23,
         23,
         23,
@@ -6826,9 +7162,9 @@
       "trend": 0,
       "spark": [
         16,
-        16,
         17,
         17,
+        18,
         18,
         18,
         18,
@@ -6925,7 +7261,7 @@
       "trend": 0,
       "spark": [
         15,
-        15,
+        16,
         16,
         16,
         16,
@@ -7026,13 +7362,13 @@
       "spark": [
         10,
         10,
-        10,
         11,
         11,
         11,
         11,
         11,
         11,
+        12,
         12,
         12,
         12,
@@ -7320,10 +7656,9 @@
       "long_zh": "输出通俗推理、排序的研究优先级、证据链、风险与后续验证步骤——仅作研究支持,不执行交易。",
       "long_en": "Outputs plain-language reasoning, ranked research priorities, evidence chains, risks, and next verification steps—research support only, with no trade execution.",
       "cover_color": "#B0703C",
-      "stars": 2931,
+      "stars": 2932,
       "trend": 0,
       "spark": [
-        2747,
         2808,
         2862,
         2875,
@@ -7335,7 +7670,8 @@
         2921,
         2921,
         2930,
-        2931
+        2931,
+        2932
       ],
       "license": "MIT",
       "updated": "2026-05-05",
@@ -7373,7 +7709,6 @@
       "stars": 422,
       "trend": 0,
       "spark": [
-        397,
         404,
         416,
         417,
@@ -7384,6 +7719,7 @@
         421,
         421,
         421,
+        422,
         422,
         422
       ],
@@ -7423,7 +7759,6 @@
       "stars": 320,
       "trend": 0,
       "spark": [
-        310,
         313,
         315,
         315,
@@ -7434,6 +7769,7 @@
         319,
         319,
         319,
+        320,
         320,
         320
       ],
@@ -7523,8 +7859,8 @@
       "stars": 239,
       "trend": 0,
       "spark": [
-        237,
         238,
+        239,
         239,
         239,
         239,
@@ -7574,7 +7910,7 @@
       "trend": 0,
       "spark": [
         230,
-        230,
+        233,
         233,
         233,
         233,
@@ -7624,7 +7960,6 @@
       "trend": 0,
       "spark": [
         178,
-        178,
         179,
         179,
         179,
@@ -7634,6 +7969,7 @@
         179,
         179,
         179,
+        180,
         180,
         180
       ],
@@ -7674,7 +8010,7 @@
       "trend": 0,
       "spark": [
         649,
-        649,
+        650,
         650,
         650,
         650,
@@ -7724,7 +8060,6 @@
       "trend": 0,
       "spark": [
         265,
-        265,
         266,
         266,
         266,
@@ -7734,6 +8069,7 @@
         266,
         266,
         266,
+        267,
         267,
         267
       ],
@@ -7770,10 +8106,9 @@
       "long_zh": "输出 HTML 报告以及 BibTeX/RIS/CSV 导出与 PRISMA-S 日志,适用于范围综述与系统综述。",
       "long_en": "Outputs an HTML report plus BibTeX/RIS/CSV exports and a PRISMA-S log for scoping and systematic reviews.",
       "cover_color": "#8C5430",
-      "stars": 72,
-      "trend": 0,
+      "stars": 73,
+      "trend": 1,
       "spark": [
-        68,
         69,
         71,
         71,
@@ -7785,7 +8120,8 @@
         72,
         72,
         72,
-        72
+        72,
+        73
       ],
       "license": "Apache-2.0",
       "updated": "2026-05-29",
@@ -8178,7 +8514,7 @@
         5,
         5,
         5,
-        5,
+        6,
         6,
         6,
         6,
@@ -8220,7 +8556,6 @@
       "stars": 195,
       "trend": 0,
       "spark": [
-        189,
         192,
         192,
         194,
@@ -8229,6 +8564,7 @@
         194,
         194,
         194,
+        195,
         195,
         195,
         195,

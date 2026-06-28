@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"c9e762ba04e4b0cc89b19c6da987b1a9a67257c2a0bb577701e958696b5f0080\"",
+    "etag": "W/\"8df9bb1cd045cc6cbf9ba23ada6d5412210df6b1ce048d93e83e6a8232a5298a\"",
     "readme_hash": "22d82a9114c111268660d2a3ed48e2201bb17ecd65a0cea96196dc15db73d357",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"0a0963d30b7e4e40a5b149cc17ab1a369cab5151b2339ee58e88d100014ef822\"",
+    "etag": "W/\"0aadb7a368c91a04b742ed4485fc3a257dfdb3773228c336b22435ffe1ab7b49\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "\"570f3ddaa3f8ab676b97f1eebda75787434b3b0bd0a1a5da3921ff1f3d2f89dc\"",
+    "etag": "W/\"7345de1386f2ba419fff30acced4eb6c2d19e2c5be3376c9a4b5b38f904fe145\"",
     "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
     "entries": [
       {
@@ -203,7 +203,7 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"a909bde5f79465db88672bc8c0a5976020ad8367282a22cb48d44c7dbc30900a\"",
+    "etag": "W/\"cc186c09ad89393061cdd7391b78499e1fb069e2449250660df262bfd092c101\"",
     "readme_hash": "f17b9a73cbaca194246071813b0382536baf0ec2e969140e934ea3232e9c1807",
     "entries": [
       {
@@ -238,7 +238,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"50b49176a065f9281f2fdb0be107222be701d9c51ad97e1337daf4752650a1d3\"",
+    "etag": "W/\"50fc85c547375e591d41b8121a3d8808a3e1a31fa8f67b65e9681c1178f3199d\"",
     "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
     "entries": [
       {
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"ff0df7a1ed26f862952b0bf5f7580c3a0bc7b956bf2df64513c5ddebdfa77f63\"",
+    "etag": "\"ff0df7a1ed26f862952b0bf5f7580c3a0bc7b956bf2df64513c5ddebdfa77f63\"",
     "readme_hash": "475fa0ec89589a191d01101abd90e2838a4b18b6df743769121fb3f18bc8ad83",
     "entries": [
       {
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "W/\"a34e7facec800fe678033906b9812c7c40ea988ff48287db1bc4883ed1922acd\"",
+    "etag": "\"a34e7facec800fe678033906b9812c7c40ea988ff48287db1bc4883ed1922acd\"",
     "readme_hash": "3dd33ca4c6580ac8b40b1631943fbf50dd30ef1fb0f9360b16f1b05c11e0f8d7",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"938cb7a23855e61f1c22c0ba3430136701ab24b005ce2f8da867f042f50112af\"",
+    "etag": "W/\"80b0d9715316dac31925671fd19de4d1f76c3cbc3a05005d81022262c298f1ef\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2569,7 +2569,7 @@
     ]
   },
   "O0000-code/paper-search-pro": {
-    "etag": "\"5fd66287a4f30254b9ea340eeec1daf25abed044319a6d790b13f6f7499d5564\"",
+    "etag": "W/\"08b931153c64333afed1c15f771b68cf6461dd46ebc22091275d239b8b4ee307\"",
     "readme_hash": "47dd71e57fe1fc22b781170f3b5823ac18d2cbcd04cfc602b33d82fd80cbc514",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "\"7d94a8240abc9bdd68740874e2efbeb8066769ab10663097f6a07b37fca92e7f\"",
+    "etag": "W/\"8408bc00b482e63bdcabaa92eae81f84f00b93708ae1a1e3c9dc5e99fa7a61a0\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "\"68ba089a06c3351bd7dcc032c4d0cbc81acc9e0cbe6ce3bdf44d52bda631cc92\"",
+    "etag": "W/\"d729cf4d6c676350843be44e892002179aad9f595698388279ab98e0c402c01f\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,7 +3038,7 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"c8b6ad066e79a1e2a8a8be7618312206bce8d028d8c77784c30259273fe4d0ae\"",
+    "etag": "W/\"7f0c4b21f6c15efeac886a0d9846662ff48d5ac1d8ea221a1c9e3a0f7e802421\"",
     "readme_hash": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6",
     "entries": [
       {
@@ -3075,7 +3075,7 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"2b768de1cf1d47188f2f3123125dc9f17f72b71c3700596b368c470d4b51cf9c\"",
+    "etag": "W/\"961f80bdfb372fa56ff2c2d5c7d8dea9aa2349787752b9e263e16df62cd09adc\"",
     "readme_hash": "07c21176b8117e80b6a843fdcc0ca797c899fc89195dfc2d2ccd43433232f886",
     "entries": [
       {
@@ -3149,7 +3149,7 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"21b81f5e22d76ee469f32db4d0bb285fe60e160df558e1b3a4ecf05b768f64fb\"",
+    "etag": "W/\"d754d5a5c5a6db99b65e36289e67935daab7b639a0001b866f5649c5d8732be3\"",
     "readme_hash": "bc18904b1077d1e9dcf00bbb2a70947fc2fea61499f86a41e020e24a7339a640",
     "entries": [
       {
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"9885d81b9e78004c676b7e3fca73d5564d4411826e51799d6ba6f3b516312bff\"",
+    "etag": "W/\"c2dab27b4224772e738b6870e554cd0f1c654bfcefc32ec687a8ac0cfa85b689\"",
     "readme_hash": "9202c6fb8a233bb17f33cd10f9ee0ab3dc903e3cd0e6eee09122aa5d8c6965c6",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"b03f49823cda7b4bda9660f39a7f2ec64d000294ad4704d10e32853ebe4d0a4c\"",
+    "etag": "W/\"22a37f7039754f0790b4afe32bd23735240df74d4ab6960a9249670dfe75883b\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"cc59494cd263c099438d8511fd462f14e551bba9028a0f502981048c9da99497\"",
+    "etag": "W/\"f256040206acdd7da8a2ad02d86726aaba5c4265a5f478f48eba82ce6c713b6d\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"c1099e47960be5817cc8143dd3ccf5ccf9e6b78ec489236364c7e1497b1c94ef\"",
+    "etag": "W/\"71e271c5f0f5a5a4fcfb8929ec6a32123b2a26d47f9096911a0a525ca31b7a69\"",
     "readme_hash": "b10283ab95e16bffb70aba02c7253d00426fe0d5f239c66551186090e6d2a5e4",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"88b768530ca7a7d01298337823cc997d423e4f5ba594bee854aabdd5babb6b68\"",
+    "etag": "W/\"c704cdc9262534c9c8f97b87bb91b12f4844ef98420fb023828f9b16e2eed6fe\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"0854bd5c4b4b5d2d357b993b5e269524b4d5493a4a112e08a305a4e1487d5ec4\"",
+    "etag": "W/\"60b47c1a1b90b8033b5e4031849783890234e6396d290fcb9aabd867ffe500af\"",
     "readme_hash": "9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"a0db6e52cfd44a663c99b3578e120ecb60f9f57b0df2d63a94ba63e10c62850b\"",
+    "etag": "\"a0db6e52cfd44a663c99b3578e120ecb60f9f57b0df2d63a94ba63e10c62850b\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"d5c47fc1284cd0f7c20b14ee33008f63dd1bb64f10850226e17efc76fe170aa5\"",
+    "etag": "W/\"c3f4eff101b4040f04c3e4bbef981882445c4d9205695a7c492f702f3c34aabc\"",
     "readme_hash": "34bbfbab1e6859177a0ac3ce04229ac949fb802998608aa182bee3efbee4ea6a",
     "entries": [
       {
@@ -3683,7 +3683,7 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"cabf8511927636d87bb352ef7ca6c586c11b54a69da850502bb30df7cf8254d2\"",
+    "etag": "W/\"f4a1942d5322474ff78a8dcb1ed4b0e0a823e6b32abd6094bda6cd1e16afd6d4\"",
     "readme_hash": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
     "entries": [
       {
@@ -4257,7 +4257,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"22bfff941272d1e63eca10e4ccb6bca390b3c56a551e9e60fe60eff4a497f448\"",
+    "etag": "W/\"5cbb631c59ea373ef4668d9a49e01b074a1931668ef8ddb8ed2b7bfaeab6818a\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -4294,7 +4294,7 @@
     ]
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "W/\"e2115fd50ccf23d7dab05faf838b48dd915f051b35f8ea5eb1c1f15d353e6b44\"",
+    "etag": "W/\"bde6dd7355b3c78f12a22d14237db66fd92aaa9662869ebe39c8e03dc5ef8b41\"",
     "readme_hash": "a8716deaf85d849ca7d880bc660364ec771ccfd87b0582eed0171ec362e89ab8",
     "entries": [
       {
@@ -4707,6 +4707,254 @@
         "long_zh": "产出针对该企业、以证据为锚的 GEO 归因设计与跟踪路线图，并诚实给出可观测性边界，而非通用方法论套话。",
         "sec_note_en": "Performs authoritative web retrieval anchored on the official website when online (confirms the official domain and reads public homepage/product/about/contact/pricing/case pages); explicitly degrades to a low-confidence, user-material-only version when offline. Bundles a Python renderer (render_yao_geo_tracking.py) that writes .html and .docx from a report_input.json. Output is a planning/attribution-design document, not a live data collector; the skill is explicitly open-source sanitized and forbids any private CLI, intranet address, or internal company data.",
         "sec_note_zh": "联网时以官网为核心做权威检索（先确认官方域名，再读取公开的首页/产品页/关于页/联系页/定价页/案例页）；不能联网时显式降级为仅基于用户材料的低置信度版本。捆绑 Python 渲染器 render_yao_geo_tracking.py，从 report_input.json 生成 .html 与 .docx。产物是规划/归因设计文档，而非实时数据采集器；该 skill 已做开源脱敏，禁止任何私有 CLI、内网地址或公司内部数据。",
+        "requires_config": false
+      }
+    ]
+  },
+  "heygen-com/hyperframes": {
+    "etag": "W/\"1f44012a8fbf4803c25ee384ee39326cb2f9319c4d2f59255e8b9b8aaa77f81a\"",
+    "readme_hash": "c4ccfd68eaf30b1ef53aa892cd18daf0aeba88981e2e76767e2f0ebb4b994d11",
+    "entries": [
+      {
+        "id": "aleph-hub:heygen-com/hyperframes",
+        "repo_url": "https://github.com/heygen-com/hyperframes",
+        "via": "github:heygen-com",
+        "full_name": "heygen-com/hyperframes",
+        "owner": "heygen-com",
+        "repo": "hyperframes",
+        "kind": "plugin",
+        "name": "HyperFrames",
+        "author": "heygen-com",
+        "category": "design",
+        "tags": [
+          "video",
+          "animation",
+          "html",
+          "rendering",
+          "agents"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/heygen-com/hyperframes",
+          "git_ref": "main"
+        },
+        "description_en": "HyperFrames by HeyGen is an open-source Claude Code plugin that turns HTML/CSS/JS compositions into deterministic MP4 videos, bundling 19 on-demand skills—a router plus creation workflows (product launch, website-to-video, faceless explainer, PR-to-video, captions, motion graphics, music, slideshow) and domain skills (core composition contract, animation adapters, creative direction, media, CLI) that teach agents the full video-production loop.",
+        "description_zh": "HeyGen 出品的 HyperFrames 是一个开源 Claude Code 插件,把 HTML/CSS/JS 合成稿渲染成可复现的 MP4 视频,内置 19 个按需加载的技能——一个路由技能,加上创作工作流(产品发布、网站转视频、无人脸讲解、PR 转视频、字幕、动态图形、音乐、幻灯片)与领域技能(核心合成契约、动画适配器、创意方向、媒体、CLI),教 agent 完成完整的视频制作流程。",
+        "long_en": "Write HTML, render video: an Apache-2.0, agent-native framework whose renderer seeks each frame in headless Chrome and encodes with FFmpeg for reproducible output—no React, no build step, no proprietary timeline, and no per-render fees.",
+        "long_zh": "写 HTML,渲染视频:一个 Apache-2.0、面向 agent 的框架,渲染器在无头 Chrome 中逐帧 seek 并用 FFmpeg 编码,产出可复现——无需 React、无需构建步骤、无私有时间轴,也没有按次渲染收费。",
+        "sec_note_en": "Standalone local renderer, NOT a paid-API shell. Requires Node.js 22+, FFmpeg on PATH, and headless Chrome driven via Puppeteer (the @hyperframes/engine package); renders run locally with an optional AWS Lambda path. It reads your composition HTML/media and writes MP4s into the project. Optional media features (TTS voiceover, background music/SFX) can use a HeyGen/ElevenLabs/Gemini API key, but fall back to fully local models (Kokoro TTS, MusicGen, Whisper, u2net background-removal) that pull large model downloads (~75MB–3GB) and need Python—none are required for HTML-to-video rendering. Cloning the full repo also fetches ~240MB of Git LFS golden-test baselines (skippable with GIT_LFS_SKIP_SMUDGE=1).",
+        "sec_note_zh": "独立本地渲染器,而非付费 API 薄壳。需要 Node.js 22+、PATH 上的 FFmpeg,以及经 Puppeteer 驱动的无头 Chrome(@hyperframes/engine 包);渲染默认在本地运行,可选 AWS Lambda 路径。它读取你的合成 HTML/媒体,把 MP4 写入项目。可选的媒体功能(TTS 配音、背景音乐/音效)可使用 HeyGen/ElevenLabs/Gemini 的 API key,但也能回退到完全本地的模型(Kokoro TTS、MusicGen、Whisper、u2net 抠图),这些会下载较大的模型文件(约 75MB–3GB)并依赖 Python——HTML 转视频的渲染本身并不需要它们。克隆完整仓库还会拉取约 240MB 的 Git LFS 基准测试产物(可用 GIT_LFS_SKIP_SMUDGE=1 跳过)。",
+        "requires_config": false
+      }
+    ]
+  },
+  "fabriqaai/ffmpeg-analyse-video-skill": {
+    "etag": "W/\"06f965a050a2179cd4686026ed03462cf0959286b370b7079bf3ebb5b22c41d1\"",
+    "readme_hash": "b24194fb697ebe7d3cbe14fee8b37c6d80c4c8f8e0de4172245f201a6c34e75d",
+    "entries": [
+      {
+        "id": "aleph-hub:fabriqaai/ffmpeg-analyse-video-skill",
+        "repo_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
+        "via": "github:fabriqaai",
+        "full_name": "fabriqaai/ffmpeg-analyse-video-skill",
+        "owner": "fabriqaai",
+        "repo": "ffmpeg-analyse-video-skill",
+        "kind": "skill",
+        "name": "FFmpeg Video Analyzer",
+        "author": "fabriqaai",
+        "category": "utilities",
+        "tags": [
+          "ffmpeg",
+          "video",
+          "analysis",
+          "vision"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
+          "git_ref": "main"
+        },
+        "description_en": "Analyzes a local video file by extracting frames with ffmpeg/ffprobe and delegating frame reading to disposable vision sub-agents, then synthesizes a timestamped, step-by-step Markdown summary (timeline, key moments, narrative).",
+        "description_zh": "用 ffmpeg/ffprobe 从本地视频抽帧，把读帧交给一次性的视觉子代理，再综合成带时间戳的逐步 Markdown 摘要（时间线、关键时刻、叙述）。",
+        "long_en": "A context-efficient pipeline—frame images live only inside sub-agent contexts while the main agent reads text-only batch reports—so understanding screen recordings, tutorials, presentations, or footage costs roughly 90% less context than reading frames directly.",
+        "long_zh": "上下文高效的流水线——帧图像只存在于子代理上下文中，主代理只读纯文本批次报告——理解屏幕录制、教程、演示或素材时，比直接读帧省约 90% 上下文。",
+        "sec_note_en": "Requires ffmpeg and ffprobe installed locally and an agent with an AI vision model to read frames; reads the given video and writes JPEG frames plus Markdown to a temp dir (cleaned up afterward). The repo has no LICENSE file committed (the README states MIT, but no license is actually present).",
+        "sec_note_zh": "需要本地安装 ffmpeg 与 ffprobe，并需一个具备 AI 视觉模型的代理来读帧；会读取给定视频、向临时目录写入 JPEG 帧与 Markdown（完成后清理）。仓库未提交 LICENSE 文件（README 写的是 MIT，但实际并未附带许可证）。",
+        "requires_config": false
+      }
+    ]
+  },
+  "remotion-dev/skills": {
+    "etag": "W/\"dcf5976155fc2005bd2c81cc54a24793bb5d844cf087978cb7f4e06870788ff1\"",
+    "readme_hash": "60c699748c6242f7d212a4de8c961765cde7fcd4d810b67ec20b7cca253a06dc",
+    "entries": [
+      {
+        "id": "aleph-hub:remotion-dev/skills",
+        "repo_url": "https://github.com/remotion-dev/skills",
+        "via": "github:remotion-dev",
+        "full_name": "remotion-dev/skills",
+        "owner": "remotion-dev",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Remotion Best Practices",
+        "author": "remotion-dev",
+        "category": "developer",
+        "tags": [
+          "video",
+          "react",
+          "remotion",
+          "code-driven"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/remotion-dev/skills",
+          "subdir": "skills/remotion",
+          "git_ref": "main"
+        },
+        "description_en": "Domain knowledge and best practices for building videos as code with Remotion (React)—animating via useCurrentFrame()/interpolate(), composition and sequence setup, captions, effects, audio, and a one-frame render check.",
+        "description_zh": "用 Remotion（React）以代码方式制作视频的领域知识与最佳实践——通过 useCurrentFrame()/interpolate() 做动画、组合与时序编排、字幕、特效、音频，以及单帧渲染自检。",
+        "long_en": "Loads Remotion-specific rules (40+ topic files on layout, transitions, fonts, 3D, audio, ffmpeg, voiceover and more) so an agent writes renderable Remotion code instead of CSS/Tailwind animation patterns that silently fail to render.",
+        "long_zh": "加载 Remotion 专属规则（40+ 个主题文件，涵盖布局、转场、字体、3D、音频、ffmpeg、配音等），让代理写出可渲染的 Remotion 代码，而非那些会静默渲染失败的 CSS/Tailwind 动画写法。",
+        "sec_note_en": "A knowledge/best-practices skill that scaffolds and renders real Remotion projects via npx (create-video, remotion studio/render), so it needs Node.js plus React and the Remotion toolchain. Remotion ships under its own license (free for individuals and small teams, paid for larger companies), which is not a standard OSS license—check it before commercial use. The skills repo itself has no LICENSE file at root.",
+        "sec_note_zh": "这是知识/最佳实践型技能，会通过 npx 实际脚手架并渲染 Remotion 项目（create-video、remotion studio/render），因此需要 Node.js 以及 React 与 Remotion 工具链。Remotion 使用其自有许可证（个人与小团队免费、较大公司需付费），并非标准开源许可证——商用前请先查看。skills 仓库本身根目录没有 LICENSE 文件。",
+        "requires_config": false
+      }
+    ]
+  },
+  "browser-use/video-use": {
+    "etag": "W/\"95227bcb10d80f7f2489a1314bdfc61fde01b2c9894e470ed5a299bf913bdc53\"",
+    "readme_hash": "987a0f91ccfcbebfbf3e1d5db34a24280884da7329518f39558380336c9c8684",
+    "entries": [
+      {
+        "id": "aleph-hub:browser-use/video-use",
+        "repo_url": "https://github.com/browser-use/video-use",
+        "via": "github:browser-use",
+        "full_name": "browser-use/video-use",
+        "owner": "browser-use",
+        "repo": "video-use",
+        "kind": "skill",
+        "name": "Video Use",
+        "author": "browser-use",
+        "category": "design",
+        "tags": [
+          "video",
+          "editing",
+          "subtitles",
+          "montage"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/browser-use/video-use",
+          "git_ref": "main"
+        },
+        "description_en": "Edit any video by conversation with a coding agent—transcribe, cut filler and dead space, color grade, generate overlay animations, and burn subtitles—reasoning from the raw transcript plus on-demand timeline visuals instead of frame-dumping.",
+        "description_zh": "用编码代理通过对话编辑任意视频——转写、剪掉口头语与空白、调色、生成叠加动画、烧录字幕——以原始转录文本加按需的时间线可视化为依据，而非整片抽帧。",
+        "long_en": "Ask → confirm → execute → self-eval → persist: it reasons over a packed phrase-level transcript, snaps every cut to word boundaries, applies 30ms audio fades, composites overlays (PIL/Remotion/HyperFrames/Manim) and subtitles, then checks its own rendered output at each cut before showing you.",
+        "long_zh": "提问 → 确认 → 执行 → 自检 → 持久化：基于打包的短语级转录推理，把每个剪切点对齐到词边界，加 30ms 音频淡入淡出，合成叠加动画（PIL/Remotion/HyperFrames/Manim）与字幕，再在展示前对自己渲染的输出逐个剪切点自检。",
+        "sec_note_en": "Needs ffmpeg/ffprobe and Python (uv/pip) deps installed locally; transcription uses the hosted ElevenLabs Scribe API and requires an ELEVENLABS_API_KEY (a paid cloud service) stored in a .env at the repo root. Optional Node.js for HyperFrames/Remotion overlays, Manim for diagram slots, and yt-dlp for online sources. Reads your footage and writes all outputs to <videos_dir>/edit/. MIT licensed.",
+        "sec_note_zh": "需要本地安装 ffmpeg/ffprobe 与 Python（uv/pip）依赖；转写使用托管的 ElevenLabs Scribe API，需要 ELEVENLABS_API_KEY（付费云服务），存放在仓库根目录的 .env 中。叠加动画可选 Node.js（HyperFrames/Remotion）、图解片段需 Manim、在线源需 yt-dlp。会读取你的素材并把全部输出写入 <videos_dir>/edit/。MIT 许可证。",
+        "requires_config": false
+      }
+    ]
+  },
+  "adithya-s-k/manim_skill": {
+    "etag": "W/\"51661b2dce26285e455f392488dd427e138145147244b650c75d3c12aea727f5\"",
+    "readme_hash": "d15fe6a69c3dd2a08e927d006d1fcdea63f972ff7176650c1822131c455ab00b",
+    "entries": [
+      {
+        "id": "aleph-hub:adithya-s-k/manim_skill/manim-composer",
+        "repo_url": "https://github.com/adithya-s-k/manim_skill",
+        "via": "github:adithya-s-k",
+        "full_name": "adithya-s-k/manim_skill",
+        "owner": "adithya-s-k",
+        "repo": "manim_skill",
+        "kind": "skill",
+        "name": "Manim Composer",
+        "author": "adithya-s-k",
+        "category": "design",
+        "tags": [
+          "manim",
+          "animation",
+          "math",
+          "education",
+          "video"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/adithya-s-k/manim_skill",
+          "subdir": "skills/manim-composer",
+          "git_ref": "main"
+        },
+        "description_en": "Turn a vague explainer-video idea into a detailed, scene-by-scene plan (scenes.md): researches the topic, asks about audience/scope/style, then specifies mobjects, animations, narration, pacing, and a color palette in 3Blue1Brown style—before any code is written.",
+        "description_zh": "把模糊的讲解视频想法变成逐场景的详细方案（scenes.md）：先研究主题，再询问受众/范围/风格，然后以 3Blue1Brown 风格写清每场的对象、动画、旁白、节奏与配色——在写任何代码之前完成。",
+        "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manim-composer folder, not the whole repo). It is the planning stage, version-agnostic: it produces a scenes.md spec (narrative hook, scene breakdowns, transitions, color palette, math content, implementation order) meant to be handed off to manimce-best-practices or manimgl-best-practices for actual implementation. Ships reference docs on 3b1b narrative patterns and visual techniques plus a blank scenes template; it plans and does not render.",
+        "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manim-composer 这一个目录，而非整仓）。它是与版本无关的规划阶段：产出一份 scenes.md 方案（叙事钩子、分场拆解、转场、配色、数学内容、实现顺序），交给 manimce-best-practices 或 manimgl-best-practices 去真正实现。附带 3b1b 叙事模式与视觉技巧的参考文档及空白 scenes 模板；它只做规划，不做渲染。",
+        "sec_note_en": "Planning-only: outputs a Markdown scenes.md and does not render video, so it needs no Manim/LaTeX/ffmpeg itself. It uses web search to research the topic, so it sends your topic to the agent's search tool. To later build the planned video you will need Python plus Manim (and a LaTeX/ffmpeg toolchain for rendering) via the companion skills.",
+        "sec_note_zh": "仅做规划：输出 Markdown 版 scenes.md，不渲染视频，因此自身不需要 Manim/LaTeX/ffmpeg。它会用网络搜索研究主题，故会把你的主题发给代理的搜索工具。后续真正实现所规划的视频，需通过配套技能用到 Python 与 Manim（渲染还需 LaTeX/ffmpeg 工具链）。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:adithya-s-k/manim_skill/manimce-best-practices",
+        "repo_url": "https://github.com/adithya-s-k/manim_skill",
+        "via": "github:adithya-s-k",
+        "full_name": "adithya-s-k/manim_skill",
+        "owner": "adithya-s-k",
+        "repo": "manim_skill",
+        "kind": "skill",
+        "name": "Manim CE Best Practices",
+        "author": "adithya-s-k",
+        "category": "design",
+        "tags": [
+          "manim",
+          "manimce",
+          "animation",
+          "math",
+          "education"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/adithya-s-k/manim_skill",
+          "subdir": "skills/manimce-best-practices",
+          "git_ref": "main"
+        },
+        "description_en": "Best practices for Manim Community Edition (the `from manim import *` / `manim` CLI engine): scene structure, mobjects, animations, LaTeX/MathTex, coordinate systems and graphing, 3D with ThreeDScene, camera control, updaters, styling, and CLI render flags.",
+        "description_zh": "Manim 社区版（`from manim import *` 与 `manim` 命令行引擎）的最佳实践：场景结构、对象、动画、LaTeX/MathTex、坐标系与绘图、ThreeDScene 三维、相机控制、updater、样式与命令行渲染参数。",
+        "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manimce-best-practices folder, not the whole repo). Targets the community-maintained ManimCE, NOT 3b1b's ManimGL. Bundles ~25 topic rule files, five tested example scripts (basic animations, math visualization, updater patterns, graph plotting, 3D), copy-and-modify scene templates, and a quick reference with render flags, Jupyter %%manim cell magic, install steps, and a ManimCE-vs-ManimGL difference table to avoid version confusion.",
+        "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimce-best-practices 这一个目录，而非整仓）。面向社区维护的 ManimCE，而非 3b1b 的 ManimGL。打包约 25 个主题规则文件、五个经过测试的示例脚本（基础动画、数学可视化、updater 模式、函数绘图、三维）、可复制修改的场景模板，以及一份包含渲染参数、Jupyter %%manim 单元魔法、安装步骤与 ManimCE/ManimGL 差异对照表的速查表，以避免版本混淆。",
+        "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To actually render the examples you need Python plus Manim Community (`pip install manim`) and a local LaTeX/ffmpeg toolchain (TeX Live/MiKTeX/MacTeX + ffmpeg) for math typesetting and video encoding. All rendering is local; no paid or cloud API required.",
+        "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。要真正渲染示例，需要 Python 与 Manim 社区版（`pip install manim`），以及本地的 LaTeX/ffmpeg 工具链（TeX Live/MiKTeX/MacTeX + ffmpeg）用于数学排版与视频编码。全部本地渲染，无需付费或云端 API。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:adithya-s-k/manim_skill/manimgl-best-practices",
+        "repo_url": "https://github.com/adithya-s-k/manim_skill",
+        "via": "github:adithya-s-k",
+        "full_name": "adithya-s-k/manim_skill",
+        "owner": "adithya-s-k",
+        "repo": "manim_skill",
+        "kind": "skill",
+        "name": "ManimGL Best Practices",
+        "author": "adithya-s-k",
+        "category": "design",
+        "tags": [
+          "manim",
+          "manimgl",
+          "animation",
+          "math",
+          "education"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/adithya-s-k/manim_skill",
+          "subdir": "skills/manimgl-best-practices",
+          "git_ref": "main"
+        },
+        "description_en": "Best practices for ManimGL (3Blue1Brown's OpenGL engine, `from manimlib import *` / `manimgl` CLI): InteractiveScene, Tex with tex_to_color_map, self.frame camera control, 3D, and the interactive `-se` / checkpoint_paste() development workflow.",
+        "description_zh": "ManimGL（3Blue1Brown 的 OpenGL 引擎，`from manimlib import *` 与 `manimgl` 命令行）的最佳实践：InteractiveScene、带 tex_to_color_map 的 Tex、self.frame 相机控制、三维，以及 `-se` 交互模式与 checkpoint_paste() 开发流。",
+        "long_en": "One skill from adithya-s-k's manim_skill collection (this entry installs only the skills/manimgl-best-practices folder, not the whole repo). Targets Grant Sanderson's ManimGL, NOT Manim Community Edition. Covers ManimGL-specific patterns (ShowCreation vs Create, Tex raw strings, self.frame.reorient(), self.embed(), backstroke) with rule files, five example scripts, scene templates, and a difference table. Note the bundled example code is adapted from 3Blue1Brown's videos repo and carries its own license.",
+        "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimgl-best-practices 这一个目录，而非整仓）。面向 Grant Sanderson 的 ManimGL，而非 Manim 社区版。覆盖 ManimGL 专有写法（ShowCreation 而非 Create、Tex 原始字符串、self.frame.reorient()、self.embed()、backstroke），含规则文件、五个示例脚本、场景模板与差异对照表。注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，带有其自身许可。",
+        "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To render you need Python plus ManimGL (`pip install manimgl`) and a local LaTeX/ffmpeg toolchain; ManimGL also needs OpenGL and, on Apple Silicon, brew pkg-config/cairo. Licensing caveat: bundled example code is adapted from 3Blue1Brown's videos repo under CC BY-NC-SA 4.0 (attribution required, NonCommercial, ShareAlike)—not for commercial use. All rendering is local; no paid or cloud API required.",
+        "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。渲染需要 Python 与 ManimGL（`pip install manimgl`）以及本地 LaTeX/ffmpeg 工具链；ManimGL 还需要 OpenGL，在 Apple Silicon 上需 brew 安装 pkg-config/cairo。许可注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，采用 CC BY-NC-SA 4.0（需署名、禁商用、相同方式共享）——不可用于商业用途。全部本地渲染，无需付费或云端 API。",
         "requires_config": false
       }
     ]

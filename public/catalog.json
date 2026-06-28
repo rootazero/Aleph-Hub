@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 183,
-    "generated_at": "2026-06-28T05:05:33.510Z",
-    "content_hash": "sha256:01d95200c304748b8615a1e9f333cdb08d51027837ce8d3848e9f979b00c5a85"
+    "entry_count": 190,
+    "generated_at": "2026-06-28T05:32:57.689Z",
+    "content_hash": "sha256:87488e64ab18ea239ff07366923fde707f79d46f37f69605a5bc2cfd2f24a590"
   },
   "entries": [
     {
@@ -2676,6 +2676,175 @@
         "monitoring"
       ],
       "via": "github:yaojingang"
+    },
+    {
+      "id": "aleph-hub:heygen-com/hyperframes",
+      "kind": "plugin",
+      "category": "design",
+      "name": "HyperFrames",
+      "description": "HyperFrames by HeyGen is an open-source Claude Code plugin that turns HTML/CSS/JS compositions into deterministic MP4 videos, bundling 19 on-demand skills—a router plus creation workflows (product launch, website-to-video, faceless explainer, PR-to-video, captions, motion graphics, music, slideshow) and domain skills (core composition contract, animation adapters, creative direction, media, CLI) that teach agents the full video-production loop.",
+      "repo_url": "https://github.com/heygen-com/hyperframes",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/heygen-com/hyperframes",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "heygen-com",
+      "tags": [
+        "video",
+        "animation",
+        "html",
+        "rendering",
+        "agents"
+      ],
+      "via": "github:heygen-com"
+    },
+    {
+      "id": "aleph-hub:fabriqaai/ffmpeg-analyse-video-skill",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "FFmpeg Video Analyzer",
+      "description": "Analyzes a local video file by extracting frames with ffmpeg/ffprobe and delegating frame reading to disposable vision sub-agents, then synthesizes a timestamped, step-by-step Markdown summary (timeline, key moments, narrative).",
+      "repo_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "fabriqaai",
+      "tags": [
+        "ffmpeg",
+        "video",
+        "analysis",
+        "vision"
+      ],
+      "via": "github:fabriqaai"
+    },
+    {
+      "id": "aleph-hub:remotion-dev/skills",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Remotion Best Practices",
+      "description": "Domain knowledge and best practices for building videos as code with Remotion (React)—animating via useCurrentFrame()/interpolate(), composition and sequence setup, captions, effects, audio, and a one-frame render check.",
+      "repo_url": "https://github.com/remotion-dev/skills",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/remotion-dev/skills",
+        "subdir": "skills/remotion",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "remotion-dev",
+      "tags": [
+        "video",
+        "react",
+        "remotion",
+        "code-driven"
+      ],
+      "via": "github:remotion-dev"
+    },
+    {
+      "id": "aleph-hub:browser-use/video-use",
+      "kind": "skill",
+      "category": "design",
+      "name": "Video Use",
+      "description": "Edit any video by conversation with a coding agent—transcribe, cut filler and dead space, color grade, generate overlay animations, and burn subtitles—reasoning from the raw transcript plus on-demand timeline visuals instead of frame-dumping.",
+      "repo_url": "https://github.com/browser-use/video-use",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/browser-use/video-use",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "browser-use",
+      "tags": [
+        "video",
+        "editing",
+        "subtitles",
+        "montage"
+      ],
+      "via": "github:browser-use"
+    },
+    {
+      "id": "aleph-hub:adithya-s-k/manim_skill/manim-composer",
+      "kind": "skill",
+      "category": "design",
+      "name": "Manim Composer",
+      "description": "Turn a vague explainer-video idea into a detailed, scene-by-scene plan (scenes.md): researches the topic, asks about audience/scope/style, then specifies mobjects, animations, narration, pacing, and a color palette in 3Blue1Brown style—before any code is written.",
+      "repo_url": "https://github.com/adithya-s-k/manim_skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/adithya-s-k/manim_skill",
+        "subdir": "skills/manim-composer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "adithya-s-k",
+      "tags": [
+        "manim",
+        "animation",
+        "math",
+        "education",
+        "video"
+      ],
+      "via": "github:adithya-s-k"
+    },
+    {
+      "id": "aleph-hub:adithya-s-k/manim_skill/manimce-best-practices",
+      "kind": "skill",
+      "category": "design",
+      "name": "Manim CE Best Practices",
+      "description": "Best practices for Manim Community Edition (the `from manim import *` / `manim` CLI engine): scene structure, mobjects, animations, LaTeX/MathTex, coordinate systems and graphing, 3D with ThreeDScene, camera control, updaters, styling, and CLI render flags.",
+      "repo_url": "https://github.com/adithya-s-k/manim_skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/adithya-s-k/manim_skill",
+        "subdir": "skills/manimce-best-practices",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "adithya-s-k",
+      "tags": [
+        "manim",
+        "manimce",
+        "animation",
+        "math",
+        "education"
+      ],
+      "via": "github:adithya-s-k"
+    },
+    {
+      "id": "aleph-hub:adithya-s-k/manim_skill/manimgl-best-practices",
+      "kind": "skill",
+      "category": "design",
+      "name": "ManimGL Best Practices",
+      "description": "Best practices for ManimGL (3Blue1Brown's OpenGL engine, `from manimlib import *` / `manimgl` CLI): InteractiveScene, Tex with tex_to_color_map, self.frame camera control, 3D, and the interactive `-se` / checkpoint_paste() development workflow.",
+      "repo_url": "https://github.com/adithya-s-k/manim_skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/adithya-s-k/manim_skill",
+        "subdir": "skills/manimgl-best-practices",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "adithya-s-k",
+      "tags": [
+        "manim",
+        "manimgl",
+        "animation",
+        "math",
+        "education"
+      ],
+      "via": "github:adithya-s-k"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
