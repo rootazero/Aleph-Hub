@@ -1,0 +1,24 @@
+{
+  "id": "aleph-hub:yaojingang/yao-open-prompts#children-learning-page-lisp",
+  "full_name": "yaojingang/yao-open-prompts",
+  "slug": "children-learning-page-lisp",
+  "source_path": "prompts/05-ai-education/children-learning-page-lisp.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Children's Interactive Learning Page",
+  "tags": [
+    "children",
+    "education",
+    "html",
+    "interactive",
+    "pseudocode"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: \"儿童互动学习页面生成提示词\"\ncategory: \"AI教育\"\nsubcategory: \"儿童学习\"\nsource_section: \"05-Prompts/Scenarios/Learning\"\nauthor: \"姚金刚\"\nversion: \"V0.6\"\ncreated: \"2025-05-05\"\nstatus: \"active\"\ntags: \"儿童学习, HTML页面, 互动设计\"\n---\n# 儿童互动学习页面生成提示词\n\n## 简介\n用伪代码形式定义儿童互动学习页面的设计原则、页面目标、内容策略、布局和交互方式。\n\n## Prompt\n````python\ndef 儿童互动学习页面(儿童年龄段, 学习主题):\n   \"\"\"\n   创建一个 HTML 页面\n   - 中文页面\n   - 元素不重叠，避免过于拥挤\n   \"\"\"\n   设计原则 = [\"友好温暖\", \"简单易懂\", \"视觉趣味\", \"安全可靠\", \"成长激励\"]\n   页面目标 = [\"激发学习兴趣\", \"培养好奇心\", \"提供知识获取\", \"促进互动参与\", \"创造愉悦体验\"]\n   内容策略 = [\"图文并茂\", \"分级阅读\", \"故事化呈现\", \"有趣的问答\", \"积极正向引导\"]\n   排版布局 = [\"清晰大字体\", \"圆润边角\", \"充足留白\", \"模块化布局\", \"直观导航\"]\n   视觉元素 = [\"明亮色彩\", \"柔和过渡\", \"卡通风格\", \"简洁图形\", \"一致性主题\"]\n   图形元素 = [\"可爱动物角色\", \"简单几何形状\", \"互动元素图标\", \"成长进度标识\", \"探索地图插图\"]\n   交互设计 = [\"声音反馈\", \"简单拖拽\", \"成就奖励\", \"动画过渡\", \"直观操作\"]\n\n   return 儿童友好学习页面\n````\n",
+  "description_en": "Uses a pseudocode function to specify design principles, goals, and interactions for an AI to generate a child-friendly interactive HTML learning page.",
+  "description_zh": "用伪代码函数定义设计原则、目标和交互方式，引导 AI 生成对儿童友好的互动式 HTML 学习页面。",
+  "long_en": "Defines a Chinese children's learning page via a pseudocode spec — friendly visual style, graded reading, cartoon graphics, and interaction patterns — so the model outputs a non-overlapping, kid-friendly HTML page for a given age group and topic.",
+  "long_zh": "通过伪代码规格定义中文儿童学习页面——友好视觉、分级阅读、卡通图形与交互方式——让模型按给定年龄段和学习主题输出元素不重叠、对儿童友好的 HTML 页面。",
+  "sec_note_en": "Plain-text prompt that performs no actions itself; it instructs the model to emit a single HTML page and parameterizes age group and learning topic.",
+  "sec_note_zh": "纯文本提示词本身不执行任何操作；它指示模型输出单个 HTML 页面，并以年龄段和学习主题作为参数。"
+}

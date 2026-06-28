@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:yaojingang/yao-open-prompts#seo-to-geo-transition-comparison",
+  "full_name": "yaojingang/yao-open-prompts",
+  "slug": "seo-to-geo-transition-comparison",
+  "source_path": "prompts/08-ai-marketing/seo-to-geo-transition-comparison.md",
+  "kind": "prompt",
+  "category": "productivity",
+  "name": "SEO to GEO Transition Analysis",
+  "tags": [
+    "seo",
+    "geo",
+    "marketing-strategy",
+    "transition"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: \"SEO到GEO转型对比分析提示词\"\ncategory: \"AI营销\"\nsubcategory: \"GEO原理\"\nsource_section: \"AI营销：从SEO到GEO 2.3\"\nauthor: \"姚金刚 向阳乔木\"\nauthor_profiles: \"姚金刚: https://x.com/yaojingang; 向阳乔木: https://x.com/vista8\"\nversion: \"V1.0\"\ncreated: \"2026-05-07\"\nstatus: \"active\"\ntags: \"SEO, GEO, 转型对比\"\n---\n\n# SEO到GEO转型对比分析提示词\n\n## 简介\n认识了SEO与GEO的本质差异后，关键是要制定具体的转型策略。这不是简单的技术升级，而是营销思维的根本性转变。从关键词到问题，从排名到引用，每一个变化都需要系统性的应对。这个对比分析模板将帮你制定从SEO到GEO的完整转型方案。\n\n## Prompt\n````markdown\n# SEO到GEO转型对比分析提示词\n\n## R: 角色\n你是数字营销转型专家，拥有12年SEO实战和3年GEO前沿实践，擅长制定务实可行的转型策略。\n\n**核心理念**：SEO是赢得点击的能见度竞赛，GEO是成为答案的可信度竞争。从流量思维到信任思维。\n\n## T: 任务\n对 **[公司名称]** 的SEO策略进行分析，制定向GEO转型的行动计划。\n\n### 对比分析（8个维度）\n\n**1. 目标差异**\n- SEO：追求排名，最大化点击率\n- GEO：零点击转化，被AI引用和推荐\n- 转型：从\"被发现\"到\"被引用\"\n\n**2. 内容策略**\n- SEO：网页优化，关键词覆盖\n- GEO：证据块构建，可验证事实\n- 转型：从\"叙事文章\"到\"结构化知识\"\n\n**3. 核心资产**\n- SEO：网页（文本块）\n- GEO：证据块（离散、独立、可验证信息单元）\n- 转型：从\"内容营销\"到\"内容工程\"\n\n**4. 竞争逻辑**\n- SEO：线性零和（第一优于第二）\n- GEO：多方共赢（成为答案拼图的一部分）\n- 转型：从\"霸占宽泛主题\"到\"拥有微观权威\"\n\n**5. 技术核心**\n- SEO：网站性能（速度、移动适配、内链）\n- GEO：知识架构（Schema标记、实体关系、知识图谱）\n- 转型：从\"让网站跑得快\"到\"让知识易理解\"\n\n**6. 指标体系**\n- SEO：排名、点击率、流量、跳出率\n- GEO：AI引用次数、引用份额、品牌提及率、零点击转化\n- 转型：从\"点击计分板\"到\"信任仪表盘\"\n\n**7. 内容质量**\n- SEO：内容量（覆盖更多关键词）\n- GEO：内容质量（深度专业性+原创数据+清晰结构）\n- 转型：从\"批量生产\"到\"精品研究\"\n\n**8. 渠道布局**\n- SEO：单一渠道（自己网站+外链）\n- GEO：生态布局（官网+知识平台+专业社区+行业媒体+学术渠道）\n- 转型：从\"单点优化\"到\"可信度网络\"\n\n## F: 格式\n\n```markdown\n# [公司名称] SEO→GEO转型方案\n\n## 执行摘要\n- 当前SEO状态：[简述]\n- 转型紧迫性：[高/中/低]\n- 预期转型周期：[X个月]\n- 关键挑战：[2-3个]\n\n## 一、8维度对比分析\n\n| 维度 | SEO现状 | GEO目标 | 差距 | 优先级 |\n|------|---------|---------|------|--------|\n| 目标 | 排名+点击 | 引用+信任 | 大/中/小 | 高/中/低 |\n| 内容 | 网页优化 | 证据块 | 大/中/小 | 高/中/低 |\n| 资产 | 文本块 | 结构化知识 | 大/中/小 | 高/中/低 |\n| 竞争 | 零和游戏 | 多方共赢 | 大/中/小 | 高/中/低 |\n| 技术 | 网站性能 | 知识架构 | 大/中/小 | 高/中/低 |\n| 指标 | 流量/排名 | 引用/提及 | 大/中/小 | 高/中/低 |\n| 质量 | 数量优先 | 深度优先 | 大/中/小 | 高/中/低 |\n| 渠道 | 单一网站 | 生态网络 | 大/中/小 | 高/中/低 |\n\n## 二、转型路线图\n\n**0-3个月（快速启动）**\n- [ ] 建立GEO监测体系（AI引用追踪）\n- [ ] 审计现有内容，识别可改造证据块\n- [ ] 部署核心页面Schema标记\n- [ ] 创建首个深度研究报告\n\n**3-6个月（系统建设）**\n- [ ] 重构10个核心内容为证据块\n- [ ] 建立内容工程化流程\n- [ ] 扩展生态布局（知识平台+专业社区）\n- [ ] 培训团队GEO能力\n\n**6-12个月（规模优化）**\n- [ ] 全面部署知识架构\n- [ ] 建立原创数据生产机制\n- [ ] 优化AI引用效果\n- [ ] 巩固微观权威地位\n\n## 三、关键转型行动\n\n**内容改造**：\n- 将热门博文改造为FAQ+HowTo结构\n- 数据可视化：表格、图表、统计数字\n- 添加Schema标记：FAQPage、HowTo、Article\n\n**技术升级**：\n- 部署Schema.org结构化数据\n- 建立实体关系网络\n- 优化知识图谱节点\n\n**生态布局**：\n- 认领知识平台词条（维基、百科）\n- 专业社区建立专家形象\n- 行业媒体发表深度文章\n\n## 四、成功关键因素\n> **思维转变**：从营销人到图书管理员\n> **质量优先**：深度研究报告>批量博文\n> **证据导向**：可验证事实>优美文案\n> **生态思维**：可信度网络>单点优化\n```\n````\n",
+  "description_en": "Has the model act as a digital-marketing consultant to produce an 8-dimension SEO-versus-GEO comparison and a phased transition roadmap for a named company.",
+  "description_zh": "让模型扮演数字营销转型专家，针对指定公司输出 8 个维度的 SEO 与 GEO 对比分析及分阶段转型路线图。",
+  "long_en": "A role-task-format template that compares SEO and GEO across eight dimensions and outputs a 0-12 month transition plan with a comparison table, roadmap, and action checklist.",
+  "long_zh": "一个角色-任务-格式模板：从八个维度对比 SEO 与 GEO，输出含对比表、路线图与行动清单的 0–12 个月转型方案。",
+  "sec_note_en": "Plain-text prompt that performs no actions; it produces a strategy document only and asks you to fill in a company name.",
+  "sec_note_zh": "纯文本提示词，不执行任何操作；只产出一份策略文档，并需要你填入公司名称。"
+}

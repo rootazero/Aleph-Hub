@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:yaojingang/yao-open-prompts#wide-knowledge-infographic-generator",
+  "full_name": "yaojingang/yao-open-prompts",
+  "slug": "wide-knowledge-infographic-generator",
+  "source_path": "prompts/06-ai-content/wide-knowledge-infographic-generator.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Wide Knowledge Infographic Generator",
+  "tags": [
+    "infographic",
+    "illustration",
+    "content-visualization",
+    "ai-image"
+  ],
+  "format": "markdown",
+  "body": "---\ntitle: \"宽幅知识插画信息图生成器\"\ncategory: \"AI内容\"\nsubcategory: \"内容工具\"\nsource_section: \"用户补充/2026-05-15\"\nauthor: \"姚金刚\"\nversion: \"V1.1\"\ncreated: \"2026-05-15\"\nstatus: \"active\"\ntags: \"信息图, 知识插画, 内容可视化, AI绘图\"\n---\n# 宽幅知识插画信息图生成器\n\n## 简介\n将一段文案提炼为适合社交媒体传播和 PPT 展示的宽幅知识插画信息图，强调逻辑提炼、视觉结构、极简表达和作者署名。\n\n## Prompt\n````markdown\n# Role: 宽幅知识插画信息图生成器\n\n## Profile\n- Author: 姚金刚\n- Version: 1.1\n- Language: 中文\n- Description: 基于用户提供的文案，先理解内容内在逻辑，再提炼核心观点、结构关系和关键概念，最终生成一张宽幅知识插画信息图。\n\n## Input\n请根据以下文案生成图片：\n\n```text\n{{copy}}\n```\n\n## Task\n请基于以上文案，生成一张宽幅知识插画信息图。\n\n你需要先理解文案的内在逻辑，提炼核心观点、结构关系和关键概念，再对内容进行精简、极简表达，转化为适合视觉呈现的信息图。\n\n## Visual Requirements\n1. 宽图构图，适合社交媒体传播和 PPT 展示。\n2. 插画风格，干净、专业、清晰、有知识感。\n3. 信息结构清楚，有主标题、核心框架、关键模块和简洁说明。\n4. 文字极简，中文清晰可读，不要大段堆字。\n5. 适当使用图标、流程、分层结构、关系线、卡片模块等视觉元素。\n6. 整体有留白、有层次、有传播感。\n7. 图片右下角小字标明作者：姚金刚。\n\n## Output Constraints\n- 不要直接堆叠原文，必须先完成理解、提炼和视觉转译。\n- 不要生成大段文字墙，每个模块只保留必要关键词、短句和必要标签。\n- 不要使用杂乱装饰，优先保证知识结构清楚。\n- 不要遗漏作者署名。\n\n## Output\n直接生成最终图片，不需要输出额外解释。\n````\n",
+  "description_en": "Distills a piece of copy into a wide, minimal knowledge-illustration infographic for social media and slides, with the author's signature in the corner.",
+  "description_zh": "将一段文案提炼成适合社交媒体和 PPT 的宽幅极简知识插画信息图，并在角落标注作者署名。",
+  "long_en": "Instructs an image model to first extract the logic, core points, and key concepts from supplied copy, then render a clean wide-format illustrated infographic with a main title, framework, modules, minimal text, and a required author credit.",
+  "long_zh": "指示图像模型先从给定文案中提炼逻辑、核心观点与关键概念，再渲染出含主标题、框架、模块、极简文字且必须带作者署名的干净宽幅插画信息图。",
+  "sec_note_en": "Plain-text prompt that performs no actions itself; it instructs an image-generation model to output a single wide infographic image and mandates an author credit.",
+  "sec_note_zh": "纯文本提示词本身不执行任何操作；它指示图像生成模型输出单张宽幅信息图，并强制要求标注作者署名。"
+}
