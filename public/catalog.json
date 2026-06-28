@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 190,
-    "generated_at": "2026-06-28T05:32:57.689Z",
-    "content_hash": "sha256:87488e64ab18ea239ff07366923fde707f79d46f37f69605a5bc2cfd2f24a590"
+    "entry_count": 208,
+    "generated_at": "2026-06-28T10:46:52.518Z",
+    "content_hash": "sha256:e12ef9bcead86cb060eba4f61610c72e10cc6277e7a637b5a1d516b6620d2acc"
   },
   "entries": [
     {
@@ -2847,6 +2847,453 @@
       "via": "github:adithya-s-k"
     },
     {
+      "id": "aleph-hub:anthropics/skills/algorithmic-art",
+      "kind": "skill",
+      "category": "design",
+      "name": "Algorithmic Art",
+      "description": "Generates interactive algorithmic/generative art using p5.js, producing self-contained HTML artifacts with seeded randomness and parameter controls.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/algorithmic-art",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "generative-art",
+        "p5js",
+        "creative-coding",
+        "interactive",
+        "algorithmic"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/brand-guidelines",
+      "kind": "skill",
+      "category": "design",
+      "name": "Brand Guidelines",
+      "description": "Applies Anthropic's official brand colors and typography (Poppins/Lora) to artifacts such as slide decks and documents.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/brand-guidelines",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "branding",
+        "anthropic",
+        "typography",
+        "pptx",
+        "design"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/canvas-design",
+      "kind": "skill",
+      "category": "design",
+      "name": "Canvas Design",
+      "description": "Creates original museum-quality visual art as PNG or PDF files, guided by a generated design philosophy manifesto.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/canvas-design",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "visual-art",
+        "poster",
+        "pdf",
+        "png",
+        "design-philosophy"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/claude-api",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Claude API Reference",
+      "description": "Reference documentation for the Claude API and Anthropic SDK — model IDs, pricing, streaming, tool use, MCP, caching, and token counting.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/claude-api",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "claude",
+        "api",
+        "sdk",
+        "documentation",
+        "llm"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/doc-coauthoring",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Doc Co-Authoring",
+      "description": "Guides users through a 3-stage co-authoring workflow—context gathering, section-by-section refinement, and reader testing with a fresh Claude—for docs, specs, and proposals.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/doc-coauthoring",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "documentation",
+        "writing",
+        "collaboration",
+        "workflow",
+        "proposals"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/docx",
+      "kind": "skill",
+      "category": "files",
+      "name": "DOCX",
+      "description": "Create, read, and edit Word (.docx) documents — new docs via the `docx` npm library, existing docs via an unpack-edit-repack XML workflow.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/docx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "docx",
+        "word",
+        "document",
+        "office",
+        "xml"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/frontend-design",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Frontend Design",
+      "description": "Opinionated design guidance for creating distinctive, production-grade frontend interfaces with deliberate palette, typography, and layout choices.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/frontend-design",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "design",
+        "frontend",
+        "ui",
+        "css",
+        "typography"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/internal-comms",
+      "kind": "skill",
+      "category": "communication",
+      "name": "Internal Comms",
+      "description": "Writes internal communications—3P updates, company newsletters, FAQ answers, status reports, leadership updates, project updates, and incident reports—following company-appropriate formats.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/internal-comms",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "communication",
+        "writing",
+        "status-report",
+        "newsletter",
+        "workplace"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/mcp-builder",
+      "kind": "skill",
+      "category": "developer",
+      "name": "MCP Builder",
+      "description": "Step-by-step guide for building high-quality MCP servers in TypeScript or Python, covering tool design, testing with MCP Inspector, and evaluation.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/mcp-builder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "mcp",
+        "sdk",
+        "typescript",
+        "python",
+        "api"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/pdf",
+      "kind": "skill",
+      "category": "files",
+      "name": "PDF",
+      "description": "Extract text/tables, merge, split, rotate, watermark, create, fill forms, OCR, and encrypt PDF files using Python libraries and CLI tools.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/pdf",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "pdf",
+        "extract",
+        "merge",
+        "ocr",
+        "document"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/pptx",
+      "kind": "skill",
+      "category": "files",
+      "name": "PPTX",
+      "description": "Read, create, and edit PowerPoint (.pptx) presentations — text extraction via markitdown, creation via pptxgenjs, editing via XML unpack/repack.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/pptx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "pptx",
+        "powerpoint",
+        "slides",
+        "presentation",
+        "office"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/skill-creator",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Skill Creator",
+      "description": "Guides creation and iterative improvement of Agent Skills — from drafting and writing evals to benchmarking trigger accuracy and optimizing descriptions.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/skill-creator",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "skills",
+        "evaluation",
+        "automation",
+        "testing"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/slack-gif-creator",
+      "kind": "skill",
+      "category": "communication",
+      "name": "Slack GIF Creator",
+      "description": "Creates animated GIFs optimized for Slack (emoji 128×128 or message 480×480) using Python and PIL drawing primitives.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/slack-gif-creator",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "gif",
+        "animation",
+        "slack",
+        "python",
+        "pillow"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/theme-factory",
+      "kind": "skill",
+      "category": "design",
+      "name": "Theme Factory",
+      "description": "Applies one of 10 pre-set or a custom color/font theme to any artifact — slides, docs, HTML pages, or reports.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/theme-factory",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "themes",
+        "styling",
+        "slides",
+        "fonts",
+        "colors"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/web-artifacts-builder",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Web Artifacts Builder",
+      "description": "Builds elaborate multi-component HTML artifacts using React 18, TypeScript, Tailwind CSS, and shadcn/ui, bundled into a single self-contained file.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/web-artifacts-builder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "react",
+        "tailwind",
+        "html",
+        "artifacts",
+        "shadcn"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/webapp-testing",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Web App Testing",
+      "description": "Tests local web applications using native Python Playwright scripts, supporting screenshot capture, DOM inspection, console log reading, and server lifecycle management.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/webapp-testing",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "playwright",
+        "testing",
+        "browser",
+        "automation"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:anthropics/skills/xlsx",
+      "kind": "skill",
+      "category": "files",
+      "name": "XLSX",
+      "description": "Create, read, and edit Excel (.xlsx) spreadsheets with pandas for data analysis and openpyxl for formulas, formatting, and multi-sheet workbooks.",
+      "repo_url": "https://github.com/anthropics/skills",
+      "trust_tier": "official",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/anthropics/skills",
+        "subdir": "skills/xlsx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "anthropics",
+      "tags": [
+        "xlsx",
+        "excel",
+        "spreadsheet",
+        "pandas",
+        "data"
+      ],
+      "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:obra/superpowers",
+      "kind": "plugin",
+      "category": "developer",
+      "name": "Superpowers",
+      "description": "Claude Code plugin bundling a complete software development methodology: TDD, systematic debugging, brainstorming, planning, subagent-driven development, code review, and git worktree workflows.",
+      "repo_url": "https://github.com/obra/superpowers",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/obra/superpowers",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "obra",
+      "tags": [
+        "tdd",
+        "debugging",
+        "workflow",
+        "planning",
+        "collaboration"
+      ],
+      "via": "github:obra"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -4034,6 +4481,29 @@
       "via": "github:Bhanunamikaze"
     },
     {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
+    },
+    {
       "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
       "category": "utilities",
@@ -4078,29 +4548,6 @@
         "conversion"
       ],
       "via": "github:Hasasasa"
-    },
-    {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
-      "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "patrickstigler",
-      "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
-      ],
-      "via": "github:patrickstigler"
     },
     {
       "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",

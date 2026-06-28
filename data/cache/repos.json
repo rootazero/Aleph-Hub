@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"8df9bb1cd045cc6cbf9ba23ada6d5412210df6b1ce048d93e83e6a8232a5298a\"",
+    "etag": "W/\"14334aa41cf2f5439e8143db4c2574dbb4feac8e201dda2c9d317d223ab30af1\"",
     "readme_hash": "22d82a9114c111268660d2a3ed48e2201bb17ecd65a0cea96196dc15db73d357",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "\"16038ac10e1fe17ecabb1188282ce8f9762d9cb082c73db6cb0b5c06c1ad4e18\"",
+    "etag": "W/\"0d88bc54ad4b37d14e52cd09f5921da320879b294f9323d781cc58389d604fcb\"",
     "readme_hash": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "\"1c5afaa7fcc575d42bb20ff20dc1a9ec8be41542f47becdd7da027ab360a63cf\"",
+    "etag": "W/\"75d9fa05a241b52a86b5a49e3c84312fa60bb1c7139ed60bb606e52a80a86394\"",
     "readme_hash": "075cc97e124df82c71cf242d14748cf4e6fe245241458f38d447c7413e08cce5",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"0aadb7a368c91a04b742ed4485fc3a257dfdb3773228c336b22435ffe1ab7b49\"",
+    "etag": "W/\"92062c420062dde16daedd3a452683c102a8031fec0c6c457fe12a4d8fd34156\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"7345de1386f2ba419fff30acced4eb6c2d19e2c5be3376c9a4b5b38f904fe145\"",
+    "etag": "W/\"824651c4761b5a21e9b42c20aacd9380ec1ee7ea5fbfca7e9f0ee84c2a4662dd\"",
     "readme_hash": "37389094e773c33866d0da5fe98971b575c7faa28d923486005df7bc4ee4d84a",
     "entries": [
       {
@@ -203,8 +203,8 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"cc186c09ad89393061cdd7391b78499e1fb069e2449250660df262bfd092c101\"",
-    "readme_hash": "f17b9a73cbaca194246071813b0382536baf0ec2e969140e934ea3232e9c1807",
+    "etag": "W/\"67778426ac15e85ea8219e8bd1f58aba8e3431946b207c1689ded6b422a42858\"",
+    "readme_hash": "d1ff115453ed4554d449cc882c4128be0ee9ff5394bd3eb0ec36736ff67101ae",
     "entries": [
       {
         "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
@@ -238,7 +238,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"50fc85c547375e591d41b8121a3d8808a3e1a31fa8f67b65e9681c1178f3199d\"",
+    "etag": "W/\"5fa788c52d02322b3e3911c344758ab89ba5c3a188dd84b41fa5b17f56261d83\"",
     "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
     "entries": [
       {
@@ -273,8 +273,8 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "\"ff0df7a1ed26f862952b0bf5f7580c3a0bc7b956bf2df64513c5ddebdfa77f63\"",
-    "readme_hash": "475fa0ec89589a191d01101abd90e2838a4b18b6df743769121fb3f18bc8ad83",
+    "etag": "W/\"00f2d0b62865ef601d79ad0812e95f1fa4a0e100e6f474fedb7b92c4f84cd3fb\"",
+    "readme_hash": "a526ab2482a02bdfbc2920782640a810ef9dace5a19516a88d5d5a18eef6549a",
     "entries": [
       {
         "id": "aleph-hub:nolangz/pixel2motion",
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "\"a34e7facec800fe678033906b9812c7c40ea988ff48287db1bc4883ed1922acd\"",
+    "etag": "W/\"28a07a1884e71b2ab87b45356b2a65b97021b4393d7623b0fc62e30f60ec6387\"",
     "readme_hash": "3dd33ca4c6580ac8b40b1631943fbf50dd30ef1fb0f9360b16f1b05c11e0f8d7",
     "entries": [
       {
@@ -877,7 +877,7 @@
     ]
   },
   "irenerachel/visual-style-ppt-skill": {
-    "etag": "\"720ff1ee5398a139b27839ed779b217debb642da24eb67b2b0b768b65e9929b0\"",
+    "etag": "W/\"26400f6dc17931810b348146a75d4ca093723da3ba153b658667bcd27f444392\"",
     "readme_hash": "6a69ee0e2b2b26a85d9633d9ca967916412ae1cfab7a74cccfd3e052c054ead6",
     "entries": [
       {
@@ -1129,7 +1129,7 @@
     ]
   },
   "handsomeZR-netizen/mathmodel-skill": {
-    "etag": "\"38349155fd8e9b01d78b6819f941deeea492d682783a2ec9d87748b4fa39f09e\"",
+    "etag": "W/\"058d1b185b1c09da5d183448b35a4b07bba8740d8cb570baa8e02ae610a98801\"",
     "readme_hash": "0dca5317246f4ae111a0c27ccb7a1ff62923e3889d11f1090d0f1ed090044686",
     "entries": [
       {
@@ -1309,7 +1309,7 @@
     ]
   },
   "swaylq/master-skill": {
-    "etag": "\"2b10ebf5bae530297b8e5258778e2a0930bd8ed5f29170a0ab86810ec948974d\"",
+    "etag": "W/\"910f221e2a38fd321e126a5c670e30952d4397411628b8fa58227d29bc963707\"",
     "readme_hash": "564c5d7199914f056d1d4ac4f04eb36179b937b437bcf637b44b4c6251eeb02e",
     "entries": [
       {
@@ -1597,7 +1597,7 @@
     ]
   },
   "brettdavies/crawl4ai-skill": {
-    "etag": "\"58e65295cc412545ec5afc528d1145495280738f95744237213f4e8b7ae22f33\"",
+    "etag": "W/\"2d79a5c0f658ecf9adc6fba5c7342a652ae8bdfee2b8ade2589e1721c9c66539\"",
     "readme_hash": "e9e0d45aaaa7019c0c9da8c9752809ea97513ddf67af32fbe4ce90ea0230b59d",
     "entries": [
       {
@@ -1777,7 +1777,7 @@
     ]
   },
   "jianshuo/jianshuo-wechat-mp-publish": {
-    "etag": "\"13ebc304dcc584c48eaafd1aaab80cf12d23b9b87f3da9cd30b33568df706ee7\"",
+    "etag": "W/\"918af1b2a2bc4f2627dfafae5a2a73f6ece5c0fa4ef4057e65c83abbb6046999\"",
     "readme_hash": "1348b6aad9e3a693cfcf6e2c64d0a1a023fa0410fca56836a82d7688b57a208b",
     "entries": [
       {
@@ -2209,7 +2209,7 @@
     ]
   },
   "patrickstigler/claude-skill-it-recht-dsgvo": {
-    "etag": "\"ed739a1490b10d83de33960f08d6c995c6ad6d5691647a3456db11839bb6b0dc\"",
+    "etag": "W/\"4276e7bba71260f3335c6ee52b5544006ada4b066ba0a76cc2239110ced94c95\"",
     "readme_hash": "470879a20ceffa30f180d63de9ab3c9813ab5f72c5cb4100ee4d6bc5a84dc9bc",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"80b0d9715316dac31925671fd19de4d1f76c3cbc3a05005d81022262c298f1ef\"",
+    "etag": "W/\"d444eb1cd48eced505f261820efa28fcc1d5a8f19de097edd8ee76271a6940a1\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2425,7 +2425,7 @@
     ]
   },
   "CosmoBlk/email-marketing-bible": {
-    "etag": "\"7368691dca91e516c37d88d83e94e2e881d1bdb15412c8cc3a9a34e69197093c\"",
+    "etag": "W/\"f39e51a95bf07db7517191319ead5504f8db405345cd65a4dc5047b670956e6a\"",
     "readme_hash": "35d99ccb96a1ec97992fa7659e9694218aa34af021d42c001d317c11db4e4b18",
     "entries": [
       {
@@ -2569,7 +2569,7 @@
     ]
   },
   "O0000-code/paper-search-pro": {
-    "etag": "W/\"08b931153c64333afed1c15f771b68cf6461dd46ebc22091275d239b8b4ee307\"",
+    "etag": "\"08b931153c64333afed1c15f771b68cf6461dd46ebc22091275d239b8b4ee307\"",
     "readme_hash": "47dd71e57fe1fc22b781170f3b5823ac18d2cbcd04cfc602b33d82fd80cbc514",
     "entries": [
       {
@@ -2893,7 +2893,7 @@
     ]
   },
   "tlehman/litprog-skill": {
-    "etag": "\"5d23452ddca42cc59afb8cd8005263024afa755aa3b96d12e41fbb182062e269\"",
+    "etag": "W/\"8e95c915762b50fc1d1628c8c28faeb106316d7dd305c53f965a7d5baf6ac936\"",
     "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "\"5d113d6d3846fd6f639c05ae1b704e204e21e4cd977fede39b3cbb4c5588eebd\"",
+    "etag": "W/\"4ec70f285efad6aa576fd991126c0128ff24017b20f7517d782a68ddff9fcb74\"",
     "readme_hash": "cd790218b2f69d069c09551920c7447c81d931284cf54a7f8edf2cc32f22cf16",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"8408bc00b482e63bdcabaa92eae81f84f00b93708ae1a1e3c9dc5e99fa7a61a0\"",
+    "etag": "W/\"a43b4956f43c31ec13443c47c78395db3164d087e0649286c3ee001375876762\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"d729cf4d6c676350843be44e892002179aad9f595698388279ab98e0c402c01f\"",
+    "etag": "W/\"e54433a5d806266c02cf93f87e2a2ce60a412c30b553008a21539cb4c23018ff\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,7 +3038,7 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"7f0c4b21f6c15efeac886a0d9846662ff48d5ac1d8ea221a1c9e3a0f7e802421\"",
+    "etag": "W/\"cd3e1d38a59beb35dd44fca6443de4f36d7af087bea1d0a56396b8f348746ced\"",
     "readme_hash": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6",
     "entries": [
       {
@@ -3075,7 +3075,7 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"961f80bdfb372fa56ff2c2d5c7d8dea9aa2349787752b9e263e16df62cd09adc\"",
+    "etag": "W/\"ccf66d9118df93e0b6eefe4678dbbec054d171c404fe3f1796b932c7aea9b97e\"",
     "readme_hash": "07c21176b8117e80b6a843fdcc0ca797c899fc89195dfc2d2ccd43433232f886",
     "entries": [
       {
@@ -3149,7 +3149,7 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"d754d5a5c5a6db99b65e36289e67935daab7b639a0001b866f5649c5d8732be3\"",
+    "etag": "W/\"d2eee2d558e83876b9e70baf1df1e67386fe89a4ee111505e3fa09c51841978d\"",
     "readme_hash": "bc18904b1077d1e9dcf00bbb2a70947fc2fea61499f86a41e020e24a7339a640",
     "entries": [
       {
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"c2dab27b4224772e738b6870e554cd0f1c654bfcefc32ec687a8ac0cfa85b689\"",
+    "etag": "W/\"be2f913b905810c09701a68200f7859871e197d42347e60e1872b8d4e7507e50\"",
     "readme_hash": "9202c6fb8a233bb17f33cd10f9ee0ab3dc903e3cd0e6eee09122aa5d8c6965c6",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"22a37f7039754f0790b4afe32bd23735240df74d4ab6960a9249670dfe75883b\"",
+    "etag": "W/\"4236708ee946449419487460a586f7716d37ae0f8f57019b4fb2ae4b711ec9b6\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"f256040206acdd7da8a2ad02d86726aaba5c4265a5f478f48eba82ce6c713b6d\"",
+    "etag": "W/\"6d5de8f74dea760a8c4854d336bc1708b01e10eca3c41cbfa0623c6c2e8f5eb5\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3298,7 +3298,7 @@
     ]
   },
   "kdnsna/ultimate-ppt-master-skill": {
-    "etag": "\"18c55411b583f8a10d275a9dc63ebc3d882539fadb13c600bb3315605edd3513\"",
+    "etag": "W/\"431169f0510e638e71e38b1b7f92e64d56ccb207698bb54fb4e661d9e1d4c129\"",
     "readme_hash": "4cbd49d069528bdc3f29d68e2cf58945e94e8ccd08c643a14bcce7569444abed",
     "entries": [
       {
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"71e271c5f0f5a5a4fcfb8929ec6a32123b2a26d47f9096911a0a525ca31b7a69\"",
+    "etag": "W/\"ef48081cd4b5da5c992a83e716707764bf18a0d64c35d32218946b7204dd7d12\"",
     "readme_hash": "b10283ab95e16bffb70aba02c7253d00426fe0d5f239c66551186090e6d2a5e4",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"c704cdc9262534c9c8f97b87bb91b12f4844ef98420fb023828f9b16e2eed6fe\"",
+    "etag": "W/\"8a45e6ebbdbc71440fc99a62dc7c080650ed78ae3b8fc627abc3e492ce56379f\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"60b47c1a1b90b8033b5e4031849783890234e6396d290fcb9aabd867ffe500af\"",
+    "etag": "W/\"71b3f68f34baf4e9519a293a8c2e94d58068563d2a431c769ea89c9e93ed015c\"",
     "readme_hash": "9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "\"a0db6e52cfd44a663c99b3578e120ecb60f9f57b0df2d63a94ba63e10c62850b\"",
+    "etag": "W/\"8bd443496abe0863d34a2dcf31d438b3ca9d4b2143a44c7081b3f4bad9858b56\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"c3f4eff101b4040f04c3e4bbef981882445c4d9205695a7c492f702f3c34aabc\"",
+    "etag": "W/\"bb56bb4b7eff366d3e9f71ecb5ae5159f29c8f4c54da02f506315b5877191e4d\"",
     "readme_hash": "34bbfbab1e6859177a0ac3ce04229ac949fb802998608aa182bee3efbee4ea6a",
     "entries": [
       {
@@ -3683,7 +3683,7 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"f4a1942d5322474ff78a8dcb1ed4b0e0a823e6b32abd6094bda6cd1e16afd6d4\"",
+    "etag": "W/\"9336fd7be77437cc4654b3e34dd1e8d78d663c18c4ac13af57b6cc58c2dda052\"",
     "readme_hash": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
     "entries": [
       {
@@ -4257,7 +4257,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"5cbb631c59ea373ef4668d9a49e01b074a1931668ef8ddb8ed2b7bfaeab6818a\"",
+    "etag": "W/\"a4cbce4aa98e03a81744d051221377166f476f0f112d76ad2ffaa8e31f46d716\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -4294,7 +4294,7 @@
     ]
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "W/\"bde6dd7355b3c78f12a22d14237db66fd92aaa9662869ebe39c8e03dc5ef8b41\"",
+    "etag": "W/\"40e188ec7c30a483e8fc02bb006d14f7f836f7f161fdd7db61c0e328199587b0\"",
     "readme_hash": "a8716deaf85d849ca7d880bc660364ec771ccfd87b0582eed0171ec362e89ab8",
     "entries": [
       {
@@ -4712,7 +4712,7 @@
     ]
   },
   "heygen-com/hyperframes": {
-    "etag": "W/\"1f44012a8fbf4803c25ee384ee39326cb2f9319c4d2f59255e8b9b8aaa77f81a\"",
+    "etag": "W/\"b64b5417787df02dc60677fa3bdda6650907978d0c75e2f45fe974670c89f574\"",
     "readme_hash": "c4ccfd68eaf30b1ef53aa892cd18daf0aeba88981e2e76767e2f0ebb4b994d11",
     "entries": [
       {
@@ -4749,7 +4749,7 @@
     ]
   },
   "fabriqaai/ffmpeg-analyse-video-skill": {
-    "etag": "W/\"06f965a050a2179cd4686026ed03462cf0959286b370b7079bf3ebb5b22c41d1\"",
+    "etag": "W/\"596f00ba64641f83d73c0d4f077c841c527a1939422a4da793419adfa8369910\"",
     "readme_hash": "b24194fb697ebe7d3cbe14fee8b37c6d80c4c8f8e0de4172245f201a6c34e75d",
     "entries": [
       {
@@ -4785,7 +4785,7 @@
     ]
   },
   "remotion-dev/skills": {
-    "etag": "W/\"dcf5976155fc2005bd2c81cc54a24793bb5d844cf087978cb7f4e06870788ff1\"",
+    "etag": "\"dcf5976155fc2005bd2c81cc54a24793bb5d844cf087978cb7f4e06870788ff1\"",
     "readme_hash": "60c699748c6242f7d212a4de8c961765cde7fcd4d810b67ec20b7cca253a06dc",
     "entries": [
       {
@@ -4822,7 +4822,7 @@
     ]
   },
   "browser-use/video-use": {
-    "etag": "W/\"95227bcb10d80f7f2489a1314bdfc61fde01b2c9894e470ed5a299bf913bdc53\"",
+    "etag": "W/\"deb80af750deca566e80016c21deeeaa0cc9e5d607d10578fb9d24503d2cfb67\"",
     "readme_hash": "987a0f91ccfcbebfbf3e1d5db34a24280884da7329518f39558380336c9c8684",
     "entries": [
       {
@@ -4858,7 +4858,7 @@
     ]
   },
   "adithya-s-k/manim_skill": {
-    "etag": "W/\"51661b2dce26285e455f392488dd427e138145147244b650c75d3c12aea727f5\"",
+    "etag": "W/\"11e2c9eb8531038606a35939348332e3e0adf2a0bc8b619b1f13a8098fed5060\"",
     "readme_hash": "d15fe6a69c3dd2a08e927d006d1fcdea63f972ff7176650c1822131c455ab00b",
     "entries": [
       {
@@ -4955,6 +4955,591 @@
         "long_zh": "adithya-s-k 的 manim_skill 合集中的一个技能（本条目只安装 skills/manimgl-best-practices 这一个目录，而非整仓）。面向 Grant Sanderson 的 ManimGL，而非 Manim 社区版。覆盖 ManimGL 专有写法（ShowCreation 而非 Create、Tex 原始字符串、self.frame.reorient()、self.embed()、backstroke），含规则文件、五个示例脚本、场景模板与差异对照表。注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，带有其自身许可。",
         "sec_note_en": "Reference/best-practices skill (rule docs + example .py files); it writes nothing on its own. To render you need Python plus ManimGL (`pip install manimgl`) and a local LaTeX/ffmpeg toolchain; ManimGL also needs OpenGL and, on Apple Silicon, brew pkg-config/cairo. Licensing caveat: bundled example code is adapted from 3Blue1Brown's videos repo under CC BY-NC-SA 4.0 (attribution required, NonCommercial, ShareAlike)—not for commercial use. All rendering is local; no paid or cloud API required.",
         "sec_note_zh": "参考/最佳实践型技能（规则文档 + 示例 .py 文件），自身不写入任何东西。渲染需要 Python 与 ManimGL（`pip install manimgl`）以及本地 LaTeX/ffmpeg 工具链；ManimGL 还需要 OpenGL，在 Apple Silicon 上需 brew 安装 pkg-config/cairo。许可注意：附带示例代码改编自 3Blue1Brown 的 videos 仓库，采用 CC BY-NC-SA 4.0（需署名、禁商用、相同方式共享）——不可用于商业用途。全部本地渲染，无需付费或云端 API。",
+        "requires_config": false
+      }
+    ]
+  },
+  "anthropics/skills": {
+    "etag": "W/\"dabe9dc8f647135aaa943051b149dc4ca3fa5c5a5b90059487854216d6efb4fc\"",
+    "readme_hash": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+    "entries": [
+      {
+        "id": "aleph-hub:anthropics/skills/algorithmic-art",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Algorithmic Art",
+        "author": "anthropics",
+        "category": "design",
+        "tags": [
+          "generative-art",
+          "p5js",
+          "creative-coding",
+          "interactive",
+          "algorithmic"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/algorithmic-art",
+          "git_ref": "main"
+        },
+        "description_en": "Generates interactive algorithmic/generative art using p5.js, producing self-contained HTML artifacts with seeded randomness and parameter controls.",
+        "description_zh": "使用 p5.js 生成交互式算法/生成艺术，产出含种子随机性与参数控制的独立 HTML 产物。",
+        "long_en": "Creates original generative art by first drafting an algorithmic philosophy (a computational aesthetic manifesto), then implementing it as a self-contained HTML artifact. Uses p5.js loaded from the cdnjs CDN for rendering. Supports seeded randomness for reproducible outputs, parameter sliders for exploration, and seed navigation. Bundled templates (viewer.html, generator_template.js) provide an Anthropic-branded UI shell. SKILL.md explicitly instructs avoiding copying real artists' work to prevent copyright issues.",
+        "long_zh": "先起草算法哲学（计算美学宣言），再将其实现为独立 HTML 产物，生成原创生成艺术。通过 cdnjs CDN 加载 p5.js 进行渲染，支持种子随机性（可复现输出）、参数滑块与种子导航。内置模板（viewer.html、generator_template.js）提供 Anthropic 品牌 UI 框架。SKILL.md 明确要求避免复制真实艺术家作品以规避版权问题。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Produced HTML artifacts fetch p5.js from cdnjs CDN at runtime — requires outbound network access in the browser. No server-side code execution; all rendering happens in the user's browser. No external API calls or credential requirements.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。生成的 HTML 产物在浏览器中运行时从 cdnjs CDN 加载 p5.js，需要出站网络访问；无服务端代码执行，渲染全在用户浏览器端完成，无外部 API 调用或凭据要求。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/brand-guidelines",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Brand Guidelines",
+        "author": "anthropics",
+        "category": "design",
+        "tags": [
+          "branding",
+          "anthropic",
+          "typography",
+          "pptx",
+          "design"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/brand-guidelines",
+          "git_ref": "main"
+        },
+        "description_en": "Applies Anthropic's official brand colors and typography (Poppins/Lora) to artifacts such as slide decks and documents.",
+        "description_zh": "将 Anthropic 官方品牌色彩与字体（Poppins/Lora）应用于幻灯片、文档等产物。",
+        "long_en": "Provides Anthropic's exact brand palette and font pairings for consistent visual styling. Main colors: Dark (#141413), Light (#faf9f5), Mid Gray (#b0aea5); accent colors: Orange (#d97757), Blue (#6a9bcc), Green (#788c5d). Applies Poppins to headings (24pt+) and Lora to body text, with Arial/Georgia fallbacks. Uses python-pptx for PPTX files. Accent colors cycle through orange, blue, and green for non-text shapes. No network access required; relies on system-installed fonts.",
+        "long_zh": "提供 Anthropic 精确品牌色板与字体搭配，用于统一视觉风格。主色包括 Dark (#141413)、Light (#faf9f5)、Mid Gray (#b0aea5)；强调色为 Orange (#d97757)、Blue (#6a9bcc)、Green (#788c5d)。标题（24pt+）用 Poppins，正文用 Lora，备用 Arial/Georgia。PPTX 文件通过 python-pptx 处理。非文字形状循环使用强调色。无需网络访问，依赖系统已安装字体。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Requires Python with python-pptx installed. No network access or external API calls. Font availability depends on the system environment; falls back to Arial/Georgia automatically.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。需安装 Python 及 python-pptx。无网络访问或外部 API 调用。字体可用性取决于系统环境，自动回退至 Arial/Georgia。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/canvas-design",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Canvas Design",
+        "author": "anthropics",
+        "category": "design",
+        "tags": [
+          "visual-art",
+          "poster",
+          "pdf",
+          "png",
+          "design-philosophy"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/canvas-design",
+          "git_ref": "main"
+        },
+        "description_en": "Creates original museum-quality visual art as PNG or PDF files, guided by a generated design philosophy manifesto.",
+        "description_zh": "依据生成的设计哲学宣言，创作博物馆品质的原创视觉艺术，输出 PNG 或 PDF 文件。",
+        "long_en": "Two-phase skill: first generates a visual philosophy manifesto (named aesthetic movement, 4-6 paragraphs), then renders it as a single-page PNG or PDF using canvas drawing. Searches a bundled canvas-fonts directory for typography and may download additional fonts at runtime. SKILL.md stresses expert craftsmanship, minimal text, and original work — explicitly prohibiting copying real artists to avoid copyright issues. Multi-page output (e.g. coffee-table book style) is supported on request.",
+        "long_zh": "两阶段技能：先生成视觉哲学宣言（命名美学运动，4-6 段），再通过画布绘制渲染为单页 PNG 或 PDF。从内置 canvas-fonts 目录搜索字体，运行时也可下载额外字体。SKILL.md 强调工艺感、极简文字与原创作品，明确禁止复制真实艺术家作品以规避版权问题。按需支持多页输出（如咖啡桌书风格）。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. SKILL.md instructs downloading fonts at runtime if system fonts are insufficient — requires outbound network access in that case. No external API calls or credential requirements. Output files are local PNG/PDF only.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。SKILL.md 指示在系统字体不足时于运行时下载字体，该情况需出站网络访问。无外部 API 调用或凭据要求，输出文件仅为本地 PNG/PDF。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/claude-api",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Claude API Reference",
+        "author": "anthropics",
+        "category": "developer",
+        "tags": [
+          "claude",
+          "api",
+          "sdk",
+          "documentation",
+          "llm"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/claude-api",
+          "git_ref": "main"
+        },
+        "description_en": "Reference documentation for the Claude API and Anthropic SDK — model IDs, pricing, streaming, tool use, MCP, caching, and token counting.",
+        "description_zh": "Claude API 与 Anthropic SDK 的参考文档，涵盖模型 ID、定价、流式传输、工具调用、MCP、缓存与 token 计数。",
+        "long_en": "A reference skill that loads up-to-date Claude API and Anthropic SDK documentation before answering questions about LLM-powered applications. Triggers automatically when a prompt mentions Claude/Anthropic model names, asks about pricing or rate limits, or involves agent/MCP/tool-use patterns. Covers Python and TypeScript SDKs. Designed to prevent stale-training-data mistakes; skips gracefully when a non-Anthropic provider is in use.",
+        "long_zh": "一个参考型技能，在回答 LLM 应用相关问题之前自动加载最新的 Claude API 与 Anthropic SDK 文档。当提示中涉及 Claude/Anthropic 模型名称、定价限制或 agent/MCP/工具调用模式时自动触发。涵盖 Python 和 TypeScript SDK，避免因训练数据过时而产生错误答案；当检测到非 Anthropic 提供商时自动跳过。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Documentation/reference skill only — no code execution, no external service calls, no dependencies beyond Claude itself. Runs locally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。纯文档/参考型技能，不执行代码、不调用外部服务、无额外依赖。本地运行。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/doc-coauthoring",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Doc Co-Authoring",
+        "author": "anthropics",
+        "category": "writing",
+        "tags": [
+          "documentation",
+          "writing",
+          "collaboration",
+          "workflow",
+          "proposals"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/doc-coauthoring",
+          "git_ref": "main"
+        },
+        "description_en": "Guides users through a 3-stage co-authoring workflow—context gathering, section-by-section refinement, and reader testing with a fresh Claude—for docs, specs, and proposals.",
+        "description_zh": "通过三阶段结构化流程（情境采集、逐节精炼、新会话读者测试）协助用户共同撰写文档、规范与提案。",
+        "long_en": "The skill walks you through three structured stages. Stage 1 (Context Gathering) collects background, audience, constraints, and related docs—Claude asks clarifying questions until it has enough context. Stage 2 (Refinement & Structure) builds each section through brainstorming, curation, and iterative edits, optionally using an artifact or file as the working draft. Stage 3 (Reader Testing) uses a fresh sub-agent (no context bleed) to verify the finished document answers real reader questions without blind spots. Primarily a methodology skill—no external service calls unless the user optionally enables Slack, Google Drive, or other MCP integrations.",
+        "long_zh": "技能引导用户经历三个结构化阶段。第一阶段（情境采集）通过提问收集背景、受众、约束与相关资料，直至 Claude 掌握足够上下文。第二阶段（精炼与结构化）逐节通过头脑风暴、筛选与迭代修改构建文档，可选用 artifact 或本地文件作草稿。第三阶段（读者测试）启用不含当前上下文的新子 agent，验证成品文档能否令读者无歧义地理解。本质上是方法论技能——除非用户主动启用 Slack、Google Drive 等 MCP 集成，否则不调用外部服务。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Runs locally; no code execution. Pure methodology—follows a structured conversational workflow with no external service calls by default. Optional integrations (Slack, Google Drive, SharePoint) are user-configured and not bundled.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。本地运行，无代码执行。纯方法论——遵循结构化对话流程，默认不调用外部服务。Slack、Google Drive、SharePoint 等集成需用户自行配置，并非内置。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/docx",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "DOCX",
+        "author": "anthropics",
+        "category": "files",
+        "tags": [
+          "docx",
+          "word",
+          "document",
+          "office",
+          "xml"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/docx",
+          "git_ref": "main"
+        },
+        "description_en": "Create, read, and edit Word (.docx) documents — new docs via the `docx` npm library, existing docs via an unpack-edit-repack XML workflow.",
+        "description_zh": "创建、读取和编辑 Word (.docx) 文件——新文档使用 `docx` npm 库生成，已有文档通过解压-编辑 XML-重新打包工作流处理。",
+        "long_en": "Supports the full .docx lifecycle: read content via pandoc or raw XML, create new documents with the docx npm package (headings, tables, images, footnotes, TOC, multi-column layouts, tracked changes), and edit existing files by unpacking the ZIP/XML structure, applying changes, and repacking. Bundled Python scripts handle unpacking, packing, validation, comment injection, and tracked changes. LibreOffice is required for .doc→.docx conversion and PDF/image export. Install from `skills/docx`, then run `npm install -g docx` and ensure pandoc and LibreOffice are available.",
+        "long_zh": "支持 .docx 文件的完整生命周期：通过 pandoc 或原始 XML 读取内容；使用 docx npm 包创建新文档（标题、表格、图片、脚注、目录、多栏布局、修订追踪）；通过解压 ZIP/XML、修改后重新打包来编辑已有文件。内置 Python 脚本处理解压、打包、验证、批注注入和修订追踪。.doc→.docx 转换及 PDF/图片导出需要 LibreOffice。从 `skills/docx` 安装技能，然后执行 `npm install -g docx`，并确保系统中已安装 pandoc 和 LibreOffice。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: docx (npm), pandoc, LibreOffice, Poppler (pdftoppm). All operations are local file processing; no network calls at runtime. Bundled scripts invoke LibreOffice and pandoc as local subprocesses and manipulate the filesystem.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：docx（npm）、pandoc、LibreOffice、Poppler（pdftoppm）。所有操作均为本地文件处理，运行时不访问网络。内置脚本以本地子进程方式调用 LibreOffice 和 pandoc，并操作本地文件系统。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/frontend-design",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Frontend Design",
+        "author": "anthropics",
+        "category": "developer",
+        "tags": [
+          "design",
+          "frontend",
+          "ui",
+          "css",
+          "typography"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/frontend-design",
+          "git_ref": "main"
+        },
+        "description_en": "Opinionated design guidance for creating distinctive, production-grade frontend interfaces with deliberate palette, typography, and layout choices.",
+        "description_zh": "为前端界面提供有主见的设计指导，强调独特的色板、字体排印与布局，避免模板化外观。",
+        "long_en": "A design-lead skill that approaches every interface brief with the intent to produce a visual identity that cannot be mistaken for anyone else's. Instructs the model to brainstorm a token system (color, type, layout, signature element), critique against generic defaults, then build to the refined plan. Covers typography pairing, motion, copy writing, restraint, and accessibility basics (responsive, keyboard focus, reduced-motion). No framework is mandated — guidance is technology-agnostic.",
+        "long_zh": "该技能以设计主管的视角处理每个界面需求，致力于打造无法与他人混淆的视觉风格。指导模型先规划色彩/字体/布局/标志性元素，再对照通用默认值进行批判性审查，最后按修订方案构建。涵盖字体搭配、动效、文案写作、克制原则及无障碍基础。不限定技术框架，适用于各类前端场景。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. No code execution, no external network calls, no dependencies. Provides design guidance only. Runs locally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。不执行代码、不访问网络、无依赖项，仅提供设计指导。本地运行。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/internal-comms",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Internal Comms",
+        "author": "anthropics",
+        "category": "communication",
+        "tags": [
+          "communication",
+          "writing",
+          "status-report",
+          "newsletter",
+          "workplace"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/internal-comms",
+          "git_ref": "main"
+        },
+        "description_en": "Writes internal communications—3P updates, company newsletters, FAQ answers, status reports, leadership updates, project updates, and incident reports—following company-appropriate formats.",
+        "description_zh": "按公司惯用格式撰写内部沟通材料：3P 进展报告、公司通讯、FAQ、状态报告、领导层更新、项目进展及故障复盘。",
+        "long_en": "Identifies the communication type from the user's request, then loads the matching guideline file from the skill's bundled examples/ directory and applies its specific instructions for tone, structure, and content. Supported formats: 3P updates (Progress/Plans/Problems), company newsletters, FAQ responses, and a general-purpose template for any other internal communication. The skill is methodology and template driven—it reads its own bundled example files and follows their formatting rules. No external service calls; no code execution.",
+        "long_zh": "从用户请求中判断沟通类型，然后加载技能内置 examples/ 目录中对应的指导文件，按其规定的语气、结构与内容要求撰写。支持格式：3P 进展/计划/问题更新、公司通讯、FAQ 回答，以及适用于其他内部沟通的通用模板。技能为方法论与模板驱动——读取自带示例文件并遵循其格式规则，不调用外部服务，无代码执行。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Runs locally; no code execution. Loads bundled template files from the skill's own examples/ directory—no external service calls. Content reflects whatever the user provides; review outputs before distributing internally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。本地运行，无代码执行。从技能自带的 examples/ 目录读取模板文件，不调用外部服务。产出内容基于用户输入，内部分发前请自行审阅。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/mcp-builder",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "MCP Builder",
+        "author": "anthropics",
+        "category": "developer",
+        "tags": [
+          "mcp",
+          "sdk",
+          "typescript",
+          "python",
+          "api"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/mcp-builder",
+          "git_ref": "main"
+        },
+        "description_en": "Step-by-step guide for building high-quality MCP servers in TypeScript or Python, covering tool design, testing with MCP Inspector, and evaluation.",
+        "description_zh": "构建高质量 MCP 服务器的分步指南，支持 TypeScript 与 Python，涵盖工具设计、MCP Inspector 测试及评估。",
+        "long_en": "A four-phase workflow skill for creating MCP (Model Context Protocol) servers: research and planning, implementation, code review and testing, and evaluation creation. Recommends TypeScript with stateless streamable HTTP for remote servers. Loads live MCP protocol docs and SDK READMEs via WebFetch during use. Bundles bundled reference files for Python (FastMCP) and Node.js patterns, best practices, and quality checklists. Guides creation of 10-question evaluations to validate the finished server.",
+        "long_zh": "一个包含四阶段工作流的 MCP 服务器构建技能：研究规划、实现、代码审查/测试、评估创建。推荐使用 TypeScript + 无状态流式 HTTP 方案。运行期间会通过 WebFetch 拉取最新 MCP 协议文档和 SDK README。内置 Python（FastMCP）与 Node.js 模式的参考文件、最佳实践和质量清单，并指导创建 10 问评估集以验证服务器效果。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Fetches live MCP protocol docs and SDK READMEs from the internet (modelcontextprotocol.io, GitHub) via WebFetch during use. Generated MCP servers will require their own runtime dependencies (Node.js or Python). Runs locally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。使用期间会通过 WebFetch 从互联网（modelcontextprotocol.io、GitHub）拉取最新 MCP 协议文档和 SDK README。生成的 MCP 服务器需要各自的运行时依赖（Node.js 或 Python）。本地运行。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/pdf",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "PDF",
+        "author": "anthropics",
+        "category": "files",
+        "tags": [
+          "pdf",
+          "extract",
+          "merge",
+          "ocr",
+          "document"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/pdf",
+          "git_ref": "main"
+        },
+        "description_en": "Extract text/tables, merge, split, rotate, watermark, create, fill forms, OCR, and encrypt PDF files using Python libraries and CLI tools.",
+        "description_zh": "使用 Python 库和命令行工具对 PDF 文件进行文本/表格提取、合并、拆分、旋转、水印添加、创建、表单填写、OCR 及加密。",
+        "long_en": "Covers the full range of PDF operations: extract text with pypdf or pdfplumber (including table-to-DataFrame extraction), create multi-page PDFs with reportlab, merge/split/rotate/watermark with pypdf or the qpdf CLI, OCR scanned pages with pytesseract + pdf2image, and fill PDF forms (separate FORMS.md guide). A REFERENCE.md covers advanced pypdfium2 and pdf-lib (JavaScript) usage. All processing is local. Install from `skills/pdf`; core Python packages: pypdf, pdfplumber, reportlab; optional: pytesseract, pdf2image, pandas. CLI tools: qpdf, poppler-utils (pdftotext, pdfimages), pdftk.",
+        "long_zh": "涵盖完整的 PDF 操作范围：使用 pypdf 或 pdfplumber 提取文本（含表格转 DataFrame）；使用 reportlab 创建多页 PDF；使用 pypdf 或 qpdf CLI 合并、拆分、旋转、添加水印；使用 pytesseract + pdf2image 对扫描页面进行 OCR；以及填写 PDF 表单（见独立的 FORMS.md）。REFERENCE.md 中涵盖 pypdfium2 和 pdf-lib（JavaScript）的高级用法。从 `skills/pdf` 安装；核心 Python 包：pypdf、pdfplumber、reportlab；可选：pytesseract、pdf2image、pandas；CLI 工具：qpdf、poppler-utils、pdftk。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: pypdf, pdfplumber, reportlab (pip); optional pytesseract, pdf2image, pandas; CLI tools qpdf, poppler-utils, pdftk. No network access at runtime; all operations are local file processing. Password-handling and encryption features operate on local files only.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：pypdf、pdfplumber、reportlab（pip）；可选：pytesseract、pdf2image、pandas；CLI 工具：qpdf、poppler-utils、pdftk。运行时不访问网络，所有操作均为本地文件处理。密码处理和加密功能仅操作本地文件。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/pptx",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "PPTX",
+        "author": "anthropics",
+        "category": "files",
+        "tags": [
+          "pptx",
+          "powerpoint",
+          "slides",
+          "presentation",
+          "office"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/pptx",
+          "git_ref": "main"
+        },
+        "description_en": "Read, create, and edit PowerPoint (.pptx) presentations — text extraction via markitdown, creation via pptxgenjs, editing via XML unpack/repack.",
+        "description_zh": "读取、创建和编辑 PowerPoint (.pptx) 演示文稿——通过 markitdown 提取文本，使用 pptxgenjs 从零创建，通过 XML 解压/重打包编辑已有文件。",
+        "long_en": "Supports reading .pptx content (markitdown for text extraction, thumbnail.py for visual slide overview, raw XML via unpack script), editing existing presentations by unpacking the ZIP structure and modifying slide XML, and creating slide decks from scratch using the pptxgenjs npm library. Includes detailed design guidance (color palettes, typography, layout patterns) and a visual QA workflow using LibreOffice + Poppler for image rendering. Install from `skills/pptx`; required: `pip install \"markitdown[pptx]\" Pillow`, `npm install -g pptxgenjs`, LibreOffice, and Poppler (pdftoppm).",
+        "long_zh": "支持 .pptx 内容读取（markitdown 文本提取、thumbnail.py 幻灯片缩略预览、脚本解压后查看原始 XML）；通过解压 ZIP 结构并修改幻灯片 XML 编辑已有演示文稿；使用 pptxgenjs npm 库从零创建幻灯片。内置详细的设计指导（配色方案、字体搭配、布局模式）以及基于 LibreOffice + Poppler 的视觉 QA 工作流。从 `skills/pptx` 安装；所需：`pip install \"markitdown[pptx]\" Pillow`、`npm install -g pptxgenjs`、LibreOffice、Poppler（pdftoppm）。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: markitdown[pptx], Pillow (pip); pptxgenjs (npm); LibreOffice (soffice) for PDF/image conversion; Poppler (pdftoppm). All operations are local; no network calls at runtime. Bundled scripts invoke LibreOffice as a subprocess for rendering.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：markitdown[pptx]、Pillow（pip）；pptxgenjs（npm）；LibreOffice（soffice，用于 PDF/图片转换）；Poppler（pdftoppm）。所有操作均为本地处理，运行时不访问网络。内置脚本以子进程方式调用 LibreOffice 进行渲染。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/skill-creator",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Skill Creator",
+        "author": "anthropics",
+        "category": "developer",
+        "tags": [
+          "skills",
+          "evaluation",
+          "automation",
+          "testing"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/skill-creator",
+          "git_ref": "main"
+        },
+        "description_en": "Guides creation and iterative improvement of Agent Skills — from drafting and writing evals to benchmarking trigger accuracy and optimizing descriptions.",
+        "description_zh": "指导 Agent 技能的创建与迭代优化，涵盖草稿撰写、评估编写、触发准确性基准测试与描述优化。",
+        "long_en": "A meta-skill for building other skills. Walks through the full skill development loop: decide purpose, write a draft, create test prompts, run Claude against them in background processes, review qualitative and quantitative results via a Python eval-viewer script, then revise and repeat. Supports starting from scratch or jumping in mid-process (e.g., improving an existing skill). Includes guidance for expanding test sets and running larger-scale benchmarks. Requires a Python environment for eval scripts.",
+        "long_zh": "一个用于构建其他技能的元技能。覆盖完整的技能开发循环：确定目标、撰写草稿、创建测试提示、在后台进程中运行 Claude、通过 Python eval-viewer 脚本审查定性与定量结果，再修订并重复。支持从头创建或从中途接入（如改进已有技能）。包含扩大测试集和运行大规模基准测试的指导。评估脚本需要 Python 环境。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Uses a Python eval script (eval-viewer/generate_review.py) to benchmark skill performance; requires a Python environment. Evaluation runs spawn Claude subprocesses in the background. Runs locally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。使用 Python 评估脚本（eval-viewer/generate_review.py）进行基准测试，需要 Python 环境。评估运行会在后台启动 Claude 子进程。本地运行。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/slack-gif-creator",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Slack GIF Creator",
+        "author": "anthropics",
+        "category": "communication",
+        "tags": [
+          "gif",
+          "animation",
+          "slack",
+          "python",
+          "pillow"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/slack-gif-creator",
+          "git_ref": "main"
+        },
+        "description_en": "Creates animated GIFs optimized for Slack (emoji 128×128 or message 480×480) using Python and PIL drawing primitives.",
+        "description_zh": "使用 Python 与 PIL 绘图原语，创建针对 Slack 优化的动画 GIF（表情 128×128 或消息 480×480）。",
+        "long_en": "Provides Python utilities and animation knowledge for building Slack-ready GIFs: GIFBuilder (frame assembly and optimization), validators (checks Slack size/fps/color constraints), easing functions (bounce, elastic, ease-in/out), and frame helpers. Supports common animation concepts: shake, pulse, bounce, spin, fade, slide, zoom, and particle bursts. Can work from user-uploaded images or draw from scratch with PIL primitives. Dependencies: Pillow, imageio, numpy — must be installed in the Claude Code environment.",
+        "long_zh": "提供 Python 工具集与动画知识，用于构建 Slack 兼容 GIF：GIFBuilder（帧组装与优化）、validators（检查 Slack 尺寸/帧率/颜色约束）、缓动函数（弹跳、弹性、ease-in/out）及帧辅助工具。支持常见动画概念：抖动、脉冲、弹跳、旋转、淡入淡出、滑动、缩放与粒子爆炸。可基于用户上传图片或从零用 PIL 原语绘制。依赖：Pillow、imageio、numpy，需在 Claude Code 环境中预装。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Requires Python with Pillow, imageio, and numpy installed locally. No network access or external API calls. Bundled utilities (core/gif_builder.py, core/validators.py, core/easing.py, core/frame_composer.py) run entirely locally; user-uploaded images are processed in-process only.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。需本地安装 Python 及 Pillow、imageio、numpy。无网络访问或外部 API 调用。内置工具（core/gif_builder.py、core/validators.py、core/easing.py、core/frame_composer.py）完全本地运行；用户上传图片仅在进程内处理。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/theme-factory",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Theme Factory",
+        "author": "anthropics",
+        "category": "design",
+        "tags": [
+          "themes",
+          "styling",
+          "slides",
+          "fonts",
+          "colors"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/theme-factory",
+          "git_ref": "main"
+        },
+        "description_en": "Applies one of 10 pre-set or a custom color/font theme to any artifact — slides, docs, HTML pages, or reports.",
+        "description_zh": "将 10 种预设主题或自定义配色/字体方案应用于幻灯片、文档、HTML 页面或报告等任意产物。",
+        "long_en": "Provides 10 named themes (Ocean Depths, Sunset Boulevard, Forest Canopy, Modern Minimalist, Golden Hour, Arctic Frost, Desert Rose, Tech Innovation, Botanical Garden, Midnight Galaxy), each defined in a bundled themes/ directory with hex color palettes and font pairings. Workflow: display the bundled theme-showcase.pdf, wait for user selection, read the theme file, then apply colors and fonts to the target artifact. Can also generate a custom theme from a text description. Works with PPTX slides, documents, and HTML pages.",
+        "long_zh": "提供 10 个命名主题（海洋深处、日落大道、森林树冠、现代简约、黄金时刻、北极冰霜、沙漠玫瑰、科技创新、植物花园、午夜星系），每个主题在内置 themes/ 目录中定义，包含十六进制色板与字体搭配。工作流程：展示内置 theme-showcase.pdf → 等待用户选择 → 读取主题文件 → 将配色和字体应用于目标产物。也支持根据文字描述生成自定义主题，兼容 PPTX 幻灯片、文档与 HTML 页面。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. No network access or external API calls required. Reads local bundled theme files and applies styling to artifacts. Font availability depends on the user's environment.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。无需网络访问或外部 API 调用，读取本地内置主题文件并将样式应用于产物。字体可用性取决于用户环境。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/web-artifacts-builder",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Web Artifacts Builder",
+        "author": "anthropics",
+        "category": "developer",
+        "tags": [
+          "react",
+          "tailwind",
+          "html",
+          "artifacts",
+          "shadcn"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/web-artifacts-builder",
+          "git_ref": "main"
+        },
+        "description_en": "Builds elaborate multi-component HTML artifacts using React 18, TypeScript, Tailwind CSS, and shadcn/ui, bundled into a single self-contained file.",
+        "description_zh": "使用 React 18、TypeScript、Tailwind CSS 和 shadcn/ui 构建多组件 HTML 产物，并打包为单一自包含文件。",
+        "long_en": "A workflow skill for creating complex claude.ai HTML artifacts that need state management, routing, or the full shadcn/ui component library. Provides init-artifact.sh (scaffolds a Vite + React + Tailwind + shadcn project with 40+ pre-installed components) and bundle-artifact.sh (Parcel-based bundler that inlines all JS/CSS into one HTML file). Requires Node.js 18+ and npm. Not intended for simple single-file JSX; use the built-in artifact tool for those.",
+        "long_zh": "用于创建需要状态管理、路由或完整 shadcn/ui 组件库的复杂 claude.ai HTML 产物。提供 init-artifact.sh（搭建含 40+ 预装组件的 Vite + React + Tailwind + shadcn 项目）和 bundle-artifact.sh（基于 Parcel 的打包器，将所有 JS/CSS 内联为单一 HTML 文件）。需要 Node.js 18+ 和 npm。不适用于简单的单文件 JSX，那种情况请使用内置产物工具。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Executes shell scripts (init-artifact.sh, bundle-artifact.sh) that run npm install and Parcel; requires Node.js 18+ and npm. Installs npm packages (including Radix UI, Tailwind, shadcn/ui) into a local project directory during build. Runs locally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。执行 shell 脚本（init-artifact.sh、bundle-artifact.sh），内部运行 npm install 和 Parcel，需要 Node.js 18+ 和 npm。构建期间会将 npm 包（包括 Radix UI、Tailwind、shadcn/ui）安装到本地项目目录。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/webapp-testing",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Web App Testing",
+        "author": "anthropics",
+        "category": "developer",
+        "tags": [
+          "playwright",
+          "testing",
+          "browser",
+          "automation"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/webapp-testing",
+          "git_ref": "main"
+        },
+        "description_en": "Tests local web applications using native Python Playwright scripts, supporting screenshot capture, DOM inspection, console log reading, and server lifecycle management.",
+        "description_zh": "通过原生 Python Playwright 脚本测试本地 Web 应用，支持截图、DOM 检查、控制台日志读取及服务器生命周期管理。",
+        "long_en": "A Playwright-based skill for verifying frontend functionality, debugging UI behavior, and automating local web app interactions. Follows a reconnaissance-then-action pattern: navigate, wait for networkidle, inspect the rendered DOM or take a screenshot, identify selectors, then execute actions. Bundles a with_server.py helper that manages one or more dev-server processes. Can handle both static HTML (via file:// URLs) and dynamic single-page apps. Requires Python, the playwright package, and Playwright browser binaries installed separately.",
+        "long_zh": "基于 Playwright 的技能，用于验证前端功能、调试 UI 行为和自动化本地 Web 应用交互。遵循「侦察后行动」模式：导航、等待 networkidle、检查渲染 DOM 或截图、识别选择器、执行操作。内置 with_server.py 辅助脚本，可管理一个或多个开发服务器进程。支持静态 HTML（file:// URL）和动态单页应用。需要 Python、playwright 包以及单独安装的 Playwright 浏览器二进制文件。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Drives a real Chromium browser via Playwright; requires Python, the `playwright` package (`pip install playwright`), and browser binaries (`playwright install chromium`). Executes Python scripts and can start local dev servers as subprocesses. Interacts only with localhost; no external network calls from the skill itself. Runs locally.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。通过 Playwright 驱动真实 Chromium 浏览器，需要 Python、`playwright` 包（`pip install playwright`）及浏览器二进制文件（`playwright install chromium`）。执行 Python 脚本，可作为子进程启动本地开发服务器。仅与 localhost 交互，技能本身不发起外部网络请求。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:anthropics/skills/xlsx",
+        "repo_url": "https://github.com/anthropics/skills",
+        "via": "github:anthropics",
+        "full_name": "anthropics/skills",
+        "owner": "anthropics",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "XLSX",
+        "author": "anthropics",
+        "category": "files",
+        "tags": [
+          "xlsx",
+          "excel",
+          "spreadsheet",
+          "pandas",
+          "data"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/anthropics/skills",
+          "subdir": "skills/xlsx",
+          "git_ref": "main"
+        },
+        "description_en": "Create, read, and edit Excel (.xlsx) spreadsheets with pandas for data analysis and openpyxl for formulas, formatting, and multi-sheet workbooks.",
+        "description_zh": "使用 pandas 进行数据分析、openpyxl 处理公式与格式，创建、读取和编辑 Excel (.xlsx) 电子表格，支持多工作表和财务模型。",
+        "long_en": "Covers reading spreadsheet data with pandas (bulk ops, statistics, multi-sheet import), creating and editing workbooks with openpyxl (Excel formulas, cell styling, column sizing, sheet management), and recalculating formula values via a bundled `scripts/recalc.py` that drives LibreOffice in headless mode. Includes financial model conventions: industry-standard color coding for inputs/formulas/cross-sheet links, number formatting rules, and a formula verification checklist. Install from `skills/xlsx`; required: `pip install pandas openpyxl`; LibreOffice must be installed for formula recalculation.",
+        "long_zh": "涵盖使用 pandas 读取电子表格数据（批量操作、统计分析、多表导入）；使用 openpyxl 创建和编辑工作簿（Excel 公式、单元格样式、列宽、工作表管理）；以及通过内置的 `scripts/recalc.py` 以无头模式调用 LibreOffice 重新计算公式。包含财务模型规范：输入/公式/跨表链接的行业标准色彩编码、数字格式规则和公式验证清单。从 `skills/xlsx` 安装；所需：`pip install pandas openpyxl`；公式重算需要安装 LibreOffice。",
+        "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: pandas, openpyxl (pip); LibreOffice (soffice) required for formula recalculation via scripts/recalc.py. All operations are local; no network calls at runtime. The recalc script invokes LibreOffice as a subprocess and writes a temporary macro on first run.",
+        "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：pandas、openpyxl（pip）；公式重算需要 LibreOffice（soffice），通过 scripts/recalc.py 调用。所有操作均为本地处理，运行时不访问网络。recalc 脚本首次运行时会写入临时宏，并以子进程方式调用 LibreOffice。",
+        "requires_config": false
+      }
+    ]
+  },
+  "obra/superpowers": {
+    "etag": "W/\"c3565aebf43542efdc45ec69891b1df9c948c69af1df7df521261ae3c233c47f\"",
+    "readme_hash": "05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50",
+    "entries": [
+      {
+        "id": "aleph-hub:obra/superpowers",
+        "repo_url": "https://github.com/obra/superpowers",
+        "via": "github:obra",
+        "full_name": "obra/superpowers",
+        "owner": "obra",
+        "repo": "superpowers",
+        "kind": "plugin",
+        "name": "Superpowers",
+        "author": "obra",
+        "category": "developer",
+        "tags": [
+          "tdd",
+          "debugging",
+          "workflow",
+          "planning",
+          "collaboration"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/obra/superpowers",
+          "git_ref": "main"
+        },
+        "description_en": "Claude Code plugin bundling a complete software development methodology: TDD, systematic debugging, brainstorming, planning, subagent-driven development, code review, and git worktree workflows.",
+        "description_zh": "Claude Code 插件，内置完整软件开发方法论：TDD、系统化调试、头脑风暴、规划、子 agent 驱动开发、代码评审与 git worktree 工作流。",
+        "long_en": "Superpowers is a Claude Code plugin (also available for Cursor, Codex, Gemini CLI, and others) that registers skills invocable by name and hooks that activate them automatically at session start. The core workflow—brainstorming → design approval → writing-plans → subagent-driven-development → test-driven-development → requesting-code-review → finishing-a-development-branch—runs largely without manual triggering. Skills include: brainstorming, writing-plans, executing-plans, subagent-driven-development, test-driven-development, systematic-debugging, verification-before-completion, requesting/receiving-code-review, using-git-worktrees, dispatching-parallel-agents, and writing-skills. Ships hooks/ and local scripts that run in your environment.",
+        "long_zh": "Superpowers 是一个 Claude Code 插件（同时支持 Cursor、Codex、Gemini CLI 等），注册可按名调用的技能并在会话启动时通过钩子自动激活。核心工作流——头脑风暴 → 设计确认 → 写计划 → 子 agent 驱动开发 → 测试驱动开发 → 请求代码评审 → 收尾分支——基本无需手动触发。技能包括：brainstorming、writing-plans、executing-plans、subagent-driven-development、test-driven-development、systematic-debugging、verification-before-completion、requesting/receiving-code-review、using-git-worktrees、dispatching-parallel-agents 与 writing-skills。随附在本地环境运行的 hooks/ 与脚本。",
+        "sec_note_en": "MIT-licensed. Installs as a Claude Code plugin that registers session-start hooks and runs local scripts—review the hooks/ and scripts/ directories before enabling. The skills themselves are methodology and process only; no external service calls by default. An optional brainstorming visual companion loads a logo from primeradiant.com (version string included, no project details); disable via SUPERPOWERS_DISABLE_TELEMETRY=true.",
+        "sec_note_zh": "MIT 许可。作为 Claude Code 插件安装，会注册 session 启动钩子并运行本地脚本——启用前请审查 hooks/ 与 scripts/ 目录。技能本身仅为方法论与流程指引，默认不调用外部服务。brainstorming 的可选视觉伴侣功能会从 primeradiant.com 加载 logo（含版本号，不含项目内容），可通过 SUPERPOWERS_DISABLE_TELEMETRY=true 禁用。",
         "requires_config": false
       }
     ]
