@@ -1,0 +1,23 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Skill Creator",
+  "kind": "skill",
+  "slug": "skill-creator",
+  "category": "developer",
+  "tags": [
+    "skills",
+    "evaluation",
+    "automation",
+    "testing"
+  ],
+  "description_en": "Guides creation and iterative improvement of Agent Skills — from drafting and writing evals to benchmarking trigger accuracy and optimizing descriptions.",
+  "description_zh": "指导 Agent 技能的创建与迭代优化，涵盖草稿撰写、评估编写、触发准确性基准测试与描述优化。",
+  "long_en": "A meta-skill for building other skills. Walks through the full skill development loop: decide purpose, write a draft, create test prompts, run Claude against them in background processes, review qualitative and quantitative results via a Python eval-viewer script, then revise and repeat. Supports starting from scratch or jumping in mid-process (e.g., improving an existing skill). Includes guidance for expanding test sets and running larger-scale benchmarks. Requires a Python environment for eval scripts.",
+  "long_zh": "一个用于构建其他技能的元技能。覆盖完整的技能开发循环：确定目标、撰写草稿、创建测试提示、在后台进程中运行 Claude、通过 Python eval-viewer 脚本审查定性与定量结果，再修订并重复。支持从头创建或从中途接入（如改进已有技能）。包含扩大测试集和运行大规模基准测试的指导。评估脚本需要 Python 环境。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/skill-creator"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Uses a Python eval script (eval-viewer/generate_review.py) to benchmark skill performance; requires a Python environment. Evaluation runs spawn Claude subprocesses in the background. Runs locally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。使用 Python 评估脚本（eval-viewer/generate_review.py）进行基准测试，需要 Python 环境。评估运行会在后台启动 Claude 子进程。本地运行。"
+}

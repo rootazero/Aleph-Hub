@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Doc Co-Authoring",
+  "kind": "skill",
+  "slug": "doc-coauthoring",
+  "category": "writing",
+  "tags": [
+    "documentation",
+    "writing",
+    "collaboration",
+    "workflow",
+    "proposals"
+  ],
+  "description_en": "Guides users through a 3-stage co-authoring workflow—context gathering, section-by-section refinement, and reader testing with a fresh Claude—for docs, specs, and proposals.",
+  "description_zh": "通过三阶段结构化流程（情境采集、逐节精炼、新会话读者测试）协助用户共同撰写文档、规范与提案。",
+  "long_en": "The skill walks you through three structured stages. Stage 1 (Context Gathering) collects background, audience, constraints, and related docs—Claude asks clarifying questions until it has enough context. Stage 2 (Refinement & Structure) builds each section through brainstorming, curation, and iterative edits, optionally using an artifact or file as the working draft. Stage 3 (Reader Testing) uses a fresh sub-agent (no context bleed) to verify the finished document answers real reader questions without blind spots. Primarily a methodology skill—no external service calls unless the user optionally enables Slack, Google Drive, or other MCP integrations.",
+  "long_zh": "技能引导用户经历三个结构化阶段。第一阶段（情境采集）通过提问收集背景、受众、约束与相关资料，直至 Claude 掌握足够上下文。第二阶段（精炼与结构化）逐节通过头脑风暴、筛选与迭代修改构建文档，可选用 artifact 或本地文件作草稿。第三阶段（读者测试）启用不含当前上下文的新子 agent，验证成品文档能否令读者无歧义地理解。本质上是方法论技能——除非用户主动启用 Slack、Google Drive 等 MCP 集成，否则不调用外部服务。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/doc-coauthoring"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Runs locally; no code execution. Pure methodology—follows a structured conversational workflow with no external service calls by default. Optional integrations (Slack, Google Drive, SharePoint) are user-configured and not bundled.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。本地运行，无代码执行。纯方法论——遵循结构化对话流程，默认不调用外部服务。Slack、Google Drive、SharePoint 等集成需用户自行配置，并非内置。"
+}

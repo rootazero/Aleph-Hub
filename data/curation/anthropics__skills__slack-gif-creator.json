@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Slack GIF Creator",
+  "kind": "skill",
+  "slug": "slack-gif-creator",
+  "category": "communication",
+  "tags": [
+    "gif",
+    "animation",
+    "slack",
+    "python",
+    "pillow"
+  ],
+  "description_en": "Creates animated GIFs optimized for Slack (emoji 128×128 or message 480×480) using Python and PIL drawing primitives.",
+  "description_zh": "使用 Python 与 PIL 绘图原语，创建针对 Slack 优化的动画 GIF（表情 128×128 或消息 480×480）。",
+  "long_en": "Provides Python utilities and animation knowledge for building Slack-ready GIFs: GIFBuilder (frame assembly and optimization), validators (checks Slack size/fps/color constraints), easing functions (bounce, elastic, ease-in/out), and frame helpers. Supports common animation concepts: shake, pulse, bounce, spin, fade, slide, zoom, and particle bursts. Can work from user-uploaded images or draw from scratch with PIL primitives. Dependencies: Pillow, imageio, numpy — must be installed in the Claude Code environment.",
+  "long_zh": "提供 Python 工具集与动画知识，用于构建 Slack 兼容 GIF：GIFBuilder（帧组装与优化）、validators（检查 Slack 尺寸/帧率/颜色约束）、缓动函数（弹跳、弹性、ease-in/out）及帧辅助工具。支持常见动画概念：抖动、脉冲、弹跳、旋转、淡入淡出、滑动、缩放与粒子爆炸。可基于用户上传图片或从零用 PIL 原语绘制。依赖：Pillow、imageio、numpy，需在 Claude Code 环境中预装。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/slack-gif-creator"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Requires Python with Pillow, imageio, and numpy installed locally. No network access or external API calls. Bundled utilities (core/gif_builder.py, core/validators.py, core/easing.py, core/frame_composer.py) run entirely locally; user-uploaded images are processed in-process only.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。需本地安装 Python 及 Pillow、imageio、numpy。无网络访问或外部 API 调用。内置工具（core/gif_builder.py、core/validators.py、core/easing.py、core/frame_composer.py）完全本地运行；用户上传图片仅在进程内处理。"
+}

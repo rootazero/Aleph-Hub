@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Internal Comms",
+  "kind": "skill",
+  "slug": "internal-comms",
+  "category": "communication",
+  "tags": [
+    "communication",
+    "writing",
+    "status-report",
+    "newsletter",
+    "workplace"
+  ],
+  "description_en": "Writes internal communications—3P updates, company newsletters, FAQ answers, status reports, leadership updates, project updates, and incident reports—following company-appropriate formats.",
+  "description_zh": "按公司惯用格式撰写内部沟通材料：3P 进展报告、公司通讯、FAQ、状态报告、领导层更新、项目进展及故障复盘。",
+  "long_en": "Identifies the communication type from the user's request, then loads the matching guideline file from the skill's bundled examples/ directory and applies its specific instructions for tone, structure, and content. Supported formats: 3P updates (Progress/Plans/Problems), company newsletters, FAQ responses, and a general-purpose template for any other internal communication. The skill is methodology and template driven—it reads its own bundled example files and follows their formatting rules. No external service calls; no code execution.",
+  "long_zh": "从用户请求中判断沟通类型，然后加载技能内置 examples/ 目录中对应的指导文件，按其规定的语气、结构与内容要求撰写。支持格式：3P 进展/计划/问题更新、公司通讯、FAQ 回答，以及适用于其他内部沟通的通用模板。技能为方法论与模板驱动——读取自带示例文件并遵循其格式规则，不调用外部服务，无代码执行。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/internal-comms"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Runs locally; no code execution. Loads bundled template files from the skill's own examples/ directory—no external service calls. Content reflects whatever the user provides; review outputs before distributing internally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。本地运行，无代码执行。从技能自带的 examples/ 目录读取模板文件，不调用外部服务。产出内容基于用户输入，内部分发前请自行审阅。"
+}

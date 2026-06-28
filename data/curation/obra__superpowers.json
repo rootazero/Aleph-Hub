@@ -1,0 +1,17 @@
+{
+  "full_name": "obra/superpowers",
+  "name": "Superpowers",
+  "kind": "plugin",
+  "category": "developer",
+  "tags": ["tdd", "debugging", "workflow", "planning", "collaboration"],
+  "description_en": "Claude Code plugin bundling a complete software development methodology: TDD, systematic debugging, brainstorming, planning, subagent-driven development, code review, and git worktree workflows.",
+  "description_zh": "Claude Code 插件，内置完整软件开发方法论：TDD、系统化调试、头脑风暴、规划、子 agent 驱动开发、代码评审与 git worktree 工作流。",
+  "long_en": "Superpowers is a Claude Code plugin (also available for Cursor, Codex, Gemini CLI, and others) that registers skills invocable by name and hooks that activate them automatically at session start. The core workflow—brainstorming → design approval → writing-plans → subagent-driven-development → test-driven-development → requesting-code-review → finishing-a-development-branch—runs largely without manual triggering. Skills include: brainstorming, writing-plans, executing-plans, subagent-driven-development, test-driven-development, systematic-debugging, verification-before-completion, requesting/receiving-code-review, using-git-worktrees, dispatching-parallel-agents, and writing-skills. Ships hooks/ and local scripts that run in your environment.",
+  "long_zh": "Superpowers 是一个 Claude Code 插件（同时支持 Cursor、Codex、Gemini CLI 等），注册可按名调用的技能并在会话启动时通过钩子自动激活。核心工作流——头脑风暴 → 设计确认 → 写计划 → 子 agent 驱动开发 → 测试驱动开发 → 请求代码评审 → 收尾分支——基本无需手动触发。技能包括：brainstorming、writing-plans、executing-plans、subagent-driven-development、test-driven-development、systematic-debugging、verification-before-completion、requesting/receiving-code-review、using-git-worktrees、dispatching-parallel-agents 与 writing-skills。随附在本地环境运行的 hooks/ 与脚本。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/obra/superpowers"
+  },
+  "sec_note_en": "MIT-licensed. Installs as a Claude Code plugin that registers session-start hooks and runs local scripts—review the hooks/ and scripts/ directories before enabling. The skills themselves are methodology and process only; no external service calls by default. An optional brainstorming visual companion loads a logo from primeradiant.com (version string included, no project details); disable via SUPERPOWERS_DISABLE_TELEMETRY=true.",
+  "sec_note_zh": "MIT 许可。作为 Claude Code 插件安装，会注册 session 启动钩子并运行本地脚本——启用前请审查 hooks/ 与 scripts/ 目录。技能本身仅为方法论与流程指引，默认不调用外部服务。brainstorming 的可选视觉伴侣功能会从 primeradiant.com 加载 logo（含版本号，不含项目内容），可通过 SUPERPOWERS_DISABLE_TELEMETRY=true 禁用。"
+}

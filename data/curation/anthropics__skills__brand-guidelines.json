@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Brand Guidelines",
+  "kind": "skill",
+  "slug": "brand-guidelines",
+  "category": "design",
+  "tags": [
+    "branding",
+    "anthropic",
+    "typography",
+    "pptx",
+    "design"
+  ],
+  "description_en": "Applies Anthropic's official brand colors and typography (Poppins/Lora) to artifacts such as slide decks and documents.",
+  "description_zh": "将 Anthropic 官方品牌色彩与字体（Poppins/Lora）应用于幻灯片、文档等产物。",
+  "long_en": "Provides Anthropic's exact brand palette and font pairings for consistent visual styling. Main colors: Dark (#141413), Light (#faf9f5), Mid Gray (#b0aea5); accent colors: Orange (#d97757), Blue (#6a9bcc), Green (#788c5d). Applies Poppins to headings (24pt+) and Lora to body text, with Arial/Georgia fallbacks. Uses python-pptx for PPTX files. Accent colors cycle through orange, blue, and green for non-text shapes. No network access required; relies on system-installed fonts.",
+  "long_zh": "提供 Anthropic 精确品牌色板与字体搭配，用于统一视觉风格。主色包括 Dark (#141413)、Light (#faf9f5)、Mid Gray (#b0aea5)；强调色为 Orange (#d97757)、Blue (#6a9bcc)、Green (#788c5d)。标题（24pt+）用 Poppins，正文用 Lora，备用 Arial/Georgia。PPTX 文件通过 python-pptx 处理。非文字形状循环使用强调色。无需网络访问，依赖系统已安装字体。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/brand-guidelines"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Requires Python with python-pptx installed. No network access or external API calls. Font availability depends on the system environment; falls back to Arial/Georgia automatically.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。需安装 Python 及 python-pptx。无网络访问或外部 API 调用。字体可用性取决于系统环境，自动回退至 Arial/Georgia。"
+}

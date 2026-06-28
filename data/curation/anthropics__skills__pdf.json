@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "PDF",
+  "kind": "skill",
+  "slug": "pdf",
+  "category": "files",
+  "tags": [
+    "pdf",
+    "extract",
+    "merge",
+    "ocr",
+    "document"
+  ],
+  "description_en": "Extract text/tables, merge, split, rotate, watermark, create, fill forms, OCR, and encrypt PDF files using Python libraries and CLI tools.",
+  "description_zh": "使用 Python 库和命令行工具对 PDF 文件进行文本/表格提取、合并、拆分、旋转、水印添加、创建、表单填写、OCR 及加密。",
+  "long_en": "Covers the full range of PDF operations: extract text with pypdf or pdfplumber (including table-to-DataFrame extraction), create multi-page PDFs with reportlab, merge/split/rotate/watermark with pypdf or the qpdf CLI, OCR scanned pages with pytesseract + pdf2image, and fill PDF forms (separate FORMS.md guide). A REFERENCE.md covers advanced pypdfium2 and pdf-lib (JavaScript) usage. All processing is local. Install from `skills/pdf`; core Python packages: pypdf, pdfplumber, reportlab; optional: pytesseract, pdf2image, pandas. CLI tools: qpdf, poppler-utils (pdftotext, pdfimages), pdftk.",
+  "long_zh": "涵盖完整的 PDF 操作范围：使用 pypdf 或 pdfplumber 提取文本（含表格转 DataFrame）；使用 reportlab 创建多页 PDF；使用 pypdf 或 qpdf CLI 合并、拆分、旋转、添加水印；使用 pytesseract + pdf2image 对扫描页面进行 OCR；以及填写 PDF 表单（见独立的 FORMS.md）。REFERENCE.md 中涵盖 pypdfium2 和 pdf-lib（JavaScript）的高级用法。从 `skills/pdf` 安装；核心 Python 包：pypdf、pdfplumber、reportlab；可选：pytesseract、pdf2image、pandas；CLI 工具：qpdf、poppler-utils、pdftk。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/pdf"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: pypdf, pdfplumber, reportlab (pip); optional pytesseract, pdf2image, pandas; CLI tools qpdf, poppler-utils, pdftk. No network access at runtime; all operations are local file processing. Password-handling and encryption features operate on local files only.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：pypdf、pdfplumber、reportlab（pip）；可选：pytesseract、pdf2image、pandas；CLI 工具：qpdf、poppler-utils、pdftk。运行时不访问网络，所有操作均为本地文件处理。密码处理和加密功能仅操作本地文件。"
+}

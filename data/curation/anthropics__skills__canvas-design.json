@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Canvas Design",
+  "kind": "skill",
+  "slug": "canvas-design",
+  "category": "design",
+  "tags": [
+    "visual-art",
+    "poster",
+    "pdf",
+    "png",
+    "design-philosophy"
+  ],
+  "description_en": "Creates original museum-quality visual art as PNG or PDF files, guided by a generated design philosophy manifesto.",
+  "description_zh": "依据生成的设计哲学宣言，创作博物馆品质的原创视觉艺术，输出 PNG 或 PDF 文件。",
+  "long_en": "Two-phase skill: first generates a visual philosophy manifesto (named aesthetic movement, 4-6 paragraphs), then renders it as a single-page PNG or PDF using canvas drawing. Searches a bundled canvas-fonts directory for typography and may download additional fonts at runtime. SKILL.md stresses expert craftsmanship, minimal text, and original work — explicitly prohibiting copying real artists to avoid copyright issues. Multi-page output (e.g. coffee-table book style) is supported on request.",
+  "long_zh": "两阶段技能：先生成视觉哲学宣言（命名美学运动，4-6 段），再通过画布绘制渲染为单页 PNG 或 PDF。从内置 canvas-fonts 目录搜索字体，运行时也可下载额外字体。SKILL.md 强调工艺感、极简文字与原创作品，明确禁止复制真实艺术家作品以规避版权问题。按需支持多页输出（如咖啡桌书风格）。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/canvas-design"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. SKILL.md instructs downloading fonts at runtime if system fonts are insufficient — requires outbound network access in that case. No external API calls or credential requirements. Output files are local PNG/PDF only.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。SKILL.md 指示在系统字体不足时于运行时下载字体，该情况需出站网络访问。无外部 API 调用或凭据要求，输出文件仅为本地 PNG/PDF。"
+}

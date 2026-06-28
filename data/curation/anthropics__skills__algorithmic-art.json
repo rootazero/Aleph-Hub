@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Algorithmic Art",
+  "kind": "skill",
+  "slug": "algorithmic-art",
+  "category": "design",
+  "tags": [
+    "generative-art",
+    "p5js",
+    "creative-coding",
+    "interactive",
+    "algorithmic"
+  ],
+  "description_en": "Generates interactive algorithmic/generative art using p5.js, producing self-contained HTML artifacts with seeded randomness and parameter controls.",
+  "description_zh": "使用 p5.js 生成交互式算法/生成艺术，产出含种子随机性与参数控制的独立 HTML 产物。",
+  "long_en": "Creates original generative art by first drafting an algorithmic philosophy (a computational aesthetic manifesto), then implementing it as a self-contained HTML artifact. Uses p5.js loaded from the cdnjs CDN for rendering. Supports seeded randomness for reproducible outputs, parameter sliders for exploration, and seed navigation. Bundled templates (viewer.html, generator_template.js) provide an Anthropic-branded UI shell. SKILL.md explicitly instructs avoiding copying real artists' work to prevent copyright issues.",
+  "long_zh": "先起草算法哲学（计算美学宣言），再将其实现为独立 HTML 产物，生成原创生成艺术。通过 cdnjs CDN 加载 p5.js 进行渲染，支持种子随机性（可复现输出）、参数滑块与种子导航。内置模板（viewer.html、generator_template.js）提供 Anthropic 品牌 UI 框架。SKILL.md 明确要求避免复制真实艺术家作品以规避版权问题。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/algorithmic-art"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Produced HTML artifacts fetch p5.js from cdnjs CDN at runtime — requires outbound network access in the browser. No server-side code execution; all rendering happens in the user's browser. No external API calls or credential requirements.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。生成的 HTML 产物在浏览器中运行时从 cdnjs CDN 加载 p5.js，需要出站网络访问；无服务端代码执行，渲染全在用户浏览器端完成，无外部 API 调用或凭据要求。"
+}

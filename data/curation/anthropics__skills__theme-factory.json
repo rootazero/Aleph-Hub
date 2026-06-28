@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Theme Factory",
+  "kind": "skill",
+  "slug": "theme-factory",
+  "category": "design",
+  "tags": [
+    "themes",
+    "styling",
+    "slides",
+    "fonts",
+    "colors"
+  ],
+  "description_en": "Applies one of 10 pre-set or a custom color/font theme to any artifact — slides, docs, HTML pages, or reports.",
+  "description_zh": "将 10 种预设主题或自定义配色/字体方案应用于幻灯片、文档、HTML 页面或报告等任意产物。",
+  "long_en": "Provides 10 named themes (Ocean Depths, Sunset Boulevard, Forest Canopy, Modern Minimalist, Golden Hour, Arctic Frost, Desert Rose, Tech Innovation, Botanical Garden, Midnight Galaxy), each defined in a bundled themes/ directory with hex color palettes and font pairings. Workflow: display the bundled theme-showcase.pdf, wait for user selection, read the theme file, then apply colors and fonts to the target artifact. Can also generate a custom theme from a text description. Works with PPTX slides, documents, and HTML pages.",
+  "long_zh": "提供 10 个命名主题（海洋深处、日落大道、森林树冠、现代简约、黄金时刻、北极冰霜、沙漠玫瑰、科技创新、植物花园、午夜星系），每个主题在内置 themes/ 目录中定义，包含十六进制色板与字体搭配。工作流程：展示内置 theme-showcase.pdf → 等待用户选择 → 读取主题文件 → 将配色和字体应用于目标产物。也支持根据文字描述生成自定义主题，兼容 PPTX 幻灯片、文档与 HTML 页面。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/theme-factory"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. No network access or external API calls required. Reads local bundled theme files and applies styling to artifacts. Font availability depends on the user's environment.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。无需网络访问或外部 API 调用，读取本地内置主题文件并将样式应用于产物。字体可用性取决于用户环境。"
+}

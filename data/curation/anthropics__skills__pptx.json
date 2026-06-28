@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "PPTX",
+  "kind": "skill",
+  "slug": "pptx",
+  "category": "files",
+  "tags": [
+    "pptx",
+    "powerpoint",
+    "slides",
+    "presentation",
+    "office"
+  ],
+  "description_en": "Read, create, and edit PowerPoint (.pptx) presentations — text extraction via markitdown, creation via pptxgenjs, editing via XML unpack/repack.",
+  "description_zh": "读取、创建和编辑 PowerPoint (.pptx) 演示文稿——通过 markitdown 提取文本，使用 pptxgenjs 从零创建，通过 XML 解压/重打包编辑已有文件。",
+  "long_en": "Supports reading .pptx content (markitdown for text extraction, thumbnail.py for visual slide overview, raw XML via unpack script), editing existing presentations by unpacking the ZIP structure and modifying slide XML, and creating slide decks from scratch using the pptxgenjs npm library. Includes detailed design guidance (color palettes, typography, layout patterns) and a visual QA workflow using LibreOffice + Poppler for image rendering. Install from `skills/pptx`; required: `pip install \"markitdown[pptx]\" Pillow`, `npm install -g pptxgenjs`, LibreOffice, and Poppler (pdftoppm).",
+  "long_zh": "支持 .pptx 内容读取（markitdown 文本提取、thumbnail.py 幻灯片缩略预览、脚本解压后查看原始 XML）；通过解压 ZIP 结构并修改幻灯片 XML 编辑已有演示文稿；使用 pptxgenjs npm 库从零创建幻灯片。内置详细的设计指导（配色方案、字体搭配、布局模式）以及基于 LibreOffice + Poppler 的视觉 QA 工作流。从 `skills/pptx` 安装；所需：`pip install \"markitdown[pptx]\" Pillow`、`npm install -g pptxgenjs`、LibreOffice、Poppler（pdftoppm）。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/pptx"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: markitdown[pptx], Pillow (pip); pptxgenjs (npm); LibreOffice (soffice) for PDF/image conversion; Poppler (pdftoppm). All operations are local; no network calls at runtime. Bundled scripts invoke LibreOffice as a subprocess for rendering.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：markitdown[pptx]、Pillow（pip）；pptxgenjs（npm）；LibreOffice（soffice，用于 PDF/图片转换）；Poppler（pdftoppm）。所有操作均为本地处理，运行时不访问网络。内置脚本以子进程方式调用 LibreOffice 进行渲染。"
+}

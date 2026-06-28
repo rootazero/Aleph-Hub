@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "DOCX",
+  "kind": "skill",
+  "slug": "docx",
+  "category": "files",
+  "tags": [
+    "docx",
+    "word",
+    "document",
+    "office",
+    "xml"
+  ],
+  "description_en": "Create, read, and edit Word (.docx) documents — new docs via the `docx` npm library, existing docs via an unpack-edit-repack XML workflow.",
+  "description_zh": "创建、读取和编辑 Word (.docx) 文件——新文档使用 `docx` npm 库生成，已有文档通过解压-编辑 XML-重新打包工作流处理。",
+  "long_en": "Supports the full .docx lifecycle: read content via pandoc or raw XML, create new documents with the docx npm package (headings, tables, images, footnotes, TOC, multi-column layouts, tracked changes), and edit existing files by unpacking the ZIP/XML structure, applying changes, and repacking. Bundled Python scripts handle unpacking, packing, validation, comment injection, and tracked changes. LibreOffice is required for .doc→.docx conversion and PDF/image export. Install from `skills/docx`, then run `npm install -g docx` and ensure pandoc and LibreOffice are available.",
+  "long_zh": "支持 .docx 文件的完整生命周期：通过 pandoc 或原始 XML 读取内容；使用 docx npm 包创建新文档（标题、表格、图片、脚注、目录、多栏布局、修订追踪）；通过解压 ZIP/XML、修改后重新打包来编辑已有文件。内置 Python 脚本处理解压、打包、验证、批注注入和修订追踪。.doc→.docx 转换及 PDF/图片导出需要 LibreOffice。从 `skills/docx` 安装技能，然后执行 `npm install -g docx`，并确保系统中已安装 pandoc 和 LibreOffice。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/docx"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: docx (npm), pandoc, LibreOffice, Poppler (pdftoppm). All operations are local file processing; no network calls at runtime. Bundled scripts invoke LibreOffice and pandoc as local subprocesses and manipulate the filesystem.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：docx（npm）、pandoc、LibreOffice、Poppler（pdftoppm）。所有操作均为本地文件处理，运行时不访问网络。内置脚本以本地子进程方式调用 LibreOffice 和 pandoc，并操作本地文件系统。"
+}

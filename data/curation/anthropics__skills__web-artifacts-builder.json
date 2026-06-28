@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Web Artifacts Builder",
+  "kind": "skill",
+  "slug": "web-artifacts-builder",
+  "category": "developer",
+  "tags": [
+    "react",
+    "tailwind",
+    "html",
+    "artifacts",
+    "shadcn"
+  ],
+  "description_en": "Builds elaborate multi-component HTML artifacts using React 18, TypeScript, Tailwind CSS, and shadcn/ui, bundled into a single self-contained file.",
+  "description_zh": "使用 React 18、TypeScript、Tailwind CSS 和 shadcn/ui 构建多组件 HTML 产物，并打包为单一自包含文件。",
+  "long_en": "A workflow skill for creating complex claude.ai HTML artifacts that need state management, routing, or the full shadcn/ui component library. Provides init-artifact.sh (scaffolds a Vite + React + Tailwind + shadcn project with 40+ pre-installed components) and bundle-artifact.sh (Parcel-based bundler that inlines all JS/CSS into one HTML file). Requires Node.js 18+ and npm. Not intended for simple single-file JSX; use the built-in artifact tool for those.",
+  "long_zh": "用于创建需要状态管理、路由或完整 shadcn/ui 组件库的复杂 claude.ai HTML 产物。提供 init-artifact.sh（搭建含 40+ 预装组件的 Vite + React + Tailwind + shadcn 项目）和 bundle-artifact.sh（基于 Parcel 的打包器，将所有 JS/CSS 内联为单一 HTML 文件）。需要 Node.js 18+ 和 npm。不适用于简单的单文件 JSX，那种情况请使用内置产物工具。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/web-artifacts-builder"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Executes shell scripts (init-artifact.sh, bundle-artifact.sh) that run npm install and Parcel; requires Node.js 18+ and npm. Installs npm packages (including Radix UI, Tailwind, shadcn/ui) into a local project directory during build. Runs locally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。执行 shell 脚本（init-artifact.sh、bundle-artifact.sh），内部运行 npm install 和 Parcel，需要 Node.js 18+ 和 npm。构建期间会将 npm 包（包括 Radix UI、Tailwind、shadcn/ui）安装到本地项目目录。"
+}

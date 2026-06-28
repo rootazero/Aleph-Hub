@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Frontend Design",
+  "kind": "skill",
+  "slug": "frontend-design",
+  "category": "developer",
+  "tags": [
+    "design",
+    "frontend",
+    "ui",
+    "css",
+    "typography"
+  ],
+  "description_en": "Opinionated design guidance for creating distinctive, production-grade frontend interfaces with deliberate palette, typography, and layout choices.",
+  "description_zh": "为前端界面提供有主见的设计指导，强调独特的色板、字体排印与布局，避免模板化外观。",
+  "long_en": "A design-lead skill that approaches every interface brief with the intent to produce a visual identity that cannot be mistaken for anyone else's. Instructs the model to brainstorm a token system (color, type, layout, signature element), critique against generic defaults, then build to the refined plan. Covers typography pairing, motion, copy writing, restraint, and accessibility basics (responsive, keyboard focus, reduced-motion). No framework is mandated — guidance is technology-agnostic.",
+  "long_zh": "该技能以设计主管的视角处理每个界面需求，致力于打造无法与他人混淆的视觉风格。指导模型先规划色彩/字体/布局/标志性元素，再对照通用默认值进行批判性审查，最后按修订方案构建。涵盖字体搭配、动效、文案写作、克制原则及无障碍基础。不限定技术框架，适用于各类前端场景。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/frontend-design"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. No code execution, no external network calls, no dependencies. Provides design guidance only. Runs locally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。不执行代码、不访问网络、无依赖项，仅提供设计指导。本地运行。"
+}

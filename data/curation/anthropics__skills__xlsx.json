@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "XLSX",
+  "kind": "skill",
+  "slug": "xlsx",
+  "category": "files",
+  "tags": [
+    "xlsx",
+    "excel",
+    "spreadsheet",
+    "pandas",
+    "data"
+  ],
+  "description_en": "Create, read, and edit Excel (.xlsx) spreadsheets with pandas for data analysis and openpyxl for formulas, formatting, and multi-sheet workbooks.",
+  "description_zh": "使用 pandas 进行数据分析、openpyxl 处理公式与格式，创建、读取和编辑 Excel (.xlsx) 电子表格，支持多工作表和财务模型。",
+  "long_en": "Covers reading spreadsheet data with pandas (bulk ops, statistics, multi-sheet import), creating and editing workbooks with openpyxl (Excel formulas, cell styling, column sizing, sheet management), and recalculating formula values via a bundled `scripts/recalc.py` that drives LibreOffice in headless mode. Includes financial model conventions: industry-standard color coding for inputs/formulas/cross-sheet links, number formatting rules, and a formula verification checklist. Install from `skills/xlsx`; required: `pip install pandas openpyxl`; LibreOffice must be installed for formula recalculation.",
+  "long_zh": "涵盖使用 pandas 读取电子表格数据（批量操作、统计分析、多表导入）；使用 openpyxl 创建和编辑工作簿（Excel 公式、单元格样式、列宽、工作表管理）；以及通过内置的 `scripts/recalc.py` 以无头模式调用 LibreOffice 重新计算公式。包含财务模型规范：输入/公式/跨表链接的行业标准色彩编码、数字格式规则和公式验证清单。从 `skills/xlsx` 安装；所需：`pip install pandas openpyxl`；公式重算需要安装 LibreOffice。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/xlsx"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Dependencies: pandas, openpyxl (pip); LibreOffice (soffice) required for formula recalculation via scripts/recalc.py. All operations are local; no network calls at runtime. The recalc script invokes LibreOffice as a subprocess and writes a temporary macro on first run.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。依赖项：pandas、openpyxl（pip）；公式重算需要 LibreOffice（soffice），通过 scripts/recalc.py 调用。所有操作均为本地处理，运行时不访问网络。recalc 脚本首次运行时会写入临时宏，并以子进程方式调用 LibreOffice。"
+}

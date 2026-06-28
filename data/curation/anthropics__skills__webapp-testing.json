@@ -1,0 +1,23 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Web App Testing",
+  "kind": "skill",
+  "slug": "webapp-testing",
+  "category": "developer",
+  "tags": [
+    "playwright",
+    "testing",
+    "browser",
+    "automation"
+  ],
+  "description_en": "Tests local web applications using native Python Playwright scripts, supporting screenshot capture, DOM inspection, console log reading, and server lifecycle management.",
+  "description_zh": "通过原生 Python Playwright 脚本测试本地 Web 应用，支持截图、DOM 检查、控制台日志读取及服务器生命周期管理。",
+  "long_en": "A Playwright-based skill for verifying frontend functionality, debugging UI behavior, and automating local web app interactions. Follows a reconnaissance-then-action pattern: navigate, wait for networkidle, inspect the rendered DOM or take a screenshot, identify selectors, then execute actions. Bundles a with_server.py helper that manages one or more dev-server processes. Can handle both static HTML (via file:// URLs) and dynamic single-page apps. Requires Python, the playwright package, and Playwright browser binaries installed separately.",
+  "long_zh": "基于 Playwright 的技能，用于验证前端功能、调试 UI 行为和自动化本地 Web 应用交互。遵循「侦察后行动」模式：导航、等待 networkidle、检查渲染 DOM 或截图、识别选择器、执行操作。内置 with_server.py 辅助脚本，可管理一个或多个开发服务器进程。支持静态 HTML（file:// URL）和动态单页应用。需要 Python、playwright 包以及单独安装的 Playwright 浏览器二进制文件。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/webapp-testing"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Drives a real Chromium browser via Playwright; requires Python, the `playwright` package (`pip install playwright`), and browser binaries (`playwright install chromium`). Executes Python scripts and can start local dev servers as subprocesses. Interacts only with localhost; no external network calls from the skill itself. Runs locally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。通过 Playwright 驱动真实 Chromium 浏览器，需要 Python、`playwright` 包（`pip install playwright`）及浏览器二进制文件（`playwright install chromium`）。执行 Python 脚本，可作为子进程启动本地开发服务器。仅与 localhost 交互，技能本身不发起外部网络请求。"
+}

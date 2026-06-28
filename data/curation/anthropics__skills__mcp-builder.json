@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "MCP Builder",
+  "kind": "skill",
+  "slug": "mcp-builder",
+  "category": "developer",
+  "tags": [
+    "mcp",
+    "sdk",
+    "typescript",
+    "python",
+    "api"
+  ],
+  "description_en": "Step-by-step guide for building high-quality MCP servers in TypeScript or Python, covering tool design, testing with MCP Inspector, and evaluation.",
+  "description_zh": "构建高质量 MCP 服务器的分步指南，支持 TypeScript 与 Python，涵盖工具设计、MCP Inspector 测试及评估。",
+  "long_en": "A four-phase workflow skill for creating MCP (Model Context Protocol) servers: research and planning, implementation, code review and testing, and evaluation creation. Recommends TypeScript with stateless streamable HTTP for remote servers. Loads live MCP protocol docs and SDK READMEs via WebFetch during use. Bundles bundled reference files for Python (FastMCP) and Node.js patterns, best practices, and quality checklists. Guides creation of 10-question evaluations to validate the finished server.",
+  "long_zh": "一个包含四阶段工作流的 MCP 服务器构建技能：研究规划、实现、代码审查/测试、评估创建。推荐使用 TypeScript + 无状态流式 HTTP 方案。运行期间会通过 WebFetch 拉取最新 MCP 协议文档和 SDK README。内置 Python（FastMCP）与 Node.js 模式的参考文件、最佳实践和质量清单，并指导创建 10 问评估集以验证服务器效果。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/mcp-builder"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Fetches live MCP protocol docs and SDK READMEs from the internet (modelcontextprotocol.io, GitHub) via WebFetch during use. Generated MCP servers will require their own runtime dependencies (Node.js or Python). Runs locally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。使用期间会通过 WebFetch 从互联网（modelcontextprotocol.io、GitHub）拉取最新 MCP 协议文档和 SDK README。生成的 MCP 服务器需要各自的运行时依赖（Node.js 或 Python）。本地运行。"
+}

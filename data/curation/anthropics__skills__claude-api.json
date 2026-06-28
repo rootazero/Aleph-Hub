@@ -1,0 +1,24 @@
+{
+  "full_name": "anthropics/skills",
+  "name": "Claude API Reference",
+  "kind": "skill",
+  "slug": "claude-api",
+  "category": "developer",
+  "tags": [
+    "claude",
+    "api",
+    "sdk",
+    "documentation",
+    "llm"
+  ],
+  "description_en": "Reference documentation for the Claude API and Anthropic SDK — model IDs, pricing, streaming, tool use, MCP, caching, and token counting.",
+  "description_zh": "Claude API 与 Anthropic SDK 的参考文档，涵盖模型 ID、定价、流式传输、工具调用、MCP、缓存与 token 计数。",
+  "long_en": "A reference skill that loads up-to-date Claude API and Anthropic SDK documentation before answering questions about LLM-powered applications. Triggers automatically when a prompt mentions Claude/Anthropic model names, asks about pricing or rate limits, or involves agent/MCP/tool-use patterns. Covers Python and TypeScript SDKs. Designed to prevent stale-training-data mistakes; skips gracefully when a non-Anthropic provider is in use.",
+  "long_zh": "一个参考型技能，在回答 LLM 应用相关问题之前自动加载最新的 Claude API 与 Anthropic SDK 文档。当提示中涉及 Claude/Anthropic 模型名称、定价限制或 agent/MCP/工具调用模式时自动触发。涵盖 Python 和 TypeScript SDK，避免因训练数据过时而产生错误答案；当检测到非 Anthropic 提供商时自动跳过。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/claude-api"
+  },
+  "sec_note_en": "Proprietary: © Anthropic, PBC (per-skill LICENSE.txt) — use is governed by your Anthropic agreement; copying outside Anthropic's Services, derivative works, and third-party redistribution are explicitly prohibited. Documentation/reference skill only — no code execution, no external service calls, no dependencies beyond Claude itself. Runs locally.",
+  "sec_note_zh": "专有许可 © Anthropic, PBC（各技能目录内 LICENSE.txt）：使用受你与 Anthropic 的协议约束；明确禁止在 Anthropic Services 之外保留副本、创建衍生作品或向第三方转分发。纯文档/参考型技能，不执行代码、不调用外部服务、无额外依赖。本地运行。"
+}

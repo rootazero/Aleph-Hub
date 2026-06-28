@@ -32,6 +32,8 @@
     "fabriqaai/ffmpeg-analyse-video-skill",
     "remotion-dev/skills",
     "browser-use/video-use",
-    "adithya-s-k/manim_skill"
+    "adithya-s-k/manim_skill",
+    "anthropics/skills",
+    "obra/superpowers"
   ]
 }
