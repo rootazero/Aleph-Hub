@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 208,
-    "generated_at": "2026-06-28T10:46:52.518Z",
-    "content_hash": "sha256:e12ef9bcead86cb060eba4f61610c72e10cc6277e7a637b5a1d516b6620d2acc"
+    "generated_at": "2026-06-28T14:11:26.579Z",
+    "content_hash": "sha256:921fc7f7a80e5c087eca42772940bd15a606a04f127dcf1075664199dd11f226"
   },
   "entries": [
     {
@@ -2363,7 +2363,7 @@
       "name": "GEO Brand Knowledge Graph",
       "description": "Turns company materials, official sites, products, cases and people into an evidence-backed brand entity knowledge graph, outputting entity/relation lists, a disambiguation table, confidence tiers, Mermaid diagrams, JSON-LD, RDF triples and Word/PDF/HTML/Markdown reports.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2388,7 +2388,7 @@
       "name": "GEO Comparison Builder",
       "description": "Generates evidence-bound, same-criteria GEO brand-comparison content (vs pages, alternatives, selection pages, FAQ) with a decision-dimension model, source ledger, and scoring matrix, delivered as Word, PDF, HTML, and Markdown.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2413,7 +2413,7 @@
       "name": "GEO Content Refiner",
       "description": "Refactors existing SEO articles, WeChat posts, white papers, or product-page copy into GEO-friendly, AI-citable content, outputting an original GEO score, refined article, before/after diff, atomic fact cards, FAQ, and a four-format report.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2438,7 +2438,7 @@
       "name": "GEO Effect Monitor",
       "description": "Designs a GEO answer-monitoring plan for Chinese answer engines (DeepSeek, Doubao, Qianwen, Kimi, Tencent Yuanbao): per-platform sampling specs, a prompt library, a six-layer metric system, citation-source tracking, a cautious attribution framework, a brand-fact correction loop, alert/threshold rules, dashboard fields and a DB/API draft, delivered as Word/PDF/HTML/Markdown reports.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2463,7 +2463,7 @@
       "name": "GEO Execution Roadmap",
       "description": "Turns an existing GEO diagnosis and opportunity map into a 30/60/90-day execution plan with six project packages (page tech, content matrix, titles, knowledge base, external evidence, monitoring), roles, acceptance metrics, budget, and platform-specific actions for DeepSeek, Doubao, Qwen, Kimi, and Yuanbao, output in four formats.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2487,7 +2487,7 @@
       "name": "GEO Explainer Builder",
       "description": "Builds a complete publishable GEO explainer article (how-to, concept explanation, buying guides, pitfalls, FAQ, glossary, evidence grading) plus a data-verification appendix, delivered as Markdown, HTML, Word, and PDF.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2512,7 +2512,7 @@
       "name": "GEO Knowledge Base Builder",
       "description": "Builds an evidence-backed, auditable GEO brand knowledge base from official sites, product pages, help centers, white papers and trusted third-party sources, outputting a complete entity inventory, fact cards, FAQ, prohibited-expression list, source index with evidence tiers, downstream prompt input packs and a four-format Chinese report (Markdown/HTML/Word/PDF).",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2537,7 +2537,7 @@
       "name": "GEO Page Audit",
       "description": "Audits a URL or small page set for GEO readiness across crawlability, structure, content evidence, and AI extractability, producing code-layer fixes, content/schema suggestions, an evidence ledger, and a four-format report with a quality-report.json self-check.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2561,7 +2561,7 @@
       "name": "GEO Page Blueprint",
       "description": "Designs a GEO-friendly page blueprint for a product, topic, ranking, comparison, FAQ, knowledge-base, or case page, producing query fan-out coverage, information architecture, AI-extractable modules, semantic HTML, Schema candidates, a CMS field list, and a four-format report.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2585,7 +2585,7 @@
       "name": "GEO Panorama Audit",
       "description": "Runs a full-brand GEO baseline audit by crawling the brand's official site, cross-verifying claims against public sources, and producing a 12-domain diagnosis with an onsite/offsite opportunity map and priorities, delivered as Word, PDF, HTML, and Markdown.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2609,7 +2609,7 @@
       "name": "GEO Ranking Article Builder",
       "description": "Turns a brand brief, topic config, keywords, competitor set, and trusted sources into a traceable GEO ranking/review article (best/top/alternatives/vs/persona/use-case) with scoring methodology, comparison table, FAQ, and a sources table, delivered as Markdown, HTML, PDF, and Word.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2634,7 +2634,7 @@
       "name": "GEO Title Optimizer",
       "description": "Generates, scores, and compliance-checks GEO title candidates for Chinese AI search platforms, mapping each title to an article structure and exporting Markdown, HTML, DOCX, and PDF reports.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -2659,7 +2659,7 @@
       "name": "GEO Attribution & Tracking Planner",
       "description": "From a company name plus optional supporting info, designs a company-specific GEO backend tracking and attribution PLAN: official-site verification, business-type and conversion-path mapping, direct-vs-indirect effect modeling, an observability estimation framework, data-model and metrics design, a prioritized roadmap, and optional rendered HTML and Word reports.",
       "repo_url": "https://github.com/yaojingang/yao-geo-skills",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/yaojingang/yao-geo-skills",
@@ -3701,28 +3701,6 @@
       "via": "github:kimlawtech"
     },
     {
-      "id": "aleph-hub:JamesShi96/project-butler",
-      "kind": "skill",
-      "category": "productivity",
-      "name": "Project Butler",
-      "description": "A project-memory system for AI coding assistants that preserves context across sessions.",
-      "repo_url": "https://github.com/JamesShi96/project-butler",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/JamesShi96/project-butler",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "JamesShi96",
-      "tags": [
-        "memory",
-        "context",
-        "project"
-      ],
-      "via": "github:JamesShi96"
-    },
-    {
       "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
       "kind": "skill",
       "category": "design",
@@ -3744,6 +3722,28 @@
         "presentation"
       ],
       "via": "github:irenerachel"
+    },
+    {
+      "id": "aleph-hub:JamesShi96/project-butler",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Project Butler",
+      "description": "A project-memory system for AI coding assistants that preserves context across sessions.",
+      "repo_url": "https://github.com/JamesShi96/project-butler",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/JamesShi96/project-butler",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "JamesShi96",
+      "tags": [
+        "memory",
+        "context",
+        "project"
+      ],
+      "via": "github:JamesShi96"
     },
     {
       "id": "aleph-hub:ckelsoe/prompt-architect",
@@ -4481,29 +4481,6 @@
       "via": "github:Bhanunamikaze"
     },
     {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
-      "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "patrickstigler",
-      "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
-      ],
-      "via": "github:patrickstigler"
-    },
-    {
       "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
       "category": "utilities",
@@ -4525,6 +4502,29 @@
         "dictation"
       ],
       "via": "github:Mobiss11"
+    },
+    {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
     },
     {
       "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
