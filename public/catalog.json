@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 208,
-    "generated_at": "2026-06-28T14:22:24.298Z",
-    "content_hash": "sha256:10d5036984b3a7743b19fcc10502dc454d0ec46317c4e23d8682383acf164124"
+    "generated_at": "2026-06-29T08:35:54.585Z",
+    "content_hash": "sha256:d49d85b38dfa12c88c305d77ad9cc5c45cff3092f47fe5dfae2e3a40cc2ad8ba"
   },
   "entries": [
     {
@@ -4090,29 +4090,6 @@
       "via": "github:Ashutos1997"
     },
     {
-      "id": "aleph-hub:SDLLL/claude-for-safari",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Claude for Safari",
-      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
-      "repo_url": "https://github.com/SDLLL/claude-for-safari",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/SDLLL/claude-for-safari",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "SDLLL",
-      "tags": [
-        "safari",
-        "browser",
-        "macos",
-        "automation"
-      ],
-      "via": "github:SDLLL"
-    },
-    {
       "id": "aleph-hub:VincentOld/stop-slop-zh",
       "kind": "skill",
       "category": "writing",
@@ -4134,6 +4111,29 @@
         "style"
       ],
       "via": "github:VincentOld"
+    },
+    {
+      "id": "aleph-hub:SDLLL/claude-for-safari",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Claude for Safari",
+      "description": "Control your real Safari browser on macOS via AppleScript and screencapture—open tabs, read pages, fill forms, click, and screenshot web content.",
+      "repo_url": "https://github.com/SDLLL/claude-for-safari",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/SDLLL/claude-for-safari",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "SDLLL",
+      "tags": [
+        "safari",
+        "browser",
+        "macos",
+        "automation"
+      ],
+      "via": "github:SDLLL"
     },
     {
       "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
@@ -4182,29 +4182,6 @@
       "via": "github:brettdavies"
     },
     {
-      "id": "aleph-hub:Farenhytee/database-sentinel",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Database Sentinel",
-      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
-      "repo_url": "https://github.com/Farenhytee/database-sentinel",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Farenhytee/database-sentinel",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Farenhytee",
-      "tags": [
-        "database",
-        "security",
-        "audit",
-        "rls"
-      ],
-      "via": "github:Farenhytee"
-    },
-    {
       "id": "aleph-hub:kgraph57/paper-writer-skill",
       "kind": "skill",
       "category": "writing",
@@ -4226,6 +4203,29 @@
         "manuscript"
       ],
       "via": "github:kgraph57"
+    },
+    {
+      "id": "aleph-hub:Farenhytee/database-sentinel",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Database Sentinel",
+      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
+      "repo_url": "https://github.com/Farenhytee/database-sentinel",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Farenhytee/database-sentinel",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Farenhytee",
+      "tags": [
+        "database",
+        "security",
+        "audit",
+        "rls"
+      ],
+      "via": "github:Farenhytee"
     },
     {
       "id": "aleph-hub:Adityapal67/context-graph-compressor",
@@ -4481,29 +4481,6 @@
       "via": "github:Bhanunamikaze"
     },
     {
-      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
-      "kind": "skill",
-      "category": "writing",
-      "name": "German IT Law & GDPR",
-      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
-      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "patrickstigler",
-      "tags": [
-        "legal",
-        "gdpr",
-        "germany",
-        "compliance"
-      ],
-      "via": "github:patrickstigler"
-    },
-    {
       "id": "aleph-hub:Mobiss11/Whisper-Skill",
       "kind": "skill",
       "category": "utilities",
@@ -4525,6 +4502,29 @@
         "dictation"
       ],
       "via": "github:Mobiss11"
+    },
+    {
+      "id": "aleph-hub:patrickstigler/claude-skill-it-recht-dsgvo",
+      "kind": "skill",
+      "category": "writing",
+      "name": "German IT Law & GDPR",
+      "description": "First-pass assessments on German IT law and GDPR (DSGVO)—data protection, contracts, terms (AGB), Impressum, cookies, NIS2, and the EU AI Act—for DE/EU questions. Explicitly not legal advice.",
+      "repo_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/patrickstigler/claude-skill-it-recht-dsgvo",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "patrickstigler",
+      "tags": [
+        "legal",
+        "gdpr",
+        "germany",
+        "compliance"
+      ],
+      "via": "github:patrickstigler"
     },
     {
       "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
