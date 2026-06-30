@@ -1,0 +1,17 @@
+{
+  "full_name": "thedotmack/claude-mem",
+  "name": "Claude-Mem",
+  "kind": "plugin",
+  "category": "developer",
+  "tags": ["memory", "context", "sessions", "mcp", "knowledge-graph"],
+  "description_en": "A Claude Code plugin that gives coding agents persistent memory across sessions—it captures session activity, compresses it into semantic summaries, and injects relevant context back into future sessions so the agent remembers prior decisions and where it left off.",
+  "description_zh": "一个为编码 agent 提供「跨 session 持久记忆」的 Claude Code 插件——它捕获会话活动，压缩成语义摘要，并在未来的 session 中注入相关上下文，让 agent 记得之前的决策与上次卡在哪里。",
+  "long_en": "Claude-Mem preserves context across sessions so a long-running project doesn't restart from zero each time. It hooks the session lifecycle (SessionStart, UserPromptSubmit, PostToolUse, Stop, SessionEnd) to record tool-usage observations, generates semantic summaries of what happened, and surfaces relevant memories at the start of later sessions. Storage is local—SQLite for sessions/observations/summaries plus a Chroma vector database for hybrid semantic + keyword retrieval—and a local worker service (HTTP on port 37777) exposes a web viewer and search endpoints. Agents query memory through MCP search tools (search → timeline → get_observations) with progressive disclosure to save tokens. Works with Claude Code and other agents (Gemini CLI, OpenCode, Codex, and more).",
+  "long_zh": "Claude-Mem 让长期项目不必每次从零开始：它挂接会话生命周期（SessionStart、UserPromptSubmit、PostToolUse、Stop、SessionEnd）记录工具使用观测，生成语义摘要，并在后续 session 开始时浮现相关记忆。存储全在本地——用 SQLite 存会话/观测/摘要，用 Chroma 向量库做语义 + 关键词混合检索——并由一个本地 worker 服务（HTTP 端口 37777）提供 Web 查看器与检索端点。Agent 通过 MCP 检索工具（search → timeline → get_observations）以渐进披露方式查询记忆、节省 token。支持 Claude Code 及其它 agent（Gemini CLI、OpenCode、Codex 等）。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/thedotmack/claude-mem"
+  },
+  "sec_note_en": "Apache-2.0. By design it records your session activity (tool usage and observations) and stores it in a local SQLite + Chroma database; it also runs a local worker HTTP service on port 37777 with a web viewer. Data stays on your machine and summarization uses your own Claude, but because it captures everything the agent does, review the hooks and the worker service before enabling—especially on shared or sensitive projects. Requires the Bun runtime.",
+  "sec_note_zh": "Apache-2.0。其设计本身就会记录你的会话活动（工具使用与观测）并存入本地 SQLite + Chroma 数据库；同时在本机 37777 端口运行一个带 Web 查看器的 worker 服务。数据留在本地、摘要使用你自己的 Claude，但由于它会捕获 agent 的全部操作，启用前请审查其 hooks 与 worker 服务——尤其在共享或敏感项目上。需要 Bun 运行时。"
+}

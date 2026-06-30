@@ -1,0 +1,17 @@
+{
+  "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "name": "UI/UX Pro Max",
+  "kind": "plugin",
+  "category": "design",
+  "tags": ["ui", "ux", "design-system", "frontend", "accessibility"],
+  "description_en": "A Claude Code plugin that injects design intelligence into coding agents—84 styles, 161 color palettes, 73 font pairings, charts and stacks—plus a Design System Generator that turns a project brief into a tailored, production-ready design system.",
+  "description_zh": "一个为编码 agent 注入「设计智能」的 Claude Code 插件——84 种风格、161 套配色、73 组字体搭配、图表与技术栈，外加一个「设计系统生成器」，能把项目需求一键转成可上线的定制设计系统。",
+  "long_en": "UI/UX Pro Max equips a coding agent with structured design knowledge so its UI output looks deliberate instead of generic. Its flagship Design System Generator runs parallel domain searches over the brief and recommends a coherent system—layout pattern, style direction, color palette, typography, effects, anti-patterns to avoid, and a pre-delivery accessibility checklist (contrast, focus states, reduced-motion, responsive breakpoints). It spans many platforms and frameworks (React, Next.js, Vue, Nuxt, Svelte, Astro, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, Jetpack Compose, Angular, Three.js) and covers styles from glassmorphism and bento grids to brutalism and minimalism. A common workflow is to ask it for several distinct style directions up front, pick one, and build from there.",
+  "long_zh": "UI/UX Pro Max 为编码 agent 注入结构化的设计知识，让它产出的界面显得「有意为之」而非千篇一律。其旗舰功能「设计系统生成器」会围绕需求做多领域并行检索，给出一套自洽的系统——布局范式、风格方向、配色、字体、视觉效果、应避免的反模式，以及一份上线前无障碍清单（对比度、焦点态、reduced-motion、响应式断点）。覆盖众多平台与框架（React、Next.js、Vue、Nuxt、Svelte、Astro、SwiftUI、React Native、Flutter、Tailwind、shadcn/ui、Jetpack Compose、Angular、Three.js），风格从玻璃拟态、bento 网格到野兽派、极简皆有。常见用法是先让它给出几个不同风格方向，挑一个再往下做。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+  },
+  "sec_note_en": "MIT-licensed; runs locally as a Claude Code plugin. It is design guidance plus a CLI and produces frontend code—review generated code before shipping. No external service is required for the design knowledge itself.",
+  "sec_note_zh": "MIT 许可；作为 Claude Code 插件在本地运行。它是设计指引加一个 CLI，并会产出前端代码——上线前请审阅生成的代码。设计知识本身不依赖外部服务。"
+}
