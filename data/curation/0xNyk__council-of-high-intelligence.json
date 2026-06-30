@@ -1,0 +1,23 @@
+{
+  "full_name": "0xNyk/council-of-high-intelligence",
+  "name": "Council of High Intelligence",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "deliberation",
+    "decision-making",
+    "multi-agent",
+    "reasoning",
+    "multi-llm"
+  ],
+  "description_en": "Convenes a council of 18 historical-thinker personas (Aristotle, Feynman, Kahneman, Torvalds and more) to deliberate your hardest decisions in a structured multi-round debate—optionally fanned across multiple LLM providers for genuine model diversity. One command: /council.",
+  "description_zh": "召集 18 位历史思想家人格(亚里士多德、费曼、卡尼曼、Torvalds 等)组成「议会」,通过结构化多轮辩论审议你最棘手的决策——可选地把成员分散到多个 LLM 提供方运行,获得真正的模型多样性。一条命令:/council。",
+  "long_en": "A /council slash-command skill that runs a coordinator-driven deliberation: each persona first analyzes the problem blind (no peer outputs), then cross-examines under anonymized labels to curb conformity bias, then crystallizes a position into a counted, domain-weighted vote tally that a separate Chairman synthesizes into an auditable verdict (consensus, minority report, kill criteria, one concrete next step). Modes scale to the question—full (all 18), triad, duo dialectic, or a 2-round quick pass—and built-in enforcement scans require dissent and novelty so the panel can't just agree. When multiple model CLIs are present (Anthropic, OpenAI/Codex, Gemini, Ollama, NVIDIA NIM, Cursor) it auto-routes polarity-paired members onto different providers; with only Claude it falls back to Anthropic models. It is an orchestration/prompt skill—it reasons and synthesizes, it does not ship code.",
+  "long_zh": "一个 /council 斜杠命令技能,由协调者驱动多轮审议:每位人格先「盲审」(看不到同伴输出)独立分析,再以匿名标签互相质询以抑制从众偏差,最后把立场凝练为一份计票、按领域加权的投票表,由独立的「主席」综合成可审计的裁决(共识、少数派报告、否决条件、唯一的具体下一步)。模式按问题规模可选:full(全部 18 人)、triad(三人组)、duo(二元对辩)或两轮 quick 快审;内置强制扫描要求出现异议与新论点,避免一团和气。当本机存在多个模型 CLI(Anthropic、OpenAI/Codex、Gemini、Ollama、NVIDIA NIM、Cursor)时,会把对立人格自动分配到不同提供方;仅有 Claude 时回退到 Anthropic 模型。它是编排/提示词技能——负责推理与综合,不产出代码。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/0xNyk/council-of-high-intelligence"
+  },
+  "sec_note_en": "MIT-licensed; runs locally as a Claude Code (also Codex/Gemini) skill. It is more than a single SKILL.md—the 18 council personas live as separate agent files, and the repo's install.sh places them under ~/.claude/agents/ plus a bash detect-providers.sh script; a coordinator-only copy loses the member personas. In its optional multi-provider mode the coordinator shells out to external CLIs (codex, gemini, ollama, cursor-agent) and makes HTTPS calls to OpenAI-compatible endpoints (e.g. NVIDIA NIM), sending your problem text to those third-party models; API keys are read from env vars, never inlined. Claude-only mode makes no external calls. A full run can spawn up to 18 subagents over several rounds, so expect high token usage.",
+  "sec_note_zh": "MIT 许可;作为 Claude Code(也支持 Codex/Gemini)技能在本地运行。它不止一个 SKILL.md——18 位议会人格是独立的 agent 文件,仓库的 install.sh 会把它们装到 ~/.claude/agents/,并附带一个 bash 的 detect-providers.sh 脚本;只复制协调者会丢失成员人格。在可选的多提供方模式下,协调者会调用外部 CLI(codex、gemini、ollama、cursor-agent)并向 OpenAI 兼容端点(如 NVIDIA NIM)发起 HTTPS 请求,把你的问题文本发送给这些第三方模型;API key 从环境变量读取,绝不内联。仅 Claude 模式不产生任何外部调用。一次完整运行可能在多轮中派生多达 18 个子 agent,token 消耗较高。"
+}
