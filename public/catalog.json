@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 208,
-    "generated_at": "2026-06-29T08:35:54.585Z",
-    "content_hash": "sha256:d49d85b38dfa12c88c305d77ad9cc5c45cff3092f47fe5dfae2e3a40cc2ad8ba"
+    "entry_count": 210,
+    "generated_at": "2026-06-30T04:11:37.218Z",
+    "content_hash": "sha256:a96570b7ab8a685fb1f2a535bfd335c17ab661c8021ddac14e75035636c7653d"
   },
   "entries": [
     {
@@ -3294,6 +3294,54 @@
       "via": "github:obra"
     },
     {
+      "id": "aleph-hub:nextlevelbuilder/ui-ux-pro-max-skill",
+      "kind": "plugin",
+      "category": "design",
+      "name": "UI/UX Pro Max",
+      "description": "A Claude Code plugin that injects design intelligence into coding agents—84 styles, 161 color palettes, 73 font pairings, charts and stacks—plus a Design System Generator that turns a project brief into a tailored, production-ready design system.",
+      "repo_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "nextlevelbuilder",
+      "tags": [
+        "ui",
+        "ux",
+        "design-system",
+        "frontend",
+        "accessibility"
+      ],
+      "via": "github:nextlevelbuilder"
+    },
+    {
+      "id": "aleph-hub:thedotmack/claude-mem",
+      "kind": "plugin",
+      "category": "developer",
+      "name": "Claude-Mem",
+      "description": "A Claude Code plugin that gives coding agents persistent memory across sessions—it captures session activity, compresses it into semantic summaries, and injects relevant context back into future sessions so the agent remembers prior decisions and where it left off.",
+      "repo_url": "https://github.com/thedotmack/claude-mem",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/thedotmack/claude-mem",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "thedotmack",
+      "tags": [
+        "memory",
+        "context",
+        "sessions",
+        "mcp",
+        "knowledge-graph"
+      ],
+      "via": "github:thedotmack"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -3655,6 +3703,29 @@
       "via": "github:TexasBedouin"
     },
     {
+      "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Visual Style PPT",
+      "description": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
+      "repo_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/irenerachel/visual-style-ppt-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "irenerachel",
+      "tags": [
+        "slides",
+        "image-generation",
+        "design",
+        "presentation"
+      ],
+      "via": "github:irenerachel"
+    },
+    {
       "id": "aleph-hub:dpconde/claude-android-skill",
       "kind": "skill",
       "category": "developer",
@@ -3699,29 +3770,6 @@
         "compliance"
       ],
       "via": "github:kimlawtech"
-    },
-    {
-      "id": "aleph-hub:irenerachel/visual-style-ppt-skill",
-      "kind": "skill",
-      "category": "design",
-      "name": "Visual Style PPT",
-      "description": "Build style-driven, image-only slide decks by extracting reusable visual styles and rendering every slide as a generated image, then assembling them into a PPTX.",
-      "repo_url": "https://github.com/irenerachel/visual-style-ppt-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/irenerachel/visual-style-ppt-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "irenerachel",
-      "tags": [
-        "slides",
-        "image-generation",
-        "design",
-        "presentation"
-      ],
-      "via": "github:irenerachel"
     },
     {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -4412,29 +4460,6 @@
       "via": "github:dancolta"
     },
     {
-      "id": "aleph-hub:mathiaschu/watch",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Watch (Video Ingestion)",
-      "description": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
-      "repo_url": "https://github.com/mathiaschu/watch",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/mathiaschu/watch",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "mathiaschu",
-      "tags": [
-        "video",
-        "yt-dlp",
-        "transcript",
-        "ffmpeg"
-      ],
-      "via": "github:mathiaschu"
-    },
-    {
       "id": "aleph-hub:Danielbluz/skill-irpf-brasil",
       "kind": "skill",
       "category": "finance",
@@ -4456,6 +4481,29 @@
         "compliance"
       ],
       "via": "github:Danielbluz"
+    },
+    {
+      "id": "aleph-hub:mathiaschu/watch",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Watch (Video Ingestion)",
+      "description": "Give Claude a video input: download from YouTube, Instagram, X, Vimeo, TikTok, or any of ~1800 yt-dlp sites (or a local file), extract auto-scaled frames with ffmpeg, and pull a timestamped transcript from captions or on-device whisper—then answer questions about it.",
+      "repo_url": "https://github.com/mathiaschu/watch",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mathiaschu/watch",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mathiaschu",
+      "tags": [
+        "video",
+        "yt-dlp",
+        "transcript",
+        "ffmpeg"
+      ],
+      "via": "github:mathiaschu"
     },
     {
       "id": "aleph-hub:Bhanunamikaze/AI-Dataset-Generator",
