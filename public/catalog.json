@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 210,
-    "generated_at": "2026-06-30T04:11:37.218Z",
-    "content_hash": "sha256:a96570b7ab8a685fb1f2a535bfd335c17ab661c8021ddac14e75035636c7653d"
+    "entry_count": 211,
+    "generated_at": "2026-07-01T07:30:40.469Z",
+    "content_hash": "sha256:0509ba031860f9171b4bd00f063cea1da3d65a1d98b0686073cd52e0c1a52700"
   },
   "entries": [
     {
@@ -3342,6 +3342,30 @@
       "via": "github:thedotmack"
     },
     {
+      "id": "aleph-hub:0xNyk/council-of-high-intelligence",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "Council of High Intelligence",
+      "description": "Convenes a council of 18 historical-thinker personas (Aristotle, Feynman, Kahneman, Torvalds and more) to deliberate your hardest decisions in a structured multi-round debate—optionally fanned across multiple LLM providers for genuine model diversity. One command: /council.",
+      "repo_url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/0xNyk/council-of-high-intelligence",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "0xNyk",
+      "tags": [
+        "deliberation",
+        "decision-making",
+        "multi-agent",
+        "reasoning",
+        "multi-llm"
+      ],
+      "via": "github:0xNyk"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -3839,29 +3863,6 @@
       "via": "github:likaku"
     },
     {
-      "id": "aleph-hub:PleasePrompto/google-ai-mode-skill",
-      "kind": "skill",
-      "category": "search",
-      "name": "Google AI Mode",
-      "description": "Query Google's AI Search mode to retrieve comprehensive, source-cited overviews for current information and research beyond the model's knowledge cutoff.",
-      "repo_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "PleasePrompto",
-      "tags": [
-        "search",
-        "research",
-        "web",
-        "citations"
-      ],
-      "via": "github:PleasePrompto"
-    },
-    {
       "id": "aleph-hub:moshuying/pitchcraft",
       "kind": "skill",
       "category": "communication",
@@ -3883,6 +3884,29 @@
         "communication"
       ],
       "via": "github:moshuying"
+    },
+    {
+      "id": "aleph-hub:PleasePrompto/google-ai-mode-skill",
+      "kind": "skill",
+      "category": "search",
+      "name": "Google AI Mode",
+      "description": "Query Google's AI Search mode to retrieve comprehensive, source-cited overviews for current information and research beyond the model's knowledge cutoff.",
+      "repo_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "PleasePrompto",
+      "tags": [
+        "search",
+        "research",
+        "web",
+        "citations"
+      ],
+      "via": "github:PleasePrompto"
     },
     {
       "id": "aleph-hub:agentenatalie/get-job.skill",
@@ -4230,29 +4254,6 @@
       "via": "github:brettdavies"
     },
     {
-      "id": "aleph-hub:kgraph57/paper-writer-skill",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Paper Writer",
-      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
-      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/kgraph57/paper-writer-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "kgraph57",
-      "tags": [
-        "academic",
-        "research-paper",
-        "imrad",
-        "manuscript"
-      ],
-      "via": "github:kgraph57"
-    },
-    {
       "id": "aleph-hub:Farenhytee/database-sentinel",
       "kind": "skill",
       "category": "developer",
@@ -4274,6 +4275,29 @@
         "rls"
       ],
       "via": "github:Farenhytee"
+    },
+    {
+      "id": "aleph-hub:kgraph57/paper-writer-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Paper Writer",
+      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kgraph57/paper-writer-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kgraph57",
+      "tags": [
+        "academic",
+        "research-paper",
+        "imrad",
+        "manuscript"
+      ],
+      "via": "github:kgraph57"
     },
     {
       "id": "aleph-hub:Adityapal67/context-graph-compressor",
@@ -4299,29 +4323,6 @@
       "via": "github:Adityapal67"
     },
     {
-      "id": "aleph-hub:echoVic/spec-flow",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Spec-Flow",
-      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
-      "repo_url": "https://github.com/echoVic/spec-flow",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/echoVic/spec-flow",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "echoVic",
-      "tags": [
-        "spec-driven",
-        "planning",
-        "workflow",
-        "tasks"
-      ],
-      "via": "github:echoVic"
-    },
-    {
       "id": "aleph-hub:googlarz/finance-assistant",
       "kind": "skill",
       "category": "finance",
@@ -4343,6 +4344,29 @@
         "investing"
       ],
       "via": "github:googlarz"
+    },
+    {
+      "id": "aleph-hub:echoVic/spec-flow",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Spec-Flow",
+      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
+      "repo_url": "https://github.com/echoVic/spec-flow",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/echoVic/spec-flow",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "echoVic",
+      "tags": [
+        "spec-driven",
+        "planning",
+        "workflow",
+        "tasks"
+      ],
+      "via": "github:echoVic"
     },
     {
       "id": "aleph-hub:likemaoke/wechat-article-to-md",
