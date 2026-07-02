@@ -7,16 +7,17 @@
     "social",
     "cards",
     "xiaohongshu",
-    "wechat"
+    "wechat",
+    "live-photo"
   ],
-  "description_en": "Generate Xiaohongshu carousels and WeChat-style social cards from your content with consistent visual styling.",
-  "description_zh": "从你的内容生成小红书图文与微信风格的社交卡片,保持统一的视觉风格。",
-  "long_en": "A design skill that lays out social-media cards (Xiaohongshu carousels, WeChat cards) so a coding agent can produce share-ready visuals.",
-  "long_zh": "排版社交媒体卡片(小红书图文、微信卡片)的设计技能,让编码智能体产出可直接分享的视觉物料。",
+  "description_en": "Generate Xiaohongshu carousels, WeChat cover pairs (21:9 + 1:1), and Live Photo cards from articles, screenshots, or videos using two visual systems—editorial magazine and Swiss International.",
+  "description_zh": "基于「电子杂志风」与「瑞士国际主义」两套视觉系统，从文章、截图或视频生成小红书图文、公众号 21:9 + 1:1 封面对，以及 Live Photo 动态卡。",
+  "long_en": "An agent skill that turns text, screenshots, product notes, or short videos into share-ready social cards. It provides two visual systems (editorial magazine × Swiss grid), three canvas sizes (Xiaohongshu 3:4, WeChat 21:9, 1:1), 28 layout skeletons, ten theme presets, and Live Photo support. Output is rendered from a single-file HTML template to PNG via Playwright.",
+  "long_zh": "一个 agent 设计技能，将文本、截图、产品笔记或短视频转换为可直接发布的社交媒体卡片。提供两套视觉系统（电子杂志风 × 瑞士网格）、三种画板尺寸（小红书 3:4、公众号 21:9 与 1:1）、28 个版式骨架、10 套主题预设，并支持 Live Photo 动态卡。通过单文件 HTML 模板与 Playwright 渲染输出 PNG。",
   "install_spec": {
     "type": "git_dir",
     "git_url": "https://github.com/op7418/guizang-social-card-skill"
   },
-  "sec_note_en": "Produces local image/HTML assets; review before publishing.",
-  "sec_note_zh": "产出本地图片/HTML 物料;发布前请审阅。"
+  "sec_note_en": "Produces local image/HTML assets and may fetch images from the web; review outputs and image sources before publishing. Licensed AGPL-3.0 (copyleft)—review the license terms before redistribution.",
+  "sec_note_zh": "产出本地图片/HTML 物料，并可能从网络获取图片；发布前请审阅输出内容与图片来源。采用 AGPL-3.0(copyleft)许可——再分发前请确认许可条款。"
 }

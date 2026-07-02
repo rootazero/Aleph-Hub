@@ -3575,7 +3575,7 @@
       "kind": "skill",
       "category": "design",
       "name": "Guizang Social Card",
-      "description": "Generate Xiaohongshu carousels and WeChat-style social cards from your content with consistent visual styling.",
+      "description": "Generate Xiaohongshu carousels, WeChat cover pairs (21:9 + 1:1), and Live Photo cards from articles, screenshots, or videos using two visual systems—editorial magazine and Swiss International.",
       "repo_url": "https://github.com/op7418/guizang-social-card-skill",
       "trust_tier": "verified",
       "install_spec": {
@@ -3589,7 +3589,8 @@
         "social",
         "cards",
         "xiaohongshu",
-        "wechat"
+        "wechat",
+        "live-photo"
       ],
       "via": "github:op7418"
     },
