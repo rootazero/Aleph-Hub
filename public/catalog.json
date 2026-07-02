@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 211,
-    "generated_at": "2026-07-01T07:30:40.469Z",
-    "content_hash": "sha256:0509ba031860f9171b4bd00f063cea1da3d65a1d98b0686073cd52e0c1a52700"
+    "generated_at": "2026-07-02T07:03:02.489Z",
+    "content_hash": "sha256:6b69de3eb4822d1245ef6fc383c38da4a7d7e652f3dd22eeb48f7a4fd6541450"
   },
   "entries": [
     {
@@ -3457,6 +3457,29 @@
       "via": "github:karanb192"
     },
     {
+      "id": "aleph-hub:apiotrowski-afk/commercial-legal-pl",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Polish Commercial Legal",
+      "description": "Analyze and draft contracts under Polish law—B2B, IP, and IT agreements (body leasing, NDA, deployments, SaaS, copyright transfer, settlements)—built by a Polish law firm.",
+      "repo_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "apiotrowski-afk",
+      "tags": [
+        "legal",
+        "contracts",
+        "poland",
+        "b2b"
+      ],
+      "via": "github:apiotrowski-afk"
+    },
+    {
       "id": "aleph-hub:jtrackingai/analytics-tracking-automation",
       "kind": "skill",
       "category": "automation",
@@ -3479,29 +3502,6 @@
         "playwright"
       ],
       "via": "github:jtrackingai"
-    },
-    {
-      "id": "aleph-hub:apiotrowski-afk/commercial-legal-pl",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Polish Commercial Legal",
-      "description": "Analyze and draft contracts under Polish law—B2B, IP, and IT agreements (body leasing, NDA, deployments, SaaS, copyright transfer, settlements)—built by a Polish law firm.",
-      "repo_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "apiotrowski-afk",
-      "tags": [
-        "legal",
-        "contracts",
-        "poland",
-        "b2b"
-      ],
-      "via": "github:apiotrowski-afk"
     },
     {
       "id": "aleph-hub:wrsmith108/linear-claude-skill",
@@ -4047,29 +4047,6 @@
       "via": "github:dososo"
     },
     {
-      "id": "aleph-hub:zy-zmc/tianming-skill",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Tianming Novel System",
-      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
-      "repo_url": "https://github.com/zy-zmc/tianming-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/zy-zmc/tianming-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "zy-zmc",
-      "tags": [
-        "novel",
-        "creative-writing",
-        "long-form",
-        "chinese"
-      ],
-      "via": "github:zy-zmc"
-    },
-    {
       "id": "aleph-hub:swaylq/master-skill",
       "kind": "skill",
       "category": "knowledge",
@@ -4091,6 +4068,29 @@
         "workflow"
       ],
       "via": "github:swaylq"
+    },
+    {
+      "id": "aleph-hub:zy-zmc/tianming-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Tianming Novel System",
+      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
+      "repo_url": "https://github.com/zy-zmc/tianming-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zy-zmc/tianming-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zy-zmc",
+      "tags": [
+        "novel",
+        "creative-writing",
+        "long-form",
+        "chinese"
+      ],
+      "via": "github:zy-zmc"
     },
     {
       "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
@@ -4530,6 +4530,29 @@
       "via": "github:mathiaschu"
     },
     {
+      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "HTML to PPTX",
+      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
+      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Hasasasa",
+      "tags": [
+        "pptx",
+        "html",
+        "slides",
+        "conversion"
+      ],
+      "via": "github:Hasasasa"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/AI-Dataset-Generator",
       "kind": "skill",
       "category": "developer",
@@ -4599,27 +4622,27 @@
       "via": "github:patrickstigler"
     },
     {
-      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
+      "id": "aleph-hub:dudaster/html2elementor",
       "kind": "skill",
       "category": "utilities",
-      "name": "HTML to PPTX",
-      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
-      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+      "name": "HTML to Elementor",
+      "description": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
+      "repo_url": "https://github.com/dudaster/html2elementor",
       "trust_tier": "community",
       "install_spec": {
         "type": "git_dir",
-        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
+        "git_url": "https://github.com/dudaster/html2elementor",
         "git_ref": "main"
       },
       "requires_config": false,
-      "author": "Hasasasa",
+      "author": "dudaster",
       "tags": [
-        "pptx",
+        "elementor",
+        "wordpress",
         "html",
-        "slides",
         "conversion"
       ],
-      "via": "github:Hasasasa"
+      "via": "github:dudaster"
     },
     {
       "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
@@ -4643,29 +4666,6 @@
         "reporting"
       ],
       "via": "github:Zuokaiqi"
-    },
-    {
-      "id": "aleph-hub:dudaster/html2elementor",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "HTML to Elementor",
-      "description": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
-      "repo_url": "https://github.com/dudaster/html2elementor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dudaster/html2elementor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dudaster",
-      "tags": [
-        "elementor",
-        "wordpress",
-        "html",
-        "conversion"
-      ],
-      "via": "github:dudaster"
     },
     {
       "id": "aleph-hub:BayramAnnakov/excel-hygiene",
