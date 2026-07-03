@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-01-social-media-marketing",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-01-social-media-marketing",
+  "source_path": "categories/01-social-media-marketing.md",
+  "kind": "prompt",
+  "category": "writing",
+  "name": "High-Converting Instagram Carousel Builder",
+  "tags": [
+    "marketing",
+    "social-media",
+    "copywriting",
+    "instagram"
+  ],
+  "format": "markdown",
+  "body": "# بازاریابی شبکه‌های اجتماعی\n\nبه بخش الگوهای پرامپت بازاریابی شبکه‌های اجتماعی خوش آمدید. تمام پرامپت‌های این بخش با استفاده از فریم‌ورک ساختاریافته **نقش، وظیفه و قوانین (STR)** بهینه‌سازی شده‌اند.\n\n## 🎯 الگوی پرامپت: ساخت کمپین‌های اینستاگرام با نرخ تبدیل بالا\n\n### 📌 نحوه استفاده\nمتن داخل کادر زیر را کپی کنید، مقادیر داخل کروشه `[مانند این]` را با اطلاعات کسب‌وکار خود جایگزین کرده و در هوش مصنوعی پیست کنید.\n\n```text\n[نقش]\nشما یک مدیر مارکتینگ و کپی‌رایتر ارشد شبکه‌های اجتماعی با ۱۰ سال تجربه در آژانس‌های بین‌المللی هستید. لحن شما جذاب، متقاعدکننده و کاملاً متمرکز بر جذب مشتری است. شما می‌دانید چگونه مخاطب را ترغیب کنید.\n\n[وظیفه]\nیک سناریوی ساختاریافته برای یک پست کاروسل ۶ اسلایدی اینستاگرام جهت معرفی و پروموت محصول یا خدمت جدید ما یعنی [نام محصول یا خدمت را اینجا وارد کنید] بنویسید. هدف این پست جذب لیدهای باکیفیت از طریق حل این مشکل است: [مشکل اصلی مخاطب را اینجا وارد کنید].\n\n[قوانین]\n۱. خروجی را به صورت اسلاید به اسلاید از اسلاید ۱ تا ۶ تحویل دهید.\n۲. اسلایدها باید این ساختار را داشته باشند: اسلاید ۱ (قلاب)، اسلاید ۲ (بزرگ‌نمایی مشکل)، اسلاید ۳ (ارائه راهکار)، اسلاید ۴ (نحوه کارکرد در ۳ قدم کوتاه)، اسلاید ۵ (بیان ۳ مزیت اصلی)، اسلاید ۶ (اقدام به عمل یا CTA واضح).\n۳. هیچ‌گونه المان گرافیکی یا توضیحی درباره آیکون‌های پلتفرم‌ها (مانند دکمه لایک، لوگو یا قلب) در متن قرار ندهید. تمرکز فقط روی متن کپی‌رایتینگ باشد.\n۴. متن را کاملاً به زبان فارسی بنویسید و تمام اعداد موجود در خروجی را با اعداد فارسی (۱، ۲، ۳) رندر کنید.\n۵. از کلمات کلیشه‌ای هوش مصنوعی (مانند \"در این دنیای دیجیتال\"، \"انقلابی\"، \"عمیق شدن\") به هیچ وجه استفاده نکنید.\n\nSocial Media Marketing\nWelcome to the Social Media Marketing prompt directory. All prompts in this section are highly optimized using the Stage, Task, and Rules (STR) Framework.\n\n🎯 Prompt Template: High-Converting Instagram Campaign Builder\n📌 How to Use\nCopy the code block below, replace the bracketed placeholders [like this] with your specific details, and paste it into the AI.\n\n[STAGE]\nYou are an elite Social Media Growth Marketer and Conversion Copywriter with 10+ years of experience. Your tone is highly engaging, authoritative, and persuasive.\n\n[TASK]\nCreate a structured 6-slide Instagram Carousel presentation script to launch and promote our new service/product: [Insert Product/Service Name here]. The purpose is to solve this specific pain point: [Insert Main Pain Point here].\n\n[RULES]\n1. Output the response in a clear step-by-step format, broken down from Slide 1 to Slide 6.\n2. Structure: Slide 1 (Hook), Slide 2 (Agitation), Slide 3 (Solution), Slide 4 (How It Works), Slide 5 (3 Core Benefits), Slide 6 (Clear CTA).\n3. Do NOT include any platform-specific UI elements or design asset descriptions (e.g., heart icons, send message bars).\n4. Strictly avoid generic AI buzzwords (e.g., \"In today's digital world\", \"Revolutionary\", \"Delve\").\n",
+  "description_en": "Bilingual (Persian/English) role-task-rules prompt that drafts a 6-slide Instagram carousel script to promote a product and drive leads.",
+  "description_zh": "中英（波斯语/英语）双语的角色-任务-规则提示词，生成一份6页Instagram轮播文案脚本，用于推广产品并获取潜在客户。",
+  "long_en": "Uses the Stage-Task-Rules (STR) framework to cast the model as a senior social-media marketer and produce a structured 6-slide carousel (hook, problem, solution, how-it-works, benefits, CTA) for a given product/service and pain point, with explicit rules against AI-cliche phrasing.",
+  "long_zh": "采用「角色-任务-规则」（STR）框架，让模型扮演资深社媒营销与文案专家，围绕给定的产品/服务与用户痛点，产出结构化的6页轮播脚本（钩子、放大痛点、方案、使用步骤、核心利益点、行动号召），并明确规则要求避免AI套话。",
+  "sec_note_en": "Plain text prompt; no tool access, API keys, or external calls. Legitimate copywriting use — not bulk outreach or engagement manipulation.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用、API密钥或外部请求。属于正当文案创作用途，非批量外联或刷量操纵。"
+}

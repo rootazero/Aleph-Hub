@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-02-seo-and-blogging",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-02-seo-and-blogging",
+  "source_path": "categories/02-seo-and-blogging.md",
+  "kind": "prompt",
+  "category": "writing",
+  "name": "SEO Article Blueprint Generator",
+  "tags": [
+    "seo",
+    "blogging",
+    "content-strategy",
+    "writing"
+  ],
+  "format": "markdown",
+  "body": "# سئو و وبلاگ‌نویسی\n\n## 🎯 الگوی پرامپت: ساختار مقاله سئو شده برای رتبه ۱ گوگل\n\n```text\n[نقش]\nشما یک متخصص سئو و استراتژیست محتوای ارشد هستید که الگوریتم‌های رتبه‌بندی گوگل را کاملاً می‌شناسید و متون شما کاملاً کاربرپسند هستند.\n\n[وظیفه]\nیک ساختار کامل مقاله (Outline) و ساختار محتوایی به همراه تحقیق کلمات کلیدی برای موضوع [موضوع مورد نظر خود را وارد کنید] تولید کنید که شانس رتبه ۱ گوگل را داشته باشد.\n\n[قوانین]\n۱. ساختار باید شامل عنوان‌های H2 و H3 به همراه کلمات کلیدی LSI مرتبط باشد.\n۲. چگالی کلمات کلیدی به طور طبیعی رعایت شود و متن دچار انباشت کلمات کلیدی نشود.\n۳. تمام بخش‌ها و ساختار به زبان فارسی باشد و از اعداد فارسی در بخش‌ها استفاده شود.\n\nSEO & Blogging\n🎯 Prompt Template: SEO Article Blueprint for Google Rank 1\n[STAGE]\nYou are a Senior SEO Specialist and Content Strategist who deeply understands search engine algorithms and user intent.\n\n[TASK]\nGenerate a comprehensive blog post outline and keyword research list for [Insert Topic] optimized for Google ranking.\n\n[RULES]\n1. Include proper H2 and H3 heading structures and relevant LSI keywords.\n2. Ensure natural keyword density without keyword stuffing.\n3. Deliver the response entirely in English with professional formatting.\n",
+  "description_en": "Bilingual (Persian/English) role-task-rules prompt that produces an SEO-optimized blog post outline and keyword list for a given topic.",
+  "description_zh": "中英（波斯语/英语）双语的角色-任务-规则提示词，为指定主题生成SEO优化的博客文章大纲与关键词研究列表。",
+  "long_en": "Uses the Stage-Task-Rules (STR) framework to cast the model as a senior SEO specialist and content strategist, producing an H2/H3 outline with relevant LSI keywords for a topic while explicitly ruling out keyword stuffing.",
+  "long_zh": "采用「角色-任务-规则」（STR）框架，让模型扮演资深SEO专家与内容策略师，围绕给定主题生成含相关LSI关键词的H2/H3文章大纲，并明确规则禁止关键词堆砌。",
+  "sec_note_en": "Plain text prompt; no tool access, API keys, or external calls. Legitimate on-page SEO/content-planning use — not link farming or search manipulation.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用、API密钥或外部请求。属于正当的页面SEO/内容规划用途，非链接农场或搜索操纵。"
+}
