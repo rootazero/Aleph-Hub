@@ -57,5 +57,15 @@
   "aleph-hub:JuliusBrussee/caveman#skills-caveman-help-skill",
   "aleph-hub:JuliusBrussee/caveman#skills-caveman-compress-skill",
   "aleph-hub:DietrichGebert/ponytail#openclaw-skills-ponytail-gain-skill",
-  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-agents-prompt-manager"
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-agents-prompt-manager",
+  "aleph-hub:BELYAGOUBIABDELILAH/open-prompt-library#privacy",
+  "aleph-hub:f/prompts.chat#claude-plugin",
+  "aleph-hub:f/prompts.chat#governance",
+  "aleph-hub:f/prompts.chat#owners",
+  "aleph-hub:f/prompts.chat#self-hosting",
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-agents-skill-manager",
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-commands-prompts",
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-commands-skills",
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-skills-prompt-lookup-skill",
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-skills-skill-lookup-skill"
 ]
