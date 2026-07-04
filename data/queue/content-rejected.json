@@ -67,5 +67,17 @@
   "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-commands-prompts",
   "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-commands-skills",
   "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-skills-prompt-lookup-skill",
-  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-skills-skill-lookup-skill"
+  "aleph-hub:f/prompts.chat#plugins-claude-prompts-chat-skills-skill-lookup-skill",
+  "aleph-hub:f/prompts.chat#src-content-book-00a-preface",
+  "aleph-hub:f/prompts.chat#src-content-book-00b-history",
+  "aleph-hub:f/prompts.chat#src-content-book-00c-introduction",
+  "aleph-hub:f/prompts.chat#src-content-book-01-understanding-ai-models",
+  "aleph-hub:f/prompts.chat#src-content-book-02-anatomy-of-effective-prompt",
+  "aleph-hub:microsoft/generative-ai-for-beginners#devcontainer-setup",
+  "aleph-hub:microsoft/generative-ai-for-beginners#github-issue-template-bug-report",
+  "aleph-hub:microsoft/generative-ai-for-beginners#github-issue-template-feature-request",
+  "aleph-hub:microsoft/generative-ai-for-beginners#vscode-ltex-dictionary-en-us",
+  "aleph-hub:microsoft/generative-ai-for-beginners#00-course-setup-01-setup-cloud",
+  "aleph-hub:microsoft/generative-ai-for-beginners#00-course-setup-02-setup-local",
+  "aleph-hub:microsoft/generative-ai-for-beginners#00-course-setup-03-providers"
 ]
