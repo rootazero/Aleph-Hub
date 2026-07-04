@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "dyp-ask",
+  "name": "Duan Yongping Ask",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "value-investing",
+    "duan-yongping",
+    "reasoning",
+    "investment"
+  ],
+  "description_en": "Answer investment questions in the style of Duan Yongping: focus on the right business, the right people, and the right price, with plain-language discipline.",
+  "description_zh": "以段永平的方式回答投资问题：聚焦对的生意、对的人、对的价格，用大白话保持投资纪律。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It frames decisions through Duan Yongping's lens—differentiation, pricing power, management integrity, and margin of safety—and refuses to hedge with vague answers.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。用段永平的视角框定决策——差异化、定价权、管理层诚信、安全边际——并拒绝用模棱两可的话来打太极。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/dyp-ask"
+  },
+  "sec_note_en": "Performs web searches for public information and reads local files. No external accounts or credentials required.",
+  "sec_note_zh": "会执行网络搜索获取公开信息并读取本地文件。无需外部账号或凭据。"
+}

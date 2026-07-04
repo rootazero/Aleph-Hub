@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "wechat-article",
+  "name": "WeChat Article",
+  "kind": "skill",
+  "category": "communication",
+  "tags": [
+    "wechat",
+    "article",
+    "writing",
+    "multi-agent",
+    "content"
+  ],
+  "description_en": "Three-agent workflow to write, edit, and review WeChat articles: author, editor, and reader roles produce publication-ready drafts.",
+  "description_zh": "三 Agent 协作撰写微信公众号文章：作者、编辑、读者角色产出可直接发布的草稿。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It uses author/editor/reader agents to turn research into a polished WeChat article with structure, voice, and readability checks.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。使用作者/编辑/读者三代理把研究成果转化为结构完整、口吻一致、可读性经过检查的微信公众号文章。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/wechat-article"
+  },
+  "sec_note_en": "Spawns subagents and produces article drafts locally. No external publishing or accounts are used unless you explicitly copy the output into WeChat.",
+  "sec_note_zh": "会启动子代理并在本地生成文章草稿。除非你主动把输出粘贴到微信，否则不使用任何外部发布或账号。"
+}

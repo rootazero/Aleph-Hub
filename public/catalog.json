@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 211,
-    "generated_at": "2026-07-02T07:03:02.489Z",
-    "content_hash": "sha256:6b69de3eb4822d1245ef6fc383c38da4a7d7e652f3dd22eeb48f7a4fd6541450"
+    "entry_count": 231,
+    "generated_at": "2026-07-04T13:40:22.562Z",
+    "content_hash": "sha256:89786a91e3b3fc4d5fb7ba98a12cc831e381db056686e2988c6293ae96f36862"
   },
   "entries": [
     {
@@ -5126,6 +5126,493 @@
         "pandoc"
       ],
       "via": "hermes-atlas"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/bottleneck-hunter",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Bottleneck Hunter",
+      "description": "AI-driven global supply-chain bottleneck scanner for value investors. Identifies choke points, maps upstream/downstream impacts, and turns them into actionable investment theses.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/bottleneck-hunter",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "supply-chain",
+        "investment",
+        "macro",
+        "bottleneck",
+        "arbitrage"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/deep-company-series",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Deep Company Series",
+      "description": "Produce an 8-part deep-dive research series on a single company, covering business, moat, management, industry, risks, valuation, thesis, and action plan.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/deep-company-series",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "research",
+        "investment",
+        "deep-dive",
+        "company-analysis",
+        "value-investing"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/dyp-ask",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Duan Yongping Ask",
+      "description": "Answer investment questions in the style of Duan Yongping: focus on the right business, the right people, and the right price, with plain-language discipline.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/dyp-ask",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "value-investing",
+        "duan-yongping",
+        "reasoning",
+        "investment"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/earnings-review",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Earnings Review",
+      "description": "Deep-read an earnings report through the four-masters lens: business quality, moat, management, and valuation, with first-hand data cross-checks.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/earnings-review",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "earnings",
+        "financial-statements",
+        "investment",
+        "analysis"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/earnings-team",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Earnings Team",
+      "description": "Four-role parallel team that deep-reads an earnings report through the Buffett/Munger/Duan/Li Lu lenses and drafts a WeChat article summarizing the verdict.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/earnings-team",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "earnings",
+        "team",
+        "multi-agent",
+        "investment",
+        "wechat"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/financial-data",
+      "kind": "skill",
+      "category": "data",
+      "name": "Financial Data",
+      "description": "Fetching and cross-validation rules for financial data used across AI Berkshire skills: revenue, profit, cash, market cap, valuation ratios, and DCF inputs.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/financial-data",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "financial-data",
+        "validation",
+        "valuation",
+        "investment"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/industry-funnel",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Industry Funnel",
+      "description": "Screen the whole market down to three high-quality companies using a value-investing funnel: quality screen, industry funnel, and final candidate shortlist.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/industry-funnel",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "screening",
+        "industry",
+        "value-investing",
+        "funnel"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/industry-research",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Industry Research",
+      "description": "Map an industry's full value chain and apply the four-masters stock-analysis framework to its key companies.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/industry-research",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "industry",
+        "research",
+        "investment",
+        "value-investing"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/investment-checklist",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Investment Checklist",
+      "description": "Buffett-style pre-purchase checklist: business, moat, management, financials, valuation, and decisive pass/fail verdicts.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/investment-checklist",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "checklist",
+        "value-investing",
+        "buffett",
+        "pre-investment"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/investment-memo-craft",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Investment Memo Craft",
+      "description": "Writing and layout overlay for investment research reports: financial rigor, business mechanics, contrarian analysis, valuation, and clear buy/hold/sell signals.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/investment-memo-craft",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "writing",
+        "investment",
+        "memo",
+        "layout",
+        "report"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/investment-research",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Investment Research",
+      "description": "Four-masters integrated value-investing research framework: business quality, moat, management, risks, industry trends, and valuation.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/investment-research",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "value-investing",
+        "buffett",
+        "munger",
+        "duan",
+        "li-lu"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/investment-team",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Investment Team",
+      "description": "Four-role parallel research team applying the Buffett/Munger/Duan/Li Lu frameworks to a single investment target.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/investment-team",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "multi-agent",
+        "team",
+        "value-investing",
+        "research"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/management-deep-dive",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Management Deep Dive",
+      "description": "Deep research on management quality: capital allocation, strategic decisions, shareholding structure, integrity, and succession risk.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/management-deep-dive",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "management",
+        "governance",
+        "value-investing",
+        "research"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/news-pulse",
+      "kind": "skill",
+      "category": "finance",
+      "name": "News Pulse",
+      "description": "Fast attribution for stock-price moves: four parallel agents scout company events, regulation, competitors, and market sentiment, then judge whether the thesis needs a re-review.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/news-pulse",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "news",
+        "sentiment",
+        "events",
+        "investment",
+        "multi-agent"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/portfolio-review",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Portfolio Review",
+      "description": "Portfolio-level review: position sizing, concentration, correlation, thesis drift, and action plan for a value-investing portfolio.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/portfolio-review",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "portfolio",
+        "management",
+        "review",
+        "investment"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/private-company-research",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Private Company Research",
+      "description": "Multi-agent deep-research framework for non-public companies, using first-principles questions and sparse-public-data triangulation.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/private-company-research",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "private-company",
+        "research",
+        "multi-agent",
+        "value-investing"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/quality-screen",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Quality Screen",
+      "description": "Quickly eliminate non-first-class companies using seven quality criteria before deeper research.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/quality-screen",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "screening",
+        "quality",
+        "value-investing",
+        "checklist"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/thesis-drift",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Thesis Drift",
+      "description": "Detect when an investment thesis drifts: separate facts from wording changes and decide whether the original thesis still holds.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/thesis-drift",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "thesis",
+        "monitoring",
+        "bias",
+        "investment"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/thesis-tracker",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Thesis Tracker",
+      "description": "Post-purchase discipline system: track buy thesis, milestones, warning signals, and exit criteria for each holding.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/thesis-tracker",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "thesis",
+        "tracking",
+        "discipline",
+        "post-investment"
+      ],
+      "via": "github:xbtlin"
+    },
+    {
+      "id": "aleph-hub:xbtlin/ai-berkshire/wechat-article",
+      "kind": "skill",
+      "category": "communication",
+      "name": "WeChat Article",
+      "description": "Three-agent workflow to write, edit, and review WeChat articles: author, editor, and reader roles produce publication-ready drafts.",
+      "repo_url": "https://github.com/xbtlin/ai-berkshire",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/xbtlin/ai-berkshire",
+        "subdir": "codex-skills/wechat-article",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "xbtlin",
+      "tags": [
+        "wechat",
+        "article",
+        "writing",
+        "multi-agent",
+        "content"
+      ],
+      "via": "github:xbtlin"
     }
   ]
 }

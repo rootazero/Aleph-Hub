@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "deep-company-series",
+  "name": "Deep Company Series",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "research",
+    "investment",
+    "deep-dive",
+    "company-analysis",
+    "value-investing"
+  ],
+  "description_en": "Produce an 8-part deep-dive research series on a single company, covering business, moat, management, industry, risks, valuation, thesis, and action plan.",
+  "description_zh": "针对一家公司产出 8 篇深度研究系列，覆盖生意本质、护城河、管理层、行业、风险、估值、投资论文与行动计划。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It breaks one company into eight long-form research pieces, each with explicit pass/fail/gray conclusions and price-range guidance.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。把一家公司拆成八篇长文研究，每篇都给出明确的通过/不通过/灰色结论与价格区间建议。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/deep-company-series"
+  },
+  "sec_note_en": "Runs local Python tools from tools/ and performs web searches for financial data. No external accounts required; verify valuation inputs before investing.",
+  "sec_note_zh": "会运行 tools/ 下的本地 Python 工具，并为财务数据执行网络搜索。无需外部账号；投资前请核实估值输入。"
+}

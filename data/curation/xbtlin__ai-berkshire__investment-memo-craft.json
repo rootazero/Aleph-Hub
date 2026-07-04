@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "investment-memo-craft",
+  "name": "Investment Memo Craft",
+  "kind": "skill",
+  "category": "writing",
+  "tags": [
+    "writing",
+    "investment",
+    "memo",
+    "layout",
+    "report"
+  ],
+  "description_en": "Writing and layout overlay for investment research reports: financial rigor, business mechanics, contrarian analysis, valuation, and clear buy/hold/sell signals.",
+  "description_zh": "投资研究报告的写作与排版覆盖层：金融严谨性、商业机制、逆向分析、估值与清晰的买入/持有/卖出信号。",
+  "long_en": "One skill from the AI Berkshire value-investing collection (Codex-optimized). It improves the structure, typography, and readability of company/industry/fund research memos while preserving financial rigor and contrarian framing.",
+  "long_zh": "AI Berkshire 价值投资技能集之一（针对 Codex 优化）。在保持金融严谨性与逆向框架的前提下，改进公司/行业/基金研究备忘录的结构、排版与可读性。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/investment-memo-craft"
+  },
+  "sec_note_en": "Reads and rewrites Markdown reports locally. No network access or external accounts required for core formatting.",
+  "sec_note_zh": "在本地读取并重写 Markdown 报告。核心排版无需联网或外部账号。"
+}

@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "investment-research",
+  "name": "Investment Research",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "value-investing",
+    "buffett",
+    "munger",
+    "duan",
+    "li-lu"
+  ],
+  "description_en": "Four-masters integrated value-investing research framework: business quality, moat, management, risks, industry trends, and valuation.",
+  "description_zh": "四大师综合价值投资研究框架：生意质量、护城河、管理层、风险、行业趋势与估值。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It runs a structured research workflow blending Buffett, Munger, Duan Yongping, and Li Lu's methodologies, ending with a decisive investment memo and price-range guidance.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。运行融合巴菲特、芒格、段永平、李录方法论的结构化研究流程，最终输出明确的投资备忘录与价格区间建议。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/investment-research"
+  },
+  "sec_note_en": "Runs local Python tools from tools/ and performs web searches for financial data. No external accounts required; verify all figures before investing.",
+  "sec_note_zh": "会运行 tools/ 下的本地 Python 工具，并执行网络搜索获取财务数据。无需外部账号；投资前请核实所有数字。"
+}

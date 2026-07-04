@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "financial-data",
+  "name": "Financial Data",
+  "kind": "skill",
+  "category": "data",
+  "tags": [
+    "financial-data",
+    "validation",
+    "valuation",
+    "investment"
+  ],
+  "description_en": "Fetching and cross-validation rules for financial data used across AI Berkshire skills: revenue, profit, cash, market cap, valuation ratios, and DCF inputs.",
+  "description_zh": "AI Berkshire 各技能共用的财务数据获取与交叉验证规范：收入、利润、现金、市值、估值指标与 DCF 输入。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It defines primary and secondary data sources by market (US/HK/A-shares), required cross-check tolerances, and commands for market-cap and valuation verification.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。它按市场（美股/港股/A股）规定主副数据源、交叉校验容差，并提供市值与估值验证命令。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/financial-data"
+  },
+  "sec_note_en": "Runs local Python scripts and fetches public financial data from third-party sites. No credentials required; always cross-check against official filings.",
+  "sec_note_zh": "会运行本地 Python 脚本，并从第三方站点抓取公开财务数据。无需凭据；请始终与官方文件交叉核对。"
+}

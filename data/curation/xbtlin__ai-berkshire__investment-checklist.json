@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "investment-checklist",
+  "name": "Investment Checklist",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "checklist",
+    "value-investing",
+    "buffett",
+    "pre-investment"
+  ],
+  "description_en": "Buffett-style pre-purchase checklist: business, moat, management, financials, valuation, and decisive pass/fail verdicts.",
+  "description_zh": "巴菲特式买入前 Checklist：生意、护城河、管理层、财务、估值，并给出明确的通过/不通过判断。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It runs a disciplined Buffett-style checklist before buying, forcing explicit pass/fail/conditional grades and a final buy/hold/sell recommendation.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。买入前执行严格的巴菲特式 Checklist，强制给出明确的通过/不通过/有条件评级，以及最终买入/持有/卖出建议。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/investment-checklist"
+  },
+  "sec_note_en": "Runs local Python tools from tools/ and performs web searches for company data. No external accounts required.",
+  "sec_note_zh": "会运行 tools/ 下的本地 Python 工具，并执行网络搜索获取公司数据。无需外部账号。"
+}

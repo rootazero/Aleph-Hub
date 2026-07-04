@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "thesis-tracker",
+  "name": "Thesis Tracker",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "thesis",
+    "tracking",
+    "discipline",
+    "post-investment"
+  ],
+  "description_en": "Post-purchase discipline system: track buy thesis, milestones, warning signals, and exit criteria for each holding.",
+  "description_zh": "买入后的纪律系统：跟踪买入论文、里程碑、预警信号与退出标准。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It maintains a living investment thesis document for each position, records milestones and red flags, and forces a decision when the thesis breaks.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。为每个持仓维护一份动态投资论文文档，记录里程碑与危险信号，并在论文破裂时强制做出决策。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/thesis-tracker"
+  },
+  "sec_note_en": "Reads and writes local thesis files. No network access required for core tracking.",
+  "sec_note_zh": "读取并写入本地论文文件。核心跟踪无需联网。"
+}

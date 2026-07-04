@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "thesis-drift",
+  "name": "Thesis Drift",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "thesis",
+    "monitoring",
+    "bias",
+    "investment"
+  ],
+  "description_en": "Detect when an investment thesis drifts: separate facts from wording changes and decide whether the original thesis still holds.",
+  "description_zh": "检测投资论文漂移：区分事实变化与措辞变化，判断原始论文是否仍然成立。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It compares current evidence against the original investment thesis, flags factual changes versus rhetorical shifts, and recommends reopen, hold, or exit.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。将当前证据与原始投资论文对比，标记事实变化与修辞变化，并建议重新研究、持有或退出。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/thesis-drift"
+  },
+  "sec_note_en": "Reads local thesis files and performs web searches for new evidence. No external accounts required.",
+  "sec_note_zh": "会读取本地论文文件，并执行网络搜索获取新证据。无需外部账号。"
+}

@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "industry-research",
+  "name": "Industry Research",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "industry",
+    "research",
+    "investment",
+    "value-investing"
+  ],
+  "description_en": "Map an industry's full value chain and apply the four-masters stock-analysis framework to its key companies.",
+  "description_zh": "绘制行业全产业链图谱，并对关键公司应用四大师个股分析框架。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It scans an industry's upstream/downstream structure, competitive dynamics, and civilization-level trends, then evaluates representative companies with Buffett/Munger/Duan/Li Lu criteria.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。扫描行业的上下游结构、竞争格局与文明级趋势，然后用巴菲特/芒格/段永平/李录标准评估代表性公司。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/industry-research"
+  },
+  "sec_note_en": "Runs local Python tools and performs web searches for industry data. No external accounts required.",
+  "sec_note_zh": "会运行本地 Python 工具，并执行网络搜索获取行业数据。无需外部账号。"
+}

@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "industry-funnel",
+  "name": "Industry Funnel",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "screening",
+    "industry",
+    "value-investing",
+    "funnel"
+  ],
+  "description_en": "Screen the whole market down to three high-quality companies using a value-investing funnel: quality screen, industry funnel, and final candidate shortlist.",
+  "description_zh": "用价值投资漏斗把全市场筛选到 3 家高质量公司：质量初筛、行业漏斗、最终候选清单。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It applies a multi-stage filter—eliminate weak businesses, score industries, compare top candidates—to produce a focused watchlist with clear reasoning.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。应用多级过滤——剔除劣质生意、给行业打分、比较头部候选——产出带清晰逻辑的关注清单。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/industry-funnel"
+  },
+  "sec_note_en": "Performs web searches for market/industry data and runs local Python tools from tools/. No external accounts required.",
+  "sec_note_zh": "会执行网络搜索获取市场/行业数据，并运行 tools/ 下的本地 Python 工具。无需外部账号。"
+}

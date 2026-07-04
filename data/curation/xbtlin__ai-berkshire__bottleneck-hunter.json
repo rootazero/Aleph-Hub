@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "bottleneck-hunter",
+  "name": "Bottleneck Hunter",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "supply-chain",
+    "investment",
+    "macro",
+    "bottleneck",
+    "arbitrage"
+  ],
+  "description_en": "AI-driven global supply-chain bottleneck scanner for value investors. Identifies choke points, maps upstream/downstream impacts, and turns them into actionable investment theses.",
+  "description_zh": "AI 驱动的全球产业链瓶颈猎手，帮助价值投资者识别供应链卡脖子节点、梳理上下游影响并转化为可投资论点。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It scouts global supply-chain choke points, quantifies upstream/downstream ripple effects, and frames bottleneck discoveries as long/short investment theses with risk checks.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。它扫描全球产业链瓶颈，量化上下游传导影响，并把瓶颈发现转化为附带风险检查的多空投资论点。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/bottleneck-hunter"
+  },
+  "sec_note_en": "Runs local Python tools from the repo's tools/ directory and performs web searches for supply-chain data. No external accounts required; verify data sources before trading.",
+  "sec_note_zh": "会运行仓库 tools/ 目录下的本地 Python 工具，并为供应链数据执行网络搜索。无需外部账号；交易前请核实数据来源。"
+}

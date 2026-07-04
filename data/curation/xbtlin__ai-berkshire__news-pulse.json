@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "news-pulse",
+  "name": "News Pulse",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "news",
+    "sentiment",
+    "events",
+    "investment",
+    "multi-agent"
+  ],
+  "description_en": "Fast attribution for stock-price moves: four parallel agents scout company events, regulation, competitors, and market sentiment, then judge whether the thesis needs a re-review.",
+  "description_zh": "股价异动快速归因：四角色并行侦察公司事件、监管政策、竞争对手与市场情绪，判断是否触发论文重审。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It deploys parallel agents to map a price-move timeline, identify the dominant cause, and recommend whether to reopen the investment thesis.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。部署并行代理绘制异动时间线、识别主导原因，并建议是否需要重新打开投资论文。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/news-pulse"
+  },
+  "sec_note_en": "Spawns background subagents and performs web searches for news and market data. No external accounts required.",
+  "sec_note_zh": "会启动后台子代理，并执行网络搜索获取新闻与市场数据。无需外部账号。"
+}

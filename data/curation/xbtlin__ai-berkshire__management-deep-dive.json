@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "management-deep-dive",
+  "name": "Management Deep Dive",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "management",
+    "governance",
+    "value-investing",
+    "research"
+  ],
+  "description_en": "Deep research on management quality: capital allocation, strategic decisions, shareholding structure, integrity, and succession risk.",
+  "description_zh": "管理层质量深度研究：资本配置、战略决策、股权结构、诚信度与接班人风险。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It evaluates management through their historical decisions, capital allocation, alignment with shareholders, and organizational culture, with a focus on 'buying the right people'.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。通过历史决策、资本配置、与股东利益一致性、组织文化来评估管理层，聚焦'买对人'。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/management-deep-dive"
+  },
+  "sec_note_en": "Performs web searches for management profiles and governance records, and runs local Python tools. No external accounts required.",
+  "sec_note_zh": "会执行网络搜索获取管理层背景与治理记录，并运行本地 Python 工具。无需外部账号。"
+}

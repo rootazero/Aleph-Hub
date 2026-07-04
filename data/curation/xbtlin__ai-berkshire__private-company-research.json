@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "private-company-research",
+  "name": "Private Company Research",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "private-company",
+    "research",
+    "multi-agent",
+    "value-investing"
+  ],
+  "description_en": "Multi-agent deep-research framework for non-public companies, using first-principles questions and sparse-public-data triangulation.",
+  "description_zh": "针对非上市公司的多 Agent 深度研究框架，运用第一性原理提问与稀疏公开数据三角验证。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It researches private companies where public data is scarce, focusing on customer value, recurrence, replicability, and management quality rather than fabricated precision.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。在公开资料稀缺的场景下研究非上市公司，聚焦客户价值、复购、可复制性与管理层质量，而非制造虚假的精确度。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/private-company-research"
+  },
+  "sec_note_en": "Spawns background subagents and performs web searches for public records about private companies. No external accounts required; confidence levels are explicitly labeled.",
+  "sec_note_zh": "会启动后台子代理，并执行网络搜索获取非上市公司的公开记录。无需外部账号；置信度会明确标注。"
+}

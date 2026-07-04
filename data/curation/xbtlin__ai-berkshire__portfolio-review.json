@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "portfolio-review",
+  "name": "Portfolio Review",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "portfolio",
+    "management",
+    "review",
+    "investment"
+  ],
+  "description_en": "Portfolio-level review: position sizing, concentration, correlation, thesis drift, and action plan for a value-investing portfolio.",
+  "description_zh": "组合层面审视：仓位、集中度、相关性、论文漂移与行动计划，面向价值投资组合。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It moves from single-stock research to portfolio management, reviewing each holding against its original thesis and recommending add/trim/exit actions.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。从个股研究延伸到组合管理，对照原始论文审视每个持仓，并建议加仓/减仓/卖出。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/portfolio-review"
+  },
+  "sec_note_en": "Reads local portfolio files and performs web searches for current prices. No external accounts required for core analysis.",
+  "sec_note_zh": "会读取本地组合文件，并执行网络搜索获取当前价格。核心分析无需外部账号。"
+}

@@ -1,0 +1,25 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "earnings-team",
+  "name": "Earnings Team",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "earnings",
+    "team",
+    "multi-agent",
+    "investment",
+    "wechat"
+  ],
+  "description_en": "Four-role parallel team that deep-reads an earnings report through the Buffett/Munger/Duan/Li Lu lenses and drafts a WeChat article summarizing the verdict.",
+  "description_zh": "四角色并行团队，以巴菲特/芒格/段永平/李录视角精读财报，并起草微信公众号文章总结结论。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It creates a multi-agent team to analyze an earnings release from business, financial, industry, and risk angles, then synthesizes a verdict and a WeChat-ready article.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。创建多 Agent 团队，从生意、财务、行业、风险四个角度分析财报发布，然后综合出结论并生成适合微信公众号发布的文章。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/earnings-team"
+  },
+  "sec_note_en": "Runs local Python tools from tools/, performs web searches, and may produce WeChat article drafts locally. No external accounts required for core analysis.",
+  "sec_note_zh": "会运行 tools/ 下的本地 Python 工具、执行网络搜索，并可能在本地生成公众号文章草稿。核心分析无需外部账号。"
+}

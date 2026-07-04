@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "earnings-review",
+  "name": "Earnings Review",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "earnings",
+    "financial-statements",
+    "investment",
+    "analysis"
+  ],
+  "description_en": "Deep-read an earnings report through the four-masters lens: business quality, moat, management, and valuation, with first-hand data cross-checks.",
+  "description_zh": "以四大师视角深度精读财报：生意质量、护城河、管理层与估值，交叉验证一手数据。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It dissects a quarterly or annual earnings report using Buffett, Munger, Duan Yongping, and Li Lu's frameworks, cross-checks figures with local tools, and outputs a buy/hold/sell signal.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。用巴菲特、芒格、段永平、李录的框架拆解季度或年度财报，使用本地工具交叉核对数字，并输出买入/持有/卖出信号。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/earnings-review"
+  },
+  "sec_note_en": "Runs local Python tools from tools/ and performs web searches for earnings filings. No external accounts required; verify figures against primary filings.",
+  "sec_note_zh": "会运行 tools/ 下的本地 Python 工具，并为财报文件执行网络搜索。无需外部账号；请与原始文件核对数字。"
+}

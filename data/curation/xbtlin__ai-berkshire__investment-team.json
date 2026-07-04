@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "investment-team",
+  "name": "Investment Team",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "multi-agent",
+    "team",
+    "value-investing",
+    "research"
+  ],
+  "description_en": "Four-role parallel research team applying the Buffett/Munger/Duan/Li Lu frameworks to a single investment target.",
+  "description_zh": "四角色并行研究团队，对单个投资标的应用巴菲特/芒格/段永平/李录框架。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It creates a multi-agent team—business analyst, financial analyst, industry researcher, and risk assessor—to research a company in parallel and synthesize a verdict.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。创建多 Agent 团队——商业分析师、财务分析师、行业研究员、风险评估师——并行研究一家公司并综合出结论。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/investment-team"
+  },
+  "sec_note_en": "Spawns background subagents, runs local Python tools, and performs web searches. No external accounts required.",
+  "sec_note_zh": "会启动后台子代理、运行本地 Python 工具并执行网络搜索。无需外部账号。"
+}

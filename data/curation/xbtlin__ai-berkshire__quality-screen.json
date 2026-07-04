@@ -1,0 +1,24 @@
+{
+  "full_name": "xbtlin/ai-berkshire",
+  "slug": "quality-screen",
+  "name": "Quality Screen",
+  "kind": "skill",
+  "category": "finance",
+  "tags": [
+    "screening",
+    "quality",
+    "value-investing",
+    "checklist"
+  ],
+  "description_en": "Quickly eliminate non-first-class companies using seven quality criteria before deeper research.",
+  "description_zh": "用七条质量指标在研究前快速排除非一流公司。",
+  "long_en": "One skill from the AI Berkshire value-investing collection. It acts as a coarse filter: run seven pass/fail quality checks to drop weak candidates early and avoid wasting time on businesses that fail basic standards.",
+  "long_zh": "AI Berkshire 价值投资技能集之一。作为粗筛器：执行七条通过/不通过的质量检查，尽早剔除弱候选，避免在基本标准不达标的生意上浪费时间。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/xbtlin/ai-berkshire",
+    "subdir": "codex-skills/quality-screen"
+  },
+  "sec_note_en": "Performs web searches for basic company quality metrics and runs local Python tools. No external accounts required.",
+  "sec_note_zh": "会执行网络搜索获取公司基础质量指标，并运行本地 Python 工具。无需外部账号。"
+}
