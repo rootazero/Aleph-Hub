@@ -1,0 +1,22 @@
+{
+  "full_name": "crazyykhllc-bit/CyberPPT",
+  "name": "CyberPPT",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "powerpoint",
+    "slides",
+    "consulting",
+    "presentation"
+  ],
+  "description_en": "Turn documents, research reports, and raw data into high-density, editable, consulting-style PPTX decks built on an auditable evidence chain, SCR logic, and strict render/QA gates.",
+  "description_zh": "把文档、研究报告与原始数据转成高密度、可编辑的咨询式 PPTX——以可追溯证据链、SCR 论证与严格的渲染/质检门为基础。",
+  "long_en": "Runs a three-stage gated workflow—MBB-style evidence table plus SCR storyline, then per-page ImageGen visual blueprints across 8 fixed styles, then a hybrid rebuild that keeps complex visuals faithful while core text stays editable—with structural, visual, editability, and overflow QA blocking delivery.",
+  "long_zh": "三阶段确认门流程：先做 MBB 级证据表与 SCR 故事线，再按 8 种固定风格逐页生成 ImageGen 视觉蓝图,最后用「复杂视觉保真 + 核心文字可编辑」的混合策略还原 PPTX；结构、视觉、可编辑性与溢出质检未过则阻断交付。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/crazyykhllc-bit/CyberPPT"
+  },
+  "sec_note_en": "Runs Python locally (python-pptx plus rendering subprocesses) and relies on the host's image-generation tool for per-page visual blueprints, sending your slide content to that model.",
+  "sec_note_zh": "在本地运行 Python(python-pptx 及渲染子进程),并依赖宿主的图像生成工具产出逐页视觉蓝图,会把幻灯片内容发送给该模型。"
+}

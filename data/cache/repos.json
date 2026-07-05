@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"75c85f00e85b4a6e1efd4ed9b432ce462a7747e4b0c86542693b6b2ad626fbed\"",
+    "etag": "\"2cc297f37c73c996217691d4eaeff0a6cdeaa7f780f5e5fef8ef83ba93f8d5c7\"",
     "readme_hash": "16d55d819c962d09799ef40124d3f24762dba0868ca272d2fa24a5e5475f5a8c",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"ccec65d779592e140ffe12624e5f96802637d43885851a0afd7f70afc10704a5\"",
+    "etag": "\"608e9c854c520d20e009e1a203b4a0f38dd182aefccb5bf31836c08ab8245f6d\"",
     "readme_hash": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "W/\"3753539b0fbaaa50263c2d4496fbfd517780153ca1b63ff608604bbda85aaa3a\"",
+    "etag": "W/\"c1b94ff32ca506e2d438e38b93aa3ed5b4104c5743fac783e632e4b6c814f6ef\"",
     "readme_hash": "075cc97e124df82c71cf242d14748cf4e6fe245241458f38d447c7413e08cce5",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"aa5819b3f23cf2d7d404852e870c5bcf32cb754b0786ad9b68123c8c7a0e8d14\"",
+    "etag": "W/\"b93ce21e16deeb49c07f586b2ec231603af2fecf712e625e9ad199d1f54d7f71\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"355d1c3c1111b65ad025dc09a319e96690a1781e6322ab173fdfe054b8533eac\"",
+    "etag": "W/\"c0c40607bf49d32067bbb17da338eb21a70278ff15ffbdb2a144aba61bcb314f\"",
     "readme_hash": "d15bbc144338964f151a2520ac8691d4356cc470eb6d3148c69ceab61e0cd434",
     "entries": [
       {
@@ -203,8 +203,8 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"6a8577f4b47c5a9487565e7b2fee79ce35977fa6bc8aaca93b7eb3bf84291cde\"",
-    "readme_hash": "d01b625df6d51bf5c925d5608bf9d33e17276cac234f71c1212240afd23de942",
+    "etag": "W/\"8873d9febc9a20c57657e6100fccd88bd1bd55af098a96c78b944be5d6eda39f\"",
+    "readme_hash": "62e131c87501549f00990d73da410a44c59c9c078602d861ff387d48ac8c9ca9",
     "entries": [
       {
         "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
@@ -238,8 +238,8 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"7b17345a55febf0e652957677d8e2e4eeb2dc9876457cae4f71584dddae4eb12\"",
-    "readme_hash": "0fd38e8e2b933b8609a76039903da10620fec179bfdebadd2b1bac4a4fe260ed",
+    "etag": "W/\"cdb94686e74069842bf6ac19838d00bfe82e6443b8b6b1f7be0add8fa3a6e781\"",
+    "readme_hash": "ae3de72d53c823a0ced8cb404374830834a0eccd1cdb862086cc222e185dabba",
     "entries": [
       {
         "id": "aleph-hub:tt-a1i/archify",
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"b9644ed5be5cffea35a08650c1214ea42c28d63933be414d4784b1f59096d172\"",
+    "etag": "\"888b546ba39123cef0fb1842f61da2be2f3b9e073033e1305314acc0803edc7e\"",
     "readme_hash": "a526ab2482a02bdfbc2920782640a810ef9dace5a19516a88d5d5a18eef6549a",
     "entries": [
       {
@@ -308,7 +308,7 @@
     ]
   },
   "dominikmartn/hue": {
-    "etag": "W/\"0d7a8d24e06d12865b793884f82bd1b45b35992201024517bb086fc3b7dc4a10\"",
+    "etag": "\"304ec11345e6a91b1c8a0f52b3eb26cad9fb955b6a4a5487885c1abfba90a367\"",
     "readme_hash": "f739a93614d7836da1b87fc3b30d1be6f94a8a45f7ada2632acb8505c5831ce8",
     "entries": [
       {
@@ -343,7 +343,7 @@
     ]
   },
   "Bhanunamikaze/Agentic-SEO-Skill": {
-    "etag": "W/\"838969d8d27056e3c56a2feacbd47a4b2ba30ad9af8a0cf6af2e897982cfa9c8\"",
+    "etag": "W/\"6a051a460908ea138b643b025212788d96a70aee75898fb86712020f691cdfb8\"",
     "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
     "entries": [
       {
@@ -378,8 +378,8 @@
     ]
   },
   "TexasBedouin/vibe-check": {
-    "etag": "W/\"5a5f31dcc8e75be2d10c6c4ba4efab0e0333241d25e43fc3a082cc83d25c476c\"",
-    "readme_hash": "75f06f2d835b270443bc58af8f4eacc0d0e7b2c6237e4a4ae234076d8555c4ec",
+    "etag": "\"35fbff49757ec231b41acbd286527e5a2d3cbf4cbb9155ce3d8b236a02d23c0e\"",
+    "readme_hash": "ead8b393e57215a11cad7e7e4ecd05272148689e796cebb974ce693c0de54349",
     "entries": [
       {
         "id": "aleph-hub:TexasBedouin/vibe-check",
@@ -413,7 +413,7 @@
     ]
   },
   "ckelsoe/prompt-architect": {
-    "etag": "W/\"4e41881a7fdb8478da65d2fbea16b3145403f1317fea1dc1dad7a25474fac329\"",
+    "etag": "\"10a17340ac1e5b6ec3550955f629f446ff76000c86a84bd964121ee448c8ca57\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entries": [
       {
@@ -448,7 +448,7 @@
     ]
   },
   "JamesShi96/project-butler": {
-    "etag": "\"5b64f284bc0179b0097e1d8b68a8d9ee2290a65f5cf22a357ae33793c57e6dd9\"",
+    "etag": "\"47333674eb5f46c5e5192e2fa56839a98819e710c7470e610a671de49da51fcd\"",
     "readme_hash": "27159f8e9c5a8b607eee0fe499c1f409123f3a7df54fd40a2a9ff47e5ed690af",
     "entries": [
       {
@@ -483,7 +483,7 @@
     ]
   },
   "coffeefuelbump/csv-data-summarizer-claude-skill": {
-    "etag": "\"86c34170de9127c59a91fec0bbcc077cab059404f482a4273dbb222f399128c1\"",
+    "etag": "\"edb62a837c60b2c42d58a7cfbfb479c6ea46aeab7361199d1ea054ce103ff06b\"",
     "readme_hash": "8e030cda3fa0af5165beeffd9db7b5d5f6166f93f37b53384bd52c9db1b392be",
     "entries": [
       {
@@ -519,7 +519,7 @@
     ]
   },
   "KaguraNanaga/document-format-skills": {
-    "etag": "\"b9a20e7b7fdeef2d43b288c6d4a3b09a52cc7521f864e6a03b6eb1c22189bdfd\"",
+    "etag": "\"01e3e40931db6e2e4d07c59afcfbc181621cb7427287ee84d3edd7af0ebf9653\"",
     "readme_hash": "8885fa7d2a079a27ab6c6ac3caf53aa186f0b36e50aef81f18711ad8fb53ccf5",
     "entries": [
       {
@@ -555,7 +555,7 @@
     ]
   },
   "karanb192/algo-sensei": {
-    "etag": "W/\"3c13714fa2c4e5c1ecfb07adc13694e77c4946f474dbdd9453b21fa001c61969\"",
+    "etag": "\"7b25247b309df2cf71fad3e3cdf9f453c372bac3942c32c5c409ad1d167add19\"",
     "readme_hash": "e102d6031dd5a513a587ee39f8f6f32cb5428390081df771ba59abe1f7f044eb",
     "entries": [
       {
@@ -591,7 +591,7 @@
     ]
   },
   "jtrackingai/analytics-tracking-automation": {
-    "etag": "\"d1a2d2a633f33228cace126db85e9167e0608267522723775a05d175e430af9a\"",
+    "etag": "\"471858528acbdb3f543b8732dcf5212e8bc4f9ac60a5695a7fba335e45aa68cd\"",
     "readme_hash": "334020f9739c7b931532af9d472e8e7f64050d175a4fc483fa20fa5fef1ef1f7",
     "entries": [
       {
@@ -628,7 +628,7 @@
     ]
   },
   "apiotrowski-afk/commercial-legal-pl": {
-    "etag": "\"a6de411c1151e13ba01701b6463ded9426e38b298c1a930ea8a12e2e0d48d30f\"",
+    "etag": "\"0383a7141b209fdb9139d79f74842469ca0e3db3cd89eff23031e37c7ae9e452\"",
     "readme_hash": "1b17dad7e17b7b09caa5462516d940332b3ce00112a564df82ba9ccddb2e42a9",
     "entries": [
       {
@@ -664,7 +664,7 @@
     ]
   },
   "wrsmith108/linear-claude-skill": {
-    "etag": "\"30e7592ee924b1a124406802f6feceb09c46ba7f7c629b0e8097d68ea9f6579f\"",
+    "etag": "\"803a0d4db9ea87b25b7f0a9670c2682e389e35881abb2f677f85a0ab80d00a75\"",
     "readme_hash": "da6dff4e8ac7fc6b015896c5ab395348ea1dd16334bed6c21f5b014b7ae4f308",
     "entries": [
       {
@@ -699,7 +699,7 @@
     ]
   },
   "yfe404/web-scraper": {
-    "etag": "\"68885b199e979fc15aace0e18548977f4cf0b4018cd4266e3b6a0e238d222c14\"",
+    "etag": "\"bfef739bec698ade73176102e07b225c46d93bf90ec7adf2ae2173ff569c2b83\"",
     "readme_hash": "1a80a54e2d1cf3b3a830d5320b42feec49a237b474a93582b19aaafdc997c4e4",
     "entries": [
       {
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "W/\"ba7bba4cb4abc32792037a6dafe1133fb51c43ae6c2e66b1f57ce6dab0a1d62d\"",
+    "etag": "\"df871b014175fe59ccb5ff4b6afb423a577691856f692ad3ac6b6798b0a99d87\"",
     "readme_hash": "ada9d1b3fd6e2eab673448160e1a16c6ba163505a19a192972ff8e0a43335990",
     "entries": [
       {
@@ -805,7 +805,7 @@
     }
   },
   "dpconde/claude-android-skill": {
-    "etag": "W/\"704f603dffc671f7fa8fb74d9b8c24d0dc43abaf96d0f2a4dd2c4c1eed93c32b\"",
+    "etag": "\"68e0df93d87a2b2321f4b4e78ed06a872ac998916504330b6b48c676a9d768fe\"",
     "readme_hash": "026826447e4b068f7b2b5c2a4bb6f093af7496e8d8c7588c766216de37a56773",
     "entries": [
       {
@@ -841,7 +841,7 @@
     ]
   },
   "kimlawtech/korean-privacy-terms": {
-    "etag": "W/\"10f693424a0e86a9fb0ced876c23004f5c34bd654193efdec7292fbd66332897\"",
+    "etag": "\"e8ea683219afd1e16e051b9b5934371a718de68e3ee429986fec3caf38c04805\"",
     "readme_hash": "7b9db096c53f977b4e2ec6f82610e34180a0a44e1e9292e45458094daafabade",
     "entries": [
       {
@@ -877,7 +877,7 @@
     ]
   },
   "irenerachel/visual-style-ppt-skill": {
-    "etag": "W/\"442b3dd67711e2d772c9f5679d6de6be8bb21155bb537084acaaabd6b2d98bf0\"",
+    "etag": "\"67a31090b47dde714e7a21fe6be738b9ed0360920f792b88fcd2a63b9e613ab0\"",
     "readme_hash": "6a69ee0e2b2b26a85d9633d9ca967916412ae1cfab7a74cccfd3e052c054ead6",
     "entries": [
       {
@@ -913,7 +913,7 @@
     ]
   },
   "likaku/Mck-ppt-design-skill": {
-    "etag": "W/\"5764fdc2bc6f4daec9d104a0665a9e503f8d79472cd1804dcbb11a8b1cdb9a4a\"",
+    "etag": "\"7803557512caa9b4c1f746d79b0d286738e4518e55a0a6bca6bc04408df31364\"",
     "readme_hash": "f2058627f43aaccb54f96391e27f5f0a7847e04f770f3598ca316829ad754692",
     "entries": [
       {
@@ -949,7 +949,7 @@
     ]
   },
   "PleasePrompto/google-ai-mode-skill": {
-    "etag": "W/\"2a7f535b3c8cd3eb84db5c0b150e64fa4e94c73ce21fe73b97522f4c47f0fe8c\"",
+    "etag": "\"da662ee8b3b99a94d7abad7c89f8e4ed45742097fbfacc69b37bf04e6667c664\"",
     "readme_hash": "3830e22a24b474154edc7779abb28e1701f01a7147e06e0d9d8b874a3d07522a",
     "entries": [
       {
@@ -985,7 +985,7 @@
     ]
   },
   "moshuying/pitchcraft": {
-    "etag": "W/\"5736ab6df9896e15c4cf1ab0c0a21d5ac9d5a5e4ff56eaebc86685f54fe880b7\"",
+    "etag": "\"2c142f3e0d2048e521d1d88bc1d9be9f2ab942d477f7a1f41124f5a2dfd30789\"",
     "readme_hash": "ffe7077a05f69f8587d4d55491bbe61c9578ea96ebab2b040f1f8902d7f37cbd",
     "entries": [
       {
@@ -1021,7 +1021,7 @@
     ]
   },
   "Hao0321/ai-media-generator": {
-    "etag": "W/\"fa1bb95b12712d6831b23e783b55e2ea2f18eb1a0b1eb5bc56c5976a6ef31844\"",
+    "etag": "\"57ccfa6891756b544b49b7024e3ddd3f9c31be5f74bb87fd9378bd76d6da1477\"",
     "readme_hash": "8c3b95dbc2ff2007ae43dcb05431f2c0268ce8b585991cc1260ac841ed95d698",
     "entries": [
       {
@@ -1057,7 +1057,7 @@
     ]
   },
   "axiaoge2/Apple-Hig-Designer": {
-    "etag": "\"9a24eabf22683ca5c1f631b3b30d47fae6b24a1139a43ac9bf40ee561ae2fccb\"",
+    "etag": "\"67adef624d9f67ca9ffaf20505b78f00c3019b5e114407b5a9a489fdca039be4\"",
     "readme_hash": "53e5e838a49681125a280d19d64f8a24e25e0cbec1eb1bdaa81262e0d4fd3d5a",
     "entries": [
       {
@@ -1093,7 +1093,7 @@
     ]
   },
   "uxKero/anydesign": {
-    "etag": "\"537d996e1a368d1c8f32cc92973d1e0cfbe931441b7ed24142901af9d42f3b5c\"",
+    "etag": "\"1109582669b82f91c3bf807b4535c88e4b28b5d0359e40cc55fa593fd401f83b\"",
     "readme_hash": "b75f51ae14fc64363306931b1f298b239376d206c7dd7b8c612eb65118bc0156",
     "entries": [
       {
@@ -1129,7 +1129,7 @@
     ]
   },
   "handsomeZR-netizen/mathmodel-skill": {
-    "etag": "W/\"403b96f3e73993e0b87b6ba06d010051597701c20a03bd42a8bca45e05d28b4c\"",
+    "etag": "\"f3f3f772bab8213b6554faa60349c0721a65683b4b6f4a3089d9b0c11f7c9148\"",
     "readme_hash": "0dca5317246f4ae111a0c27ccb7a1ff62923e3889d11f1090d0f1ed090044686",
     "entries": [
       {
@@ -1165,7 +1165,7 @@
     ]
   },
   "agentenatalie/get-job.skill": {
-    "etag": "W/\"4a92ac6f8fd5f49d17a86fee35142bb3d19d79d0a8636a1fa35b0d686f88787a\"",
+    "etag": "\"531a8bd262095e62c879b6bd0eaad25d020b7b0282530fd25e387dbd34ee28f4\"",
     "readme_hash": "2ec1dd145694eb8be11a0de0e3ff503e260448eda6033a172bc203db51dadbcc",
     "entries": [
       {
@@ -1201,7 +1201,7 @@
     ]
   },
   "zy-zmc/tianming-skill": {
-    "etag": "W/\"057305b936cfac5a30a250313a0b4ab61f238648c5aa5ac210c7ec86105266d4\"",
+    "etag": "\"92c8514c9e96135b992d2aa122351e5f7fa238b3e4ab73efb6e48fc1bffabba3\"",
     "readme_hash": "b6502b8e71d5499ccfae97ebc597847c414d7566e39a0ee7799d060a31e67868",
     "entries": [
       {
@@ -1237,7 +1237,7 @@
     ]
   },
   "dososo/blcaptain-style-skill": {
-    "etag": "W/\"011c730d6d9e4835f5a0123a292d1de12b13111dcd9e7b5f21b07b99459673ef\"",
+    "etag": "\"1f8a83e821459a4b822268e79fdfcd6d34bb3291f48779c0defe9e38059c44a4\"",
     "readme_hash": "74889bf821d36745d2ced71bafd323c8e965bbb2cea251a52044ccda57595e6e",
     "entries": [
       {
@@ -1273,7 +1273,7 @@
     ]
   },
   "iamzifei/wechat-article-formatter-skill": {
-    "etag": "\"5204abd39191d5def91250fc990df304d472735e907530efbbc0b4e5e6b3f491\"",
+    "etag": "\"db640a52ca5bf7eae24767cc1fd8e7cb18acb5ee384d60e23a2136e837b3c0d4\"",
     "readme_hash": "fb90ea498b8f4588e4d471e83182b2982f0078217243b9e3b0428f7278530f66",
     "entries": [
       {
@@ -1309,7 +1309,7 @@
     ]
   },
   "swaylq/master-skill": {
-    "etag": "W/\"2f0a5613e408a297d1f14571eab071f926cd9c1e75b7d3bedf7a753a6ca5496e\"",
+    "etag": "\"b9d29aa3d90c4a12b062e7fb8968f7dfcfbc9bc74072d54d73f0506ec39f96c3\"",
     "readme_hash": "564c5d7199914f056d1d4ac4f04eb36179b937b437bcf637b44b4c6251eeb02e",
     "entries": [
       {
@@ -1345,7 +1345,7 @@
     ]
   },
   "Jaderson-bit/mindmap-markmap-viewer": {
-    "etag": "\"1c277758159f12f2b86ecbd26c1e7449a40d11ea0f1da859e037f37ccc235695\"",
+    "etag": "\"594cb32e21e93034d10360cc88364a0d46f7954d763ac236e8012ad6215c1e42\"",
     "readme_hash": "7a5ff04a833d1011ac4116a30e7d49a715453994a6b8d2c8673ba9c070b75d52",
     "entries": [
       {
@@ -1381,7 +1381,7 @@
     ]
   },
   "Ashutos1997/claude-design-auditor-skill": {
-    "etag": "W/\"cf61d715773b7e892eb1e4848d1348e885c17f3b8a61e807e4686046c366ccf4\"",
+    "etag": "\"b9a06251ae240abe05b0d66e465371bd418cb9c3b70df7f5f15d8cae9d85daec\"",
     "readme_hash": "d22138da1ab4a96ad6ce8c7d1388c53d4ff1a1ad4cb133deb6804b525697979a",
     "entries": [
       {
@@ -1417,7 +1417,7 @@
     ]
   },
   "SDLLL/claude-for-safari": {
-    "etag": "W/\"7c6351a5c1938337416e21368c61e7148614991b0ac6214e7c690db38e985568\"",
+    "etag": "\"536a96b4cc59036aae69dc37a1aa3a1ff1af57401efec27898aeada59c7aa59f\"",
     "readme_hash": "6e6558d1e7f351b9a247cefc8540403199529795de4c83421a62691fe608441d",
     "entries": [
       {
@@ -1453,7 +1453,7 @@
     ]
   },
   "VincentOld/stop-slop-zh": {
-    "etag": "\"5fb212a10a62a502d71c2cfe46d5b5213b53c94870d54dae31db63972aa7ed3c\"",
+    "etag": "\"4a101bf3ad9e84d384960016ce8a9596d79c5d46a91ab067c5a67eaf719c7efe\"",
     "readme_hash": "120c80843c824553971d3ab046e9f0a5e35daf2e5f71935073c4e8cff24b5727",
     "entries": [
       {
@@ -1489,7 +1489,7 @@
     ]
   },
   "cjpatten/canadian-finance-planner-skill": {
-    "etag": "\"4a247e4d71dfa3eda5c741884625befe3885950850d97a7cbfc32bd21bbae18c\"",
+    "etag": "\"85027e8ef24dd5d263bc4f2e07913818cf2b128fcb34db68df24dbe6a7425061\"",
     "readme_hash": "26dc16dbe5d88b12c898a62aff98636869ff32d8b0a0e2ac42c88e2928c96273",
     "entries": [
       {
@@ -1525,7 +1525,7 @@
     ]
   },
   "Farenhytee/database-sentinel": {
-    "etag": "\"f10f96ac4a2c2f8d3ae3fae29bdd2762f76e4869bfb91b5c7b3d0b6197ecc7b5\"",
+    "etag": "\"a69b935d4200dc0ab9955b390e21882c8c2ade5e2336c94558b8987a63e50d09\"",
     "readme_hash": "a838ee78150bfe7e48b1716a6b3d5bc0f09646b42e07f562ea8fb99f185c6099",
     "entries": [
       {
@@ -1561,7 +1561,7 @@
     ]
   },
   "Adityapal67/context-graph-compressor": {
-    "etag": "\"cfb35f2c08de15d6f7f07167a4576cfac527c9c665f69ff934158de20568c42f\"",
+    "etag": "\"86d8c70e8dada25bf392dbcef4e692a6b77bbca570fe14ad62b3467dcb04bdbf\"",
     "readme_hash": "c20b1f334839e662e3b9c7c6c823bc26fd4eb53a9ddf69157902205703d5be6a",
     "entries": [
       {
@@ -1597,7 +1597,7 @@
     ]
   },
   "brettdavies/crawl4ai-skill": {
-    "etag": "\"1b3806062e9ab8309c3ba061534979b307ac597be6d8e132966f6ef2704c66f8\"",
+    "etag": "\"7c32b2a7a7c78ad4ee0638aee283f81dbb1434229dc3922fb2407458b25638ed\"",
     "readme_hash": "e9e0d45aaaa7019c0c9da8c9752809ea97513ddf67af32fbe4ce90ea0230b59d",
     "entries": [
       {
@@ -1633,7 +1633,7 @@
     ]
   },
   "echoVic/spec-flow": {
-    "etag": "\"c15c1ceeacc05dac755348739a95583cf815051ed600ddcaea319453cb141f5b\"",
+    "etag": "\"f5aa5f4047cb63004c1c48c7308e0cb83b7bc9ba96a2648677c66a00ae42a69b\"",
     "readme_hash": "85a9e93a9a6fc47c85659e02aaad3848824a4166660281b661b7b760a6ac65fe",
     "entries": [
       {
@@ -1669,7 +1669,7 @@
     ]
   },
   "kgraph57/paper-writer-skill": {
-    "etag": "\"50bdc1e391fa93ba4bda9ee7cc4ac3944a8edd9b5d4f2a249a0fdb6573f17d09\"",
+    "etag": "\"572de03dc249ac810bc9f8d5c65a78dd1468471885de32a8d5bac4dc5a53d93f\"",
     "readme_hash": "329d630faf2e19d304fd4bfd3033dbd3c79152ce684c28f3c755824a1d9d483c",
     "entries": [
       {
@@ -1705,7 +1705,7 @@
     ]
   },
   "googlarz/finance-assistant": {
-    "etag": "W/\"bbc77fe5f507922d695fd51e5c0dcbd9bd02aa81e04f0ffcebfbca77b3723b7b\"",
+    "etag": "\"446ed4fc6d39a8f6ee81ba0a54057b7397958e3cdf1dc8666bd166b464523a2e\"",
     "readme_hash": "f0d2616a76c9ef76dd2405e5b166c7d01bc8e56312e2656869782ddde4e18db2",
     "entries": [
       {
@@ -1741,7 +1741,7 @@
     ]
   },
   "likemaoke/wechat-article-to-md": {
-    "etag": "\"75d45a0398498183b5090b6c2dec81ade171b3f9b1ebabc41a5c62928e6c1114\"",
+    "etag": "\"24d4b205e21f5474c20e994f674246a752ba0b534f0f0e77a332b03c3a6b9982\"",
     "readme_hash": "61673781980b3b9094a313338e0fe3a95078eafcd82acaf49c5f471a9c41a738",
     "entries": [
       {
@@ -1777,7 +1777,7 @@
     ]
   },
   "jianshuo/jianshuo-wechat-mp-publish": {
-    "etag": "\"795c38579db7a66a202c954557e02e92398df49181560b1e07cfbbce3931ff04\"",
+    "etag": "\"de710ddf74caded34c3fead9e4543a1be1cc2b967c6d88afb65dae4f001c6e47\"",
     "readme_hash": "1348b6aad9e3a693cfcf6e2c64d0a1a023fa0410fca56836a82d7688b57a208b",
     "entries": [
       {
@@ -1813,7 +1813,7 @@
     ]
   },
   "ktaletsk/learn-codebase": {
-    "etag": "\"db0929cd3e9ba93b826378228ff3e1c7d6754b5ca3457c392a6970b4070fee44\"",
+    "etag": "\"71df4dd4b733877571675bdc3263fa53cef4d84defc60968d8154b95eaf2fda7\"",
     "readme_hash": "ece91cc06f54381729e12b5a0ddac2e8a0542758ee990399c123ddd7be3ed754",
     "entries": [
       {
@@ -1849,7 +1849,7 @@
     ]
   },
   "elderengineer/tax-organizer": {
-    "etag": "\"ff0a63ad175e3dac3d2c433df9e6e79b0b765007ad2ba6f623bfa881cccf2d84\"",
+    "etag": "\"58c80ca08d46632a10114d570b00cbd563ebd33ec86b4032355f0c07144f0875\"",
     "readme_hash": "c1c5b88ab0ddb77c3a9f1e741b00eb4b368613cb0726dc64f8591a0176da8be6",
     "entries": [
       {
@@ -1885,7 +1885,7 @@
     ]
   },
   "mathiaschu/watch": {
-    "etag": "\"1da27ea5ee3fbf014d7809e65d6ebfe55e44cb4042dfe7d6b9951c532cf3e0ef\"",
+    "etag": "\"752700b926eb66853225bef1cca48ee3cccb301388a55ba600bbaf0859205a95\"",
     "readme_hash": "853551c79901ea6f38468020b4ca617efe7bb7480021719ab84f68421fecdbe0",
     "entries": [
       {
@@ -1921,7 +1921,7 @@
     ]
   },
   "Danielbluz/skill-irpf-brasil": {
-    "etag": "\"f9ca1b624c2a33ab173207ae924d1a29db41a272087d2388d553a2f762f13823\"",
+    "etag": "\"25389de1e42b5ced7b3559ab840ec9ecb8a6b54db3756e0fba69b09cf7508361\"",
     "readme_hash": "533340adfd32144e2c5494970b28ae9b7d7e08fd67d6dbbd4777589a2994e637",
     "entries": [
       {
@@ -1957,7 +1957,7 @@
     ]
   },
   "Bhanunamikaze/AI-Dataset-Generator": {
-    "etag": "\"2f0a79f56bf513bc089a6fbbc90668d1b3bd4fb25cf1724f385fc325a0c08a88\"",
+    "etag": "\"fc73ea1305b3290554aed9192a95ba1489864ddee8dbb1ebad7689573e902b91\"",
     "readme_hash": "20d2e688bc71e63555f022cfbe130d32cab911c6f08a51e7b5db86a9883afcbd",
     "entries": [
       {
@@ -1993,7 +1993,7 @@
     ]
   },
   "dancolta/seo-drift-monitor": {
-    "etag": "\"e195c5d52b3474abb78870cabbb8dc094f164cbc20596be9fbdb77ad9cdad01a\"",
+    "etag": "\"90d9ab2657b053870aa593c935fe6d63334eeb2821cfee013030c94e362c5b5d\"",
     "readme_hash": "17afe0c0dc44e9cf9013677968a80dc09cc3e157ce1efea14c712a5c9c6df3ec",
     "entries": [
       {
@@ -2029,7 +2029,7 @@
     ]
   },
   "Hasasasa/claude-skill-html-to-pptx": {
-    "etag": "W/\"b0dd2e76e809ddeb26e506baea9f69f8648f2ea7df94b5e57fcce8028290b56c\"",
+    "etag": "\"5b0d772b3fa4052322674bdb7ad575c515621955162d0de5f405bc94f60eb1fb\"",
     "readme_hash": "9085c2db376dea21843641a1885db7aadc195249a9bc9c030277f0a5ecebb962",
     "entries": [
       {
@@ -2065,7 +2065,7 @@
     ]
   },
   "Zuokaiqi/claude-skill-business-analyst": {
-    "etag": "\"9803b264d9fbcb40a3ae7914168e369b7283f25767a65469fa9372e3c7275ef3\"",
+    "etag": "\"61722a27aedf5838968ce26522fab9b9d1f455a364b7a08030876aca740c4805\"",
     "readme_hash": "aa0e751f1f637a3c217cccac888ae751d27c2b720b89b49766eccb067cddd42c",
     "entries": [
       {
@@ -2101,7 +2101,7 @@
     ]
   },
   "dudaster/html2elementor": {
-    "etag": "W/\"4e7f94d14330253527fcbfc62275209e9cbb3396e35495fea7cbf28ab2973dfc\"",
+    "etag": "\"a4bd90ff71e230bfe6757dae0294abf7cd57b5b239c1a2407ce45259ecef76f8\"",
     "readme_hash": "2ad92101bc729d879ea6d21a919eda0f61a46400e3fbe80e05331ed93df6c31c",
     "entries": [
       {
@@ -2137,7 +2137,7 @@
     ]
   },
   "BayramAnnakov/excel-hygiene": {
-    "etag": "\"8575c855d1ea64b59dd1f54cf9ea153b0e2b23efcd6c637700af4d03da0a093b\"",
+    "etag": "W/\"98d69a2afa35b8244c3108c17a94a5c84613548c72aa5905c5e40b3eebac1932\"",
     "readme_hash": "045927357a9d34539edb2eba0771de5520aa11bec35b41113552bda9ebd73fcd",
     "entries": [
       {
@@ -2173,7 +2173,7 @@
     ]
   },
   "Mobiss11/Whisper-Skill": {
-    "etag": "\"84eb8620d17063114eb57674544988784537aa34740e84ce4adf4a82728794c2\"",
+    "etag": "\"d3ebe4fa3af565788c70132576e7ecb5ece0e1da420cf81da1b6812c10e63ba1\"",
     "readme_hash": "15eb7e3fb4b2c192055ede3f0ccbe1a30e03428cf23d0a40f496334365891b93",
     "entries": [
       {
@@ -2209,7 +2209,7 @@
     ]
   },
   "patrickstigler/claude-skill-it-recht-dsgvo": {
-    "etag": "\"4276e7bba71260f3335c6ee52b5544006ada4b066ba0a76cc2239110ced94c95\"",
+    "etag": "\"0a7c3f311e8479f82d690375aa38a143b76b84220c8dabd570b3b862066376f1\"",
     "readme_hash": "470879a20ceffa30f180d63de9ab3c9813ab5f72c5cb4100ee4d6bc5a84dc9bc",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"b9cbb59e72e46c56d4931fd4230a2b5467d0709f76252f73370edadaf138c852\"",
+    "etag": "\"30a20437e2a6f08853aba6d7afd92dd3edfd4832949f908e0720cdbf743d7a8e\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2281,8 +2281,8 @@
     ]
   },
   "917Dhj/DeepPaperNote": {
-    "etag": "W/\"fd43f7ff08f07a31d77193576a4c598f036489343b5b35fa95e48f12436264ef\"",
-    "readme_hash": "f1418db6d21b145e07456e6d621d737221f62ec8dc52ec44c4126bab4d883282",
+    "etag": "\"f7c924b7a301445b59342c951fbddeba6c75a84e67b4570ca9f4f4e3cdd11dc2\"",
+    "readme_hash": "7f2b63bba8b80df0f050ee6252c1d8a6f2852379608e21954506e5c7b2f9ccba",
     "entries": [
       {
         "id": "aleph-hub:917Dhj/DeepPaperNote",
@@ -2317,7 +2317,7 @@
     ]
   },
   "gitroomhq/postiz-agent": {
-    "etag": "W/\"c9965f8019f8ade4955fe4e81c49af9985515802b56a26ad1fee56766570f66c\"",
+    "etag": "W/\"490d40475fdd883a8b75c768602365a68b123d37e6e68bb309e7531331664fd3\"",
     "readme_hash": "4cd8866741dcd6aa68f3a226b596a16719ca2f1ab0ca4f8223cc3023a7837e13",
     "entries": [
       {
@@ -2353,7 +2353,7 @@
     ]
   },
   "quailyquaily/aqua": {
-    "etag": "\"d1790c5e6f93b8636bdbd24fe0159e4b1072f37d87b712adde9ce7776ce1431e\"",
+    "etag": "\"a108596d7c07aef8266baabec2258760c5540ef57f36d9472b4b6196a48a2981\"",
     "readme_hash": "e6422211a210ba60cd062a9a69e57987e7b21f04401aeb901a3b5628e01e6527",
     "entries": [
       {
@@ -2389,7 +2389,7 @@
     ]
   },
   "bowenliang123/markdown-exporter": {
-    "etag": "\"a80cfb0ab850f3d8987ca1357aca9e712b40cefd0fb829a692890486a0bdae0f\"",
+    "etag": "\"37d86c908e6c05d026060c9afce5209f8bdc09d6803a4cbb2f2680b3623463b5\"",
     "readme_hash": "2c7352b86a33e1d887553cfb97327ef5e3be924b3adf5e79c343816c37df2680",
     "entries": [
       {
@@ -2425,7 +2425,7 @@
     ]
   },
   "CosmoBlk/email-marketing-bible": {
-    "etag": "W/\"c0c3ec95baf543dc35bcc5ab456357178ee5e80771a6873f66c81de61b3e4943\"",
+    "etag": "\"22ed5abf8bb207d6a1dffe948ebb009760ea752545c7f6e24869903000be31b0\"",
     "readme_hash": "4907e70d1a704ebd69ebde68d39d158026bfc62a4bcbf65838200e40f72e16f8",
     "entries": [
       {
@@ -2461,7 +2461,7 @@
     ]
   },
   "caylent/tufte-data-viz": {
-    "etag": "\"2a00256191e9011a82f78805fc4de93892691f5c61a28361ec88d42d3b6b0897\"",
+    "etag": "\"26451fee72bf48a06cbb80f13f1013b11b29a361a9c15ee7e03844822034aa36\"",
     "readme_hash": "a70f4a6a39ed49b5ac334ac0a4d75da3543073cfdac8dc525d83711ca8488759",
     "entries": [
       {
@@ -2497,7 +2497,7 @@
     ]
   },
   "mohi-devhub/antivibe": {
-    "etag": "W/\"ee9c1e951905bb43f7b2c9bd838aedc43da6dc428f53015e2691ad4bbe3492de\"",
+    "etag": "\"262d2695773503ff8f6b84dfd22427017cd5b9a98f34909e6f34c30452ca0f5c\"",
     "readme_hash": "00cbbecdc6a6353d728fe903e1e3c80e9391976b3c93f3d1a82300aa03088643",
     "entries": [
       {
@@ -2533,7 +2533,7 @@
     ]
   },
   "claude-world/notebooklm-skill": {
-    "etag": "\"3206bfcbbceeea8c5ae640f957252aabb30dd98ec79b1ce72f2ed3093a8144ad\"",
+    "etag": "W/\"5d15ae1a5821fff55a3479acb58a50bf26950d10a6dd0772844677ca5a726b04\"",
     "readme_hash": "7d73f30fdc6a29d90ab067fa0236517f7acae397935a8e2f0b0f2c921d8bf148",
     "entries": [
       {
@@ -2569,8 +2569,8 @@
     ]
   },
   "O0000-code/paper-search-pro": {
-    "etag": "W/\"d0aac185f9815035131b0ff5934685ff100783b721f29126b7a628d8c99685ca\"",
-    "readme_hash": "47dd71e57fe1fc22b781170f3b5823ac18d2cbcd04cfc602b33d82fd80cbc514",
+    "etag": "\"dd25709a5b3345438fc8cc1543f34139044599ce82522514bdcd8e65b5059cbf\"",
+    "readme_hash": "9207e6507fc8742371b949a7d5ab98d4df34aab966323ecea3eb853f630c762b",
     "entries": [
       {
         "id": "aleph-hub:O0000-code/paper-search-pro",
@@ -2605,7 +2605,7 @@
     ]
   },
   "SpillwaveSolutions/plantuml": {
-    "etag": "W/\"e4b759d5839107ce1984e95d15bec7a2afc9be14ca03faf1ea7e016ce7c597e5\"",
+    "etag": "\"ff6238d6562af101e9c569a2b004f78fcf5830a740417b9c566f14de44d425e5\"",
     "readme_hash": "3f4ff9d2677b5e05efbbf30d8b1fc1e7f3a3d59cb81dfa87deb383214cd3f137",
     "entries": [
       {
@@ -2641,7 +2641,7 @@
     ]
   },
   "Innei/media-library-organizer-skill": {
-    "etag": "\"d7316768345b897cd1e701367aa6ae47617d7ea0ee886bb3c56d9a0065cd38eb\"",
+    "etag": "\"ae111f02f83845e9a06ae7deac578f10e4e7f7b7dbe3241a7095f2e546e4dace\"",
     "readme_hash": "f229a19793ba1c1539417689aabe0ca371e28bd4453daaa58774e903f2732e32",
     "entries": [
       {
@@ -2677,7 +2677,7 @@
     ]
   },
   "EternalWavee/benchmark-research-skill": {
-    "etag": "W/\"6b716c02a534e5ec7a8d6ee3ea38e53343d843adbcb96e988106889b38d325f8\"",
+    "etag": "\"5bef7d47673509c39ccd67acc44f1bff45b4310450f8ed4befd06972ce85a28c\"",
     "readme_hash": "79f1c8e0008de66fc2ef411e228d8e0bbbe3c01b1e995822a8c4428a2086bff9",
     "entries": [
       {
@@ -2713,7 +2713,7 @@
     ]
   },
   "sliday/genealogy-research": {
-    "etag": "\"f26f82dffffefe0b3a875650992fa58318ae5f2485062254ab55cb04a732250e\"",
+    "etag": "\"824b6062b75c3a549fdf7af820c404ea87087f5412e5abc041f52ad213d46953\"",
     "readme_hash": "f1cf8026200c2e42d0ceeb42c14c81d2eda13921b43193c72bf9d72ce9d68599",
     "entries": [
       {
@@ -2749,7 +2749,7 @@
     ]
   },
   "Yoojin-nam/hwp-pipeline": {
-    "etag": "\"f8e6d117e8abe31fd3fdb7b63b43b8ceb97e8a1b3b2236da715ddbf3206def90\"",
+    "etag": "\"4aff245af91c23cf0543f7afbe2579dc375f64fa7127b7eb6a1cdc5f48575582\"",
     "readme_hash": "1555745b852c43e2e6a70c73927eda893b63c81eb324c45b43fdc28ad877a5b5",
     "entries": [
       {
@@ -2785,7 +2785,7 @@
     ]
   },
   "WangYutao0915/pdf-to-chinese-latex": {
-    "etag": "\"9ed5e57714fdd767b96f6a6523cc6b94e965e9b3b347ea4fdb5dcdf2f74fedb6\"",
+    "etag": "\"bae4f50a5e999bcdcfe465258c7db7c94d334303d4d5859b35d69dc4fc6479b2\"",
     "readme_hash": "3403a0eb4bdd1b392ecb7ff38fb315964f60da28c8122dd6cbb5dea56d1ce069",
     "entries": [
       {
@@ -2821,7 +2821,7 @@
     ]
   },
   "xntj-ai/onepage-pdf": {
-    "etag": "\"0f933fc07d75b98369f618c934bc542ce02c74630febdec78630c28a05a0587e\"",
+    "etag": "\"5597b1d7755291824b865a0683836fee7ff1aeb58087368cf12e0195a5422918\"",
     "readme_hash": "b7e04ecd779f2a6db33e4e49fd6d1e99ed2a9f58a8e35657915142ce4bb0e2fd",
     "entries": [
       {
@@ -2857,7 +2857,7 @@
     ]
   },
   "LewisLiu007/full-page-screenshot": {
-    "etag": "\"37fae047069382f3014424cb54b88940552d4bf84e4edddae20778d8cdf57002\"",
+    "etag": "\"1ff1efdfab444010cf7ab9dc58bf53260c19207c4e6df76716243716a4663825\"",
     "readme_hash": "60fea00530d6c1d21b1f0425be08107dc47aad89d35055b0495ec79562912eac",
     "entries": [
       {
@@ -2893,7 +2893,7 @@
     ]
   },
   "tlehman/litprog-skill": {
-    "etag": "W/\"cde3a96414193002f821504914b76deed2efa0bd0148183951679d00b162293b\"",
+    "etag": "\"48767ad009997e79fd9b6803b0ce44686f818f8c10bad25c136da1525468db08\"",
     "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "W/\"0bfbd333304d875149a18d363d2a96581cfb064efeddf17ffcf5c3cf351af0c0\"",
+    "etag": "\"94bbe6c2be46e99a7153d49a5e39086a5bb77d1b8170b8856e18a40d5ad15e66\"",
     "readme_hash": "f9285592cce9d183986ca6c9d04ae02bf4fb429c286c52162b1f7b895cb2405c",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"f1e640ab769e6997beef057767db292a52df38214c4afb98ccaed554f45efc0c\"",
+    "etag": "W/\"2417606fe9619a633cf4cb2c08d6cbbf05d42d49db55daa57f4238f7f92a1875\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"7def856fa385ffae6887f01459f5611798304d95e0c81251bb951de905945eb5\"",
+    "etag": "W/\"4ebfff5d327a84511f07e0c9ee1e5ca5da78e30401105c8d405be8e5a76df4d9\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,8 +3038,8 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"1944e7402f9af235c2885f4cd05bb88e9f721f96d779456183702a1c3c3993a8\"",
-    "readme_hash": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6",
+    "etag": "W/\"99edec021827d76e20430db5749ede1602fe02399a30468d73ab89be3a53d72c\"",
+    "readme_hash": "a490608cb773c28fa75a3fe2918e847b9eb5c30f0c2ba300b795eb6c273494a7",
     "entries": [
       {
         "id": "aleph-hub:Leonxlnx/taste-skill",
@@ -3075,8 +3075,8 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"afdf289a98ed4e76d795e1c18f9c0d38eb3b0bc6c560af684f010629429881c1\"",
-    "readme_hash": "9cd68be2f65ddddc1203214b20dd9e4448ea11164fca5f84b05035b84d053b1a",
+    "etag": "W/\"6814d2b87f4b8e2bd7531af127ac504f5d86cfdecd7aa1672dec4649bc671c79\"",
+    "readme_hash": "c6ba70f20939e156008e40a2b4540a904ef1e3b582242e812c05e77a00c73eef",
     "entries": [
       {
         "id": "aleph-hub:Panniantong/Agent-Reach",
@@ -3113,7 +3113,7 @@
     ]
   },
   "yixiliu617/data-craft": {
-    "etag": "\"4c465d14e5491374f31686ff47e47aed3424fa56f290a42a07916a542a6f0c41\"",
+    "etag": "\"d205812e0a3fa731268b7e986f73bd3422532564f25b9aaab501bf43027cf242\"",
     "readme_hash": "6a004c92bf9700264c807aafb3b7a42f8d0516ded34f39993cd602714ec52b8e",
     "entries": [
       {
@@ -3149,8 +3149,8 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"8c4543d2042ec01a438a5bc2e4a538a3127b5f95aec681edd508b952f798640c\"",
-    "readme_hash": "77f993502ccbbbe051bf15ca85f1b5840031c7d8e2cf2978cca8240e8716e045",
+    "etag": "W/\"3b146238e1870ac895499cb6605414136cb34f2770275c0e19ce9c90443ab185\"",
+    "readme_hash": "636cb097f7c30f25d833955d9f99b4e880868028bdc375cce233c2986a0b2105",
     "entries": [
       {
         "id": "aleph-hub:hugohe3/ppt-master",
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"fcd60688c4d7f0df0b414ca5103b04da9edcece049779f31f1e1bfb713f66044\"",
+    "etag": "W/\"39f2ee5d2c40fb90ad63b84fcecf6e506c9532e719b7514335d285629fef34a5\"",
     "readme_hash": "1ba31db91d2759854cb4c1a84d59a6af76c965b548adb2c3c5d552ae2d40afac",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"5c51a98c2cc7086546edd369d209a0539c600a57bf805273b64b2c7b27ffbd43\"",
+    "etag": "\"99d91b3c31054aac1f64463cae6846a02dff77f085bbe851f1ef5912b0d18d98\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"06c1f3efff123ab98764bdb3335552455314096a0680664a3a12f4a5588a4ca8\"",
+    "etag": "W/\"66dc515701d6a6b76bc20da8211ef8f06bbb730e8c8f03283fe8065fcfd89edf\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3298,8 +3298,8 @@
     ]
   },
   "kdnsna/ultimate-ppt-master-skill": {
-    "etag": "W/\"93cf3a5fea4f6a8f9d83e7f1d050705159e847c715c2c9160ae40b72e5be7763\"",
-    "readme_hash": "4cbd49d069528bdc3f29d68e2cf58945e94e8ccd08c643a14bcce7569444abed",
+    "etag": "\"dd0dd6d230b2e62b43d31605e6a8b04d74e5df3b39d4330f85797e86632bc2e2\"",
+    "readme_hash": "d9deecb54551d7a70a63352b035bc5f01e2435ec5a7efb651611c43fe38904c3",
     "entries": [
       {
         "id": "aleph-hub:kdnsna/ultimate-ppt-master-skill",
@@ -3335,8 +3335,8 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"a81e042069943759276610bad04cc4a609dc17c4c9cca59b6ec5c5183f505e0b\"",
-    "readme_hash": "b10283ab95e16bffb70aba02c7253d00426fe0d5f239c66551186090e6d2a5e4",
+    "etag": "\"ccaaa47c42ea3c434d85953fa28c4afb0a1f5248b02e9c20eb04ff40001e0334\"",
+    "readme_hash": "de7a1eb9eed575b90489621f53e5b506be9588f3d2494c92c764bd297978b0df",
     "entries": [
       {
         "id": "aleph-hub:lixiaolin94/skills/web-shader-extractor",
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"194885901f9791355d9bb0246dedb2d96c70e2140231362a71987c845bf1b96f\"",
+    "etag": "W/\"50652a1dcb8ccaeae03cd2847d1a970f0b565fc6cbaf592fce30b03dcc778bef\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"e52ab5ce8f78c258a3d2394bd21f91738c92e36561466fa4842e8167a7382fe9\"",
+    "etag": "W/\"7969d74a2fdb76c96d56e46e49166af66d44557fa91a1c4cd22342da4e952e14\"",
     "readme_hash": "9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"3bef660fc77c1ad6f0782bf4747844495d79dc74a66194dfd33bf8cbb4e0a8b8\"",
+    "etag": "\"8739a1949e7ef713b720157255297d413ee977c122eb1b5a0dae980a6d739e4c\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"5601f6cc088317a520ab631853204842263b347ca9f2cdde50c14fe66e254bb8\"",
+    "etag": "\"8c85ff23df24ef4ef2d8fefcdcdb08d8678109500e50f4db815f5734c298f4d8\"",
     "readme_hash": "8438152d0f99433b444320b1057f324c3afc761ec6f3fa8a93a9010f81d265d8",
     "entries": [
       {
@@ -3683,8 +3683,8 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"1a9ee425caac0f98d5cabb0e0cc80f7d376efc8726d40426818008c784691f21\"",
-    "readme_hash": "4e34fdec8d7a6a3741a515482a53b19230f3ee55a416241ba8b4c04b2880b74d",
+    "etag": "W/\"cbae0ff787b861ee7773c0fc19a4a89d871d5bb92afadc57ff7df11c76752ac2\"",
+    "readme_hash": "a88af1f6b5c67fe78392635f37ff566f292065cb168c874bdb4c118786f960ee",
     "entries": [
       {
         "id": "aleph-hub:mattpocock/skills/ask-matt",
@@ -4221,7 +4221,7 @@
     ]
   },
   "xiaopu-ai/web-design": {
-    "etag": "W/\"ccb3d89cb621aeebbf9509696da553f0d3e84af8fc8f16b6566dad6e8375b9e1\"",
+    "etag": "\"512b56f2f8f3e1d9e1c80616af996d62a79e80735490cb35f4c268ef179eac91\"",
     "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
     "entries": [
       {
@@ -4257,7 +4257,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"2c21d54d62d1339a8f853e16f7e08d794cdd5d779dbbea1fc0931c6a349af3de\"",
+    "etag": "W/\"5340dee7d3c96675d67a97463b0b1a95ac3deadad6604a87b2c07c1745074ac5\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -4294,8 +4294,8 @@
     ]
   },
   "heygen-com/hyperframes": {
-    "etag": "W/\"d065ea74123eb67dd02bd3a2b465b92832d854a2c3049ccaf0c1b7984649cc5e\"",
-    "readme_hash": "ecbe5aea3ca615a7763d99ac2cfca071cff5c85f57159da7f37cbb3ccc61d174",
+    "etag": "W/\"f63cfac1fda96375f2341ded9776f177cb1df8df41e30bb06d529b057bbef0ce\"",
+    "readme_hash": "541d797fe01f6338fd797333cb52b69f214690db6efb655ca5e94f406f4e87cc",
     "entries": [
       {
         "id": "aleph-hub:heygen-com/hyperframes",
@@ -4331,7 +4331,7 @@
     ]
   },
   "fabriqaai/ffmpeg-analyse-video-skill": {
-    "etag": "W/\"1e6d15930531b587a4b9e7af9c2505b8816faac4f6e624b4b3048425476c6920\"",
+    "etag": "\"d15ece432e72efbe6c799c5cb9c0fa1ac189844b12aabbffd625bac815c6827e\"",
     "readme_hash": "b24194fb697ebe7d3cbe14fee8b37c6d80c4c8f8e0de4172245f201a6c34e75d",
     "entries": [
       {
@@ -4367,7 +4367,7 @@
     ]
   },
   "remotion-dev/skills": {
-    "etag": "W/\"39a89653fc030e7d9a12136458425f951c82c34b05bd50b7d0c1c4f7afe4aba9\"",
+    "etag": "W/\"e1df62da48237df85c59c586aa7b2c54b837f4922a41d9d20fd46a6acbe8a4ea\"",
     "readme_hash": "60c699748c6242f7d212a4de8c961765cde7fcd4d810b67ec20b7cca253a06dc",
     "entries": [
       {
@@ -4404,7 +4404,7 @@
     ]
   },
   "browser-use/video-use": {
-    "etag": "W/\"cf5262beb0264cc18e4beaeb0c4af1623485ef6af54536983a79be6a3d8c636a\"",
+    "etag": "W/\"eb85fc1e12d32d3191228c47743cc50f2c0e60266726c971d7f28561f10e7d2c\"",
     "readme_hash": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
     "entries": [
       {
@@ -4440,7 +4440,7 @@
     ]
   },
   "adithya-s-k/manim_skill": {
-    "etag": "W/\"e5cc42be900365bfb6e3a432bf783b6c21362da741f2f1f02ff5608a3c2a3f42\"",
+    "etag": "\"dd7a3ad31f7d72ffdebe292b4f19d070b6a08f0f1beac4d4c27b1a14c1b79a7c\"",
     "readme_hash": "d15fe6a69c3dd2a08e927d006d1fcdea63f972ff7176650c1822131c455ab00b",
     "entries": [
       {
@@ -4542,7 +4542,7 @@
     ]
   },
   "anthropics/skills": {
-    "etag": "W/\"111f0d5ab0e4537625f15900351fcedf4ab2011fd95294ea2643ded12b7e8e0e\"",
+    "etag": "W/\"f11da1ff8be412e7a2728dde549a98ba5ba418a05b8ee662bdbec405cdfb02a8\"",
     "readme_hash": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
     "entries": [
       {
@@ -5090,7 +5090,7 @@
     ]
   },
   "obra/superpowers": {
-    "etag": "W/\"c7b38402fab12cabd0b9ab94e70a86d44bce4d588cc13e7d42f1d0ee6d80fe01\"",
+    "etag": "W/\"d5cd51043a90d59604348bdafec1aa6164eb0004fb9943533ee8a045b037981f\"",
     "readme_hash": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
     "entries": [
       {
@@ -5127,8 +5127,8 @@
     ]
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "W/\"8ad67e7d3ee658ea1da168a376a09015e12577c048b3d13c3efaee3d360ed732\"",
-    "readme_hash": "a8716deaf85d849ca7d880bc660364ec771ccfd87b0582eed0171ec362e89ab8",
+    "etag": "\"100245a613afd62213ac3abb0fd1b04eb13e739e91b0aa333a36be829f655d63\"",
+    "readme_hash": "95eacc260cea178fe5c412dfa021e24ffdc786c24fec48009000095866f0c008",
     "entries": [
       {
         "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-brand-graph",
@@ -5545,8 +5545,8 @@
     ]
   },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
-    "etag": "W/\"90bfcae315822819fd0461af01f16ecadc55c9b338ec73cd889b261340d8dedb\"",
-    "readme_hash": "ea12292499d1625b6f7bb9e439a7371db22ec8ea7086bafd3258e5e1c2534ab4",
+    "etag": "W/\"31ae26c817274665010f993d5a4f9a3ec5bb79bb3879f424ecd8911557723779\"",
+    "readme_hash": "3678a3c3db279d2215ab2e1ce482147508e5fe6e78bbd2df6c1259d2141ffbfe",
     "entries": [
       {
         "id": "aleph-hub:nextlevelbuilder/ui-ux-pro-max-skill",
@@ -5582,8 +5582,8 @@
     ]
   },
   "thedotmack/claude-mem": {
-    "etag": "W/\"c1f5592a3b1f8f830723d02163c3e015eaf2c7f823dd03be2d7c8815ebdd8905\"",
-    "readme_hash": "ec93288be7664eb95c2155f360e0a07f142c093c45fb088ae180df616e56817c",
+    "etag": "W/\"f439ddb8047a57d587cac5946eba7cc12b34c4dcb35af26bc3417179ccfdc1af\"",
+    "readme_hash": "de8efd90c218183240a91b3f5d928dc866660770112075ac755d1a1b3d52edaf",
     "entries": [
       {
         "id": "aleph-hub:thedotmack/claude-mem",
@@ -5619,8 +5619,8 @@
     ]
   },
   "0xNyk/council-of-high-intelligence": {
-    "etag": "W/\"fb18ee17cb1900746f0c51f729aba472d64084ac303681158ba0ec34077d732a\"",
-    "readme_hash": "f077e5c39681a36768b930b18711ad608d8095eac5fed1f1654f99b61513ccb9",
+    "etag": "W/\"34db5e699e1293a4dfe97b2b1388c45833d847a8f26370afd69d07ef87ca5eda\"",
+    "readme_hash": "f3a05282a53b1f25e3caabbe4dc4e47646279cb92161d20f8f85c87fe0901f2c",
     "entries": [
       {
         "id": "aleph-hub:0xNyk/council-of-high-intelligence",
@@ -5656,7 +5656,7 @@
     ]
   },
   "xbtlin/ai-berkshire": {
-    "etag": "W/\"675e0de4207a334d52f9b02c389187352c84741969d6dc2eb353a9976fd22a7c\"",
+    "etag": "W/\"d7db53870f16f0972ebe943c90f874b3249e292fa3d7d738c62e0f3e5ddd8e67\"",
     "readme_hash": "14f1585c2fa782021c315603b016b63b196af3f210d5e7848ecc75f33d212a89",
     "entries": [
       {
@@ -6284,6 +6284,42 @@
         "long_zh": "AI Berkshire 价值投资技能集之一。使用作者/编辑/读者三代理把研究成果转化为结构完整、口吻一致、可读性经过检查的微信公众号文章。",
         "sec_note_en": "Spawns subagents and produces article drafts locally. No external publishing or accounts are used unless you explicitly copy the output into WeChat.",
         "sec_note_zh": "会启动子代理并在本地生成文章草稿。除非你主动把输出粘贴到微信，否则不使用任何外部发布或账号。",
+        "requires_config": false
+      }
+    ]
+  },
+  "crazyykhllc-bit/CyberPPT": {
+    "etag": "W/\"30021554db310406d7f0aba2ca0e24ef4a3a6ec2a33dc5605a03ddb86085ee43\"",
+    "readme_hash": "b7f8b00673e1194e7ea8a8b49346b87e5444db2e9361b4144c2087edea6e67a0",
+    "entries": [
+      {
+        "id": "aleph-hub:crazyykhllc-bit/CyberPPT",
+        "repo_url": "https://github.com/crazyykhllc-bit/CyberPPT",
+        "via": "github:crazyykhllc-bit",
+        "full_name": "crazyykhllc-bit/CyberPPT",
+        "owner": "crazyykhllc-bit",
+        "repo": "CyberPPT",
+        "kind": "skill",
+        "name": "CyberPPT",
+        "author": "crazyykhllc-bit",
+        "category": "design",
+        "tags": [
+          "powerpoint",
+          "slides",
+          "consulting",
+          "presentation"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/crazyykhllc-bit/CyberPPT",
+          "git_ref": "main"
+        },
+        "description_en": "Turn documents, research reports, and raw data into high-density, editable, consulting-style PPTX decks built on an auditable evidence chain, SCR logic, and strict render/QA gates.",
+        "description_zh": "把文档、研究报告与原始数据转成高密度、可编辑的咨询式 PPTX——以可追溯证据链、SCR 论证与严格的渲染/质检门为基础。",
+        "long_en": "Runs a three-stage gated workflow—MBB-style evidence table plus SCR storyline, then per-page ImageGen visual blueprints across 8 fixed styles, then a hybrid rebuild that keeps complex visuals faithful while core text stays editable—with structural, visual, editability, and overflow QA blocking delivery.",
+        "long_zh": "三阶段确认门流程：先做 MBB 级证据表与 SCR 故事线，再按 8 种固定风格逐页生成 ImageGen 视觉蓝图,最后用「复杂视觉保真 + 核心文字可编辑」的混合策略还原 PPTX；结构、视觉、可编辑性与溢出质检未过则阻断交付。",
+        "sec_note_en": "Runs Python locally (python-pptx plus rendering subprocesses) and relies on the host's image-generation tool for per-page visual blueprints, sending your slide content to that model.",
+        "sec_note_zh": "在本地运行 Python(python-pptx 及渲染子进程),并依赖宿主的图像生成工具产出逐页视觉蓝图,会把幻灯片内容发送给该模型。",
         "requires_config": false
       }
     ]
