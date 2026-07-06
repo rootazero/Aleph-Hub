@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 232,
-    "generated_at": "2026-07-05T10:53:09.152Z",
-    "content_hash": "sha256:8ebdd131c7fe409a776b03544ab03f75426e71a81d377ce03c8faabb54988e25"
+    "generated_at": "2026-07-06T08:04:18.724Z",
+    "content_hash": "sha256:7246a569f86dae59c51504cfeb2fe136828ccdc1a3528db714c07040832c2c93"
   },
   "entries": [
     {
@@ -4787,29 +4787,6 @@
       "via": "github:brettdavies"
     },
     {
-      "id": "aleph-hub:Farenhytee/database-sentinel",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Database Sentinel",
-      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
-      "repo_url": "https://github.com/Farenhytee/database-sentinel",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Farenhytee/database-sentinel",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Farenhytee",
-      "tags": [
-        "database",
-        "security",
-        "audit",
-        "rls"
-      ],
-      "via": "github:Farenhytee"
-    },
-    {
       "id": "aleph-hub:kgraph57/paper-writer-skill",
       "kind": "skill",
       "category": "writing",
@@ -4831,6 +4808,29 @@
         "manuscript"
       ],
       "via": "github:kgraph57"
+    },
+    {
+      "id": "aleph-hub:Farenhytee/database-sentinel",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Database Sentinel",
+      "description": "A multi-backend database security auditor for Supabase, Firebase, MongoDB, PostgreSQL, and MySQL—flags RLS/rule misconfigurations, exposed credentials, auth bypasses, and known CVEs.",
+      "repo_url": "https://github.com/Farenhytee/database-sentinel",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Farenhytee/database-sentinel",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Farenhytee",
+      "tags": [
+        "database",
+        "security",
+        "audit",
+        "rls"
+      ],
+      "via": "github:Farenhytee"
     },
     {
       "id": "aleph-hub:Adityapal67/context-graph-compressor",
@@ -4856,29 +4856,6 @@
       "via": "github:Adityapal67"
     },
     {
-      "id": "aleph-hub:googlarz/finance-assistant",
-      "kind": "skill",
-      "category": "finance",
-      "name": "Finance Assistant",
-      "description": "A personal-finance assistant for budgeting, savings goals, investment tracking, debt optimization, tax prep, and net-worth tracking with multi-currency support.",
-      "repo_url": "https://github.com/googlarz/finance-assistant",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/googlarz/finance-assistant",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "googlarz",
-      "tags": [
-        "personal-finance",
-        "budgeting",
-        "tax",
-        "investing"
-      ],
-      "via": "github:googlarz"
-    },
-    {
       "id": "aleph-hub:echoVic/spec-flow",
       "kind": "skill",
       "category": "developer",
@@ -4900,6 +4877,29 @@
         "tasks"
       ],
       "via": "github:echoVic"
+    },
+    {
+      "id": "aleph-hub:googlarz/finance-assistant",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Finance Assistant",
+      "description": "A personal-finance assistant for budgeting, savings goals, investment tracking, debt optimization, tax prep, and net-worth tracking with multi-currency support.",
+      "repo_url": "https://github.com/googlarz/finance-assistant",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/googlarz/finance-assistant",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "googlarz",
+      "tags": [
+        "personal-finance",
+        "budgeting",
+        "tax",
+        "investing"
+      ],
+      "via": "github:googlarz"
     },
     {
       "id": "aleph-hub:likemaoke/wechat-article-to-md",
@@ -5523,29 +5523,6 @@
       "via": "github:sliday"
     },
     {
-      "id": "aleph-hub:Yoojin-nam/hwp-pipeline",
-      "kind": "skill",
-      "category": "files",
-      "name": "HWP Pipeline",
-      "description": "Read, convert, and edit Korean Hangul documents (.hwp/.hwpx) without Hancom Office—HWP to JSON/Markdown/HTML, HWP to HWPX, and HWPX editing with template filling and placeholder replacement.",
-      "repo_url": "https://github.com/Yoojin-nam/hwp-pipeline",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Yoojin-nam/hwp-pipeline",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Yoojin-nam",
-      "tags": [
-        "hwp",
-        "korean",
-        "documents",
-        "conversion"
-      ],
-      "via": "github:Yoojin-nam"
-    },
-    {
       "id": "aleph-hub:WangYutao0915/pdf-to-chinese-latex",
       "kind": "skill",
       "category": "utilities",
@@ -5567,6 +5544,29 @@
         "overleaf"
       ],
       "via": "github:WangYutao0915"
+    },
+    {
+      "id": "aleph-hub:Yoojin-nam/hwp-pipeline",
+      "kind": "skill",
+      "category": "files",
+      "name": "HWP Pipeline",
+      "description": "Read, convert, and edit Korean Hangul documents (.hwp/.hwpx) without Hancom Office—HWP to JSON/Markdown/HTML, HWP to HWPX, and HWPX editing with template filling and placeholder replacement.",
+      "repo_url": "https://github.com/Yoojin-nam/hwp-pipeline",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Yoojin-nam/hwp-pipeline",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Yoojin-nam",
+      "tags": [
+        "hwp",
+        "korean",
+        "documents",
+        "conversion"
+      ],
+      "via": "github:Yoojin-nam"
     },
     {
       "id": "aleph-hub:xntj-ai/onepage-pdf",
