@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 232,
-    "generated_at": "2026-07-06T08:04:18.724Z",
-    "content_hash": "sha256:7246a569f86dae59c51504cfeb2fe136828ccdc1a3528db714c07040832c2c93"
+    "generated_at": "2026-07-07T07:06:23.221Z",
+    "content_hash": "sha256:5e53a88a48658f7ab6156b9ca19bf7d25d5dc7a1d376b0715c8347498a438ce6"
   },
   "entries": [
     {
@@ -4580,29 +4580,6 @@
       "via": "github:dososo"
     },
     {
-      "id": "aleph-hub:zy-zmc/tianming-skill",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Tianming Novel System",
-      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
-      "repo_url": "https://github.com/zy-zmc/tianming-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/zy-zmc/tianming-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "zy-zmc",
-      "tags": [
-        "novel",
-        "creative-writing",
-        "long-form",
-        "chinese"
-      ],
-      "via": "github:zy-zmc"
-    },
-    {
       "id": "aleph-hub:swaylq/master-skill",
       "kind": "skill",
       "category": "knowledge",
@@ -4624,6 +4601,29 @@
         "workflow"
       ],
       "via": "github:swaylq"
+    },
+    {
+      "id": "aleph-hub:zy-zmc/tianming-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Tianming Novel System",
+      "description": "A co-writing system for multi-volume long-form novels that keeps world-building, foreshadowing, pacing, and voice consistent across chapters.",
+      "repo_url": "https://github.com/zy-zmc/tianming-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/zy-zmc/tianming-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "zy-zmc",
+      "tags": [
+        "novel",
+        "creative-writing",
+        "long-form",
+        "chinese"
+      ],
+      "via": "github:zy-zmc"
     },
     {
       "id": "aleph-hub:iamzifei/wechat-article-formatter-skill",
