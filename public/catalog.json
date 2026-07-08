@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 232,
-    "generated_at": "2026-07-07T07:06:23.221Z",
-    "content_hash": "sha256:5e53a88a48658f7ab6156b9ca19bf7d25d5dc7a1d376b0715c8347498a438ce6"
+    "entry_count": 230,
+    "generated_at": "2026-07-08T06:16:37.698Z",
+    "content_hash": "sha256:51f9f7ce503e0161e1748bafacd654c88e984fc1967ff69193beddd167678c30"
   },
   "entries": [
     {
@@ -4127,28 +4127,6 @@
       "via": "github:op7418"
     },
     {
-      "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
-      "kind": "skill",
-      "category": "knowledge",
-      "name": "Obsidian Second Brain",
-      "description": "Turn your Obsidian vault into an AI-first second brain that works across command-line agents.",
-      "repo_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
-      "trust_tier": "verified",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "eugeniughelbur",
-      "tags": [
-        "obsidian",
-        "notes",
-        "knowledge"
-      ],
-      "via": "github:eugeniughelbur"
-    },
-    {
       "id": "aleph-hub:tt-a1i/archify",
       "kind": "skill",
       "category": "developer",
@@ -4169,6 +4147,28 @@
         "documentation"
       ],
       "via": "github:tt-a1i"
+    },
+    {
+      "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
+      "kind": "skill",
+      "category": "knowledge",
+      "name": "Obsidian Second Brain",
+      "description": "Turn your Obsidian vault into an AI-first second brain that works across command-line agents.",
+      "repo_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "eugeniughelbur",
+      "tags": [
+        "obsidian",
+        "notes",
+        "knowledge"
+      ],
+      "via": "github:eugeniughelbur"
     },
     {
       "id": "aleph-hub:nolangz/pixel2motion",
@@ -4283,29 +4283,6 @@
       "via": "github:irenerachel"
     },
     {
-      "id": "aleph-hub:dpconde/claude-android-skill",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Android Development",
-      "description": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
-      "repo_url": "https://github.com/dpconde/claude-android-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dpconde/claude-android-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dpconde",
-      "tags": [
-        "android",
-        "kotlin",
-        "jetpack-compose",
-        "architecture"
-      ],
-      "via": "github:dpconde"
-    },
-    {
       "id": "aleph-hub:kimlawtech/korean-privacy-terms",
       "kind": "skill",
       "category": "writing",
@@ -4327,6 +4304,29 @@
         "compliance"
       ],
       "via": "github:kimlawtech"
+    },
+    {
+      "id": "aleph-hub:dpconde/claude-android-skill",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Android Development",
+      "description": "Build production-quality Android apps following Google's official architecture and the NowInAndroid reference—Kotlin, Compose, MVVM, Hilt, Room, multi-module.",
+      "repo_url": "https://github.com/dpconde/claude-android-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dpconde/claude-android-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dpconde",
+      "tags": [
+        "android",
+        "kotlin",
+        "jetpack-compose",
+        "architecture"
+      ],
+      "via": "github:dpconde"
     },
     {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -4741,6 +4741,29 @@
       "via": "github:SDLLL"
     },
     {
+      "id": "aleph-hub:kgraph57/paper-writer-skill",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Paper Writer",
+      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
+      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kgraph57/paper-writer-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kgraph57",
+      "tags": [
+        "academic",
+        "research-paper",
+        "imrad",
+        "manuscript"
+      ],
+      "via": "github:kgraph57"
+    },
+    {
       "id": "aleph-hub:cjpatten/canadian-finance-planner-skill",
       "kind": "skill",
       "category": "finance",
@@ -4785,29 +4808,6 @@
         "extraction"
       ],
       "via": "github:brettdavies"
-    },
-    {
-      "id": "aleph-hub:kgraph57/paper-writer-skill",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Paper Writer",
-      "description": "A medical/scientific paper-writing workflow that manages the full pipeline from literature search to a submission-ready IMRAD manuscript.",
-      "repo_url": "https://github.com/kgraph57/paper-writer-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/kgraph57/paper-writer-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "kgraph57",
-      "tags": [
-        "academic",
-        "research-paper",
-        "imrad",
-        "manuscript"
-      ],
-      "via": "github:kgraph57"
     },
     {
       "id": "aleph-hub:Farenhytee/database-sentinel",
@@ -4856,29 +4856,6 @@
       "via": "github:Adityapal67"
     },
     {
-      "id": "aleph-hub:echoVic/spec-flow",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Spec-Flow",
-      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
-      "repo_url": "https://github.com/echoVic/spec-flow",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/echoVic/spec-flow",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "echoVic",
-      "tags": [
-        "spec-driven",
-        "planning",
-        "workflow",
-        "tasks"
-      ],
-      "via": "github:echoVic"
-    },
-    {
       "id": "aleph-hub:googlarz/finance-assistant",
       "kind": "skill",
       "category": "finance",
@@ -4900,6 +4877,29 @@
         "investing"
       ],
       "via": "github:googlarz"
+    },
+    {
+      "id": "aleph-hub:echoVic/spec-flow",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Spec-Flow",
+      "description": "A spec-driven development workflow that walks a feature from proposal to requirements, design, and task breakdown with phase-by-phase confirmation.",
+      "repo_url": "https://github.com/echoVic/spec-flow",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/echoVic/spec-flow",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "echoVic",
+      "tags": [
+        "spec-driven",
+        "planning",
+        "workflow",
+        "tasks"
+      ],
+      "via": "github:echoVic"
     },
     {
       "id": "aleph-hub:likemaoke/wechat-article-to-md",
@@ -4969,29 +4969,6 @@
         "codebase"
       ],
       "via": "github:ktaletsk"
-    },
-    {
-      "id": "aleph-hub:Hasasasa/claude-skill-html-to-pptx",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "HTML to PPTX",
-      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
-      "repo_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Hasasasa",
-      "tags": [
-        "pptx",
-        "html",
-        "slides",
-        "conversion"
-      ],
-      "via": "github:Hasasasa"
     },
     {
       "id": "aleph-hub:elderengineer/tax-organizer",
@@ -5176,29 +5153,6 @@
         "conversion"
       ],
       "via": "github:dudaster"
-    },
-    {
-      "id": "aleph-hub:Zuokaiqi/claude-skill-business-analyst",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Business Analyst",
-      "description": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
-      "repo_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "Zuokaiqi",
-      "tags": [
-        "data-analysis",
-        "insights",
-        "excel",
-        "reporting"
-      ],
-      "via": "github:Zuokaiqi"
     },
     {
       "id": "aleph-hub:muxuuu/serenity-skill",
