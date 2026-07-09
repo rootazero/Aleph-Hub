@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 230,
-    "generated_at": "2026-07-08T06:16:37.698Z",
-    "content_hash": "sha256:51f9f7ce503e0161e1748bafacd654c88e984fc1967ff69193beddd167678c30"
+    "entry_count": 229,
+    "generated_at": "2026-07-09T07:05:06.519Z",
+    "content_hash": "sha256:abd0d7833865d1a7855907aad6f1292f3678b4c34ad47132b196ee81c96b2374"
   },
   "entries": [
     {
@@ -4059,29 +4059,6 @@
       "via": "github:wrsmith108"
     },
     {
-      "id": "aleph-hub:yfe404/web-scraper",
-      "kind": "skill",
-      "category": "automation",
-      "name": "Web Scraper",
-      "description": "Scrape and extract data from websites with intelligent strategy selection—discovers hidden APIs via traffic interception, then picks among API, sitemap, DOM, or hybrid scraping and implements iteratively, up to production Apify Actors in TypeScript.",
-      "repo_url": "https://github.com/yfe404/web-scraper",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/yfe404/web-scraper",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "yfe404",
-      "tags": [
-        "web-scraping",
-        "data-extraction",
-        "apify",
-        "crawling"
-      ],
-      "via": "github:yfe404"
-    },
-    {
       "id": "aleph-hub:zarazhangrui/frontend-slides",
       "kind": "skill",
       "category": "design",
@@ -4511,29 +4488,6 @@
       "via": "github:axiaoge2"
     },
     {
-      "id": "aleph-hub:uxKero/anydesign",
-      "kind": "skill",
-      "category": "design",
-      "name": "AnyDesign",
-      "description": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
-      "repo_url": "https://github.com/uxKero/anydesign",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/uxKero/anydesign",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "uxKero",
-      "tags": [
-        "design-system",
-        "figma",
-        "tokens",
-        "reverse-engineering"
-      ],
-      "via": "github:uxKero"
-    },
-    {
       "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
       "kind": "skill",
       "category": "knowledge",
@@ -4555,6 +4509,29 @@
         "writing"
       ],
       "via": "github:handsomeZR-netizen"
+    },
+    {
+      "id": "aleph-hub:uxKero/anydesign",
+      "kind": "skill",
+      "category": "design",
+      "name": "AnyDesign",
+      "description": "Analyze images, websites, and Figma files to extract their design and generate a design.md with a token system, component inventory, and reconstruction notes.",
+      "repo_url": "https://github.com/uxKero/anydesign",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/uxKero/anydesign",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "uxKero",
+      "tags": [
+        "design-system",
+        "figma",
+        "tokens",
+        "reverse-engineering"
+      ],
+      "via": "github:uxKero"
     },
     {
       "id": "aleph-hub:dososo/blcaptain-style-skill",
@@ -4787,29 +4764,6 @@
       "via": "github:cjpatten"
     },
     {
-      "id": "aleph-hub:brettdavies/crawl4ai-skill",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Crawl4AI",
-      "description": "Scrape JavaScript-heavy pages and SPAs, crawl many URLs concurrently, and extract structured data with reusable CSS/JSON schemas—wrapping the Crawl4AI library.",
-      "repo_url": "https://github.com/brettdavies/crawl4ai-skill",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/brettdavies/crawl4ai-skill",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "brettdavies",
-      "tags": [
-        "scraping",
-        "crawling",
-        "web-data",
-        "extraction"
-      ],
-      "via": "github:brettdavies"
-    },
-    {
       "id": "aleph-hub:Farenhytee/database-sentinel",
       "kind": "skill",
       "category": "developer",
@@ -4831,6 +4785,29 @@
         "rls"
       ],
       "via": "github:Farenhytee"
+    },
+    {
+      "id": "aleph-hub:brettdavies/crawl4ai-skill",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Crawl4AI",
+      "description": "Scrape JavaScript-heavy pages and SPAs, crawl many URLs concurrently, and extract structured data with reusable CSS/JSON schemas—wrapping the Crawl4AI library.",
+      "repo_url": "https://github.com/brettdavies/crawl4ai-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/brettdavies/crawl4ai-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "brettdavies",
+      "tags": [
+        "scraping",
+        "crawling",
+        "web-data",
+        "extraction"
+      ],
+      "via": "github:brettdavies"
     },
     {
       "id": "aleph-hub:Adityapal67/context-graph-compressor",
@@ -4971,29 +4948,6 @@
       "via": "github:ktaletsk"
     },
     {
-      "id": "aleph-hub:elderengineer/tax-organizer",
-      "kind": "skill",
-      "category": "finance",
-      "name": "Tax Organizer",
-      "description": "Organize and process US personal and consultant tax documents—W-2, 1099s, K-1s, 1098—into accurate reports and drafts, handling rental properties, royalties, partnerships/S-corps, business expenses, per-diem optimization, and charitable receipts.",
-      "repo_url": "https://github.com/elderengineer/tax-organizer",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/elderengineer/tax-organizer",
-        "git_ref": "master"
-      },
-      "requires_config": false,
-      "author": "elderengineer",
-      "tags": [
-        "tax",
-        "us-tax",
-        "schedule-e",
-        "expenses"
-      ],
-      "via": "github:elderengineer"
-    },
-    {
       "id": "aleph-hub:mathiaschu/watch",
       "kind": "skill",
       "category": "automation",
@@ -5015,6 +4969,29 @@
         "ffmpeg"
       ],
       "via": "github:mathiaschu"
+    },
+    {
+      "id": "aleph-hub:elderengineer/tax-organizer",
+      "kind": "skill",
+      "category": "finance",
+      "name": "Tax Organizer",
+      "description": "Organize and process US personal and consultant tax documents—W-2, 1099s, K-1s, 1098—into accurate reports and drafts, handling rental properties, royalties, partnerships/S-corps, business expenses, per-diem optimization, and charitable receipts.",
+      "repo_url": "https://github.com/elderengineer/tax-organizer",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/elderengineer/tax-organizer",
+        "git_ref": "master"
+      },
+      "requires_config": false,
+      "author": "elderengineer",
+      "tags": [
+        "tax",
+        "us-tax",
+        "schedule-e",
+        "expenses"
+      ],
+      "via": "github:elderengineer"
     },
     {
       "id": "aleph-hub:dancolta/seo-drift-monitor",
