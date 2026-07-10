@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-03-copywriting-and-ads",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-03-copywriting-and-ads",
+  "source_path": "categories/03-copywriting-and-ads.md",
+  "kind": "prompt",
+  "category": "writing",
+  "name": "High-CTR Google Ads and Banner Copy",
+  "tags": ["copywriting", "ads", "marketing"],
+  "format": "markdown",
+  "body": "# کپی‌رایتینگ و تبلیغات\n\n## 🎯 الگوی پرامپت: متن تبلیغات بنری و گوگل ادز با نرخ کلیک بالا\n\n```text\n[نقش]\nشما یک کپی‌رایتر ارشد و متخصص در فرمول‌های روانشناسی فروش و فریم‌ورک‌های متقاعدسازی مانند AIDA و PAS هستید.\n\n[وظیفه]\n۳ نسخه متن تبلیغاتی مختلف برای گوگل ادز و بنرهای سایتی جهت معرفی و فروش محصول/سرویس [نام محصول یا خدمت] بنویسید تا بالاترین نرخ کلیک (CTR) را دریافت کند.\n\n[قوانین]\n۱. متن‌ها کاملاً کوتاه، ضربه‌زننده، جذاب و ترغیب‌کننده باشند.\n۲. برای هر نسخه یک عنوان (Headline) و یک متن بدنه (Description) مشخص کنید.\n۳. هیچ کلمه اضافی، مقدمه یا حاشیه‌ای در پاسخ هوش مصنوعی نوشته نشود. تمام اعداد فارسی باشند.\n\nCopywriting & Ads\n🎯 Prompt Template: High-CTR Google Ads and Banner Copy\n[STAGE]\nYou are a master Conversion Copywriter specialized in sales psychology and conversion frameworks like AIDA and PAS.\n\n[TASK]\nWrite 3 variations of high-converting ad copy for Google Ads and website banners promoting [Insert Product/Service].\n\n[RULES]\n1. Keep the copy punchy, short, and highly focused on driving immediate action.\n2. Provide a clear Headline and Description for each variation.\n3. Do not add any conversational fluff, greetings, or filler phrases.\n",
+  "description_en": "A role/task/rules prompt template that has the model write three high-CTR Google Ads / banner copy variations using AIDA/PAS persuasion frameworks.",
+  "description_zh": "一个「角色/任务/规则」结构的提示词模板，让模型运用 AIDA/PAS 说服框架撰写三个版本的高点击率谷歌广告/横幅文案。",
+  "long_en": "Prompt template that casts the model as a senior conversion copywriter and requests three punchy, action-driven ad copy variations (headline + description each) for a given product or service, explicitly banning filler and conversational preamble. Part of a larger bilingual (Persian + English) prompt framework.",
+  "long_zh": "提示词模板将模型设定为资深转化文案撰写师，要求为指定产品/服务撰写三个简洁、以行动为导向的广告文案（各含标题与正文），并明确禁止套话与寒暄式开场。属于一个更大的双语（波斯语 + 英语）提示词框架的一部分。",
+  "sec_note_en": "Plain text marketing-copy prompt; no tool access, external calls, or data handling involved.",
+  "sec_note_zh": "纯文本营销文案提示词；不涉及工具调用、外部请求或数据处理。"
+}

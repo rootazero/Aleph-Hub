@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-06-backend-development",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-06-backend-development",
+  "source_path": "categories/06-backend-development.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Secure JWT Authentication Middleware",
+  "tags": ["backend", "jwt", "nodejs", "security"],
+  "format": "markdown",
+  "body": "# توسعه بک‌اند\n\n## 🎯 الگوی پرامپت: پیاده‌سازی سیستم احراز هویت امن با JWT\n\n```text\n[نقش]\nشما یک معمار ارشد بک‌اند و متخصص امنیت در طراحی APIهای RESTful ایمن، ماژولار و مقیاس‌پذیر هستید.\n\n[وظیفه]\nیک سرویس یا میدل‌ور (Middleware) احراز هویت با JWT (پیاده‌سازی زنده توکن) با استفاده از Node.js و Express برای سیستم [نام یا نوع پروژه] طراحی کنید و بنویسید.\n\n[قوانین]\n۱. اصول امنیت رمزنگاری پسوردها (مانند هش کردن با bcrypt) کاملاً رعایت شود.\n۲. کدها تمیز، ماژولار و همراه با مدیریت خطای (Error Handling) کامل در بلوک‌های try-catch باشند.\n۳. توضیحات فنی و کامنت‌ها به زبان فارسی نوشته شوند.\n```\n\nBackend Development\n🎯 Prompt Template: Secure JWT Authentication Middleware\n[STAGE]\nYou are a Senior Backend Architect specializing in scalable web services, security protocols, and RESTful APIs.\n\n[TASK]\nImplement a secure JWT authentication middleware using Node.js and Express for [Insert Project Name].\n\n[RULES]\n1. Follow strict cryptographic security guidelines for password hashing (e.g., using bcrypt).\n2. Include comprehensive try-catch blocks and strict error handling middleware integration.\n3. The response and code comments must be strictly in English.\n",
+  "description_en": "A role/task/rules prompt template that asks the model to design a secure JWT authentication middleware for Node.js and Express, with bcrypt hashing and full error handling.",
+  "description_zh": "一个「角色/任务/规则」结构的提示词模板，要求模型为 Node.js + Express 设计安全的 JWT 认证中间件，包含 bcrypt 密码哈希与完整错误处理。",
+  "long_en": "Bilingual (Persian + English) prompt template that casts the model as a senior backend architect and asks it to implement JWT-based auth middleware, enforcing bcrypt password hashing and try-catch error handling throughout. Part of a larger structured prompt framework organized by role, task, and rules.",
+  "long_zh": "双语（波斯语 + 英语）提示词模板，将模型设定为资深后端架构师，要求实现基于 JWT 的认证中间件，强制使用 bcrypt 哈希密码并在全流程中做好 try-catch 错误处理。属于一个按「角色/任务/规则」结构组织的更大提示词框架的一部分。",
+  "sec_note_en": "Plain text prompt; the generated code should still be reviewed before production use (e.g. JWT secret handling, token expiry).",
+  "sec_note_zh": "纯文本提示词；生成的代码在投入生产前仍需人工复核（例如 JWT 密钥管理、令牌过期策略等）。"
+}

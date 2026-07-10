@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-19-data-analysis-and-bi",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-19-data-analysis-and-bi",
+  "source_path": "categories/19-data-analysis-and-bi.md",
+  "kind": "prompt",
+  "category": "data",
+  "name": "Data Cleaning & Preprocessing Pipeline (Pandas)",
+  "tags": ["data", "python", "pandas", "etl"],
+  "format": "markdown",
+  "body": "# تحلیل داده و هوش تجاری\n\n## 🎯 الگوی پرامپت: خط لوله پاک‌سازی داده‌ها با پایتون و پانداز\n\n```text\n[نقش]\nشما یک دانشمند داده (Data Scientist) ارشد و متخصص در فرآیندهای مهندسی داده، پاک‌سازی و آماده‌سازی دیتاست‌های بزرگ هستید.\n\n[وظیفه]\nیک اسکریپت پایتون (Python) با استفاده از کتابخانه Pandas برای پاک‌سازی داده‌ها، مدیریت مقادیر گم‌شده (Missing Values) و تغییر فرمت داده‌ها در دیتاست [توضیح کوتاه درباره ستون‌های دیتاست] بنویسید.\n\n[قوانین]\n۱. از روش‌های استاندارد علمی و آماری برای جایگزینی یا حذف داده‌های گم‌شده استفاده کنید.\n۲. کد کاملاً بهینه، خوانا و با رعایت اصول PEP 8 باشد.\n۳. توضیحات کد به صورت کامنت‌های فارسی در سراسر فایل پایتون قرار بگیرد.\n```\n\nData Analysis & BI\n🎯 Prompt Template: Data Cleaning & Preprocessing Pipeline (Python & Pandas)\n[STAGE]\nYou are a Principal Data Analyst and Business Intelligence Architect expert in predictive modeling and ETL processing.\n\n[TASK]\nWrite a clean Python Pandas pipeline script to clean, reshape, and handle missing values for a dataset containing [Insert Data Type].\n\n[RULES]\n1. Apply strict statistical methods for data imputation and detect outliers using IQR or Z-score frameworks.\n2. The code must follow PEP 8 standards and include professional inline documentation in English.\n",
+  "description_en": "A role/task/rules prompt template that asks the model to write a Python/Pandas pipeline for cleaning a dataset, handling missing values, and detecting outliers.",
+  "description_zh": "一个「角色/任务/规则」结构的提示词模板，要求模型编写 Python/Pandas 数据清洗流水线，处理缺失值并检测异常值。",
+  "long_en": "Prompt template that casts the model as a principal data analyst and requests a PEP 8-compliant Pandas script for cleaning, reshaping, and imputing a dataset, using IQR/Z-score outlier detection. Part of a larger bilingual (Persian + English) prompt framework.",
+  "long_zh": "提示词模板将模型设定为首席数据分析师，要求编写符合 PEP 8 规范的 Pandas 脚本，用于清洗、重塑数据集并填补缺失值，采用 IQR/Z-score 方法检测异常值。属于一个更大的双语（波斯语 + 英语）提示词框架的一部分。",
+  "sec_note_en": "Plain text prompt; the generated Python code should be reviewed before running against real/production data.",
+  "sec_note_zh": "纯文本提示词；生成的 Python 代码在用于真实/生产数据前需自行审查。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:DietrichGebert/ponytail#openclaw-skills-ponytail-debt-skill",
+  "full_name": "DietrichGebert/ponytail",
+  "slug": "openclaw-skills-ponytail-debt-skill",
+  "source_path": ".openclaw/skills/ponytail-debt/SKILL.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Ponytail Debt — Shortcut Ledger Harvester",
+  "tags": [
+    "claude-code",
+    "skill",
+    "tech-debt",
+    "code-review"
+  ],
+  "format": "markdown",
+  "body": "---\nname: ponytail-debt\ndescription: \"Harvest every ponytail: shortcut comment into one debt ledger, so deferrals get tracked instead of forgotten. One-shot report.\"\nhomepage: https://github.com/DietrichGebert/ponytail\nlicense: MIT\n---\n\nEvery deliberate ponytail shortcut is marked with a `ponytail:` comment naming\nits ceiling and upgrade path. This collects them into one ledger so a deferral\ncan't quietly become permanent.\n\n## Scan\n\nGrep the repo for comment markers, skipping `node_modules`, `.git`, and build\noutput:\n\n`grep -rnE '(#|//) ?ponytail:' .`  (add other comment prefixes if your stack uses them)\n\nEach hit is one ledger row. The comment prefix keeps prose that merely mentions\nthe convention out of the ledger.\n\n## Output\n\nOne row per marker, grouped by file:\n\n`<file>:<line>, <what was simplified>. ceiling: <the limit named>. upgrade: <the trigger to revisit>.`\n\nThe convention is `ponytail: <ceiling>, <upgrade path>`, so pull the ceiling\nand the trigger straight from the comment. Want an owner per row too? add\n`git blame -L<line>,<line>`.\n\nFlag the rot risk: any `ponytail:` comment that names no upgrade path or\ntrigger gets a `no-trigger` tag, those are the ones that silently rot.\n\nEnd with `<N> markers, <M> with no trigger.` Nothing found: `No ponytail: debt. Clean ledger.`\n\n## Boundaries\n\nReads and reports only, changes nothing. To persist it, ask and it writes the\nledger to a file (e.g. `PONYTAIL-DEBT.md`). One-shot. \"stop ponytail-debt\" or\n\"normal mode\" to revert.\n",
+  "description_en": "A skill that greps a repo for \"ponytail:\" shortcut-marker comments and compiles them into a single tracked debt ledger, so deferred shortcuts do not silently rot.",
+  "description_zh": "一个技能，在仓库中检索 \"ponytail:\" 快捷方式标记注释，并汇总成统一的技术债台账，防止被推迟的权宜之计悄悄被遗忘。",
+  "long_en": "Scans for a repo-wide comment convention (\"ponytail: <ceiling>, <upgrade path>\") via grep, groups hits by file, flags entries missing an upgrade trigger as at risk of silently becoming permanent, and can optionally persist the ledger to a file on request. Read-only by default.",
+  "long_zh": "通过 grep 扫描全仓库的注释约定（\"ponytail: <上限>, <升级路径>\"），按文件分组呈现结果，标记出缺少升级触发条件、有\"悄悄变成永久方案\"风险的条目，并可在用户要求时将台账写入文件。默认只读，不做修改。",
+  "sec_note_en": "Read-only repo scan (grep + optional git blame); only writes to disk if the user explicitly asks it to persist the ledger file.",
+  "sec_note_zh": "默认只做只读的仓库扫描（grep + 可选 git blame）；仅在用户明确要求持久化台账时才会写入文件。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-15-ui-ux-design",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-15-ui-ux-design",
+  "source_path": "categories/15-ui-ux-design.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Usability Testing Scenario & Information Architecture Blueprint",
+  "tags": ["ux", "usability-testing", "information-architecture"],
+  "format": "markdown",
+  "body": "# طراحی رابط و تجربه کاربری\n\n## 🎯 الگوی پرامپت: طراحی سناریو تست کاربردپذیری و معماری اطلاعات\n\n```text\n[نقش]\nشما یک پژوهشگر تجربه کاربری (UX Researcher) و طراح ارشد معماری اطلاعات هستید که بر اساس داده‌ها و رفتار واقعی کاربران طراحی می‌کنید.\n\n[وظیفه]\nیک سناریوی کامل برای تست کاربردپذیری (Usability Testing Scenario) و نقشه متنی معماری اطلاعات (Information Architecture) برای بخش سبد خرید و پرداخت یک اپلیکیشن فروشگاهی طراحی کنید.\n\n[قوانین]\n۱. مراحل حرکت کاربر قدم به قدم، بدون پیش‌فرض‌های طراح و بر اساس اهداف واضح کاربر (User Goals) بیان شود.\n۲. نقاط اصطکاک (Friction Points) احتمالی را لیست کنید.\n۳. متن خروجی کاملاً به زبان فارسی رندر شود.\n\nUI/UX Design\n🎯 Prompt Template: Usability Testing Scenario & Information Architecture Blueprint\n[STAGE]\nYou are a Senior Data-Driven UX Researcher and Interaction Designer expert in conversion flows and user behavior.\n\n[TASK]\nDesign a comprehensive usability testing scenario and text-based information architecture (IA) flow for a mobile checkout experience.\n\n[RULES]\n1. Outline explicit step-by-step user objectives, tasks, and system constraints without design biases.\n2. Highlight potential friction points based on modern UX heuristic evaluations.\n3. The output must be written entirely in English.\n",
+  "description_en": "A role/task/rules prompt template that has the model design a usability testing scenario and information architecture blueprint for a mobile checkout flow.",
+  "description_zh": "一个「角色/任务/规则」结构的提示词模板，让模型为移动端结账流程设计可用性测试场景与信息架构蓝图。",
+  "long_en": "Prompt template that casts the model as a senior UX researcher and requests a step-by-step usability testing scenario plus a text-based information architecture map for a shopping-cart/checkout flow, including likely friction points. Part of a larger bilingual (Persian + English) prompt framework.",
+  "long_zh": "提示词模板将模型设定为资深 UX 研究员，要求为购物车/结账流程设计分步骤的可用性测试场景，并给出文本形式的信息架构地图，同时列出可能的摩擦点。属于一个更大的双语（波斯语 + 英语）提示词框架的一部分。",
+  "sec_note_en": "Plain text design-research prompt; no tool access or external calls.",
+  "sec_note_zh": "纯文本设计研究类提示词；不涉及工具调用或外部请求。"
+}

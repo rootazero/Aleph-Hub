@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-09-cybersecurity",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-09-cybersecurity",
+  "source_path": "categories/09-cybersecurity.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "OWASP Top 10 Vulnerability Audit",
+  "tags": ["security", "code-review", "owasp", "audit"],
+  "format": "markdown",
+  "body": "# امنیت سایبری\n\n## 🎯 الگوی پرامپت: ممیزی کد و شناسایی آسیب‌پذیری‌های OWASP\n\n```text\n[نقش]\nشما یک متخصص امنیت سایبری ارشد، تحلیل‌گر تست نفوذ و هکر کلاه سفید هستید که کدهای منبع را ممیزی می‌کنید.\n\n[وظیفه]\nاین تکه کد را از نظر آسیب‌پذیری‌های رایج امنیتی (مانند SQL Injection، XSS، یا CSRF) بررسی و آنالیز کنید: [تکه کد خود را اینجا قرار دهید]\n\n[قوانین]\n۱. خط دقیق ایجاد آسیب‌پذیری را مشخص کرده و دلیل فنی آن را بیان کنید.\n۲. نسخه کاملاً اصلاح‌شده و امن (Patched Code) را تحویل دهید.\n۳. تحلیل‌ها و توضیحات امنیتی به زبان فارسی نوشته شوند.\n```\n\nCybersecurity\n🎯 Prompt Template: Source Code Audit for OWASP Top 10 Vulnerabilities\n[STAGE]\nYou are a Senior Cybersecurity Analyst and certified ethical hacker specializing in secure code reviews and static analysis.\n\n[TASK]\nAudit the following code snippet for potential security flaws, focusing on OWASP Top 10 vulnerabilities: [Insert Code Here].\n\n[RULES]\n1. Identify the exact line of code causing the flaw and explain the theoretical risk.\n2. Provide the exact patched, secure production-grade code version.\n3. The response analysis must be written completely in English.\n",
+  "description_en": "A role/task/rules prompt template that has the model audit a pasted code snippet for OWASP Top 10 vulnerabilities (SQLi, XSS, CSRF) and return a patched, secure version.",
+  "description_zh": "一个「角色/任务/规则」结构的提示词模板，让模型审查粘贴的代码片段是否存在 OWASP 十大漏洞（SQL 注入、XSS、CSRF），并给出修复后的安全代码。",
+  "long_en": "Defensive, code-audit-style prompt: casts the model as a senior security analyst reviewing source code for common vulnerability classes, requiring it to pinpoint the exact vulnerable line, explain the risk, and deliver a patched version. Part of a larger bilingual (Persian + English) prompt framework.",
+  "long_zh": "防御向的代码审计类提示词：将模型设定为资深安全分析师，审查源代码中常见的漏洞类型，要求精确定位漏洞所在行、解释风险原理，并给出修复后的代码。属于一个更大的双语（波斯语 + 英语）提示词框架的一部分。",
+  "sec_note_en": "Plain text prompt for defensive code auditing (find-and-patch); it does not generate exploits. User must paste their own code — no external network access.",
+  "sec_note_zh": "纯文本提示词，用于防御性代码审计（发现并修复漏洞），不生成漏洞利用代码。用户需自行粘贴代码；不涉及外部网络访问。"
+}
