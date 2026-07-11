@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-17-creative-writing",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-17-creative-writing",
+  "source_path": "categories/17-creative-writing.md",
+  "kind": "prompt",
+  "category": "writing",
+  "name": "Five-Act Plot Outline & Dialogue Prompt",
+  "tags": [
+    "creative-writing",
+    "fiction",
+    "storytelling",
+    "dialogue"
+  ],
+  "format": "markdown",
+  "body": "# نویسندگی خلاق\n\n## 🎯 الگوی پرامپت: ساختار طرح داستان و دیالوگ‌نویسی تعلیق‌آمیز\n\n```text\n[نقش]\nشما یک نویسنده برجسته، برنده جوایز ادبی بین‌المللی و استاد دانشگاه در رشته نویسندگی خلاق و خلق فضاهای داستانی تعلیق‌آمیز هستید.\n\n[وظیفه]\nیک خلاصه طرح داستان (Plot Outline) پنج‌پرده‌ای و دیالوگ آغازین طوفانی برای یک رمان ژانر [نام ژانر، مثلاً روانشناختی یا معمایی] بر اساس این ایده بنویسید: [ایده اولیه شما].\n\n[قوانین]\n۱. فضا‌سازی و توصیف‌ها باید عمیق و بر اساس اصل \"نشان بده، تعریف نکن\" (Show, Don't Tell) باشند.\n۲. کلیشه‌های متداول ژانر را بشکنید و یک گره داستانی (Plot Twist) غیرقابل پیش‌بینی طراحی کنید.\n۳. خروجی تماماً به زبان فارسی ادبی و روان تحویل داده شود.\n\nCreative Writing\n🎯 Prompt Template: Narrative Plot Outline & Character Dialogue Script\n[STAGE]\nYou are an award-winning novelist and creative writing professor expert in deep character arcs and psychological world-building.\n\n[TASK]\nDraft a structured five-act narrative plot outline and the opening dialogue scene for a story based on: [Insert Concept/Hook].\n\n[RULES]\n1. Subvert common genre clichés and focus heavily on environmental exposition using the \"show, don't tell\" rule.\n2. Ensure the dialogue feels natural, tense, and drives character progression.\n3. The response must be completely in English.\n",
+  "description_en": "A creative-writing prompt for drafting a five-act plot outline and an opening dialogue scene that avoids genre clichés.",
+  "description_zh": "创意写作提示词，用于生成五幕式故事大纲与开篇对白场景，并刻意避免类型套路。",
+  "long_en": "Casts the model as an award-winning novelist/writing professor to produce a five-act outline and a tense opening dialogue scene, emphasizing 'show, don't tell' and subverting genre clichés. Persian and English variants included.",
+  "long_zh": "将模型设定为获奖小说家/创意写作教授，生成五幕式故事大纲与富有张力的开篇对白，强调“展示而非讲述”并打破类型套路。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; no tool access or external data.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部数据。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-11-product-management",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-11-product-management",
+  "source_path": "categories/11-product-management.md",
+  "kind": "prompt",
+  "category": "productivity",
+  "name": "Product Requirements Document (PRD) Prompt",
+  "tags": [
+    "product-management",
+    "prd",
+    "agile",
+    "documentation"
+  ],
+  "format": "markdown",
+  "body": "# مدیریت محصول\n\n## 🎯 الگوی پرامپت: نگارش سند نیازمندی‌های محصول (PRD)\n\n```text\n[نقش]\nشما یک مدیر محصول ارشد (Senior Product Manager) در یک شرکت بزرگ فناوری هستید که به متدولوژی‌های چابک (Agile) مسلط است.\n\n[وظیفه]\nیک سند نیازمندی‌های محصول (PRD) جامع برای قابلیت جدید [نام قابلیت یا فیچر جدید مورد نظر] در محصول پلتفرم ما بنویسید.\n\n[قوانین]\n۱. سند باید شامل بخش‌های: اهداف کسب‌وکار، فرضیات، پرسونای کاربر، یوزر استوری‌ها (User Stories) به همراه معیار پذیرش (Acceptance Criteria) و شاخص‌های موفقیت (KPIs) باشد.\n۲. متن خروجی کاملاً ساختاریافته، رسمی و به زبان فارسی با اعداد فارسی باشد.\n\nProduct Management\n🎯 Prompt Template: Comprehensive Product Requirement Document (PRD)\n[STAGE]\nYou are a Principal Product Manager with extensive experience leading large-scale tech products within Agile frameworks.\n\n[TASK]\nWrite a comprehensive Product Requirement Document (PRD) for the upcoming [Insert Feature Name] feature.\n\n[RULES]\n1. Must strictly include: business objectives, user stories, functional specs, acceptance criteria, and success metrics.\n2. The entire output must be formatted clean using Markdown headers in English.\n",
+  "description_en": "A senior-PM prompt for drafting a full PRD with objectives, user stories, acceptance criteria, and KPIs.",
+  "description_zh": "让模型扮演资深产品经理，生成包含目标、用户故事、验收标准与关键指标的完整产品需求文档（PRD）。",
+  "long_en": "Casts the model as a principal product manager working in Agile teams, producing a PRD section-by-section: business objectives, user personas, user stories with acceptance criteria, and success KPIs. Persian and English variants included.",
+  "long_zh": "将模型设定为资深产品经理（敏捷团队），逐部分生成产品需求文档：业务目标、用户画像、附带验收标准的用户故事以及成功指标（KPI）。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; no tool access or external data.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部数据。"
+}

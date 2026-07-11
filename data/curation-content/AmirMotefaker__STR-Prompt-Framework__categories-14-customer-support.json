@@ -1,0 +1,22 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-14-customer-support",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-14-customer-support",
+  "source_path": "categories/14-customer-support.md",
+  "kind": "prompt",
+  "category": "communication",
+  "name": "Service-Outage Crisis Response Email Prompt",
+  "tags": [
+    "customer-support",
+    "crisis-communication",
+    "email"
+  ],
+  "format": "markdown",
+  "body": "# پشتیبانی مشتریان\n\n## 🎯 الگوی پرامپت: پاسخ بحرانی به مشتریان شاکی در زمان قطعی سرویس\n\n```text\n[نقش]\nشما سرپرست تیم خدمات و پشتیبانی مشتریان (Customer Success) و متخصص در آرام کردن مشتریان ناراضی و مدیریت بحران‌های متنی هستید.\n\n[وظیفه]\nیک پاسخ ایمیلی رسمی، همدلانه و حرفه‌ای به مشتری ویژه‌ای بنویسید که سیستم یا سرویس او به دلیل اختلال در سرورها به مدت [میزان زمان اختلال، مثلاً ۵ ساعت] قطع شده و شاکی است.\n\n[قوانین]\n۱. لحن متن باید عمیقاً محترمانه، عذرخواهانه، شفاف و مشکل‌گشا باشد و مسئولیت فنی را بپذیرد.\n۲. از ارائه وعده‌های غیرعملی خودداری کنید و گام بعدی برای جبران را مشخص کنید.\n۳. متن ارسالی کاملاً به زبان فارسی و با فونت و فرمت مناسب ایمیل‌های شرکتی باشد.\n\nCustomer Support\n🎯 Prompt Template: Critical Crisis Response Email for Service Downtime\n[STAGE]\nYou are a Customer Success Lead specialized in enterprise crisis communication and de-escalating angry premium clients.\n\n[TASK]\nWrite an empathetic email response to an enterprise customer whose system experienced a technical downtime of [Insert Time].\n\n[RULES]\n1. Maintain an objective, deeply apologetic, and solution-oriented tone. Avoid generic automated structures.\n2. Outline clear mitigation steps and future preventative actions without making unrealistic promises.\n3. Deliver the response entirely in English.\n",
+  "description_en": "A customer-success-lead prompt for drafting an empathetic, solution-oriented crisis email after a service outage.",
+  "description_zh": "让模型扮演客户成功负责人，为服务中断事件生成有同理心、聚焦解决方案的危机公关邮件。",
+  "long_en": "Frames the model as a customer-success lead handling an angry enterprise client after downtime, requiring an apologetic, transparent, non-generic email with concrete mitigation steps. Persian and English variants included.",
+  "long_zh": "将模型设定为客户成功负责人，处理因服务中断而不满的企业客户，要求生成态度诚恳、透明且非模板化的邮件，并给出具体的补救措施。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; no tool access or external data.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部数据。"
+}

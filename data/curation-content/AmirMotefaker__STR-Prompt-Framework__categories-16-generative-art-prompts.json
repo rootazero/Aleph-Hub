@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-16-generative-art-prompts",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-16-generative-art-prompts",
+  "source_path": "categories/16-generative-art-prompts.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "Midjourney/Stable Diffusion Prompt Engineering Template",
+  "tags": [
+    "midjourney",
+    "stable-diffusion",
+    "image-generation",
+    "prompt-engineering"
+  ],
+  "format": "markdown",
+  "body": "# پرامپت‌های تولید تصویر\n\n## 🎯 الگوی پرامپت: مهندسی پرامپت Midjourney و ابزارهای تصویری\n\n```text\n[نقش]\nشما یک Prompt Engineer فوق‌حرفه‌ای در زمینه ابزارهای هوش مصنوعی تصویری پیشرفته مثل Midjourney V6 و Stable Diffusion هستید.\n\n[وظیفه]\nیک پرامپت تصویری فوق‌العاده دقیق، با جزئیات و ساختاریافته به زبان انگلیسی برای خلق تصویر یک [موضوع تصویر را اینجا دقیق بنویسید، مثلاً یک دفتر کار مینیمال تکنولوژی با نور عصر] بنویسید.\n\n[قوانین]\n۱. پارامترهای فنی عکاسی شامل نوع دوربین، لنز، تنظیمات نورپردازی (مانند Cinematic, Volumetric lighting) و نسبت ابعاد تصویر (مانند `--ar 16:9`) دقیقاً در انتهای پرامپت ذکر شوند.\n۲. از کلمات توصیفی مبهم و آماتور مانند Beautiful یا Stunning به هیچ وجه استفاده نشود؛ به جای آن جزییات صحنه توصیف شود.\n۳. راهنمای استفاده از پرامپت را به زبان فارسی بنویسید، اما خود کادر پرامپت نهایی انگلیسی باشد.\n\nGenerative Art Prompts\n🎯 Prompt Template: Production-Grade Midjourney v6 Prompt Engineering\n[STAGE]\nYou are an expert AI Prompt Engineer specialized in Midjourney v6, DALL-E 3, and Stable Diffusion prompt token architectures.\n\n[TASK]\nGenerate a highly descriptive, token-optimized image prompt blueprint to create a hyper-realistic visualization of [Insert Subject].\n\n[RULES]\n1. Specify strict camera parameters (lens type, focal length), specific lighting styles (e.g., global illumination, rim lighting), and dynamic aspect ratios (e.g., `--ar 16:9`).\n2. Do not use generic, subjective adjectives like \"beautiful,\" \"epic,\" or \"stunning.\"\n3. The response must be delivered entirely in English text block format.\n",
+  "description_en": "A prompt-engineering template for crafting production-grade Midjourney v6 / Stable Diffusion image prompts with precise camera and lighting parameters.",
+  "description_zh": "用于撰写高质量 Midjourney v6 / Stable Diffusion 图像提示词的模板，包含精确的镜头与灯光参数。",
+  "long_en": "Guides the model to act as an AI image-prompt engineer, producing a highly specific image prompt free of vague adjectives, with explicit camera/lens, lighting, and aspect-ratio parameters (e.g. --ar 16:9). Persian guidance with an English-language final prompt block, as intended for these tools.",
+  "long_zh": "引导模型扮演 AI 图像提示词工程师，生成高度具体、避免“beautiful/stunning”等模糊描述的图像提示词，并明确给出镜头、灯光与画幅比例参数（如 --ar 16:9）。使用说明为波斯语，最终提示词块按工具惯例使用英文。",
+  "sec_note_en": "Plain-text prompt; no tool access. Generated prompts are meant for third-party image-generation tools (Midjourney/Stable Diffusion), which are not included here.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用。生成的提示词需配合第三方图像生成工具（Midjourney/Stable Diffusion）使用，本条目本身不包含这些工具。"
+}

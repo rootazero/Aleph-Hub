@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-04-email-and-sms-marketing",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-04-email-and-sms-marketing",
+  "source_path": "categories/04-email-and-sms-marketing.md",
+  "kind": "prompt",
+  "category": "communication",
+  "name": "Abandoned Cart Email Recovery Sequence",
+  "tags": [
+    "marketing",
+    "email",
+    "ecommerce",
+    "retention"
+  ],
+  "format": "markdown",
+  "body": "# بازاریابی ایمیلی و پیامکی\n\n## 🎯 الگوی پرامپت: زنجیره ایمیل بازیابی سبد خرید رها شده\n\n```text\n[نقش]\nشما متخصص ایمیل مارکتینگ و اتومیشن بازاریابی با تمرکز ویژه روی حفظ و بازگشت مشتری (Retention Marketing) هستید.\n\n[وظیفه]\nیک زنجیره ایمیل ۳ مرحله‌ای (ایمیل اول: ۱ ساعت بعد، ایمیل دوم: ۲۴ ساعت بعد، ایمیل سوم: ۴۸ ساعت بعد) برای پیگیری مشتریانی که سبد خرید خود را در وب‌سایت [نام یا حوزه فروشگاه] رها کرده‌اند بنویسید.\n\n[قوانین]\n۱. هر ایمیل باید شامل یک عنوان جذاب (Subject Line) با نرخ بازشدن بالا باشد.\n۲. لحن ایمیل‌ها دوستانه، یادآوری‌کننده و همراه با ایجاد حس فوریت بدون ایجاد مزاحمت باشد.\n۳. خروجی کاملاً فارسی و اعداد به کار رفته کاملاً فارسی رندر شوند.\n\nEmail & SMS Marketing\n🎯 Prompt Template: Abandoned Cart Email Recovery Sequence\n[STAGE]\nYou are an Email Marketing Specialist focused on customer retention and automated lifecycle marketing automation.\n\n[TASK]\nWrite a 3-step abandoned cart email sequence (Email 1: 1 hour later, Email 2: 24 hours later, Email 3: 48 hours later) for [Insert E-commerce Shop Name].\n\n[RULES]\n1. Each email must include a high-open-rate subject line.\n2. Keep the Call to Action clear, singular, and urgent per email.\n3. The response must be entirely in English.\n",
+  "description_en": "A 3-stage abandoned-cart email sequence template for e-commerce retention marketing, with urgency-driven subject lines and timing cues.",
+  "description_zh": "面向电商挽回流失购物车客户的三阶段邮件序列模板，附带高打开率标题与时间节奏建议。",
+  "long_en": "Prompts the model to act as a retention-marketing specialist and draft a 3-email abandoned-cart recovery sequence (1h/24h/48h), with rules for subject-line quality and urgency without being pushy. Includes both the original Persian template and an English variant.",
+  "long_zh": "让模型扮演客户挽留营销专家，撰写针对遗弃购物车客户的三封邮件序列（1小时/24小时/48小时后），并给出关于标题吸引力与紧迫感（不显冒犯）的写作规则。模板同时提供波斯语与英语两个版本。",
+  "sec_note_en": "Plain-text prompt template; no tool calls, code execution, or external data access.",
+  "sec_note_zh": "纯文本提示词模板；不涉及工具调用、代码执行或外部数据访问。"
+}

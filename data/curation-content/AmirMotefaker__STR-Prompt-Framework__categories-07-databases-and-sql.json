@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-07-databases-and-sql",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-07-databases-and-sql",
+  "source_path": "categories/07-databases-and-sql.md",
+  "kind": "prompt",
+  "category": "data",
+  "name": "SQL Report Query Optimization Prompt",
+  "tags": [
+    "sql",
+    "database",
+    "performance",
+    "optimization"
+  ],
+  "format": "markdown",
+  "body": "# پایگاه داده و اس‌کیو‌ال\n\n## 🎯 الگوی پرامپت: بهینه‌سازی کوئری‌های سنگین گزارش‌گیری SQL\n\n```text\n[نقش]\nشما یک مدیر پایگاه داده (DBA) ارشد و معمار داده با تخصص در بهینه‌سازی کوئری‌های سنگین و ایندکس‌گذاری هستید.\n\n[TASK]\nیک کوئری SQL بهینه برای دریافت گزارش فروش ماهانه تفکیک‌شده بر اساس دسته‌بندی محصولات و فیلتر مبالغ برای دیتابیس [نام یا ساختار جدول دیتابیس] بنویسید.\n\n[قوانین]\n۱. کوئری باید از نظر سرعت اجرا و استفاده از ایندکس‌ها کاملاً بهینه باشد.\n۲. از سینتکس JOINهای استاندارد و صریح استفاده کنید و از Subqueryهای تودرتو تا حد امکان دوری کنید.\n۳. توضیحات مربوط به نحوه ایندکس‌گذاری پیشنهادی برای این کوئری را به زبان فارسی بنویسید.\n\nDatabases & SQL\n🎯 Prompt Template: Optimized SQL Query for Analytical Reporting\n[STAGE]\nYou are a Senior Database Administrator (DBA) specializing in query optimization, execution plans, and database indexing.\n\n[TASK]\nWrite an optimized SQL query to retrieve a monthly sales performance report aggregated by product category for [Insert Database Model].\n\n[RULES]\n1. The query must be optimized for execution speed and high-volume data tables.\n2. Use explicit JOIN syntax and avoid subqueries where index scans are faster.\n3. Provide index recommendations in English text below the code.\n",
+  "description_en": "A senior-DBA prompt for producing an optimized, well-indexed SQL query for monthly sales reporting.",
+  "description_zh": "让模型扮演资深数据库管理员，生成经过索引优化的月度销售报表 SQL 查询。",
+  "long_en": "Casts the model as a senior DBA/data architect and requests an optimized SQL query for category-level monthly sales reporting, favoring explicit JOINs over nested subqueries and including indexing recommendations. Persian and English variants included.",
+  "long_zh": "将模型设定为资深数据库管理员/数据架构师，要求生成按品类拆分的月度销售报表 SQL 查询，优先使用显式 JOIN 而非嵌套子查询，并附带索引建议。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; generated SQL should be tested against real schema/EXPLAIN plans before running in production.",
+  "sec_note_zh": "纯文本提示词；生成的 SQL 在生产环境执行前应结合真实表结构与执行计划（EXPLAIN）进行测试。"
+}

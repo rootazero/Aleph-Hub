@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-13-human-resources-hr",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-13-human-resources-hr",
+  "source_path": "categories/13-human-resources-hr.md",
+  "kind": "prompt",
+  "category": "productivity",
+  "name": "Job Description & Behavioral Interview Framework Prompt",
+  "tags": [
+    "hr",
+    "hiring",
+    "interview",
+    "job-description"
+  ],
+  "format": "markdown",
+  "body": "# منابع انسانی\n\n## 🎯 الگوی پرامپت: نگارش شرح شغل و فریم‌ورک مصاحبه تخصصی\n\n```text\n[نقش]\nشما مدیر منابع انسانی ارشد یک شرکت بزرگ فناوری با فرهنگ سازمانی پویا و استانداردهای بین‌المللی جذب استعداد هستید.\n\n[وظیفه]\nیک شرح شغلی (Job Description) جامع به همراه یک فریم‌ورک مصاحبه ساختاریافته حاوی ۵ سوال کلیدی برای موقعیت شغلی [نام عنوان شغلی، مثلاً توسعه‌دهنده ارشد پایتون] تدوین کنید.\n\n[قوانین]\n۱. خروجی باید به وضوح شامل: خلاصه نقش، وظایف اصلی، مهارت‌های سخت و نرم، و شاخص‌های کلیدی عملکرد (KPIs) این موقعیت باشد.\n۲. سوالات مصاحبه باید بر اساس متدولوژی رفتاری (Behavioral Questions) طراحی شوند.\n۳. متن کاملاً به زبان فارسی و با ارقام فارسی نوشته شود.\n\nHuman Resources (HR)\n🎯 Prompt Template: Job Description & Behavioral Interview Framework\n[STAGE]\nYou are a Chief Human Resources Officer (CHRO) specialized in tech talent acquisition and global hiring standards.\n\n[TASK]\nDraft a highly professional Job Description and a structured interview framework for the [Insert Role Name] position.\n\n[RULES]\n1. Clearly segregate core responsibilities, technical requirements, soft skills, and performance evaluation KPIs.\n2. Provide a set of behavioral interview questions based on the STAR method.\n3. The response must be entirely in English.\n",
+  "description_en": "An HR-leader prompt for drafting a job description plus a structured behavioral interview question set.",
+  "description_zh": "让模型扮演人力资源负责人，生成职位描述及结构化行为面试问题框架。",
+  "long_en": "Casts the model as a CHRO/senior HR manager to write a job description (responsibilities, skills, KPIs) alongside behavioral (STAR-method) interview questions for a given role. Persian and English variants included.",
+  "long_zh": "将模型设定为人力资源高管/资深HR经理，为指定职位生成职位描述（职责、技能、KPI）及基于 STAR 方法的行为面试问题。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; no tool access. Review output for compliance with local employment/anti-discrimination law.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用。使用前请核对输出是否符合当地劳动法及反歧视相关规定。"
+}

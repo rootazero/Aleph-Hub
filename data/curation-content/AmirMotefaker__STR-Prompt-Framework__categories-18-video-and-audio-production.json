@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-18-video-and-audio-production",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-18-video-and-audio-production",
+  "source_path": "categories/18-video-and-audio-production.md",
+  "kind": "prompt",
+  "category": "writing",
+  "name": "High-Retention YouTube Script Prompt",
+  "tags": [
+    "youtube",
+    "video-script",
+    "content-creation",
+    "copywriting"
+  ],
+  "format": "markdown",
+  "body": "# تولید ویدیو و پادکست\n\n## 🎯 الگوی پرامپت: نگارش اسکریپت ویدیوهای یوتیوب همراه با نشانه‌های تدوین\n\n```text\n[نقش]\nشما یک کارگردان هنری، یوتیوبر باسابقه با میلیون‌ها مخاطب و متخصص در افزایش نرخ تعامل و واچ‌تایم ویدیوها هستید.\n\n[وظیفه]\nیک اسکریپت کامل و دقیق برای یک ویدیوی یوتیوب با موضوع [موضوع ویدیوی خود را بنویسید] بنویسید که شامل قلاب ۵ ثانیه اول (Hook) باشد.\n\n[قوانین]\n۱. تمام نشانه‌های صوتی (Sound Effects) و نشانه‌های بصری یا کات‌های ویدیویی (B-roll) را به وضوح درون کروشه مشخص کنید.\n۲. ساختار ویدیو باید شامل: قلاب، مقدمه، بخش‌های اصلی محتوا و دعوت به سابسکرایب (CTA) هوشمندانه باشد.\n۳. متن اسکریپت کاملاً فارسی، پرانرژی و متناسب با فرهنگ گفتاری یوتیوب فارسی باشد.\n\nVideo & Audio Production\n🎯 Prompt Template: High-Retention YouTube Script with Editing Cues\n[STAGE]\nYou are an expert Video Producer, YouTube algorithm consultant, and high-charting multimedia director.\n\n[TASK]\nWrite a comprehensive video script for a video covering [Insert Topic], detailing pacing, visual storytelling, and hook dynamics.\n\n[RULES]\n1. Explicitly map out visual B-roll cuts, text-on-screen elements, and sound effects (SFX) timestamps inside brackets.\n2. Optimize the introduction sequence for maximum watch-time retention.\n3. Deliver the entire script in professional English format.\n",
+  "description_en": "A video-producer prompt for writing a full YouTube script with a 5-second hook, B-roll/SFX cues, and a CTA.",
+  "description_zh": "让模型扮演视频制作人，撰写包含 5 秒开场钩子、剪辑/音效提示与结尾行动号召的完整 YouTube 脚本。",
+  "long_en": "Frames the model as an experienced YouTube producer/algorithm consultant, requiring a full script with a hook, structured content, explicit B-roll/SFX cues in brackets, and a smart subscribe CTA. Persian and English variants included.",
+  "long_zh": "将模型设定为经验丰富的 YouTube 制作人/算法顾问，要求生成含开场钩子、结构化正文、方括号标注剪辑与音效提示以及巧妙订阅号召的完整脚本。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; no tool access or external data.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用或外部数据。"
+}

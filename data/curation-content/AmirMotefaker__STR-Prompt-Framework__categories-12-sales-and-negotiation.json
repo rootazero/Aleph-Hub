@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-12-sales-and-negotiation",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-12-sales-and-negotiation",
+  "source_path": "categories/12-sales-and-negotiation.md",
+  "kind": "prompt",
+  "category": "communication",
+  "name": "B2B Cold Call & Objection Handling Script Prompt",
+  "tags": [
+    "sales",
+    "negotiation",
+    "cold-calling",
+    "b2b"
+  ],
+  "format": "markdown",
+  "body": "# فروش و مذاکره\n\n## 🎯 الگوی پرامپت: اسکریپت تماس سرد B2B و مدیریت اعتراضات مشتری\n\n```text\n[نقش]\nشما یک مربی فروش ارشد، روانشناس رفتار مصرف‌کننده و متخصص تکنیک‌های مذاکره مستقیم تجاری و قراردادهای B2B هستید.\n\n[وظیفه]\nیک اسکریپت تماس سرد (Cold Call Script) برای متقاعد کردن مدیران ارشد شرکت‌ها جهت خرید و تست خدمات/محصول ما یعنی [نام خدمات یا محصول] بنویسید.\n\n[قوانین]\n۱. اسکریپت باید شامل ۳ دقیقه اول مکالمه و نحوه مدیریت اعتراضات متداول (مانند \"بودجه نداریم\" یا \"با شرکت دیگری کار می‌کنیم\") باشد.\n۲. لحن مکالمه کاملاً حرفه‌ای، محترمانه و روانشناسی‌شده باشد.\n۳. پاسخ به زبان فارسی و با رعایت لحن رسمی کسب‌وکارها در ایران باشد.\n\nSales & Negotiation\n🎯 Prompt Template: Enterprise B2B Cold Calling Script & Objection Handling\n[STAGE]\nYou are a Senior Sales Trainer and corporate B2B negotiation expert specializing in high-ticket closing techniques.\n\n[TASK]\nDevelop a cold calling script aimed at enterprise executives to pitch our [Insert B2B Service/Product].\n\n[RULES]\n1. Include explicit handling scripts for common gatekeeper and executive objections (e.g., \"We don't have the budget\").\n2. Ensure the tone is highly professional, value-driven, and non-intrusive.\n3. Deliver the text completely in English.\n",
+  "description_en": "A sales-trainer prompt for writing a B2B cold-calling script with built-in objection-handling for common pushback.",
+  "description_zh": "让模型扮演销售培训师，生成包含常见异议处理话术的 B2B 陌生电话销售脚本。",
+  "long_en": "Frames the model as a senior sales trainer/negotiation expert to draft a cold-call script for enterprise prospects, including scripted responses to common objections like budget or existing vendor lock-in. Persian and English variants included.",
+  "long_zh": "将模型设定为资深销售培训师/谈判专家，生成面向企业客户的陌生电话销售脚本，包含针对“没有预算”或“已有供应商”等常见异议的应对话术。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; use responsibly — cold-calling scripts should still comply with local telemarketing regulations.",
+  "sec_note_zh": "纯文本提示词；请负责任地使用——电话销售话术仍需遵守当地电话营销相关法规。"
+}

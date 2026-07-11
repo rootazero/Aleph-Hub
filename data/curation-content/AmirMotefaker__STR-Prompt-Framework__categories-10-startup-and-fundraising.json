@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-10-startup-and-fundraising",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-10-startup-and-fundraising",
+  "source_path": "categories/10-startup-and-fundraising.md",
+  "kind": "prompt",
+  "category": "productivity",
+  "name": "Investor Pitch Deck Structure Prompt",
+  "tags": [
+    "startup",
+    "fundraising",
+    "pitch-deck",
+    "business"
+  ],
+  "format": "markdown",
+  "body": "# استارتاپ و جذب سرمایه\n\n## 🎯 الگوی پرامپت: طراحی ساختار پیج‌دک برای ارائه به سرمایه‌گذار\n\n```text\n[نقش]\nشما یک مشاور سرمایه‌گذاری خطرپذیر (VC) و مربی باتجربه استارتاپ‌های بین‌المللی هستید که پیچ‌دک‌های زیادی را داوری کرده‌اید.\n\n[وظیفه]\nیک ساختار اسلاید به اسلاید جامع (Pitch Deck Outline) برای معرفی یک استارتاپ حوزه [نام حوزه کاری یا فناوری] جهت ارائه به سرمایه‌گذاران فرشته (Angel Investors) بنویسید.\n\n[قوانین]\n۱. ساختار باید شامل بخش‌های حیاتی: مشکل، راهکار، اندازه بازار (TAM/SAM/SOM)، مدل درآمدی و درخواست مالی باشد.\n۲. لحن متن باید بیزنسی، متقاعدکننده و کاملاً ساختاریافته باشد.\n۳. خروجی تماماً به زبان فارسی و مبالغ یا اعداد با فرمت و ارقام فارسی نوشته شوند.\n\nStartup & Fundraising\n🎯 Prompt Template: Investor Pitch Deck Structure Blueprint\n[STAGE]\nYou are a seasoned Venture Capital (VC) consultant and a startup incubator mentor who has guided multi-million dollar fundraisings.\n\n[TASK]\nDraft a compelling Pitch Deck outline slide-by-slide for a startup in the [Insert Industry] sector targeting institutional investors.\n\n[RULES]\n1. Ensure explicit focus on market sizing metrics (TAM, SAM, SOM), competitive advantage, and the financial ask.\n2. The tone must be strictly professional, corporate, and investment-focused.\n3. The response must be written entirely in English.\n",
+  "description_en": "A VC-mentor prompt for drafting a slide-by-slide investor pitch deck outline, covering market sizing, business model, and funding ask.",
+  "description_zh": "让模型扮演风险投资顾问，生成逐页展开的投资人路演（Pitch Deck）结构大纲，涵盖市场规模、商业模式与融资需求。",
+  "long_en": "Frames the model as an experienced VC consultant/startup mentor to produce a structured pitch-deck outline including problem, solution, TAM/SAM/SOM, revenue model, and funding ask. Persian and English variants included.",
+  "long_zh": "将模型设定为经验丰富的风险投资顾问/创业导师，生成包含问题、解决方案、TAM/SAM/SOM 市场规模、商业模式与融资需求的结构化路演大纲。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; no tool access. Output is a draft outline, not investment or legal advice.",
+  "sec_note_zh": "纯文本提示词；不涉及工具调用。输出仅为草拟大纲，不构成投资或法律建议。"
+}

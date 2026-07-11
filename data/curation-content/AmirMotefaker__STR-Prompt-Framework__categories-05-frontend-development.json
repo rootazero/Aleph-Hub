@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-05-frontend-development",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-05-frontend-development",
+  "source_path": "categories/05-frontend-development.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "React + Tailwind Product Card Component Prompt",
+  "tags": [
+    "react",
+    "tailwind",
+    "frontend",
+    "typescript"
+  ],
+  "format": "markdown",
+  "body": "# توسعه فرانت‌اند\n\n## 🎯 الگوی پرامپت: ساخت کامپوننت کارت محصول با ری‌آکت و تیلوند\n\n```text\n[نقش]\nشما یک مهندس ارشد فرانت‌اند مسلط به اصول کدنویسی تمیز (Clean Code)، کامپوننت‌های ماژولار و معماری فریم‌ورک‌های مدرن هستید.\n\n[وظیفه]\nیک کامپوننت کارت محصول (Product Card) با استفاده از React و Tailwind CSS برای یک سایت فروشگاهی با ویژگی‌های [ویژگی‌های خاص مد نظر] بنویسید که کاملاً ریسپانسیو باشد.\n\n[قوانین]\n۱. کد کاملاً بهینه، بدون باگ، تایپ‌شده با TypeScript و آماده برای محیط پروداکشن باشد.\n۲. تمام استایل‌ها با کلاس‌های پلتفرم Tailwind پیاده‌سازی شوند.\n۳. توضیحات کد بسیار کوتاه باشد و فقط در کامنت‌های درون کد قرار بگیرد. متن کامنت‌ها فارسی باشد.\n\nFrontend Development\n🎯 Prompt Template: Modular Product Card Component (React & Tailwind)\n[STAGE]\nYou are a Senior Frontend Engineer dedicated to writing Clean Code, modular components, and modern UI architectures.\n\n[TASK]\nDevelop a fully responsive React product card component using Tailwind CSS for an e-commerce platform with [Insert Features].\n\n[RULES]\n1. Ensure the code is highly optimized, bug-free, and fully typed with TypeScript.\n2. Use pure Tailwind CSS utility classes for styling.\n3. Keep explanations minimal and strictly inside code comments in English.\n",
+  "description_en": "A senior-frontend-engineer prompt for generating a production-ready, responsive React + Tailwind CSS product card component in TypeScript.",
+  "description_zh": "让模型扮演资深前端工程师，生成可用于生产环境、响应式的 React + Tailwind CSS 商品卡片组件（TypeScript）。",
+  "long_en": "Frames the model as a senior frontend engineer and asks for a fully responsive, TypeScript-typed React product card component styled purely with Tailwind utility classes, with minimal in-code comments. Provided in Persian and English variants.",
+  "long_zh": "将模型设定为资深前端工程师，要求生成完全响应式、使用 TypeScript 类型标注的 React 商品卡片组件，样式仅使用 Tailwind 工具类，代码注释精简。提供波斯语和英语两个版本。",
+  "sec_note_en": "Plain-text prompt; the generated code should still be reviewed before use in production, as with any AI-written code.",
+  "sec_note_zh": "纯文本提示词；生成的代码在用于生产环境前仍需人工审查，如同所有 AI 生成代码一样。"
+}

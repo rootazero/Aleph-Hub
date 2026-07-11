@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-08-devops-and-cloud",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-08-devops-and-cloud",
+  "source_path": "categories/08-devops-and-cloud.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Multi-Stage Production Dockerfile Prompt",
+  "tags": [
+    "docker",
+    "devops",
+    "cicd",
+    "containers"
+  ],
+  "format": "markdown",
+  "body": "# دواپس و ابزار ابری\n\n## 🎯 الگوی پرامپت: ساخت فایل Dockerfile چندمرحله‌ای و بهینه\n\n```text\n[نقش]\nشما یک مهندس ارشد DevOps و متخصص اتومیشن زیرساخت، کانتینری‌سازی و امنیت شبکه‌های ابری هستید.\n\n[وظیفه]\nیک فایل Dockerfile بهینه و چندمرحله‌ای (Multi-stage) برای یک اپلیکیشن تولیدی (Production-ready) مبتنی بر [نام تکنولوژی، مثلاً نودجی‌اس یا پایتون] بنویسید.\n\n[قوانین]\n۱. حجم ایمیج نهایی به شدت کم باشد و از ایمیج‌های پایه امن (مانند alpine یا distroless) استفاده شود.\n۲. لایه‌های داکر به درستی تنظیم شوند تا قابلیت کش لایه‌ها در خط لوله CI/CD به حداکثر برسد.\n۳. توضیحات مراحل فایل داکر به زبان فارسی در قالب کامنت نوشته شود.\n\nDevOps & Cloud\n🎯 Prompt Template: Multi-Stage Production Dockerfile Optimization\n[STAGE]\nYou are a Senior DevOps and Infrastructure Engineer expert in containerization, security hardening, and CI/CD pipelines.\n\n[TASK]\nCreate an optimized, multi-stage Dockerfile for a production-ready application built on [Insert Tech Stack].\n\n[RULES]\n1. Minimize the final image size using secure distroless or alpine bases.\n2. Ensure efficient caching of layers to speed up continuous integration pipelines.\n3. All code and inline comments must be purely in English.\n",
+  "description_en": "A senior-DevOps-engineer prompt for writing an optimized, multi-stage, minimal-size production Dockerfile.",
+  "description_zh": "让模型扮演资深 DevOps 工程师，编写体积精简、分层优化的生产级多阶段 Dockerfile。",
+  "long_en": "Prompts the model to act as a DevOps/infrastructure engineer and produce a multi-stage Dockerfile using minimal secure base images (alpine/distroless) with layer-caching best practices for CI/CD. Persian and English variants included.",
+  "long_zh": "让模型扮演 DevOps/基础设施工程师，编写使用安全精简基础镜像（alpine/distroless）的多阶段 Dockerfile，并遵循有利于 CI/CD 缓存的分层最佳实践。提供波斯语和英语版本。",
+  "sec_note_en": "Plain-text prompt; review generated Dockerfiles for base-image provenance and pinned versions before deploying.",
+  "sec_note_zh": "纯文本提示词；部署前应审查生成 Dockerfile 中基础镜像的来源与版本锁定情况。"
+}
