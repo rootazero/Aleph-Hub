@@ -1,5 +1,5 @@
 {
-  "full_name": "Zuokaiqi/claude-skill-business-analyst",
+  "full_name": "Zuojuzhang/claude-skill-business-analyst",
   "name": "Business Analyst",
   "kind": "skill",
   "category": "developer",
@@ -15,7 +15,7 @@
   "long_zh": "围绕读者要做的决策来组织分析,并诚实指出数据的局限,而非产出「所以呢?」式的图表。",
   "install_spec": {
     "type": "git_dir",
-    "git_url": "https://github.com/Zuokaiqi/claude-skill-business-analyst"
+    "git_url": "https://github.com/Zuojuzhang/claude-skill-business-analyst"
   },
   "sec_note_en": "Reads the Excel/CSV/text data you provide to generate a report; verify its insights against real business context before acting.",
   "sec_note_zh": "读取你提供的 Excel/CSV/文本数据以生成报告;据此行动前请结合真实业务背景核实其结论。"

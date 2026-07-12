@@ -1,0 +1,24 @@
+{
+  "full_name": "pengchujin/jzsub",
+  "name": "JZSub",
+  "kind": "skill",
+  "category": "utilities",
+  "tags": [
+    "video",
+    "subtitles",
+    "yt-dlp",
+    "ffmpeg",
+    "bilingual"
+  ],
+  "description_en": "Give it one video URL and it delivers the max-quality file, the cover, and a bilingual hard-subbed MP4—yt-dlp picks the best video+audio, source captions are translated by the session model itself, then rendered as a source-over-Chinese stack and burned in with FFmpeg.",
+  "description_zh": "丢一条视频链接进去，交付最高画质原片、封面和中英双语硬字幕 MP4——yt-dlp 选最佳视频+音轨，源字幕由当前会话模型直接翻译，再排成「原文在上、中文在下」的字幕栈用 FFmpeg 压制进画面。",
+  "long_en": "A full download-to-burn pipeline for YouTube, Bilibili, and other yt-dlp platforms. fetch_video.py grabs the best video+audio, keeps a codec-preserving master, pulls the JPEG cover, and prefers manual original-language captions over auto ones; subtitle_pipeline.py then feeds the agent ordered translation batches with read-only neighbor context so terminology stays coherent across batch edges, regroups translated cues into sentence-aligned display segments, and emits source/Chinese/bilingual SRT plus a MiSans ASS whose PlayRes and wrap widths follow the video's aspect ratio; burn_subtitles.py burns it once from the master via a libass-capable FFmpeg, and verify_delivery.py fails the job until every stage produced its artifact. Translation runs on the active session model—no separate translation API. Its stated invariants forbid bypassing DRM, paywalls, CAPTCHAs, and safety interstitials, and forbid printing or inspecting cookie values.",
+  "long_zh": "面向 YouTube、Bilibili 及其它 yt-dlp 平台的「下载到压制」全流程。fetch_video.py 取最佳视频+音轨、保留不转码的源母版、下载 JPEG 封面，并优先选人工原语字幕而非自动字幕；subtitle_pipeline.py 按顺序把翻译分批喂给 agent（相邻批次共享只读上下文，保证跨批术语一致），翻译完再把 cue 重组为按句对齐的显示片段，产出 源文/中文/双语 SRT 与 MiSans ASS（PlayRes 与折行宽度随视频画幅自适应，竖屏也不变形、两语言不重叠）；burn_subtitles.py 用支持 libass 的 FFmpeg 从母版一次性压制；verify_delivery.py 在任一环节缺产物时判定未完成。翻译直接由当前会话模型完成，不接第三方翻译 API。技能内置铁律：不绕过 DRM、付费墙、验证码与安全提示页，不打印或窥探 cookie 值。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/pengchujin/jzsub",
+    "subdir": "skills/jzsub"
+  },
+  "sec_note_en": "Needs Python 3.10+, yt-dlp, FFmpeg/ffprobe with libass, the MiSans font, and (for YouTube) a JS runtime such as Deno. For login-gated quality it hands your local Chrome profile to yt-dlp via --cookies-from-browser—cookies stay inside yt-dlp and are never written out, but this does read your browser's logged-in session. Downloading video is subject to each platform's terms and to copyright; the skill only handles content you can already access and refuses DRM/paywall/CAPTCHA bypass. The final MP4 is re-encoded (no HDR preservation promise).",
+  "sec_note_zh": "需要 Python 3.10+、yt-dlp、带 libass 的 FFmpeg/ffprobe、MiSans 字体，YouTube 还需 Deno 等 JS 运行时。遇到需登录才有的画质时，会通过 --cookies-from-browser 把本地 Chrome 配置交给 yt-dlp——cookie 只留在 yt-dlp 内、不落盘不打印，但这确实读取了你浏览器的登录态。视频下载受各平台条款与版权约束；本技能只处理你已有访问权的内容，且明确拒绝绕过 DRM/付费墙/验证码。最终 MP4 会重新编码（不保证保留 HDR）。"
+}

@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 229,
-    "generated_at": "2026-07-09T07:05:06.519Z",
-    "content_hash": "sha256:abd0d7833865d1a7855907aad6f1292f3678b4c34ad47132b196ee81c96b2374"
+    "entry_count": 233,
+    "generated_at": "2026-07-12T10:20:30.886Z",
+    "content_hash": "sha256:f78f95132e0ca0f37f48e16e43a14031474875fb7117f2fa4a0ea4346786a28d"
   },
   "entries": [
     {
@@ -3899,6 +3899,123 @@
       "via": "github:BayramAnnakov"
     },
     {
+      "id": "aleph-hub:pengchujin/jzsub",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "JZSub",
+      "description": "Give it one video URL and it delivers the max-quality file, the cover, and a bilingual hard-subbed MP4—yt-dlp picks the best video+audio, source captions are translated by the session model itself, then rendered as a source-over-Chinese stack and burned in with FFmpeg.",
+      "repo_url": "https://github.com/pengchujin/jzsub",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/pengchujin/jzsub",
+        "subdir": "skills/jzsub",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "pengchujin",
+      "tags": [
+        "video",
+        "subtitles",
+        "yt-dlp",
+        "ffmpeg",
+        "bilingual"
+      ],
+      "via": "github:pengchujin"
+    },
+    {
+      "id": "aleph-hub:caylent/tufte-data-viz",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Tufte Data Viz",
+      "description": "Create, review, or style charts, graphs, dashboards, and sparklines enforcing Tufte principles—data-ink ratio, direct labeling, range-frame axes—plus modern screen-first standards (accessibility, responsive, dark mode), across Recharts, ECharts, Chart.js, matplotlib, Plotly, seaborn, D3.js, and SVG.",
+      "repo_url": "https://github.com/caylent/tufte-data-viz",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/caylent/tufte-data-viz",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "caylent",
+      "tags": [
+        "data-viz",
+        "charts",
+        "tufte",
+        "dashboards"
+      ],
+      "via": "github:caylent"
+    },
+    {
+      "id": "aleph-hub:yfe404/web-scraper",
+      "kind": "skill",
+      "category": "automation",
+      "name": "Web Scraper",
+      "description": "Scrape and extract data from websites with intelligent strategy selection—discovers hidden APIs via traffic interception, then picks among API, sitemap, DOM, or hybrid scraping and implements iteratively, up to production Apify Actors in TypeScript.",
+      "repo_url": "https://github.com/yfe404/web-scraper",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/yfe404/web-scraper",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "yfe404",
+      "tags": [
+        "web-scraping",
+        "data-extraction",
+        "apify",
+        "crawling"
+      ],
+      "via": "github:yfe404"
+    },
+    {
+      "id": "aleph-hub:Hasasasa/html-to-editable-pptx",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "HTML to PPTX",
+      "description": "Convert HTML slide decks into editable .pptx files—keeping text as editable vectors, embedding fonts on demand, and falling back to screenshots for complex decorations—without depending on any specific deck framework like reveal.js.",
+      "repo_url": "https://github.com/Hasasasa/html-to-editable-pptx",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Hasasasa/html-to-editable-pptx",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Hasasasa",
+      "tags": [
+        "pptx",
+        "html",
+        "slides",
+        "conversion"
+      ],
+      "via": "github:Hasasasa"
+    },
+    {
+      "id": "aleph-hub:Zuojuzhang/claude-skill-business-analyst",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Business Analyst",
+      "description": "A business data analyst for decision-makers: takes Excel/CSV/text data and produces a professional analysis report with actionable insights, key metrics, and visualizations—aimed at better decisions, not prettier tables.",
+      "repo_url": "https://github.com/Zuojuzhang/claude-skill-business-analyst",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/Zuojuzhang/claude-skill-business-analyst",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "Zuojuzhang",
+      "tags": [
+        "data-analysis",
+        "insights",
+        "excel",
+        "reporting"
+      ],
+      "via": "github:Zuojuzhang"
+    },
+    {
       "id": "aleph-hub:Bhanunamikaze/Agentic-SEO-Skill",
       "kind": "skill",
       "category": "productivity",
@@ -4260,29 +4377,6 @@
       "via": "github:irenerachel"
     },
     {
-      "id": "aleph-hub:kimlawtech/korean-privacy-terms",
-      "kind": "skill",
-      "category": "writing",
-      "name": "Privacy & Terms Generator",
-      "description": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
-      "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "kimlawtech",
-      "tags": [
-        "privacy-policy",
-        "legal",
-        "gdpr",
-        "compliance"
-      ],
-      "via": "github:kimlawtech"
-    },
-    {
       "id": "aleph-hub:dpconde/claude-android-skill",
       "kind": "skill",
       "category": "developer",
@@ -4304,6 +4398,29 @@
         "architecture"
       ],
       "via": "github:dpconde"
+    },
+    {
+      "id": "aleph-hub:kimlawtech/korean-privacy-terms",
+      "kind": "skill",
+      "category": "writing",
+      "name": "Privacy & Terms Generator",
+      "description": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
+      "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "kimlawtech",
+      "tags": [
+        "privacy-policy",
+        "legal",
+        "gdpr",
+        "compliance"
+      ],
+      "via": "github:kimlawtech"
     },
     {
       "id": "aleph-hub:JamesShi96/project-butler",
@@ -4465,29 +4582,6 @@
       "via": "github:Hao0321"
     },
     {
-      "id": "aleph-hub:axiaoge2/Apple-Hig-Designer",
-      "kind": "skill",
-      "category": "design",
-      "name": "Apple HIG Designer",
-      "description": "Design Apple-style iOS and macOS interfaces that follow the Human Interface Guidelines—SF Symbols, San Francisco typography, and proper accessibility.",
-      "repo_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "axiaoge2",
-      "tags": [
-        "apple",
-        "ios",
-        "macos",
-        "hig"
-      ],
-      "via": "github:axiaoge2"
-    },
-    {
       "id": "aleph-hub:handsomeZR-netizen/mathmodel-skill",
       "kind": "skill",
       "category": "knowledge",
@@ -4509,6 +4603,29 @@
         "writing"
       ],
       "via": "github:handsomeZR-netizen"
+    },
+    {
+      "id": "aleph-hub:axiaoge2/Apple-Hig-Designer",
+      "kind": "skill",
+      "category": "design",
+      "name": "Apple HIG Designer",
+      "description": "Design Apple-style iOS and macOS interfaces that follow the Human Interface Guidelines—SF Symbols, San Francisco typography, and proper accessibility.",
+      "repo_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "axiaoge2",
+      "tags": [
+        "apple",
+        "ios",
+        "macos",
+        "hig"
+      ],
+      "via": "github:axiaoge2"
     },
     {
       "id": "aleph-hub:uxKero/anydesign",
@@ -5109,29 +5226,6 @@
       "via": "github:patrickstigler"
     },
     {
-      "id": "aleph-hub:dudaster/html2elementor",
-      "kind": "skill",
-      "category": "utilities",
-      "name": "HTML to Elementor",
-      "description": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
-      "repo_url": "https://github.com/dudaster/html2elementor",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/dudaster/html2elementor",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "dudaster",
-      "tags": [
-        "elementor",
-        "wordpress",
-        "html",
-        "conversion"
-      ],
-      "via": "github:dudaster"
-    },
-    {
       "id": "aleph-hub:muxuuu/serenity-skill",
       "kind": "skill",
       "category": "finance",
@@ -5161,7 +5255,7 @@
       "name": "DeepPaperNote",
       "description": "Deep-read a single paper—given a title, DOI, URL, arXiv ID, Zotero item, or local PDF—and generate a high-quality, well-structured Markdown reading note with evidence-based analysis and figure placeholders, saved into an Obsidian-style vault.",
       "repo_url": "https://github.com/917Dhj/DeepPaperNote",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/917Dhj/DeepPaperNote",
@@ -5268,29 +5362,6 @@
         "copywriting"
       ],
       "via": "github:CosmoBlk"
-    },
-    {
-      "id": "aleph-hub:caylent/tufte-data-viz",
-      "kind": "skill",
-      "category": "developer",
-      "name": "Tufte Data Viz",
-      "description": "Create, review, or style charts, graphs, dashboards, and sparklines enforcing Tufte principles—data-ink ratio, direct labeling, range-frame axes—plus modern screen-first standards (accessibility, responsive, dark mode), across Recharts, ECharts, Chart.js, matplotlib, Plotly, seaborn, D3.js, and SVG.",
-      "repo_url": "https://github.com/caylent/tufte-data-viz",
-      "trust_tier": "community",
-      "install_spec": {
-        "type": "git_dir",
-        "git_url": "https://github.com/caylent/tufte-data-viz",
-        "git_ref": "main"
-      },
-      "requires_config": false,
-      "author": "caylent",
-      "tags": [
-        "data-viz",
-        "charts",
-        "tufte",
-        "dashboards"
-      ],
-      "via": "github:caylent"
     },
     {
       "id": "aleph-hub:mohi-devhub/antivibe",
@@ -5521,6 +5592,29 @@
         "conversion"
       ],
       "via": "github:xntj-ai"
+    },
+    {
+      "id": "aleph-hub:dudaster/html2elementor",
+      "kind": "skill",
+      "category": "utilities",
+      "name": "HTML to Elementor",
+      "description": "Convert HTML+CSS (pasted, file, URL, or AI-generated) into Elementor JSON that imports cleanly into WordPress, correctly handling Elementor's non-obvious quirks—shared system-color globals, lazy-load backgrounds, row-container widths, and CSS cache flushing.",
+      "repo_url": "https://github.com/dudaster/html2elementor",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/dudaster/html2elementor",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "dudaster",
+      "tags": [
+        "elementor",
+        "wordpress",
+        "html",
+        "conversion"
+      ],
+      "via": "github:dudaster"
     },
     {
       "id": "aleph-hub:LewisLiu007/full-page-screenshot",

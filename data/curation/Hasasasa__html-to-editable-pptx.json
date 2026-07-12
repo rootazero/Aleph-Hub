@@ -1,5 +1,5 @@
 {
-  "full_name": "Hasasasa/claude-skill-html-to-pptx",
+  "full_name": "Hasasasa/html-to-editable-pptx",
   "name": "HTML to PPTX",
   "kind": "skill",
   "category": "utilities",
@@ -15,7 +15,7 @@
   "long_zh": "把浏览器渲染的幻灯片桥接到 PowerPoint,让你能把可编辑的 .pptx 副本交给同事,而不是一个网页。",
   "install_spec": {
     "type": "git_dir",
-    "git_url": "https://github.com/Hasasasa/claude-skill-html-to-pptx"
+    "git_url": "https://github.com/Hasasasa/html-to-editable-pptx"
   },
   "sec_note_en": "Reads your local HTML deck and writes a .pptx locally; no network access required.",
   "sec_note_zh": "读取你本地的 HTML deck 并在本地写出 .pptx;无需联网。"
