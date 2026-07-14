@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 233,
-    "generated_at": "2026-07-12T10:43:09.804Z",
-    "content_hash": "sha256:d238c0b03d66d17530a5553a545fdc23429a27c8c0b0be20901a2cc08fd9b7bf"
+    "generated_at": "2026-07-14T05:49:04.435Z",
+    "content_hash": "sha256:0dcd9773d765cedc5a74f841779e1b808c1fb53c40d7dcd50f6290fb45afb92a"
   },
   "entries": [
     {
@@ -4503,7 +4503,7 @@
       "name": "Vibe Check",
       "description": "A product-management skill that guides a beginner from a raw idea to a validated, buildable plan.",
       "repo_url": "https://github.com/TexasBedouin/vibe-check",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/TexasBedouin/vibe-check",
