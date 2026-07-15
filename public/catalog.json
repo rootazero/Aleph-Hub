@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 233,
-    "generated_at": "2026-07-14T05:49:04.435Z",
-    "content_hash": "sha256:0dcd9773d765cedc5a74f841779e1b808c1fb53c40d7dcd50f6290fb45afb92a"
+    "generated_at": "2026-07-15T05:53:55.432Z",
+    "content_hash": "sha256:8e502bdd9148382b557fa928ad934a2c648d8c58156a0d4c21511fdc7ef7cca1"
   },
   "entries": [
     {
@@ -3905,7 +3905,7 @@
       "name": "JZSub",
       "description": "Give it one video URL and it delivers the max-quality file, the cover, and a bilingual hard-subbed MP4—yt-dlp picks the best video+audio, source captions are translated by the session model itself, then rendered as a source-over-Chinese stack and burned in with FFmpeg.",
       "repo_url": "https://github.com/pengchujin/jzsub",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/pengchujin/jzsub",
