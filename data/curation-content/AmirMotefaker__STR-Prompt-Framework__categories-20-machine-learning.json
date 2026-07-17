@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-20-machine-learning",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-20-machine-learning",
+  "source_path": "categories/20-machine-learning.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "ML Pipeline & Hyperparameter Tuning (Scikit-Learn)",
+  "tags": ["machine-learning", "scikit-learn", "python", "role-task-rules"],
+  "format": "markdown",
+  "body": "# یادگیری ماشین\n\n## 🎯 الگوی پرامپت: آموزش و بهینه‌سازی هایپرپارامترهای مدل با Scikit-Learn\n\n```text\n[نقش]\nشما یک مهندس ارشد یادگیری ماشین (Machine Learning Engineer) با تخصص در مهندسی ویژگی‌ها و بهینه‌سازی مدل‌های نظارت‌شده هستید.\n\n[وظیفه]\nیک پایپ‌لاین کامل یادگیری ماشین با استفاده از Scikit-Learn بنویسید که یک مدل دسته‌بندی را روی داده‌ها آموزش داده، هایپرپارامترها را با GridSearchCV تنظیم کرده و ارزیابی کند.\n\n[قوانین]\n۱. در بخش ارزیابی مدل، حتماً معیارهای Precision، Recall و F1-Score را به همراه ماتریس درهم‌ریختگی چاپ کنید.\n۲. بخش‌های کد را به وضوح تفکیک کنید و کامنت‌های توضیحی را به زبان فارسی بنویسید.\n\nMachine Learning\n🎯 Prompt Template: ML Pipeline & Hyperparameter Tuning (Scikit-Learn)\n[STAGE]\nYou are a Senior Machine Learning Engineer specializing in building enterprise MLOps, training pipelines, and evaluation metrics.\n\n[TASK]\nWrite a production-ready Scikit-Learn pipeline to preprocess data, perform hyperparameter tuning using GridSearchCV, and evaluate a classifier.\n\n[RULES]\n1. Output comprehensive evaluation criteria using multi-class metrics including F1-score, Precision-Recall curves, and Confusion Matrices.\n2. Ensure the code block is clean and explanations are delivered in structured English text.\n```\n",
+  "description_en": "Role/task/rules prompt template that has an LLM write a full Scikit-Learn classification pipeline with GridSearchCV tuning and Precision/Recall/F1 evaluation.",
+  "description_zh": "「角色/任务/规则」结构的提示词模板，让模型编写完整的 Scikit-Learn 分类流水线，包含 GridSearchCV 调参与 Precision/Recall/F1 评估。",
+  "long_en": "Bundles a Persian and an English version of the same template: cast the model as a senior ML engineer, ask for a Scikit-Learn pipeline with GridSearchCV hyperparameter tuning, and require printing Precision, Recall, F1-score, and a confusion matrix. Copy-paste ready, no placeholders to fill beyond the dataset itself.",
+  "long_zh": "同一模板收录了波斯语与英语两个版本：将模型设定为高级机器学习工程师，要求产出带 GridSearchCV 调参的 Scikit-Learn 流水线，并强制打印 Precision、Recall、F1 分数与混淆矩阵。开箱即用，除数据集本身外无需额外填空。",
+  "sec_note_en": "Plain text prompt; no tool access, credentials, or external calls. The generated code is meant to run in the user's own Python environment — review before executing.",
+  "sec_note_zh": "纯文本提示词，不涉及工具调用、凭据或外部请求；生成的代码需在用户自己的 Python 环境中运行——执行前请自行审阅。"
+}

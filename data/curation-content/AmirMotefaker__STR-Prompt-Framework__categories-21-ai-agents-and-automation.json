@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-21-ai-agents-and-automation",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-21-ai-agents-and-automation",
+  "source_path": "categories/21-ai-agents-and-automation.md",
+  "kind": "prompt",
+  "category": "automation",
+  "name": "Autonomous AI Agent System Prompt Designer",
+  "tags": ["ai-agents", "system-prompt", "tool-calling", "role-task-rules"],
+  "format": "markdown",
+  "body": "# ایجنت‌ها و خودکارسازی\n\n## 🎯 الگوی پرامپت: طراحی پرامپت سیستمی برای ایجنت‌های هوشمند ابزارمحور\n\n```text\n[نقش]\nشما یک معمار سیستم‌های خودمختار هوش مصنوعی، ایجنت‌های هوشمند و متخصص در طراحی پرامپت‌های سیستمی (System Prompts) هستید.\n\n[وظیفه]\nیک پرامپت سیستمی بسیار دقیق و محدودکننده برای یک ایجنت هوشمند بنویسید که وظیفه تصمیم‌گیری و فراخوانی ابزارها (Tool Calling) را بر عهده دارد.\n\n[قوانین]\n۱. ساختار پرامپت باید از ورود ایجنت به لوپ‌های تکراری یا توهم (Hallucination) جلوگیری کند.\n۲. فرمت خروجی‌های نهایی ایجنت را حتماً و بدون استثنا به یک ساختار JSON معتبر و از پیش تعریف‌شده محدود کنید.\n۳. تمام راهنماها و خود متن پرامپت سیستمی طراحی‌شده در خروجی به زبان فارسی باشد.\n\nAI Agents & Automation\n🎯 Prompt Template: Autonomous AI Agent System Prompt Design\n[STAGE]\nYou are a Lead AI Architect expert in autonomous LLM agent systems, function calling protocols, and LangChain orchestration.\n\n[TASK]\nDesign a robust, strict System Prompt for an AI Agent acting as an autonomous router for tool invocation based on user queries.\n\n[RULES]\n1. Prevent infinite execution loops with structural guardrails and enforce strict validation boundaries.\n2. Force all final thought outputs to align perfectly with a valid, clean JSON schema.\n3. The prompt template and output must be delivered strictly in English.\n```\n",
+  "description_en": "A meta-prompt that has an LLM design a strict system prompt for a tool-calling AI agent, with guardrails against loops/hallucination and a fixed JSON output schema.",
+  "description_zh": "一个「元提示词」：让模型为一个具备工具调用能力的 AI Agent 设计严格的系统提示词，附带防循环/防幻觉的护栏与固定 JSON 输出格式。",
+  "long_en": "Bundles a Persian and an English version of the same template: cast the model as a lead AI architect and ask it to produce a strict system prompt for an autonomous tool-calling agent, requiring structural guardrails against repetition loops and hallucination, and constraining the agent's final output to a predefined JSON schema.",
+  "long_zh": "同一模板收录了波斯语与英语两个版本：将模型设定为首席 AI 架构师，要求其产出一份严格的系统提示词，供自主工具调用型 Agent 使用，需包含防止重复循环与幻觉的结构化护栏，并将 Agent 的最终输出限制为预定义的 JSON 格式。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls. It is a prompt about designing another agent's system prompt — review any generated system prompt before deploying it to a real agent.",
+  "sec_note_zh": "纯文本提示词，不涉及工具调用或外部请求；其产出内容是「另一个 Agent 的系统提示词」——部署到真实 Agent 前请自行审阅生成结果。"
+}

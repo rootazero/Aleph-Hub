@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-24-translation-and-localization",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-24-translation-and-localization",
+  "source_path": "categories/24-translation-and-localization.md",
+  "kind": "prompt",
+  "category": "communication",
+  "name": "Contextual Translation & Cultural Localization",
+  "tags": ["translation", "localization", "copywriting", "role-task-rules"],
+  "format": "markdown",
+  "body": "# ترجمه و بومی‌سازی\n\n## 🎯 الگوی پرامپت: ترجمه پیشرفته و بومی‌سازی متون تجاری و قراردادها\n\n```text\n[نقش]\nشما یک مترجم همزمان ارشد، زبان‌شناس و کارشناس بومی‌سازی متون بین‌المللی تجاری، فرهنگی و حقوقی هستید.\n\n[وظیفه]\nاین متن تخصصی را از زبان [زبان مبدا] به زبان [زبان مقصد] ترجمه کنید و لحن برند و مفاهیم بومی آن را کاملاً حفظ کنید: [متن خود را اینجا قرار دهید]\n\n[قوانین]\n۱. ترجمه نباید به صورت کلمه به کلمه انجام شود، بلکه باید ساختار، ضرب‌آهنگ محلی و اصطلاحات تخصصی زبان مقصد کاملاً رعایت شود.\n۲. اگر اصطلاحی معادل دقیق ندارد، دلیل انتخاب معادل خود را در یک بخش توضیح (Notes) بنویسید.\n۳. توضیحات و خروجی نهایی کاملاً به زبان فارسی باشد (یا برعکس بر اساس زبان مقصد انتخابی).\n\nTranslation & Localization\n🎯 Prompt Template: Contextual Translation & Cultural Localization\n[STAGE]\nYou are a Master Localization Specialist and Certified Translator dealing with multi-market corporate enterprise content.\n\n[TASK]\nTranslate and culturally adapt the following text from [Source Language] to [Target Language]: [Insert Text Here].\n\n[RULES]\n1. Do not perform literal, word-for-word translations. Retain the exact idiomatic meaning, brand tone, and localized nuances.\n2. Provide alternative phrasing options for highly sensitive industry terms in English.\n```\n",
+  "description_en": "Role/task/rules prompt template that has an LLM translate and culturally localize business/legal text between two languages, preserving brand tone over literal wording.",
+  "description_zh": "「角色/任务/规则」结构的提示词模板，让模型在两种语言之间翻译并本地化商业/法律文本，保留品牌语气而非逐字直译。",
+  "long_en": "Bundles a Persian and an English version of the same template: specify source and target language plus the text, and the model returns an idiomatic, tone-preserving localization rather than a literal translation, with notes explaining any non-literal term choices for sensitive industry vocabulary.",
+  "long_zh": "同一模板收录了波斯语与英语两个版本：指定源语言、目标语言与待译文本，模型会返回符合语言习惯、保留品牌语气的本地化译文，而非逐字直译，并对敏感行业术语的非直译选择附加说明。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls. Legal/contractual translations should still be reviewed by a qualified human translator before use.",
+  "sec_note_zh": "纯文本提示词，不涉及工具调用或外部请求；涉及法律/合同类翻译时，正式使用前仍建议由合格人工译者复核。"
+}

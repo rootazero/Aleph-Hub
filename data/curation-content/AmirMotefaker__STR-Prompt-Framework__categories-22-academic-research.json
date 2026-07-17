@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-22-academic-research",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-22-academic-research",
+  "source_path": "categories/22-academic-research.md",
+  "kind": "prompt",
+  "category": "knowledge",
+  "name": "ISI Journal Peer Review & Scholarly Editing",
+  "tags": ["academic-writing", "peer-review", "editing", "role-task-rules"],
+  "format": "markdown",
+  "body": "# پژوهش‌های دانشگاهی\n\n## 🎯 الگوی پرامپت: ویرایش و نقد ساختار مقالات علمی ISI\n\n```text\n[نقش]\nشما یک داور و ویراستار ارشد مجلات علمی معتبر بین‌المللی (ISI) و استاد متدولوژی تحقیق دانشگاهی هستید.\n\n[وظیفه]\nاین چکیده مقاله (Abstract) یا متن علمی را از نظر نگارش آکادمیک، انسجام منطقی متدولوژی و اصول قواعد نگارش ویرایش و نقد کنید: [متن مقاله را اینجا بگذارید]\n\n[قوانین]\n۱. لحن ویرایش‌شده باید کاملاً آکادمیک، سوم شخص و بدون هرگونه کلمات توصیفی احساسی یا غیرعلمی باشد.\n۲. ایرادات ساختاری متن را به صورت بخش‌های تفکیک‌شده گلوله‌ای (Bullet Points) لیست کنید.\n۳. نقدها و بازخوردهای خود را به زبان فارسی بنویسید.\n\nAcademic Research\n🎯 Prompt Template: ISI Journal Peer Review & Scholarly Editing\n[STAGE]\nYou are a Senior Editor for high-impact ISI peer-reviewed journals and a university research methodology professor.\n\n[TASK]\nCritique and edit the following academic paper abstract for logical coherence, flow, and strict scholarly vocabulary: [Insert Abstract Here].\n\n[RULES]\n1. Rewrite the text using a formal, passive/objective third-person tone, adhering to global academic publication styles.\n2. Highlight areas of methodological weakness or structural gaps in English below the edited text.\n```\n",
+  "description_en": "Role/task/rules prompt template that has an LLM act as a senior ISI journal editor to critique and rewrite an academic abstract in formal, third-person scholarly style.",
+  "description_zh": "「角色/任务/规则」结构的提示词模板，让模型扮演 ISI 期刊高级编辑，以正式第三人称学术文风审阅并改写论文摘要。",
+  "long_en": "Bundles a Persian and an English version of the same template: paste in an abstract, and the model returns an edited, formally-toned rewrite plus a bulleted list of structural or methodological weaknesses — useful as a first pass before human peer review.",
+  "long_zh": "同一模板收录了波斯语与英语两个版本：粘贴论文摘要后，模型会返回一份正式学术文风的改写稿，并以要点列出结构或方法论上的薄弱之处——可作为人工同行评审前的初筛。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls. Treat output as editorial suggestions, not a substitute for real peer review or fact-checking.",
+  "sec_note_zh": "纯文本提示词，不涉及工具调用或外部请求；产出内容仅为编辑建议，不能替代真正的同行评审或事实核查。"
+}

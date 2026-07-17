@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-23-education-and-teaching",
+  "full_name": "AmirMotefaker/STR-Prompt-Framework",
+  "slug": "categories-23-education-and-teaching",
+  "source_path": "categories/23-education-and-teaching.md",
+  "kind": "prompt",
+  "category": "knowledge",
+  "name": "Interactive Lesson Plan Generator",
+  "tags": ["education", "lesson-plan", "curriculum", "role-task-rules"],
+  "format": "markdown",
+  "body": "# آموزش و تدریس\n\n## 🎯 الگوی پرامپت: طراحی طرح درس تعاملی و فعال برای مدارس\n\n```text\n[نقش]\nشما یک متخصص تکنولوژی‌های نوین آموزشی، مشاور تحصیلی و طراح برنامه درسی مدارس هوشمند و خلاق هستید.\n\n[وظیفه]\nیک طرح درس (Lesson Plan) یک‌ساعته، جذاب و تعاملی برای تدریس مفهوم [نام مفهوم، مثلاً کسرها در ریاضیات] به دانش‌آموزان سنین [مثلاً ۱۰ الی ۱۲ سال] بنویسید.\n\n[قوانین]\n۱. طرح درس باید شامل بخش‌های: مقدمه و طوفان فکری (۱۰ دقیقه)، تدریس اصلی (۲۰ دقیقه)، فعالیت گروهی تعاملی (۲۰ دقیقه) و ارزشیابی پایانی (۱۰ دقیقه) باشد.\n۲. فعالیت‌ها به گونه‌ای باشند که دانش‌آموزان را کاملاً درگیر کنند.\n۳. متن خروجی تماماً به زبان فارسی و با ارقام فارسی باشد.\n\nEducation & Teaching\n🎯 Prompt Template: Interactive Lesson Plan & Curriculum Blueprint\n[STAGE]\nYou are an Educational Technology Specialist and an advanced curriculum designer for international school learning systems.\n\n[TASK]\nCreate an interactive 1-hour lesson plan designed to explain the concept of [Insert Concept Here] to a class of students aged [Insert Age].\n\n[RULES]\n1. Include student engagement activities, formative Q&A segments, and a strict time breakdown table.\n2. Focus on active learning methods rather than passive lecturing. The output must be in English.\n```\n",
+  "description_en": "Role/task/rules prompt template that has an LLM design a timed, activity-based 1-hour lesson plan for a given concept and student age group.",
+  "description_zh": "「角色/任务/规则」结构的提示词模板，让模型针对指定概念与学生年龄段，设计带时间分段、以活动为主的一小时教案。",
+  "long_en": "Bundles a Persian and an English version of the same template: fill in a concept and an age range, and the model returns a lesson plan broken into intro/brainstorm, main teaching, interactive group activity, and final assessment segments with time allotments — biased toward active learning over lecturing.",
+  "long_zh": "同一模板收录了波斯语与英语两个版本：填入概念与年龄段后，模型会返回一份分为「导入/头脑风暴、主体教学、互动小组活动、终结性评估」四段并附时间分配的教案，强调主动学习而非单向讲授。",
+  "sec_note_en": "Plain text prompt; no tool access or external calls. Review generated activities for age-appropriateness and curriculum alignment before classroom use.",
+  "sec_note_zh": "纯文本提示词，不涉及工具调用或外部请求；用于课堂前，请自行核实生成活动是否适龄、是否符合课程标准。"
+}

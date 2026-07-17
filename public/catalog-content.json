@@ -3,9 +3,9 @@
     "content_schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 146,
-    "generated_at": "2026-07-11T09:07:20.480Z",
-    "content_hash": "sha256:eb823d7dab42d2d4769686f3419a04bf91a52e56794ac3530ed60203933da9c7"
+    "entry_count": 151,
+    "generated_at": "2026-07-17T09:09:27.680Z",
+    "content_hash": "sha256:7222236393fe13697eb86e0b3f51d0ccbc2db355c5f05e8313b4b17dba342e0b"
   },
   "entries": [
     {
@@ -825,6 +825,106 @@
       "trust_tier": "community",
       "via": "github:AmirMotefaker",
       "body": "# تحلیل داده و هوش تجاری\n\n## 🎯 الگوی پرامپت: خط لوله پاکسازی دادهها با پایتون و پانداز\n\n```text\n[نقش]\nشما یک دانشمند داده (Data Scientist) ارشد و متخصص در فرآیندهای مهندسی داده، پاکسازی و آمادهسازی دیتاستهای بزرگ هستید.\n\n[وظیفه]\nیک اسکریپت پایتون (Python) با استفاده از کتابخانه Pandas برای پاکسازی دادهها، مدیریت مقادیر گمشده (Missing Values) و تغییر فرمت دادهها در دیتاست [توضیح کوتاه درباره ستونهای دیتاست] بنویسید.\n\n[قوانین]\n۱. از روشهای استاندارد علمی و آماری برای جایگزینی یا حذف دادههای گمشده استفاده کنید.\n۲. کد کاملاً بهینه، خوانا و با رعایت اصول PEP 8 باشد.\n۳. توضیحات کد به صورت کامنتهای فارسی در سراسر فایل پایتون قرار بگیرد.\n```\n\nData Analysis & BI\n🎯 Prompt Template: Data Cleaning & Preprocessing Pipeline (Python & Pandas)\n[STAGE]\nYou are a Principal Data Analyst and Business Intelligence Architect expert in predictive modeling and ETL processing.\n\n[TASK]\nWrite a clean Python Pandas pipeline script to clean, reshape, and handle missing values for a dataset containing [Insert Data Type].\n\n[RULES]\n1. Apply strict statistical methods for data imputation and detect outliers using IQR or Z-score frameworks.\n2. The code must follow PEP 8 standards and include professional inline documentation in English.\n",
+      "format": "markdown"
+    },
+    {
+      "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-20-machine-learning",
+      "kind": "prompt",
+      "category": "developer",
+      "name": "ML Pipeline & Hyperparameter Tuning (Scikit-Learn)",
+      "description": "Role/task/rules prompt template that has an LLM write a full Scikit-Learn classification pipeline with GridSearchCV tuning and Precision/Recall/F1 evaluation.",
+      "author": "AmirMotefaker",
+      "tags": [
+        "machine-learning",
+        "scikit-learn",
+        "python",
+        "role-task-rules"
+      ],
+      "repo_url": "https://github.com/AmirMotefaker/STR-Prompt-Framework",
+      "source_path": "categories/20-machine-learning.md",
+      "trust_tier": "community",
+      "via": "github:AmirMotefaker",
+      "body": "# یادگیری ماشین\n\n## 🎯 الگوی پرامپت: آموزش و بهینهسازی هایپرپارامترهای مدل با Scikit-Learn\n\n```text\n[نقش]\nشما یک مهندس ارشد یادگیری ماشین (Machine Learning Engineer) با تخصص در مهندسی ویژگیها و بهینهسازی مدلهای نظارتشده هستید.\n\n[وظیفه]\nیک پایپلاین کامل یادگیری ماشین با استفاده از Scikit-Learn بنویسید که یک مدل دستهبندی را روی دادهها آموزش داده، هایپرپارامترها را با GridSearchCV تنظیم کرده و ارزیابی کند.\n\n[قوانین]\n۱. در بخش ارزیابی مدل، حتماً معیارهای Precision، Recall و F1-Score را به همراه ماتریس درهمریختگی چاپ کنید.\n۲. بخشهای کد را به وضوح تفکیک کنید و کامنتهای توضیحی را به زبان فارسی بنویسید.\n\nMachine Learning\n🎯 Prompt Template: ML Pipeline & Hyperparameter Tuning (Scikit-Learn)\n[STAGE]\nYou are a Senior Machine Learning Engineer specializing in building enterprise MLOps, training pipelines, and evaluation metrics.\n\n[TASK]\nWrite a production-ready Scikit-Learn pipeline to preprocess data, perform hyperparameter tuning using GridSearchCV, and evaluate a classifier.\n\n[RULES]\n1. Output comprehensive evaluation criteria using multi-class metrics including F1-score, Precision-Recall curves, and Confusion Matrices.\n2. Ensure the code block is clean and explanations are delivered in structured English text.\n```\n",
+      "format": "markdown"
+    },
+    {
+      "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-21-ai-agents-and-automation",
+      "kind": "prompt",
+      "category": "automation",
+      "name": "Autonomous AI Agent System Prompt Designer",
+      "description": "A meta-prompt that has an LLM design a strict system prompt for a tool-calling AI agent, with guardrails against loops/hallucination and a fixed JSON output schema.",
+      "author": "AmirMotefaker",
+      "tags": [
+        "ai-agents",
+        "system-prompt",
+        "tool-calling",
+        "role-task-rules"
+      ],
+      "repo_url": "https://github.com/AmirMotefaker/STR-Prompt-Framework",
+      "source_path": "categories/21-ai-agents-and-automation.md",
+      "trust_tier": "community",
+      "via": "github:AmirMotefaker",
+      "body": "# ایجنتها و خودکارسازی\n\n## 🎯 الگوی پرامپت: طراحی پرامپت سیستمی برای ایجنتهای هوشمند ابزارمحور\n\n```text\n[نقش]\nشما یک معمار سیستمهای خودمختار هوش مصنوعی، ایجنتهای هوشمند و متخصص در طراحی پرامپتهای سیستمی (System Prompts) هستید.\n\n[وظیفه]\nیک پرامپت سیستمی بسیار دقیق و محدودکننده برای یک ایجنت هوشمند بنویسید که وظیفه تصمیمگیری و فراخوانی ابزارها (Tool Calling) را بر عهده دارد.\n\n[قوانین]\n۱. ساختار پرامپت باید از ورود ایجنت به لوپهای تکراری یا توهم (Hallucination) جلوگیری کند.\n۲. فرمت خروجیهای نهایی ایجنت را حتماً و بدون استثنا به یک ساختار JSON معتبر و از پیش تعریفشده محدود کنید.\n۳. تمام راهنماها و خود متن پرامپت سیستمی طراحیشده در خروجی به زبان فارسی باشد.\n\nAI Agents & Automation\n🎯 Prompt Template: Autonomous AI Agent System Prompt Design\n[STAGE]\nYou are a Lead AI Architect expert in autonomous LLM agent systems, function calling protocols, and LangChain orchestration.\n\n[TASK]\nDesign a robust, strict System Prompt for an AI Agent acting as an autonomous router for tool invocation based on user queries.\n\n[RULES]\n1. Prevent infinite execution loops with structural guardrails and enforce strict validation boundaries.\n2. Force all final thought outputs to align perfectly with a valid, clean JSON schema.\n3. The prompt template and output must be delivered strictly in English.\n```\n",
+      "format": "markdown"
+    },
+    {
+      "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-22-academic-research",
+      "kind": "prompt",
+      "category": "knowledge",
+      "name": "ISI Journal Peer Review & Scholarly Editing",
+      "description": "Role/task/rules prompt template that has an LLM act as a senior ISI journal editor to critique and rewrite an academic abstract in formal, third-person scholarly style.",
+      "author": "AmirMotefaker",
+      "tags": [
+        "academic-writing",
+        "peer-review",
+        "editing",
+        "role-task-rules"
+      ],
+      "repo_url": "https://github.com/AmirMotefaker/STR-Prompt-Framework",
+      "source_path": "categories/22-academic-research.md",
+      "trust_tier": "community",
+      "via": "github:AmirMotefaker",
+      "body": "# پژوهشهای دانشگاهی\n\n## 🎯 الگوی پرامپت: ویرایش و نقد ساختار مقالات علمی ISI\n\n```text\n[نقش]\nشما یک داور و ویراستار ارشد مجلات علمی معتبر بینالمللی (ISI) و استاد متدولوژی تحقیق دانشگاهی هستید.\n\n[وظیفه]\nاین چکیده مقاله (Abstract) یا متن علمی را از نظر نگارش آکادمیک، انسجام منطقی متدولوژی و اصول قواعد نگارش ویرایش و نقد کنید: [متن مقاله را اینجا بگذارید]\n\n[قوانین]\n۱. لحن ویرایششده باید کاملاً آکادمیک، سوم شخص و بدون هرگونه کلمات توصیفی احساسی یا غیرعلمی باشد.\n۲. ایرادات ساختاری متن را به صورت بخشهای تفکیکشده گلولهای (Bullet Points) لیست کنید.\n۳. نقدها و بازخوردهای خود را به زبان فارسی بنویسید.\n\nAcademic Research\n🎯 Prompt Template: ISI Journal Peer Review & Scholarly Editing\n[STAGE]\nYou are a Senior Editor for high-impact ISI peer-reviewed journals and a university research methodology professor.\n\n[TASK]\nCritique and edit the following academic paper abstract for logical coherence, flow, and strict scholarly vocabulary: [Insert Abstract Here].\n\n[RULES]\n1. Rewrite the text using a formal, passive/objective third-person tone, adhering to global academic publication styles.\n2. Highlight areas of methodological weakness or structural gaps in English below the edited text.\n```\n",
+      "format": "markdown"
+    },
+    {
+      "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-23-education-and-teaching",
+      "kind": "prompt",
+      "category": "knowledge",
+      "name": "Interactive Lesson Plan Generator",
+      "description": "Role/task/rules prompt template that has an LLM design a timed, activity-based 1-hour lesson plan for a given concept and student age group.",
+      "author": "AmirMotefaker",
+      "tags": [
+        "education",
+        "lesson-plan",
+        "curriculum",
+        "role-task-rules"
+      ],
+      "repo_url": "https://github.com/AmirMotefaker/STR-Prompt-Framework",
+      "source_path": "categories/23-education-and-teaching.md",
+      "trust_tier": "community",
+      "via": "github:AmirMotefaker",
+      "body": "# آموزش و تدریس\n\n## 🎯 الگوی پرامپت: طراحی طرح درس تعاملی و فعال برای مدارس\n\n```text\n[نقش]\nشما یک متخصص تکنولوژیهای نوین آموزشی، مشاور تحصیلی و طراح برنامه درسی مدارس هوشمند و خلاق هستید.\n\n[وظیفه]\nیک طرح درس (Lesson Plan) یکساعته، جذاب و تعاملی برای تدریس مفهوم [نام مفهوم، مثلاً کسرها در ریاضیات] به دانشآموزان سنین [مثلاً ۱۰ الی ۱۲ سال] بنویسید.\n\n[قوانین]\n۱. طرح درس باید شامل بخشهای: مقدمه و طوفان فکری (۱۰ دقیقه)، تدریس اصلی (۲۰ دقیقه)، فعالیت گروهی تعاملی (۲۰ دقیقه) و ارزشیابی پایانی (۱۰ دقیقه) باشد.\n۲. فعالیتها به گونهای باشند که دانشآموزان را کاملاً درگیر کنند.\n۳. متن خروجی تماماً به زبان فارسی و با ارقام فارسی باشد.\n\nEducation & Teaching\n🎯 Prompt Template: Interactive Lesson Plan & Curriculum Blueprint\n[STAGE]\nYou are an Educational Technology Specialist and an advanced curriculum designer for international school learning systems.\n\n[TASK]\nCreate an interactive 1-hour lesson plan designed to explain the concept of [Insert Concept Here] to a class of students aged [Insert Age].\n\n[RULES]\n1. Include student engagement activities, formative Q&A segments, and a strict time breakdown table.\n2. Focus on active learning methods rather than passive lecturing. The output must be in English.\n```\n",
+      "format": "markdown"
+    },
+    {
+      "id": "aleph-hub:AmirMotefaker/STR-Prompt-Framework#categories-24-translation-and-localization",
+      "kind": "prompt",
+      "category": "communication",
+      "name": "Contextual Translation & Cultural Localization",
+      "description": "Role/task/rules prompt template that has an LLM translate and culturally localize business/legal text between two languages, preserving brand tone over literal wording.",
+      "author": "AmirMotefaker",
+      "tags": [
+        "translation",
+        "localization",
+        "copywriting",
+        "role-task-rules"
+      ],
+      "repo_url": "https://github.com/AmirMotefaker/STR-Prompt-Framework",
+      "source_path": "categories/24-translation-and-localization.md",
+      "trust_tier": "community",
+      "via": "github:AmirMotefaker",
+      "body": "# ترجمه و بومیسازی\n\n## 🎯 الگوی پرامپت: ترجمه پیشرفته و بومیسازی متون تجاری و قراردادها\n\n```text\n[نقش]\nشما یک مترجم همزمان ارشد، زبانشناس و کارشناس بومیسازی متون بینالمللی تجاری، فرهنگی و حقوقی هستید.\n\n[وظیفه]\nاین متن تخصصی را از زبان [زبان مبدا] به زبان [زبان مقصد] ترجمه کنید و لحن برند و مفاهیم بومی آن را کاملاً حفظ کنید: [متن خود را اینجا قرار دهید]\n\n[قوانین]\n۱. ترجمه نباید به صورت کلمه به کلمه انجام شود، بلکه باید ساختار، ضربآهنگ محلی و اصطلاحات تخصصی زبان مقصد کاملاً رعایت شود.\n۲. اگر اصطلاحی معادل دقیق ندارد، دلیل انتخاب معادل خود را در یک بخش توضیح (Notes) بنویسید.\n۳. توضیحات و خروجی نهایی کاملاً به زبان فارسی باشد (یا برعکس بر اساس زبان مقصد انتخابی).\n\nTranslation & Localization\n🎯 Prompt Template: Contextual Translation & Cultural Localization\n[STAGE]\nYou are a Master Localization Specialist and Certified Translator dealing with multi-market corporate enterprise content.\n\n[TASK]\nTranslate and culturally adapt the following text from [Source Language] to [Target Language]: [Insert Text Here].\n\n[RULES]\n1. Do not perform literal, word-for-word translations. Retain the exact idiomatic meaning, brand tone, and localized nuances.\n2. Provide alternative phrasing options for highly sensitive industry terms in English.\n```\n",
       "format": "markdown"
     },
     {
