@@ -1,0 +1,24 @@
+{
+  "full_name": "emilkowalski/skills",
+  "name": "Apple Design",
+  "kind": "skill",
+  "slug": "apple-design",
+  "category": "design",
+  "tags": [
+    "apple",
+    "animation",
+    "spring-animation",
+    "gestures",
+    "ui-design"
+  ],
+  "description_en": "Apple's approach to fluid, physical interface motion translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials, typography, and reduced-motion.",
+  "description_zh": "把苹果「流体、拟物」的界面动效理念迁移到 Web。适用于构建或审查手势驱动 UI、弹簧动画、拖拽/滑动/半屏交互、动量与可打断转场、半透明材质、排版与减弱动效。",
+  "long_en": "Distills Apple's fluid-interface principles — chiefly the WWDC 2018 talk \"Designing Fluid Interfaces\" — and translates them onto the web platform (CSS, Pointer Events, requestAnimationFrame, spring libraries like Motion/Framer Motion). The through-line: an interface feels alive when motion starts from the current on-screen value, inherits the user's velocity, projects momentum forward, and can be grabbed and reversed at any instant. Covers killing response latency (feedback on pointer-down), 1:1 direct manipulation with velocity/position history and setPointerCapture, interruptible velocity-aware springs, translucent materials and depth, typography (optical sizing, tracking, leading), and reduced-motion. Guidance and knowledge for building or reviewing Apple-style UI; the skill itself runs no code.",
+  "long_zh": "提炼苹果的流体界面原则（核心为 WWDC 2018《Designing Fluid Interfaces》），迁移到 Web 平台（CSS、Pointer Events、requestAnimationFrame，以及 Motion/Framer Motion 等弹簧库）。主线：当动效从当前屏上数值出发、继承用户速度、向前投射动量、并可随时被抓住反向，界面才「有生命」。内容涵盖消除响应延迟（在 pointer-down 时给反馈）、带速度/位置历史与 setPointerCapture 的 1:1 直接操控、可打断且感知速度的弹簧、半透明材质与景深、排版（光学字号、字距、行距）以及减弱动效。属指导/知识型，用于构建或审查苹果风 UI，技能本身不执行代码。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/apple-design"
+  },
+  "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Guidance only: it references client-side animation libraries (Motion/Framer Motion) as implementation options but has no runtime dependencies of its own, and performs no code execution, network access, or credential use.",
+  "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。纯指导型：文中把 Motion/Framer Motion 等客户端动画库作为实现选项提及，但技能自身无运行时依赖，也不执行代码、不访问网络、不使用凭据。"
+}

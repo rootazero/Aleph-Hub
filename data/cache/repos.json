@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"690ed16e365321dd5ef37217002803d862a22b61fed69a49a9843ea344149e48\"",
+    "etag": "W/\"2ea5524414c3fb248f1e23832c76d2e8a50707512d54344381bf0cae107a0b5f\"",
     "readme_hash": "6d598c12744e70258ce26f0174a31f000512098aea7962947d676ca0f70c379f",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"eca49c3024576c94c7306ecac8a0bdca3151f51621eb72c48d45929e34a7abe0\"",
+    "etag": "W/\"0da89091e0239ebad77d77e1e7e89bca3868db216f1b3cdff86a7c7cb5d1ae12\"",
     "readme_hash": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "W/\"8f60f412075dd7254c7423f29238570d177482dd02b2c7d1d752212c4a01ec77\"",
+    "etag": "W/\"50dd305002b425c8ba4b47ad9e674e7645de03cbae6e442b81b798714f621237\"",
     "readme_hash": "0e256eb8021310801626f0db621b72f38d6411227f72f8c325abcba6416705c8",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"0fb9a52f09818aba55dbea95165ac15f6e8f6560047b193acfa78f4fb66d47fd\"",
+    "etag": "W/\"fe9206e9f0f9cfdee745f05edbbae07c2f604cdd197fc53a70225d0c4058265d\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"f875ae8d64b659057eb203d757f385793503defb8bcaacafb3ddb8909743b669\"",
+    "etag": "W/\"58b02a9225d899ad7e04d5b23c77b1b8638db0774d0b3331f8db6b20cb72cc5b\"",
     "readme_hash": "d15bbc144338964f151a2520ac8691d4356cc470eb6d3148c69ceab61e0cd434",
     "entries": [
       {
@@ -203,7 +203,7 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"18b65e06b1c61029622e26190414fdb9a8ecf9109ad9cdc13d09b2e84c9e265a\"",
+    "etag": "W/\"e826d28c2cb8897c5e6444687df227f28c87f1190da1bfdf47398b2b060d73af\"",
     "readme_hash": "86d47e495fca6e6034bc490d34770c527078af87bb14f469b8b24940c366420b",
     "entries": [
       {
@@ -238,8 +238,8 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"587fd6f1bc901b3bec1a0b7da7200538ca58efa1e8e633dff20e34ec2a8f7cde\"",
-    "readme_hash": "8f6f96e4b990a846cea25e971179eac9082f72bbd8a07b3214584e89ec13e306",
+    "etag": "W/\"00007e026cf30f259a29b0f7852e088c558d209cef142ff2f93b791b5b48497a\"",
+    "readme_hash": "62454b369d477a4257ee39aa28b407e281b3641f5facef2cc9f4f5a01e6cc50e",
     "entries": [
       {
         "id": "aleph-hub:tt-a1i/archify",
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"d59eab13fecfe4f26c148fd3f369341478a97b997448aef8b2f6f0f0d7aaab1a\"",
+    "etag": "W/\"86cec09edf9e9e4511e142f675e8f81f866146b7ab2211bee227f7053c73a4d2\"",
     "readme_hash": "a526ab2482a02bdfbc2920782640a810ef9dace5a19516a88d5d5a18eef6549a",
     "entries": [
       {
@@ -308,7 +308,7 @@
     ]
   },
   "dominikmartn/hue": {
-    "etag": "W/\"f27878e4da0e4e4091b2f56900cf827ae79a0e486f61978cd40bd3577f6ce9cc\"",
+    "etag": "W/\"de76608e9bc326e3b6cd7ca8eb29b415d887377a71bf57f7929017267c033cfc\"",
     "readme_hash": "f739a93614d7836da1b87fc3b30d1be6f94a8a45f7ada2632acb8505c5831ce8",
     "entries": [
       {
@@ -343,7 +343,7 @@
     ]
   },
   "Bhanunamikaze/Agentic-SEO-Skill": {
-    "etag": "W/\"55af3f434bc0054802b00e108ad0ee6b026c3eeec94969b1292b78fae70a3988\"",
+    "etag": "W/\"347233126ac2896e54a0a21d793d41d1eb4caf5fc403a402e604ad18d5adeaab\"",
     "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
     "entries": [
       {
@@ -378,8 +378,8 @@
     ]
   },
   "TexasBedouin/vibe-check": {
-    "etag": "W/\"3863c4f4a08cf3b1080397d99bbe70ac3236b693ef257dd5c2e79e3a5fb234f0\"",
-    "readme_hash": "0af7987e9ca22bd38096b67568162c6ee3498e71ef629e82a975eae769b01a6f",
+    "etag": "W/\"25dce722b96edd281f1aa8df96ed1e61afca26e96644442e5452ce93b46a831c\"",
+    "readme_hash": "f2934ef6e75e6e0d491b3254c6ff2b553dfe3454b53ce6bc357fbb274324c9cf",
     "entries": [
       {
         "id": "aleph-hub:TexasBedouin/vibe-check",
@@ -413,7 +413,7 @@
     ]
   },
   "ckelsoe/prompt-architect": {
-    "etag": "\"eea4ac6fad24249151c627d51c4a6eb69016fae6ed4b82f0b40650a5f5ea6dd0\"",
+    "etag": "W/\"04778e8738b065dde345e03ab447260d123f10d0171949feda9c87d0576f5937\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entries": [
       {
@@ -448,7 +448,7 @@
     ]
   },
   "JamesShi96/project-butler": {
-    "etag": "W/\"5da962718b8fc456c6d56e69332ba48d4efd04a0ba75571592cb431a466cadf5\"",
+    "etag": "W/\"eb41a4a3ba2efc13685b7fcfc6c1d0ce6016e8a27a6dfec8669fe0cfdd885ba9\"",
     "readme_hash": "27159f8e9c5a8b607eee0fe499c1f409123f3a7df54fd40a2a9ff47e5ed690af",
     "entries": [
       {
@@ -483,7 +483,7 @@
     ]
   },
   "coffeefuelbump/csv-data-summarizer-claude-skill": {
-    "etag": "W/\"4d7ab7d5938f5e1c5e44caa76c4e40fc72480f23998e23ef7e27f04cce5d4a76\"",
+    "etag": "W/\"6e2558b630c8346ff687e8ce8a49252c88a87fa4f544cc19d6a4932fce3ea158\"",
     "readme_hash": "8e030cda3fa0af5165beeffd9db7b5d5f6166f93f37b53384bd52c9db1b392be",
     "entries": [
       {
@@ -519,7 +519,7 @@
     ]
   },
   "KaguraNanaga/document-format-skills": {
-    "etag": "\"32d60da91bc862436d1d47cdd33e9c6f4d0cd173ee4504a39846f56976bac8fa\"",
+    "etag": "W/\"6504fd439d5be2677e661758c801d932d57104e4fd8377a514ffb5b7045ea6d8\"",
     "readme_hash": "8885fa7d2a079a27ab6c6ac3caf53aa186f0b36e50aef81f18711ad8fb53ccf5",
     "entries": [
       {
@@ -555,7 +555,7 @@
     ]
   },
   "karanb192/algo-sensei": {
-    "etag": "W/\"53b4d279cbfba905ab8bc3b941215c1bd54b83f43c99f49a13c166a96e787a88\"",
+    "etag": "W/\"b31236a391f766b80575b7d88dec35928c979c2d016aeffdcb5678f67db1dcd3\"",
     "readme_hash": "e102d6031dd5a513a587ee39f8f6f32cb5428390081df771ba59abe1f7f044eb",
     "entries": [
       {
@@ -591,7 +591,7 @@
     ]
   },
   "jtrackingai/analytics-tracking-automation": {
-    "etag": "\"8f76809d6c7dca70906a0eea054b9ce93f6d0b8be7d8b3bdcb65d2d0b01ee966\"",
+    "etag": "W/\"0d84706292f7fc6d0bbc40d8a7c038add167b89e8ba25faf27f0e66eb8c03fcd\"",
     "readme_hash": "334020f9739c7b931532af9d472e8e7f64050d175a4fc483fa20fa5fef1ef1f7",
     "entries": [
       {
@@ -628,7 +628,7 @@
     ]
   },
   "apiotrowski-afk/commercial-legal-pl": {
-    "etag": "\"636223a7eb46229dc79cb3a0d501724b96b59eaf700b9d9d2193677fef190e7d\"",
+    "etag": "W/\"59428b948ae2d94ad8fcb006454590251dc133e9e57ce51409156aa415383a5a\"",
     "readme_hash": "1b17dad7e17b7b09caa5462516d940332b3ce00112a564df82ba9ccddb2e42a9",
     "entries": [
       {
@@ -664,7 +664,7 @@
     ]
   },
   "wrsmith108/linear-claude-skill": {
-    "etag": "\"f9d4a0a879403e90540e63e0df826d18e5d67c61b47957d9911d74d4b74741d7\"",
+    "etag": "W/\"c59900b208c268ef2b463c1a2de8688cccea2cf6a389eb463c93e710faf0a584\"",
     "readme_hash": "da6dff4e8ac7fc6b015896c5ab395348ea1dd16334bed6c21f5b014b7ae4f308",
     "entries": [
       {
@@ -699,7 +699,7 @@
     ]
   },
   "yfe404/web-scraper": {
-    "etag": "\"6ea84ed617893cd347adf38806a0691bd2c737abe0a83c71c3efb236f4685045\"",
+    "etag": "W/\"f11add2c432625bc41c9ecc4712ea71bf9854ee30a737c7aee2fa1812f83e33c\"",
     "readme_hash": "1a80a54e2d1cf3b3a830d5320b42feec49a237b474a93582b19aaafdc997c4e4",
     "entries": [
       {
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "W/\"0c801710cecbaf171cb1d3eb0e935b9e6358a0b379a97fd16d43b5958cbdd6b4\"",
+    "etag": "W/\"612d8badc15cdf16d1be240376b6dfcfbcaed506ea9893e4351f0a558e39e229\"",
     "readme_hash": "3126c0436e423d7b4ace01a1475d54a6453663dcce7887896024d2461f6127ae",
     "entries": [
       {
@@ -805,7 +805,7 @@
     }
   },
   "dpconde/claude-android-skill": {
-    "etag": "W/\"acc7432281fa5e70770bfb00c9598d36b6ce728994d29857cdef0b361b038d3c\"",
+    "etag": "W/\"c760bef756d71d1c16d9f9e640056cb95930524b8f44f91110365731e0306273\"",
     "readme_hash": "026826447e4b068f7b2b5c2a4bb6f093af7496e8d8c7588c766216de37a56773",
     "entries": [
       {
@@ -841,7 +841,7 @@
     ]
   },
   "kimlawtech/korean-privacy-terms": {
-    "etag": "W/\"64c49f0240e7b064f9806ea8ed0fa6d945a410cf5e039d815b60030686236974\"",
+    "etag": "W/\"e70f0a3ea21a63b4b4b2ddf8b2afdabd5ec2b89f05b1446854cba08cccceea5e\"",
     "readme_hash": "7b9db096c53f977b4e2ec6f82610e34180a0a44e1e9292e45458094daafabade",
     "entries": [
       {
@@ -877,7 +877,7 @@
     ]
   },
   "irenerachel/visual-style-ppt-skill": {
-    "etag": "W/\"87079593c2bc14cd84c2edb1fb2f6aa65920da392fffca7df1e2be2dbafa2ed5\"",
+    "etag": "W/\"5ba3fa86133be3532afa5e90bd0f13def975bc46d2688a62276bc90b0baa3e41\"",
     "readme_hash": "6a69ee0e2b2b26a85d9633d9ca967916412ae1cfab7a74cccfd3e052c054ead6",
     "entries": [
       {
@@ -913,7 +913,7 @@
     ]
   },
   "likaku/Mck-ppt-design-skill": {
-    "etag": "W/\"263d20a90a2cd604222d22e9d53b543b4da0f49cb0fb26a0c1d616f772832da5\"",
+    "etag": "W/\"cb428920be773c7f26dbf79dafeb00bd321d56f98ab928f05e5daf7ceff3431d\"",
     "readme_hash": "f2058627f43aaccb54f96391e27f5f0a7847e04f770f3598ca316829ad754692",
     "entries": [
       {
@@ -949,7 +949,7 @@
     ]
   },
   "PleasePrompto/google-ai-mode-skill": {
-    "etag": "\"9dd1e944ffe59ca5d9faffb50ae46e87c5eafc571b8aac365c7c823db62f807f\"",
+    "etag": "W/\"65a4237a92d4b84f5393dac33d1fd9a585a87be5dffdf09478262bf20d77d778\"",
     "readme_hash": "3830e22a24b474154edc7779abb28e1701f01a7147e06e0d9d8b874a3d07522a",
     "entries": [
       {
@@ -985,7 +985,7 @@
     ]
   },
   "moshuying/pitchcraft": {
-    "etag": "\"5736ab6df9896e15c4cf1ab0c0a21d5ac9d5a5e4ff56eaebc86685f54fe880b7\"",
+    "etag": "W/\"2c142f3e0d2048e521d1d88bc1d9be9f2ab942d477f7a1f41124f5a2dfd30789\"",
     "readme_hash": "ffe7077a05f69f8587d4d55491bbe61c9578ea96ebab2b040f1f8902d7f37cbd",
     "entries": [
       {
@@ -1021,7 +1021,7 @@
     ]
   },
   "Hao0321/ai-media-generator": {
-    "etag": "\"7a20375323c135d044e867fd224bc265fbc1be4ddb443f0393e8f08a088dfbc9\"",
+    "etag": "W/\"7398e2ddaaa156a3739175c094e68249422d1daafdec9d0b17a8f0b76ee07352\"",
     "readme_hash": "b1897a089d051bcbbd5903c4f82dd57d2d10beb75bdf72af249533b8f79edfda",
     "entries": [
       {
@@ -1057,7 +1057,7 @@
     ]
   },
   "axiaoge2/Apple-Hig-Designer": {
-    "etag": "\"27440bc9dba9e38de78c2d03c8ee282d8c8bf8e1aa5f0df21e46023ef4492654\"",
+    "etag": "W/\"9125e2edc5c7c5e266bd951f9ed6c3ad6337ebe4c435f1c512dba206a3112994\"",
     "readme_hash": "53e5e838a49681125a280d19d64f8a24e25e0cbec1eb1bdaa81262e0d4fd3d5a",
     "entries": [
       {
@@ -1093,7 +1093,7 @@
     ]
   },
   "uxKero/anydesign": {
-    "etag": "\"5f440f03010ebc807b411c9cfebad19682b9d6747dcb581cc80151b7ae0ade05\"",
+    "etag": "W/\"8c7cfb765affe5e2ca3d04b3c021a2f718a9ee58384040551cf543d978ac638a\"",
     "readme_hash": "b75f51ae14fc64363306931b1f298b239376d206c7dd7b8c612eb65118bc0156",
     "entries": [
       {
@@ -1129,7 +1129,7 @@
     ]
   },
   "handsomeZR-netizen/mathmodel-skill": {
-    "etag": "W/\"3846a9578117429721b7b561a3b96aab784c061208fc56bf69d20fd629c59725\"",
+    "etag": "W/\"4052e0fa0951c44a5c3e8832b9142d6adfb345bd6d925d856d1cf7840242acd0\"",
     "readme_hash": "0dca5317246f4ae111a0c27ccb7a1ff62923e3889d11f1090d0f1ed090044686",
     "entries": [
       {
@@ -1165,7 +1165,7 @@
     ]
   },
   "agentenatalie/get-job.skill": {
-    "etag": "W/\"de31bc71adadd86b5628e57e040d083d7ef4b1200d92e6c67fdbde95de27317e\"",
+    "etag": "W/\"0dded7ed3d0200838b99cf0f21a6b8453a2178f4c6bd53fa66a39ef97d907816\"",
     "readme_hash": "2ec1dd145694eb8be11a0de0e3ff503e260448eda6033a172bc203db51dadbcc",
     "entries": [
       {
@@ -1201,7 +1201,7 @@
     ]
   },
   "zy-zmc/tianming-skill": {
-    "etag": "\"ab6ed74cad739e3dcfddd5cdd7fae4107bed664a2fa0ce16d55ca77403f4ef82\"",
+    "etag": "W/\"53d3dc3ccb83cd017f95d797bb5008c4e030c0a154ba474ea366eb22f98428fe\"",
     "readme_hash": "b6502b8e71d5499ccfae97ebc597847c414d7566e39a0ee7799d060a31e67868",
     "entries": [
       {
@@ -1237,7 +1237,7 @@
     ]
   },
   "dososo/blcaptain-style-skill": {
-    "etag": "W/\"ce5c9fb2b72e45850c1f13f49e080e5b3368f50e9415dfc206af911e9b6eb38f\"",
+    "etag": "W/\"04ecc66cd24dd4763b228f66a8ec92aa03ec9d18a8894dc0a587a4a21a94a4c4\"",
     "readme_hash": "dfa459b2052326d4ee8466a82ed87796b927a4085247fc9d76b1eb4942b50503",
     "entries": [
       {
@@ -1273,7 +1273,7 @@
     ]
   },
   "iamzifei/wechat-article-formatter-skill": {
-    "etag": "\"3844c4bb80d5b8071aee617463bf00264c6d1624062521f7ed9aaa573ab4138c\"",
+    "etag": "W/\"6db5bbcaf5e00712a638e970985e340ca670d9139213bec577ad255eb7e817fc\"",
     "readme_hash": "fb90ea498b8f4588e4d471e83182b2982f0078217243b9e3b0428f7278530f66",
     "entries": [
       {
@@ -1309,7 +1309,7 @@
     ]
   },
   "swaylq/master-skill": {
-    "etag": "W/\"09136706bc2210dae1fd9f9b57ccdba7b90f0d37a5f9315d6ab0c1d75bf806fa\"",
+    "etag": "W/\"b11102b108af58868d00ab28a0f6f4482245731d0dbe830b0701a0c312ea023b\"",
     "readme_hash": "564c5d7199914f056d1d4ac4f04eb36179b937b437bcf637b44b4c6251eeb02e",
     "entries": [
       {
@@ -1345,7 +1345,7 @@
     ]
   },
   "Jaderson-bit/mindmap-markmap-viewer": {
-    "etag": "\"b77e370615afe6494fd39d026047823d124e472ff7b8b4ab927c2af415720836\"",
+    "etag": "W/\"037f91051abef74df6bb82d89b7a517d3bf91adde5abd80dd633df5556c70fc2\"",
     "readme_hash": "7a5ff04a833d1011ac4116a30e7d49a715453994a6b8d2c8673ba9c070b75d52",
     "entries": [
       {
@@ -1381,7 +1381,7 @@
     ]
   },
   "Ashutos1997/claude-design-auditor-skill": {
-    "etag": "W/\"7eabe9857f3ec30b37f8aa3f4d47f482756ebea4e28f130c9f5c4aa9d27fde27\"",
+    "etag": "W/\"a7f3be78e5f5c4710b54f4086fcc0b53b15214477ffe37f330c544217bcb9dce\"",
     "readme_hash": "d22138da1ab4a96ad6ce8c7d1388c53d4ff1a1ad4cb133deb6804b525697979a",
     "entries": [
       {
@@ -1417,7 +1417,7 @@
     ]
   },
   "SDLLL/claude-for-safari": {
-    "etag": "\"0294c8a5c0ad103fd965342eb02a63c6fb146be254fac51eff1adf8b8f04b1e5\"",
+    "etag": "W/\"c53d5e15016e9909ef5c5eafe8b21d165fd0b3037d210384104f5a09f4dcf6e0\"",
     "readme_hash": "6e6558d1e7f351b9a247cefc8540403199529795de4c83421a62691fe608441d",
     "entries": [
       {
@@ -1453,7 +1453,7 @@
     ]
   },
   "VincentOld/stop-slop-zh": {
-    "etag": "\"6faef48cecc45eeb4a1cab9580dd016dd928b80bb31c4f905530b11a0e0222dd\"",
+    "etag": "W/\"e1de8a7cdcdfd8fb2eec1bfdcb71b70a90d1a979c146783bb7681789894303cc\"",
     "readme_hash": "120c80843c824553971d3ab046e9f0a5e35daf2e5f71935073c4e8cff24b5727",
     "entries": [
       {
@@ -1489,7 +1489,7 @@
     ]
   },
   "cjpatten/canadian-finance-planner-skill": {
-    "etag": "W/\"fda43f23e11f2c907b844de5d73e8e23f5b6d00b5edcc8bd9c3024f545c1118a\"",
+    "etag": "W/\"14f3574a4a9e7800518016b3d0a49658b0df70bf41c3267d9f7c8b2a309fcf33\"",
     "readme_hash": "f11194e81d470e49655531cf2b1365fcd388c68f55874dde921d48e410153cb3",
     "entries": [
       {
@@ -1525,7 +1525,7 @@
     ]
   },
   "Farenhytee/database-sentinel": {
-    "etag": "\"fcfe8429b78533a38cffc539e42934ac8634ffa2a3f33d5f7bdd2fa789004d13\"",
+    "etag": "W/\"9c80a0caaed5c0f231745619303d3dd99fff2dd47cc2b2a314992fc2246af938\"",
     "readme_hash": "a838ee78150bfe7e48b1716a6b3d5bc0f09646b42e07f562ea8fb99f185c6099",
     "entries": [
       {
@@ -1561,7 +1561,7 @@
     ]
   },
   "Adityapal67/context-graph-compressor": {
-    "etag": "\"cfb35f2c08de15d6f7f07167a4576cfac527c9c665f69ff934158de20568c42f\"",
+    "etag": "W/\"86d8c70e8dada25bf392dbcef4e692a6b77bbca570fe14ad62b3467dcb04bdbf\"",
     "readme_hash": "c20b1f334839e662e3b9c7c6c823bc26fd4eb53a9ddf69157902205703d5be6a",
     "entries": [
       {
@@ -1597,7 +1597,7 @@
     ]
   },
   "brettdavies/crawl4ai-skill": {
-    "etag": "\"861cf19e50bc14a9c993363278eb350246aa8a4b851f7d7b390c48d4741cbe17\"",
+    "etag": "W/\"387d2e85815ae3c44298890a9cf5a90e7676d173b083b1c4f4500a3ff0c7f57b\"",
     "readme_hash": "e9e0d45aaaa7019c0c9da8c9752809ea97513ddf67af32fbe4ce90ea0230b59d",
     "entries": [
       {
@@ -1633,7 +1633,7 @@
     ]
   },
   "echoVic/spec-flow": {
-    "etag": "W/\"059448165bc00b4766ed53c665c122ad9c3f37654dd5e13e07e67fc97eac3bf3\"",
+    "etag": "W/\"09f3cb4e6294021c9b75b418db469355025421e1281cdaf000e9f08e1a0bd6d2\"",
     "readme_hash": "85a9e93a9a6fc47c85659e02aaad3848824a4166660281b661b7b760a6ac65fe",
     "entries": [
       {
@@ -1669,7 +1669,7 @@
     ]
   },
   "kgraph57/paper-writer-skill": {
-    "etag": "W/\"539edc0710223ae36be8da62a7c9df2cb469afaf4f1ed4d1ddff1ee2252cdeb3\"",
+    "etag": "W/\"a14196447bd73cdb69188b6d525b585cc7bb3970cc28fb69d4a2685026575639\"",
     "readme_hash": "329d630faf2e19d304fd4bfd3033dbd3c79152ce684c28f3c755824a1d9d483c",
     "entries": [
       {
@@ -1705,7 +1705,7 @@
     ]
   },
   "googlarz/finance-assistant": {
-    "etag": "\"87193ae7bce311ff4a469fa492a36ef6e5dc0e625d4f7d08661de1d93fdd3531\"",
+    "etag": "W/\"8e7d7eea0b3f1ebdd6f94eab4ac809149e060dda810aa77715d8b65678ff77b6\"",
     "readme_hash": "dd9be88c041deae5008898e412181afcecadba6e3f1fe0e12ec5d54e1d69c53e",
     "entries": [
       {
@@ -1741,7 +1741,7 @@
     ]
   },
   "likemaoke/wechat-article-to-md": {
-    "etag": "W/\"b3c18e916696ab4c1b9b81526ee76a56a2a7697e1fb77601c979aa53e7b16579\"",
+    "etag": "W/\"e912d2922fc2c10e99778607ab31f6d18169afb2114d681d59cf116584da81c3\"",
     "readme_hash": "61673781980b3b9094a313338e0fe3a95078eafcd82acaf49c5f471a9c41a738",
     "entries": [
       {
@@ -1777,7 +1777,7 @@
     ]
   },
   "jianshuo/jianshuo-wechat-mp-publish": {
-    "etag": "\"d1929fb6fa0fd53c86098baf7ce218e6c61a5cf5ed6b60758317f9b8a4f586d9\"",
+    "etag": "W/\"c6c95b261de03fdeadb092713d59308ea2aad172434f6312322e385c08f6112f\"",
     "readme_hash": "1348b6aad9e3a693cfcf6e2c64d0a1a023fa0410fca56836a82d7688b57a208b",
     "entries": [
       {
@@ -1813,7 +1813,7 @@
     ]
   },
   "ktaletsk/learn-codebase": {
-    "etag": "W/\"e3ad3f86804f33be92e0ad6145940ec7c42d0d8b633a990baf423f8f4bb2122d\"",
+    "etag": "W/\"d5439b8370cc2c8ae8a1ec81768eff34e03a3b8229b3a967648e1897f6630f66\"",
     "readme_hash": "ece91cc06f54381729e12b5a0ddac2e8a0542758ee990399c123ddd7be3ed754",
     "entries": [
       {
@@ -1849,7 +1849,7 @@
     ]
   },
   "elderengineer/tax-organizer": {
-    "etag": "\"ff0a63ad175e3dac3d2c433df9e6e79b0b765007ad2ba6f623bfa881cccf2d84\"",
+    "etag": "W/\"59eea16372865812fa399558e26d3865ea97e1980bc8d84010f3e89ce0485fac\"",
     "readme_hash": "c1c5b88ab0ddb77c3a9f1e741b00eb4b368613cb0726dc64f8591a0176da8be6",
     "entries": [
       {
@@ -1885,7 +1885,7 @@
     ]
   },
   "mathiaschu/watch": {
-    "etag": "W/\"e205a3fff52b58e3b656a5256cdddb3ef8967d23337f7c3b77d2e4fc559daa21\"",
+    "etag": "W/\"cc8b65c26a969c3590eee77081129944c74d867a1ab143e3827582c461862833\"",
     "readme_hash": "853551c79901ea6f38468020b4ca617efe7bb7480021719ab84f68421fecdbe0",
     "entries": [
       {
@@ -1921,7 +1921,7 @@
     ]
   },
   "Danielbluz/skill-irpf-brasil": {
-    "etag": "\"27e338f77e6bc7b8530740625d4fa77ccd315fddabc8c653a82516b06dd1e0b0\"",
+    "etag": "W/\"24024b4d2760ef7530c792eec284c59d33ad4239f5495f4e2edb68962d8e8cb2\"",
     "readme_hash": "533340adfd32144e2c5494970b28ae9b7d7e08fd67d6dbbd4777589a2994e637",
     "entries": [
       {
@@ -1957,7 +1957,7 @@
     ]
   },
   "Bhanunamikaze/AI-Dataset-Generator": {
-    "etag": "\"eaef3b57029b634ea93e51577f5de96a9de0e0fc6a13ba8430ca1f7d37823b95\"",
+    "etag": "W/\"dfecbcf3c50fe2cded0c3a7bb118a567bd7ca333b64c0c5efd855a33e423425c\"",
     "readme_hash": "20d2e688bc71e63555f022cfbe130d32cab911c6f08a51e7b5db86a9883afcbd",
     "entries": [
       {
@@ -1993,7 +1993,7 @@
     ]
   },
   "dancolta/seo-drift-monitor": {
-    "etag": "\"219b203b50808ba0c74e8c991ff686c7593347c4296c62bf434d2746e8cef272\"",
+    "etag": "W/\"e97e7525f37c714a41eb5ef01647d9829ceb9b6046cbce8e47de3c1cb7d7d141\"",
     "readme_hash": "17afe0c0dc44e9cf9013677968a80dc09cc3e157ce1efea14c712a5c9c6df3ec",
     "entries": [
       {
@@ -2101,7 +2101,7 @@
     ]
   },
   "dudaster/html2elementor": {
-    "etag": "\"d98762bd91542366c9122fdde14a7d917c38a38c3ece237381076455c923c85a\"",
+    "etag": "W/\"508f584b03ea2ef535329a2bdaec5eb3eadb66a5813aaa645fb0bacaa2fdda13\"",
     "readme_hash": "2ad92101bc729d879ea6d21a919eda0f61a46400e3fbe80e05331ed93df6c31c",
     "entries": [
       {
@@ -2137,7 +2137,7 @@
     ]
   },
   "BayramAnnakov/excel-hygiene": {
-    "etag": "\"64eafd8c8ed2aba5d87c2de2c5025d8489ac60fb0238ae85c5bf8c6bf80a7560\"",
+    "etag": "W/\"269efd3e2f6752ce6d9bb30d662afa0c06423b7d989c41104bb1f73d325427e6\"",
     "readme_hash": "045927357a9d34539edb2eba0771de5520aa11bec35b41113552bda9ebd73fcd",
     "entries": [
       {
@@ -2173,7 +2173,7 @@
     ]
   },
   "Mobiss11/Whisper-Skill": {
-    "etag": "\"e63e896ce39ca4987dd8565895e8543244d6ecbd1cbce091d63b8eea83b8c579\"",
+    "etag": "W/\"0536f0ed7172916c1a74450b09cb10cbcf7de01e156a395b70c1b26351e7da90\"",
     "readme_hash": "15eb7e3fb4b2c192055ede3f0ccbe1a30e03428cf23d0a40f496334365891b93",
     "entries": [
       {
@@ -2209,7 +2209,7 @@
     ]
   },
   "patrickstigler/claude-skill-it-recht-dsgvo": {
-    "etag": "\"1d254e5b2e19555993dbc25369bc66af2a69bd5d375548160d143744c5c506b0\"",
+    "etag": "W/\"fc164416fec79547220001c7df7646877f7af08a972284fb9de3d9c73a8c62d2\"",
     "readme_hash": "470879a20ceffa30f180d63de9ab3c9813ab5f72c5cb4100ee4d6bc5a84dc9bc",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"b0b64856a1c8e6dc3d44060ed9af843b873a23a4284a442e8705730709e1a2b3\"",
+    "etag": "W/\"90f719b9de20418bccb5bd2e74649051a58ddbe7c264de7ed98ba462374d438b\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2281,8 +2281,8 @@
     ]
   },
   "917Dhj/DeepPaperNote": {
-    "etag": "W/\"3c86af121321d9552a64f515d500d0dc35341f30f0eeec2229fd2c4162de8568\"",
-    "readme_hash": "7f2b63bba8b80df0f050ee6252c1d8a6f2852379608e21954506e5c7b2f9ccba",
+    "etag": "W/\"4ad920c551ec1ebc9f8d75ea9257d0dc426b5bedf593bd0f339268ba1dc03ecc\"",
+    "readme_hash": "29ba61d1e4eff76eb4a1a21c07aeaa4cf7070062c4d49a06841a7cd77c4f7547",
     "entries": [
       {
         "id": "aleph-hub:917Dhj/DeepPaperNote",
@@ -2317,7 +2317,7 @@
     ]
   },
   "gitroomhq/postiz-agent": {
-    "etag": "W/\"ccde01d259b6603ebaeb09e6223bd870d1f6c64c5fcdf25b597450ed1f60322d\"",
+    "etag": "W/\"4ff842519ab13a6f16506769cb19ac056c313223ece240eeac4ab32acca99b44\"",
     "readme_hash": "4cd8866741dcd6aa68f3a226b596a16719ca2f1ab0ca4f8223cc3023a7837e13",
     "entries": [
       {
@@ -2353,7 +2353,7 @@
     ]
   },
   "quailyquaily/aqua": {
-    "etag": "\"70477bc9224ca0a4881a266e1aa77c8e82b85945d288494e28988816f5727124\"",
+    "etag": "W/\"6349fc8217637195a440f7ab86bb019197537aaa1b24f7fa9140f48ebf7d6171\"",
     "readme_hash": "e6422211a210ba60cd062a9a69e57987e7b21f04401aeb901a3b5628e01e6527",
     "entries": [
       {
@@ -2389,7 +2389,7 @@
     ]
   },
   "bowenliang123/markdown-exporter": {
-    "etag": "W/\"204bf00fb499f3ade6d419a290b8346e6c9a3845b754b5ad9f0c33f9cf699dbc\"",
+    "etag": "W/\"75cc46dc95005a27ffd190c69dc481c196f8258872127dfd155c3cb577a19ad8\"",
     "readme_hash": "2c7352b86a33e1d887553cfb97327ef5e3be924b3adf5e79c343816c37df2680",
     "entries": [
       {
@@ -2425,7 +2425,7 @@
     ]
   },
   "CosmoBlk/email-marketing-bible": {
-    "etag": "\"d2f9e69323e23cf295014c27391a4522ec40339bcdbea297c1eba44f541e2cf2\"",
+    "etag": "W/\"d4d7ece3ccfbbef1d725117229903fe6a70dedc8fb60a30f39341f1677ea3e7f\"",
     "readme_hash": "4907e70d1a704ebd69ebde68d39d158026bfc62a4bcbf65838200e40f72e16f8",
     "entries": [
       {
@@ -2461,7 +2461,7 @@
     ]
   },
   "caylent/tufte-data-viz": {
-    "etag": "W/\"482683bcd48ce778fa949533ec302288a4738fdb086d7d1a03d9042fc4d716e1\"",
+    "etag": "W/\"529ebf38454abcf02e05a2496fd64c23179b44681ed56de11b4556b21467d620\"",
     "readme_hash": "a70f4a6a39ed49b5ac334ac0a4d75da3543073cfdac8dc525d83711ca8488759",
     "entries": [
       {
@@ -2497,7 +2497,7 @@
     ]
   },
   "mohi-devhub/antivibe": {
-    "etag": "\"4de64d3498796568177e8592a10953b4925c6ad3018e9031dee49a89e1e29202\"",
+    "etag": "W/\"421ddb392babcb656a785afa85bb6e2343d01c9d2a0b3228d0b22dda1973add0\"",
     "readme_hash": "00cbbecdc6a6353d728fe903e1e3c80e9391976b3c93f3d1a82300aa03088643",
     "entries": [
       {
@@ -2533,7 +2533,7 @@
     ]
   },
   "claude-world/notebooklm-skill": {
-    "etag": "W/\"f8e95fc4818414e2fcc78457da7ef62b6fe4ae141eecef3c66a7dcecf217375e\"",
+    "etag": "W/\"86b70e11e2619e6c6da2131e016d94976e75f5e3f31b4c684079bd623264cebd\"",
     "readme_hash": "7d73f30fdc6a29d90ab067fa0236517f7acae397935a8e2f0b0f2c921d8bf148",
     "entries": [
       {
@@ -2569,7 +2569,7 @@
     ]
   },
   "O0000-code/paper-search-pro": {
-    "etag": "W/\"f5ad9900e4131dd577a5a2fd32cfc5c3b7a9fab7ae3035957833aff895863239\"",
+    "etag": "W/\"bfd8d4ba69485b4cba7c748590c048de1cf973567f6df87a01226863f8596127\"",
     "readme_hash": "1c279ba721bdaa54f0afc3ba76d62cf80a8da38380cd103b3bd9ba9f344a3980",
     "entries": [
       {
@@ -2605,7 +2605,7 @@
     ]
   },
   "SpillwaveSolutions/plantuml": {
-    "etag": "\"e4b759d5839107ce1984e95d15bec7a2afc9be14ca03faf1ea7e016ce7c597e5\"",
+    "etag": "W/\"513fd901e754516ec235d1ae1591e5d707d74a196b1c8f65e730bcc015a34f98\"",
     "readme_hash": "3f4ff9d2677b5e05efbbf30d8b1fc1e7f3a3d59cb81dfa87deb383214cd3f137",
     "entries": [
       {
@@ -2641,7 +2641,7 @@
     ]
   },
   "Innei/media-library-organizer-skill": {
-    "etag": "\"d7316768345b897cd1e701367aa6ae47617d7ea0ee886bb3c56d9a0065cd38eb\"",
+    "etag": "W/\"ae111f02f83845e9a06ae7deac578f10e4e7f7b7dbe3241a7095f2e546e4dace\"",
     "readme_hash": "f229a19793ba1c1539417689aabe0ca371e28bd4453daaa58774e903f2732e32",
     "entries": [
       {
@@ -2677,7 +2677,7 @@
     ]
   },
   "EternalWavee/benchmark-research-skill": {
-    "etag": "\"b2653475437f34cfae72cfad94c6d7491270d14cde237cd2d6cdad638d165209\"",
+    "etag": "W/\"639401c7283c4e412aec61b18114a9bb704bb6a94c19012ced47f131cababf50\"",
     "readme_hash": "79f1c8e0008de66fc2ef411e228d8e0bbbe3c01b1e995822a8c4428a2086bff9",
     "entries": [
       {
@@ -2713,7 +2713,7 @@
     ]
   },
   "sliday/genealogy-research": {
-    "etag": "\"243ab9ab2199780d9bda13ae628554cf77b91102c1f7fee550e0149e00d5f6fd\"",
+    "etag": "W/\"8e810ca550f0ce9c0dc05abdcf7811620dbf337de0a10c2dd3545d15be5c8a50\"",
     "readme_hash": "f1cf8026200c2e42d0ceeb42c14c81d2eda13921b43193c72bf9d72ce9d68599",
     "entries": [
       {
@@ -2749,7 +2749,7 @@
     ]
   },
   "Yoojin-nam/hwp-pipeline": {
-    "etag": "\"f8e6d117e8abe31fd3fdb7b63b43b8ceb97e8a1b3b2236da715ddbf3206def90\"",
+    "etag": "W/\"4aff245af91c23cf0543f7afbe2579dc375f64fa7127b7eb6a1cdc5f48575582\"",
     "readme_hash": "1555745b852c43e2e6a70c73927eda893b63c81eb324c45b43fdc28ad877a5b5",
     "entries": [
       {
@@ -2785,7 +2785,7 @@
     ]
   },
   "WangYutao0915/pdf-to-chinese-latex": {
-    "etag": "\"9c14317c3af38db96589a67f93685f6bad23d199b35962f54377b7093db90702\"",
+    "etag": "W/\"b12a4d12a19b38c533dfd785dda4fb6ff8892055c36b010754d8f3c62845730b\"",
     "readme_hash": "3403a0eb4bdd1b392ecb7ff38fb315964f60da28c8122dd6cbb5dea56d1ce069",
     "entries": [
       {
@@ -2821,7 +2821,7 @@
     ]
   },
   "xntj-ai/onepage-pdf": {
-    "etag": "\"f6f82e9f6a7c04befa7e468d9b6b649e654b3c122bb24ed94b4779c9b521ad05\"",
+    "etag": "W/\"877ce22e837eba4ea9f66c917fcaf34e2cff6ef114b3ddd108e47a6e691d66c5\"",
     "readme_hash": "b7e04ecd779f2a6db33e4e49fd6d1e99ed2a9f58a8e35657915142ce4bb0e2fd",
     "entries": [
       {
@@ -2857,7 +2857,7 @@
     ]
   },
   "LewisLiu007/full-page-screenshot": {
-    "etag": "\"deb49f7558b247d1073a2717ed58cc83fce7a65309ccdbfd5d8cd120fb0e2e29\"",
+    "etag": "W/\"b6574e3c06601034da17c83cca3a1d49e885a1244b475fbce0ab737432b74373\"",
     "readme_hash": "60fea00530d6c1d21b1f0425be08107dc47aad89d35055b0495ec79562912eac",
     "entries": [
       {
@@ -2893,7 +2893,7 @@
     ]
   },
   "tlehman/litprog-skill": {
-    "etag": "W/\"38cc5cc582f9783393c4a3388d4a808ed18d35fa1a86448d8ef0909a3204cd2e\"",
+    "etag": "W/\"dd34c216e2c55dcecc524fdf445204efdf1878eb790031257b4a860fbbdff89b\"",
     "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "W/\"4f034895d524e5db089ad01a4521de33c722bc90875814ee7e0843c7af311e17\"",
+    "etag": "W/\"406df495d614ba7f717d57019466ee35cf4c0ebee6b3e65336b52105393cf502\"",
     "readme_hash": "af5962ae04b759bc9cc89b21ba32adf71d7f8d206755f261a7db231acc55fd55",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"906b09805d417fc2677bc22e509c992b21fe5242da9a44b54fbf787bff0ad3da\"",
+    "etag": "W/\"c466a6e170e0fd4c9c6f71e33a94642ad4123554889b06dd4ab3edee086a5b97\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"56cd4e021b8d104b03c5285668f9f619906f62fc9456dd811c6ccf15483dc2f3\"",
+    "etag": "W/\"29955189eb0c507d7488c70747df0d09ffe65ee379365b35e31bd28da1bda135\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,8 +3038,8 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"93b0d1925acca2ab38aac37baa1bb3a37fa6c96b14a36ed7458155ecf8758141\"",
-    "readme_hash": "a490608cb773c28fa75a3fe2918e847b9eb5c30f0c2ba300b795eb6c273494a7",
+    "etag": "W/\"7c19d4f124dd0edae147c9e93a50d42682511cde0749e64be43dc2f5fefe5f62\"",
+    "readme_hash": "b7b72939a4de8f789aa32558bb177aec383409d87445a81f2b4a917028b5b079",
     "entries": [
       {
         "id": "aleph-hub:Leonxlnx/taste-skill",
@@ -3075,8 +3075,8 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"4e993d27d222e6ab52170ad9a31d8eb0a9372dc20eea258976143fbc6f1b70fe\"",
-    "readme_hash": "c6ba70f20939e156008e40a2b4540a904ef1e3b582242e812c05e77a00c73eef",
+    "etag": "W/\"bc7e0ab7359a3fdd28fd20181d2836f11e800e8543b9fdf0784a6da16db0753c\"",
+    "readme_hash": "5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978",
     "entries": [
       {
         "id": "aleph-hub:Panniantong/Agent-Reach",
@@ -3113,7 +3113,7 @@
     ]
   },
   "yixiliu617/data-craft": {
-    "etag": "\"4c465d14e5491374f31686ff47e47aed3424fa56f290a42a07916a542a6f0c41\"",
+    "etag": "W/\"d205812e0a3fa731268b7e986f73bd3422532564f25b9aaab501bf43027cf242\"",
     "readme_hash": "6a004c92bf9700264c807aafb3b7a42f8d0516ded34f39993cd602714ec52b8e",
     "entries": [
       {
@@ -3149,8 +3149,8 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"607465e12e828b6776b18d3b161143d60b5bd92ac26e3d9521075a0fccf3dbef\"",
-    "readme_hash": "d679686383d4636821a66ae6a66248a77ece52ba142f6100b9d7e5ab6d2c4b26",
+    "etag": "W/\"9aac5e8e8a60e0b2c4f0837f42a1e9458dcfff8ab09d2d3867e983ada47fcfb8\"",
+    "readme_hash": "0de5a8d9308033562b09ff5c855aa15a23d3b59e3e03967f2d43462653b44ad6",
     "entries": [
       {
         "id": "aleph-hub:hugohe3/ppt-master",
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"dbeb22174939ad12115a863202d309ce868cde5344793c3cd8618ee435bc8cba\"",
+    "etag": "W/\"04ac1a41ef9dd904005ad3da803de9080df4e805b86ab20df022caf9c44e1a0e\"",
     "readme_hash": "1ba31db91d2759854cb4c1a84d59a6af76c965b548adb2c3c5d552ae2d40afac",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"c397b0b205012acb7f6b23fcf7fdd15c14d8a04f820df26de7e052b40bd506d2\"",
+    "etag": "W/\"bcfe6389544028e4b1583bfc69cbe13f0200a533ca1c3eb0feceadd53eb0bd76\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"7ba88527b1f7e76d4563a03b62d8c9f731b1f7ac10a0bec79d37f29e523b4739\"",
+    "etag": "W/\"3a2301178c5b45a48318bcddb3cd76d255af284a792576e74368e83bf3661bbf\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3298,8 +3298,8 @@
     ]
   },
   "kdnsna/ultimate-ppt-master-skill": {
-    "etag": "W/\"d260bdf4c44692b8aa669db394d086d5502a7c46e3defd35720cb8b2fbd444a2\"",
-    "readme_hash": "e8bc170bccc55fe9765201f4795a0c83d9fbb8d28aabf5d1804049ca49ff1661",
+    "etag": "W/\"bf374fa9954815043fc08b9c0b386486c317a6bdf37a182661d8d2806c3a6d9e\"",
+    "readme_hash": "ecb35937003e0e367de1b336c8a53967095e4eb9286f110d781d07334ea997ce",
     "entries": [
       {
         "id": "aleph-hub:kdnsna/ultimate-ppt-master-skill",
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"ca8f982b2c833d5066f23f9d4291b44d229d959c3412979b283a421deb69c840\"",
+    "etag": "W/\"915f42ccc1bb9d9b407fbab8b31015c2629c4405a3d8c3a52320a706bad95f2f\"",
     "readme_hash": "de7a1eb9eed575b90489621f53e5b506be9588f3d2494c92c764bd297978b0df",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"e4c67bbd8c31944f0550b7ddae49da4f9f697eaf1e6afc008b25991a8ef8af7f\"",
+    "etag": "W/\"b2ba13c49bc0faadc03a76f207e7894423d24df50ed7571e3697d79789a0d871\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"6671e18a40ac415e95c3edb575aceb61491dc801fd7e31207ef12aee5b388202\"",
+    "etag": "W/\"9afef2d405c90e5197aa06153a8306504acad00ab5ac9df5ddf6e6430ac066fe\"",
     "readme_hash": "b5f411781b131fd16cc712100dd5ffc3f97bb3e22a5aba5e2b14a549d42fc86a",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"e6a9a282b4708c36674dcfa1599584b16979f08a85c581532c0219bba2176fda\"",
+    "etag": "W/\"12e73ce3c0f4ef600de3ee7e0bc1a2ca13bf08acbd4ee12ee0152c07ec11bf3c\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"e20e18795e330cd8b5d747aa7c103788f3a4aaec082b7797f0ccdfa348e225fd\"",
+    "etag": "W/\"62c2d90ca98df4776d460ada8391381243898df47bc2b424d21d51072cf08655\"",
     "readme_hash": "8517af00225e986986188b75a145b428b63270128fd78739324ee4d4f3f5f9ca",
     "entries": [
       {
@@ -3683,7 +3683,7 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"c56051b84bd377fc6be68574dc7793b2365b0083fb13f0ce66b82b790ee57ab4\"",
+    "etag": "W/\"9b806e3cd18fa448b054f976c6c6ba3121a2b23c6222d1338085a43fc792041c\"",
     "readme_hash": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
     "entries": [
       {
@@ -4221,7 +4221,7 @@
     ]
   },
   "xiaopu-ai/web-design": {
-    "etag": "W/\"0d9e09e15c28d10ad1127e2e90b33ef8ded4627a070e987fa7979244a177087f\"",
+    "etag": "W/\"f4072b635af994a29d4f6c2444d404297582bdea779289fc7653a0034ba7e40a\"",
     "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
     "entries": [
       {
@@ -4257,7 +4257,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"eb05936f87e7f6621a6e17d7bd3b31da0f5a66e796bf13d40c7b2a5b038569b3\"",
+    "etag": "W/\"f83384a45b7d55f8962722bb3424be7f4d36cd53c48acf229f0af4874cc5334f\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -4294,8 +4294,8 @@
     ]
   },
   "heygen-com/hyperframes": {
-    "etag": "W/\"8a536f270a17fc8f48ae04044a42f16f5f5a422aae64cb99dcabbcc6f3a61093\"",
-    "readme_hash": "65850b738d0258668db7fd94684b37cb4f1d8b186dd733320d8b344953af2302",
+    "etag": "W/\"9dd851a82adbe82e92472bfecf479a4e965a4b0744d382c598136cf13cc41841\"",
+    "readme_hash": "d4aec8b2cb3f58783c7730c373980a481b573b7127e1d20058a314f483a93cda",
     "entries": [
       {
         "id": "aleph-hub:heygen-com/hyperframes",
@@ -4331,7 +4331,7 @@
     ]
   },
   "fabriqaai/ffmpeg-analyse-video-skill": {
-    "etag": "\"4400c0d173d81354f155bbaf249e09479f1d1de7db74e2fe61d470819cecd333\"",
+    "etag": "W/\"6059edcd0bdc6338f1e360baf94a4e5ffec31cf3fc96cadfaf06bd9d9233e030\"",
     "readme_hash": "b24194fb697ebe7d3cbe14fee8b37c6d80c4c8f8e0de4172245f201a6c34e75d",
     "entries": [
       {
@@ -4367,7 +4367,7 @@
     ]
   },
   "remotion-dev/skills": {
-    "etag": "W/\"e50090c6ccbe0793903b86be7db50d0778170e35024a2eed3e0bc121a333279a\"",
+    "etag": "W/\"01ecea1653e8da16abea0f45c5ed5d6c03a5b103df77c5e9b61ee67b699c44fe\"",
     "readme_hash": "60c699748c6242f7d212a4de8c961765cde7fcd4d810b67ec20b7cca253a06dc",
     "entries": [
       {
@@ -4404,7 +4404,7 @@
     ]
   },
   "browser-use/video-use": {
-    "etag": "W/\"0befa9bcb02adbb612608dd37eb7e740ba03acc54353ae94a6cdb83d40775a96\"",
+    "etag": "W/\"09ec09d343421b3908e370a4ad6b8daa640b2fb88a25c8c55195d5b51e9881f1\"",
     "readme_hash": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
     "entries": [
       {
@@ -4440,7 +4440,7 @@
     ]
   },
   "adithya-s-k/manim_skill": {
-    "etag": "W/\"0a9f0978a71a39c2c571b4a05282af3991c3d14fa83922fb0af75633cb48c6dd\"",
+    "etag": "W/\"1d01cb92d4a5bb52ebf152139a6db385d51a330160c42b4f59687f945335353e\"",
     "readme_hash": "d15fe6a69c3dd2a08e927d006d1fcdea63f972ff7176650c1822131c455ab00b",
     "entries": [
       {
@@ -4542,7 +4542,7 @@
     ]
   },
   "anthropics/skills": {
-    "etag": "W/\"3643951c0c671ab4a1e0382254a875f7f00b434b3fcca1a7d1d0850d52f6c9c2\"",
+    "etag": "W/\"b11170b91d3b41bab49655a013c670ca09d508afb31ed8fec580511063ff372b\"",
     "readme_hash": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
     "entries": [
       {
@@ -5090,7 +5090,7 @@
     ]
   },
   "obra/superpowers": {
-    "etag": "W/\"ab7e0ef4741b5282ace46b85d96b0b7888e8b89ce599f78e2d6bef0b2942c269\"",
+    "etag": "W/\"8cd327c639d64f97b2b16e344c042972297e0ca6a84f8bdf37045dbd690fe0c1\"",
     "readme_hash": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
     "entries": [
       {
@@ -5127,8 +5127,8 @@
     ]
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "W/\"d460eaea6ada8e81d9b1a4b1e851ff868e4633a7d1f026464abfb4e4e874f408\"",
-    "readme_hash": "95eacc260cea178fe5c412dfa021e24ffdc786c24fec48009000095866f0c008",
+    "etag": "W/\"0e010522d07fdabec1c00cfc8c0ca0bc42c4b72c65a20e4c0bea279d6cd06856\"",
+    "readme_hash": "0aabe2adb945e61505cf8ef020934444d8dc88dd45de958692f3c075ea8855e8",
     "entries": [
       {
         "id": "aleph-hub:yaojingang/yao-geo-skills/yao-geo-brand-graph",
@@ -5545,7 +5545,7 @@
     ]
   },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
-    "etag": "W/\"d482acc66326c1272db15c55f7c82ed3e16c72f2b729eab3fbb05f7cff43e265\"",
+    "etag": "W/\"a9f30df8b8d68598ac695b6c8b2058f1548317f95ce2d3446cb167b596af09b4\"",
     "readme_hash": "3b76bcfea8bc44bd20d7688e5c319070f6c55c575b45adc260d866c69423f0f5",
     "entries": [
       {
@@ -5582,7 +5582,7 @@
     ]
   },
   "thedotmack/claude-mem": {
-    "etag": "W/\"8b38abcb120180a8bb782ae10a4e0fec709799c97b0cef0fc6f0235192a02d14\"",
+    "etag": "W/\"d9df508c16e531fe2f87d8565a7c80f1815f4ba4a257e98db4d51e29542d70a4\"",
     "readme_hash": "a81d17483dab4063cb672277449276fd761634307f1a91f3df48cb6e1aa56b16",
     "entries": [
       {
@@ -5619,8 +5619,8 @@
     ]
   },
   "0xNyk/council-of-high-intelligence": {
-    "etag": "W/\"b9c3be111934442cfc2c6cab2e0ffbaadd3f90ee9d35a34deacc2063143fe609\"",
-    "readme_hash": "cb8cc4c3ca36727ee2668ba17a02573c5a1fbc18199b265f5378d85736018a69",
+    "etag": "W/\"8d16322a924df6d3841bf7c64b866b80b12e02b766975f001f8d89008d80a35b\"",
+    "readme_hash": "3f6a0e75bea29edb42b4553b96d8de8e3934f97681ebe42f42acd3ab0020fab0",
     "entries": [
       {
         "id": "aleph-hub:0xNyk/council-of-high-intelligence",
@@ -5656,8 +5656,8 @@
     ]
   },
   "xbtlin/ai-berkshire": {
-    "etag": "W/\"f41af334ec3efaf00c180dc51b6dc785d28009ecdd6b98cd3be9c51e91a85711\"",
-    "readme_hash": "8ee3bd7502903364b241f8d0aac311782abc0636924c82617466e0ba52a7c5c5",
+    "etag": "W/\"cd255c1027ac7be2f9592d1c1179fd34eebfba63157dc77150c426bf044bcb0c\"",
+    "readme_hash": "134ca0af7dc16cf165dbdad96cf56899afbf634cff408c495c28b539e68c7ed9",
     "entries": [
       {
         "id": "aleph-hub:xbtlin/ai-berkshire/bottleneck-hunter",
@@ -6289,7 +6289,7 @@
     ]
   },
   "crazyykhllc-bit/CyberPPT": {
-    "etag": "W/\"a97ef0bf9482aac499a0a4eafd91abab2a3a55d6d64fdb47b3684b48404d4189\"",
+    "etag": "W/\"14fc83f77ae4d8be0c2bb7955732990d17e19de25cc373766b125be246995924\"",
     "readme_hash": "e07290c46dd9a79d88fc180e3275e3340f24caf113163afa336720db0cb678a2",
     "entries": [
       {
@@ -6325,7 +6325,7 @@
     ]
   },
   "pengchujin/jzsub": {
-    "etag": "W/\"dea774ed6ca788aae090d6c0e2c0634b5280e4f952c18f9dba0829b02e71c309\"",
+    "etag": "W/\"192598f8222ed7400d4d846bc9a9d6616729fc26c65c9eab5258567017637408\"",
     "readme_hash": "844d2e860c0bc4bc533fbe4eec1a5962b639a8bd8848d312f1ce16b0bde1a554",
     "entries": [
       {
@@ -6363,7 +6363,7 @@
     ]
   },
   "Hasasasa/html-to-editable-pptx": {
-    "etag": "W/\"83c071dc99b1da62680688f3043f94db50f17ca134d21a51863ca131e8007a89\"",
+    "etag": "W/\"826f4fc8471b14362f131ee69365a95f7aa46f768049dc690bc5354b0ac0131f\"",
     "readme_hash": "7caa66a52082ca2d121085a9f7ddaf7dc798b61e4493e4893c2dbec3771d5ba3",
     "entries": [
       {
@@ -6399,7 +6399,7 @@
     ]
   },
   "Zuojuzhang/claude-skill-business-analyst": {
-    "etag": "\"fdbb72b6a0d8b60b93e32a0ad150776c697d93b1edd357740980d0e74f7ebad5\"",
+    "etag": "W/\"4a30f0457d7cc71a63b6a50b44150df3ddeb3917a2978229dc9f4fd0612010ff\"",
     "readme_hash": "aa0e751f1f637a3c217cccac888ae751d27c2b720b89b49766eccb067cddd42c",
     "entries": [
       {
@@ -6430,6 +6430,204 @@
         "long_zh": "围绕读者要做的决策来组织分析,并诚实指出数据的局限,而非产出「所以呢?」式的图表。",
         "sec_note_en": "Reads the Excel/CSV/text data you provide to generate a report; verify its insights against real business context before acting.",
         "sec_note_zh": "读取你提供的 Excel/CSV/文本数据以生成报告;据此行动前请结合真实业务背景核实其结论。",
+        "requires_config": false
+      }
+    ]
+  },
+  "emilkowalski/skills": {
+    "etag": "W/\"f860d3c57854c58364fb8cf11bf08c292c1312242aff126be8edd7fe59ab5443\"",
+    "readme_hash": "b9a5b6258087fee38262b11df5aadd15e928f985f40f2020233801674735e1b9",
+    "entries": [
+      {
+        "id": "aleph-hub:emilkowalski/skills/animation-vocabulary",
+        "repo_url": "https://github.com/emilkowalski/skills",
+        "via": "github:emilkowalski",
+        "full_name": "emilkowalski/skills",
+        "owner": "emilkowalski",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Animation Vocabulary",
+        "author": "emilkowalski",
+        "category": "design",
+        "tags": [
+          "animation",
+          "motion-design",
+          "glossary",
+          "vocabulary",
+          "reference"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/emilkowalski/skills",
+          "subdir": "skills/animation-vocabulary",
+          "git_ref": "main"
+        },
+        "description_en": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in). For naming an effect, not designing or building one.",
+        "description_zh": "反查词表：把对某个网页动画/动效的模糊描述映射到精确术语（「弹窗打开时那种弹一下」→ Pop in）。只负责给动效命名，不负责设计或实现。",
+        "long_en": "A read-only naming helper from Emil Kowalski's Skills For Design Engineers. The user describes a motion effect loosely — by what they see or feel (\"springy\", \"the iOS rubber-band scroll\", \"draws itself in\") — and the skill returns the precise term(s) from an authoritative glossary, leading with the best match plus 1–2 alternates and a one-line note on how they differ. When nothing matches exactly it names the closest term and says plainly it's an approximation. It stays inside its glossary and never invents terms. It names effects; it does not design or build them. Pure knowledge — no code execution, dependencies, or network access.",
+        "long_zh": "出自 Emil Kowalski 的「设计工程师技能集」，是一个只读命名助手。用户用看到/感受到的方式（「有弹性」「iOS 那种橡皮筋回弹」「像自己画出来」）粗略描述动效，技能便从权威词表返回精确术语——先给最佳匹配，再给 1–2 个近义项并一句话说明差异；完全对不上时给出最接近的术语并坦白这是近似。它只在词表范围内作答、不生造术语；只做命名，不做设计或实现。纯知识型，无代码执行、无依赖、无网络访问。",
+        "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Knowledge-only skill: no code execution, no dependencies, no external API calls or credentials.",
+        "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。纯知识型技能：无代码执行、无依赖、无外部 API 调用或凭据。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:emilkowalski/skills/apple-design",
+        "repo_url": "https://github.com/emilkowalski/skills",
+        "via": "github:emilkowalski",
+        "full_name": "emilkowalski/skills",
+        "owner": "emilkowalski",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Apple Design",
+        "author": "emilkowalski",
+        "category": "design",
+        "tags": [
+          "apple",
+          "animation",
+          "spring-animation",
+          "gestures",
+          "ui-design"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/emilkowalski/skills",
+          "subdir": "skills/apple-design",
+          "git_ref": "main"
+        },
+        "description_en": "Apple's approach to fluid, physical interface motion translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials, typography, and reduced-motion.",
+        "description_zh": "把苹果「流体、拟物」的界面动效理念迁移到 Web。适用于构建或审查手势驱动 UI、弹簧动画、拖拽/滑动/半屏交互、动量与可打断转场、半透明材质、排版与减弱动效。",
+        "long_en": "Distills Apple's fluid-interface principles — chiefly the WWDC 2018 talk \"Designing Fluid Interfaces\" — and translates them onto the web platform (CSS, Pointer Events, requestAnimationFrame, spring libraries like Motion/Framer Motion). The through-line: an interface feels alive when motion starts from the current on-screen value, inherits the user's velocity, projects momentum forward, and can be grabbed and reversed at any instant. Covers killing response latency (feedback on pointer-down), 1:1 direct manipulation with velocity/position history and setPointerCapture, interruptible velocity-aware springs, translucent materials and depth, typography (optical sizing, tracking, leading), and reduced-motion. Guidance and knowledge for building or reviewing Apple-style UI; the skill itself runs no code.",
+        "long_zh": "提炼苹果的流体界面原则（核心为 WWDC 2018《Designing Fluid Interfaces》），迁移到 Web 平台（CSS、Pointer Events、requestAnimationFrame，以及 Motion/Framer Motion 等弹簧库）。主线：当动效从当前屏上数值出发、继承用户速度、向前投射动量、并可随时被抓住反向，界面才「有生命」。内容涵盖消除响应延迟（在 pointer-down 时给反馈）、带速度/位置历史与 setPointerCapture 的 1:1 直接操控、可打断且感知速度的弹簧、半透明材质与景深、排版（光学字号、字距、行距）以及减弱动效。属指导/知识型，用于构建或审查苹果风 UI，技能本身不执行代码。",
+        "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Guidance only: it references client-side animation libraries (Motion/Framer Motion) as implementation options but has no runtime dependencies of its own, and performs no code execution, network access, or credential use.",
+        "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。纯指导型：文中把 Motion/Framer Motion 等客户端动画库作为实现选项提及，但技能自身无运行时依赖，也不执行代码、不访问网络、不使用凭据。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:emilkowalski/skills/emil-design-eng",
+        "repo_url": "https://github.com/emilkowalski/skills",
+        "via": "github:emilkowalski",
+        "full_name": "emilkowalski/skills",
+        "owner": "emilkowalski",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Design Engineering (Emil Kowalski)",
+        "author": "emilkowalski",
+        "category": "design",
+        "tags": [
+          "design-engineering",
+          "ui-polish",
+          "animation",
+          "frontend",
+          "taste"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/emilkowalski/skills",
+          "subdir": "skills/emil-design-eng",
+          "git_ref": "main"
+        },
+        "description_en": "Encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+        "description_zh": "凝练 Emil Kowalski 关于 UI 打磨、组件设计、动效抉择，以及那些让软件「感觉对」的隐形细节的设计工程哲学。",
+        "long_en": "The largest skill in the collection (~680 lines), distilling Emil Kowalski's (ex-Vercel/Linear; creator of Sonner and Vaul; author of animations.dev) design-engineering philosophy: taste as a trained instinct rather than innate preference, the way unseen details compound into interfaces people love, and beauty as leverage in a market where everyone's software is already good enough. When invoked without a specific question it responds only with a short intro and a pointer to Emil's animations.dev course, then waits for the user to ask. For UI code review it enforces a required Before/After/Why markdown-table output format. Knowledge and guidance only; the skill runs no code.",
+        "long_zh": "本合集中体量最大的技能（约 680 行），凝练 Emil Kowalski（曾就职 Vercel/Linear；Sonner、Vaul 作者；animations.dev 课程作者）的设计工程哲学：品味是训练出的直觉而非天生偏好；无形细节层层叠加，成就让人喜爱的界面；在人人软件都「够好」的当下，美感是差异化的杠杆。在没有具体问题时被调用，它只回一段简短开场并指向 animations.dev 课程，随后等待用户提问。做 UI 代码审查时强制使用 Before/After/Why 三列 Markdown 表格输出。纯知识/指导型，技能本身不执行代码。",
+        "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Knowledge/guidance only. Its initial response links to Emil's paid course (animations.dev) as further reading, but the body is substantive standalone content — not a marketing shell — and the skill has no dependencies, no code execution, and no external API or credential use.",
+        "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。纯知识/指导型。首次调用的开场语会附上 Emil 的付费课程链接（animations.dev）作为延伸阅读，但正文是可独立成立的实质内容，并非营销薄壳；技能无依赖、不执行代码、无外部 API 或凭据。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:emilkowalski/skills/find-animation-opportunities",
+        "repo_url": "https://github.com/emilkowalski/skills",
+        "via": "github:emilkowalski",
+        "full_name": "emilkowalski/skills",
+        "owner": "emilkowalski",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Find Animation Opportunities",
+        "author": "emilkowalski",
+        "category": "design",
+        "tags": [
+          "animation",
+          "code-audit",
+          "motion-design",
+          "read-only",
+          "restraint"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/emilkowalski/skills",
+          "subdir": "skills/find-animation-opportunities",
+          "git_ref": "main"
+        },
+        "description_en": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it.",
+        "description_zh": "在代码库或 UI 中搜寻「本该有动效却没有」的地方，并否决所有「不该加」的候选。只读；给出带精确数值的动效建议，但不落地实现。",
+        "long_en": "A read-only search-and-filter skill built on the premise of Emil Kowalski's essay \"You Don't Need Animations\": sometimes the best animation is no animation, so this is a filter as much as a finder. It sweeps an interface for moments that would genuinely benefit from motion, runs each candidate through a gate (frequency — keyboard/100+-per-day actions are auto-rejected; purpose; and more), rejects most, and caps output at 5–7 high-conviction suggestions ordered by leverage, each with a precise recipe. It never modifies source code, handing implementation off to improve-animations or any agent. Repository content is treated as data, not instructions — injection attempts are flagged and skipped.",
+        "long_zh": "只读的「搜寻+过滤」技能，立足 Emil Kowalski《You Don't Need Animations》的前提：有时最好的动效就是不做动效——所以它既是发现器也是过滤器。它扫描界面、找出真正能从动效受益的时刻，让每个候选通过一道门槛（频率——键盘触发/每天上百次的操作直接否决；目的；等等），否决掉大多数，最终按杠杆高低最多给出 5–7 条高确信度建议，每条附精确配方。它从不修改源码，实现交给 improve-animations 或任意 agent。仓库内容一律视为数据而非指令，遇到注入企图会标注并跳过。",
+        "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Read-only analysis — it never writes or executes code, and explicitly treats scanned repository content as inert data (flagging prompt-injection attempts). No dependencies, network access, or credentials.",
+        "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。只读分析——从不写入或执行代码，并明确把扫描到的仓库内容当作惰性数据处理（对提示注入企图予以标注）。无依赖、无网络访问、无凭据。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:emilkowalski/skills/improve-animations",
+        "repo_url": "https://github.com/emilkowalski/skills",
+        "via": "github:emilkowalski",
+        "full_name": "emilkowalski/skills",
+        "owner": "emilkowalski",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Improve Animations",
+        "author": "emilkowalski",
+        "category": "design",
+        "tags": [
+          "animation",
+          "audit",
+          "motion-design",
+          "implementation-plan",
+          "read-only"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/emilkowalski/skills",
+          "subdir": "skills/improve-animations",
+          "git_ref": "main"
+        },
+        "description_en": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source — it plans improvements, it does not apply them.",
+        "description_zh": "以资深动效顾问的身份通盘审阅代码库的动画/动效代码，产出按优先级排序的审计与「可独立执行」的实施方案，交给其他 agent（或更廉价的模型）落地。对源码只读——只做改进规划，不亲自动手改。",
+        "long_en": "An audit-then-plan advisor: use the capable model where judgment compounds (understanding the codebase's motion, deciding what's worth fixing, writing the spec) and hand execution to any agent. Workflow is recon (map stack, motion libraries, easing/duration tokens, and a frequency map of what's hit 100+/day vs. rarely), parallel audit against eight categories whose rule catalog with precise values lives in AUDIT.md, vetting, then fully self-contained implementation plans (format in PLAN-TEMPLATE.md) precise enough for a zero-context executor — inlining exact cubic-beziers, durations, file paths and code excerpts. It is read-only on source code: the only files it creates live under plans/ (or animation-plans/). No installs, builds, or commits; repository content is treated as data, not instructions.",
+        "long_zh": "「先审计、后出方案」的顾问：在判断力能复利的环节用强模型（读懂代码库的动效、决定哪些值得修、写规格），把执行交给任意 agent。流程为侦察（梳理技术栈、动画库、easing/duration 令牌，并绘制「每天上百次 vs 偶尔」的频率图）→ 对照八大类并行审计（含精确数值的规则目录在 AUDIT.md）→ 甄别 → 产出「完全自包含」的实施方案（格式见 PLAN-TEMPLATE.md），精确到零上下文执行者也能照做，内联具体的 cubic-bezier、时长、文件路径与代码片段。对源码只读：唯一创建的文件位于 plans/（或 animation-plans/）目录；不安装、不构建、不提交；仓库内容视为数据而非指令。",
+        "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Read-only on source code — it writes only plan files under plans/ (or animation-plans/), performs no installs/builds/commits and no code execution, and treats scanned content as inert data. No dependencies, network access, or credentials.",
+        "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。对源码只读——只在 plans/（或 animation-plans/）下写方案文件，不做安装/构建/提交，也不执行代码，并把扫描内容当惰性数据处理。无依赖、无网络访问、无凭据。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:emilkowalski/skills/review-animations",
+        "repo_url": "https://github.com/emilkowalski/skills",
+        "via": "github:emilkowalski",
+        "full_name": "emilkowalski/skills",
+        "owner": "emilkowalski",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Review Animations",
+        "author": "emilkowalski",
+        "category": "design",
+        "tags": [
+          "animation",
+          "code-review",
+          "motion-design",
+          "craft",
+          "read-only"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/emilkowalski/skills",
+          "subdir": "skills/review-animations",
+          "git_ref": "main"
+        },
+        "description_en": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design-engineering philosophy. Default to flagging; approval is earned, not assumed.",
+        "description_zh": "以源自 Emil Kowalski 设计工程哲学的高工艺标准审查动画/动效代码。默认倾向于挑问题；通过是要「挣来」的，而非默认给。",
+        "long_en": "A specialized motion code-review skill that measures a diff against ten non-negotiable standards: justified motion, frequency-appropriate motion (keyboard/100+-per-day actions get none), responsive easing (ease-in on UI is a block), sub-300ms UI, correct transform-origin (never animate from scale(0)), interruptibility, GPU-only properties (transform/opacity only), reduced-motion accessibility, asymmetric enter/exit, and cohesion. The full rule catalog — easing curves, duration tables, spring configs, gestures, clip-path, performance, a11y — lives in STANDARDS.md, loaded when a finding needs a precise value. Marked disable-model-invocation, so it runs only when the user explicitly invokes it. Read-only review; it declines to review non-motion code and points to a general review skill.",
+        "long_zh": "专门的动效代码审查技能，用十条不可妥协的标准衡量 diff：动效需有正当理由、与出现频率匹配（键盘/每天上百次的操作不加动效）、响应式缓动（UI 上用 ease-in 直接判否）、UI 动效低于 300ms、正确的 transform-origin（绝不从 scale(0) 起步）、可打断、只用 GPU 属性（仅 transform/opacity）、减弱动效的可访问性、进出场不对称、以及整体协调。完整规则目录（缓动曲线、时长表、弹簧配置、手势、clip-path、性能、a11y）在 STANDARDS.md，需要精确数值时才加载。标注了 disable-model-invocation，仅在用户显式调用时运行。只读审查；遇到非动效代码会婉拒并指向通用审查技能。",
+        "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Read-only review — no code execution, writes, network access, or credentials. User-invocation only (disable-model-invocation is set).",
+        "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。只读审查——不执行代码、不写入、不访问网络、无凭据。仅限用户显式调用（已设置 disable-model-invocation）。",
         "requires_config": false
       }
     ]

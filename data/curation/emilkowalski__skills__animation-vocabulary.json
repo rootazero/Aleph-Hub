@@ -1,0 +1,24 @@
+{
+  "full_name": "emilkowalski/skills",
+  "name": "Animation Vocabulary",
+  "kind": "skill",
+  "slug": "animation-vocabulary",
+  "category": "design",
+  "tags": [
+    "animation",
+    "motion-design",
+    "glossary",
+    "vocabulary",
+    "reference"
+  ],
+  "description_en": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in). For naming an effect, not designing or building one.",
+  "description_zh": "反查词表：把对某个网页动画/动效的模糊描述映射到精确术语（「弹窗打开时那种弹一下」→ Pop in）。只负责给动效命名，不负责设计或实现。",
+  "long_en": "A read-only naming helper from Emil Kowalski's Skills For Design Engineers. The user describes a motion effect loosely — by what they see or feel (\"springy\", \"the iOS rubber-band scroll\", \"draws itself in\") — and the skill returns the precise term(s) from an authoritative glossary, leading with the best match plus 1–2 alternates and a one-line note on how they differ. When nothing matches exactly it names the closest term and says plainly it's an approximation. It stays inside its glossary and never invents terms. It names effects; it does not design or build them. Pure knowledge — no code execution, dependencies, or network access.",
+  "long_zh": "出自 Emil Kowalski 的「设计工程师技能集」，是一个只读命名助手。用户用看到/感受到的方式（「有弹性」「iOS 那种橡皮筋回弹」「像自己画出来」）粗略描述动效，技能便从权威词表返回精确术语——先给最佳匹配，再给 1–2 个近义项并一句话说明差异；完全对不上时给出最接近的术语并坦白这是近似。它只在词表范围内作答、不生造术语；只做命名，不做设计或实现。纯知识型，无代码执行、无依赖、无网络访问。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/animation-vocabulary"
+  },
+  "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Knowledge-only skill: no code execution, no dependencies, no external API calls or credentials.",
+  "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。纯知识型技能：无代码执行、无依赖、无外部 API 调用或凭据。"
+}

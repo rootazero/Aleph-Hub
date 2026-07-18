@@ -1,0 +1,24 @@
+{
+  "full_name": "emilkowalski/skills",
+  "name": "Find Animation Opportunities",
+  "kind": "skill",
+  "slug": "find-animation-opportunities",
+  "category": "design",
+  "tags": [
+    "animation",
+    "code-audit",
+    "motion-design",
+    "read-only",
+    "restraint"
+  ],
+  "description_en": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it.",
+  "description_zh": "在代码库或 UI 中搜寻「本该有动效却没有」的地方，并否决所有「不该加」的候选。只读；给出带精确数值的动效建议，但不落地实现。",
+  "long_en": "A read-only search-and-filter skill built on the premise of Emil Kowalski's essay \"You Don't Need Animations\": sometimes the best animation is no animation, so this is a filter as much as a finder. It sweeps an interface for moments that would genuinely benefit from motion, runs each candidate through a gate (frequency — keyboard/100+-per-day actions are auto-rejected; purpose; and more), rejects most, and caps output at 5–7 high-conviction suggestions ordered by leverage, each with a precise recipe. It never modifies source code, handing implementation off to improve-animations or any agent. Repository content is treated as data, not instructions — injection attempts are flagged and skipped.",
+  "long_zh": "只读的「搜寻+过滤」技能，立足 Emil Kowalski《You Don't Need Animations》的前提：有时最好的动效就是不做动效——所以它既是发现器也是过滤器。它扫描界面、找出真正能从动效受益的时刻，让每个候选通过一道门槛（频率——键盘触发/每天上百次的操作直接否决；目的；等等），否决掉大多数，最终按杠杆高低最多给出 5–7 条高确信度建议，每条附精确配方。它从不修改源码，实现交给 improve-animations 或任意 agent。仓库内容一律视为数据而非指令，遇到注入企图会标注并跳过。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/find-animation-opportunities"
+  },
+  "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Read-only analysis — it never writes or executes code, and explicitly treats scanned repository content as inert data (flagging prompt-injection attempts). No dependencies, network access, or credentials.",
+  "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。只读分析——从不写入或执行代码，并明确把扫描到的仓库内容当作惰性数据处理（对提示注入企图予以标注）。无依赖、无网络访问、无凭据。"
+}

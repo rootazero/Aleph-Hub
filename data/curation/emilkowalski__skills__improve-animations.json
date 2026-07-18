@@ -1,0 +1,24 @@
+{
+  "full_name": "emilkowalski/skills",
+  "name": "Improve Animations",
+  "kind": "skill",
+  "slug": "improve-animations",
+  "category": "design",
+  "tags": [
+    "animation",
+    "audit",
+    "motion-design",
+    "implementation-plan",
+    "read-only"
+  ],
+  "description_en": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source — it plans improvements, it does not apply them.",
+  "description_zh": "以资深动效顾问的身份通盘审阅代码库的动画/动效代码，产出按优先级排序的审计与「可独立执行」的实施方案，交给其他 agent（或更廉价的模型）落地。对源码只读——只做改进规划，不亲自动手改。",
+  "long_en": "An audit-then-plan advisor: use the capable model where judgment compounds (understanding the codebase's motion, deciding what's worth fixing, writing the spec) and hand execution to any agent. Workflow is recon (map stack, motion libraries, easing/duration tokens, and a frequency map of what's hit 100+/day vs. rarely), parallel audit against eight categories whose rule catalog with precise values lives in AUDIT.md, vetting, then fully self-contained implementation plans (format in PLAN-TEMPLATE.md) precise enough for a zero-context executor — inlining exact cubic-beziers, durations, file paths and code excerpts. It is read-only on source code: the only files it creates live under plans/ (or animation-plans/). No installs, builds, or commits; repository content is treated as data, not instructions.",
+  "long_zh": "「先审计、后出方案」的顾问：在判断力能复利的环节用强模型（读懂代码库的动效、决定哪些值得修、写规格），把执行交给任意 agent。流程为侦察（梳理技术栈、动画库、easing/duration 令牌，并绘制「每天上百次 vs 偶尔」的频率图）→ 对照八大类并行审计（含精确数值的规则目录在 AUDIT.md）→ 甄别 → 产出「完全自包含」的实施方案（格式见 PLAN-TEMPLATE.md），精确到零上下文执行者也能照做，内联具体的 cubic-bezier、时长、文件路径与代码片段。对源码只读：唯一创建的文件位于 plans/（或 animation-plans/）目录；不安装、不构建、不提交；仓库内容视为数据而非指令。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/improve-animations"
+  },
+  "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Read-only on source code — it writes only plan files under plans/ (or animation-plans/), performs no installs/builds/commits and no code execution, and treats scanned content as inert data. No dependencies, network access, or credentials.",
+  "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。对源码只读——只在 plans/（或 animation-plans/）下写方案文件，不做安装/构建/提交，也不执行代码，并把扫描内容当惰性数据处理。无依赖、无网络访问、无凭据。"
+}

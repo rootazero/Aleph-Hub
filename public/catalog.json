@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 233,
-    "generated_at": "2026-07-15T05:53:55.432Z",
-    "content_hash": "sha256:8e502bdd9148382b557fa928ad934a2c648d8c58156a0d4c21511fdc7ef7cca1"
+    "entry_count": 239,
+    "generated_at": "2026-07-18T04:58:34.904Z",
+    "content_hash": "sha256:82f93fd60263fff0f2503842c7932a33d57b5e3a8744397bac82db0dab7c6a3d"
   },
   "entries": [
     {
@@ -3268,6 +3268,156 @@
         "data"
       ],
       "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:emilkowalski/skills/animation-vocabulary",
+      "kind": "skill",
+      "category": "design",
+      "name": "Animation Vocabulary",
+      "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in). For naming an effect, not designing or building one.",
+      "repo_url": "https://github.com/emilkowalski/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/emilkowalski/skills",
+        "subdir": "skills/animation-vocabulary",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "emilkowalski",
+      "tags": [
+        "animation",
+        "motion-design",
+        "glossary",
+        "vocabulary",
+        "reference"
+      ],
+      "via": "github:emilkowalski"
+    },
+    {
+      "id": "aleph-hub:emilkowalski/skills/apple-design",
+      "kind": "skill",
+      "category": "design",
+      "name": "Apple Design",
+      "description": "Apple's approach to fluid, physical interface motion translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials, typography, and reduced-motion.",
+      "repo_url": "https://github.com/emilkowalski/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/emilkowalski/skills",
+        "subdir": "skills/apple-design",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "emilkowalski",
+      "tags": [
+        "apple",
+        "animation",
+        "spring-animation",
+        "gestures",
+        "ui-design"
+      ],
+      "via": "github:emilkowalski"
+    },
+    {
+      "id": "aleph-hub:emilkowalski/skills/emil-design-eng",
+      "kind": "skill",
+      "category": "design",
+      "name": "Design Engineering (Emil Kowalski)",
+      "description": "Encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "repo_url": "https://github.com/emilkowalski/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/emilkowalski/skills",
+        "subdir": "skills/emil-design-eng",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "emilkowalski",
+      "tags": [
+        "design-engineering",
+        "ui-polish",
+        "animation",
+        "frontend",
+        "taste"
+      ],
+      "via": "github:emilkowalski"
+    },
+    {
+      "id": "aleph-hub:emilkowalski/skills/find-animation-opportunities",
+      "kind": "skill",
+      "category": "design",
+      "name": "Find Animation Opportunities",
+      "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it.",
+      "repo_url": "https://github.com/emilkowalski/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/emilkowalski/skills",
+        "subdir": "skills/find-animation-opportunities",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "emilkowalski",
+      "tags": [
+        "animation",
+        "code-audit",
+        "motion-design",
+        "read-only",
+        "restraint"
+      ],
+      "via": "github:emilkowalski"
+    },
+    {
+      "id": "aleph-hub:emilkowalski/skills/improve-animations",
+      "kind": "skill",
+      "category": "design",
+      "name": "Improve Animations",
+      "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source — it plans improvements, it does not apply them.",
+      "repo_url": "https://github.com/emilkowalski/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/emilkowalski/skills",
+        "subdir": "skills/improve-animations",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "emilkowalski",
+      "tags": [
+        "animation",
+        "audit",
+        "motion-design",
+        "implementation-plan",
+        "read-only"
+      ],
+      "via": "github:emilkowalski"
+    },
+    {
+      "id": "aleph-hub:emilkowalski/skills/review-animations",
+      "kind": "skill",
+      "category": "design",
+      "name": "Review Animations",
+      "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design-engineering philosophy. Default to flagging; approval is earned, not assumed.",
+      "repo_url": "https://github.com/emilkowalski/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/emilkowalski/skills",
+        "subdir": "skills/review-animations",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "emilkowalski",
+      "tags": [
+        "animation",
+        "code-review",
+        "motion-design",
+        "craft",
+        "read-only"
+      ],
+      "via": "github:emilkowalski"
     },
     {
       "id": "aleph-hub:obra/superpowers",

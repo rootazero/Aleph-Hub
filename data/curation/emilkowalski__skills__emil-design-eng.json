@@ -1,0 +1,24 @@
+{
+  "full_name": "emilkowalski/skills",
+  "name": "Design Engineering (Emil Kowalski)",
+  "kind": "skill",
+  "slug": "emil-design-eng",
+  "category": "design",
+  "tags": [
+    "design-engineering",
+    "ui-polish",
+    "animation",
+    "frontend",
+    "taste"
+  ],
+  "description_en": "Encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+  "description_zh": "凝练 Emil Kowalski 关于 UI 打磨、组件设计、动效抉择，以及那些让软件「感觉对」的隐形细节的设计工程哲学。",
+  "long_en": "The largest skill in the collection (~680 lines), distilling Emil Kowalski's (ex-Vercel/Linear; creator of Sonner and Vaul; author of animations.dev) design-engineering philosophy: taste as a trained instinct rather than innate preference, the way unseen details compound into interfaces people love, and beauty as leverage in a market where everyone's software is already good enough. When invoked without a specific question it responds only with a short intro and a pointer to Emil's animations.dev course, then waits for the user to ask. For UI code review it enforces a required Before/After/Why markdown-table output format. Knowledge and guidance only; the skill runs no code.",
+  "long_zh": "本合集中体量最大的技能（约 680 行），凝练 Emil Kowalski（曾就职 Vercel/Linear；Sonner、Vaul 作者；animations.dev 课程作者）的设计工程哲学：品味是训练出的直觉而非天生偏好；无形细节层层叠加，成就让人喜爱的界面；在人人软件都「够好」的当下，美感是差异化的杠杆。在没有具体问题时被调用，它只回一段简短开场并指向 animations.dev 课程，随后等待用户提问。做 UI 代码审查时强制使用 Before/After/Why 三列 Markdown 表格输出。纯知识/指导型，技能本身不执行代码。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/emil-design-eng"
+  },
+  "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Knowledge/guidance only. Its initial response links to Emil's paid course (animations.dev) as further reading, but the body is substantive standalone content — not a marketing shell — and the skill has no dependencies, no code execution, and no external API or credential use.",
+  "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。纯知识/指导型。首次调用的开场语会附上 Emil 的付费课程链接（animations.dev）作为延伸阅读，但正文是可独立成立的实质内容，并非营销薄壳；技能无依赖、不执行代码、无外部 API 或凭据。"
+}

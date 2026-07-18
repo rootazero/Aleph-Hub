@@ -1,0 +1,24 @@
+{
+  "full_name": "emilkowalski/skills",
+  "name": "Review Animations",
+  "kind": "skill",
+  "slug": "review-animations",
+  "category": "design",
+  "tags": [
+    "animation",
+    "code-review",
+    "motion-design",
+    "craft",
+    "read-only"
+  ],
+  "description_en": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design-engineering philosophy. Default to flagging; approval is earned, not assumed.",
+  "description_zh": "以源自 Emil Kowalski 设计工程哲学的高工艺标准审查动画/动效代码。默认倾向于挑问题；通过是要「挣来」的，而非默认给。",
+  "long_en": "A specialized motion code-review skill that measures a diff against ten non-negotiable standards: justified motion, frequency-appropriate motion (keyboard/100+-per-day actions get none), responsive easing (ease-in on UI is a block), sub-300ms UI, correct transform-origin (never animate from scale(0)), interruptibility, GPU-only properties (transform/opacity only), reduced-motion accessibility, asymmetric enter/exit, and cohesion. The full rule catalog — easing curves, duration tables, spring configs, gestures, clip-path, performance, a11y — lives in STANDARDS.md, loaded when a finding needs a precise value. Marked disable-model-invocation, so it runs only when the user explicitly invokes it. Read-only review; it declines to review non-motion code and points to a general review skill.",
+  "long_zh": "专门的动效代码审查技能，用十条不可妥协的标准衡量 diff：动效需有正当理由、与出现频率匹配（键盘/每天上百次的操作不加动效）、响应式缓动（UI 上用 ease-in 直接判否）、UI 动效低于 300ms、正确的 transform-origin（绝不从 scale(0) 起步）、可打断、只用 GPU 属性（仅 transform/opacity）、减弱动效的可访问性、进出场不对称、以及整体协调。完整规则目录（缓动曲线、时长表、弹簧配置、手势、clip-path、性能、a11y）在 STANDARDS.md，需要精确数值时才加载。标注了 disable-model-invocation，仅在用户显式调用时运行。只读审查；遇到非动效代码会婉拒并指向通用审查技能。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/review-animations"
+  },
+  "sec_note_en": "MIT-licensed (© 2026 Emil Kowalski). Read-only review — no code execution, writes, network access, or credentials. User-invocation only (disable-model-invocation is set).",
+  "sec_note_zh": "MIT 许可（© 2026 Emil Kowalski）。只读审查——不执行代码、不写入、不访问网络、无凭据。仅限用户显式调用（已设置 disable-model-invocation）。"
+}
