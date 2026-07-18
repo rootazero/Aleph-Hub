@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 240,
-    "generated_at": "2026-07-18T11:05:51.810Z",
-    "content_hash": "sha256:dd1184883b68e296dfcce4c57eed25864f2ff7d55bf17b2d73daf99ec01ce065"
+    "entry_count": 243,
+    "generated_at": "2026-07-18T11:29:47.982Z",
+    "content_hash": "sha256:9c4f390f5792521964b104ca17c02ed78728b493bd463af1e540250ce68c07ba"
   },
   "entries": [
     {
@@ -1948,7 +1948,7 @@
       "kind": "skill",
       "category": "developer",
       "name": "Ask Matt",
-      "description": "Ask which skill or flow fits your situation — a router over the user-invoked engineering skills in this repo.",
+      "description": "Ask which skill or flow fits your situation — a router over the skills in this repo.",
       "repo_url": "https://github.com/mattpocock/skills",
       "trust_tier": "verified",
       "install_spec": {
@@ -1964,6 +1964,30 @@
         "router",
         "orchestration",
         "agent"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/code-review",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Code Review",
+      "description": "Review the diff since a fixed point along two parallel axes — Standards (does it follow this repo's documented coding standards?) and Spec (does it implement what the originating issue/PRD asked?) — reported side by side.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/code-review",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "code-review",
+        "standards",
+        "spec-compliance",
+        "quality"
       ],
       "via": "github:mattpocock"
     },
@@ -2093,7 +2117,7 @@
       "kind": "skill",
       "category": "productivity",
       "name": "Grilling",
-      "description": "Interview the user relentlessly about a plan or design to stress-test it before building.",
+      "description": "Grill the user relentlessly about a plan, decision, or idea to stress-test their thinking — one question at a time down the decision tree — and don't act until shared understanding is confirmed.",
       "repo_url": "https://github.com/mattpocock/skills",
       "trust_tier": "verified",
       "install_spec": {
@@ -2167,7 +2191,7 @@
       "kind": "skill",
       "category": "developer",
       "name": "Prototype",
-      "description": "Build a throwaway prototype to flesh out a design — a runnable terminal app for state and business-logic questions, or several radically different UI variations toggleable from one route.",
+      "description": "Build a throwaway prototype to answer a design question — a runnable terminal app to sanity-check a state model or logic, or several radically different UI variations toggleable from one route.",
       "repo_url": "https://github.com/mattpocock/skills",
       "trust_tier": "verified",
       "install_spec": {
@@ -2183,6 +2207,30 @@
         "throwaway-code",
         "design",
         "ui-variations"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/research",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Research",
+      "description": "Delegate a research question to a background agent that investigates it against primary sources (official docs, source code, specs, first-party APIs) and leaves a single cited Markdown file in the repo.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/research",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "research",
+        "primary-sources",
+        "background-agent",
+        "documentation"
       ],
       "via": "github:mattpocock"
     },
@@ -2215,7 +2263,7 @@
       "kind": "skill",
       "category": "developer",
       "name": "TDD",
-      "description": "Test-driven development. Use when building features or fixing bugs test-first, when red-green-refactor is mentioned, or when you want integration tests.",
+      "description": "Test-driven development. Use when building features or fixing bugs test-first, when red-green is mentioned, or when you want integration tests.",
       "repo_url": "https://github.com/mattpocock/skills",
       "trust_tier": "verified",
       "install_spec": {
@@ -2229,7 +2277,8 @@
       "tags": [
         "tdd",
         "testing",
-        "red-green-refactor",
+        "red-green",
+        "seam",
         "integration-tests"
       ],
       "via": "github:mattpocock"
@@ -2260,49 +2309,49 @@
       "via": "github:mattpocock"
     },
     {
-      "id": "aleph-hub:mattpocock/skills/to-issues",
+      "id": "aleph-hub:mattpocock/skills/to-spec",
       "kind": "skill",
       "category": "developer",
-      "name": "To Issues",
-      "description": "Break a plan, spec, or PRD into independently-grabbable issues on your project issue tracker using tracer-bullet vertical slices.",
+      "name": "To Spec",
+      "description": "Turn the current conversation into a spec (you may know it as a PRD) and publish it to your project issue tracker — no interview, just synthesis of what you've already discussed.",
       "repo_url": "https://github.com/mattpocock/skills",
       "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/mattpocock/skills",
-        "subdir": "skills/engineering/to-issues",
+        "subdir": "skills/engineering/to-spec",
         "git_ref": "main"
       },
       "requires_config": false,
       "author": "mattpocock",
       "tags": [
-        "issues",
-        "planning",
-        "vertical-slices",
+        "spec",
+        "prd",
+        "synthesis",
         "issue-tracker"
       ],
       "via": "github:mattpocock"
     },
     {
-      "id": "aleph-hub:mattpocock/skills/to-prd",
+      "id": "aleph-hub:mattpocock/skills/to-tickets",
       "kind": "skill",
       "category": "developer",
-      "name": "To PRD",
-      "description": "Turn the current conversation into a PRD and publish it to your project issue tracker — no interview, just synthesis of what you've already discussed.",
+      "name": "To Tickets",
+      "description": "Break a plan, spec, or the current conversation into tracer-bullet tickets, each declaring its blocking edges — published to your tracker as native blocking links, or as text in a local tickets.md.",
       "repo_url": "https://github.com/mattpocock/skills",
       "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/mattpocock/skills",
-        "subdir": "skills/engineering/to-prd",
+        "subdir": "skills/engineering/to-tickets",
         "git_ref": "main"
       },
       "requires_config": false,
       "author": "mattpocock",
       "tags": [
-        "prd",
-        "product-spec",
-        "synthesis",
+        "tickets",
+        "planning",
+        "vertical-slices",
         "issue-tracker"
       ],
       "via": "github:mattpocock"
@@ -2328,6 +2377,30 @@
         "issues",
         "workflow",
         "github"
+      ],
+      "via": "github:mattpocock"
+    },
+    {
+      "id": "aleph-hub:mattpocock/skills/wayfinder",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Wayfinder",
+      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, resolving them one at a time until the route to the destination is clear.",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/mattpocock/skills",
+        "subdir": "skills/engineering/wayfinder",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "mattpocock",
+      "tags": [
+        "planning",
+        "decision-map",
+        "issue-tracker",
+        "large-projects"
       ],
       "via": "github:mattpocock"
     },

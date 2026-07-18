@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "code-review",
+  "name": "Code Review",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["code-review", "standards", "spec-compliance", "quality"],
+  "description_en": "Review the diff since a fixed point along two parallel axes — Standards (does it follow this repo's documented coding standards?) and Spec (does it implement what the originating issue/PRD asked?) — reported side by side.",
+  "description_zh": "沿两条并行轴审查自某个固定点以来的改动——Standards（是否遵循本仓库文档化的编码规范）与 Spec（是否实现了原始 issue/PRD 的要求）——并排给出结论。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/code-review folder, not the whole repo). It reviews the changes between HEAD and a user-supplied fixed point (commit, branch, tag, or merge-base) across two axes run as parallel sub-agents so they don't pollute each other's context — Standards conformance and Spec fidelity — then aggregates the findings. Its Standards axis carries an always-on baseline of ~12 high-signal Fowler 'Bad Smells in Code' alongside whatever the repo documents; a documented repo standard always overrides the baseline, and every smell is reported as a judgement call, never a hard violation.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/code-review 这一个目录，而非整仓）。它审查 HEAD 与用户指定固定点（commit、分支、tag 或 merge-base）之间的改动，沿两条轴以并行子 agent 运行以免互相污染上下文——Standards 合规性与 Spec 忠实度——再汇总结论。其 Standards 轴内置一份常开的约 12 条高信号 Fowler「代码坏味道」基线，与仓库自身文档化的规范并列；仓库文档化的规范始终覆盖该基线，且每条坏味道都作为判断项报告，绝不作为硬性违规。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/code-review"
+  },
+  "sec_note_en": "A read-only review skill: it reads your working tree, git history, the repo's documented coding standards, and the originating issue/PRD to produce a side-by-side report, and does not modify code. It needs the issue tracker configured (run setup-matt-pocock-skills) to fetch the originating spec.",
+  "sec_note_zh": "只读审查技能：它读取你的工作区、git 历史、仓库文档化的编码规范以及原始 issue/PRD 来生成并排报告，不会修改代码。需先配置好 issue 追踪器（运行 setup-matt-pocock-skills）以获取原始 spec。"
+}

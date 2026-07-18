@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "wayfinder",
+  "name": "Wayfinder",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["planning", "decision-map", "issue-tracker", "large-projects"],
+  "description_en": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, resolving them one at a time until the route to the destination is clear.",
+  "description_zh": "把一大块工作——超出单个 agent 会话所能承载的规模——规划成 issue 追踪器上一张共享的「决策工单」地图，逐个解决，直到通往目标的路线清晰。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/wayfinder folder, not the whole repo). Formerly decision-mapping, it charts a route through a foggy, oversized problem as a single wayfinder:map issue whose decision tickets are its child issues — one shared URL the team can watch. It plans rather than builds (the map produces decisions, not deliverables), pins a Destination each session orients to, prefers the tracker's native blocking edges so the frontier renders in the tracker's own UI, and stays tracker-agnostic (GitHub, GitLab, or local markdown).",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/wayfinder 这一个目录，而非整仓）。原名 decision-mapping，它把一个迷雾笼罩、体量过大的问题的路线绘制成单个 wayfinder:map issue，其决策工单是它的子 issue——一个团队可共同关注的共享 URL。它以规划而非施工为主（地图产出决策，而非交付物），每个会话都锚定一个 Destination，优先使用追踪器的原生 blocking 依赖以便前沿在追踪器自身 UI 中呈现，并保持追踪器无关（GitHub、GitLab 或本地 markdown）。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/wayfinder"
+  },
+  "sec_note_en": "This skill creates and updates a map issue plus child decision tickets on your configured tracker (GitHub, GitLab, or local file), so it needs write access there and will publish content. It reads your codebase and agent docs; the tracker vocabulary must be configured first via setup-matt-pocock-skills.",
+  "sec_note_zh": "该技能会在你配置的追踪器（GitHub、GitLab 或本地文件）上创建并更新一个地图 issue 及其子决策工单，因此需要写入权限，并会发布内容。它会读取你的代码库与 agent 文档；需先通过 setup-matt-pocock-skills 配置好追踪器术语。"
+}

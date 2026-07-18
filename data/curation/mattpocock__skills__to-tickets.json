@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "to-tickets",
+  "name": "To Tickets",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["tickets", "planning", "vertical-slices", "issue-tracker"],
+  "description_en": "Break a plan, spec, or the current conversation into tracer-bullet tickets, each declaring its blocking edges — published to your tracker as native blocking links, or as text in a local tickets.md.",
+  "description_zh": "把计划、规格或当前对话拆成曳光弹式工单，每个工单声明自己的阻塞依赖——发布到追踪器上作为原生 blocking 链接，或在本地 tickets.md 中以文本记录。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-tickets folder, not the whole repo). It merges the former to-plan and to-issues skills: it breaks a plan, spec, or conversation into thin vertical 'tracer bullet' slices, each declaring the tickets that block it. On a real tracker (GitHub/GitLab) the edges become native sub-issues and blocking links, so any ticket whose blockers are done sits on the frontier and several agents can run in parallel; on a local file the edges are written as text and worked top-to-bottom by hand. It also handles wide refactors via expand–contract so CI stays green batch to batch.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-tickets 这一个目录，而非整仓）。它合并了原来的 to-plan 与 to-issues：把计划、规格或对话拆成贯穿各层、端到端的薄「曳光弹」纵向切片，每个切片声明阻塞它的工单。在真实追踪器（GitHub/GitLab）上，这些依赖会变成原生子 issue 与 blocking 链接，于是任何阻塞项已完成的工单都处于前沿，多个 agent 可并行推进；在本地文件里则以文本记录依赖、自上而下手动推进。它还能用 expand–contract 处理大范围重构，让 CI 逐批保持绿灯。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/to-tickets"
+  },
+  "sec_note_en": "This skill creates tickets on your configured project issue tracker (GitHub, GitLab, or local files) and applies triage labels, so it needs write access to that tracker and will publish content there. It also reads your codebase, domain glossary, and ADRs to phrase tickets; setup of the tracker vocabulary is a prerequisite (run setup-matt-pocock-skills).",
+  "sec_note_zh": "该技能会在你配置的项目 issue 追踪器（GitHub、GitLab 或本地文件）上创建工单并打上分诊标签，因此需要对该追踪器的写入权限，并会在其中发布内容。它还会读取你的代码库、领域术语表和 ADR 来撰写工单；预先配置好追踪器术语是前提（运行 setup-matt-pocock-skills）。"
+}

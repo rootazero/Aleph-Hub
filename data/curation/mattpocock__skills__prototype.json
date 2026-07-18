@@ -5,8 +5,8 @@
   "kind": "skill",
   "category": "developer",
   "tags": ["prototype", "throwaway-code", "design", "ui-variations"],
-  "description_en": "Build a throwaway prototype to flesh out a design — a runnable terminal app for state and business-logic questions, or several radically different UI variations toggleable from one route.",
-  "description_zh": "构建一个用完即弃的原型来打磨设计——针对状态与业务逻辑问题做一个可运行的终端小程序，或在同一路由下生成几种风格迥异、可切换的 UI 变体。",
+  "description_en": "Build a throwaway prototype to answer a design question — a runnable terminal app to sanity-check a state model or logic, or several radically different UI variations toggleable from one route.",
+  "description_zh": "构建一个用完即弃的原型来回答某个设计问题——做一个可运行的终端小程序来验证状态模型或逻辑是否合理，或在同一路由下生成几种风格迥异、可切换的 UI 变体。",
   "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/prototype folder, not the whole repo). It picks one of two branches — a tiny interactive terminal app to stress-test a state machine or business logic, or several radically different UI variations switchable via a URL search param — building clearly-marked throwaway code with one run command, in-memory state, no polish, to be deleted or absorbed once it answers its question.",
   "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/prototype 这一个目录，而非整仓）。它会在两个分支中择一：要么做一个小型交互式终端程序来压测状态机或业务逻辑，要么生成几种通过 URL 查询参数切换的、风格迥异的 UI 变体；产出的是明确标记为用完即弃、只需一条命令运行、内存内保存状态、不做打磨的代码，待回答完问题后即删除或吸收进正式代码。",
   "install_spec": {
@@ -14,6 +14,6 @@
     "git_url": "https://github.com/mattpocock/skills",
     "subdir": "skills/engineering/prototype"
   },
-  "sec_note_en": "This skill scaffolds and runs throwaway code in your repo — a terminal app or extra UI routes — using your existing task runner, so it executes code locally and adds temporary files near where they're used. It avoids persistence by default; if the question involves a database it may hit a clearly-named scratch DB or local file. The prototype is meant to be deleted afterward.",
-  "sec_note_zh": "该技能会在你的仓库中搭建并运行用完即弃的代码——一个终端程序或额外的 UI 路由——使用你现有的任务运行器，因此会在本地执行代码，并在使用处附近添加临时文件。它默认不做持久化；若问题涉及数据库，可能会使用命名清晰的临时数据库或本地文件。该原型用后应被删除。"
+  "sec_note_en": "This skill scaffolds and runs throwaway code in your repo — a terminal app or extra UI routes — using your existing task runner, so it executes code locally and adds temporary files near where they're used. It avoids persistence by default; if the question involves a database it may hit a clearly-named scratch DB or local file. The prototype is meant to be deleted afterward. As of v1.1 it is model-invocable, so the agent may reach for it autonomously when a design question comes up.",
+  "sec_note_zh": "该技能会在你的仓库中搭建并运行用完即弃的代码——一个终端程序或额外的 UI 路由——使用你现有的任务运行器，因此会在本地执行代码，并在使用处附近添加临时文件。它默认不做持久化；若问题涉及数据库，可能会使用命名清晰的临时数据库或本地文件。该原型用后应被删除。自 v1.1 起它可被模型自动调用，因此在出现设计问题时智能体可能自主触发它。"
 }

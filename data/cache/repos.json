@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "W/\"07d276768f1113fc71a02da2aa141ae03f1f2fd78b21a75e7a2cd8ab39c4c188\"",
+    "etag": "\"07d276768f1113fc71a02da2aa141ae03f1f2fd78b21a75e7a2cd8ab39c4c188\"",
     "readme_hash": "6d598c12744e70258ce26f0174a31f000512098aea7962947d676ca0f70c379f",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"6b514578b67c1fe210d2957f9fabb98f33e51d1d3f6a6f93646013d78d0d3400\"",
+    "etag": "W/\"0cee806b665869e16288b83298e4c71473932b52f0fbac8c56694f4c2faf091c\"",
     "readme_hash": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "W/\"5c18ea2d8e86363397f3f25ce87ecb0a0f56f39fa2c8eac80cce6090f6455fdc\"",
+    "etag": "\"5c18ea2d8e86363397f3f25ce87ecb0a0f56f39fa2c8eac80cce6090f6455fdc\"",
     "readme_hash": "0e256eb8021310801626f0db621b72f38d6411227f72f8c325abcba6416705c8",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"0ed0c4fe8df396b8817a2a793a7c27ab92d503c1b2f8cc13e4a3671b2e101780\"",
+    "etag": "W/\"5c623890cc0355d5962893a0a6099f86f89d50e688988d3fa323eada0ef83287\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"05f0ea317f5ee557cf7ff04c33c3a404a5a9c169d7b01adc6c0943a1eb5840be\"",
+    "etag": "W/\"89297ea719d8590048dc304edcf51d31cb680467d0da3e83a16e3dad2200bd1e\"",
     "readme_hash": "d15bbc144338964f151a2520ac8691d4356cc470eb6d3148c69ceab61e0cd434",
     "entries": [
       {
@@ -203,8 +203,8 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"31c7c0d33f7f48a80ed000de2edca3fd843ba3851b749e4ba2e5efaa961c37ab\"",
-    "readme_hash": "03b497ce3b405fc55cec0f4bb71adaf1a6699336d9d7d4fd41318bc4eb86fe0d",
+    "etag": "W/\"67a1f433873365db5df14bf99a1ac169a3d486df6be34fbf1baa566bb3967fc3\"",
+    "readme_hash": "f331d3b45e1b6990e8bd240ed5492d7ff43ec116ec39501533b61bcadc2f619e",
     "entries": [
       {
         "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
@@ -238,7 +238,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"5d1663cda36cd438b75db2b4fced8479eefab0583fc0372d282129cfb0b04c98\"",
+    "etag": "W/\"8515e3e31ae0a1c93341140ae1108442faa0a195b64f531508833438eb9b9197\"",
     "readme_hash": "62454b369d477a4257ee39aa28b407e281b3641f5facef2cc9f4f5a01e6cc50e",
     "entries": [
       {
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "W/\"df9cd07967519b9993311f8235d93388cb334c2699d7f895e425e2c2bedff52c\"",
+    "etag": "\"df9cd07967519b9993311f8235d93388cb334c2699d7f895e425e2c2bedff52c\"",
     "readme_hash": "a526ab2482a02bdfbc2920782640a810ef9dace5a19516a88d5d5a18eef6549a",
     "entries": [
       {
@@ -343,7 +343,7 @@
     ]
   },
   "Bhanunamikaze/Agentic-SEO-Skill": {
-    "etag": "W/\"3a53121f96738eb05f1dc8fb89c9b1e6a6a9125086506c7803c7475f1d186478\"",
+    "etag": "\"3a53121f96738eb05f1dc8fb89c9b1e6a6a9125086506c7803c7475f1d186478\"",
     "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
     "entries": [
       {
@@ -413,7 +413,7 @@
     ]
   },
   "ckelsoe/prompt-architect": {
-    "etag": "W/\"0dfbdba599f7749e9099ff1af0b5bec4cb2c4268ff5cf7ea419d9482c9e65586\"",
+    "etag": "\"0dfbdba599f7749e9099ff1af0b5bec4cb2c4268ff5cf7ea419d9482c9e65586\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entries": [
       {
@@ -448,7 +448,7 @@
     ]
   },
   "JamesShi96/project-butler": {
-    "etag": "\"eb41a4a3ba2efc13685b7fcfc6c1d0ce6016e8a27a6dfec8669fe0cfdd885ba9\"",
+    "etag": "W/\"f213547a4037750147f3aad1e1c3e124378183cb750b8f47c39bc7986bb16ded\"",
     "readme_hash": "27159f8e9c5a8b607eee0fe499c1f409123f3a7df54fd40a2a9ff47e5ed690af",
     "entries": [
       {
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "W/\"dabb19cc2aebc753edd67a94c172ab473de37bebf89d9c2019a001565b4dfe2a\"",
+    "etag": "\"dabb19cc2aebc753edd67a94c172ab473de37bebf89d9c2019a001565b4dfe2a\"",
     "readme_hash": "3126c0436e423d7b4ace01a1475d54a6453663dcce7887896024d2461f6127ae",
     "entries": [
       {
@@ -1021,7 +1021,7 @@
     ]
   },
   "Hao0321/ai-media-generator": {
-    "etag": "\"7398e2ddaaa156a3739175c094e68249422d1daafdec9d0b17a8f0b76ee07352\"",
+    "etag": "W/\"4d43ec1e884349518b209240c3247b9de8a27f02333f4665977571e956ab9062\"",
     "readme_hash": "b1897a089d051bcbbd5903c4f82dd57d2d10beb75bdf72af249533b8f79edfda",
     "entries": [
       {
@@ -1093,7 +1093,7 @@
     ]
   },
   "uxKero/anydesign": {
-    "etag": "W/\"2e84802f18fe25c414d35429ed36cf33b705d2f8a6756b5bee5e66a1ff143d1b\"",
+    "etag": "\"2e84802f18fe25c414d35429ed36cf33b705d2f8a6756b5bee5e66a1ff143d1b\"",
     "readme_hash": "b75f51ae14fc64363306931b1f298b239376d206c7dd7b8c612eb65118bc0156",
     "entries": [
       {
@@ -1201,7 +1201,7 @@
     ]
   },
   "zy-zmc/tianming-skill": {
-    "etag": "W/\"59d49384df7e7cbd4f025b2759b5dfe997135245b5f0205e27bbdf15aaf6d2ed\"",
+    "etag": "\"59d49384df7e7cbd4f025b2759b5dfe997135245b5f0205e27bbdf15aaf6d2ed\"",
     "readme_hash": "b6502b8e71d5499ccfae97ebc597847c414d7566e39a0ee7799d060a31e67868",
     "entries": [
       {
@@ -1921,7 +1921,7 @@
     ]
   },
   "Danielbluz/skill-irpf-brasil": {
-    "etag": "\"24024b4d2760ef7530c792eec284c59d33ad4239f5495f4e2edb68962d8e8cb2\"",
+    "etag": "W/\"e7251ffc559f3db8970825b429b1145a5c41b4770150b761a8681fd428cd78ef\"",
     "readme_hash": "533340adfd32144e2c5494970b28ae9b7d7e08fd67d6dbbd4777589a2994e637",
     "entries": [
       {
@@ -1957,7 +1957,7 @@
     ]
   },
   "Bhanunamikaze/AI-Dataset-Generator": {
-    "etag": "W/\"8595ad9b3ebf6901815ead380050a394bf4d81d80b634da71382ad425ac16a88\"",
+    "etag": "\"8595ad9b3ebf6901815ead380050a394bf4d81d80b634da71382ad425ac16a88\"",
     "readme_hash": "20d2e688bc71e63555f022cfbe130d32cab911c6f08a51e7b5db86a9883afcbd",
     "entries": [
       {
@@ -2173,7 +2173,7 @@
     ]
   },
   "Mobiss11/Whisper-Skill": {
-    "etag": "W/\"7b1409256afe7de1fac2213dc88e6702a8e2f5656ae56462b0a6937b1734f6f3\"",
+    "etag": "\"7b1409256afe7de1fac2213dc88e6702a8e2f5656ae56462b0a6937b1734f6f3\"",
     "readme_hash": "15eb7e3fb4b2c192055ede3f0ccbe1a30e03428cf23d0a40f496334365891b93",
     "entries": [
       {
@@ -2209,7 +2209,7 @@
     ]
   },
   "patrickstigler/claude-skill-it-recht-dsgvo": {
-    "etag": "W/\"a738fd6a3310bc8ea1ea100c3495edb7df0725489cf6ce4392a6d9767e90ed3e\"",
+    "etag": "\"a738fd6a3310bc8ea1ea100c3495edb7df0725489cf6ce4392a6d9767e90ed3e\"",
     "readme_hash": "470879a20ceffa30f180d63de9ab3c9813ab5f72c5cb4100ee4d6bc5a84dc9bc",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"705e5b1a1f64bb799f40c01a1346659e7a980cfa03d47c17b2a5b5bce53eb9af\"",
+    "etag": "W/\"ea8757c47f6b3b02cf182fadc114a7c2ab6b87213efea8ad50143a4b4a7bdd1e\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2281,7 +2281,7 @@
     ]
   },
   "917Dhj/DeepPaperNote": {
-    "etag": "W/\"1b48988704b0babecb91a3a9b29ee12883f81badd6e10d3cc8703290d5572d1e\"",
+    "etag": "\"1b48988704b0babecb91a3a9b29ee12883f81badd6e10d3cc8703290d5572d1e\"",
     "readme_hash": "29ba61d1e4eff76eb4a1a21c07aeaa4cf7070062c4d49a06841a7cd77c4f7547",
     "entries": [
       {
@@ -2533,7 +2533,7 @@
     ]
   },
   "claude-world/notebooklm-skill": {
-    "etag": "W/\"daabbe0a72f248b9a2b7967c1c7af5225df6f84931dc1348567c56f7fea70ce8\"",
+    "etag": "\"daabbe0a72f248b9a2b7967c1c7af5225df6f84931dc1348567c56f7fea70ce8\"",
     "readme_hash": "7d73f30fdc6a29d90ab067fa0236517f7acae397935a8e2f0b0f2c921d8bf148",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "W/\"a894cc92e14434c7c7c1ffac448dacf5a248c654fbf6462f8bae496ea8e34bee\"",
+    "etag": "\"a894cc92e14434c7c7c1ffac448dacf5a248c654fbf6462f8bae496ea8e34bee\"",
     "readme_hash": "af5962ae04b759bc9cc89b21ba32adf71d7f8d206755f261a7db231acc55fd55",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"4f85452c28fbd62e7112e0fc275fae5fb3261b4cbee20f98382a79ad56c724a9\"",
+    "etag": "W/\"f505d584eacc40c6674bc014494d1d5877e7df7046b5f5510bdad9daf7a187d9\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"61945a82818387622440494e224a9231a67addea4c6778f2d5ca6c19da6dd27e\"",
+    "etag": "W/\"34a2700c8c85b44584218d4a01d02c22d3d91deaa781259224aabcc5ae6f05e2\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,7 +3038,7 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"d1f7d465dab0e558249683a2525633d319c508020b66cfa32ce3495fa8ce6d41\"",
+    "etag": "W/\"df6a214c8eeb56272e51649afd7b2ace776365b65b046ec5742580c9a95fafc5\"",
     "readme_hash": "b7b72939a4de8f789aa32558bb177aec383409d87445a81f2b4a917028b5b079",
     "entries": [
       {
@@ -3075,7 +3075,7 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"e6ccb67266dc8039916f8a1e29afe155f517046a59a92ed755737711672bbd1d\"",
+    "etag": "W/\"4230dbbc22e951980bbb41f7e9c1c77b4e39bea256f053b037cdde744c083d13\"",
     "readme_hash": "5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978",
     "entries": [
       {
@@ -3149,7 +3149,7 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"f675787be0a67577d89e458fa8f59dcbc23e6e8349b0480c8c7b6f8885070d92\"",
+    "etag": "W/\"9cab8531f2d09fa2378d802754bae3b3e12311e00f574f28c32dc22ee3eeaf0e\"",
     "readme_hash": "0de5a8d9308033562b09ff5c855aa15a23d3b59e3e03967f2d43462653b44ad6",
     "entries": [
       {
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "W/\"e0826f82ad6f3f95b35e0166ce7afd6367530583b16bd547d9a258b9096d72d1\"",
+    "etag": "\"e0826f82ad6f3f95b35e0166ce7afd6367530583b16bd547d9a258b9096d72d1\"",
     "readme_hash": "1ba31db91d2759854cb4c1a84d59a6af76c965b548adb2c3c5d552ae2d40afac",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"722c07a53ba6c70029de00bca873e87caeb78f22c81d1d2558f1c2ee9a1111f1\"",
+    "etag": "W/\"520e511d1be3bf15a3403b839fbe064bd5abb0494c9e49e31373ce954e02e163\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"01246bd08b187e3ff2397344c8cf27ccc0f158ef6fb130782fba3fd13d882dca\"",
+    "etag": "W/\"df6ba579ebd509f3a32a0951f7396fee3395cbc063aa24f75fcc687c05cc39e8\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "W/\"e7ac8c497a33b5fed5072926cb7905238c7aa3031f10a63f6ca596b123b4bd91\"",
+    "etag": "\"e7ac8c497a33b5fed5072926cb7905238c7aa3031f10a63f6ca596b123b4bd91\"",
     "readme_hash": "de7a1eb9eed575b90489621f53e5b506be9588f3d2494c92c764bd297978b0df",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"22d30438777da1d189c139245ed17dd3e5cb2cb963713aa3ad2700af4471cf32\"",
+    "etag": "W/\"4415d336a2121dcb5d885a40c9e852497a612755093ebe31ea655d69ffdc8efa\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"a587db8bdec32b30b069eb0fd6dc3c89f23570f17509235ff2d195db867724ce\"",
+    "etag": "W/\"bb838e3fcc211292609aea3b80da108617e53e624ac97246794fc0e6553569d5\"",
     "readme_hash": "b5f411781b131fd16cc712100dd5ffc3f97bb3e22a5aba5e2b14a549d42fc86a",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "W/\"5e48beff8cb4cc96d768a3fd6faf7b3cb1c62497d2a0a1794a46ffd657ec9e9d\"",
+    "etag": "\"5e48beff8cb4cc96d768a3fd6faf7b3cb1c62497d2a0a1794a46ffd657ec9e9d\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "W/\"b3d2824b8818d03e33f78a83e51d069c19ec5058f822f5c66d099c41d603ba16\"",
+    "etag": "\"b3d2824b8818d03e33f78a83e51d069c19ec5058f822f5c66d099c41d603ba16\"",
     "readme_hash": "8517af00225e986986188b75a145b428b63270128fd78739324ee4d4f3f5f9ca",
     "entries": [
       {
@@ -3682,544 +3682,6 @@
       }
     ]
   },
-  "mattpocock/skills": {
-    "etag": "W/\"c74a0cf27f274781da2a9a60a441c0c7979031cde38fd40ba503233109b2273b\"",
-    "readme_hash": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
-    "entries": [
-      {
-        "id": "aleph-hub:mattpocock/skills/ask-matt",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Ask Matt",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "workflow",
-          "router",
-          "orchestration",
-          "agent"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/ask-matt",
-          "git_ref": "main"
-        },
-        "description_en": "Ask which skill or flow fits your situation — a router over the user-invoked engineering skills in this repo.",
-        "description_zh": "询问哪个技能或工作流最适合你当前的处境——是这个仓库里所有用户调用型工程技能的路由器。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/ask-matt folder, not the whole repo). It acts as a router that, in conversation, maps your situation onto the right skill or flow (the idea-to-ship main flow, on-ramps like triage, and standalone helpers), explaining when to chain grill-with-docs, prototype, to-prd, to-issues, and handoff.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/ask-matt 这一个目录，而非整仓）。它扮演路由器的角色，在对话中把你当前的处境映射到合适的技能或工作流（从想法到交付的主流程、triage 等入口、以及独立辅助技能），讲清何时串联 grill-with-docs、prototype、to-prd、to-issues 与 handoff。",
-        "sec_note_en": "Pure conversational orchestration: it only reads your description and recommends which other skill to run. No external side effects, no code execution, no file writes of its own. It merely points at other skills (some of which do have side effects) — running those is a separate, explicit step.",
-        "sec_note_zh": "纯对话式编排：它只读取你的描述并推荐该运行哪个其他技能。自身没有外部副作用、不执行代码、不写文件。它只是指向其他技能（其中部分技能确实有副作用）——运行那些技能是单独且明确的步骤。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/codebase-design",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Codebase Design",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "architecture",
-          "deep-modules",
-          "interfaces",
-          "testability"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/codebase-design",
-          "git_ref": "main"
-        },
-        "description_en": "Shared vocabulary for designing deep modules. Use when designing or improving a module's interface, finding deepening opportunities, deciding where a seam goes, or making code more testable and AI-navigable.",
-        "description_zh": "设计深模块的统一词汇表。适用于设计或改进模块接口、寻找加深模块的机会、决定接缝位置，或让代码更易测试、更便于 AI 导航时。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/codebase-design folder, not the whole repo). It supplies a precise glossary (module, interface, implementation, depth, seam, adapter, leverage, locality) and principles for designing deep modules — lots of behaviour behind a small interface at a clean seam — guiding interface simplification, seam placement, and testability decisions.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/codebase-design 这一个目录，而非整仓）。它提供一套精确的词汇表（模块、接口、实现、深度、接缝、适配器、杠杆、局部性）和设计深模块的原则——即在干净的接缝处用小接口承载大量行为——用于指导接口精简、接缝定位和可测试性决策。",
-        "sec_note_en": "This skill is reference vocabulary and design guidance that shapes how the agent reasons about and discusses module design; it has no inherent external side effects. Any code or doc changes happen only when you apply its recommendations through other tools, and it may read CONTEXT.md and ADRs to align terminology.",
-        "sec_note_zh": "该技能是一套参考词汇与设计指引，用于塑造 agent 推理和讨论模块设计的方式，本身没有外部副作用。只有当你通过其他工具采纳其建议时才会产生代码或文档变更，它还可能读取 CONTEXT.md 和 ADR 以对齐术语。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/diagnosing-bugs",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Diagnosing Bugs",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "debugging",
-          "diagnosis",
-          "testing",
-          "performance"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/diagnosing-bugs",
-          "git_ref": "main"
-        },
-        "description_en": "A disciplined diagnosis loop for hard bugs and performance regressions; use when something is broken, throwing, failing, or slow.",
-        "description_zh": "针对疑难 bug 和性能退化的严谨诊断循环；当出现报错、崩溃、失败或变慢时使用。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/diagnosing-bugs folder, not the whole repo). It walks the agent through a phased diagnosis discipline — first build a tight, red-capable feedback loop (failing test, curl, CLI, replay, bisection, etc.), then reproduce and minimise, hypothesise, instrument, fix, and add a regression test — refusing to theorise before a reproducing signal exists.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/diagnosing-bugs 这一个目录，而非整仓）。它引导 agent 走一套分阶段的诊断纪律——先构建一个紧凑、能变红的反馈循环（失败的测试、curl、CLI、回放、二分等），再复现并最小化、提出假设、加埋点、修复并补上回归测试——在出现可复现信号之前拒绝凭空推理。",
-        "sec_note_en": "This skill actively runs code against your project: it writes and executes failing tests, curl/HTTP scripts, CLI invocations, headless-browser drivers, and may add temporary instrumentation. As a last resort it can request access to a reproducing environment or production instrumentation. Review what it runs; commands execute in your repo with your credentials and environment.",
-        "sec_note_zh": "该技能会主动在你的项目上运行代码：它会编写并执行失败的测试、curl/HTTP 脚本、CLI 调用、无头浏览器驱动，并可能添加临时埋点。作为最后手段，它可能请求访问可复现的环境或生产环境埋点。请审查它运行的内容；这些命令会在你的仓库中以你的凭据和环境执行。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/domain-modeling",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Domain Modeling",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "domain-modeling",
-          "ubiquitous-language",
-          "adr",
-          "glossary"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/domain-modeling",
-          "git_ref": "main"
-        },
-        "description_en": "Build and sharpen a project's domain model. Use when pinning down domain terminology or a ubiquitous language, recording an architectural decision, or when another skill needs to maintain the domain model.",
-        "description_zh": "构建并打磨项目的领域模型。适用于厘清领域术语或统一语言、记录架构决策、或其他技能需要维护领域模型时。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/domain-modeling folder, not the whole repo). It actively challenges terms, sharpens fuzzy language into canonical terms, stress-tests relationships with concrete edge-case scenarios, cross-checks claims against the code, and writes the glossary into CONTEXT.md (or per-context files via CONTEXT-MAP.md) and decisions into docs/adr/ as they crystallize.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/domain-modeling 这一个目录，而非整仓）。它会主动挑战术语、把模糊用语收敛成规范术语、用具体的边界场景压测概念间的关系、把陈述与代码相互印证，并在术语和决策成形时把术语表写入 CONTEXT.md（或经由 CONTEXT-MAP.md 写入各上下文文件）、把决策写入 docs/adr/。",
-        "sec_note_en": "This skill creates and edits documentation files in your repo — CONTEXT.md, CONTEXT-MAP.md, and ADRs under docs/adr/ — and reads your source to cross-check claims. It is otherwise conversational with no external side effects; the main effect is new and modified docs in your working tree.",
-        "sec_note_zh": "该技能会在你的仓库中创建和编辑文档文件——CONTEXT.md、CONTEXT-MAP.md 以及 docs/adr/ 下的 ADR——并会读取你的源码以相互印证陈述。除此之外它以对话为主、无外部副作用；主要影响是在工作区中新增和修改文档。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/grill-me",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Grill Me",
-        "author": "mattpocock",
-        "category": "productivity",
-        "tags": [
-          "planning",
-          "design",
-          "interview",
-          "stress-test",
-          "review"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/productivity/grill-me",
-          "git_ref": "main"
-        },
-        "description_en": "A relentless interview that stress-tests a plan or design until you reach shared understanding.",
-        "description_zh": "用一场穷追不舍的访谈来压力测试你的方案或设计，直到双方达成共识。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grill-me folder, not the whole repo). It is a user-invoked entry point that kicks off a grilling session: the agent interviews you one question at a time about every branch of your plan or design, recommending an answer for each, until the whole decision tree is resolved.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grill-me 这一个目录，而非整仓）。它是一个由用户手动触发的入口，启动一场“烤问”会话：智能体就你方案或设计的每一个分支逐条提问，每次只问一个问题并给出推荐答案，直到整棵决策树被逐一厘清。",
-        "sec_note_en": "Pure conversational orchestration: it only drives a question-and-answer interview and makes no external changes (no files written, no commands run, no network access). The agent may read your codebase to answer questions it can resolve itself.",
-        "sec_note_zh": "纯对话式编排：它只驱动一问一答的访谈，不做任何外部改动（不写文件、不执行命令、不联网）。智能体可能会读取你的代码库来自行解答某些问题。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/grill-with-docs",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Grill With Docs",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "planning",
-          "design",
-          "documentation",
-          "adr"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/grill-with-docs",
-          "git_ref": "main"
-        },
-        "description_en": "A relentless interview that sharpens a plan or design while producing docs (ADRs and a glossary) as you go.",
-        "description_zh": "一场刨根问底的访谈，在打磨方案或设计的同时随手产出文档（ADR 和术语表）。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/grill-with-docs folder, not the whole repo). It runs a stateful grilling session against your existing domain model, interrogating a plan one question at a time to expose gaps, and crystallises decisions inline by updating CONTEXT.md, ADRs, and the project glossary as terms get sharpened.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/grill-with-docs 这一个目录，而非整仓）。它针对你既有的领域模型运行一场有状态的拷问会话，逐个问题地审讯方案以暴露盲点，并在术语被打磨清晰的同时就地落定决策——更新 CONTEXT.md、ADR 和项目术语表。",
-        "sec_note_en": "Mostly a conversational planning skill, but it does write to your repo: it creates and edits CONTEXT.md, ADR files, and a glossary as decisions land. It also depends on the sibling grilling and domain-modeling skills being available. No code execution, but review the doc changes it commits to your working tree.",
-        "sec_note_zh": "它主要是一个对话式的规划技能，但确实会写入你的仓库：随着决策落定，它会创建并编辑 CONTEXT.md、ADR 文件和术语表。它还依赖同仓的 grilling 与 domain-modeling 技能可用。不执行代码，但请审查它写入工作区的文档改动。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/grilling",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Grilling",
-        "author": "mattpocock",
-        "category": "productivity",
-        "tags": [
-          "planning",
-          "design",
-          "interview",
-          "stress-test",
-          "review"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/productivity/grilling",
-          "git_ref": "main"
-        },
-        "description_en": "Interview the user relentlessly about a plan or design to stress-test it before building.",
-        "description_zh": "在动手开发前，就方案或设计对用户穷追不舍地提问，以充分压力测试。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grilling folder, not the whole repo). It walks down each branch of the design tree one decision at a time, asking a single question per turn and recommending an answer, resolving dependencies between decisions until you reach shared understanding; it prefers exploring the codebase over asking when a question can be answered there.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grilling 这一个目录，而非整仓）。它沿着设计决策树逐个分支推进，每轮只问一个问题并给出推荐答案，逐一厘清决策之间的依赖关系，直到达成共识；当某个问题能通过代码库回答时，它会优先去探查代码库而非直接发问。",
-        "sec_note_en": "Pure conversational orchestration: it only drives a question-and-answer interview and makes no external changes (no files written, no commands run, no network access). It is model-invokable, so the agent may trigger it on grill-style phrasing; it may read your codebase to answer questions itself.",
-        "sec_note_zh": "纯对话式编排：它只驱动一问一答的访谈，不做任何外部改动（不写文件、不执行命令、不联网）。该技能可被模型自动调用，因此智能体可能在出现“烤问”类措辞时自动触发；它可能会读取你的代码库来自行解答问题。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/handoff",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Handoff",
-        "author": "mattpocock",
-        "category": "productivity",
-        "tags": [
-          "handoff",
-          "context",
-          "summary",
-          "agents",
-          "workflow"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/productivity/handoff",
-          "git_ref": "main"
-        },
-        "description_en": "Compact the current conversation into a handoff document so a fresh agent can pick up the work.",
-        "description_zh": "把当前对话浓缩成一份交接文档，让一个全新的智能体能够接手继续工作。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/handoff folder, not the whole repo). It writes a markdown handoff document summarising the current conversation, including a suggested-skills section, while referencing existing artifacts (PRDs, plans, ADRs, commits, diffs) by path or URL instead of duplicating them.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/handoff 这一个目录，而非整仓）。它会写出一份 Markdown 交接文档，概括当前对话并附带一个“建议技能”小节；对已有产物（PRD、计划、ADR、提交、diff）则以路径或 URL 引用，而不重复其内容。",
-        "sec_note_en": "Side effect: it writes one markdown handoff file to your operating system's temporary directory (not the current workspace). It instructs the agent to redact secrets and PII before writing, but you should still review the generated document before sharing it.",
-        "sec_note_zh": "副作用：它会向你操作系统的临时目录（而非当前工作区）写入一份 Markdown 交接文件。它会要求智能体在写入前对密钥和个人身份信息进行脱敏，但在分享前你仍应自行复核生成的文档。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/improve-codebase-architecture",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Improve Codebase Architecture",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "architecture",
-          "refactoring",
-          "code-quality",
-          "report"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/improve-codebase-architecture",
-          "git_ref": "main"
-        },
-        "description_en": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
-        "description_zh": "扫描代码库寻找可深化的改进点，以可视化 HTML 报告呈现，再就你选定的那一项逐步拷问。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/improve-codebase-architecture folder, not the whole repo). It uses an explore agent to find architectural friction and shallow modules (guided by CONTEXT.md and ADRs), renders the candidate refactors as a self-contained Tailwind+Mermaid HTML report with before/after diagrams, and then runs a grilling loop over whichever deepening opportunity you choose.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/improve-codebase-architecture 这一个目录，而非整仓）。它用一个探索 agent 找出架构摩擦点和浅模块（以 CONTEXT.md 和 ADR 为指引），把候选重构渲染成一份自包含的 Tailwind+Mermaid HTML 报告（含前后对比图），随后就你选定的那个深化机会运行拷问循环。",
-        "sec_note_en": "Read-and-analyse plus reporting: it reads your codebase and writes a timestamped HTML report to the OS temp dir (not your repo) and opens it in a browser. It loads Tailwind and Mermaid from CDNs, so report rendering needs network access. The grilling phase may then update CONTEXT.md and ADRs in your repo. It depends on the sibling codebase-design, grilling, and domain-modeling skills.",
-        "sec_note_zh": "以读取分析加出报告为主：它会读取你的代码库，并把带时间戳的 HTML 报告写入操作系统临时目录（不写入你的仓库），然后在浏览器中打开。它从 CDN 加载 Tailwind 与 Mermaid，因此报告渲染需要网络访问。随后的拷问阶段可能会更新你仓库中的 CONTEXT.md 和 ADR。它依赖同仓的 codebase-design、grilling 与 domain-modeling 技能。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/prototype",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Prototype",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "prototype",
-          "throwaway-code",
-          "design",
-          "ui-variations"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/prototype",
-          "git_ref": "main"
-        },
-        "description_en": "Build a throwaway prototype to flesh out a design — a runnable terminal app for state and business-logic questions, or several radically different UI variations toggleable from one route.",
-        "description_zh": "构建一个用完即弃的原型来打磨设计——针对状态与业务逻辑问题做一个可运行的终端小程序，或在同一路由下生成几种风格迥异、可切换的 UI 变体。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/prototype folder, not the whole repo). It picks one of two branches — a tiny interactive terminal app to stress-test a state machine or business logic, or several radically different UI variations switchable via a URL search param — building clearly-marked throwaway code with one run command, in-memory state, no polish, to be deleted or absorbed once it answers its question.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/prototype 这一个目录，而非整仓）。它会在两个分支中择一：要么做一个小型交互式终端程序来压测状态机或业务逻辑，要么生成几种通过 URL 查询参数切换的、风格迥异的 UI 变体；产出的是明确标记为用完即弃、只需一条命令运行、内存内保存状态、不做打磨的代码，待回答完问题后即删除或吸收进正式代码。",
-        "sec_note_en": "This skill scaffolds and runs throwaway code in your repo — a terminal app or extra UI routes — using your existing task runner, so it executes code locally and adds temporary files near where they're used. It avoids persistence by default; if the question involves a database it may hit a clearly-named scratch DB or local file. The prototype is meant to be deleted afterward.",
-        "sec_note_zh": "该技能会在你的仓库中搭建并运行用完即弃的代码——一个终端程序或额外的 UI 路由——使用你现有的任务运行器，因此会在本地执行代码，并在使用处附近添加临时文件。它默认不做持久化；若问题涉及数据库，可能会使用命名清晰的临时数据库或本地文件。该原型用后应被删除。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/setup-matt-pocock-skills",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Setup Matt Pocock Skills",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "setup",
-          "configuration",
-          "issue-tracker",
-          "scaffolding"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/setup-matt-pocock-skills",
-          "git_ref": "main"
-        },
-        "description_en": "Configure this repo for the engineering skills — issue tracker, triage label vocabulary, and domain doc layout. Run once before first use.",
-        "description_zh": "为本仓库配置这套工程技能——issue 追踪器、分诊标签词表和领域文档布局。首次使用其他技能前运行一次。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/setup-matt-pocock-skills folder, not the whole repo). It scaffolds the per-repo configuration the other engineering skills assume: it explores the repo (git remotes, CLAUDE.md/AGENTS.md, CONTEXT.md, docs/adr), walks you through choosing an issue tracker (GitHub/GitLab/local-markdown/other), maps the five triage label strings, and confirms the domain-doc layout before writing the config.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/setup-matt-pocock-skills 这一个目录，而非整仓）。它为其他工程技能搭好每个仓库所需的配置：探查仓库（git 远端、CLAUDE.md/AGENTS.md、CONTEXT.md、docs/adr），引导你选择 issue 追踪器（GitHub/GitLab/本地 markdown/其他），映射五个分诊标签字符串，并在写入配置前确认领域文档布局。",
-        "sec_note_en": "This skill writes configuration into your repo: it adds an '## Agent skills' block to CLAUDE.md or AGENTS.md and records tracker/label/doc choices (e.g. under docs/agents/). It inspects git config and remotes to suggest defaults but is prompt-driven and confirms with you before writing. No code execution; review the files it adds to your working tree.",
-        "sec_note_zh": "该技能会把配置写入你的仓库：它会向 CLAUDE.md 或 AGENTS.md 添加一个 '## Agent skills' 区块，并记录追踪器/标签/文档的选择（例如放在 docs/agents/ 下）。它会查看 git 配置和远端以建议默认值，但整个过程由提示驱动，并在写入前与你确认。不执行代码；请审查它写入工作区的文件。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/tdd",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "TDD",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "tdd",
-          "testing",
-          "red-green-refactor",
-          "integration-tests"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/tdd",
-          "git_ref": "main"
-        },
-        "description_en": "Test-driven development. Use when building features or fixing bugs test-first, when red-green-refactor is mentioned, or when you want integration tests.",
-        "description_zh": "测试驱动开发。适用于以测试先行的方式构建功能或修复 bug、提到红-绿-重构循环、或希望编写集成测试时。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/tdd folder, not the whole repo). It drives a strict red-green-refactor loop with vertical 'tracer bullet' slices (one test then one implementation, repeat) and favors integration-style tests that verify behavior through public interfaces rather than implementation details.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/tdd 这一个目录，而非整仓）。它驱动严格的红-绿-重构循环，采用纵向「曳光弹」切片（先一个测试再一个实现，循环往复），并偏好通过公共接口验证行为、而非耦合实现细节的集成式测试。",
-        "sec_note_en": "This skill writes and runs tests against your codebase using your project's existing test framework and task runner, so it executes code locally. It reads CONTEXT.md and ADRs (if present) to align vocabulary but does not transmit anything externally; risk is limited to local test execution.",
-        "sec_note_zh": "该技能会基于你项目现有的测试框架和任务运行器编写并运行针对代码库的测试，因此会在本地执行代码。它会读取 CONTEXT.md 和 ADR（若存在）以对齐术语，但不会向外部传输任何内容；风险仅限于本地测试执行。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/teach",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Teach",
-        "author": "mattpocock",
-        "category": "productivity",
-        "tags": [
-          "learning",
-          "teaching",
-          "lessons",
-          "study",
-          "knowledge"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/productivity/teach",
-          "git_ref": "main"
-        },
-        "description_en": "Teach you a new skill or concept across sessions, turning the current workspace into a stateful learning space.",
-        "description_zh": "跨多次会话教你一项新技能或新概念，把当前工作区变成一个有状态的学习空间。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/teach folder, not the whole repo). It treats the current directory as a teaching workspace, grounding lessons in a MISSION.md and curated resources, and produces short, beautiful self-contained HTML lessons plus reference sheets and learning records, using retrieval practice, spacing, and interleaving to build long-term retention.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/teach 这一个目录，而非整仓）。它把当前目录当作教学工作区，以 MISSION.md 和精选资源为依据，产出简短且精美的自包含 HTML 课程，以及参考速查表和学习记录，并运用回忆练习、间隔重复与交错练习来构建长期记忆。",
-        "sec_note_en": "Side effect: it creates and updates files in your current directory (MISSION.md, RESOURCES.md, NOTES.md, and HTML lessons/reference/learning-record folders) as learning state, and may run a CLI command to open a lesson. Point it at a dedicated learning folder rather than a code repo. It fetches external resources to ground lessons, so it reaches the network.",
-        "sec_note_zh": "副作用：它会在当前目录中创建并更新文件（MISSION.md、RESOURCES.md、NOTES.md 以及 HTML 课程/参考/学习记录等目录）作为学习状态，还可能运行 CLI 命令来打开课程。建议把它指向一个专门的学习目录，而非代码仓库。它会抓取外部资源来支撑教学，因此会访问网络。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/to-issues",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "To Issues",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "issues",
-          "planning",
-          "vertical-slices",
-          "issue-tracker"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/to-issues",
-          "git_ref": "main"
-        },
-        "description_en": "Break a plan, spec, or PRD into independently-grabbable issues on your project issue tracker using tracer-bullet vertical slices.",
-        "description_zh": "用曳光弹式纵向切片，把计划、规格或 PRD 拆解成可被独立认领的 issue，并发布到你项目的 issue 追踪器。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-issues folder, not the whole repo). It explores the codebase, breaks a plan into thin vertical 'tracer bullet' slices that each cut end-to-end through every layer, quizzes you on granularity and dependencies, then publishes the approved slices as issues in dependency order.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-issues 这一个目录，而非整仓）。它会探查代码库，把计划拆成贯穿各层、端到端的薄「曳光弹」纵向切片，就粒度与依赖关系向你确认，然后按依赖顺序把已批准的切片作为 issue 发布。",
-        "sec_note_en": "This skill creates issues on your configured project issue tracker (GitHub, Linear, or local files) and applies triage labels, so it needs write access to that tracker and will publish content there. It also reads your codebase, CONTEXT.md, and ADRs to phrase issues; setup of the tracker vocabulary is a prerequisite.",
-        "sec_note_zh": "该技能会在你配置的项目 issue 追踪器（GitHub、Linear 或本地文件）上创建 issue 并打上分诊标签，因此需要对该追踪器的写入权限，并会在其中发布内容。它还会读取你的代码库、CONTEXT.md 和 ADR 来撰写 issue；预先配置好追踪器术语是前提条件。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/to-prd",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "To PRD",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "prd",
-          "product-spec",
-          "synthesis",
-          "issue-tracker"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/to-prd",
-          "git_ref": "main"
-        },
-        "description_en": "Turn the current conversation into a PRD and publish it to your project issue tracker — no interview, just synthesis of what you've already discussed.",
-        "description_zh": "把当前对话直接整理成一份 PRD 并发布到你项目的 issue 追踪器——不做访谈，只综合你们已经讨论过的内容。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-prd folder, not the whole repo). It synthesizes the current conversation and codebase understanding into a PRD (problem statement, extensive user stories, implementation and testing decisions, preferring a single high test seam), confirms the seams with you, then publishes the document to your issue tracker with a ready-for-agent label.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-prd 这一个目录，而非整仓）。它把当前对话与对代码库的理解综合成一份 PRD（问题陈述、详尽的用户故事、实现与测试决策，并优先选用单一的高层测试接缝），与你确认这些接缝后，再把文档发布到你的 issue 追踪器并打上 ready-for-agent 标签。",
-        "sec_note_en": "This skill publishes a PRD to your configured project issue tracker (GitHub, Linear, or local files) and applies a triage label, so it needs write access there and will create content. It reads your codebase, CONTEXT.md, and ADRs to draft the PRD; tracker vocabulary must be set up beforehand.",
-        "sec_note_zh": "该技能会把一份 PRD 发布到你配置的项目 issue 追踪器（GitHub、Linear 或本地文件）并打上分诊标签，因此需要对其的写入权限，并会创建内容。它会读取你的代码库、CONTEXT.md 和 ADR 来起草 PRD；需事先配置好追踪器术语。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/triage",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Triage",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "triage",
-          "issues",
-          "workflow",
-          "github"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/engineering/triage",
-          "git_ref": "main"
-        },
-        "description_en": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
-        "description_zh": "用一套分诊角色状态机来流转 issue 和外部 PR——分类、验证、必要时拷问，并写出可交给 agent 的工作简报。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/triage folder, not the whole repo). It moves incoming issues (and optionally external PRs) through canonical triage roles — categorising bug vs enhancement, assigning states like needs-triage / needs-info / ready-for-agent, verifying the claim by reproducing it, grilling underspecified requests into shape, and posting agent-ready briefs back to the tracker.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/triage 这一个目录，而非整仓）。它把进来的 issue（以及可选的外部 PR）按规范化的分诊角色流转——区分 bug 与增强、打上 needs-triage / needs-info / ready-for-agent 等状态、通过复现来验证主张、把描述不清的请求拷问成形，并把可交给 agent 的简报回贴到追踪器。",
-        "sec_note_en": "This skill reads from and writes to your issue tracker (GitHub via the gh CLI by default, or GitLab/local-markdown/other), so it needs that tracker's access and will create labels, post comments, and change issue/PR states. It expects setup-matt-pocock-skills to have configured the label vocabulary first. When verifying claims it may check out PR branches and run their tests/commands — review code it executes.",
-        "sec_note_zh": "该技能会读写你的 issue 追踪器（默认通过 gh CLI 使用 GitHub，也支持 GitLab/本地 markdown/其他），因此需要该追踪器的访问权限，并会创建标签、发表评论、变更 issue/PR 状态。它要求先用 setup-matt-pocock-skills 配置好标签词表。在验证主张时，它可能检出 PR 分支并运行其测试/命令——请审查它执行的代码。",
-        "requires_config": false
-      },
-      {
-        "id": "aleph-hub:mattpocock/skills/writing-great-skills",
-        "repo_url": "https://github.com/mattpocock/skills",
-        "via": "github:mattpocock",
-        "full_name": "mattpocock/skills",
-        "owner": "mattpocock",
-        "repo": "skills",
-        "kind": "skill",
-        "name": "Writing Great Skills",
-        "author": "mattpocock",
-        "category": "developer",
-        "tags": [
-          "skills",
-          "authoring",
-          "meta-skill",
-          "reference",
-          "agents"
-        ],
-        "install_spec": {
-          "type": "git_dir",
-          "git_url": "https://github.com/mattpocock/skills",
-          "subdir": "skills/productivity/writing-great-skills",
-          "git_ref": "main"
-        },
-        "description_en": "A reference of the vocabulary and principles that make an agent skill predictable, for writing and editing skills well.",
-        "description_zh": "一份关于词汇与原则的参考，讲解如何让智能体技能更可预测，用于把技能写好、改好。",
-        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/writing-great-skills folder, not the whole repo). It is a meta-skill: a pure reference that defines the levers behind predictability — invocation modes, description writing, the information hierarchy and progressive disclosure, when to split skills, pruning to a single source of truth, and using leading words — with a bundled GLOSSARY.md for the full definitions.",
-        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/writing-great-skills 这一个目录，而非整仓）。它是一个元技能：一份纯参考资料，阐明决定“可预测性”的各项杠杆——调用方式、描述撰写、信息层级与渐进式披露、何时拆分技能、剪枝至单一事实来源，以及善用“引导词”——并附带一份 GLOSSARY.md 提供完整定义。",
-        "sec_note_en": "Pure reference material consulted on demand: it makes no external changes (no files written, no commands run, no network access). It only shapes how you author other skills.",
-        "sec_note_zh": "按需查阅的纯参考资料：它不做任何外部改动（不写文件、不执行命令、不联网）。它只影响你如何撰写其他技能。",
-        "requires_config": false
-      }
-    ]
-  },
   "xiaopu-ai/web-design": {
     "etag": "\"f4072b635af994a29d4f6c2444d404297582bdea779289fc7653a0034ba7e40a\"",
     "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
@@ -4257,7 +3719,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "W/\"fb6648f64b3005255e0fb9c7ed8fb5da5204e136dfd9cb7aaa1a88e2377609b6\"",
+    "etag": "\"fb6648f64b3005255e0fb9c7ed8fb5da5204e136dfd9cb7aaa1a88e2377609b6\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -4294,7 +3756,7 @@
     ]
   },
   "heygen-com/hyperframes": {
-    "etag": "W/\"e39832b3f09931eb8a509a4abf1e9cc81db4a9b663696a2f8a0dc72d01279b8b\"",
+    "etag": "W/\"05b130fbb52d88e3654545d8e42a0cff15541df2f931b4689cbc517c33b79fdb\"",
     "readme_hash": "d4aec8b2cb3f58783c7730c373980a481b573b7127e1d20058a314f483a93cda",
     "entries": [
       {
@@ -4367,7 +3829,7 @@
     ]
   },
   "remotion-dev/skills": {
-    "etag": "W/\"ff313c58245c884b0d280b604cd6a7909b1b4c9880b693d7c3942f9a03c824d9\"",
+    "etag": "\"ff313c58245c884b0d280b604cd6a7909b1b4c9880b693d7c3942f9a03c824d9\"",
     "readme_hash": "60c699748c6242f7d212a4de8c961765cde7fcd4d810b67ec20b7cca253a06dc",
     "entries": [
       {
@@ -4404,7 +3866,7 @@
     ]
   },
   "browser-use/video-use": {
-    "etag": "W/\"25c63de39954dcfa7d580b6e6a839dab42ef732fc97abb1fb26b2de889bd97e4\"",
+    "etag": "\"25c63de39954dcfa7d580b6e6a839dab42ef732fc97abb1fb26b2de889bd97e4\"",
     "readme_hash": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
     "entries": [
       {
@@ -4542,7 +4004,7 @@
     ]
   },
   "anthropics/skills": {
-    "etag": "W/\"c5d8d58a24a0a6c47c30bdd3bf48527462615ed02eb8ce47305460e1171ba660\"",
+    "etag": "W/\"1e8932c3aff45649fc6dccf5d579269580d2a5e13628d0b26b3aca83a1177b88\"",
     "readme_hash": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
     "entries": [
       {
@@ -5090,7 +4552,7 @@
     ]
   },
   "obra/superpowers": {
-    "etag": "W/\"06d91304d702ed6ccc6b0fe22ac344dc85447d6f1f0cd2e00045d206925dfa28\"",
+    "etag": "W/\"f2bbd21f5397b5f97c36876bbe6e52a0d9cb10e66d5338d34cf73e7210219d06\"",
     "readme_hash": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
     "entries": [
       {
@@ -5127,7 +4589,7 @@
     ]
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "W/\"a393143553fa0a94af229f5ea665db29d6fcec6ed683006e1572388bb738ca5e\"",
+    "etag": "\"a393143553fa0a94af229f5ea665db29d6fcec6ed683006e1572388bb738ca5e\"",
     "readme_hash": "0aabe2adb945e61505cf8ef020934444d8dc88dd45de958692f3c075ea8855e8",
     "entries": [
       {
@@ -5545,7 +5007,7 @@
     ]
   },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
-    "etag": "W/\"7822be851b7fa0c25168c68efa7f9f145b411468e026d321c18bdd95567115ff\"",
+    "etag": "W/\"831f4794d42b7e8f8e1a314422bb75d27b015b585aaa177a78389371f55584d8\"",
     "readme_hash": "3b76bcfea8bc44bd20d7688e5c319070f6c55c575b45adc260d866c69423f0f5",
     "entries": [
       {
@@ -5582,7 +5044,7 @@
     ]
   },
   "thedotmack/claude-mem": {
-    "etag": "W/\"f379a457bb41136d154e52703c26356f4a52587909cd83c2ce562806f00274be\"",
+    "etag": "W/\"9bb4678f04adcfe18b0bbcef9a351406e6310e99dd0d78056b087cd49f83be59\"",
     "readme_hash": "a81d17483dab4063cb672277449276fd761634307f1a91f3df48cb6e1aa56b16",
     "entries": [
       {
@@ -5619,7 +5081,7 @@
     ]
   },
   "0xNyk/council-of-high-intelligence": {
-    "etag": "W/\"dce842ec18b5d11a80ce5cf534373fa0cdcf8b9319ac42fa5ec855fcfd5af885\"",
+    "etag": "\"dce842ec18b5d11a80ce5cf534373fa0cdcf8b9319ac42fa5ec855fcfd5af885\"",
     "readme_hash": "3f6a0e75bea29edb42b4553b96d8de8e3934f97681ebe42f42acd3ab0020fab0",
     "entries": [
       {
@@ -5656,7 +5118,7 @@
     ]
   },
   "xbtlin/ai-berkshire": {
-    "etag": "W/\"7a72e604404d99db44b07850054858b8e43fdc6a76c7075d800c7befec51f0a2\"",
+    "etag": "W/\"7ad5bfce846594ec29be6072359ea3d1e471443fbfde6eca57cc3196ca7b6f17\"",
     "readme_hash": "134ca0af7dc16cf165dbdad96cf56899afbf634cff408c495c28b539e68c7ed9",
     "entries": [
       {
@@ -6289,7 +5751,7 @@
     ]
   },
   "crazyykhllc-bit/CyberPPT": {
-    "etag": "W/\"5651d59b7ffb933f17568779de366b1a8dab4a7b316ac8d9acc461b110a6b19f\"",
+    "etag": "\"5651d59b7ffb933f17568779de366b1a8dab4a7b316ac8d9acc461b110a6b19f\"",
     "readme_hash": "e07290c46dd9a79d88fc180e3275e3340f24caf113163afa336720db0cb678a2",
     "entries": [
       {
@@ -6325,7 +5787,7 @@
     ]
   },
   "pengchujin/jzsub": {
-    "etag": "W/\"2346756fc2b3a8f7092b9967e4a1bc2a77b10af667069bcc43f6051f75358724\"",
+    "etag": "W/\"2e04f5ccd58931d974fcdb8139b6d21a3f9ece38fe44a0e3782e1d0ad30e9de1\"",
     "readme_hash": "844d2e860c0bc4bc533fbe4eec1a5962b639a8bd8848d312f1ce16b0bde1a554",
     "entries": [
       {
@@ -6399,7 +5861,7 @@
     ]
   },
   "Zuojuzhang/claude-skill-business-analyst": {
-    "etag": "W/\"8d43dce84eeac4de0e8dbc975e38f65aebad6f42cfb7abb8a5979d3b1940672c\"",
+    "etag": "\"8d43dce84eeac4de0e8dbc975e38f65aebad6f42cfb7abb8a5979d3b1940672c\"",
     "readme_hash": "aa0e751f1f637a3c217cccac888ae751d27c2b720b89b49766eccb067cddd42c",
     "entries": [
       {
@@ -6435,7 +5897,7 @@
     ]
   },
   "emilkowalski/skills": {
-    "etag": "W/\"e55afd1e603b23954d16a20c6c8aa0843fba3ebb38e329fbb97e79f0ea623524\"",
+    "etag": "W/\"66f1a645bb8df56e04c0c8a1bbfd47a95fabfcc0948e73413c7d4938b84cb481\"",
     "readme_hash": "b9a5b6258087fee38262b11df5aadd15e928f985f40f2020233801674735e1b9",
     "entries": [
       {
@@ -6633,7 +6095,7 @@
     ]
   },
   "LeoYeAI/teammate-skill": {
-    "etag": "W/\"4b126dfe01e86c1671a05d5ee89a49d6a37ec25b5397a7e595c42710524b829e\"",
+    "etag": "W/\"3be00c8ac61a2b62a5c21eca0c209d33b370db65d9e3c70339ee7e5f390a15f0\"",
     "readme_hash": "ef8513eea661fe71dccb856fe956865593ce26b6ef47e77b639287ecdc1354a3",
     "entries": [
       {
@@ -6665,6 +6127,638 @@
         "long_zh": "一个符合 AgentSkills 标准的技能（可原生运行于 Claude Code 与 OpenClaw），在同事离开前留下其专长。基于一句描述加可选的源材料——Slack 消息、GitHub PR、Gmail/Notion/Confluence 导出或粘贴文本——执行双轨分析：「工作技能」（负责的系统、技术标准、评审重点、工作流）与「五层人格」（硬规则、身份、表达、决策模式、人际风格）。生成的技能会经过内置的质量门与冒烟测试，作为可调用的 /{slug} 交付，并通过增量合并与对话内纠正持续演进。附带的 Python 工具负责采集、解析、版本管理、PII 扫描与可移植导出。",
         "sec_note_en": "MIT-licensed; runs locally as a skill with a set of Python helper tools. It ingests a real person's communications (Slack, GitHub, email, docs) to model them—use only with that person's consent and proper data-handling authorization. A bundled privacy_guard.py scans for PII and raw 'knowledge/' files are git-ignored by default, but review collected data and generated output before sharing. The Slack and GitHub collectors require your own API tokens.",
         "sec_note_zh": "MIT 许可；作为技能在本地运行，附带一组 Python 辅助工具。它会摄取真实人物的沟通记录（Slack、GitHub、邮件、文档）来建模——请仅在获得当事人同意及正当数据处理授权的前提下使用。附带的 privacy_guard.py 会扫描 PII，原始 'knowledge/' 文件默认被 git 忽略，但分享前请审阅采集数据与生成结果。Slack 与 GitHub 采集器需要你自己的 API 令牌。",
+        "requires_config": false
+      }
+    ]
+  },
+  "mattpocock/skills": {
+    "etag": "W/\"1b9b7763e0cf32c8bfe8d55c1ea6b6a1f12c77fed75d923a9c69521ebe006716\"",
+    "readme_hash": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+    "entries": [
+      {
+        "id": "aleph-hub:mattpocock/skills/ask-matt",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Ask Matt",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "workflow",
+          "router",
+          "orchestration",
+          "agent"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/ask-matt",
+          "git_ref": "main"
+        },
+        "description_en": "Ask which skill or flow fits your situation — a router over the skills in this repo.",
+        "description_zh": "询问哪个技能或工作流最适合你当前的处境——是这个仓库里所有技能的路由器。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/ask-matt folder, not the whole repo). It acts as a router that, in conversation, maps your situation onto the right skill or flow: the idea → ship main flow (to-spec → to-tickets → implement), on-ramps like grill-me / grill-with-docs and triage, the wayfinder on-ramp for work too big for one session, and standalone helpers like prototype, diagnosing-bugs, research, and handoff, over a vocabulary layer of domain-modeling and codebase-design.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/ask-matt 这一个目录，而非整仓）。它扮演路由器的角色，在对话中把你当前的处境映射到合适的技能或工作流：从想法到交付的主流程（to-spec → to-tickets → implement）、grill-me / grill-with-docs 与 triage 等入口、面向「大到单个会话装不下」的 wayfinder 入口，以及 prototype、diagnosing-bugs、research、handoff 等独立辅助技能，之下还有 domain-modeling 与 codebase-design 构成的词汇层。",
+        "sec_note_en": "Pure conversational orchestration: it only reads your description and recommends which other skill to run. No external side effects, no code execution, no file writes of its own. It merely points at other skills (some of which do have side effects) — running those is a separate, explicit step.",
+        "sec_note_zh": "纯对话式编排：它只读取你的描述并推荐该运行哪个其他技能。自身没有外部副作用、不执行代码、不写文件。它只是指向其他技能（其中部分技能确实有副作用）——运行那些技能是单独且明确的步骤。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/code-review",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Code Review",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "code-review",
+          "standards",
+          "spec-compliance",
+          "quality"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/code-review",
+          "git_ref": "main"
+        },
+        "description_en": "Review the diff since a fixed point along two parallel axes — Standards (does it follow this repo's documented coding standards?) and Spec (does it implement what the originating issue/PRD asked?) — reported side by side.",
+        "description_zh": "沿两条并行轴审查自某个固定点以来的改动——Standards（是否遵循本仓库文档化的编码规范）与 Spec（是否实现了原始 issue/PRD 的要求）——并排给出结论。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/code-review folder, not the whole repo). It reviews the changes between HEAD and a user-supplied fixed point (commit, branch, tag, or merge-base) across two axes run as parallel sub-agents so they don't pollute each other's context — Standards conformance and Spec fidelity — then aggregates the findings. Its Standards axis carries an always-on baseline of ~12 high-signal Fowler 'Bad Smells in Code' alongside whatever the repo documents; a documented repo standard always overrides the baseline, and every smell is reported as a judgement call, never a hard violation.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/code-review 这一个目录，而非整仓）。它审查 HEAD 与用户指定固定点（commit、分支、tag 或 merge-base）之间的改动，沿两条轴以并行子 agent 运行以免互相污染上下文——Standards 合规性与 Spec 忠实度——再汇总结论。其 Standards 轴内置一份常开的约 12 条高信号 Fowler「代码坏味道」基线，与仓库自身文档化的规范并列；仓库文档化的规范始终覆盖该基线，且每条坏味道都作为判断项报告，绝不作为硬性违规。",
+        "sec_note_en": "A read-only review skill: it reads your working tree, git history, the repo's documented coding standards, and the originating issue/PRD to produce a side-by-side report, and does not modify code. It needs the issue tracker configured (run setup-matt-pocock-skills) to fetch the originating spec.",
+        "sec_note_zh": "只读审查技能：它读取你的工作区、git 历史、仓库文档化的编码规范以及原始 issue/PRD 来生成并排报告，不会修改代码。需先配置好 issue 追踪器（运行 setup-matt-pocock-skills）以获取原始 spec。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/codebase-design",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Codebase Design",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "architecture",
+          "deep-modules",
+          "interfaces",
+          "testability"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/codebase-design",
+          "git_ref": "main"
+        },
+        "description_en": "Shared vocabulary for designing deep modules. Use when designing or improving a module's interface, finding deepening opportunities, deciding where a seam goes, or making code more testable and AI-navigable.",
+        "description_zh": "设计深模块的统一词汇表。适用于设计或改进模块接口、寻找加深模块的机会、决定接缝位置，或让代码更易测试、更便于 AI 导航时。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/codebase-design folder, not the whole repo). It supplies a precise glossary (module, interface, implementation, depth, seam, adapter, leverage, locality) and principles for designing deep modules — lots of behaviour behind a small interface at a clean seam — guiding interface simplification, seam placement, and testability decisions.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/codebase-design 这一个目录，而非整仓）。它提供一套精确的词汇表（模块、接口、实现、深度、接缝、适配器、杠杆、局部性）和设计深模块的原则——即在干净的接缝处用小接口承载大量行为——用于指导接口精简、接缝定位和可测试性决策。",
+        "sec_note_en": "This skill is reference vocabulary and design guidance that shapes how the agent reasons about and discusses module design; it has no inherent external side effects. Any code or doc changes happen only when you apply its recommendations through other tools, and it may read CONTEXT.md and ADRs to align terminology.",
+        "sec_note_zh": "该技能是一套参考词汇与设计指引，用于塑造 agent 推理和讨论模块设计的方式，本身没有外部副作用。只有当你通过其他工具采纳其建议时才会产生代码或文档变更，它还可能读取 CONTEXT.md 和 ADR 以对齐术语。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/diagnosing-bugs",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Diagnosing Bugs",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "debugging",
+          "diagnosis",
+          "testing",
+          "performance"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/diagnosing-bugs",
+          "git_ref": "main"
+        },
+        "description_en": "A disciplined diagnosis loop for hard bugs and performance regressions; use when something is broken, throwing, failing, or slow.",
+        "description_zh": "针对疑难 bug 和性能退化的严谨诊断循环；当出现报错、崩溃、失败或变慢时使用。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/diagnosing-bugs folder, not the whole repo). It walks the agent through a phased diagnosis discipline — first build a tight, red-capable feedback loop (failing test, curl, CLI, replay, bisection, etc.), then reproduce and minimise, hypothesise, instrument, fix, and add a regression test — refusing to theorise before a reproducing signal exists.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/diagnosing-bugs 这一个目录，而非整仓）。它引导 agent 走一套分阶段的诊断纪律——先构建一个紧凑、能变红的反馈循环（失败的测试、curl、CLI、回放、二分等），再复现并最小化、提出假设、加埋点、修复并补上回归测试——在出现可复现信号之前拒绝凭空推理。",
+        "sec_note_en": "This skill actively runs code against your project: it writes and executes failing tests, curl/HTTP scripts, CLI invocations, headless-browser drivers, and may add temporary instrumentation. As a last resort it can request access to a reproducing environment or production instrumentation. Review what it runs; commands execute in your repo with your credentials and environment.",
+        "sec_note_zh": "该技能会主动在你的项目上运行代码：它会编写并执行失败的测试、curl/HTTP 脚本、CLI 调用、无头浏览器驱动，并可能添加临时埋点。作为最后手段，它可能请求访问可复现的环境或生产环境埋点。请审查它运行的内容；这些命令会在你的仓库中以你的凭据和环境执行。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/domain-modeling",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Domain Modeling",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "domain-modeling",
+          "ubiquitous-language",
+          "adr",
+          "glossary"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/domain-modeling",
+          "git_ref": "main"
+        },
+        "description_en": "Build and sharpen a project's domain model. Use when pinning down domain terminology or a ubiquitous language, recording an architectural decision, or when another skill needs to maintain the domain model.",
+        "description_zh": "构建并打磨项目的领域模型。适用于厘清领域术语或统一语言、记录架构决策、或其他技能需要维护领域模型时。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/domain-modeling folder, not the whole repo). It actively challenges terms, sharpens fuzzy language into canonical terms, stress-tests relationships with concrete edge-case scenarios, cross-checks claims against the code, and writes the glossary into CONTEXT.md (or per-context files via CONTEXT-MAP.md) and decisions into docs/adr/ as they crystallize.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/domain-modeling 这一个目录，而非整仓）。它会主动挑战术语、把模糊用语收敛成规范术语、用具体的边界场景压测概念间的关系、把陈述与代码相互印证，并在术语和决策成形时把术语表写入 CONTEXT.md（或经由 CONTEXT-MAP.md 写入各上下文文件）、把决策写入 docs/adr/。",
+        "sec_note_en": "This skill creates and edits documentation files in your repo — CONTEXT.md, CONTEXT-MAP.md, and ADRs under docs/adr/ — and reads your source to cross-check claims. It is otherwise conversational with no external side effects; the main effect is new and modified docs in your working tree.",
+        "sec_note_zh": "该技能会在你的仓库中创建和编辑文档文件——CONTEXT.md、CONTEXT-MAP.md 以及 docs/adr/ 下的 ADR——并会读取你的源码以相互印证陈述。除此之外它以对话为主、无外部副作用；主要影响是在工作区中新增和修改文档。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/grill-me",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Grill Me",
+        "author": "mattpocock",
+        "category": "productivity",
+        "tags": [
+          "planning",
+          "design",
+          "interview",
+          "stress-test",
+          "review"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/productivity/grill-me",
+          "git_ref": "main"
+        },
+        "description_en": "A relentless interview that stress-tests a plan or design until you reach shared understanding.",
+        "description_zh": "用一场穷追不舍的访谈来压力测试你的方案或设计，直到双方达成共识。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grill-me folder, not the whole repo). It is a user-invoked entry point that kicks off a grilling session: the agent interviews you one question at a time about every branch of your plan or design, recommending an answer for each, until the whole decision tree is resolved.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grill-me 这一个目录，而非整仓）。它是一个由用户手动触发的入口，启动一场“烤问”会话：智能体就你方案或设计的每一个分支逐条提问，每次只问一个问题并给出推荐答案，直到整棵决策树被逐一厘清。",
+        "sec_note_en": "Pure conversational orchestration: it only drives a question-and-answer interview and makes no external changes (no files written, no commands run, no network access). The agent may read your codebase to answer questions it can resolve itself.",
+        "sec_note_zh": "纯对话式编排：它只驱动一问一答的访谈，不做任何外部改动（不写文件、不执行命令、不联网）。智能体可能会读取你的代码库来自行解答某些问题。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/grill-with-docs",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Grill With Docs",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "planning",
+          "design",
+          "documentation",
+          "adr"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/grill-with-docs",
+          "git_ref": "main"
+        },
+        "description_en": "A relentless interview that sharpens a plan or design while producing docs (ADRs and a glossary) as you go.",
+        "description_zh": "一场刨根问底的访谈，在打磨方案或设计的同时随手产出文档（ADR 和术语表）。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/grill-with-docs folder, not the whole repo). It runs a stateful grilling session against your existing domain model, interrogating a plan one question at a time to expose gaps, and crystallises decisions inline by updating CONTEXT.md, ADRs, and the project glossary as terms get sharpened.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/grill-with-docs 这一个目录，而非整仓）。它针对你既有的领域模型运行一场有状态的拷问会话，逐个问题地审讯方案以暴露盲点，并在术语被打磨清晰的同时就地落定决策——更新 CONTEXT.md、ADR 和项目术语表。",
+        "sec_note_en": "Mostly a conversational planning skill, but it does write to your repo: it creates and edits CONTEXT.md, ADR files, and a glossary as decisions land. It also depends on the sibling grilling and domain-modeling skills being available. No code execution, but review the doc changes it commits to your working tree.",
+        "sec_note_zh": "它主要是一个对话式的规划技能，但确实会写入你的仓库：随着决策落定，它会创建并编辑 CONTEXT.md、ADR 文件和术语表。它还依赖同仓的 grilling 与 domain-modeling 技能可用。不执行代码，但请审查它写入工作区的文档改动。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/grilling",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Grilling",
+        "author": "mattpocock",
+        "category": "productivity",
+        "tags": [
+          "planning",
+          "design",
+          "interview",
+          "stress-test",
+          "review"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/productivity/grilling",
+          "git_ref": "main"
+        },
+        "description_en": "Grill the user relentlessly about a plan, decision, or idea to stress-test their thinking — one question at a time down the decision tree — and don't act until shared understanding is confirmed.",
+        "description_zh": "就某个方案、决策或想法对用户穷追不舍地逐一提问（沿决策树每次一个问题）以压力测试其思路，并在确认达成共识前不动手。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/grilling folder, not the whole repo). It walks down each branch of the decision tree one decision at a time, asking a single question per turn and recommending an answer. As of v1.1 it splits facts (which it looks up by exploring the codebase and tools) from decisions (which it puts to you and waits for your answer), and a confirmation gate stops it from acting on the plan until you confirm shared understanding has been reached.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/grilling 这一个目录，而非整仓）。它沿着决策树逐个分支推进，每轮只问一个问题并给出推荐答案。自 v1.1 起，它把事实(facts)（通过探查代码库与工具自行查明）与决策(decisions)（逐一交给你并等待你的回答）区分开，并设有确认门：在你确认达成共识之前，不会依据该方案动手。",
+        "sec_note_en": "Pure conversational orchestration: it only drives a question-and-answer interview and makes no external changes (no files written, no commands run, no network access). It is model-invokable, so the agent may trigger it on grill-style phrasing; it may read your codebase to answer questions itself.",
+        "sec_note_zh": "纯对话式编排：它只驱动一问一答的访谈，不做任何外部改动（不写文件、不执行命令、不联网）。该技能可被模型自动调用，因此智能体可能在出现“烤问”类措辞时自动触发；它可能会读取你的代码库来自行解答问题。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/handoff",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Handoff",
+        "author": "mattpocock",
+        "category": "productivity",
+        "tags": [
+          "handoff",
+          "context",
+          "summary",
+          "agents",
+          "workflow"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/productivity/handoff",
+          "git_ref": "main"
+        },
+        "description_en": "Compact the current conversation into a handoff document so a fresh agent can pick up the work.",
+        "description_zh": "把当前对话浓缩成一份交接文档，让一个全新的智能体能够接手继续工作。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/handoff folder, not the whole repo). It writes a markdown handoff document summarising the current conversation, including a suggested-skills section, while referencing existing artifacts (PRDs, plans, ADRs, commits, diffs) by path or URL instead of duplicating them.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/handoff 这一个目录，而非整仓）。它会写出一份 Markdown 交接文档，概括当前对话并附带一个“建议技能”小节；对已有产物（PRD、计划、ADR、提交、diff）则以路径或 URL 引用，而不重复其内容。",
+        "sec_note_en": "Side effect: it writes one markdown handoff file to your operating system's temporary directory (not the current workspace). It instructs the agent to redact secrets and PII before writing, but you should still review the generated document before sharing it.",
+        "sec_note_zh": "副作用：它会向你操作系统的临时目录（而非当前工作区）写入一份 Markdown 交接文件。它会要求智能体在写入前对密钥和个人身份信息进行脱敏，但在分享前你仍应自行复核生成的文档。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/improve-codebase-architecture",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Improve Codebase Architecture",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "architecture",
+          "refactoring",
+          "code-quality",
+          "report"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/improve-codebase-architecture",
+          "git_ref": "main"
+        },
+        "description_en": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+        "description_zh": "扫描代码库寻找可深化的改进点，以可视化 HTML 报告呈现，再就你选定的那一项逐步拷问。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/improve-codebase-architecture folder, not the whole repo). It uses an explore agent to find architectural friction and shallow modules (guided by CONTEXT.md and ADRs), renders the candidate refactors as a self-contained Tailwind+Mermaid HTML report with before/after diagrams, and then runs a grilling loop over whichever deepening opportunity you choose.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/improve-codebase-architecture 这一个目录，而非整仓）。它用一个探索 agent 找出架构摩擦点和浅模块（以 CONTEXT.md 和 ADR 为指引），把候选重构渲染成一份自包含的 Tailwind+Mermaid HTML 报告（含前后对比图），随后就你选定的那个深化机会运行拷问循环。",
+        "sec_note_en": "Read-and-analyse plus reporting: it reads your codebase and writes a timestamped HTML report to the OS temp dir (not your repo) and opens it in a browser. It loads Tailwind and Mermaid from CDNs, so report rendering needs network access. The grilling phase may then update CONTEXT.md and ADRs in your repo. It depends on the sibling codebase-design, grilling, and domain-modeling skills.",
+        "sec_note_zh": "以读取分析加出报告为主：它会读取你的代码库，并把带时间戳的 HTML 报告写入操作系统临时目录（不写入你的仓库），然后在浏览器中打开。它从 CDN 加载 Tailwind 与 Mermaid，因此报告渲染需要网络访问。随后的拷问阶段可能会更新你仓库中的 CONTEXT.md 和 ADR。它依赖同仓的 codebase-design、grilling 与 domain-modeling 技能。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/prototype",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Prototype",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "prototype",
+          "throwaway-code",
+          "design",
+          "ui-variations"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/prototype",
+          "git_ref": "main"
+        },
+        "description_en": "Build a throwaway prototype to answer a design question — a runnable terminal app to sanity-check a state model or logic, or several radically different UI variations toggleable from one route.",
+        "description_zh": "构建一个用完即弃的原型来回答某个设计问题——做一个可运行的终端小程序来验证状态模型或逻辑是否合理，或在同一路由下生成几种风格迥异、可切换的 UI 变体。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/prototype folder, not the whole repo). It picks one of two branches — a tiny interactive terminal app to stress-test a state machine or business logic, or several radically different UI variations switchable via a URL search param — building clearly-marked throwaway code with one run command, in-memory state, no polish, to be deleted or absorbed once it answers its question.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/prototype 这一个目录，而非整仓）。它会在两个分支中择一：要么做一个小型交互式终端程序来压测状态机或业务逻辑，要么生成几种通过 URL 查询参数切换的、风格迥异的 UI 变体；产出的是明确标记为用完即弃、只需一条命令运行、内存内保存状态、不做打磨的代码，待回答完问题后即删除或吸收进正式代码。",
+        "sec_note_en": "This skill scaffolds and runs throwaway code in your repo — a terminal app or extra UI routes — using your existing task runner, so it executes code locally and adds temporary files near where they're used. It avoids persistence by default; if the question involves a database it may hit a clearly-named scratch DB or local file. The prototype is meant to be deleted afterward. As of v1.1 it is model-invocable, so the agent may reach for it autonomously when a design question comes up.",
+        "sec_note_zh": "该技能会在你的仓库中搭建并运行用完即弃的代码——一个终端程序或额外的 UI 路由——使用你现有的任务运行器，因此会在本地执行代码，并在使用处附近添加临时文件。它默认不做持久化；若问题涉及数据库，可能会使用命名清晰的临时数据库或本地文件。该原型用后应被删除。自 v1.1 起它可被模型自动调用，因此在出现设计问题时智能体可能自主触发它。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/research",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Research",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "research",
+          "primary-sources",
+          "background-agent",
+          "documentation"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/research",
+          "git_ref": "main"
+        },
+        "description_en": "Delegate a research question to a background agent that investigates it against primary sources (official docs, source code, specs, first-party APIs) and leaves a single cited Markdown file in the repo.",
+        "description_zh": "把一个研究问题交给后台 agent，让它对照一手来源（官方文档、源码、规格、第一方 API）调查，并在仓库里留下一份带引用的 Markdown 文件。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/research folder, not the whole repo). Model-invocable, it spins up a background agent so you keep working while it reads: the agent follows every claim back to the primary source that owns it, writes findings to one Markdown file citing each source, and saves it wherever the repo already keeps such notes (saying where if there's no convention). You get back a document to grill, plan, or design against.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/research 这一个目录，而非整仓）。可由模型自动调用；它起一个后台 agent，让你在它阅读时继续工作：agent 把每条论断都追溯到拥有它的一手来源，将发现写入单个 Markdown 文件并为每条论断标注来源，保存到仓库既有的笔记约定位置（若无约定则择地存放并说明）。你会得到一份可供拷问、规划或据以设计的文档。",
+        "sec_note_en": "Runs a background agent that reads primary sources — typically fetching external documentation and reading your codebase — and writes a Markdown notes file into the repo. Review the fetched sources and generated file before relying on them; a background agent runs semi-autonomously.",
+        "sec_note_zh": "会运行一个后台 agent 阅读一手来源——通常包括抓取外部文档并读取你的代码库——并把一份 Markdown 笔记写入仓库。在依赖其结论前请审阅抓取的来源与生成文件；后台 agent 是半自主运行的。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/setup-matt-pocock-skills",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Setup Matt Pocock Skills",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "setup",
+          "configuration",
+          "issue-tracker",
+          "scaffolding"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/setup-matt-pocock-skills",
+          "git_ref": "main"
+        },
+        "description_en": "Configure this repo for the engineering skills — issue tracker, triage label vocabulary, and domain doc layout. Run once before first use.",
+        "description_zh": "为本仓库配置这套工程技能——issue 追踪器、分诊标签词表和领域文档布局。首次使用其他技能前运行一次。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/setup-matt-pocock-skills folder, not the whole repo). It scaffolds the per-repo configuration the other engineering skills assume: it explores the repo (git remotes, CLAUDE.md/AGENTS.md, CONTEXT.md, docs/adr), walks you through choosing an issue tracker (GitHub/GitLab/local-markdown/other), maps the five triage label strings, and confirms the domain-doc layout before writing the config.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/setup-matt-pocock-skills 这一个目录，而非整仓）。它为其他工程技能搭好每个仓库所需的配置：探查仓库（git 远端、CLAUDE.md/AGENTS.md、CONTEXT.md、docs/adr），引导你选择 issue 追踪器（GitHub/GitLab/本地 markdown/其他），映射五个分诊标签字符串，并在写入配置前确认领域文档布局。",
+        "sec_note_en": "This skill writes configuration into your repo: it adds an '## Agent skills' block to CLAUDE.md or AGENTS.md and records tracker/label/doc choices (e.g. under docs/agents/). It inspects git config and remotes to suggest defaults but is prompt-driven and confirms with you before writing. No code execution; review the files it adds to your working tree.",
+        "sec_note_zh": "该技能会把配置写入你的仓库：它会向 CLAUDE.md 或 AGENTS.md 添加一个 '## Agent skills' 区块，并记录追踪器/标签/文档的选择（例如放在 docs/agents/ 下）。它会查看 git 配置和远端以建议默认值，但整个过程由提示驱动，并在写入前与你确认。不执行代码；请审查它写入工作区的文件。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/tdd",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "TDD",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "tdd",
+          "testing",
+          "red-green",
+          "seam",
+          "integration-tests"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/tdd",
+          "git_ref": "main"
+        },
+        "description_en": "Test-driven development. Use when building features or fixing bugs test-first, when red-green is mentioned, or when you want integration tests.",
+        "description_zh": "测试驱动开发。适用于以测试先行的方式构建功能或修复 bug、提到红-绿循环、或希望编写集成测试时。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/tdd folder, not the whole repo). As of v1.1 it is a reference for the red → green loop — refactoring is left to the code-review skill — rather than a step-by-step workflow: it defines what a good test is (behavior through public interfaces, not implementation details), introduces the 'seam' as where tests go (test only at pre-agreed seams, confirmed with you before any test is written), and catalogs anti-patterns including implementation-coupled and tautological tests, favoring integration-style tests built as vertical 'tracer bullet' slices.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/tdd 这一个目录，而非整仓）。自 v1.1 起，它是「红 → 绿」循环的参考资料（重构交给 code-review 技能），而非一步步的工作流：定义什么是好测试（通过公共接口验证行为、而非耦合实现细节）、引入「接缝(seam)」作为测试落点（只在事先约定、并在写任何测试前与你确认的接缝处测试），并罗列各类反模式（包括耦合实现的测试与同义反复(tautological)测试），偏好以纵向「曳光弹」切片构建的集成式测试。",
+        "sec_note_en": "This skill writes and runs tests against your codebase using your project's existing test framework and task runner, so it executes code locally. It reads CONTEXT.md and ADRs (if present) to align vocabulary but does not transmit anything externally; risk is limited to local test execution.",
+        "sec_note_zh": "该技能会基于你项目现有的测试框架和任务运行器编写并运行针对代码库的测试，因此会在本地执行代码。它会读取 CONTEXT.md 和 ADR（若存在）以对齐术语，但不会向外部传输任何内容；风险仅限于本地测试执行。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/teach",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Teach",
+        "author": "mattpocock",
+        "category": "productivity",
+        "tags": [
+          "learning",
+          "teaching",
+          "lessons",
+          "study",
+          "knowledge"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/productivity/teach",
+          "git_ref": "main"
+        },
+        "description_en": "Teach you a new skill or concept across sessions, turning the current workspace into a stateful learning space.",
+        "description_zh": "跨多次会话教你一项新技能或新概念，把当前工作区变成一个有状态的学习空间。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/teach folder, not the whole repo). It treats the current directory as a teaching workspace, grounding lessons in a MISSION.md and curated resources, and produces short, beautiful self-contained HTML lessons plus reference sheets and learning records, using retrieval practice, spacing, and interleaving to build long-term retention.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/teach 这一个目录，而非整仓）。它把当前目录当作教学工作区，以 MISSION.md 和精选资源为依据，产出简短且精美的自包含 HTML 课程，以及参考速查表和学习记录，并运用回忆练习、间隔重复与交错练习来构建长期记忆。",
+        "sec_note_en": "Side effect: it creates and updates files in your current directory (MISSION.md, RESOURCES.md, NOTES.md, and HTML lessons/reference/learning-record folders) as learning state, and may run a CLI command to open a lesson. Point it at a dedicated learning folder rather than a code repo. It fetches external resources to ground lessons, so it reaches the network.",
+        "sec_note_zh": "副作用：它会在当前目录中创建并更新文件（MISSION.md、RESOURCES.md、NOTES.md 以及 HTML 课程/参考/学习记录等目录）作为学习状态，还可能运行 CLI 命令来打开课程。建议把它指向一个专门的学习目录，而非代码仓库。它会抓取外部资源来支撑教学，因此会访问网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/to-spec",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "To Spec",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "spec",
+          "prd",
+          "synthesis",
+          "issue-tracker"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/to-spec",
+          "git_ref": "main"
+        },
+        "description_en": "Turn the current conversation into a spec (you may know it as a PRD) and publish it to your project issue tracker — no interview, just synthesis of what you've already discussed.",
+        "description_zh": "把当前对话直接整理成一份 spec（你也可能称它为 PRD）并发布到你项目的 issue 追踪器——不做访谈，只综合你们已经讨论过的内容。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-spec folder, not the whole repo). Formerly named to-prd, it synthesizes the current conversation and codebase understanding into a spec (problem statement, user stories, implementation and testing decisions), sketches the test seams — preferring the fewest, highest seams and confirming them with you — then publishes the document to your issue tracker with a ready-for-agent label.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-spec 这一个目录，而非整仓）。原名 to-prd，它把当前对话与对代码库的理解综合成一份 spec（问题陈述、用户故事、实现与测试决策），勾画测试接缝——优先选用数量最少、层次最高的接缝并与你确认——再把文档发布到你的 issue 追踪器并打上 ready-for-agent 标签。",
+        "sec_note_en": "This skill publishes a spec to your configured project issue tracker (GitHub, GitLab, or local files) and applies a triage label, so it needs write access there and will create content. It reads your codebase, domain glossary, and ADRs to draft the spec; the tracker vocabulary must be set up beforehand (run setup-matt-pocock-skills).",
+        "sec_note_zh": "该技能会把一份 spec 发布到你配置的项目 issue 追踪器（GitHub、GitLab 或本地文件）并打上分诊标签，因此需要对其的写入权限，并会创建内容。它会读取你的代码库、领域术语表和 ADR 来起草 spec；需事先配置好追踪器术语（运行 setup-matt-pocock-skills）。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/to-tickets",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "To Tickets",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "tickets",
+          "planning",
+          "vertical-slices",
+          "issue-tracker"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/to-tickets",
+          "git_ref": "main"
+        },
+        "description_en": "Break a plan, spec, or the current conversation into tracer-bullet tickets, each declaring its blocking edges — published to your tracker as native blocking links, or as text in a local tickets.md.",
+        "description_zh": "把计划、规格或当前对话拆成曳光弹式工单，每个工单声明自己的阻塞依赖——发布到追踪器上作为原生 blocking 链接，或在本地 tickets.md 中以文本记录。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-tickets folder, not the whole repo). It merges the former to-plan and to-issues skills: it breaks a plan, spec, or conversation into thin vertical 'tracer bullet' slices, each declaring the tickets that block it. On a real tracker (GitHub/GitLab) the edges become native sub-issues and blocking links, so any ticket whose blockers are done sits on the frontier and several agents can run in parallel; on a local file the edges are written as text and worked top-to-bottom by hand. It also handles wide refactors via expand–contract so CI stays green batch to batch.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-tickets 这一个目录，而非整仓）。它合并了原来的 to-plan 与 to-issues：把计划、规格或对话拆成贯穿各层、端到端的薄「曳光弹」纵向切片，每个切片声明阻塞它的工单。在真实追踪器（GitHub/GitLab）上，这些依赖会变成原生子 issue 与 blocking 链接，于是任何阻塞项已完成的工单都处于前沿，多个 agent 可并行推进；在本地文件里则以文本记录依赖、自上而下手动推进。它还能用 expand–contract 处理大范围重构，让 CI 逐批保持绿灯。",
+        "sec_note_en": "This skill creates tickets on your configured project issue tracker (GitHub, GitLab, or local files) and applies triage labels, so it needs write access to that tracker and will publish content there. It also reads your codebase, domain glossary, and ADRs to phrase tickets; setup of the tracker vocabulary is a prerequisite (run setup-matt-pocock-skills).",
+        "sec_note_zh": "该技能会在你配置的项目 issue 追踪器（GitHub、GitLab 或本地文件）上创建工单并打上分诊标签，因此需要对该追踪器的写入权限，并会在其中发布内容。它还会读取你的代码库、领域术语表和 ADR 来撰写工单；预先配置好追踪器术语是前提（运行 setup-matt-pocock-skills）。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/triage",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Triage",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "triage",
+          "issues",
+          "workflow",
+          "github"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/triage",
+          "git_ref": "main"
+        },
+        "description_en": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+        "description_zh": "用一套分诊角色状态机来流转 issue 和外部 PR——分类、验证、必要时拷问，并写出可交给 agent 的工作简报。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/triage folder, not the whole repo). It moves incoming issues (and optionally external PRs) through canonical triage roles — categorising bug vs enhancement, assigning states like needs-triage / needs-info / ready-for-agent, verifying the claim by reproducing it, grilling underspecified requests into shape, and posting agent-ready briefs back to the tracker.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/triage 这一个目录，而非整仓）。它把进来的 issue（以及可选的外部 PR）按规范化的分诊角色流转——区分 bug 与增强、打上 needs-triage / needs-info / ready-for-agent 等状态、通过复现来验证主张、把描述不清的请求拷问成形，并把可交给 agent 的简报回贴到追踪器。",
+        "sec_note_en": "This skill reads from and writes to your issue tracker (GitHub via the gh CLI by default, or GitLab/local-markdown/other), so it needs that tracker's access and will create labels, post comments, and change issue/PR states. It expects setup-matt-pocock-skills to have configured the label vocabulary first. When verifying claims it may check out PR branches and run their tests/commands — review code it executes.",
+        "sec_note_zh": "该技能会读写你的 issue 追踪器（默认通过 gh CLI 使用 GitHub，也支持 GitLab/本地 markdown/其他），因此需要该追踪器的访问权限，并会创建标签、发表评论、变更 issue/PR 状态。它要求先用 setup-matt-pocock-skills 配置好标签词表。在验证主张时，它可能检出 PR 分支并运行其测试/命令——请审查它执行的代码。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/wayfinder",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Wayfinder",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "planning",
+          "decision-map",
+          "issue-tracker",
+          "large-projects"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/engineering/wayfinder",
+          "git_ref": "main"
+        },
+        "description_en": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, resolving them one at a time until the route to the destination is clear.",
+        "description_zh": "把一大块工作——超出单个 agent 会话所能承载的规模——规划成 issue 追踪器上一张共享的「决策工单」地图，逐个解决，直到通往目标的路线清晰。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/wayfinder folder, not the whole repo). Formerly decision-mapping, it charts a route through a foggy, oversized problem as a single wayfinder:map issue whose decision tickets are its child issues — one shared URL the team can watch. It plans rather than builds (the map produces decisions, not deliverables), pins a Destination each session orients to, prefers the tracker's native blocking edges so the frontier renders in the tracker's own UI, and stays tracker-agnostic (GitHub, GitLab, or local markdown).",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/wayfinder 这一个目录，而非整仓）。原名 decision-mapping，它把一个迷雾笼罩、体量过大的问题的路线绘制成单个 wayfinder:map issue，其决策工单是它的子 issue——一个团队可共同关注的共享 URL。它以规划而非施工为主（地图产出决策，而非交付物），每个会话都锚定一个 Destination，优先使用追踪器的原生 blocking 依赖以便前沿在追踪器自身 UI 中呈现，并保持追踪器无关（GitHub、GitLab 或本地 markdown）。",
+        "sec_note_en": "This skill creates and updates a map issue plus child decision tickets on your configured tracker (GitHub, GitLab, or local file), so it needs write access there and will publish content. It reads your codebase and agent docs; the tracker vocabulary must be configured first via setup-matt-pocock-skills.",
+        "sec_note_zh": "该技能会在你配置的追踪器（GitHub、GitLab 或本地文件）上创建并更新一个地图 issue 及其子决策工单，因此需要写入权限，并会发布内容。它会读取你的代码库与 agent 文档；需先通过 setup-matt-pocock-skills 配置好追踪器术语。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:mattpocock/skills/writing-great-skills",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "via": "github:mattpocock",
+        "full_name": "mattpocock/skills",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Writing Great Skills",
+        "author": "mattpocock",
+        "category": "developer",
+        "tags": [
+          "skills",
+          "authoring",
+          "meta-skill",
+          "reference",
+          "agents"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/mattpocock/skills",
+          "subdir": "skills/productivity/writing-great-skills",
+          "git_ref": "main"
+        },
+        "description_en": "A reference of the vocabulary and principles that make an agent skill predictable, for writing and editing skills well.",
+        "description_zh": "一份关于词汇与原则的参考，讲解如何让智能体技能更可预测，用于把技能写好、改好。",
+        "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/productivity/writing-great-skills folder, not the whole repo). It is a meta-skill: a pure reference that defines the levers behind predictability — invocation modes, description writing, the information hierarchy and progressive disclosure, when to split skills, pruning to a single source of truth, and using leading words — plus a catalog of steering failure modes (including Negation, where naming what not to do backfires, and Negative Space, the steering done by what a skill leaves out), with a bundled GLOSSARY.md for the full definitions.",
+        "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/writing-great-skills 这一个目录，而非整仓）。它是一个元技能：一份纯参考资料，阐明决定“可预测性”的各项杠杆——调用方式、描述撰写、信息层级与渐进式披露、何时拆分技能、剪枝至单一事实来源，以及善用“引导词”——外加一份“引导失败模式”清单（包括 Negation：写明“不要做什么”反而弄巧成拙；以及 Negative Space：技能所省略之处同样在引导行为），并附带一份 GLOSSARY.md 提供完整定义。",
+        "sec_note_en": "Pure reference material consulted on demand: it makes no external changes (no files written, no commands run, no network access). It only shapes how you author other skills.",
+        "sec_note_zh": "按需查阅的纯参考资料：它不做任何外部改动（不写文件、不执行命令、不联网）。它只影响你如何撰写其他技能。",
         "requires_config": false
       }
     ]

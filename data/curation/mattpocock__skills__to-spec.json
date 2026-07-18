@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "to-spec",
+  "name": "To Spec",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["spec", "prd", "synthesis", "issue-tracker"],
+  "description_en": "Turn the current conversation into a spec (you may know it as a PRD) and publish it to your project issue tracker — no interview, just synthesis of what you've already discussed.",
+  "description_zh": "把当前对话直接整理成一份 spec（你也可能称它为 PRD）并发布到你项目的 issue 追踪器——不做访谈，只综合你们已经讨论过的内容。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/to-spec folder, not the whole repo). Formerly named to-prd, it synthesizes the current conversation and codebase understanding into a spec (problem statement, user stories, implementation and testing decisions), sketches the test seams — preferring the fewest, highest seams and confirming them with you — then publishes the document to your issue tracker with a ready-for-agent label.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/to-spec 这一个目录，而非整仓）。原名 to-prd，它把当前对话与对代码库的理解综合成一份 spec（问题陈述、用户故事、实现与测试决策），勾画测试接缝——优先选用数量最少、层次最高的接缝并与你确认——再把文档发布到你的 issue 追踪器并打上 ready-for-agent 标签。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/to-spec"
+  },
+  "sec_note_en": "This skill publishes a spec to your configured project issue tracker (GitHub, GitLab, or local files) and applies a triage label, so it needs write access there and will create content. It reads your codebase, domain glossary, and ADRs to draft the spec; the tracker vocabulary must be set up beforehand (run setup-matt-pocock-skills).",
+  "sec_note_zh": "该技能会把一份 spec 发布到你配置的项目 issue 追踪器（GitHub、GitLab 或本地文件）并打上分诊标签，因此需要对其的写入权限，并会创建内容。它会读取你的代码库、领域术语表和 ADR 来起草 spec；需事先配置好追踪器术语（运行 setup-matt-pocock-skills）。"
+}

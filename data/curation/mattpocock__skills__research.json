@@ -1,0 +1,19 @@
+{
+  "full_name": "mattpocock/skills",
+  "slug": "research",
+  "name": "Research",
+  "kind": "skill",
+  "category": "developer",
+  "tags": ["research", "primary-sources", "background-agent", "documentation"],
+  "description_en": "Delegate a research question to a background agent that investigates it against primary sources (official docs, source code, specs, first-party APIs) and leaves a single cited Markdown file in the repo.",
+  "description_zh": "把一个研究问题交给后台 agent，让它对照一手来源（官方文档、源码、规格、第一方 API）调查，并在仓库里留下一份带引用的 Markdown 文件。",
+  "long_en": "One skill from Matt Pocock's skills collection (this entry installs only the skills/engineering/research folder, not the whole repo). Model-invocable, it spins up a background agent so you keep working while it reads: the agent follows every claim back to the primary source that owns it, writes findings to one Markdown file citing each source, and saves it wherever the repo already keeps such notes (saying where if there's no convention). You get back a document to grill, plan, or design against.",
+  "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/engineering/research 这一个目录，而非整仓）。可由模型自动调用；它起一个后台 agent，让你在它阅读时继续工作：agent 把每条论断都追溯到拥有它的一手来源，将发现写入单个 Markdown 文件并为每条论断标注来源，保存到仓库既有的笔记约定位置（若无约定则择地存放并说明）。你会得到一份可供拷问、规划或据以设计的文档。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/mattpocock/skills",
+    "subdir": "skills/engineering/research"
+  },
+  "sec_note_en": "Runs a background agent that reads primary sources — typically fetching external documentation and reading your codebase — and writes a Markdown notes file into the repo. Review the fetched sources and generated file before relying on them; a background agent runs semi-autonomously.",
+  "sec_note_zh": "会运行一个后台 agent 阅读一手来源——通常包括抓取外部文档并读取你的代码库——并把一份 Markdown 笔记写入仓库。在依赖其结论前请审阅抓取的来源与生成文件；后台 agent 是半自主运行的。"
+}
