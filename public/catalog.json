@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 239,
-    "generated_at": "2026-07-18T04:58:34.904Z",
-    "content_hash": "sha256:82f93fd60263fff0f2503842c7932a33d57b5e3a8744397bac82db0dab7c6a3d"
+    "entry_count": 240,
+    "generated_at": "2026-07-18T11:05:51.810Z",
+    "content_hash": "sha256:dd1184883b68e296dfcce4c57eed25864f2ff7d55bf17b2d73daf99ec01ce065"
   },
   "entries": [
     {
@@ -1407,6 +1407,30 @@
         "code-review"
       ],
       "via": "github:BuilderIO"
+    },
+    {
+      "id": "aleph-hub:LeoYeAI/teammate-skill",
+      "kind": "skill",
+      "category": "productivity",
+      "name": "teammate.skill",
+      "description": "A Claude Code / AgentSkills skill that distills a departing teammate's tribal knowledge into an invocable AI skill—auto-collecting Slack, GitHub, and email data to generate a Work Skill plus a 5-layer Persona that answers in their voice.",
+      "repo_url": "https://github.com/LeoYeAI/teammate-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/LeoYeAI/teammate-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "LeoYeAI",
+      "tags": [
+        "teammate",
+        "persona",
+        "knowledge-transfer",
+        "skill-generator",
+        "onboarding"
+      ],
+      "via": "github:LeoYeAI"
     },
     {
       "id": "aleph-hub:op7418/Humanizer-zh",

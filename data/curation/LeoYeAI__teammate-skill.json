@@ -1,0 +1,23 @@
+{
+  "full_name": "LeoYeAI/teammate-skill",
+  "name": "teammate.skill",
+  "kind": "skill",
+  "category": "productivity",
+  "tags": [
+    "teammate",
+    "persona",
+    "knowledge-transfer",
+    "skill-generator",
+    "onboarding"
+  ],
+  "description_en": "A Claude Code / AgentSkills skill that distills a departing teammate's tribal knowledge into an invocable AI skill—auto-collecting Slack, GitHub, and email data to generate a Work Skill plus a 5-layer Persona that answers in their voice.",
+  "description_zh": "一个 Claude Code / AgentSkills 技能，把即将离开的同事的隐性知识蒸馏成可调用的 AI 技能——自动汇集 Slack、GitHub、邮件数据，生成「工作技能」加「五层人格」，用其口吻回答问题。",
+  "long_en": "An AgentSkills-standard skill (runs natively in Claude Code and OpenClaw) that captures a colleague's expertise before it walks out the door. From a short description plus optional source material—Slack messages, GitHub PRs, Gmail/Notion/Confluence exports, or pasted text—it runs a dual-track analysis: a Work Skill (systems owned, tech standards, review focus, workflows) and a 5-layer Persona (hard rules, identity, expression, decision patterns, interpersonal style). Generated skills pass an internal quality gate and smoke test, ship as an invocable /{slug}, and evolve over time via incremental merges and in-conversation corrections. Bundled Python tools handle collection, parsing, versioning, PII scanning, and portable export.",
+  "long_zh": "一个符合 AgentSkills 标准的技能（可原生运行于 Claude Code 与 OpenClaw），在同事离开前留下其专长。基于一句描述加可选的源材料——Slack 消息、GitHub PR、Gmail/Notion/Confluence 导出或粘贴文本——执行双轨分析：「工作技能」（负责的系统、技术标准、评审重点、工作流）与「五层人格」（硬规则、身份、表达、决策模式、人际风格）。生成的技能会经过内置的质量门与冒烟测试，作为可调用的 /{slug} 交付，并通过增量合并与对话内纠正持续演进。附带的 Python 工具负责采集、解析、版本管理、PII 扫描与可移植导出。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/LeoYeAI/teammate-skill"
+  },
+  "sec_note_en": "MIT-licensed; runs locally as a skill with a set of Python helper tools. It ingests a real person's communications (Slack, GitHub, email, docs) to model them—use only with that person's consent and proper data-handling authorization. A bundled privacy_guard.py scans for PII and raw 'knowledge/' files are git-ignored by default, but review collected data and generated output before sharing. The Slack and GitHub collectors require your own API tokens.",
+  "sec_note_zh": "MIT 许可；作为技能在本地运行，附带一组 Python 辅助工具。它会摄取真实人物的沟通记录（Slack、GitHub、邮件、文档）来建模——请仅在获得当事人同意及正当数据处理授权的前提下使用。附带的 privacy_guard.py 会扫描 PII，原始 'knowledge/' 文件默认被 git 忽略，但分享前请审阅采集数据与生成结果。Slack 与 GitHub 采集器需要你自己的 API 令牌。"
+}
