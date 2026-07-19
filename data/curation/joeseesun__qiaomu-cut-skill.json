@@ -1,0 +1,23 @@
+{
+  "full_name": "joeseesun/qiaomu-cut-skill",
+  "name": "Qiaomu Cut",
+  "kind": "skill",
+  "category": "design",
+  "tags": [
+    "video",
+    "ffmpeg",
+    "subtitles",
+    "video-editing",
+    "b-roll"
+  ],
+  "description_en": "Turn a one-line request into a reproducible, verifiable video-production pipeline: plan the script, govern and source footage, generate the missing shots and narration, direct the cut, render with ffmpeg, and quality-check the result—for movie-line mixes, explainers, profiles, social shorts, and more.",
+  "description_zh": "把一句话需求转成可复现、可验收的视频制作流水线:规划脚本、治理与选择素材源、生成缺口镜头与旁白、执导剪辑、用 ffmpeg 渲染并质检——覆盖影视混剪、科普解说、人物介绍、竖屏短视频等多种成品。",
+  "long_en": "Routes across licensed movie-line search, free stock (Pexels/Pixabay via ClipSeek), local files, and AI generation (ListenHub narration/TTS, images, music), then renders through preview/standard/final ffmpeg profiles with bilingual subtitles, brand packaging, license reports, and reproducible render commands.",
+  "long_zh": "跨授权台词搜索、免费素材(经 ClipSeek 的 Pexels/Pixabay)、本地文件与 AI 生成(ListenHub 旁白/TTS、图片、音乐)统一调度,再经 preview/standard/final 三档 ffmpeg 渲染,产出双语字幕、品牌包装、许可清单与可复现渲染命令。",
+  "install_spec": {
+    "type": "git_dir",
+    "git_url": "https://github.com/joeseesun/qiaomu-cut-skill"
+  },
+  "sec_note_en": "Runs bundled Node/shell scripts and can install CLIs and ffmpeg via bootstrap scripts; may trigger paid or remote third-party jobs (33台词 account credits, ListenHub generation) and file uploads, all gated behind an explicit --yes confirmation. Verify media licensing at the original source and use accounts you control.",
+  "sec_note_zh": "会运行内置的 Node/Shell 脚本,并可能通过 bootstrap 脚本安装 CLI 与 ffmpeg;可能触发付费或远端第三方任务(33台词账号积分、ListenHub 生成)与文件上传,均需显式 --yes 确认。素材许可请回到原站核对,并使用你自己掌控的账号。"
+}

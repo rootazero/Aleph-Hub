@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 254,
-    "generated_at": "2026-07-19T04:25:15.835Z",
-    "content_hash": "sha256:82d293ed3ae44820f3254080b095bf76ad827433ec3bbf7fd21780f53aecef2e"
+    "entry_count": 255,
+    "generated_at": "2026-07-19T11:48:44.968Z",
+    "content_hash": "sha256:8b4f77701c0e023667ccb83f0f8f4b3da73efb3047ea6b113ff836fcd2fc7c89"
   },
   "entries": [
     {
@@ -6182,6 +6182,30 @@
         "chinese"
       ],
       "via": "github:zy-zmc"
+    },
+    {
+      "id": "aleph-hub:joeseesun/qiaomu-cut-skill",
+      "kind": "skill",
+      "category": "design",
+      "name": "Qiaomu Cut",
+      "description": "Turn a one-line request into a reproducible, verifiable video-production pipeline: plan the script, govern and source footage, generate the missing shots and narration, direct the cut, render with ffmpeg, and quality-check the result—for movie-line mixes, explainers, profiles, social shorts, and more.",
+      "repo_url": "https://github.com/joeseesun/qiaomu-cut-skill",
+      "trust_tier": "community",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/joeseesun/qiaomu-cut-skill",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "joeseesun",
+      "tags": [
+        "video",
+        "ffmpeg",
+        "subtitles",
+        "video-editing",
+        "b-roll"
+      ],
+      "via": "github:joeseesun"
     }
   ]
 }
