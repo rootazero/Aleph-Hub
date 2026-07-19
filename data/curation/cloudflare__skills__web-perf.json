@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Web Performance Audit",
+  "kind": "skill",
+  "slug": "web-perf",
+  "category": "developer",
+  "tags": [
+    "web-performance",
+    "core-web-vitals",
+    "lighthouse",
+    "chrome-devtools",
+    "optimization"
+  ],
+  "description_en": "Audits web performance via the Chrome DevTools MCP — measures Core Web Vitals (LCP/INP/CLS) and FCP/TBT/Speed Index, finds render-blocking resources, network dependency chains, layout shifts, and caching gaps, with quantified, specific fixes. Retrieval-first from current docs.",
+  "description_zh": "通过 Chrome DevTools MCP 审查网页性能——测量 Core Web Vitals（LCP/INP/CLS）与 FCP/TBT/Speed Index，定位渲染阻塞资源、网络依赖链、布局偏移与缓存问题，给出量化且具体的修复建议。优先从当前文档检索。",
+  "long_en": "Uses the chrome-devtools MCP server (navigate_page, performance_start_trace) to capture traces and derive Core Web Vitals and supplementary metrics against current web.dev and Lighthouse thresholds, and to identify render-blocking resources, network dependency chains, layout shifts, caching issues, and accessibility gaps. It emphasizes verifying claims against network requests / DOM / codebase, quantifying impact with estimated savings, skipping 0ms non-issues, being specific ('compress hero.png (450KB) to WebP'), and prioritizing ruthlessly. Note: this is a general web-performance skill (not Cloudflare-specific) that ships in Cloudflare's official skills repo. Retrieval-first when citing numbers or recommendations.",
+  "long_zh": "使用 chrome-devtools MCP 服务器（navigate_page、performance_start_trace）采集 trace，依据当前 web.dev 与 Lighthouse 阈值推导 Core Web Vitals 与补充指标，并定位渲染阻塞资源、网络依赖链、布局偏移、缓存问题与无障碍缺口。它强调用网络请求/DOM/代码库核实结论，用预估节省量量化影响，跳过 0ms 的非问题，给出具体建议（“把 hero.png（450KB）压成 WebP”），并果断排定优先级。注意：这是一个通用网页性能技能（并非 Cloudflare 专属），随 Cloudflare 官方技能仓库一同发布。引用数值或建议时优先检索。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/web-perf"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Requires the external `chrome-devtools` MCP server (`npx chrome-devtools-mcp`) to be configured — it drives a local Chrome instance to profile pages. Analysis/advisory only; no changes are made without your direction, and it carries no bundled credentials. Retrieval-first: fetches current pages from web.dev and developer.chrome.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。需配置外部 `chrome-devtools` MCP 服务器（`npx chrome-devtools-mcp`）——它会驱动本地 Chrome 实例来分析页面。仅做分析/建议，不经你指示不做更改，也不含凭据。检索优先：使用时从 web.dev 与 developer.chrome.com 拉取当前页面，需出站网络。"
+}

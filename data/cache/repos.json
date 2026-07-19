@@ -1,6 +1,6 @@
 {
   "microsoft/playwright-mcp": {
-    "etag": "\"07d276768f1113fc71a02da2aa141ae03f1f2fd78b21a75e7a2cd8ab39c4c188\"",
+    "etag": "W/\"0e9657cc24d62f172f36cd775004f33563349bd8ec2375f58b13b59a57daa7e3\"",
     "readme_hash": "6d598c12744e70258ce26f0174a31f000512098aea7962947d676ca0f70c379f",
     "entries": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   "wonderwhy-er/DesktopCommanderMCP": {
-    "etag": "W/\"0cee806b665869e16288b83298e4c71473932b52f0fbac8c56694f4c2faf091c\"",
+    "etag": "W/\"531e94c134ac2b780081a9317a7456df07fe7aafba0e9278ac06fd1f54e49a25\"",
     "readme_hash": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60",
     "entries": [
       {
@@ -86,7 +86,7 @@
     ]
   },
   "mobile-next/mobile-mcp": {
-    "etag": "\"5c18ea2d8e86363397f3f25ce87ecb0a0f56f39fa2c8eac80cce6090f6455fdc\"",
+    "etag": "W/\"8a2e8d0acc070edcd1ee922c0c1d71774c36d9de356af1f78abe8b487af30885\"",
     "readme_hash": "0e256eb8021310801626f0db621b72f38d6411227f72f8c325abcba6416705c8",
     "entries": [
       {
@@ -132,7 +132,7 @@
     ]
   },
   "zarazhangrui/frontend-slides": {
-    "etag": "W/\"5c623890cc0355d5962893a0a6099f86f89d50e688988d3fa323eada0ef83287\"",
+    "etag": "W/\"5c2329bdf3d4e96e9140bc782e14cf9937fcc39a87159aec236c1742a38ffc43\"",
     "readme_hash": "e358f7aab79a0193b5494c4423ad0e47f13624ee5153095e283e4ae9d1982dac",
     "entries": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   "op7418/guizang-social-card-skill": {
-    "etag": "W/\"89297ea719d8590048dc304edcf51d31cb680467d0da3e83a16e3dad2200bd1e\"",
+    "etag": "W/\"c8139a908913bd22b5d4427ae1d0cd98ad63e96647a7d5e6d9d3a24a341c81a8\"",
     "readme_hash": "d15bbc144338964f151a2520ac8691d4356cc470eb6d3148c69ceab61e0cd434",
     "entries": [
       {
@@ -203,8 +203,8 @@
     ]
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "etag": "W/\"67a1f433873365db5df14bf99a1ac169a3d486df6be34fbf1baa566bb3967fc3\"",
-    "readme_hash": "f331d3b45e1b6990e8bd240ed5492d7ff43ec116ec39501533b61bcadc2f619e",
+    "etag": "W/\"866fb34cdc4f788da8834c461c8f8d0f758ebe56d67384f0282f3d42e17c4407\"",
+    "readme_hash": "e9d52ee7f18853a798aa4a6cae28b5e375713d943395d8ffd79b759edaff95a6",
     "entries": [
       {
         "id": "aleph-hub:eugeniughelbur/obsidian-second-brain",
@@ -238,7 +238,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "etag": "W/\"8515e3e31ae0a1c93341140ae1108442faa0a195b64f531508833438eb9b9197\"",
+    "etag": "W/\"c73ba99680d0ee2dc4ee1463b74875539fb65da2f4f8f28de435822c59901146\"",
     "readme_hash": "62454b369d477a4257ee39aa28b407e281b3641f5facef2cc9f4f5a01e6cc50e",
     "entries": [
       {
@@ -273,7 +273,7 @@
     ]
   },
   "nolangz/pixel2motion": {
-    "etag": "\"df9cd07967519b9993311f8235d93388cb334c2699d7f895e425e2c2bedff52c\"",
+    "etag": "W/\"48af36cd5872e9ecf229da5686663a241d17177dc7368c2ba74b2162ea825c24\"",
     "readme_hash": "a526ab2482a02bdfbc2920782640a810ef9dace5a19516a88d5d5a18eef6549a",
     "entries": [
       {
@@ -308,7 +308,7 @@
     ]
   },
   "dominikmartn/hue": {
-    "etag": "\"de76608e9bc326e3b6cd7ca8eb29b415d887377a71bf57f7929017267c033cfc\"",
+    "etag": "W/\"7f22a86614d447cbd18f6ac18f380890b7b469f75c280bf804d50c09454ffa5d\"",
     "readme_hash": "f739a93614d7836da1b87fc3b30d1be6f94a8a45f7ada2632acb8505c5831ce8",
     "entries": [
       {
@@ -343,7 +343,7 @@
     ]
   },
   "Bhanunamikaze/Agentic-SEO-Skill": {
-    "etag": "\"3a53121f96738eb05f1dc8fb89c9b1e6a6a9125086506c7803c7475f1d186478\"",
+    "etag": "W/\"e54cc8f5ec2ffee312d26137febb7c4cd39978a8feb8c1af7c7fa32fe2769085\"",
     "readme_hash": "052a6c2a7f363898a51609e5006857324c138a67d171fe99705f3dd0c33223f5",
     "entries": [
       {
@@ -413,7 +413,7 @@
     ]
   },
   "ckelsoe/prompt-architect": {
-    "etag": "\"0dfbdba599f7749e9099ff1af0b5bec4cb2c4268ff5cf7ea419d9482c9e65586\"",
+    "etag": "W/\"0d1fa1da224121ae9b807c2aac2e5f3a3ce98fe57920315277a45b816f325930\"",
     "readme_hash": "f0f12548188a919bcc0a2bbad12c41ec8feea8e3baae4660e09cab55c80851a6",
     "entries": [
       {
@@ -448,7 +448,7 @@
     ]
   },
   "JamesShi96/project-butler": {
-    "etag": "W/\"f213547a4037750147f3aad1e1c3e124378183cb750b8f47c39bc7986bb16ded\"",
+    "etag": "W/\"8ccdc7d85d45a84d0aa3501b68707b9506f9fa37c6d61ab7b1dc8a15e354f7c9\"",
     "readme_hash": "27159f8e9c5a8b607eee0fe499c1f409123f3a7df54fd40a2a9ff47e5ed690af",
     "entries": [
       {
@@ -483,7 +483,7 @@
     ]
   },
   "coffeefuelbump/csv-data-summarizer-claude-skill": {
-    "etag": "\"6e2558b630c8346ff687e8ce8a49252c88a87fa4f544cc19d6a4932fce3ea158\"",
+    "etag": "W/\"401e27b19fdd7bc3df2d854128a0e9e87862429383a2b65b631c7f9cc7e78fa1\"",
     "readme_hash": "8e030cda3fa0af5165beeffd9db7b5d5f6166f93f37b53384bd52c9db1b392be",
     "entries": [
       {
@@ -555,7 +555,7 @@
     ]
   },
   "karanb192/algo-sensei": {
-    "etag": "\"b31236a391f766b80575b7d88dec35928c979c2d016aeffdcb5678f67db1dcd3\"",
+    "etag": "W/\"8eee0cbb97df482876b0c557bc640b5c79dc384c6a19c26187add7a0a2211281\"",
     "readme_hash": "e102d6031dd5a513a587ee39f8f6f32cb5428390081df771ba59abe1f7f044eb",
     "entries": [
       {
@@ -628,7 +628,7 @@
     ]
   },
   "apiotrowski-afk/commercial-legal-pl": {
-    "etag": "\"59428b948ae2d94ad8fcb006454590251dc133e9e57ce51409156aa415383a5a\"",
+    "etag": "W/\"c66ea46aae4760c0790a82d7db7fc3280ffbddac8105bca05844d4ccc8d0e4af\"",
     "readme_hash": "1b17dad7e17b7b09caa5462516d940332b3ce00112a564df82ba9ccddb2e42a9",
     "entries": [
       {
@@ -699,7 +699,7 @@
     ]
   },
   "yfe404/web-scraper": {
-    "etag": "\"f11add2c432625bc41c9ecc4712ea71bf9854ee30a737c7aee2fa1812f83e33c\"",
+    "etag": "W/\"0ae93e6785ec5a270b000569d5a1a4ca9e5a7942d8956093f9839d01d62c2cda\"",
     "readme_hash": "1a80a54e2d1cf3b3a830d5320b42feec49a237b474a93582b19aaafdc997c4e4",
     "entries": [
       {
@@ -735,7 +735,7 @@
     ]
   },
   "JuneYaooo/gpt-image2-ppt-skills": {
-    "etag": "\"dabb19cc2aebc753edd67a94c172ab473de37bebf89d9c2019a001565b4dfe2a\"",
+    "etag": "W/\"fabddedf8d76c1e2fee079c82274bdd648cf71e37ee810991f5ee4a95213be63\"",
     "readme_hash": "3126c0436e423d7b4ace01a1475d54a6453663dcce7887896024d2461f6127ae",
     "entries": [
       {
@@ -805,7 +805,7 @@
     }
   },
   "dpconde/claude-android-skill": {
-    "etag": "\"c760bef756d71d1c16d9f9e640056cb95930524b8f44f91110365731e0306273\"",
+    "etag": "W/\"8103082bc2782f2863924e4294e24b2e35bdfede05bb0d2106b01a12fbb04d0d\"",
     "readme_hash": "026826447e4b068f7b2b5c2a4bb6f093af7496e8d8c7588c766216de37a56773",
     "entries": [
       {
@@ -949,7 +949,7 @@
     ]
   },
   "PleasePrompto/google-ai-mode-skill": {
-    "etag": "\"65a4237a92d4b84f5393dac33d1fd9a585a87be5dffdf09478262bf20d77d778\"",
+    "etag": "W/\"cd229c99a6b2e68adf23637e779ec409621762f00663b589137968aa6e53a92f\"",
     "readme_hash": "3830e22a24b474154edc7779abb28e1701f01a7147e06e0d9d8b874a3d07522a",
     "entries": [
       {
@@ -1021,7 +1021,7 @@
     ]
   },
   "Hao0321/ai-media-generator": {
-    "etag": "W/\"4d43ec1e884349518b209240c3247b9de8a27f02333f4665977571e956ab9062\"",
+    "etag": "W/\"efbeb97b2db0899eb5eea4b0517e5fceb9a98d177e81284cb0514371548fed1b\"",
     "readme_hash": "b1897a089d051bcbbd5903c4f82dd57d2d10beb75bdf72af249533b8f79edfda",
     "entries": [
       {
@@ -1129,7 +1129,7 @@
     ]
   },
   "handsomeZR-netizen/mathmodel-skill": {
-    "etag": "\"4052e0fa0951c44a5c3e8832b9142d6adfb345bd6d925d856d1cf7840242acd0\"",
+    "etag": "W/\"ba62108c14a1ea02ae52d37fd6d76c0092abfd6699d5b3cf6888154dd5e732f7\"",
     "readme_hash": "0dca5317246f4ae111a0c27ccb7a1ff62923e3889d11f1090d0f1ed090044686",
     "entries": [
       {
@@ -1201,7 +1201,7 @@
     ]
   },
   "zy-zmc/tianming-skill": {
-    "etag": "\"59d49384df7e7cbd4f025b2759b5dfe997135245b5f0205e27bbdf15aaf6d2ed\"",
+    "etag": "W/\"a079a0677665cf90298134fdba7340b34eafa85ac80f4665781adb82c64cd9e4\"",
     "readme_hash": "b6502b8e71d5499ccfae97ebc597847c414d7566e39a0ee7799d060a31e67868",
     "entries": [
       {
@@ -1345,7 +1345,7 @@
     ]
   },
   "Jaderson-bit/mindmap-markmap-viewer": {
-    "etag": "\"037f91051abef74df6bb82d89b7a517d3bf91adde5abd80dd633df5556c70fc2\"",
+    "etag": "W/\"e8ef3bae207abf380ad8bfac743ec09eb3afed86e3f24b12ca8b5c35623ddefc\"",
     "readme_hash": "7a5ff04a833d1011ac4116a30e7d49a715453994a6b8d2c8673ba9c070b75d52",
     "entries": [
       {
@@ -1417,7 +1417,7 @@
     ]
   },
   "SDLLL/claude-for-safari": {
-    "etag": "\"c53d5e15016e9909ef5c5eafe8b21d165fd0b3037d210384104f5a09f4dcf6e0\"",
+    "etag": "W/\"a8598e2fe8b466330978f2d902b5e054e06aa6a208e7aa3905ef4e50fb2e718b\"",
     "readme_hash": "6e6558d1e7f351b9a247cefc8540403199529795de4c83421a62691fe608441d",
     "entries": [
       {
@@ -1561,7 +1561,7 @@
     ]
   },
   "Adityapal67/context-graph-compressor": {
-    "etag": "\"86d8c70e8dada25bf392dbcef4e692a6b77bbca570fe14ad62b3467dcb04bdbf\"",
+    "etag": "W/\"ed24028791fcdea726a23cc96e7e8c16c5047d8d01c60f18da7ecbfaecf4c59f\"",
     "readme_hash": "c20b1f334839e662e3b9c7c6c823bc26fd4eb53a9ddf69157902205703d5be6a",
     "entries": [
       {
@@ -1705,7 +1705,7 @@
     ]
   },
   "googlarz/finance-assistant": {
-    "etag": "\"8e7d7eea0b3f1ebdd6f94eab4ac809149e060dda810aa77715d8b65678ff77b6\"",
+    "etag": "W/\"7327ba727069da193a57eaaac09ee1b5d8b6786a64265fdb77beb9bda9bc2ddd\"",
     "readme_hash": "dd9be88c041deae5008898e412181afcecadba6e3f1fe0e12ec5d54e1d69c53e",
     "entries": [
       {
@@ -1921,7 +1921,7 @@
     ]
   },
   "Danielbluz/skill-irpf-brasil": {
-    "etag": "W/\"e7251ffc559f3db8970825b429b1145a5c41b4770150b761a8681fd428cd78ef\"",
+    "etag": "\"e7251ffc559f3db8970825b429b1145a5c41b4770150b761a8681fd428cd78ef\"",
     "readme_hash": "533340adfd32144e2c5494970b28ae9b7d7e08fd67d6dbbd4777589a2994e637",
     "entries": [
       {
@@ -2245,7 +2245,7 @@
     ]
   },
   "muxuuu/serenity-skill": {
-    "etag": "W/\"ea8757c47f6b3b02cf182fadc114a7c2ab6b87213efea8ad50143a4b4a7bdd1e\"",
+    "etag": "W/\"35570064bb5224c83a637962f2d98a4163ca0862687b2425b3fc9533bba5dc2d\"",
     "readme_hash": "52fb7ffc06f2c724d0c5f2356e5583d3d05ef43e4fa0a5d794de475fc03e6121",
     "entries": [
       {
@@ -2281,8 +2281,8 @@
     ]
   },
   "917Dhj/DeepPaperNote": {
-    "etag": "\"1b48988704b0babecb91a3a9b29ee12883f81badd6e10d3cc8703290d5572d1e\"",
-    "readme_hash": "29ba61d1e4eff76eb4a1a21c07aeaa4cf7070062c4d49a06841a7cd77c4f7547",
+    "etag": "W/\"2ef7eacc397be7c22e5260ed1b8d3e0d77a298b5d8ed9e4f9c0c031b387e986f\"",
+    "readme_hash": "d3019a8ee84b55b4f1b98f1ae8629883e527039e69509457f2b9127a2473808d",
     "entries": [
       {
         "id": "aleph-hub:917Dhj/DeepPaperNote",
@@ -2317,7 +2317,7 @@
     ]
   },
   "gitroomhq/postiz-agent": {
-    "etag": "\"4ff842519ab13a6f16506769cb19ac056c313223ece240eeac4ab32acca99b44\"",
+    "etag": "W/\"afc91c2a7c7f1f11bc499c88601476d9c8ec323e1782ea87fc4183d9654dfd44\"",
     "readme_hash": "4cd8866741dcd6aa68f3a226b596a16719ca2f1ab0ca4f8223cc3023a7837e13",
     "entries": [
       {
@@ -2497,7 +2497,7 @@
     ]
   },
   "mohi-devhub/antivibe": {
-    "etag": "\"421ddb392babcb656a785afa85bb6e2343d01c9d2a0b3228d0b22dda1973add0\"",
+    "etag": "W/\"bc6d784af134fb040fdf12335146c678571053764ff91981d2024056beab90ef\"",
     "readme_hash": "00cbbecdc6a6353d728fe903e1e3c80e9391976b3c93f3d1a82300aa03088643",
     "entries": [
       {
@@ -2533,8 +2533,8 @@
     ]
   },
   "claude-world/notebooklm-skill": {
-    "etag": "\"daabbe0a72f248b9a2b7967c1c7af5225df6f84931dc1348567c56f7fea70ce8\"",
-    "readme_hash": "7d73f30fdc6a29d90ab067fa0236517f7acae397935a8e2f0b0f2c921d8bf148",
+    "etag": "W/\"6e625c07c3fff37e2af3b641b7ddbb79e3c3c5bf7c745d30786918930d1b7f23\"",
+    "readme_hash": "277b4eb3205e3e7f0906eab4bafe65e596e64354fb8f747d41f143889e7ff26e",
     "entries": [
       {
         "id": "aleph-hub:claude-world/notebooklm-skill",
@@ -2893,7 +2893,7 @@
     ]
   },
   "tlehman/litprog-skill": {
-    "etag": "\"dd34c216e2c55dcecc524fdf445204efdf1878eb790031257b4a860fbbdff89b\"",
+    "etag": "W/\"a58907baf5c878a035e45b77738aa634c3170eacc9ec77acf82634fb8d6a4658\"",
     "readme_hash": "f8dace63feb38870d4f849f1bd78a3798115ba153b8fdb16c2807671cafee6bd",
     "entries": [
       {
@@ -2928,7 +2928,7 @@
     ]
   },
   "BuilderIO/skills": {
-    "etag": "\"a894cc92e14434c7c7c1ffac448dacf5a248c654fbf6462f8bae496ea8e34bee\"",
+    "etag": "W/\"c2771b0b305997a9de24e71fb22f550808131d987915e56a1d16c7b4babb91e9\"",
     "readme_hash": "af5962ae04b759bc9cc89b21ba32adf71d7f8d206755f261a7db231acc55fd55",
     "entries": [
       {
@@ -2965,7 +2965,7 @@
     ]
   },
   "op7418/Humanizer-zh": {
-    "etag": "W/\"f505d584eacc40c6674bc014494d1d5877e7df7046b5f5510bdad9daf7a187d9\"",
+    "etag": "W/\"14d60240a4e46dee29cdc5795624930bae32a7f8ebe8f5e8de856ec230cda1b9\"",
     "readme_hash": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
     "entries": [
       {
@@ -3001,7 +3001,7 @@
     ]
   },
   "op7418/guizang-ppt-skill": {
-    "etag": "W/\"34a2700c8c85b44584218d4a01d02c22d3d91deaa781259224aabcc5ae6f05e2\"",
+    "etag": "W/\"67d24be1dcc9d207b5efe541ef8c7b5ba5fa2881074a4da123c0ef11e2f93bb0\"",
     "readme_hash": "91b75f6f1697fbcee4df91768407f646b848888de8a330e7a2abb9db1002085b",
     "entries": [
       {
@@ -3038,7 +3038,7 @@
     ]
   },
   "Leonxlnx/taste-skill": {
-    "etag": "W/\"df6a214c8eeb56272e51649afd7b2ace776365b65b046ec5742580c9a95fafc5\"",
+    "etag": "W/\"f349760032b5a3a92e0c901d08d0d5b9cb7fadee69ae9c9f17cf8892b397bb48\"",
     "readme_hash": "b7b72939a4de8f789aa32558bb177aec383409d87445a81f2b4a917028b5b079",
     "entries": [
       {
@@ -3075,7 +3075,7 @@
     ]
   },
   "Panniantong/Agent-Reach": {
-    "etag": "W/\"4230dbbc22e951980bbb41f7e9c1c77b4e39bea256f053b037cdde744c083d13\"",
+    "etag": "W/\"5b60c2224bb38fa01a07a89cd4267a3be6e8ccc238884ee24e0353d0e791bdef\"",
     "readme_hash": "5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978",
     "entries": [
       {
@@ -3149,7 +3149,7 @@
     ]
   },
   "hugohe3/ppt-master": {
-    "etag": "W/\"9cab8531f2d09fa2378d802754bae3b3e12311e00f574f28c32dc22ee3eeaf0e\"",
+    "etag": "W/\"6c7c82d1b77f8bf93766fa8da4e94ea7e9012a8c4af9f14cc85824a42933e5b6\"",
     "readme_hash": "0de5a8d9308033562b09ff5c855aa15a23d3b59e3e03967f2d43462653b44ad6",
     "entries": [
       {
@@ -3187,7 +3187,7 @@
     ]
   },
   "alchaincyf/huashu-design": {
-    "etag": "\"e0826f82ad6f3f95b35e0166ce7afd6367530583b16bd547d9a258b9096d72d1\"",
+    "etag": "W/\"317b53108ac938c780fe2b9b179ff97b7baff3c619fadad75a91e09870919fd6\"",
     "readme_hash": "1ba31db91d2759854cb4c1a84d59a6af76c965b548adb2c3c5d552ae2d40afac",
     "entries": [
       {
@@ -3224,7 +3224,7 @@
     ]
   },
   "JimLiu/baoyu-skills": {
-    "etag": "W/\"520e511d1be3bf15a3403b839fbe064bd5abb0494c9e49e31373ce954e02e163\"",
+    "etag": "W/\"36a582965cb14122bf21d5656650b25a43d8c3f58d151f999b517b99285377b8\"",
     "readme_hash": "c9c4eeffe6b3dfe914c3e9fd774d18f42bcfc8ef93e9bd28921816b4e4ffd819",
     "entries": [
       {
@@ -3261,7 +3261,7 @@
     ]
   },
   "lewislulu/html-ppt-skill": {
-    "etag": "W/\"df6ba579ebd509f3a32a0951f7396fee3395cbc063aa24f75fcc687c05cc39e8\"",
+    "etag": "W/\"551058ebc42a5bbf0d7b2c63738761e25698f0d50bdb590f51a10701ba33fc64\"",
     "readme_hash": "c416aff4e9d3ef9cd1fe74e492e80a28274333b3d4bd2085482b0fe517d42b3c",
     "entries": [
       {
@@ -3298,7 +3298,7 @@
     ]
   },
   "kdnsna/ultimate-ppt-master-skill": {
-    "etag": "\"bf374fa9954815043fc08b9c0b386486c317a6bdf37a182661d8d2806c3a6d9e\"",
+    "etag": "W/\"d2b8b6449c2fa4ce5cdfef779d1f6b5e5c3bf692045c03bfcf42dfb023f1af73\"",
     "readme_hash": "ecb35937003e0e367de1b336c8a53967095e4eb9286f110d781d07334ea997ce",
     "entries": [
       {
@@ -3335,7 +3335,7 @@
     ]
   },
   "lixiaolin94/skills": {
-    "etag": "\"e7ac8c497a33b5fed5072926cb7905238c7aa3031f10a63f6ca596b123b4bd91\"",
+    "etag": "W/\"9b7c1169d529823313b3cb217fe42a758e6a2d7136e18b0cab63cbf44cfef1a8\"",
     "readme_hash": "de7a1eb9eed575b90489621f53e5b506be9588f3d2494c92c764bd297978b0df",
     "entries": [
       {
@@ -3405,7 +3405,7 @@
     ]
   },
   "kepano/obsidian-skills": {
-    "etag": "W/\"4415d336a2121dcb5d885a40c9e852497a612755093ebe31ea655d69ffdc8efa\"",
+    "etag": "W/\"36aba02049813529092df748aeb089bccd68fb37b1ee0abb086da745743db76f\"",
     "readme_hash": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
     "entries": [
       {
@@ -3442,7 +3442,7 @@
     ]
   },
   "Egonex-AI/Understand-Anything": {
-    "etag": "W/\"bb838e3fcc211292609aea3b80da108617e53e624ac97246794fc0e6553569d5\"",
+    "etag": "W/\"5f4df90c59460803be51c366f9b23f60609b040b269db8c1b86699646b537fce\"",
     "readme_hash": "b5f411781b131fd16cc712100dd5ffc3f97bb3e22a5aba5e2b14a549d42fc86a",
     "entries": [
       {
@@ -3479,7 +3479,7 @@
     ]
   },
   "zsyggg/paper-craft-skills": {
-    "etag": "\"5e48beff8cb4cc96d768a3fd6faf7b3cb1c62497d2a0a1794a46ffd657ec9e9d\"",
+    "etag": "W/\"a63b96a161140c00483b7b64bda145f30e76a557132450df65409903bdf11cd8\"",
     "readme_hash": "cdd687cde6d34c6ee9ec16c2859e3c32af08d7165850378cde8b193b72256e65",
     "entries": [
       {
@@ -3581,7 +3581,7 @@
     ]
   },
   "Pluviobyte/video-production-skills": {
-    "etag": "\"b3d2824b8818d03e33f78a83e51d069c19ec5058f822f5c66d099c41d603ba16\"",
+    "etag": "W/\"2b7cbf5587dbf308003917b64a881e2fe0bd9fc592bd031afe5a5f7fd4feeaf5\"",
     "readme_hash": "8517af00225e986986188b75a145b428b63270128fd78739324ee4d4f3f5f9ca",
     "entries": [
       {
@@ -3683,7 +3683,7 @@
     ]
   },
   "xiaopu-ai/web-design": {
-    "etag": "\"f4072b635af994a29d4f6c2444d404297582bdea779289fc7653a0034ba7e40a\"",
+    "etag": "W/\"8690f2b8a4fc04873687930521c811d016994cc2d42b5764d6b776f145186d0b\"",
     "readme_hash": "4fcc9abd2e65e9cd3254dca760ba6cff73c3d5bf3a7be5541f695ef1f035e0d4",
     "entries": [
       {
@@ -3719,7 +3719,7 @@
     ]
   },
   "cclank/lanshu-animated-architecture-diagram": {
-    "etag": "\"fb6648f64b3005255e0fb9c7ed8fb5da5204e136dfd9cb7aaa1a88e2377609b6\"",
+    "etag": "W/\"33773e8fa7ef9793b685720fd0246bc74855d8612c30e10200139045b8e8dfaa\"",
     "readme_hash": "ed2794b3f191547e9f045076c55f4ca49eee4b1a731bb33c748bcb7e61ff3295",
     "entries": [
       {
@@ -3756,7 +3756,7 @@
     ]
   },
   "heygen-com/hyperframes": {
-    "etag": "W/\"05b130fbb52d88e3654545d8e42a0cff15541df2f931b4689cbc517c33b79fdb\"",
+    "etag": "W/\"c6ce37e12f4f8efb22388464bb922f88359b59b647a02a0052ced07bba918637\"",
     "readme_hash": "d4aec8b2cb3f58783c7730c373980a481b573b7127e1d20058a314f483a93cda",
     "entries": [
       {
@@ -3829,7 +3829,7 @@
     ]
   },
   "remotion-dev/skills": {
-    "etag": "\"ff313c58245c884b0d280b604cd6a7909b1b4c9880b693d7c3942f9a03c824d9\"",
+    "etag": "W/\"1521084284ce3ceb6369405524137d7bc1f05ef685ccc16c5cad35cb4a95fe56\"",
     "readme_hash": "60c699748c6242f7d212a4de8c961765cde7fcd4d810b67ec20b7cca253a06dc",
     "entries": [
       {
@@ -3866,7 +3866,7 @@
     ]
   },
   "browser-use/video-use": {
-    "etag": "\"25c63de39954dcfa7d580b6e6a839dab42ef732fc97abb1fb26b2de889bd97e4\"",
+    "etag": "W/\"c12477abd4d14d32a2fbf169b07f401ed9d5b834126a4a1884ca0446a83ada18\"",
     "readme_hash": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
     "entries": [
       {
@@ -3902,7 +3902,7 @@
     ]
   },
   "adithya-s-k/manim_skill": {
-    "etag": "\"1d01cb92d4a5bb52ebf152139a6db385d51a330160c42b4f59687f945335353e\"",
+    "etag": "W/\"04924c8651aacbe9e7b498e263349d1754ff27b968d2e56ca0612403c6599c8a\"",
     "readme_hash": "d15fe6a69c3dd2a08e927d006d1fcdea63f972ff7176650c1822131c455ab00b",
     "entries": [
       {
@@ -4004,7 +4004,7 @@
     ]
   },
   "anthropics/skills": {
-    "etag": "W/\"1e8932c3aff45649fc6dccf5d579269580d2a5e13628d0b26b3aca83a1177b88\"",
+    "etag": "W/\"02e10d3a44060af97741b5a2c1b943a0cf52670be49f4da7ed52590262c064c5\"",
     "readme_hash": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
     "entries": [
       {
@@ -4552,7 +4552,7 @@
     ]
   },
   "obra/superpowers": {
-    "etag": "W/\"f2bbd21f5397b5f97c36876bbe6e52a0d9cb10e66d5338d34cf73e7210219d06\"",
+    "etag": "W/\"f22583d3195d8db9e01ca65dfe4b38bd8cf9a66892cef2774f5df4931bfe4931\"",
     "readme_hash": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
     "entries": [
       {
@@ -4589,7 +4589,7 @@
     ]
   },
   "yaojingang/yao-geo-skills": {
-    "etag": "\"a393143553fa0a94af229f5ea665db29d6fcec6ed683006e1572388bb738ca5e\"",
+    "etag": "W/\"1797f5f6e90376f395e5ad2bacf4f3aabd3c0457d2235995c0ff41637a9ba588\"",
     "readme_hash": "0aabe2adb945e61505cf8ef020934444d8dc88dd45de958692f3c075ea8855e8",
     "entries": [
       {
@@ -5007,7 +5007,7 @@
     ]
   },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
-    "etag": "W/\"831f4794d42b7e8f8e1a314422bb75d27b015b585aaa177a78389371f55584d8\"",
+    "etag": "W/\"d139d3dc12341dbb2da14f6e648a91c287b4ed6187702b9031dbfc9aabb1749f\"",
     "readme_hash": "3b76bcfea8bc44bd20d7688e5c319070f6c55c575b45adc260d866c69423f0f5",
     "entries": [
       {
@@ -5044,7 +5044,7 @@
     ]
   },
   "thedotmack/claude-mem": {
-    "etag": "W/\"9bb4678f04adcfe18b0bbcef9a351406e6310e99dd0d78056b087cd49f83be59\"",
+    "etag": "W/\"007137b2a155c194af4b27dc0e655c64e635c6f1c0f5b5b40184c604a9a294e1\"",
     "readme_hash": "a81d17483dab4063cb672277449276fd761634307f1a91f3df48cb6e1aa56b16",
     "entries": [
       {
@@ -5081,7 +5081,7 @@
     ]
   },
   "0xNyk/council-of-high-intelligence": {
-    "etag": "\"dce842ec18b5d11a80ce5cf534373fa0cdcf8b9319ac42fa5ec855fcfd5af885\"",
+    "etag": "W/\"3f6a1580d57123b771ba9535208f7eae0f6ba7ea751ec443d7393e6d0045d4e7\"",
     "readme_hash": "3f6a0e75bea29edb42b4553b96d8de8e3934f97681ebe42f42acd3ab0020fab0",
     "entries": [
       {
@@ -5118,7 +5118,7 @@
     ]
   },
   "xbtlin/ai-berkshire": {
-    "etag": "W/\"7ad5bfce846594ec29be6072359ea3d1e471443fbfde6eca57cc3196ca7b6f17\"",
+    "etag": "W/\"fca239dea6a4aba5e18f04e55c96693169cbd649142aadb8bc76ad51364ce8d8\"",
     "readme_hash": "134ca0af7dc16cf165dbdad96cf56899afbf634cff408c495c28b539e68c7ed9",
     "entries": [
       {
@@ -5751,7 +5751,7 @@
     ]
   },
   "crazyykhllc-bit/CyberPPT": {
-    "etag": "\"5651d59b7ffb933f17568779de366b1a8dab4a7b316ac8d9acc461b110a6b19f\"",
+    "etag": "W/\"52a6d0d1f2717feb959464580fa4a59c4890d5b505382b6c38180cd2c3e3b0d2\"",
     "readme_hash": "e07290c46dd9a79d88fc180e3275e3340f24caf113163afa336720db0cb678a2",
     "entries": [
       {
@@ -5787,7 +5787,7 @@
     ]
   },
   "pengchujin/jzsub": {
-    "etag": "W/\"2e04f5ccd58931d974fcdb8139b6d21a3f9ece38fe44a0e3782e1d0ad30e9de1\"",
+    "etag": "W/\"f1d1e98f2fc40d726cb054432e83209c5fe4409ce73c2bd0242fb389f147c266\"",
     "readme_hash": "844d2e860c0bc4bc533fbe4eec1a5962b639a8bd8848d312f1ce16b0bde1a554",
     "entries": [
       {
@@ -5897,7 +5897,7 @@
     ]
   },
   "emilkowalski/skills": {
-    "etag": "W/\"66f1a645bb8df56e04c0c8a1bbfd47a95fabfcc0948e73413c7d4938b84cb481\"",
+    "etag": "W/\"483e7bb4941eb9f4040d15e892db634ce1b5f81cdbef73198c0cc936be0cab11\"",
     "readme_hash": "b9a5b6258087fee38262b11df5aadd15e928f985f40f2020233801674735e1b9",
     "entries": [
       {
@@ -6095,7 +6095,7 @@
     ]
   },
   "LeoYeAI/teammate-skill": {
-    "etag": "W/\"3be00c8ac61a2b62a5c21eca0c209d33b370db65d9e3c70339ee7e5f390a15f0\"",
+    "etag": "W/\"6a71942af42ccb9b4d82ce4006807415e201c4d1b8f2fcc2682cac9bc02cb18d\"",
     "readme_hash": "ef8513eea661fe71dccb856fe956865593ce26b6ef47e77b639287ecdc1354a3",
     "entries": [
       {
@@ -6132,7 +6132,7 @@
     ]
   },
   "mattpocock/skills": {
-    "etag": "W/\"1b9b7763e0cf32c8bfe8d55c1ea6b6a1f12c77fed75d923a9c69521ebe006716\"",
+    "etag": "W/\"7e0a64bf608748ca7f783b103959fe56efc15af41a6fe22c16f17ce4be6e006e\"",
     "readme_hash": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
     "entries": [
       {
@@ -6759,6 +6759,364 @@
         "long_zh": "Matt Pocock 技能合集中的一个技能（本条目只安装 skills/productivity/writing-great-skills 这一个目录，而非整仓）。它是一个元技能：一份纯参考资料，阐明决定“可预测性”的各项杠杆——调用方式、描述撰写、信息层级与渐进式披露、何时拆分技能、剪枝至单一事实来源，以及善用“引导词”——外加一份“引导失败模式”清单（包括 Negation：写明“不要做什么”反而弄巧成拙；以及 Negative Space：技能所省略之处同样在引导行为），并附带一份 GLOSSARY.md 提供完整定义。",
         "sec_note_en": "Pure reference material consulted on demand: it makes no external changes (no files written, no commands run, no network access). It only shapes how you author other skills.",
         "sec_note_zh": "按需查阅的纯参考资料：它不做任何外部改动（不写文件、不执行命令、不联网）。它只影响你如何撰写其他技能。",
+        "requires_config": false
+      }
+    ]
+  },
+  "cloudflare/skills": {
+    "etag": "W/\"704cc1c7d6830ff96aae65a5a75bcebd237b25bda4a30d8112264cc4169ffa2a\"",
+    "readme_hash": "f1db705565d54415fd113d021caf719217f3f3c4aeafff5bfc450b1058b05d96",
+    "entries": [
+      {
+        "id": "aleph-hub:cloudflare/skills/agents-sdk",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Agents SDK",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "workers",
+          "ai-agents",
+          "durable-execution",
+          "mcp"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/agents-sdk",
+          "git_ref": "main"
+        },
+        "description_en": "Builds AI agents on Cloudflare Workers with the Agents SDK — stateful agents, durable workflows, real-time WebSockets, scheduled tasks, and MCP servers. Covers the Agent class, state, callable RPC, queues, retries, and React hooks. Retrieval-first from Cloudflare docs.",
+        "description_zh": "使用 Agents SDK 在 Cloudflare Workers 上构建 AI 代理——有状态代理、持久化工作流、实时 WebSocket、定时任务与 MCP 服务器。涵盖 Agent 类、状态、callable RPC、队列、重试与 React hooks。优先从官方文档检索。",
+        "long_en": "A retrieval-first skill for the Cloudflare Agents SDK: creating the Agent class, managing state (setState/validateStateChange), callable RPC methods, durable Workflows and execution (runFiber/stash surviving Durable Object eviction), the built-in FIFO queue, retries with backoff/jitter, scheduling and cron, WebSocket lifecycle/hibernation, chat agents (AIChatAgent with streaming/tools/persistence), and React client hooks (useAgent/useAgentChat). It also covers building and securing MCP servers (McpAgent, OAuth, transports) and connecting MCP clients, plus human-in-the-loop approval flows and observability. The SKILL.md is a curated index of official docs URLs and explicitly biases toward fetching current Cloudflare docs over pre-trained knowledge.",
+        "long_zh": "面向 Cloudflare Agents SDK 的检索优先技能：创建 Agent 类、管理状态（setState/validateStateChange）、callable RPC 方法、持久化 Workflows 与执行（runFiber/stash 在 Durable Object 被回收后仍存活）、内置 FIFO 队列、带退避/抖动的重试、调度与 cron、WebSocket 生命周期/休眠、聊天代理（AIChatAgent，支持流式/工具/持久化）以及 React 客户端 hooks（useAgent/useAgentChat）。还覆盖构建与加固 MCP 服务器（McpAgent、OAuth、传输方式）、连接 MCP 客户端、human-in-the-loop 审批流与可观测性。SKILL.md 是官方文档 URL 的精选索引，并明确优先拉取当前 Cloudflare 文档而非内置知识。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Official Cloudflare skill; documentation/guidance plus curated doc URLs, no bundled credentials or code execution in the skill. Building/deploying agents requires a Cloudflare account and Wrangler auth; deployed agents run on Workers (free/paid tiers). Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方技能；为文档/指引加精选文档 URL，技能本身不含凭据、不执行代码。构建/部署代理需 Cloudflare 账号与 Wrangler 授权；部署后的代理运行在 Workers（免费/付费档）。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/cloudflare-email-service",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Email Service",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "email",
+          "workers",
+          "transactional-email",
+          "email-routing"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/cloudflare-email-service",
+          "git_ref": "main"
+        },
+        "description_en": "Sends and receives transactional email with Cloudflare Email Service — the Workers send_email binding, REST API, Email Routing, and Agents SDK onEmail/replyToEmail — including SPF/DKIM/DMARC and wrangler setup. Retrieval-first from Cloudflare docs.",
+        "description_zh": "使用 Cloudflare Email Service 收发事务性邮件——Workers 的 send_email 绑定、REST API、Email Routing 以及 Agents SDK 的 onEmail/replyToEmail——涵盖 SPF/DKIM/DMARC 与 wrangler 配置。优先从官方文档检索。",
+        "long_en": "Covers sending transactional email from a Cloudflare Worker (the send_email binding, no API keys), from external apps in any language via the REST API with a Bearer token, from AI agents built on the Agents SDK (onEmail/replyToEmail), and from coding agents via MCP tools or the wrangler CLI. Includes a prerequisites check (domain onboarding via `wrangler email sending enable`, the send_email binding in wrangler.jsonc, postal-mime for parsing received mail), plus deliverability guidance for SPF/DKIM/DMARC. Email Service launched in 2025 and is retrieval-first: it treats the Cloudflare docs, REST API spec, @cloudflare/workers-types, and Agents SDK repo as the source of truth over the skill's own text.",
+        "long_zh": "覆盖从 Cloudflare Worker 发送事务性邮件（send_email 绑定，无需 API 密钥）、通过带 Bearer token 的 REST API 从任意语言的外部应用发送、从基于 Agents SDK 的 AI 代理发送（onEmail/replyToEmail），以及通过 MCP 工具或 wrangler CLI 从编码代理发送。包含前置检查（通过 `wrangler email sending enable` 完成域名接入、wrangler.jsonc 中的 send_email 绑定、解析来信用的 postal-mime），以及 SPF/DKIM/DMARC 送达率指引。Email Service 于 2025 年发布并采用检索优先：以 Cloudflare 文档、REST API 规范、@cloudflare/workers-types 与 Agents SDK 仓库为真相来源，而非技能自身文本。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). The Workers-binding path needs no API keys, but sending via the external REST API requires a Cloudflare API Bearer token (secret) — keep it out of source and in a secret store. Requires a Cloudflare account, domain onboarding, and DNS (SPF/DKIM/DMARC) changes. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Workers 绑定路径无需 API 密钥；但通过外部 REST API 发送需 Cloudflare API Bearer token（密钥）——请勿写入源码，放入密钥管理器。需 Cloudflare 账号、域名接入与 DNS（SPF/DKIM/DMARC）变更。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/cloudflare-one-migrations",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare One Migrations",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare-one",
+          "zero-trust",
+          "sase",
+          "migration",
+          "zscaler"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/cloudflare-one-migrations",
+          "git_ref": "main"
+        },
+        "description_en": "Plans migrations to Cloudflare One from Zscaler ZIA/ZPA, Palo Alto/Prisma, legacy VPN, SWG, and SASE stacks — building inventory, mapping policies, parity/gap analysis, and staged rollout. Retrieval-first from Cloudflare and source-vendor docs.",
+        "description_zh": "规划从 Zscaler ZIA/ZPA、Palo Alto/Prisma、传统 VPN、SWG 与 SASE 栈迁移到 Cloudflare One——清点资产、映射策略、对等/差距分析与分阶段上线。优先从 Cloudflare 与源厂商文档检索。",
+        "long_en": "A planning/advisory skill for migrating to Cloudflare One. It identifies the source stack (Zscaler ZIA/ZPA, Palo Alto NGFW/Prisma/GlobalProtect, legacy VPN/SWG/SD-WAN), requests structured exports and logs, builds an inventory (identities, groups, apps, connectors/tunnels, DNS/URL/firewall/DLP/TLS policies, objects/lists, locations, hit counts), and produces a mapping plan (source object → Cloudflare One target, confidence, prerequisites, unsupported/partial mappings, manual decisions). It sequences dependencies (identity/SCIM, connectors, routes/DNS, lists, TLS bypasses, Access apps/policies, Gateway, DLP/CASB, logging), stages safely with a migration prefix and disabled/audit-mode rules piloted on small groups, and accounts for every source rule with an explicit Not-Migrated reason where needed. Includes per-vendor export checklists and assessment prompts. Retrieval-first over pre-trained knowledge.",
+        "long_zh": "面向迁移到 Cloudflare One 的规划/咨询技能。它先识别源栈（Zscaler ZIA/ZPA、Palo Alto NGFW/Prisma/GlobalProtect、传统 VPN/SWG/SD-WAN），要求提供结构化导出与日志，建立资产清单（身份、组、应用、连接器/隧道，DNS/URL/防火墙/DLP/TLS 策略，对象/列表、位置、命中计数），并产出映射方案（源对象 → Cloudflare One 目标、置信度、前置条件、不支持/部分映射、需人工决策项）。它按依赖顺序推进（身份/SCIM、连接器、路由/DNS、列表、TLS 旁路、Access 应用/策略、Gateway、DLP/CASB、日志），使用迁移前缀与禁用/审计模式规则、先在小组试点，安全分阶段，并为每条源规则给出去向或显式的“未迁移”原因。包含分厂商导出清单与评估提示。优先检索而非依赖内置知识。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Advisory/planning skill — no code execution or bundled credentials. Handling exported policies and logs may involve sensitive network/security configuration; treat exports as confidential. Defensive Zero Trust migration, no exploit content. Retrieval-first: fetches current pages from developers.cloudflare.com and source-vendor export docs at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。咨询/规划类技能——不执行代码，不含凭据。处理导出的策略与日志可能涉及敏感的网络/安全配置；请将导出内容视为机密。属防御性零信任迁移，无漏洞利用内容。检索优先：使用时从 developers.cloudflare.com 与源厂商导出文档拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/cloudflare-one",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare One",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare-one",
+          "zero-trust",
+          "sase",
+          "access",
+          "gateway"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/cloudflare-one",
+          "git_ref": "main"
+        },
+        "description_en": "Designs, configures, troubleshoots, and reviews Cloudflare One Zero Trust/SASE deployments across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Retrieval-first from current Cloudflare docs and API schemas.",
+        "description_zh": "设计、配置、排障与审查 Cloudflare One 零信任/SASE 部署，覆盖 Access、Gateway、WARP、Tunnel、Cloudflare WAN、DLP、CASB、设备态势与身份。优先从当前官方文档与 API schema 检索。",
+        "long_en": "A workflow-driven skill for Cloudflare One Zero Trust and SASE work. It classifies the ask (architecture, configuration, troubleshooting, migration, or review), gathers context (account, users/sites/apps, identity provider, SCIM/group sync, device management, traffic path, compliance, rollout blast radius), retrieves only the current docs for the products involved, inspects existing resources before proposing changes, and proposes a change set with prerequisites, validation, and rollback — staging risky changes disabled or scoped to a pilot group/site unless told otherwise. Includes assessment prompts for architecture and current state, Access/SaaS federation, and Tunnel/private networking. Defensive security posture; retrieval-first over embedded product docs.",
+        "long_zh": "面向 Cloudflare One 零信任与 SASE 工作的流程化技能。它先归类需求（架构、配置、排障、迁移或审查），收集上下文（账号、用户/站点/应用、身份提供方、SCIM/组同步、设备管理、流量路径、合规、上线影响面），只检索所涉产品的当前文档，在提出变更前先检查现有资源，并给出带前置条件、验证与回滚的变更集——除非明确要求，否则将高风险变更以禁用状态或限定到试点组/站点分阶段推进。包含面向架构与现状、Access/SaaS 联合登录、Tunnel/私有网络的评估提示。防御性安全态势；优先检索而非依赖内嵌产品文档。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Advisory/guidance skill with no bundled credentials. Making changes requires Cloudflare One account access and can affect production access-control and security posture — the skill defaults risky changes to disabled or pilot scope. Defensive Zero Trust work, no offensive tooling. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。咨询/指引类技能，不含凭据。实施变更需 Cloudflare One 账号访问权，且可能影响生产环境的访问控制与安全态势——技能默认将高风险变更置为禁用或试点范围。属防御性零信任工作，无攻击性工具。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/cloudflare",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Platform",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "workers",
+          "pages",
+          "storage",
+          "edge"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/cloudflare",
+          "git_ref": "main"
+        },
+        "description_en": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV/D1/R2), AI (Workers AI/Vectorize/Agents), feature flags, networking (Tunnel/Spectrum), security (WAF/DDoS), and IaC (Terraform/Pulumi). Retrieval-first from Cloudflare docs.",
+        "description_zh": "全面的 Cloudflare 平台技能，覆盖 Workers、Pages、存储（KV/D1/R2）、AI（Workers AI/Vectorize/Agents）、特性开关、网络（Tunnel/Spectrum）、安全（WAF/DDoS）与 IaC（Terraform/Pulumi）。优先从官方文档检索。",
+        "long_en": "Consolidated umbrella skill for building on the Cloudflare platform. Uses decision trees to route a task to the right product, then loads detailed references (workers, pages, d1, durable-objects, workers-ai). It deliberately biases toward retrieval from current sources — Cloudflare docs, @cloudflare/workers-types, the wrangler config-schema.json, and product changelogs — over baked-in knowledge, especially for numeric limits, pricing tiers, type signatures, and configuration options. A starting-point index rather than a source of truth for any Cloudflare development task.",
+        "long_zh": "构建 Cloudflare 平台应用的总纲技能。通过决策树把任务导向正确的产品，再加载详细参考（workers、pages、d1、durable-objects、workers-ai）。它有意优先从当前来源检索——Cloudflare 官方文档、@cloudflare/workers-types、wrangler 的 config-schema.json 与产品 changelog——而非依赖内置知识，尤其在数值上限、定价档位、类型签名与配置项方面。它是任何 Cloudflare 开发任务的起点索引，而非唯一真相来源。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Official first-party Cloudflare skill; content is documentation/guidance plus curated retrieval sources, no bundled credentials or code execution in the skill itself. Building or deploying requires a Cloudflare account and Wrangler auth. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方第一方技能；内容为文档/指引加精选检索来源，技能本身不含凭据，也不执行代码。构建或部署需 Cloudflare 账号与 Wrangler 授权。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/durable-objects",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Durable Objects",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "durable-objects",
+          "stateful",
+          "websockets",
+          "sqlite"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/durable-objects",
+          "git_ref": "main"
+        },
+        "description_en": "Creates and reviews Cloudflare Durable Objects for stateful coordination — RPC methods, SQLite storage, alarms, WebSockets, and sharding — with wrangler config and Vitest testing. Retrieval-first from Cloudflare docs.",
+        "description_zh": "创建与审查 Cloudflare Durable Objects 以实现有状态协调——RPC 方法、SQLite 存储、alarms、WebSocket 与分片——含 wrangler 配置与 Vitest 测试。优先从官方文档检索。",
+        "long_en": "Guides building Durable Object classes for stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, alarms and WebSocket handlers, configuring wrangler.jsonc/toml for DO bindings and migrations, and writing tests with @cloudflare/vitest-pool-workers. Bundled references cover core rules (storage, concurrency with blockConcurrencyWhile, RPC, alarms), testing (unit/integration, alarm testing), and Workers integration (handlers, types, observability). Emphasizes designing sharding strategies and parent-child relationships, with key APIs like idFromName, getByName, setAlarm, and sql.exec. Retrieval-first over pre-trained knowledge.",
+        "long_zh": "指导构建用于有状态协调的 Durable Object 类（聊天室、多人游戏、预订系统），实现 RPC 方法、alarms 与 WebSocket 处理器，配置 wrangler.jsonc/toml 的 DO 绑定与迁移，并用 @cloudflare/vitest-pool-workers 编写测试。内置参考覆盖核心规则（存储、并发 blockConcurrencyWhile、RPC、alarms）、测试（单元/集成、alarm 测试）与 Workers 集成（handlers、类型、可观测性）。强调设计分片策略与父子关系，涉及 idFromName、getByName、setAlarm、sql.exec 等关键 API。优先检索而非依赖内置知识。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Official Cloudflare skill; guidance plus reference docs, no bundled credentials or code execution in the skill. Deploying Durable Objects requires a Cloudflare account and Wrangler auth. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方技能；为指引加参考文档，技能本身不含凭据、不执行代码。部署 Durable Objects 需 Cloudflare 账号与 Wrangler 授权。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/sandbox-sdk",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Sandbox SDK",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "sandbox",
+          "code-execution",
+          "containers",
+          "workers"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/sandbox-sdk",
+          "git_ref": "main"
+        },
+        "description_en": "Builds sandboxed code-execution environments on Cloudflare Workers with the Sandbox SDK — running commands, file ops, a code interpreter, and preview URLs — for AI code execution, code interpreters, or CI. Retrieval-first from Cloudflare docs.",
+        "description_zh": "使用 Sandbox SDK 在 Cloudflare Workers 上构建沙箱化的代码执行环境——运行命令、文件操作、代码解释器与预览 URL——适用于 AI 代码执行、代码解释器或 CI。优先从官方文档检索。",
+        "long_en": "Guides building secure, isolated code-execution environments on Cloudflare Workers with the Sandbox SDK: lifecycle, running commands, file operations, the code interpreter, and preview URLs. Requires the @cloudflare/sandbox package and Docker for local dev, plus a wrangler.jsonc `containers` config (Sandbox class, Dockerfile image, instance_type, max_instances). Intended for securely running untrusted or AI-generated code — interpreters, CI/CD, interactive dev environments — inside isolated containers. Retrieval-first, fetching the relevant doc page or example before implementing.",
+        "long_zh": "指导使用 Sandbox SDK 在 Cloudflare Workers 上构建安全、隔离的代码执行环境：生命周期、运行命令、文件操作、代码解释器与预览 URL。需要 @cloudflare/sandbox 包与本地开发用的 Docker，以及 wrangler.jsonc 的 `containers` 配置（Sandbox 类、Dockerfile 镜像、instance_type、max_instances）。用于在隔离容器中安全运行不可信或 AI 生成的代码——解释器、CI/CD、交互式开发环境。检索优先，实现前先拉取相关文档页或示例。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). The SDK is designed to execute untrusted/AI-generated code inside isolated Cloudflare containers — isolation is the point, but review Cloudflare's sandbox security model before running arbitrary code. Local dev requires Docker; deploying requires a Cloudflare account and containers run on paid tiers. The skill carries no bundled credentials. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。该 SDK 专为在隔离的 Cloudflare 容器中执行不可信/AI 生成代码而设计——隔离是其核心，但运行任意代码前请审阅 Cloudflare 的沙箱安全模型。本地开发需 Docker；部署需 Cloudflare 账号且容器运行于付费档。技能本身不含凭据。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/turnstile-spin",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Turnstile Spin",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "turnstile",
+          "captcha",
+          "bot-protection",
+          "forms"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/turnstile-spin",
+          "git_ref": "main"
+        },
+        "description_en": "Sets up Cloudflare Turnstile end-to-end — scans the codebase, creates the widget via the Cloudflare API, embeds it on the right forms, and wires canonical server-side siteverify — to protect forms from bots. Framework snippets for vanilla HTML, Next.js, Astro, SvelteKit, and Hugo.",
+        "description_zh": "端到端配置 Cloudflare Turnstile——扫描代码库、通过 Cloudflare API 创建 widget、嵌入到正确的表单、接入规范的服务端 siteverify——用于保护表单免受机器人侵扰。内置 vanilla HTML、Next.js、Astro、SvelteKit、Hugo 框架片段。",
+        "long_en": "An orchestration 'wizard' that turns the prompt 'set up Turnstile' into a working end-to-end integration: an auth and scope probe, widget creation (preferring `wrangler turnstile widget create` on Wrangler 4.109+, falling back to a bundled curl script against api.cloudflare.com), frontend snippets at each chosen insertion point, canonical server-side siteverify in the customer's existing backend, and a real validation pass before reporting success. The agent reads the codebase, confirms before every irreversible step, and mirrors the canonical instructions at developers.cloudflare.com/turnstile/spin. This is defensive bot protection — implementing a CAPTCHA to stop spam/bot signups — not CAPTCHA bypass.",
+        "long_zh": "一个编排式“向导”，把“配置 Turnstile”的提示变成可用的端到端集成：认证与范围探测、创建 widget（在 Wrangler 4.109+ 上优先用 `wrangler turnstile widget create`，否则回退到对 api.cloudflare.com 的内置 curl 脚本）、在每个选定插入点写入前端片段、在客户现有后端接入规范的服务端 siteverify，并在报告成功前进行真实校验。代理会读取代码库、在每个不可逆步骤前确认，并对齐 developers.cloudflare.com/turnstile/spin 的权威说明。这是防御性机器人防护——通过实现 CAPTCHA 来阻止垃圾/机器人注册——而非绕过 CAPTCHA。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Defensive bot-protection setup (NOT CAPTCHA bypass). Runs helper scripts that curl api.cloudflare.com and `npx wrangler whoami`; creating a widget requires Cloudflare account auth (API token or wrangler login). The skill edits your codebase (frontend forms + backend siteverify) and confirms before each irreversible step — review its diffs, and keep the Turnstile secret key server-side. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。防御性机器人防护配置（并非绕过 CAPTCHA）。会运行对 api.cloudflare.com 发起 curl 与 `npx wrangler whoami` 的辅助脚本；创建 widget 需 Cloudflare 账号授权（API token 或 wrangler login）。技能会修改你的代码库（前端表单 + 后端 siteverify）并在每个不可逆步骤前确认——请审阅其改动，并将 Turnstile 私钥保留在服务端。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/web-perf",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Web Performance Audit",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "web-performance",
+          "core-web-vitals",
+          "lighthouse",
+          "chrome-devtools",
+          "optimization"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/web-perf",
+          "git_ref": "main"
+        },
+        "description_en": "Audits web performance via the Chrome DevTools MCP — measures Core Web Vitals (LCP/INP/CLS) and FCP/TBT/Speed Index, finds render-blocking resources, network dependency chains, layout shifts, and caching gaps, with quantified, specific fixes. Retrieval-first from current docs.",
+        "description_zh": "通过 Chrome DevTools MCP 审查网页性能——测量 Core Web Vitals（LCP/INP/CLS）与 FCP/TBT/Speed Index，定位渲染阻塞资源、网络依赖链、布局偏移与缓存问题，给出量化且具体的修复建议。优先从当前文档检索。",
+        "long_en": "Uses the chrome-devtools MCP server (navigate_page, performance_start_trace) to capture traces and derive Core Web Vitals and supplementary metrics against current web.dev and Lighthouse thresholds, and to identify render-blocking resources, network dependency chains, layout shifts, caching issues, and accessibility gaps. It emphasizes verifying claims against network requests / DOM / codebase, quantifying impact with estimated savings, skipping 0ms non-issues, being specific ('compress hero.png (450KB) to WebP'), and prioritizing ruthlessly. Note: this is a general web-performance skill (not Cloudflare-specific) that ships in Cloudflare's official skills repo. Retrieval-first when citing numbers or recommendations.",
+        "long_zh": "使用 chrome-devtools MCP 服务器（navigate_page、performance_start_trace）采集 trace，依据当前 web.dev 与 Lighthouse 阈值推导 Core Web Vitals 与补充指标，并定位渲染阻塞资源、网络依赖链、布局偏移、缓存问题与无障碍缺口。它强调用网络请求/DOM/代码库核实结论，用预估节省量量化影响，跳过 0ms 的非问题，给出具体建议（“把 hero.png（450KB）压成 WebP”），并果断排定优先级。注意：这是一个通用网页性能技能（并非 Cloudflare 专属），随 Cloudflare 官方技能仓库一同发布。引用数值或建议时优先检索。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Requires the external `chrome-devtools` MCP server (`npx chrome-devtools-mcp`) to be configured — it drives a local Chrome instance to profile pages. Analysis/advisory only; no changes are made without your direction, and it carries no bundled credentials. Retrieval-first: fetches current pages from web.dev and developer.chrome.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。需配置外部 `chrome-devtools` MCP 服务器（`npx chrome-devtools-mcp`）——它会驱动本地 Chrome 实例来分析页面。仅做分析/建议，不经你指示不做更改，也不含凭据。检索优先：使用时从 web.dev 与 developer.chrome.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/workers-best-practices",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Workers Best Practices",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "workers",
+          "best-practices",
+          "code-review",
+          "wrangler"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/workers-best-practices",
+          "git_ref": "main"
+        },
+        "description_en": "Reviews and authors Cloudflare Workers code against production best practices — streaming, floating promises, global state, secrets, bindings, observability, and wrangler.jsonc config. Retrieval-first from Cloudflare docs.",
+        "description_zh": "依据生产环境最佳实践审查与编写 Cloudflare Workers 代码——流式处理、悬空 Promise、全局状态、密钥、绑定、可观测性与 wrangler.jsonc 配置。优先从官方文档检索。",
+        "long_en": "Fetches the canonical Workers best-practices page and the latest @cloudflare/workers-types before writing or reviewing Workers code. Bundled references include rules.md (all best-practice rules with code examples and anti-patterns) and review.md (type validation, config validation, binding access patterns, and the review process). Rules cover configuration, streaming responses, floating promises, global-state pitfalls, secret handling, binding usage, and observability. Prefers the latest published types over a stale node_modules copy and reads the wrangler config-schema.json for config fields. Retrieval-first over pre-trained knowledge.",
+        "long_zh": "在编写或审查 Workers 代码前，拉取权威的 Workers 最佳实践页面与最新的 @cloudflare/workers-types。内置参考包括 rules.md（含代码示例与反模式的全部最佳实践规则）与 review.md（类型校验、配置校验、绑定访问模式与审查流程）。规则涵盖配置、流式响应、悬空 Promise、全局状态陷阱、密钥处理、绑定用法与可观测性。优先使用最新发布的类型而非过时的 node_modules 副本，并读取 wrangler config-schema.json 获取配置字段。优先检索而非依赖内置知识。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Official Cloudflare skill; guidance plus reference docs, no bundled credentials. It may run `npm pack @cloudflare/workers-types` to fetch the latest types, and it reviews/authors code in your project — review its edits. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方技能；为指引加参考文档，不含凭据。它可能运行 `npm pack @cloudflare/workers-types` 拉取最新类型，并会在你的项目中审查/编写代码——请审阅其改动。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
+        "requires_config": false
+      },
+      {
+        "id": "aleph-hub:cloudflare/skills/wrangler",
+        "repo_url": "https://github.com/cloudflare/skills",
+        "via": "github:cloudflare",
+        "full_name": "cloudflare/skills",
+        "owner": "cloudflare",
+        "repo": "skills",
+        "kind": "skill",
+        "name": "Cloudflare Wrangler CLI",
+        "author": "cloudflare",
+        "category": "developer",
+        "tags": [
+          "cloudflare",
+          "wrangler",
+          "cli",
+          "workers",
+          "deployment"
+        ],
+        "install_spec": {
+          "type": "git_dir",
+          "git_url": "https://github.com/cloudflare/skills",
+          "subdir": "skills/wrangler",
+          "git_ref": "main"
+        },
+        "description_en": "Guides correct Wrangler CLI usage for deploying and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands. Retrieval-first from Cloudflare docs.",
+        "description_zh": "指导正确使用 Wrangler CLI 来部署与管理 Workers、KV、R2、D1、Vectorize、Hyperdrive、Workers AI、Containers、Queues、Workflows、Pipelines 与 Secrets Store。运行 wrangler 命令前加载。优先从官方文档检索。",
+        "long_en": "Ensures correct Wrangler CLI syntax, flags, and config before running commands. Recommends wrangler.jsonc over TOML (newer features are JSON-only), setting a recent compatibility_date, and running `wrangler types` after config changes. Reads the bundled wrangler config-schema.json and current Cloudflare docs rather than baked-in knowledge for CLI flags, config fields, and binding shapes, and encourages using Wrangler over hand-constructed API requests. Requires Wrangler v4.x+. Retrieval-first over pre-trained knowledge.",
+        "long_zh": "在运行命令前确保 Wrangler CLI 的语法、参数与配置正确。建议使用 wrangler.jsonc 而非 TOML（较新特性仅支持 JSON），设置较新的 compatibility_date，并在配置变更后运行 `wrangler types`。对 CLI 参数、配置字段与绑定形状，读取内置的 wrangler config-schema.json 与当前 Cloudflare 文档而非内置知识，并鼓励使用 Wrangler 而非手工构造 API 请求。需 Wrangler v4.x+。优先检索而非依赖内置知识。",
+        "sec_note_en": "Apache-2.0 (repo LICENSE). Guidance skill with no bundled credentials, but running wrangler commands manages real Cloudflare resources and requires account auth (`wrangler login` or an API token); deploy/delete subcommands are stateful and can affect production. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+        "sec_note_zh": "Apache-2.0（仓库 LICENSE）。指引类技能，不含凭据；但运行 wrangler 命令会管理真实的 Cloudflare 资源并需账号授权（`wrangler login` 或 API token）；deploy/delete 等子命令有状态副作用，可能影响生产环境。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。",
         "requires_config": false
       }
     ]

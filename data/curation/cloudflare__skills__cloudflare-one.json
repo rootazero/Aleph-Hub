@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare One",
+  "kind": "skill",
+  "slug": "cloudflare-one",
+  "category": "developer",
+  "tags": [
+    "cloudflare-one",
+    "zero-trust",
+    "sase",
+    "access",
+    "gateway"
+  ],
+  "description_en": "Designs, configures, troubleshoots, and reviews Cloudflare One Zero Trust/SASE deployments across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Retrieval-first from current Cloudflare docs and API schemas.",
+  "description_zh": "设计、配置、排障与审查 Cloudflare One 零信任/SASE 部署，覆盖 Access、Gateway、WARP、Tunnel、Cloudflare WAN、DLP、CASB、设备态势与身份。优先从当前官方文档与 API schema 检索。",
+  "long_en": "A workflow-driven skill for Cloudflare One Zero Trust and SASE work. It classifies the ask (architecture, configuration, troubleshooting, migration, or review), gathers context (account, users/sites/apps, identity provider, SCIM/group sync, device management, traffic path, compliance, rollout blast radius), retrieves only the current docs for the products involved, inspects existing resources before proposing changes, and proposes a change set with prerequisites, validation, and rollback — staging risky changes disabled or scoped to a pilot group/site unless told otherwise. Includes assessment prompts for architecture and current state, Access/SaaS federation, and Tunnel/private networking. Defensive security posture; retrieval-first over embedded product docs.",
+  "long_zh": "面向 Cloudflare One 零信任与 SASE 工作的流程化技能。它先归类需求（架构、配置、排障、迁移或审查），收集上下文（账号、用户/站点/应用、身份提供方、SCIM/组同步、设备管理、流量路径、合规、上线影响面），只检索所涉产品的当前文档，在提出变更前先检查现有资源，并给出带前置条件、验证与回滚的变更集——除非明确要求，否则将高风险变更以禁用状态或限定到试点组/站点分阶段推进。包含面向架构与现状、Access/SaaS 联合登录、Tunnel/私有网络的评估提示。防御性安全态势；优先检索而非依赖内嵌产品文档。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/cloudflare-one"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Advisory/guidance skill with no bundled credentials. Making changes requires Cloudflare One account access and can affect production access-control and security posture — the skill defaults risky changes to disabled or pilot scope. Defensive Zero Trust work, no offensive tooling. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。咨询/指引类技能，不含凭据。实施变更需 Cloudflare One 账号访问权，且可能影响生产环境的访问控制与安全态势——技能默认将高风险变更置为禁用或试点范围。属防御性零信任工作，无攻击性工具。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

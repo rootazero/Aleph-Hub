@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Email Service",
+  "kind": "skill",
+  "slug": "cloudflare-email-service",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "email",
+    "workers",
+    "transactional-email",
+    "email-routing"
+  ],
+  "description_en": "Sends and receives transactional email with Cloudflare Email Service — the Workers send_email binding, REST API, Email Routing, and Agents SDK onEmail/replyToEmail — including SPF/DKIM/DMARC and wrangler setup. Retrieval-first from Cloudflare docs.",
+  "description_zh": "使用 Cloudflare Email Service 收发事务性邮件——Workers 的 send_email 绑定、REST API、Email Routing 以及 Agents SDK 的 onEmail/replyToEmail——涵盖 SPF/DKIM/DMARC 与 wrangler 配置。优先从官方文档检索。",
+  "long_en": "Covers sending transactional email from a Cloudflare Worker (the send_email binding, no API keys), from external apps in any language via the REST API with a Bearer token, from AI agents built on the Agents SDK (onEmail/replyToEmail), and from coding agents via MCP tools or the wrangler CLI. Includes a prerequisites check (domain onboarding via `wrangler email sending enable`, the send_email binding in wrangler.jsonc, postal-mime for parsing received mail), plus deliverability guidance for SPF/DKIM/DMARC. Email Service launched in 2025 and is retrieval-first: it treats the Cloudflare docs, REST API spec, @cloudflare/workers-types, and Agents SDK repo as the source of truth over the skill's own text.",
+  "long_zh": "覆盖从 Cloudflare Worker 发送事务性邮件（send_email 绑定，无需 API 密钥）、通过带 Bearer token 的 REST API 从任意语言的外部应用发送、从基于 Agents SDK 的 AI 代理发送（onEmail/replyToEmail），以及通过 MCP 工具或 wrangler CLI 从编码代理发送。包含前置检查（通过 `wrangler email sending enable` 完成域名接入、wrangler.jsonc 中的 send_email 绑定、解析来信用的 postal-mime），以及 SPF/DKIM/DMARC 送达率指引。Email Service 于 2025 年发布并采用检索优先：以 Cloudflare 文档、REST API 规范、@cloudflare/workers-types 与 Agents SDK 仓库为真相来源，而非技能自身文本。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/cloudflare-email-service"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). The Workers-binding path needs no API keys, but sending via the external REST API requires a Cloudflare API Bearer token (secret) — keep it out of source and in a secret store. Requires a Cloudflare account, domain onboarding, and DNS (SPF/DKIM/DMARC) changes. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Workers 绑定路径无需 API 密钥；但通过外部 REST API 发送需 Cloudflare API Bearer token（密钥）——请勿写入源码，放入密钥管理器。需 Cloudflare 账号、域名接入与 DNS（SPF/DKIM/DMARC）变更。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

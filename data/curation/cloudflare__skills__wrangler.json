@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Wrangler CLI",
+  "kind": "skill",
+  "slug": "wrangler",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "wrangler",
+    "cli",
+    "workers",
+    "deployment"
+  ],
+  "description_en": "Guides correct Wrangler CLI usage for deploying and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands. Retrieval-first from Cloudflare docs.",
+  "description_zh": "指导正确使用 Wrangler CLI 来部署与管理 Workers、KV、R2、D1、Vectorize、Hyperdrive、Workers AI、Containers、Queues、Workflows、Pipelines 与 Secrets Store。运行 wrangler 命令前加载。优先从官方文档检索。",
+  "long_en": "Ensures correct Wrangler CLI syntax, flags, and config before running commands. Recommends wrangler.jsonc over TOML (newer features are JSON-only), setting a recent compatibility_date, and running `wrangler types` after config changes. Reads the bundled wrangler config-schema.json and current Cloudflare docs rather than baked-in knowledge for CLI flags, config fields, and binding shapes, and encourages using Wrangler over hand-constructed API requests. Requires Wrangler v4.x+. Retrieval-first over pre-trained knowledge.",
+  "long_zh": "在运行命令前确保 Wrangler CLI 的语法、参数与配置正确。建议使用 wrangler.jsonc 而非 TOML（较新特性仅支持 JSON），设置较新的 compatibility_date，并在配置变更后运行 `wrangler types`。对 CLI 参数、配置字段与绑定形状，读取内置的 wrangler config-schema.json 与当前 Cloudflare 文档而非内置知识，并鼓励使用 Wrangler 而非手工构造 API 请求。需 Wrangler v4.x+。优先检索而非依赖内置知识。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/wrangler"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Guidance skill with no bundled credentials, but running wrangler commands manages real Cloudflare resources and requires account auth (`wrangler login` or an API token); deploy/delete subcommands are stateful and can affect production. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。指引类技能，不含凭据；但运行 wrangler 命令会管理真实的 Cloudflare 资源并需账号授权（`wrangler login` 或 API token）；deploy/delete 等子命令有状态副作用，可能影响生产环境。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

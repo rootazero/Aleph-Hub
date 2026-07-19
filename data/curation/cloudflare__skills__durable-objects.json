@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Durable Objects",
+  "kind": "skill",
+  "slug": "durable-objects",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "durable-objects",
+    "stateful",
+    "websockets",
+    "sqlite"
+  ],
+  "description_en": "Creates and reviews Cloudflare Durable Objects for stateful coordination — RPC methods, SQLite storage, alarms, WebSockets, and sharding — with wrangler config and Vitest testing. Retrieval-first from Cloudflare docs.",
+  "description_zh": "创建与审查 Cloudflare Durable Objects 以实现有状态协调——RPC 方法、SQLite 存储、alarms、WebSocket 与分片——含 wrangler 配置与 Vitest 测试。优先从官方文档检索。",
+  "long_en": "Guides building Durable Object classes for stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, alarms and WebSocket handlers, configuring wrangler.jsonc/toml for DO bindings and migrations, and writing tests with @cloudflare/vitest-pool-workers. Bundled references cover core rules (storage, concurrency with blockConcurrencyWhile, RPC, alarms), testing (unit/integration, alarm testing), and Workers integration (handlers, types, observability). Emphasizes designing sharding strategies and parent-child relationships, with key APIs like idFromName, getByName, setAlarm, and sql.exec. Retrieval-first over pre-trained knowledge.",
+  "long_zh": "指导构建用于有状态协调的 Durable Object 类（聊天室、多人游戏、预订系统），实现 RPC 方法、alarms 与 WebSocket 处理器，配置 wrangler.jsonc/toml 的 DO 绑定与迁移，并用 @cloudflare/vitest-pool-workers 编写测试。内置参考覆盖核心规则（存储、并发 blockConcurrencyWhile、RPC、alarms）、测试（单元/集成、alarm 测试）与 Workers 集成（handlers、类型、可观测性）。强调设计分片策略与父子关系，涉及 idFromName、getByName、setAlarm、sql.exec 等关键 API。优先检索而非依赖内置知识。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/durable-objects"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Official Cloudflare skill; guidance plus reference docs, no bundled credentials or code execution in the skill. Deploying Durable Objects requires a Cloudflare account and Wrangler auth. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方技能；为指引加参考文档，技能本身不含凭据、不执行代码。部署 Durable Objects 需 Cloudflare 账号与 Wrangler 授权。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Agents SDK",
+  "kind": "skill",
+  "slug": "agents-sdk",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "workers",
+    "ai-agents",
+    "durable-execution",
+    "mcp"
+  ],
+  "description_en": "Builds AI agents on Cloudflare Workers with the Agents SDK — stateful agents, durable workflows, real-time WebSockets, scheduled tasks, and MCP servers. Covers the Agent class, state, callable RPC, queues, retries, and React hooks. Retrieval-first from Cloudflare docs.",
+  "description_zh": "使用 Agents SDK 在 Cloudflare Workers 上构建 AI 代理——有状态代理、持久化工作流、实时 WebSocket、定时任务与 MCP 服务器。涵盖 Agent 类、状态、callable RPC、队列、重试与 React hooks。优先从官方文档检索。",
+  "long_en": "A retrieval-first skill for the Cloudflare Agents SDK: creating the Agent class, managing state (setState/validateStateChange), callable RPC methods, durable Workflows and execution (runFiber/stash surviving Durable Object eviction), the built-in FIFO queue, retries with backoff/jitter, scheduling and cron, WebSocket lifecycle/hibernation, chat agents (AIChatAgent with streaming/tools/persistence), and React client hooks (useAgent/useAgentChat). It also covers building and securing MCP servers (McpAgent, OAuth, transports) and connecting MCP clients, plus human-in-the-loop approval flows and observability. The SKILL.md is a curated index of official docs URLs and explicitly biases toward fetching current Cloudflare docs over pre-trained knowledge.",
+  "long_zh": "面向 Cloudflare Agents SDK 的检索优先技能：创建 Agent 类、管理状态（setState/validateStateChange）、callable RPC 方法、持久化 Workflows 与执行（runFiber/stash 在 Durable Object 被回收后仍存活）、内置 FIFO 队列、带退避/抖动的重试、调度与 cron、WebSocket 生命周期/休眠、聊天代理（AIChatAgent，支持流式/工具/持久化）以及 React 客户端 hooks（useAgent/useAgentChat）。还覆盖构建与加固 MCP 服务器（McpAgent、OAuth、传输方式）、连接 MCP 客户端、human-in-the-loop 审批流与可观测性。SKILL.md 是官方文档 URL 的精选索引，并明确优先拉取当前 Cloudflare 文档而非内置知识。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/agents-sdk"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Official Cloudflare skill; documentation/guidance plus curated doc URLs, no bundled credentials or code execution in the skill. Building/deploying agents requires a Cloudflare account and Wrangler auth; deployed agents run on Workers (free/paid tiers). Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方技能；为文档/指引加精选文档 URL，技能本身不含凭据、不执行代码。构建/部署代理需 Cloudflare 账号与 Wrangler 授权；部署后的代理运行在 Workers（免费/付费档）。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

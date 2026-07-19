@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Platform",
+  "kind": "skill",
+  "slug": "cloudflare",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "workers",
+    "pages",
+    "storage",
+    "edge"
+  ],
+  "description_en": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV/D1/R2), AI (Workers AI/Vectorize/Agents), feature flags, networking (Tunnel/Spectrum), security (WAF/DDoS), and IaC (Terraform/Pulumi). Retrieval-first from Cloudflare docs.",
+  "description_zh": "全面的 Cloudflare 平台技能，覆盖 Workers、Pages、存储（KV/D1/R2）、AI（Workers AI/Vectorize/Agents）、特性开关、网络（Tunnel/Spectrum）、安全（WAF/DDoS）与 IaC（Terraform/Pulumi）。优先从官方文档检索。",
+  "long_en": "Consolidated umbrella skill for building on the Cloudflare platform. Uses decision trees to route a task to the right product, then loads detailed references (workers, pages, d1, durable-objects, workers-ai). It deliberately biases toward retrieval from current sources — Cloudflare docs, @cloudflare/workers-types, the wrangler config-schema.json, and product changelogs — over baked-in knowledge, especially for numeric limits, pricing tiers, type signatures, and configuration options. A starting-point index rather than a source of truth for any Cloudflare development task.",
+  "long_zh": "构建 Cloudflare 平台应用的总纲技能。通过决策树把任务导向正确的产品，再加载详细参考（workers、pages、d1、durable-objects、workers-ai）。它有意优先从当前来源检索——Cloudflare 官方文档、@cloudflare/workers-types、wrangler 的 config-schema.json 与产品 changelog——而非依赖内置知识，尤其在数值上限、定价档位、类型签名与配置项方面。它是任何 Cloudflare 开发任务的起点索引，而非唯一真相来源。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/cloudflare"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Official first-party Cloudflare skill; content is documentation/guidance plus curated retrieval sources, no bundled credentials or code execution in the skill itself. Building or deploying requires a Cloudflare account and Wrangler auth. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方第一方技能；内容为文档/指引加精选检索来源，技能本身不含凭据，也不执行代码。构建或部署需 Cloudflare 账号与 Wrangler 授权。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

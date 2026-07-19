@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare One Migrations",
+  "kind": "skill",
+  "slug": "cloudflare-one-migrations",
+  "category": "developer",
+  "tags": [
+    "cloudflare-one",
+    "zero-trust",
+    "sase",
+    "migration",
+    "zscaler"
+  ],
+  "description_en": "Plans migrations to Cloudflare One from Zscaler ZIA/ZPA, Palo Alto/Prisma, legacy VPN, SWG, and SASE stacks — building inventory, mapping policies, parity/gap analysis, and staged rollout. Retrieval-first from Cloudflare and source-vendor docs.",
+  "description_zh": "规划从 Zscaler ZIA/ZPA、Palo Alto/Prisma、传统 VPN、SWG 与 SASE 栈迁移到 Cloudflare One——清点资产、映射策略、对等/差距分析与分阶段上线。优先从 Cloudflare 与源厂商文档检索。",
+  "long_en": "A planning/advisory skill for migrating to Cloudflare One. It identifies the source stack (Zscaler ZIA/ZPA, Palo Alto NGFW/Prisma/GlobalProtect, legacy VPN/SWG/SD-WAN), requests structured exports and logs, builds an inventory (identities, groups, apps, connectors/tunnels, DNS/URL/firewall/DLP/TLS policies, objects/lists, locations, hit counts), and produces a mapping plan (source object → Cloudflare One target, confidence, prerequisites, unsupported/partial mappings, manual decisions). It sequences dependencies (identity/SCIM, connectors, routes/DNS, lists, TLS bypasses, Access apps/policies, Gateway, DLP/CASB, logging), stages safely with a migration prefix and disabled/audit-mode rules piloted on small groups, and accounts for every source rule with an explicit Not-Migrated reason where needed. Includes per-vendor export checklists and assessment prompts. Retrieval-first over pre-trained knowledge.",
+  "long_zh": "面向迁移到 Cloudflare One 的规划/咨询技能。它先识别源栈（Zscaler ZIA/ZPA、Palo Alto NGFW/Prisma/GlobalProtect、传统 VPN/SWG/SD-WAN），要求提供结构化导出与日志，建立资产清单（身份、组、应用、连接器/隧道，DNS/URL/防火墙/DLP/TLS 策略，对象/列表、位置、命中计数），并产出映射方案（源对象 → Cloudflare One 目标、置信度、前置条件、不支持/部分映射、需人工决策项）。它按依赖顺序推进（身份/SCIM、连接器、路由/DNS、列表、TLS 旁路、Access 应用/策略、Gateway、DLP/CASB、日志），使用迁移前缀与禁用/审计模式规则、先在小组试点，安全分阶段，并为每条源规则给出去向或显式的“未迁移”原因。包含分厂商导出清单与评估提示。优先检索而非依赖内置知识。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/cloudflare-one-migrations"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Advisory/planning skill — no code execution or bundled credentials. Handling exported policies and logs may involve sensitive network/security configuration; treat exports as confidential. Defensive Zero Trust migration, no exploit content. Retrieval-first: fetches current pages from developers.cloudflare.com and source-vendor export docs at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。咨询/规划类技能——不执行代码，不含凭据。处理导出的策略与日志可能涉及敏感的网络/安全配置；请将导出内容视为机密。属防御性零信任迁移，无漏洞利用内容。检索优先：使用时从 developers.cloudflare.com 与源厂商导出文档拉取当前页面，需出站网络。"
+}

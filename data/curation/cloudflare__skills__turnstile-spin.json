@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Turnstile Spin",
+  "kind": "skill",
+  "slug": "turnstile-spin",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "turnstile",
+    "captcha",
+    "bot-protection",
+    "forms"
+  ],
+  "description_en": "Sets up Cloudflare Turnstile end-to-end — scans the codebase, creates the widget via the Cloudflare API, embeds it on the right forms, and wires canonical server-side siteverify — to protect forms from bots. Framework snippets for vanilla HTML, Next.js, Astro, SvelteKit, and Hugo.",
+  "description_zh": "端到端配置 Cloudflare Turnstile——扫描代码库、通过 Cloudflare API 创建 widget、嵌入到正确的表单、接入规范的服务端 siteverify——用于保护表单免受机器人侵扰。内置 vanilla HTML、Next.js、Astro、SvelteKit、Hugo 框架片段。",
+  "long_en": "An orchestration 'wizard' that turns the prompt 'set up Turnstile' into a working end-to-end integration: an auth and scope probe, widget creation (preferring `wrangler turnstile widget create` on Wrangler 4.109+, falling back to a bundled curl script against api.cloudflare.com), frontend snippets at each chosen insertion point, canonical server-side siteverify in the customer's existing backend, and a real validation pass before reporting success. The agent reads the codebase, confirms before every irreversible step, and mirrors the canonical instructions at developers.cloudflare.com/turnstile/spin. This is defensive bot protection — implementing a CAPTCHA to stop spam/bot signups — not CAPTCHA bypass.",
+  "long_zh": "一个编排式“向导”，把“配置 Turnstile”的提示变成可用的端到端集成：认证与范围探测、创建 widget（在 Wrangler 4.109+ 上优先用 `wrangler turnstile widget create`，否则回退到对 api.cloudflare.com 的内置 curl 脚本）、在每个选定插入点写入前端片段、在客户现有后端接入规范的服务端 siteverify，并在报告成功前进行真实校验。代理会读取代码库、在每个不可逆步骤前确认，并对齐 developers.cloudflare.com/turnstile/spin 的权威说明。这是防御性机器人防护——通过实现 CAPTCHA 来阻止垃圾/机器人注册——而非绕过 CAPTCHA。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/turnstile-spin"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Defensive bot-protection setup (NOT CAPTCHA bypass). Runs helper scripts that curl api.cloudflare.com and `npx wrangler whoami`; creating a widget requires Cloudflare account auth (API token or wrangler login). The skill edits your codebase (frontend forms + backend siteverify) and confirms before each irreversible step — review its diffs, and keep the Turnstile secret key server-side. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。防御性机器人防护配置（并非绕过 CAPTCHA）。会运行对 api.cloudflare.com 发起 curl 与 `npx wrangler whoami` 的辅助脚本；创建 widget 需 Cloudflare 账号授权（API token 或 wrangler login）。技能会修改你的代码库（前端表单 + 后端 siteverify）并在每个不可逆步骤前确认——请审阅其改动，并将 Turnstile 私钥保留在服务端。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

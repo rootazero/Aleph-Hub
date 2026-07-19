@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Sandbox SDK",
+  "kind": "skill",
+  "slug": "sandbox-sdk",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "sandbox",
+    "code-execution",
+    "containers",
+    "workers"
+  ],
+  "description_en": "Builds sandboxed code-execution environments on Cloudflare Workers with the Sandbox SDK — running commands, file ops, a code interpreter, and preview URLs — for AI code execution, code interpreters, or CI. Retrieval-first from Cloudflare docs.",
+  "description_zh": "使用 Sandbox SDK 在 Cloudflare Workers 上构建沙箱化的代码执行环境——运行命令、文件操作、代码解释器与预览 URL——适用于 AI 代码执行、代码解释器或 CI。优先从官方文档检索。",
+  "long_en": "Guides building secure, isolated code-execution environments on Cloudflare Workers with the Sandbox SDK: lifecycle, running commands, file operations, the code interpreter, and preview URLs. Requires the @cloudflare/sandbox package and Docker for local dev, plus a wrangler.jsonc `containers` config (Sandbox class, Dockerfile image, instance_type, max_instances). Intended for securely running untrusted or AI-generated code — interpreters, CI/CD, interactive dev environments — inside isolated containers. Retrieval-first, fetching the relevant doc page or example before implementing.",
+  "long_zh": "指导使用 Sandbox SDK 在 Cloudflare Workers 上构建安全、隔离的代码执行环境：生命周期、运行命令、文件操作、代码解释器与预览 URL。需要 @cloudflare/sandbox 包与本地开发用的 Docker，以及 wrangler.jsonc 的 `containers` 配置（Sandbox 类、Dockerfile 镜像、instance_type、max_instances）。用于在隔离容器中安全运行不可信或 AI 生成的代码——解释器、CI/CD、交互式开发环境。检索优先，实现前先拉取相关文档页或示例。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/sandbox-sdk"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). The SDK is designed to execute untrusted/AI-generated code inside isolated Cloudflare containers — isolation is the point, but review Cloudflare's sandbox security model before running arbitrary code. Local dev requires Docker; deploying requires a Cloudflare account and containers run on paid tiers. The skill carries no bundled credentials. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。该 SDK 专为在隔离的 Cloudflare 容器中执行不可信/AI 生成代码而设计——隔离是其核心，但运行任意代码前请审阅 Cloudflare 的沙箱安全模型。本地开发需 Docker；部署需 Cloudflare 账号且容器运行于付费档。技能本身不含凭据。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}

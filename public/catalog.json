@@ -3,9 +3,9 @@
     "schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 243,
-    "generated_at": "2026-07-18T11:29:47.982Z",
-    "content_hash": "sha256:9c4f390f5792521964b104ca17c02ed78728b493bd463af1e540250ce68c07ba"
+    "entry_count": 254,
+    "generated_at": "2026-07-19T04:25:15.835Z",
+    "content_hash": "sha256:82d293ed3ae44820f3254080b095bf76ad827433ec3bbf7fd21780f53aecef2e"
   },
   "entries": [
     {
@@ -3365,6 +3365,281 @@
         "data"
       ],
       "via": "github:anthropics"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/agents-sdk",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Agents SDK",
+      "description": "Builds AI agents on Cloudflare Workers with the Agents SDK — stateful agents, durable workflows, real-time WebSockets, scheduled tasks, and MCP servers. Covers the Agent class, state, callable RPC, queues, retries, and React hooks. Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/agents-sdk",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "workers",
+        "ai-agents",
+        "durable-execution",
+        "mcp"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/cloudflare-email-service",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Email Service",
+      "description": "Sends and receives transactional email with Cloudflare Email Service — the Workers send_email binding, REST API, Email Routing, and Agents SDK onEmail/replyToEmail — including SPF/DKIM/DMARC and wrangler setup. Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/cloudflare-email-service",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "email",
+        "workers",
+        "transactional-email",
+        "email-routing"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/cloudflare-one-migrations",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare One Migrations",
+      "description": "Plans migrations to Cloudflare One from Zscaler ZIA/ZPA, Palo Alto/Prisma, legacy VPN, SWG, and SASE stacks — building inventory, mapping policies, parity/gap analysis, and staged rollout. Retrieval-first from Cloudflare and source-vendor docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/cloudflare-one-migrations",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare-one",
+        "zero-trust",
+        "sase",
+        "migration",
+        "zscaler"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/cloudflare-one",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare One",
+      "description": "Designs, configures, troubleshoots, and reviews Cloudflare One Zero Trust/SASE deployments across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Retrieval-first from current Cloudflare docs and API schemas.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/cloudflare-one",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare-one",
+        "zero-trust",
+        "sase",
+        "access",
+        "gateway"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/cloudflare",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Platform",
+      "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV/D1/R2), AI (Workers AI/Vectorize/Agents), feature flags, networking (Tunnel/Spectrum), security (WAF/DDoS), and IaC (Terraform/Pulumi). Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/cloudflare",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "workers",
+        "pages",
+        "storage",
+        "edge"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/durable-objects",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Durable Objects",
+      "description": "Creates and reviews Cloudflare Durable Objects for stateful coordination — RPC methods, SQLite storage, alarms, WebSockets, and sharding — with wrangler config and Vitest testing. Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/durable-objects",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "durable-objects",
+        "stateful",
+        "websockets",
+        "sqlite"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/sandbox-sdk",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Sandbox SDK",
+      "description": "Builds sandboxed code-execution environments on Cloudflare Workers with the Sandbox SDK — running commands, file ops, a code interpreter, and preview URLs — for AI code execution, code interpreters, or CI. Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/sandbox-sdk",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "sandbox",
+        "code-execution",
+        "containers",
+        "workers"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/turnstile-spin",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Turnstile Spin",
+      "description": "Sets up Cloudflare Turnstile end-to-end — scans the codebase, creates the widget via the Cloudflare API, embeds it on the right forms, and wires canonical server-side siteverify — to protect forms from bots. Framework snippets for vanilla HTML, Next.js, Astro, SvelteKit, and Hugo.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/turnstile-spin",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "turnstile",
+        "captcha",
+        "bot-protection",
+        "forms"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/web-perf",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Web Performance Audit",
+      "description": "Audits web performance via the Chrome DevTools MCP — measures Core Web Vitals (LCP/INP/CLS) and FCP/TBT/Speed Index, finds render-blocking resources, network dependency chains, layout shifts, and caching gaps, with quantified, specific fixes. Retrieval-first from current docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/web-perf",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "web-performance",
+        "core-web-vitals",
+        "lighthouse",
+        "chrome-devtools",
+        "optimization"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/workers-best-practices",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Workers Best Practices",
+      "description": "Reviews and authors Cloudflare Workers code against production best practices — streaming, floating promises, global state, secrets, bindings, observability, and wrangler.jsonc config. Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/workers-best-practices",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "workers",
+        "best-practices",
+        "code-review",
+        "wrangler"
+      ],
+      "via": "github:cloudflare"
+    },
+    {
+      "id": "aleph-hub:cloudflare/skills/wrangler",
+      "kind": "skill",
+      "category": "developer",
+      "name": "Cloudflare Wrangler CLI",
+      "description": "Guides correct Wrangler CLI usage for deploying and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands. Retrieval-first from Cloudflare docs.",
+      "repo_url": "https://github.com/cloudflare/skills",
+      "trust_tier": "verified",
+      "install_spec": {
+        "type": "git_dir",
+        "git_url": "https://github.com/cloudflare/skills",
+        "subdir": "skills/wrangler",
+        "git_ref": "main"
+      },
+      "requires_config": false,
+      "author": "cloudflare",
+      "tags": [
+        "cloudflare",
+        "wrangler",
+        "cli",
+        "workers",
+        "deployment"
+      ],
+      "via": "github:cloudflare"
     },
     {
       "id": "aleph-hub:emilkowalski/skills/animation-vocabulary",

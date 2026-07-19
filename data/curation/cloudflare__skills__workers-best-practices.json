@@ -1,0 +1,24 @@
+{
+  "full_name": "cloudflare/skills",
+  "name": "Cloudflare Workers Best Practices",
+  "kind": "skill",
+  "slug": "workers-best-practices",
+  "category": "developer",
+  "tags": [
+    "cloudflare",
+    "workers",
+    "best-practices",
+    "code-review",
+    "wrangler"
+  ],
+  "description_en": "Reviews and authors Cloudflare Workers code against production best practices — streaming, floating promises, global state, secrets, bindings, observability, and wrangler.jsonc config. Retrieval-first from Cloudflare docs.",
+  "description_zh": "依据生产环境最佳实践审查与编写 Cloudflare Workers 代码——流式处理、悬空 Promise、全局状态、密钥、绑定、可观测性与 wrangler.jsonc 配置。优先从官方文档检索。",
+  "long_en": "Fetches the canonical Workers best-practices page and the latest @cloudflare/workers-types before writing or reviewing Workers code. Bundled references include rules.md (all best-practice rules with code examples and anti-patterns) and review.md (type validation, config validation, binding access patterns, and the review process). Rules cover configuration, streaming responses, floating promises, global-state pitfalls, secret handling, binding usage, and observability. Prefers the latest published types over a stale node_modules copy and reads the wrangler config-schema.json for config fields. Retrieval-first over pre-trained knowledge.",
+  "long_zh": "在编写或审查 Workers 代码前，拉取权威的 Workers 最佳实践页面与最新的 @cloudflare/workers-types。内置参考包括 rules.md（含代码示例与反模式的全部最佳实践规则）与 review.md（类型校验、配置校验、绑定访问模式与审查流程）。规则涵盖配置、流式响应、悬空 Promise、全局状态陷阱、密钥处理、绑定用法与可观测性。优先使用最新发布的类型而非过时的 node_modules 副本，并读取 wrangler config-schema.json 获取配置字段。优先检索而非依赖内置知识。",
+  "install_spec": {
+    "type": "git_dir",
+    "subdir": "skills/workers-best-practices"
+  },
+  "sec_note_en": "Apache-2.0 (repo LICENSE). Official Cloudflare skill; guidance plus reference docs, no bundled credentials. It may run `npm pack @cloudflare/workers-types` to fetch the latest types, and it reviews/authors code in your project — review its edits. Retrieval-first: fetches current pages from developers.cloudflare.com at use time (needs outbound network).",
+  "sec_note_zh": "Apache-2.0（仓库 LICENSE）。Cloudflare 官方技能；为指引加参考文档，不含凭据。它可能运行 `npm pack @cloudflare/workers-types` 拉取最新类型，并会在你的项目中审查/编写代码——请审阅其改动。检索优先：使用时从 developers.cloudflare.com 拉取当前页面，需出站网络。"
+}
