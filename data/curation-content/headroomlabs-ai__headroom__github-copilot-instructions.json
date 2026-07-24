@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:headroomlabs-ai/headroom#github-copilot-instructions",
+  "full_name": "headroomlabs-ai/headroom",
+  "slug": "github-copilot-instructions",
+  "source_path": ".github/copilot-instructions.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Strict PR Review Instructions",
+  "tags": ["pull-request", "code-review", "copilot-instructions", "verification"],
+  "format": "markdown",
+  "body": "When performing a pull request review in this repository:\n\n1. Treat `.github/PULL_REQUEST_TEMPLATE.md` and `CONTRIBUTING.md` as required policy, not optional guidance.\n2. Flag pull requests that do not include concrete \"Real Behavior Proof\" with environment, exact commands or steps, observed result, and what was not tested.\n3. Be strict about contributor verification: missing tests, missing runtime evidence, or placeholder PR text should be called out.\n4. For user-facing, release, dependency, workflow, or security-sensitive changes, prefer blocking feedback over optional suggestions.\n5. Focus on correctness, safety, and whether the PR is actually ready for human maintainer review.\n",
+  "description_en": "A repository-level Copilot review policy that demands concrete proof-of-testing evidence in every PR and favors blocking feedback on sensitive changes.",
+  "description_zh": "一份仓库级的 Copilot 审查策略，要求每个 PR 都提供具体的「实际行为验证」证据，并对敏感改动倾向于给出阻断性反馈。",
+  "long_en": "A drop-in `.github/copilot-instructions.md` that tells an AI reviewer to enforce the repo's PR template and CONTRIBUTING policy as hard requirements, flag PRs lacking concrete 'Real Behavior Proof' (environment, exact commands, observed result, what wasn't tested), call out missing tests or placeholder text, and prefer blocking feedback over suggestions for user-facing, release, dependency, workflow, or security-sensitive changes.",
+  "long_zh": "一份可直接放入仓库的 `.github/copilot-instructions.md`：要求 AI 审查者把仓库的 PR 模板和 CONTRIBUTING 规范当作硬性要求执行，标记出缺少具体「实际行为验证」（环境、确切命令、观察到的结果、未测试的部分）的 PR，指出缺失的测试或占位文本，并对面向用户、发布、依赖、工作流或安全相关的改动优先给出阻断性反馈而非建议性反馈。",
+  "sec_note_en": "Plain text repository policy consumed by GitHub Copilot's PR review feature; it does not itself execute code or access external services.",
+  "sec_note_zh": "纯文本仓库策略，供 GitHub Copilot 的 PR 审查功能读取；提示词本身不执行代码，也不访问外部服务。"
+}

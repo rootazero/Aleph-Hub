@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:JuliusBrussee/caveman#commands-caveman-review",
+  "full_name": "JuliusBrussee/caveman",
+  "slug": "commands-caveman-review",
+  "source_path": "commands/caveman-review.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Caveman One-Line Code Review",
+  "tags": ["code-review", "slash-command", "severity", "terse"],
+  "format": "markdown",
+  "body": "---\ndescription: One-line code review comments\n---\n\nReview the current code changes. One-line per finding. Format: L<line>: <severity> <problem>. <fix>. Severity: bug, risk, nit, q. Skip praise. Skip obvious. If code look good, say 'LGTM' and stop.\n",
+  "description_en": "A slash-command prompt for terse, one-line-per-finding code review of the current changes, tagged by severity.",
+  "description_zh": "一个斜杠命令提示词，对当前改动做简洁审查，每条发现只写一行，并按严重程度打标签。",
+  "long_en": "Reviews the current code changes and reports one line per finding in the form `L<line>: <severity> <problem>. <fix>`, using severity tags bug/risk/nit/q. Skips praise and obvious remarks, and replies just 'LGTM' when there is nothing to flag.",
+  "long_zh": "审查当前的代码改动，每条发现只输出一行：`L<行号>: <严重程度> <问题>。<修复建议>`，严重程度分为 bug/risk/nit/q 四档。跳过夸奖与显而易见的评论，若代码没问题则只回复 'LGTM'。",
+  "sec_note_en": "Plain text prompt intended to run inside a coding agent with access to the current diff; it does not itself execute commands.",
+  "sec_note_zh": "纯文本提示词，设计为在可访问当前 diff 的编码 Agent 内运行；提示词本身不执行任何命令。"
+}

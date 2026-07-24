@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:DietrichGebert/ponytail#opencode-command-ponytail-debt",
+  "full_name": "DietrichGebert/ponytail",
+  "slug": "opencode-command-ponytail-debt",
+  "source_path": ".opencode/command/ponytail-debt.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Ponytail Debt — Harvest Deferral Comments into a Ledger",
+  "tags": ["tech-debt", "code-audit", "slash-command", "grep"],
+  "format": "markdown",
+  "body": "---\ndescription: \"Harvest ponytail: comments into a tracked debt ledger\"\n---\n\nHarvest every `ponytail:` comment in this repository into a debt ledger so deferrals do not rot into 'later means never'. Grep the whole tree for comment markers (grep -rnE '(#|//) ?ponytail:' ., skipping node_modules/.git/build output). One row per marker, grouped by file: <file>:<line>, <what was simplified>. ceiling: <the limit named in the comment>. upgrade: <the trigger to revisit>. Tag any marker that names no upgrade path or trigger as no-trigger, those rot silently. End with the count of markers and how many lack a trigger. If none: 'No ponytail: debt. Clean ledger.' Report only, change nothing.\n",
+  "description_en": "A slash-command prompt that greps a repository for `ponytail:` deferral comments and compiles them into a tracked debt ledger, flagging any with no stated upgrade trigger.",
+  "description_zh": "一个斜杠命令提示词，在仓库中检索 `ponytail:` 延期注释，汇总成一份可追踪的技术债台账，并标记出没有写明升级触发条件的条目。",
+  "long_en": "Instructs the model to `grep -rnE` the whole repo tree (skipping node_modules/.git/build output) for `ponytail:`-marked comments — deliberate simplifications left by the companion ponytail skill — and produce one ledger row per marker: file:line, what was simplified, its stated ceiling, and the upgrade trigger. Markers missing a trigger are tagged `no-trigger` since they risk rotting silently. Report-only: it changes nothing and ends with a count summary, or 'No ponytail: debt. Clean ledger.' if none are found.",
+  "long_zh": "指示模型在整个仓库树中执行 `grep -rnE`（跳过 node_modules/.git/构建产物），查找配套的 ponytail 技能留下的 `ponytail:` 标记注释——即刻意的简化处理——并按 file:line、简化了什么、声明的上限、升级触发条件生成一行台账记录。缺少触发条件的条目会被标记为 `no-trigger`，因为它们有悄悄腐化的风险。该命令只做报告、不做任何修改，结尾给出统计，若未找到任何标记则回复 'No ponytail: debt. Clean ledger.'",
+  "sec_note_en": "Plain text prompt intended to run inside a coding agent with shell access (it issues a `grep` command); the prompt itself only reads and reports, it does not modify files.",
+  "sec_note_zh": "纯文本提示词，设计为在具备 shell 访问权限的编码 Agent 内运行（会执行 `grep` 命令）；提示词本身只读取并汇报，不修改任何文件。"
+}

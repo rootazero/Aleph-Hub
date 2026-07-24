@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:DietrichGebert/ponytail#opencode-command-ponytail-review",
+  "full_name": "DietrichGebert/ponytail",
+  "slug": "opencode-command-ponytail-review",
+  "source_path": ".opencode/command/ponytail-review.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Ponytail Review — Over-Engineering Diff Review",
+  "tags": ["code-review", "over-engineering", "yagni", "slash-command"],
+  "format": "markdown",
+  "body": "---\ndescription: Review changes for over-engineering, what can be deleted\n---\n\nReview the current code changes for over-engineering only, not correctness. One line per finding: L<line>: <tag> <what to cut>. <replacement>. Tags: delete (dead code/speculative feature), stdlib (reinvented standard library), native (dependency doing what the platform does), yagni (abstraction with one implementation), shrink (same logic, fewer lines). End with the net lines removable. If nothing to cut: 'Lean already. Ship.'\n",
+  "description_en": "A slash-command prompt that reviews the current diff purely for over-engineering — unnecessary abstractions, reinvented stdlib, dead code — not correctness.",
+  "description_zh": "一个斜杠命令提示词，只针对当前 diff 审查「过度工程」——不必要的抽象、重造标准库、死代码——不涉及正确性审查。",
+  "long_en": "Reviews the current code changes and reports one line per finding as `L<line>: <tag> <what to cut>. <replacement>`, using tags delete/stdlib/native/yagni/shrink, then ends with the net lines removable. Explicitly out of scope: correctness bugs. If there is nothing to cut, it replies 'Lean already. Ship.'",
+  "long_zh": "审查当前代码改动，每条发现输出一行：`L<行号>: <标签> <可删内容>。<替代方案>`，标签包括 delete/stdlib/native/yagni/shrink，最后给出可精简的净行数。明确不审查正确性问题；若没有可删内容，则回复 'Lean already. Ship.'",
+  "sec_note_en": "Plain text prompt intended to run inside a coding agent with access to the current diff; it does not itself execute commands.",
+  "sec_note_zh": "纯文本提示词，设计为在可访问当前 diff 的编码 Agent 内运行；提示词本身不执行任何命令。"
+}

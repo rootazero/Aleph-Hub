@@ -1,0 +1,18 @@
+{
+  "id": "aleph-hub:JuliusBrussee/caveman#commands-caveman-commit",
+  "full_name": "JuliusBrussee/caveman",
+  "slug": "commands-caveman-commit",
+  "source_path": "commands/caveman-commit.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Caveman Commit Message Generator",
+  "tags": ["git", "commit-message", "conventional-commits", "slash-command"],
+  "format": "markdown",
+  "body": "---\ndescription: Generate terse caveman-style commit message\n---\n\nGenerate a terse commit message for the current staged changes. Conventional Commits format. Subject: ≤50 chars, imperative, lowercase after type. Body: only when 'why' isn't obvious from subject. Why over what. No period on subject.\n",
+  "description_en": "A slash-command prompt that writes a terse Conventional Commits message for the currently staged changes.",
+  "description_zh": "一个斜杠命令提示词，为当前暂存的改动生成简洁的 Conventional Commits 格式提交信息。",
+  "long_en": "Instructs the model to look at staged changes and produce a Conventional Commits subject line (≤50 chars, imperative mood, lowercase after the type, no trailing period), adding a body only when the 'why' isn't obvious from the subject alone.",
+  "long_zh": "指示模型查看已暂存的改动，生成一条 Conventional Commits 格式的标题行（不超过 50 字符、祈使语气、type 后小写、无句末句号），只有当「为什么」这样改从标题看不出来时才补充正文。",
+  "sec_note_en": "Plain text prompt intended to run inside a coding agent with access to `git diff`/staged changes; it does not itself execute commands.",
+  "sec_note_zh": "纯文本提示词，设计为在可访问 `git diff`/暂存区的编码 Agent 内运行；提示词本身不执行任何命令。"
+}
