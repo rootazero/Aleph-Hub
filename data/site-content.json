@@ -3,9 +3,9 @@
     "content_schema_version": 1,
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
-    "entry_count": 159,
-    "generated_at": "2026-07-24T09:08:20.062Z",
-    "content_hash": "sha256:c6eb448a6ba586cfc6431c11e27c23881c0db623d813f70cc44ffb10a36ca5d4"
+    "entry_count": 160,
+    "generated_at": "2026-07-25T09:09:23.624Z",
+    "content_hash": "sha256:cd9f840eb61986c087f66c7e4e086e6982966229618230e643c69ec29a31002b"
   },
   "entries": [
     {
@@ -1946,6 +1946,33 @@
       "sec_note_zh": "纯提示词/技能，描述一种编码风格模式，本身不授予任何工具权限。它会主动鼓励删代码、省略抽象，因此在安全或正确性敏感的路径上，合并前请复核其输出。",
       "sec_note_en": "Plain prompt/skill describing a coding-style mode; grants no tools itself. It actively encourages deleting code and skipping abstractions, so review its output on security- or correctness-sensitive paths before merging.",
       "cover_color": "#3A6BA6"
+    },
+    {
+      "id": "aleph-hub:DietrichGebert/ponytail#opencode-command-ponytail-audit",
+      "kind": "prompt",
+      "category": "developer",
+      "name": "Ponytail Audit (opencode slash command)",
+      "description": "An opencode slash command that scans an entire repository (not just a diff) for over-engineering — dead code, reinvented stdlib, unneeded dependencies — and returns a ranked, one-line-per-finding cut list.",
+      "author": "DietrichGebert",
+      "tags": [
+        "code-review",
+        "refactoring",
+        "yagni",
+        "opencode"
+      ],
+      "repo_url": "https://github.com/DietrichGebert/ponytail",
+      "source_path": ".opencode/command/ponytail-audit.md",
+      "trust_tier": "community",
+      "via": "github:DietrichGebert",
+      "body": "---\ndescription: Audit the whole repo for over-engineering, what can be deleted\n---\n\nAudit the entire repository for over-engineering only, not correctness. Scan the whole tree, not a diff. One line per finding, ranked biggest cut first: <tag> <what to cut>. <replacement>. [path]. Tags: delete (dead code/speculative feature), stdlib (reinvented standard library), native (dependency doing what the platform does), yagni (abstraction with one implementation), shrink (same logic, fewer lines). End with the net lines and dependencies removable. If nothing to cut: 'Lean already. Ship.'\n",
+      "format": "markdown",
+      "description_zh": "一个 opencode 斜杠命令，扫描整个代码仓库（而非某次 diff）找出过度工程化的部分——死代码、重复造标准库的轮子、不必要的依赖——并返回按可删减程度排序、每条一行的清单。",
+      "description_en": "An opencode slash command that scans an entire repository (not just a diff) for over-engineering — dead code, reinvented stdlib, unneeded dependencies — and returns a ranked, one-line-per-finding cut list.",
+      "long_zh": "作为 opencode 命令调用，它会扫描整个仓库树，只找可以删除的复杂度，明确不涉及正确性、安全或性能审查。每条发现都打上标签（delete / stdlib / native / yagni / shrink），标明替代方案与文件路径，报告结尾给出可删减的净行数与依赖数量估计——如果没有可删的就回复「Lean already. Ship.」。它只列出发现，不会自动应用任何改动。",
+      "long_en": "Invoked as an opencode command, it walks the whole repository tree looking only for complexity to remove, explicitly staying out of correctness, security, and performance review. Each finding is tagged (delete / stdlib / native / yagni / shrink), named with its replacement and file path, and the report closes with a net line-count and dependency-removal estimate — or 'Lean already. Ship.' if there is nothing to cut. It only lists findings; it does not apply any changes.",
+      "sec_note_zh": "纯提示词文本，本身未声明工具列表——它在调用它的编码代理/CLI（opencode）内运行，并继承该宿主对仓库的文件读取权限来扫描代码。它本身不修改文件，只输出发现结果。",
+      "sec_note_en": "Plain prompt text with no declared tool list of its own — it runs inside whatever coding agent/CLI (opencode) invokes it and inherits that host's file-read access to scan the repo. It does not modify files itself, only reports findings.",
+      "cover_color": "#A63A5C"
     },
     {
       "id": "aleph-hub:DietrichGebert/ponytail#opencode-command-ponytail-debt",
