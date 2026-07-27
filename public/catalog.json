@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 255,
-    "generated_at": "2026-07-19T11:48:44.968Z",
-    "content_hash": "sha256:8b4f77701c0e023667ccb83f0f8f4b3da73efb3047ea6b113ff836fcd2fc7c89"
+    "generated_at": "2026-07-27T06:50:16.697Z",
+    "content_hash": "sha256:d56ec5aff0b6f2f58623fa29fb037c31157cbd48307ef6d38b04d3f72395cc40"
   },
   "entries": [
     {
@@ -3813,7 +3813,7 @@
         "planning",
         "collaboration"
       ],
-      "via": "github:obra"
+      "via": "hermes-atlas"
     },
     {
       "id": "aleph-hub:nextlevelbuilder/ui-ux-pro-max-skill",
