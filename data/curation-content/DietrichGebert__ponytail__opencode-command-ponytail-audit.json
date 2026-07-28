@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:DietrichGebert/ponytail#opencode-command-ponytail-audit",
+  "full_name": "DietrichGebert/ponytail",
+  "slug": "opencode-command-ponytail-audit",
+  "source_path": ".opencode/command/ponytail-audit.md",
+  "kind": "prompt",
+  "category": "developer",
+  "name": "Ponytail Audit — Whole-Repo Over-Engineering Audit",
+  "tags": [
+    "code-review",
+    "over-engineering",
+    "yagni",
+    "slash-command"
+  ],
+  "format": "markdown",
+  "body": "---\ndescription: Audit the whole repo for over-engineering, what can be deleted\n---\n\nAudit the entire repository for over-engineering only, not correctness. Scan the whole tree, not a diff. One line per finding, ranked biggest cut first: <tag> <what to cut>. <replacement>. [path]. Tags: delete (dead code/speculative feature), stdlib (reinvented standard library), native (dependency doing what the platform does), yagni (abstraction with one implementation), shrink (same logic, fewer lines). End with the net lines and dependencies removable. If nothing to cut: 'Lean already. Ship.'\n",
+  "description_en": "A slash-command prompt that scans an entire repository (not just a diff) purely for over-engineering — dead code, reinvented stdlib, unnecessary abstractions — ranked by biggest cut first.",
+  "description_zh": "一个斜杠命令提示词，扫描整个仓库（而非单次 diff），只针对「过度工程」——死代码、重造标准库、不必要的抽象——按可删减程度从大到小排序输出。",
+  "long_en": "Audits the whole repository tree for over-engineering only, not correctness, and reports one ranked line per finding as `<tag> <what to cut>. <replacement>. [path]`, using tags delete/stdlib/native/yagni/shrink, then ends with the net lines and dependencies removable. If there is nothing to cut, it replies 'Lean already. Ship.' Companion to the already-catalogued ponytail-review command, which scopes the same audit to a diff instead of the whole tree.",
+  "long_zh": "对整个仓库树进行「过度工程」审计（不涉及正确性），按可删减程度从大到小逐条输出：`<标签> <可删内容>。<替代方案>。[路径]`，标签包括 delete/stdlib/native/yagni/shrink，最后给出可精简的净行数与可移除依赖。若没有可删内容，则回复 'Lean already. Ship.' 与已收录的 ponytail-review 命令是同一体系，区别在于审查范围是整仓库而非单次 diff。",
+  "sec_note_en": "Plain text prompt intended to run inside a coding agent with repository read access; it does not itself execute commands or modify files.",
+  "sec_note_zh": "纯文本提示词，设计为在具备仓库读取权限的编码 Agent 内运行；提示词本身不执行任何命令，也不修改文件。"
+}
