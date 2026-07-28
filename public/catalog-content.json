@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 160,
-    "generated_at": "2026-07-25T09:09:23.624Z",
-    "content_hash": "sha256:cd9f840eb61986c087f66c7e4e086e6982966229618230e643c69ec29a31002b"
+    "generated_at": "2026-07-28T09:11:33.334Z",
+    "content_hash": "sha256:5d8e48d25a9dde419a40db84cfda6604ab1b6c517c708e418f6cdb33cde46d6c"
   },
   "entries": [
     {
@@ -1440,14 +1440,14 @@
       "id": "aleph-hub:DietrichGebert/ponytail#opencode-command-ponytail-audit",
       "kind": "prompt",
       "category": "developer",
-      "name": "Ponytail Audit (opencode slash command)",
-      "description": "An opencode slash command that scans an entire repository (not just a diff) for over-engineering — dead code, reinvented stdlib, unneeded dependencies — and returns a ranked, one-line-per-finding cut list.",
+      "name": "Ponytail Audit — Whole-Repo Over-Engineering Audit",
+      "description": "A slash-command prompt that scans an entire repository (not just a diff) purely for over-engineering — dead code, reinvented stdlib, unnecessary abstractions — ranked by biggest cut first.",
       "author": "DietrichGebert",
       "tags": [
         "code-review",
-        "refactoring",
+        "over-engineering",
         "yagni",
-        "opencode"
+        "slash-command"
       ],
       "repo_url": "https://github.com/DietrichGebert/ponytail",
       "source_path": ".opencode/command/ponytail-audit.md",

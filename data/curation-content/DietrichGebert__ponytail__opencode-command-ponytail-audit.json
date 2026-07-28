@@ -5,14 +5,19 @@
   "source_path": ".opencode/command/ponytail-audit.md",
   "kind": "prompt",
   "category": "developer",
-  "name": "Ponytail Audit (opencode slash command)",
-  "tags": ["code-review", "refactoring", "yagni", "opencode"],
+  "name": "Ponytail Audit — Whole-Repo Over-Engineering Audit",
+  "tags": [
+    "code-review",
+    "over-engineering",
+    "yagni",
+    "slash-command"
+  ],
   "format": "markdown",
   "body": "---\ndescription: Audit the whole repo for over-engineering, what can be deleted\n---\n\nAudit the entire repository for over-engineering only, not correctness. Scan the whole tree, not a diff. One line per finding, ranked biggest cut first: <tag> <what to cut>. <replacement>. [path]. Tags: delete (dead code/speculative feature), stdlib (reinvented standard library), native (dependency doing what the platform does), yagni (abstraction with one implementation), shrink (same logic, fewer lines). End with the net lines and dependencies removable. If nothing to cut: 'Lean already. Ship.'\n",
-  "description_en": "An opencode slash command that scans an entire repository (not just a diff) for over-engineering — dead code, reinvented stdlib, unneeded dependencies — and returns a ranked, one-line-per-finding cut list.",
-  "description_zh": "一个 opencode 斜杠命令，扫描整个代码仓库（而非某次 diff）找出过度工程化的部分——死代码、重复造标准库的轮子、不必要的依赖——并返回按可删减程度排序、每条一行的清单。",
-  "long_en": "Invoked as an opencode command, it walks the whole repository tree looking only for complexity to remove, explicitly staying out of correctness, security, and performance review. Each finding is tagged (delete / stdlib / native / yagni / shrink), named with its replacement and file path, and the report closes with a net line-count and dependency-removal estimate — or 'Lean already. Ship.' if there is nothing to cut. It only lists findings; it does not apply any changes.",
-  "long_zh": "作为 opencode 命令调用，它会扫描整个仓库树，只找可以删除的复杂度，明确不涉及正确性、安全或性能审查。每条发现都打上标签（delete / stdlib / native / yagni / shrink），标明替代方案与文件路径，报告结尾给出可删减的净行数与依赖数量估计——如果没有可删的就回复「Lean already. Ship.」。它只列出发现，不会自动应用任何改动。",
-  "sec_note_en": "Plain prompt text with no declared tool list of its own — it runs inside whatever coding agent/CLI (opencode) invokes it and inherits that host's file-read access to scan the repo. It does not modify files itself, only reports findings.",
-  "sec_note_zh": "纯提示词文本，本身未声明工具列表——它在调用它的编码代理/CLI（opencode）内运行，并继承该宿主对仓库的文件读取权限来扫描代码。它本身不修改文件，只输出发现结果。"
+  "description_en": "A slash-command prompt that scans an entire repository (not just a diff) purely for over-engineering — dead code, reinvented stdlib, unnecessary abstractions — ranked by biggest cut first.",
+  "description_zh": "一个斜杠命令提示词，扫描整个仓库（而非单次 diff），只针对「过度工程」——死代码、重造标准库、不必要的抽象——按可删减程度从大到小排序输出。",
+  "long_en": "Audits the whole repository tree for over-engineering only, not correctness, and reports one ranked line per finding as `<tag> <what to cut>. <replacement>. [path]`, using tags delete/stdlib/native/yagni/shrink, then ends with the net lines and dependencies removable. If there is nothing to cut, it replies 'Lean already. Ship.' Companion to the already-catalogued ponytail-review command, which scopes the same audit to a diff instead of the whole tree.",
+  "long_zh": "对整个仓库树进行「过度工程」审计（不涉及正确性），按可删减程度从大到小逐条输出：`<标签> <可删内容>。<替代方案>。[路径]`，标签包括 delete/stdlib/native/yagni/shrink，最后给出可精简的净行数与可移除依赖。若没有可删内容，则回复 'Lean already. Ship.' 与已收录的 ponytail-review 命令是同一体系，区别在于审查范围是整仓库而非单次 diff。",
+  "sec_note_en": "Plain text prompt intended to run inside a coding agent with repository read access; it does not itself execute commands or modify files.",
+  "sec_note_zh": "纯文本提示词，设计为在具备仓库读取权限的编码 Agent 内运行；提示词本身不执行任何命令，也不修改文件。"
 }
