@@ -4,8 +4,8 @@
     "hub_id": "aleph-hub",
     "name": "Aleph Hub",
     "entry_count": 255,
-    "generated_at": "2026-07-27T06:50:16.697Z",
-    "content_hash": "sha256:d56ec5aff0b6f2f58623fa29fb037c31157cbd48307ef6d38b04d3f72395cc40"
+    "generated_at": "2026-08-06T06:13:22.911Z",
+    "content_hash": "sha256:95ca3a1fad898749c1d2e0647d965af57ca734e19094f4c585b640099eebcd88"
   },
   "entries": [
     {
@@ -5712,7 +5712,7 @@
       "name": "Privacy & Terms Generator",
       "description": "Generate privacy policies and terms of service covering Korea's PIPA, EU GDPR, and US CCPA/CPRA via an interview-driven, four-variant skill package.",
       "repo_url": "https://github.com/kimlawtech/korean-privacy-terms",
-      "trust_tier": "community",
+      "trust_tier": "verified",
       "install_spec": {
         "type": "git_dir",
         "git_url": "https://github.com/kimlawtech/korean-privacy-terms",
