@@ -1,0 +1,23 @@
+{
+  "id": "aleph-hub:wshobson/agents#plugins-accessibility-compliance-skills-wcag-audit-patterns-skill",
+  "full_name": "wshobson/agents",
+  "slug": "plugins-accessibility-compliance-skills-wcag-audit-patterns-skill",
+  "source_path": "plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md",
+  "kind": "prompt",
+  "category": "design",
+  "name": "WCAG Audit Patterns",
+  "tags": [
+    "accessibility",
+    "wcag",
+    "audit",
+    "compliance"
+  ],
+  "format": "markdown",
+  "body": "---\nname: wcag-audit-patterns\ndescription: Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.\n---\n\n# WCAG Audit Patterns\n\nComprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.\n\n## When to Use This Skill\n\n- Conducting accessibility audits\n- Fixing WCAG violations\n- Implementing accessible components\n- Preparing for accessibility lawsuits\n- Meeting ADA/Section 508 requirements\n- Achieving VPAT compliance\n\n## Core Concepts\n\n### 1. WCAG Conformance Levels\n\n| Level   | Description            | Required For      |\n| ------- | ---------------------- | ----------------- |\n| **A**   | Minimum accessibility  | Legal baseline    |\n| **AA**  | Standard conformance   | Most regulations  |\n| **AAA** | Enhanced accessibility | Specialized needs |\n\n### 2. POUR Principles\n\n```\nPerceivable:  Can users perceive the content?\nOperable:     Can users operate the interface?\nUnderstandable: Can users understand the content?\nRobust:       Does it work with assistive tech?\n```\n\n### 3. Common Violations by Impact\n\n```\nCritical (Blockers):\n├── Missing alt text for functional images\n├── No keyboard access to interactive elements\n├── Missing form labels\n└── Auto-playing media without controls\n\nSerious:\n├── Insufficient color contrast\n├── Missing skip links\n├── Inaccessible custom widgets\n└── Missing page titles\n\nModerate:\n├── Missing language attribute\n├── Unclear link text\n├── Missing landmarks\n└── Improper heading hierarchy\n```\n\n## Detailed patterns and worked examples\n\nDetailed pattern documentation lives in `references/details.md`. Read that file when the navigation tier above is insufficient.\n\n## Best Practices\n\n### Do's\n\n- **Start early** - Accessibility from design phase\n- **Test with real users** - Disabled users provide best feedback\n- **Automate what you can** - 30-50% issues detectable\n- **Use semantic HTML** - Reduces ARIA needs\n- **Document patterns** - Build accessible component library\n\n### Don'ts\n\n- **Don't rely only on automated testing** - Manual testing required\n- **Don't use ARIA as first solution** - Native HTML first\n- **Don't hide focus outlines** - Keyboard users need them\n- **Don't disable zoom** - Users need to resize\n- **Don't use color alone** - Multiple indicators needed\n",
+  "description_en": "A compact navigation tier for WCAG 2.2 audits: conformance levels, the POUR principles, and common violations ranked by impact.",
+  "description_zh": "WCAG 2.2 审计的精简导航层：合规等级、POUR 四原则，以及按影响程度排序的常见违规项。",
+  "long_en": "A short skill that frames WCAG 2.2 auditing — A/AA/AAA conformance levels and what each is required for, the Perceivable/Operable/Understandable/Robust principles, and critical, serious and moderate violations listed by impact — plus do/don't practices such as starting in the design phase and testing with real disabled users.",
+  "long_zh": "一份简短的 skill，勾勒 WCAG 2.2 审计框架：A/AA/AAA 合规等级及各自适用场景、Perceivable/Operable/Understandable/Robust 四原则，以及按影响分级的严重、重要与中等违规项，并附「从设计阶段介入」「与真实残障用户一起测试」等实践建议。",
+  "sec_note_en": "Markdown skill with Claude Code frontmatter (name/description). Deliberately a thin index — it defers worked examples to a references/details.md file in the upstream repo that is not part of this entry, and it is guidance only, not legal advice on ADA/Section 508 or VPAT obligations.",
+  "sec_note_zh": "带 Claude Code frontmatter（name/description）的 markdown skill。刻意做成薄索引——详细示例留在上游仓库的 references/details.md（不包含在本条目内）；内容仅为指引，不构成 ADA/Section 508 或 VPAT 合规的法律意见。"
+}
